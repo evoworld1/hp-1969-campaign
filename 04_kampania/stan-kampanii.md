@@ -3,8 +3,14 @@
 Żywy plik: pamięć projektu między sesjami. Reżyser czyta go na początku każdej sesji i aktualizuje na końcu.
 
 ## Bieżąca faza
-- **Faza:** 0, czyli weryfikacja szkieletu (do wykonania wg `docs/START.md`)
-- **Następny krok:** wgranie podręcznika Walkera, potem `/faza 1`
+- **Faza:** 0 zakończona (2026-11-18): szkielet projektu zweryfikowany. Jeden warunek otwarty: brak podręcznika Walkera w `00_zrodla/walker-2e-draft-2026-04/`.
+- **Następny krok:** MG wgrywa rozdziały PDF podręcznika Walkera, potem `/faza 1`.
+
+### Wynik weryfikacji Fazy 0
+- Folder `.claude/` (10 agentów, 7 komend) i `.gitignore` rozpakowane z `claude-folder.zip`; archiwum usunięte.
+- Struktura kompletna: `CLAUDE.md`, `README.md` (właściwy, nie testowy), `docs/` (z 11 szablonami), `schemas/` (13 schematów), `narzedzia/walidator.py`, foldery `00_zrodla`–`06_sesje` i `99_robocze`.
+- Walidator: 0 obiektów, 0 błędów. Opcja `--indeks` działa (generator indeksu jest wbudowany w walidator).
+- Problem: w `00_zrodla/walker-2e-draft-2026-04/` jest tylko `README.md`, brak plików PDF podręcznika. Bez nich mechanik nie może pracować w Fazie 1.
 
 ## Rejestr decyzji
 
@@ -26,7 +32,7 @@
 
 | Obszar | Stan |
 |---|---|
-| Szkielet projektu | gotowy do weryfikacji (Faza 0) |
+| Szkielet projektu | zweryfikowany (Faza 0 zakończona 2026-11-18) |
 | Podręcznik Walkera w `00_zrodla/` | brak, do wgrania przez MG |
 | Kanon 1969 | nie rozpoczęto |
 | Zasady (Walker) | nie rozpoczęto |
