@@ -57,9 +57,10 @@ Terminy mechaniczne zostają w oryginale angielskim (Walker 2e). Ten słownik ob
 | Klepsydra Daniny | Artefakt prof. Marrow przenoszący czas | nasze, z archiwum |
 | Foliał | Dziennik badawczy prof. Marrow | nasze, z archiwum |
 | Karta Pożyczającego | Wyrwana karta Foliału, którą ma Cassian | nasze, z archiwum |
-| Rejestr Danin | Kandydat na mechanikę fabularną: kto stracił czas i ile | do oceny |
-| Więź (z Anselem) | Kandydat na mechanikę fabularną: zaufanie Ansela do postaci | do oceny |
-| Zegar Północy | Kandydat na mechanikę fabularną: licznik nocnego zagrożenia | do oceny |
+| Rejestr Danin | Kandydat na mechanikę fabularną: kto stracił czas i ile | ocenione w `zasada.mechaniki-fabularne`, czeka na decyzję MG |
+| Więź (z Anselem) | Kandydat na mechanikę fabularną: zaufanie Ansela do postaci | ocenione w `zasada.mechaniki-fabularne`, czeka na decyzję MG |
+| Zegar Północy | Kandydat na mechanikę fabularną: licznik nocnego zagrożenia | ocenione w `zasada.mechaniki-fabularne`, czeka na decyzję MG |
+| Pożyczona Chwila | Robocza polska nazwa archiwalnej sztuczki „Borrow a Moment”: dorzut 1D10 po nieudanym teście (jak Story Point), opłacony czasem innej osoby i zapisany w Rejestrze Danin | propozycja, czeka na decyzję MG |
 
 ## Skróty
 
