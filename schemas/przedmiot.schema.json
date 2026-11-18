@@ -1,0 +1,94 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schemas/przedmiot.schema.json",
+  "title": "Nagłówek pliku typu 'przedmiot'",
+  "description": "Przedmiot lub artefakt. Wersja kontraktu 1.0.",
+  "type": "object",
+  "required": [
+    "id",
+    "typ",
+    "tytul",
+    "status",
+    "rodzaj",
+    "wlasciciel_start"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unikalny identyfikator",
+      "pattern": "^przedmiot\\.[a-z0-9-]+$"
+    },
+    "typ": {
+      "const": "przedmiot",
+      "description": "Typ pliku"
+    },
+    "tytul": {
+      "type": "string",
+      "description": "Nazwa wyświetlana"
+    },
+    "status": {
+      "type": "string",
+      "description": "Etap pracy",
+      "enum": [
+        "szkic",
+        "recenzja",
+        "gotowe"
+      ]
+    },
+    "tylko_mg": {
+      "type": "boolean",
+      "description": "Czy ukryte przed graczami (domyślnie true poza handoutami)"
+    },
+    "tagi": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Słowa kluczowe"
+    },
+    "zrodla": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Źródła treści"
+    },
+    "aktualizacja": {
+      "type": "string",
+      "description": "Data ostatniej zmiany",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    },
+    "rodzaj": {
+      "type": "string",
+      "description": "Np. artefakt, dokument"
+    },
+    "wlasciciel_start": {
+      "type": "string",
+      "description": "Identyfikator NPC albo 'brak'"
+    },
+    "sceny": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^s[0-9]+\\.scena\\.[0-9]{2}$"
+      },
+      "description": "Sceny"
+    }
+  },
+  "additionalProperties": true,
+  "x-sekcje": [
+    "Opis",
+    "Działanie",
+    "Mechanika",
+    "Dla MG"
+  ],
+  "x-referencje": {
+    "wlasciciel_start": [
+      "npc",
+      "brak"
+    ],
+    "sceny": [
+      "scena"
+    ]
+  }
+}

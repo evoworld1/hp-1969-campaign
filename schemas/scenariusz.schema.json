@@ -1,0 +1,98 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schemas/scenariusz.schema.json",
+  "title": "Nagłówek pliku typu 'scenariusz'",
+  "description": "Przegląd jednego scenariusza kampanii. Wersja kontraktu 1.0.",
+  "type": "object",
+  "required": [
+    "id",
+    "typ",
+    "tytul",
+    "status",
+    "numer",
+    "sceny"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unikalny identyfikator",
+      "pattern": "^s[0-9]+$"
+    },
+    "typ": {
+      "const": "scenariusz",
+      "description": "Typ pliku"
+    },
+    "tytul": {
+      "type": "string",
+      "description": "Nazwa wyświetlana"
+    },
+    "status": {
+      "type": "string",
+      "description": "Etap pracy",
+      "enum": [
+        "szkic",
+        "recenzja",
+        "gotowe"
+      ]
+    },
+    "tylko_mg": {
+      "type": "boolean",
+      "description": "Czy ukryte przed graczami (domyślnie true poza handoutami)"
+    },
+    "tagi": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Słowa kluczowe"
+    },
+    "zrodla": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Źródła treści"
+    },
+    "aktualizacja": {
+      "type": "string",
+      "description": "Data ostatniej zmiany",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    },
+    "numer": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Numer scenariusza"
+    },
+    "sceny": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^s[0-9]+\\.scena\\.[0-9]{2}$"
+      },
+      "description": "Sceny w kolejności bazowej"
+    },
+    "czas_min": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Szacowany czas gry w minutach"
+    },
+    "gracze": {
+      "type": "string",
+      "description": "Liczba graczy, np. 3-4"
+    }
+  },
+  "additionalProperties": true,
+  "x-sekcje": [
+    "Zarys",
+    "Co sesja musi zapewnić",
+    "Prawda dla MG",
+    "Stałe i elastyczne",
+    "Przebieg w skrócie",
+    "Rozwidlenie końcowe"
+  ],
+  "x-referencje": {
+    "sceny": [
+      "scena"
+    ]
+  }
+}

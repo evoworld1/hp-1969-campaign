@@ -1,0 +1,113 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schemas/tracker.schema.json",
+  "title": "Nagłówek pliku typu 'tracker'",
+  "description": "Licznik lub rejestr prowadzony w trakcie gry. Wersja kontraktu 1.0.",
+  "type": "object",
+  "required": [
+    "id",
+    "typ",
+    "tytul",
+    "status",
+    "rodzaj",
+    "zasieg"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unikalny identyfikator",
+      "pattern": "^tracker\\.[a-z0-9-]+$"
+    },
+    "typ": {
+      "const": "tracker",
+      "description": "Typ pliku"
+    },
+    "tytul": {
+      "type": "string",
+      "description": "Nazwa wyświetlana"
+    },
+    "status": {
+      "type": "string",
+      "description": "Etap pracy",
+      "enum": [
+        "szkic",
+        "recenzja",
+        "gotowe"
+      ]
+    },
+    "tylko_mg": {
+      "type": "boolean",
+      "description": "Czy ukryte przed graczami (domyślnie true poza handoutami)"
+    },
+    "tagi": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Słowa kluczowe"
+    },
+    "zrodla": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Źródła treści"
+    },
+    "aktualizacja": {
+      "type": "string",
+      "description": "Data ostatniej zmiany",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    },
+    "rodzaj": {
+      "type": "string",
+      "description": "Rodzaj",
+      "enum": [
+        "licznik",
+        "rejestr",
+        "wiez"
+      ]
+    },
+    "zakres": {
+      "type": "string",
+      "description": "Np. '0-6'"
+    },
+    "zasieg": {
+      "type": "string",
+      "description": "Zasięg",
+      "enum": [
+        "scena",
+        "sesja",
+        "kampania"
+      ]
+    },
+    "progi": {
+      "type": "array",
+      "description": "Progi i skutki",
+      "items": {
+        "type": "object",
+        "required": [
+          "wartosc",
+          "efekt"
+        ],
+        "properties": {
+          "wartosc": {
+            "type": [
+              "integer",
+              "string"
+            ]
+          },
+          "efekt": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "additionalProperties": true,
+  "x-sekcje": [
+    "Do czego służy",
+    "Kiedy zmieniać",
+    "Progi i skutki"
+  ],
+  "x-referencje": {}
+}

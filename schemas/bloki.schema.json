@@ -1,0 +1,241 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schemas/bloki.schema.json",
+  "title": "Bloki danych w treści plików",
+  "description": "Ogrodzone bloki ```yaml, których pierwszy klucz to rodzaj bloku. Wersja kontraktu 1.0.",
+  "x-referencje": {
+    "test": {
+      "flagi_ustaw": [
+        "flaga"
+      ]
+    },
+    "rozgalezienie": {
+      "wymaga_flag": [
+        "flaga"
+      ],
+      "wyklucza_flagi": [
+        "flaga"
+      ],
+      "flagi_ustaw": [
+        "flaga"
+      ],
+      "prowadzi_do": [
+        "scena",
+        "brak"
+      ]
+    },
+    "dialog": {
+      "npc": [
+        "npc"
+      ],
+      "wariant_od": [
+        "flaga"
+      ]
+    },
+    "podpowiedzi": {},
+    "statystyki": {}
+  },
+  "$defs": {
+    "test": {
+      "type": "object",
+      "required": [
+        "id",
+        "opis",
+        "kto",
+        "rzut",
+        "trudnosc",
+        "wyniki"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(\\.[a-z0-9-]+)*$"
+        },
+        "opis": {
+          "type": "string"
+        },
+        "kto": {
+          "enum": [
+            "kazdy",
+            "jeden",
+            "grupa",
+            "npc"
+          ]
+        },
+        "rzut": {
+          "type": "string"
+        },
+        "trudnosc": {
+          "type": [
+            "string",
+            "integer"
+          ]
+        },
+        "modyfikatory": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "warunek",
+              "wartosc"
+            ]
+          }
+        },
+        "wyniki": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "wynik",
+              "efekt"
+            ],
+            "properties": {
+              "wynik": {
+                "type": "string"
+              },
+              "efekt": {
+                "type": "string"
+              },
+              "flagi_ustaw": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "rozgalezienie": {
+      "type": "object",
+      "required": [
+        "id",
+        "rodzaj",
+        "warunek",
+        "efekt",
+        "prowadzi_do"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(\\.[a-z0-9-]+)*$"
+        },
+        "rodzaj": {
+          "enum": [
+            "glowne",
+            "poboczne",
+            "awaryjne"
+          ]
+        },
+        "warunek": {
+          "type": "string"
+        },
+        "wymaga_flag": {
+          "type": "array"
+        },
+        "wyklucza_flagi": {
+          "type": "array"
+        },
+        "efekt": {
+          "type": "string"
+        },
+        "flagi_ustaw": {
+          "type": "array"
+        },
+        "prowadzi_do": {
+          "type": "string"
+        }
+      }
+    },
+    "dialog": {
+      "type": "object",
+      "required": [
+        "id",
+        "npc",
+        "wyzwalacz",
+        "kwestie"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(\\.[a-z0-9-]+)*$"
+        },
+        "npc": {
+          "type": "string"
+        },
+        "wyzwalacz": {
+          "type": "string"
+        },
+        "ton": {
+          "type": "string"
+        },
+        "kwestie": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "wariant_od": {
+          "type": "array"
+        }
+      }
+    },
+    "podpowiedzi": {
+      "type": "object",
+      "required": [
+        "id",
+        "szturchniecie",
+        "wieksza",
+        "bezposrednia"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(\\.[a-z0-9-]+)*$"
+        },
+        "szturchniecie": {
+          "type": "string"
+        },
+        "wieksza": {
+          "type": "string"
+        },
+        "bezposrednia": {
+          "type": "string"
+        }
+      }
+    },
+    "statystyki": {
+      "type": "object",
+      "required": [
+        "id",
+        "system",
+        "wartosci"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(\\.[a-z0-9-]+)*$"
+        },
+        "system": {
+          "type": "string"
+        },
+        "wartosci": {
+          "type": "object"
+        },
+        "zdolnosci_specjalne": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "nazwa",
+              "opis"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

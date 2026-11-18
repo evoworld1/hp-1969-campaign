@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schemas/kanon.schema.json",
+  "title": "Nagłówek pliku typu 'kanon'",
+  "description": "Fakt o świecie (1969). Wersja kontraktu 1.0.",
+  "type": "object",
+  "required": [
+    "id",
+    "typ",
+    "tytul",
+    "status",
+    "kategoria",
+    "pewnosc"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unikalny identyfikator",
+      "pattern": "^kanon\\.[a-z0-9-]+$"
+    },
+    "typ": {
+      "const": "kanon",
+      "description": "Typ pliku"
+    },
+    "tytul": {
+      "type": "string",
+      "description": "Nazwa wyświetlana"
+    },
+    "status": {
+      "type": "string",
+      "description": "Etap pracy",
+      "enum": [
+        "szkic",
+        "recenzja",
+        "gotowe"
+      ]
+    },
+    "tylko_mg": {
+      "type": "boolean",
+      "description": "Czy ukryte przed graczami (domyślnie true poza handoutami)"
+    },
+    "tagi": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Słowa kluczowe"
+    },
+    "zrodla": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Źródła treści"
+    },
+    "aktualizacja": {
+      "type": "string",
+      "description": "Data ostatniej zmiany",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    },
+    "kategoria": {
+      "type": "string",
+      "description": "Kategoria",
+      "enum": [
+        "osoby",
+        "miejsca",
+        "polityka",
+        "magia",
+        "chronologia"
+      ]
+    },
+    "pewnosc": {
+      "type": "string",
+      "description": "Poziom pewności",
+      "enum": [
+        "kanon",
+        "niepewne",
+        "nasze"
+      ]
+    }
+  },
+  "additionalProperties": true,
+  "x-sekcje": [
+    "Treść",
+    "Źródła",
+    "Do weryfikacji"
+  ],
+  "x-referencje": {}
+}

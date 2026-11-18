@@ -1,0 +1,96 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schemas/dziennik-sesji.schema.json",
+  "title": "Nagłówek pliku typu 'dziennik-sesji'",
+  "description": "Zapis rozegranej sesji. Wersja kontraktu 1.0.",
+  "type": "object",
+  "required": [
+    "id",
+    "typ",
+    "tytul",
+    "status",
+    "sesja",
+    "data_gry",
+    "gracze"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unikalny identyfikator",
+      "pattern": "^dziennik\\.s[0-9]+\\.[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    },
+    "typ": {
+      "const": "dziennik-sesji",
+      "description": "Typ pliku"
+    },
+    "tytul": {
+      "type": "string",
+      "description": "Nazwa wyświetlana"
+    },
+    "status": {
+      "type": "string",
+      "description": "Etap pracy",
+      "enum": [
+        "szkic",
+        "recenzja",
+        "gotowe"
+      ]
+    },
+    "tylko_mg": {
+      "type": "boolean",
+      "description": "Czy ukryte przed graczami (domyślnie true poza handoutami)"
+    },
+    "tagi": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Słowa kluczowe"
+    },
+    "zrodla": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Źródła treści"
+    },
+    "aktualizacja": {
+      "type": "string",
+      "description": "Data ostatniej zmiany",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    },
+    "sesja": {
+      "type": "string",
+      "description": "Identyfikator scenariusza",
+      "pattern": "^s[0-9]+$"
+    },
+    "data_gry": {
+      "type": "string",
+      "description": "RRRR-MM-DD",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    },
+    "gracze": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Gracze / postacie"
+    },
+    "sciezka": {
+      "type": "string",
+      "description": "Wybrane rozwidlenie"
+    }
+  },
+  "additionalProperties": true,
+  "x-sekcje": [
+    "Przebieg",
+    "Decyzje graczy",
+    "Zmiany w stanie kampanii",
+    "Notatki MG"
+  ],
+  "x-referencje": {
+    "sesja": [
+      "scenariusz"
+    ]
+  }
+}

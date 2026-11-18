@@ -1,0 +1,12 @@
+# Rejestr flag stanu kampanii, opis w docs/KONTRAKT-DANYCH.md, rozdział 6.
+# Każda flaga użyta w scenach (flagi_wejscie, flagi_wyjscie, wymaga_flag, flagi_ustaw…) musi być tu zdefiniowana.
+# Flagi dopisuje architekt-fabuly. Wartości w trakcie gry zapisuje kronikarz w stan-kampanii.md.
+#
+# Wzór:
+#   - id: flaga.cassian-zdemaskowany
+#     opis: "Gracze wiedzą, że Cassian kradnie czas."
+#     typ: bool          # bool | liczba | wybor
+#     wartosci: []       # tylko dla typu „wybor”
+#     sesja: s1
+
+flagi: []

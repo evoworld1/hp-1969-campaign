@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schemas/flagi.schema.json",
+  "title": "Rejestr flag (04_kampania/flagi.yaml)",
+  "type": "object",
+  "required": [
+    "flagi"
+  ],
+  "properties": {
+    "flagi": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "opis",
+          "typ",
+          "sesja"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^flaga\\.[a-z0-9-]+$"
+          },
+          "opis": {
+            "type": "string"
+          },
+          "typ": {
+            "enum": [
+              "bool",
+              "liczba",
+              "wybor"
+            ]
+          },
+          "wartosci": {
+            "type": "array"
+          },
+          "sesja": {
+            "type": "string",
+            "pattern": "^s[0-9]+$"
+          }
+        }
+      }
+    }
+  }
+}

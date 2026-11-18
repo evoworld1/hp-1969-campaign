@@ -1,0 +1,187 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schemas/scena.schema.json",
+  "title": "Nagłówek pliku typu 'scena'",
+  "description": "Jedna scena scenariusza. Wersja kontraktu 1.0.",
+  "type": "object",
+  "required": [
+    "id",
+    "typ",
+    "tytul",
+    "status",
+    "sesja",
+    "akt",
+    "kolejnosc",
+    "czas_min",
+    "cel",
+    "npc",
+    "miejsca",
+    "flagi_wejscie",
+    "flagi_wyjscie",
+    "nastepne"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unikalny identyfikator",
+      "pattern": "^s[0-9]+\\.scena\\.[0-9]{2}$"
+    },
+    "typ": {
+      "const": "scena",
+      "description": "Typ pliku"
+    },
+    "tytul": {
+      "type": "string",
+      "description": "Nazwa wyświetlana"
+    },
+    "status": {
+      "type": "string",
+      "description": "Etap pracy",
+      "enum": [
+        "szkic",
+        "recenzja",
+        "gotowe"
+      ]
+    },
+    "tylko_mg": {
+      "type": "boolean",
+      "description": "Czy ukryte przed graczami (domyślnie true poza handoutami)"
+    },
+    "tagi": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Słowa kluczowe"
+    },
+    "zrodla": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Źródła treści"
+    },
+    "aktualizacja": {
+      "type": "string",
+      "description": "Data ostatniej zmiany",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    },
+    "sesja": {
+      "type": "string",
+      "description": "Identyfikator scenariusza",
+      "pattern": "^s[0-9]+$"
+    },
+    "akt": {
+      "type": "string",
+      "description": "Akt, np. I, II"
+    },
+    "kolejnosc": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Pozycja w kolejności bazowej"
+    },
+    "czas_min": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Czas realny w minutach"
+    },
+    "cel": {
+      "type": "string",
+      "description": "Po co ta scena istnieje (1-2 zdania)"
+    },
+    "npc": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^npc\\.[a-z0-9-]+$"
+      },
+      "description": "NPC obecni w scenie"
+    },
+    "miejsca": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^miejsce\\.[a-z0-9-]+$"
+      },
+      "description": "Miejsca"
+    },
+    "przedmioty": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^przedmiot\\.[a-z0-9-]+$"
+      },
+      "description": "Przedmioty"
+    },
+    "handouty": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^s[0-9]+\\.handout\\.[a-z0-9-]+$"
+      },
+      "description": "Handouty"
+    },
+    "flagi_wejscie": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^flaga\\.[a-z0-9-]+$"
+      },
+      "description": "Flagi istotne przy wejściu"
+    },
+    "flagi_wyjscie": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^flaga\\.[a-z0-9-]+$"
+      },
+      "description": "Flagi, które scena może ustawić"
+    },
+    "nastepne": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^s[0-9]+\\.scena\\.[0-9]{2}$"
+      },
+      "description": "Możliwe kolejne sceny"
+    }
+  },
+  "additionalProperties": true,
+  "x-sekcje": [
+    "Do odczytania",
+    "Dla MG",
+    "Obecni",
+    "Dialogi",
+    "Testy",
+    "Rozgałęzienia",
+    "Gdy gracze zboczą",
+    "Drabinka podpowiedzi",
+    "Konsekwencje"
+  ],
+  "x-referencje": {
+    "sesja": [
+      "scenariusz"
+    ],
+    "npc": [
+      "npc"
+    ],
+    "miejsca": [
+      "miejsce"
+    ],
+    "przedmioty": [
+      "przedmiot"
+    ],
+    "handouty": [
+      "handout"
+    ],
+    "flagi_wejscie": [
+      "flaga"
+    ],
+    "flagi_wyjscie": [
+      "flaga"
+    ],
+    "nastepne": [
+      "scena"
+    ]
+  }
+}

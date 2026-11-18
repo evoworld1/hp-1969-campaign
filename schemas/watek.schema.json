@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schemas/watek.schema.json",
+  "title": "Nagłówek pliku typu 'watek'",
+  "description": "Wątek fabularny. Wersja kontraktu 1.0.",
+  "type": "object",
+  "required": [
+    "id",
+    "typ",
+    "tytul",
+    "status",
+    "stan"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unikalny identyfikator",
+      "pattern": "^watek\\.[a-z0-9-]+$"
+    },
+    "typ": {
+      "const": "watek",
+      "description": "Typ pliku"
+    },
+    "tytul": {
+      "type": "string",
+      "description": "Nazwa wyświetlana"
+    },
+    "status": {
+      "type": "string",
+      "description": "Etap pracy",
+      "enum": [
+        "szkic",
+        "recenzja",
+        "gotowe"
+      ]
+    },
+    "tylko_mg": {
+      "type": "boolean",
+      "description": "Czy ukryte przed graczami (domyślnie true poza handoutami)"
+    },
+    "tagi": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Słowa kluczowe"
+    },
+    "zrodla": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Źródła treści"
+    },
+    "aktualizacja": {
+      "type": "string",
+      "description": "Data ostatniej zmiany",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    },
+    "stan": {
+      "type": "string",
+      "description": "Stan",
+      "enum": [
+        "uspiony",
+        "aktywny",
+        "zamkniety"
+      ]
+    },
+    "sesje": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^s[0-9]+$"
+      },
+      "description": "Scenariusze"
+    }
+  },
+  "additionalProperties": true,
+  "x-sekcje": [
+    "Prawda",
+    "Co wiedzą gracze",
+    "Jak może się rozwinąć"
+  ],
+  "x-referencje": {
+    "sesje": [
+      "scenariusz"
+    ]
+  }
+}

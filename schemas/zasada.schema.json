@@ -1,0 +1,108 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schemas/zasada.schema.json",
+  "title": "Nagłówek pliku typu 'zasada'",
+  "description": "Zasada mechaniczna (Walker lub domowa). Wersja kontraktu 1.0.",
+  "type": "object",
+  "required": [
+    "id",
+    "typ",
+    "tytul",
+    "status",
+    "kategoria",
+    "pochodzenie"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unikalny identyfikator",
+      "pattern": "^zasada\\.[a-z0-9-]+$"
+    },
+    "typ": {
+      "const": "zasada",
+      "description": "Typ pliku"
+    },
+    "tytul": {
+      "type": "string",
+      "description": "Nazwa wyświetlana"
+    },
+    "status": {
+      "type": "string",
+      "description": "Etap pracy",
+      "enum": [
+        "szkic",
+        "recenzja",
+        "gotowe"
+      ]
+    },
+    "tylko_mg": {
+      "type": "boolean",
+      "description": "Czy ukryte przed graczami (domyślnie true poza handoutami)"
+    },
+    "tagi": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Słowa kluczowe"
+    },
+    "zrodla": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Źródła treści"
+    },
+    "aktualizacja": {
+      "type": "string",
+      "description": "Data ostatniej zmiany",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    },
+    "kategoria": {
+      "type": "string",
+      "description": "Kategoria",
+      "enum": [
+        "rdzen",
+        "magia",
+        "pojedynki",
+        "rozwoj",
+        "fabularna"
+      ]
+    },
+    "pochodzenie": {
+      "type": "string",
+      "description": "Skąd zasada",
+      "enum": [
+        "walker",
+        "domowa"
+      ]
+    },
+    "strony": {
+      "type": "string",
+      "description": "Strony podręcznika, np. 'Walker 2e s. 30-32'"
+    }
+  },
+  "additionalProperties": true,
+  "x-sekcje": [
+    "Streszczenie",
+    "Jak używać przy stole",
+    "Przykład",
+    "Uwagi"
+  ],
+  "x-referencje": {},
+  "if": {
+    "properties": {
+      "pochodzenie": {
+        "const": "walker"
+      }
+    },
+    "required": [
+      "pochodzenie"
+    ]
+  },
+  "then": {
+    "required": [
+      "strony"
+    ]
+  }
+}

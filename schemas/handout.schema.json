@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schemas/handout.schema.json",
+  "title": "Nagłówek pliku typu 'handout'",
+  "description": "Materiał pokazywany graczom. Wersja kontraktu 1.0.",
+  "type": "object",
+  "required": [
+    "id",
+    "typ",
+    "tytul",
+    "status",
+    "sesja",
+    "pokaz_w",
+    "tylko_mg"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unikalny identyfikator",
+      "pattern": "^s[0-9]+\\.handout\\.[a-z0-9-]+$"
+    },
+    "typ": {
+      "const": "handout",
+      "description": "Typ pliku"
+    },
+    "tytul": {
+      "type": "string",
+      "description": "Nazwa wyświetlana"
+    },
+    "status": {
+      "type": "string",
+      "description": "Etap pracy",
+      "enum": [
+        "szkic",
+        "recenzja",
+        "gotowe"
+      ]
+    },
+    "tylko_mg": {
+      "const": false,
+      "description": "Czy ukryte przed graczami (domyślnie true poza handoutami)"
+    },
+    "tagi": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Słowa kluczowe"
+    },
+    "zrodla": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Źródła treści"
+    },
+    "aktualizacja": {
+      "type": "string",
+      "description": "Data ostatniej zmiany",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    },
+    "sesja": {
+      "type": "string",
+      "description": "Identyfikator scenariusza",
+      "pattern": "^s[0-9]+$"
+    },
+    "pokaz_w": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^s[0-9]+\\.scena\\.[0-9]{2}$"
+      },
+      "description": "Sceny, w których pokazać"
+    }
+  },
+  "additionalProperties": true,
+  "x-sekcje": [
+    "Treść",
+    "Uwagi dla MG"
+  ],
+  "x-referencje": {
+    "sesja": [
+      "scenariusz"
+    ],
+    "pokaz_w": [
+      "scena"
+    ]
+  }
+}
