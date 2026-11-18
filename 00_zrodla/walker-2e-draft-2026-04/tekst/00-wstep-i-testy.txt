@@ -1,0 +1,617 @@
+
+[s. 1]
+1
+1
+Introduction
+Harry Potter was a 
+wizard – a wizard fresh 
+from his first year at 
+Hogwarts School of Witchcraft 
+and Wizardry. And if the 
+Dursleys were unhappy to 
+have him back for the 
+holidays, it was nothing to 
+how Harry felt. 
+He missed Hogwarts so much 
+it was like having a constant 
+stomachache. He missed the 
+castle, with its secret 
+passageways and ghosts, his 
+classes (though perhaps not 
+Snape, the Potions master), 
+the mail arriving by owl, eating 
+banquets in the Great Hall, 
+sleeping in his four-poster bed 
+in the tower dormitory, visiting 
+the gamekeeper, Hagrid, in his 
+cabin next to the Forbidden 
+Forest in the grounds, and, 
+especially, Quidditch, the most 
+popular sport in the wizarding 
+world (six tall goal posts, four 
+flying balls, and fourteen 
+players on broomsticks). 
+All Harry's spellbooks, his 
+wand, robes, cauldron, and 
+top–of–the–line Nimbus Two 
+Thousand broomstick had 
+been locked in a cupboard 
+under the stairs by Uncle 
+Vernon the instant Harry had 
+come home. What did the 
+Dursleys care if Harry lost his 
+place on the House Quidditch 
+team because he hadn't 
+practiced all summer? What 
+was it to the Dursleys if Harry 
+went back to school without 
+any of his homework done? 
+The Dursleys were what 
+wizards called Muggles (not a 
+drop of magical blood in their 
+veins), and as far as they were 
+concerned, having a wizard in 
+the family was a matter of 
+deepest shame. Uncle Vernon 
+had even padlocked Harry's 
+owl, Hedwig, inside her cage, 
+to stop her from carrying 
+messages to anyone in the 
+wizarding world. 
+Harry Potter and the 
+Chamber of Secrets.
+This is the second edition 
+of the (completely 
+unofficial) Harry Potter 
+Roleplaying Game. I owe a 
+debt of gratitude to the Harry 
+Potter Wiki, the official 
+Pottermore website (as was), 
+all those game creators that 
+have come before me, and the 
+many players who have 
+contacted me with feedback. 
+I’d like to particularly thank 
+Constantin Carpenter, the 
+Russian translator of the game, 
+who’s additions have 
+prompted me to fill some of 
+the glaring omissions in the 
+first edition of the HPRPG so 
+that it continues to be the 
+most complete Harry Potter 
+roleplaying game. 
+Additions to the second 
+edition include expanded 
+character creation with part–
+breeds and rare traits, two new 
+skills (Swimming and 
+Persuasion), more detail on 
+wand creation including the 
+properties of different wand 
+cores and how they interact 
+with particular wand woods, 
+rules for resisting magic and 
+summoning your Patronus, 
+new rules for enchanted 
+objects and how to craft them, 
+useful information about 
+Herbology and Magizoology, 
+stats for more magical 
+creatures, animal companions 
+like Hedwig and Scabbers, 
+and some of the disreputable 
+denizens of Knockturn Alley, 
+and probably the most 
+requested (and egregious) 
+missing element, the rules 
+for Quidditch. 
+If that wasn’t enough, there is 
+also new material about the 
+Wizarding British Isles with 
+detailed maps and information 
+about Diagon Alley (including 
+a price list), Knockturn Alley, 
+Hogsmeade and, of course, 
+Hogwarts School of Witchcraft 
+and Wizardry. 
+Neil Walker 
+cyber-neil@hotmail.co.uk
+[s. 2]
+2
+Success & Failure
+2
+How to Play
+What is a 
+Roleplaying Game? 
+J
+.K.Rowling’s wizarding 
+world is an eccentric 
+multi–layered realm of 
+believable characters with 
+unbelievable abilities. 
+The ideal environment 
+for a roleplaying game. 
+Roleplaying games (RPGs) 
+are a collaborative form of 
+storytelling in which players 
+assume the roles of characters 
+in a fictional world. This game 
+is set in the wizarding world of 
+Harry Potter, so you might play 
+students at Hogwarts, witches 
+and wizards battling dark 
+magic, or workaday wizards 
+climbing the ladder in their 
+magical careers. You will solve 
+mysteries, witness wonders, 
+and face terrible dangers with 
+only your wits, courage, and 
+magical training to keep 
+you safe. 
+A roleplaying game has rules 
+like any other game, but they 
+are designed to be as flexible 
+as possible. Instead of telling 
+you how to play, they provide a 
+relatively straightforward 
+framework for simulating the 
+mechanics of the world, 
+defining your character’s 
+abilities and resolving 
+dramatic situations. 
+What you’ll need 
+to start play... 
+Keeping track of your 
+character and their 
+travels is vital, so pens 
+and paper are essential. 
+As well as jotting down notes 
+and drawing maps, you’ll also 
+need a record of your 
+character’s abilities and 
+current condition. These rules 
+include a character sheet and 
+spell sheet designed to help 
+you create and track your 
+character. You’ll also need: 
+A Narrator 
+The Narrator devises the story 
+and describes the situations 
+that the players encounter, as 
+well as portraying all the 
+colourful characters they meet 
+on their way. The Narrator’s 
+job is to keep the story flowing 
+while keeping it flexible 
+enough to accommodate the 
+players’ inventiveness. 
+The Narrator will need a good 
+grasp of the rules as part of 
+their job is to interpret them 
+in a way that is fair to the 
+players and doesn’t get in the 
+way of the drama. They will 
+also need a reasonable 
+understanding of the Harry 
+Potter universe. 
+Players 
+Ideally two or more people 
+who will play the heroes of the 
+Narrator’s story. Players don’t 
+necessarily need an in–depth 
+knowledge of the wizarding 
+world. After all, Harry Potter 
+himself entered it knowing 
+nothing about its lore or 
+workings. 
+How dice are used 
+In this game... 
+Rolling dice is the 
+primary mechanic for 
+resolving actions and 
+ensuring an element of 
+uncertainty and risk in the 
+players’ adventures. 
+The Harry Potter RPG is 
+played using ten–sided dice 
+(abbreviated to D10 or D). 
+These can be used in several 
+ways. One way is to roll one or 
+more dice and add any 
+bonuses that might apply. 
+For example, if you were asked 
+to roll 3D10+2 you would roll 
+three ten–sided dice and add 
+two to the total rolled, or if 
+asked to roll 2D+5 you would 
+roll two ten–sided dice and 
+add five to the result. 
+You can also generate a 
+number between 1 and 5 (1D5) 
+by halving the roll of a single 
+ten–sided die or between one 
+and one–hundred (1D100) by 
+rolling two dice and 
+designating one as the tens 
+and one as the ones or units. 
+For example, rolling a three 
+on the tens dice and a five on 
+the ones dice gives you 35, 
+while rolling a ten on both 
+gives you a result of 100. 
+[s. 3]
+3
+3
+Success & Failure
+Standard Test 
+During the game you’ll come 
+up against challenges that will 
+test your abilities. and there 
+are a number of mechanics to 
+decide success or failure. 
+Your characters abilities are 
+defined by their Attributes 
+(see page 12) and their Skills 
+(pages 13). 
+When you roll to attempt a 
+task the standard mechanic is 
+to roll a ten–sided die (1D) 
+and add a relevant Attribute 
+and Skill. 
+There are some examples of 
+Attribute/Skill pairings below. 
+To succeed you will need to 
+roll equal to or higher than a 
+difficulty level chosen by the 
+Narrator. 
+The Narrator can also ask you 
+to roll 1D plus two Attributes 
+or 1D plus two skills if they 
+think that better reflects the 
+situation. 
+Difficulty Level 
+To succeed you need to roll 
+equal to or higher than the 
+difficulty levels chosen by the 
+Narrator: 
+Targets range from elementary 
+tasks that you should normally 
+be able to do without any 
+difficulty (3+) to almost 
+impossible tasks that only the 
+most powerful witch or wizard 
+will be able to achieve without 
+help (25+). 
+Levels of Success 
+Sometimes it’s useful to know 
+the level of success or failure. 
+The table below allows you to 
+compare the roll with the level 
+of difficulty. The Narrator is 
+free to interpret what x2 and 
+x3 results mean in tangible 
+and dramatic terms. Some 
+rules use specifically designed 
+tables. For example, see the 
+table for resisting damage on 
+page 35 and the table for spell 
+effects on page 41. 
+Vitality Speed Wits Knowledge Focus
+Climbing and 
+Jumping (+Balance)
+Dodging a Bludger
+(+Balance)
+Avoiding Filch 
+(+Stealth)
+Recognise a symbol 
+(+Ancient Runes)
+Casting a jinx 
+(+D.A.D.A.)
+Wielding a sword 
+(+Skirmishing)
+Outpacing a Merman 
+(+Swimming)
+Spotting a clue 
+(+Observation)
+Play a flute
+(+Music)
+Conjuring out of thin 
+air (+Transfiguration)
+Riding a Thestral
+(+Riding)
+Catching the Snitch 
+(+Broomstick Flying)
+Playing Wizard 
+Chess (+Strategy)
+Remember an odd 
+fact (+Trivia)
+Predicting the future 
+(+Divination)
+Difficulty Target
+Elementary 3
+Straightforward 6
+Tricky 12
+Challenging 15
+Ambitious 18
+Formidable 21
+Almost Impossible 25
+—–—–—–—–—–—–— Example Attribute/Skill Pairings —–—–—–—–—–—–—
+Roll
+< 
+½ Difficulty
+Embarrassing 
+failure
+Roll
+< 
+Difficulty
+Failure
+Roll
+=> 
+Difficulty
+Success
+Roll
+=> 
+2x Difficulty
+Impressive 
+success
+(x2 result)
+Roll
+=> 
+3x Difficulty
+Unbelievable 
+success
+(x3 result)
+1D + Attribute + Skill
+[s. 4]
+4
+4
+Quick Test 
+Sometimes you’ll be asked to 
+quickly test one of your 
+Attributes or Skills. Roll 1D10. 
+If you roll equal or less than 
+the Attribute or Skill that 
+you’re testing then you 
+succeed. The narrator may 
+award one or more points to 
+add to the Attribute/Skill to 
+reflect factors in your favour. 
+Opposed Test 
+Sometimes you’ll face 
+opposition from another 
+character. Both characters roll 
+1D10 and add a relevant 
+Attribute and Skill. For 
+example, you’re sneaking past 
+a Death Eater. It’s your Speed 
+and Stealth versus their Wits 
+and Observation. Whoever 
+rolls highest wins. Ties are 
+decided by the Narrator. 
+Working Together 
+Sometimes you need to 
+combine your efforts to 
+succeed. The Narrator decides 
+how many people can 
+realistically work together. 
+Poring over a document may 
+only be practical for two or 
+three to do, whereas searching 
+a room could be possible with 
+any number of people. One 
+person oversees the activity 
+and they roll as normal, but 
+gain a bonus equal to +1 for 
+each person helping. For 
+example, you roll 1D10 and 
+add you Wits and Observation 
+to search for clues. With three 
+people aiding your search you 
+add +3 to your roll. 
+Story Points 
+Story Points reflect important 
+experiences in the character’s 
+life and allow the player to 
+expand their character’s 
+abilities in response to those 
+experiences. They can also be 
+used to help a character 
+succeed at a task as a 
+reflection of the character’s 
+growing confidence. 
+Your character can earn a 
+Story Point by playing through 
+some of the following life 
+events: 
+A significant first 
+Your first class at Hogwarts, 
+your first Charms class, your 
+first duel, your first Quidditch 
+match, your first love. All these 
+things can earn you a point. 
+A personal victory 
+Ron and Harry would 
+certainly have earned a Story 
+Point for defeating a Mountain 
+Troll in their first year, and 
+Hermione would have earned 
+a point for creating the 
+complex Polyjuice Potion in 
+her second year. Player’s 
+should earn a Story Point for 
+completing an adventure. For 
+particularly long scenarios the 
+Narrator may want to split the 
+story into chapters and reward 
+one or more Story Points for 
+each chapter completed. 
+Being amazing 
+Any time you do anything 
+outstandingly brave, or 
+outlandishly clever, or are in 
+any way dashed impressive, 
+you deserve a Story Point. 
+Using Story Points 
+You can use Story Points to 
+grasp victory from failure or 
+even succeed at tasks that 
+would normally be beyond 
+your abilities. 
+If you make a roll and fail to 
+meet the target you can spend 
+a Story Point to roll an 
+additional D10 and add it to 
+your roll. If your roll with the 
+additional dice added is still 
+too low to meet the target then 
+you still fail. You cannot 
+continue to spend Story 
+Points to roll additional dice. 
+Sometimes you are just fated 
+to fail. 
+Although there is still a 
+chance of failure with 
+standard and opposed tests, 
+quick tests are handled more 
+generously. You can use a 
+Story Point to automatically 
+succeed at a Quick Test 
+without having to roll any 
+dice. 
+You can also use Story Points
+to permanently increase
+Attributes and Skills. 
+See page 31 for details. E
+Success & Failure
+[s. 5]
+5
+5
+ The Roleplaying Game
+Vitality
+Speed
+Wits
+Knowledge
+Focus
+Alchemy ............................................................. ................
+Ancient Runes ............................................. ................
+Ancient Studies .......................................... ................
+Archivist ............................................................ ................
+Arithmancy ..................................................... ................
+Art .......................................................................... ................
+Astronomy ....................................................... ................
+Authority .......................................................... ................
+Balance ................................................................. ................
+Broomstick Flying ..................................... ................
+Charms ............................................................... ................
+Chicanery ......................................................... ................ 
+Concealment .................................................. ................
+Crafting ............................................................. ................
+Dark Arts ........................................................ ................
+D.A.D.A .............................................................. ................
+Disguise .............................................................. ................
+Divination ......................................................... ................
+Duelling .............................................................. ................
+Herbology ........................................................ ................
+History of Magic ...................................... ................
+Law ......................................................................... ................
+Magical Creatures .................................. ................
+Magical Theory ......................................... ................
+Muggle Studies .......................................... ................
+Music .................................................................... ................
+Observation ................................................... ................
+Occlumency ..................................................... ................
+Persuasion ......................................................... ................
+Potions ................................................................. ................
+Prestige .............................................................. ................
+Riding ................................................................... ................
+Strategy ............................................................. ................
+Skirmishing ..................................................... ................
+Stealth ................................................................. ................
+Swimming ......................................................... ................
+Tracking ............................................................ ................
+Transfiguration .......................................... ................
+Transportation ............................................ ................
+Trivia .................................................................... ................
+Wandlore ......................................................... ................
+ .................................................................................... ................
+Skills
+Wand
+Wood ...................................
+Length .................................
+Core ....................................
+Flex .....................................
+RESILIENCE ..........................
+WAND BONUSES, &c.
+........................................................
+........................................................
+........................................................
+........................................................
+........................................................
+........................................................
+........................................................
+Name
+School
+Year
+House
+Profession
+MIND
+Body
+PENALTY +1 +2 +3 +5 +7 X
+Shaken Bruised Bloodied Broken Fading Lifeless
+Rattled Dazed Drained Confused Raving Mindless
+Health Story Points
+PATRONUS
+Lineage
+N PET
+Creating a Character
+Outline Your Character. 
+Your name, your lineage, and your 
+school (normally Hogwarts), year, 
+and House. If your character has 
+left school, you can also choose a 
+profession (see pages 19–20). 
+Draw a portrait of your character.
+Define Your Attributes. Your 
+ability in important areas: Vitality, 
+Speed, Wits, Knowledge, and 
+Focus. See page 12 for details. 
+Roll (or choose) the components 
+of your wand (see page 24) and 
+choose a pet (page 12).
+Choose Yours Skills. Distribute 
+points based on your education 
+and interests (see page 13). You 
+can also add professional skills if 
+your school days are behind you 
+(see pages 19–20). There is a full 
+list of skills on pages 21–23.
+This is where you’ll record any 
+injuries or afflictions you pick up 
+on your adventures. The 
+wizarding world is a dangerous 
+place, but you don’t need to worry 
+about that just yet...
+The Harry Potter Roleplaying Game gives 
+you all the tools you need to play 
+characters in the world of Harry Potter. 
+You can play fellow Gryffindor students 
+attending Hogwarts at the same time as Harry, 
+Ron, and Hermione. Play students in a different 
+house, a different school, or even a different 
+time. You can even bypass Hogwarts altogether 
+and jump straight into a Wizarding career. Are 
+you a buttoned down Ministry of Magic Officer, 
+or a rakish pureblood dilettante? A dashing 
+Magizoologist working in the field, or a dusty 
+Hogwarts Professor? You’ll certainly have your 
+own ideas, and it’s a good idea to share them 
+with the Narrator and the other players. 
+It’s important to build a group of interlocking 
+characters that will fit naturally into the stories 
+that the Narrator plans to tell. 
+Your character’s personal details, abilities, and 
+knowledge are recorded on a character sheet. 
+The sheet helps you to keep track of your 
+character’s progress as well as their current 
+physical and mental state.

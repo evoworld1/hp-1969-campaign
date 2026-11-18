@@ -1,0 +1,911 @@
+
+[s. 39]
+39
+39
+Magic
+Spells 
+"There was a lot more to magic, 
+as Harry quickly found out, than 
+waving your wand and saying a 
+few funny words." 
+Aspell is a controlled 
+burst of magic that 
+affects the world in 
+a supernatural fashion. 
+Performing a spell is referred 
+to as casting or spellwork 
+In the world of Harry Potter, 
+once you’ve mastered a spell 
+you can cast it with very little 
+effort and as many times as 
+you wish. The attainment of 
+certain spells may take much 
+time and effort, but once 
+mastered they become second 
+nature. Sounds easy doesn’t it? 
+Well it’s not. Magic in the 
+classroom is one thing, but 
+faced with another witch or 
+wizard also armed with a wand 
+and a toolbox of deadly 
+incantations is a much more 
+hair–raising prospect. Spells 
+need to be used swiftly and 
+strategically. It’s not the ability 
+to use magic that saves the day, 
+but knowing which magic to 
+use and the precise moment to 
+unleash it. During the Battle 
+of Hogwarts, Hermione 
+Grainger cast the Hardening 
+Charm on a tapestry while 
+being pursued by Death 
+Eaters. They ran into the stone 
+tapestry and were knocked out 
+cold, quickly ending their 
+pursuit. If Hermione had 
+engaged them in combat she 
+might have been overpowered 
+and captured. It wasn’t the 
+spell that saved her, it was her 
+strategic thinking. 
+Spell Types 
+Take a look at the spells listed 
+on pages 47–59. Every spell 
+has a Type (Charm, Curse, 
+Hex, Jinx, Transfiguration, or 
+Transportation) and each type 
+of magic has an associated 
+skill (see table). 
+Charm 
+A spell that adds properties to 
+an object or being temporarily. 
+Charms are the most common 
+type of spell. 
+Curse 
+The strongest and most 
+wicked of the Dark Charms 
+used for the worst kind of 
+Dark Magic. 
+Hex 
+Less severe Dark Charms. 
+Hexes are less wicked than 
+Curses, but still harmful. 
+Jinx 
+The least wicked of the Dark 
+Charms. Jinxes tend to be 
+irritating rather than harmful. 
+Transfiguration 
+Spells that alter the form or 
+appearance of an object or 
+being. Where Charms change 
+what something does, 
+Transfiguration changes what 
+something is. 
+Transportation 
+Spells that move an object or 
+being between two points 
+almost instantly. Ranging from 
+the creation of Portkeys and 
+Vanishing Cabinets to the 
+enchantments that underly the 
+Floo Network. 
+Each spell also has a 
+Difficulty target for learning 
+and casting the spell (see 
+opposite). 
+Some spells also list a Need. 
+This can be a prior spell (e.g. 
+knowing the unlocking Charm 
+Bombarda before learning the 
+more powerful Bombarda 
+Maxima), a skill requirement, a 
+ritual, a potion, etc. 
+There is a magic sheet at the 
+end of these rules to record 
+your magical attainment and 
+to act as a handy spell 
+reference.
+Type Skill
+Charm Charms
+Curse Dark Arts
+Hex Defence 
+against the 
+Jinx Dark Arts
+Transfiguration Transfiguration
+Transportation Transportation
+[s. 40]
+40
+40
+Spell Difficulty 
+Every spell has a starting 
+difficulty between 9 and 21. 
+This is the target you need to 
+roll to learn or cast the spell. 
+A simple first–year spell like 
+Wingardium Leviosa, the 
+Levitation Charm, has a 
+difficulty of 9. Whereas 
+Protego Horribilis, the most 
+powerful shield Charm, has a 
+difficulty of 21. 
+As you become more familiar 
+with a spell, the difficulty 
+reduces until it eventually 
+reaches zero and you no 
+longer need to roll to cast the 
+spell. Success becomes 
+automatic unless challenging 
+circumstances add to the 
+difficulty. For example, casting 
+a spell without a wand or with 
+a wand actively resisting you 
+will add to your target and 
+require a roll to succeed. 
+Learning Magic 
+Take a look at the Spell Sheet. 
+Each spell has one, two or 
+three numbers in boxes next 
+to it. For example, these are 
+the first four Charms listed: 
+Accio (the summoning charm), 
+Alarte Ascendare (the rocket 
+charm), and Alohomora (the 
+unlocking charm) all have a 
+starting difficulty of 12. The 
+Age Line Spell has a starting 
+difficulty of 15. To cast a spell 
+you need to roll the relevant 
+skill (in this case, Charms). 
+You decide to try casting Accio 
+and successfully roll 12+. 
+You have begun to master the 
+Spell and can now fill in the 
+first box. The difficulty has 
+now dropped to 9. 
+The second time you cast the 
+spell you need to roll 9 or 
+higher to succeed. 
+If you successfully roll 9+ you 
+can cross off the second box 
+and the spell’s difficulty is now 
+zero. You’ve mastered the spell. 
+So, what’s to stop you working 
+your way through the magic 
+sheet and learning every spells 
+in a week or two? 
+Firstly, some spells will be 
+beyond you. If you’re a green 
+first–year student with a Focus 
+Attribute of 1 and no Charms 
+skill, then rolling a 12 is 
+impossible. 
+Secondly, you need to find out 
+how to cast the spell. You’ll 
+need a book to consult or 
+another person to teach you. 
+You’ll also need to spend time 
+studying the spell before you 
+can attempt a roll. 
+Take a look at the rules on 
+Learning (pages 31–32) for 
+details about the different 
+routes you can take to learn 
+spells. Learning in the 
+classroom with a Charms 
+expert like Professor Filius 
+Flitwick, or with the help of a 
+talented fellow student like 
+Hermione, will smooth your 
+path in a way that no dusty 
+spell book ever can. Learning 
+can also occur surprisingly 
+suddenly when your life 
+depends on it (see Learning on 
+the Hoof, page 32).
+Spell Type Difficulty
+Simple Charms, 
+Jinxes, and Hexes. 9
+Moderate Charms, 
+Jinxes, and Hexes. 
+Minor Curses and 
+Transformation 
+Transfiguration.
+12
+Complex Charms, 
+Jinxes, and Hexes. 
+Moderate Curses. 
+Untransfigurations.
+15
+Highly complex 
+Charms and Major 
+Curses. Vanishment 
+Transfigurations.
+18
+The most powerful 
+Charms and 
+Conjuration 
+Transfigurations.
+21
+ Cn Accio
+FCn Age Line
+ Cn Alarte Ascendare
+ Cn Alohomora
+ Cn Accio
+ Cn Accio
+[s. 41]
+41
+41
+Casting Magic 
+If you’ve mastered a spell (see 
+page 40) success is automatic, 
+but if you haven’t you’ll need 
+to roll to cast. Roll 1D10 + 
+Focus + the relevant magical 
+skill (Charms, Transfiguration, 
+etc.) based on the type of spell. 
+Add any wand bonuses (see 
+pages 27–29). Your target to 
+roll is the current difficulty 
+for the spell plus any penalties 
+that apply: 
+Compare the total rolled to 
+your target: 
+For aimed spells in combat, 
+even if you’ve mastered the 
+spell you still need to roll to 
+hit and instead of using your 
+Focus you rely on your Wits. 
+See pages 41 for details. 
+Duelling 
+Duelling is a formal battle 
+between two wizards. Duelling 
+can be a matter of sport or to 
+the death. Your magic sheet 
+marks aimed offensive spells 
+with a dagger † and offensive 
+spells that can become locked 
+(see below) with a double 
+dagger ‡. Protective spells are 
+marked with a triangle ∆. 
+These are the primary spells 
+you will use for duelling. 
+Any other spell is equally 
+usable during a duel, but may 
+require a certain level of 
+creativity to employ effectively. 
+Each round of duelling begins 
+with both combatants rolling 
+initiative. Both sides roll 
+1D+Speed+Duelling to decide 
+who strikes first. Prior to 
+rolling initiative, both sides 
+should decide the offensive or 
+defensive spells they are 
+casting with their two actions. 
+If a player character is facing a 
+non–player character, then the 
+Narrator may decide before 
+the player declares or choose a 
+response based on the most 
+dramatic outcome. If two 
+players are facing each other 
+then both players should write 
+their attack/defence on a piece 
+of paper and reveal it prior to 
+the initiative roll. 
+The initiative winner rolls 
+1D+Wits+Duelling to attack. 
+The Initiative loser rolls to 
+dodge or block (see page 34). 
+If the attacker rolls equal or 
+higher then the spell succeeds 
+(the loser may still have a 
+chance to resist the attack as 
+per the description of the 
+spell). 
+If the loser of the initiative is 
+still able to cast magic, then it 
+is their chance to attack and 
+for their opponent to dodge 
+or block, and resist as above. 
+If the initiative loser sustained 
+injuries then penalties will 
+apply to their attack. 
+In some circumstances the 
+spell of attacker and defender 
+may lock. 
+Locked spells 
+When both sides cast lockable 
+spells or both roll the same 
+initiative, then the beams of 
+both wizards fuse together. 
+This is duelling at its most 
+dramatic. Both duellists 
+desperately hold onto their 
+wands as the streams meet in 
+the middle and they battle to 
+overpower the other. 
+Each round, the locked 
+duellists roll 1D+Focus+Skill
+(the skill for the spell they are 
+using – e.g. Charms, Dark Arts, 
+etc.) The casters are locked 
+until one player rolls 5+ points 
+above the roll of the other. 
+When one combatant wins, 
+the other receives the full 
+force of the winner’s spell. 
+Magic
+Non–verbal spell
++6
+(+5 bonus to
+initiative roll)
+Using another 
+wizard’s wand
++5
++wand wood loyalty 
+bonus (if applicable)
+Damaged wand +5
+Wandless magic +9
+Spell Roll
+< 
+½ Difficulty
+Spell fumble.
+Embarrassing 
+backfire possible.
+Spell Roll
+< 
+Difficulty
+Spell near miss.
+Spell has half or 
+limited effect.
+Spell Roll
+=> 
+Difficulty
+Spell success.
+Spell has full 
+effect.
+† Aimed spell
+‡ Lockable aimed spell
+∆ Protective spell
+[s. 42]
+42
+42
+Magic
+Blasting Spells 
+Destructive spells like 
+Confringo and Deprimo have 
+a devastating effect on objects 
+and structures and those 
+nearby. To have a destructive 
+effect the damage will have to 
+be equal or above the 
+resilience of their target. 
+Compare the damage roll to 
+the resilience of the structure: 
+Flying Objects 
+“Wingardium Leviosa!” 
+The club flew suddenly out of the 
+troll’s hand, rose high, high up 
+into the air, turned slowly over — 
+and dropped, with a sickening 
+crack, onto its owner’s head. 
+The troll swayed on the spot and 
+then fell flat on its face, with a 
+thud that made the whole room 
+tremble. 
+Debris caused by explosions 
+or a well aimed levitated 
+object can be devastating. 
+The table below rates objects 
+from Feather Weight to Titanic. 
+To levitate an object with 
+Wingardium Leviosa, the 
+Flying Charm, or similar, your 
+Focus+Charms must be equal 
+to or higher than the difficulty. 
+For example, with a Focus 3
+and Charms 2, you can levitate 
+a teacup, but not a cauldron. 
+A falling or levetated object is 
+treated as an aimed spell (see 
+page @@). 
+You can try to dodge (roll 
+1D+Speed+Wits) or, if you 
+have mastered the spell (see 
+page @@), cast a Shield Charm 
+(roll 1D+Wits+Charms). 
+Your target is the difficulty 
+indicated on the table. 
+If you roll lower than the 
+difficulty shown below, you are 
+hit and must roll to resist the 
+damage shown on the table 
+(see page 35). 
+For example, a bludger flies 
+towards you (Weighty). 
+You roll 7 to dodge and fail to 
+avoid the bludger and it slams 
+into you. You must roll to 
+resist 3D damage.
+Material Resilience
+Light wood and metal 
+(household furniture, 
+fixtures and fittings)
+10
+Strong wood and metal 
+(stout door, strongbox) 20
+Brick and timber 
+(house, wooden floor) 30
+Brick, timber, and steel 
+(cell door, stone floor, 
+Hogwarts Express)
+40
+Stone, brick, and 
+Ironwork (Ministry 
+building, Hogwarts)
+50
+Damage Roll
+< 
+Resilience
+Singed
+Damage Roll
+=> 
+Resilience
+Damaged 
+Sizeable hole. 
+Anybody within three 
+feet of the target 
+suffers 2D damage.
+Damage Roll
+=> 2x 
+Resilience
+Shattered 
+At least 50% 
+destroyed. Anybody 
+within six feet of the 
+target suffers 3D 
+damage.
+Damage Roll
+=> 3x 
+Resilience
+Obliterated 
+100% destroyed. 
+Anybody within ten 
+feet of the target 
+suffers 6D damage.
+Mass Difficulty Damage Example
+Feather 
+weight 1+ No Damage Chocolate Frog Wrapper, Daily Prophet, 
+Exploding Snap Card, Quill
+Very light 2+ ½D Rememberall, Single Galleon, Wand
+Light 4+ 1D Goblet, Spellbook, Teacup
+Moderate 6+ 2D Broom, Cauldron, Full Satchel
+Weighty 8+ 3D Bludger, Troll Club, Trunk
+Substantial 10+ 4D Hippogriff Saddle, Motorbike Sidecar,
+Suit of Armour
+Heavy 14+ 5D Cabinet, Dining Table, Potion Bench, 
+Wardrobe
+Very heavy 18+ 6D Boulder, Heavy Dungeon Door, Falling 
+Rubble, Stone Statue
+Massive 22+ 7D Segment of a stone wall, Small Dragon (e.g. 
+Swedish Short–snout or Welsh Green), Troll
+Colossal 26+ 9D
+Knight Bus, Medium sized Dragon (e.g. 
+Hungarian Horntail or Norwegian Ridgetail), 
+Small Giant, Stone Wall
+Titanic 30+ 12D
+Hogwarts Tower, Large Dragon (e.g. 
+Hebridean Black or Ukrainian Ironbelly), 
+Large Giant
+[s. 43]
+43
+43
+Magic
+Animagi 
+The process of becoming an 
+Animagus is long and arduous, 
+and has the potential to go 
+horribly wrong. A failed 
+attempt can cause gruesome 
+half–human half–animal 
+mutations that are permanent 
+and cannot be fixed. Many 
+witches and wizards simply 
+feel that their time might 
+better be employed in other 
+ways, as the skill is of limited 
+practical use unless one has a 
+great need of disguise or 
+concealment. 
+You begin the process of 
+becoming an Animagus by 
+holding the leaf of a Mandrake 
+in your mouth for an entire 
+month and reciting an 
+incantation (Amato Animo 
+Animato Animagus) on a daily 
+basis while casting the 
+Animagus spell (see page 47). 
+You would be wise to master 
+the spell before beginning the 
+process or risk failing to cast it 
+and having to start over. 
+The leaf is then used for the 
+creation of the Animagus 
+Potion (see page 61). You must 
+drink the potion during a 
+lightning storm to cause your 
+first transformation. The shape 
+of the creature you will 
+transform into appears in your 
+mind directly before the 
+transformation. You feel “a 
+fiery pain and an intense 
+double heartbeat.” You may 
+feel uncomfortable or 
+panicked in your new body, 
+which may cause you to 
+become frenzied and lash out 
+at anything or anybody nearby. 
+After the ritual is over, an 
+Animagus can then change at 
+will without the use of a wand 
+or incantation. 
+The witch or wizard defines 
+the abilities of their animal 
+form by redistributing their 
+attribute points. Frequently 
+transferring their human 
+Knowledge and Focus to their 
+beast attributes. For example, 
+Peter Petigrew transformed 
+into a rat and transferred 
+some of his knowledge and all 
+of his Focus to his Speed and 
+Wits. James Potter became a 
+stag and transferred 
+Knowledge and Focus to his 
+Vitality, Speed, and his 
+unarmed attack damage 
+(antlers). Sirius Black’s 
+transference of points from 
+Knowledge and Focus to his 
+other attributes helped him 
+escape from the wizard prison 
+of Azkaban. As he explained; 
+“Dementors can't see, you 
+know...” He swallowed. “They 
+feel their way toward people 
+by feeding off their 
+emotions...They could tell that 
+my feelings were less – less 
+human, less complex when I 
+was a dog.” 
+Once the attributes for your 
+animal form are decided they 
+are fixed and you cannot shift 
+points around any further. 
+All Animagi are required to 
+register with the Ministry of 
+Magic at the Animagus 
+Registry which is a publicly 
+available record. 
+Resisting Magic 
+"Some charms will be ineffective 
+on large creatures such as trolls, 
+whose hides repel all but the 
+more powerful spells." 
+Miranda Goshawk, 
+The Standard Book of Spells, 
+Grade 1 
+Most wizards, Half–Giant’s 
+aside, lack any immunity 
+against magic spells. Shield 
+Hats, Shield Cloaks, and 
+Shield Gloves, enchanted by 
+Fred and George Weasley, are 
+widely used by Ministry of 
+Magic officials. These 
+enchanted items protect the 
+wearer from light to moderate 
+curses, hexes, jinxes, and other 
+unfriendly spells, but are 
+useless against more powerful 
+magic, including the 
+Unforgivable Curses. 
+Of the three Unforgivable 
+Curses, only the Imperius 
+Curse can be resisted, but that 
+requires great strength of will. 
+Wizards can also practice the 
+obscure art of Occlumency to 
+protect their mind from 
+external manipulation or 
+penetration. 
+The ultimate protection is the 
+one that saved young Harry 
+Potter from Lord Voldemort’s 
+Killing Curse. Sacrificial 
+protection, an ancient, 
+powerful, and long–lasting 
+counter–charm, is endowed 
+when a person sacrifices their 
+own life willingly and out of 
+deep, pure love to save the life 
+of one or more people.
+[s. 44]
+44
+44
+Magic
+Shield clothing 
+Shield hats, cloaks, and gloves 
+are enchanted objects (see 
+page 71) imbued with the 
+qualities of Bestowal and the 
+standard Shield spell. Shield 
+Hats cost 10 Galleons each, 
+but were sold to the Ministry 
+of Magic for 5 Galleons a 
+piece. Shield Gloves cost 8
+Galleons, and Shield Cloaks 
+cost 20 Galleons. From 1996, 
+these are available from 
+Weasleys' Wizard Wheezes at 
+No. 93 Diagon Alley. 
+Resisting the 
+Imperius Curse 
+If you attempt to resist the 
+curse, roll 1D10+Focus 
++D.A.D.A (Defence against 
+the Dark Arts). The person 
+attempting to control you 
+must roll 1D10+Focus 
++Dark Arts. The resister ca 
+also use their Occlumency 
+skill instead of D.A.D.A. 
+Plainly, Barty Crouch Jnr. 
+rolled a 1 or 2 when he tried 
+to use the Imperius curse on 
+Harry Potter, or Harry used a 
+Story Point to roll and extra 
+dice (see page 4). 
+Occlumency 
+The magical discipline that 
+protects the mind against 
+external manipulation or 
+penetration, The basic method 
+involves emptying the mind, 
+but advanced practitioners can 
+selectively hide specific 
+thoughts, emotions, or 
+memories. The art of trying to 
+penetrate another’s mind is 
+Legilimency (see page 53). 
+The witch or wizard 
+attempting to penetrate the 
+targets mind (the Legilimens) 
+rolls 1D10+Focus+Charms. 
+The target attempting to 
+protect themselves with 
+Occlumency (the Occlumens) 
+rolls 1D10+Focus+ 
+Occlumency. Compare their 
+rolls as below. 
+Sacrificial Protection 
+For sacrificial protection to be 
+invoked, the killer must give 
+the victim the option to live, 
+but the victim must 
+consciously and willingly 
+choose death. Lily Potter was 
+offered the chance to step 
+aside because Voldemort had 
+promised Severus Snape that 
+he wouldn't kill her unless she 
+got in his way. Her conscious 
+refusal to comply with 
+Voldemort's demand was why 
+unusually strong magical 
+protection was conferred upon 
+her son. 
+After the sacrifice, the 
+protection lives on in the 
+beneficiary's veins. The 
+protection prevents whoever 
+had murdered the victim from 
+physically touching the 
+beneficiary without 
+experiencing excruciating 
+pain, and causes a Killing 
+Curse cast at the beneficiary 
+by the murderer to rebound. 
+Sacrificial Protection can 
+effect a group of people, but 
+the protection is diluted, at 
+the discretion of the Narrator. 
+Legilimens Roll
+< 
+½ Target’s Roll
+Legilimens sees 
+a false memory 
+manufactured by 
+the Occlumens.
+Legilimens Roll
+< 
+Target’s Roll
+The Legilimens 
+sees nothing.
+Legilimens Roll
+=> 
+Target’s Roll
+The Legilimens 
+sees the target’s 
+memories from 
+the last hour.
+Legilimens Roll
+=> 
+2x Target’s Roll
+The Legilimens 
+can extract 
+specific 
+information from 
+the target’s mind.
+Legilimens Roll
+=> 
+3x Target’s Roll
+Legilimens can 
+project visions 
+into the target’s 
+mind.
+[s. 45]
+45
+45
+Magic
+The Patronus Spell 
+A Patronus is a kind of Anti–
+Dementor (see page 93). 
+A guardian that acts as a 
+shield between you and 
+Dementors. A Patronus is a 
+positive force, a projection of 
+the very things that the 
+Dementor feeds upon, hope, 
+happiness, and the desire to 
+survive, but a Patronus cannot 
+feel despair, so Dementors 
+can’t harm it. A Patronus has 
+two forms; non–corporeal and 
+corporeal. A non–corporeal 
+Patronus appears as thin wisps 
+of silver that hover like mist, 
+but a corporeal Patronus has a 
+form that is clearly defined 
+and is more than vapour or 
+smoke. The Patronus Charm, 
+Expecto Patronum (see page 51) 
+is a very challenging Charm 
+and not all witches and 
+wizards can summon a 
+corporeal Patronus, never 
+mind successfully casting the 
+spell in the terrifying presence 
+of a Dementor (see Fear, page 
+89). Those that can produce a 
+full Patronus may choose to 
+produce a non–corporeal 
+Patronus in order to conceal 
+their identity. 
+Corporeal Patronuses take the 
+form of whatever animal the 
+caster has the greatest affinity 
+for. Dogs, cats, and horses are 
+among the most common 
+Patronuses, given those 
+animals' long rapport with 
+humans. Every Patronus is as 
+unique as its creator, and even 
+identical twins have been 
+known to produce very 
+different Patronuses. 
+If a witch or wizard is an 
+Animagus and can summon a 
+corporeal Patronus, their 
+animal form and their 
+Patronus animal will 
+frequently be the same. 
+To successfully cast the spell 
+you must summon your 
+happiest memory. The happier 
+the memory, the better the 
+charm will work. The next step 
+is to begin drawing circles 
+with your wand in the air to 
+increase the power of the 
+spell, and then call out the 
+incantation; Expecto Patronum. 
+If successful, the Patronus 
+emerges from the tip of your 
+wand and can be directed 
+towards a target. Patronuses 
+can be directed verbally and 
+will take instructions from the 
+caster. 
+It’s possible, in some cases. 
+for a Patronus to change form 
+in response to a fundamental 
+emotional change. This can 
+happen when a witch or 
+wizard falls in deep and 
+eternal love. Because 
+Patronuses are conjured by 
+recalling happy memories, 
+when those memories revolve 
+around a person the caster is 
+truly in love with, their 
+Patronus may change to a 
+form complementary to the 
+Patronus of their loved one. 
+It is generally believed that 
+only those of pure heart are 
+able to cast the Patronus 
+Charm. This is not entirely 
+true. Dark witches and wizards 
+generally don’t try to produce 
+a Patronus, having no need for 
+one. Being desensitised to the 
+effects of the dark creatures 
+they ally themselves with or 
+have under their control. 
+However, some witches and 
+wizards of questionable 
+morals, like Dolores 
+Umbridge, are still able to 
+produce corporeal–Patronuses. 
+This may be because they have 
+a true and confident, although 
+erroneous, belief in their own 
+righteousness. 
+All player characters can
+produce a Patronus if they
+choose to learn the Expecto
+Patronum Charm (player are,
+after all, exceptional witches
+and wizards), but their
+Patronus will only become
+fully corporeal when they
+have mastered the spell and
+filled in all three boxes on
+their spell sheet (see page 40).
+[s. 46]
+46
+46
+Magic
+Your Patronus 
+Use the table below to randomly decide the animal form of your Patronus.
+1D100 Roll Patronus 1D100 Roll Patronus
+1 – 3 Jack Russell Terrier 59 – 60 Dragonfly
+4 – 6 Border Collie 61 – 62 Bat
+7 – 9 Boarhound 63 – 64 Kingfisher
+10 – 12 House Cat 65 – 66 Magpie
+13 – 15 Kneazle 67 – 68 Owl
+16 – 18 Wildcat 69 – 70 Swan
+19 – 24 Horse 71 – 72 Goose
+25 – 26 Stag 73 – 74 Eagle
+27 – 28 Doe 75 – 76 Hawk
+29 – 30 Goat 77 – 78 Raven
+31 – 32 Otter 79 – 80 Donkey
+33 – 34 Weasel 81 – 82 Camel
+35 – 36 Rabbit 83 – 84 Ox
+37 – 38 Hare 85 – 86 Lynx
+39 – 40 Mouse 87 – 88 Lion
+41 – 42 Rat 89 – 90 Tiger
+43 – 44 Hedgehog 91 – 92 Panther
+45 – 46 Squirrel 93 – 94 Elephant
+47 – 48 Badger 95 Salamander
+49 – 50 Fox 96 Winged Horse
+51 – 52 Wolf 97 Hippogrif
+53 – 54 Boar 98 Unicorn
+55 – 56 Ladybird 99 Thestral
+57 – 58 Butterfly 100 Phoenix

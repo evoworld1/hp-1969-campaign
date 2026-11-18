@@ -1,0 +1,236 @@
+
+[s. 31]
+31
+31
+Learning & Improving
+You can spend Story 
+Points to raise your 
+attributes, improve 
+your skills, and learn spells 
+and potions. The cost in Story 
+Points to increase attributes, 
+skills, and to learn spells and 
+potions is shown below: 
+See page 4 to find out how to 
+earn Story Points. 
+Raising Attributes 
+and Skills 
+As your character matures, 
+your attributes naturally 
+increase with age. Each year 
+(on your birthday), you can 
+add one points to any one of 
+your attributes. You can also 
+increase one of you attributes 
+at any time in exchange for a 
+number of Story Points equal 
+to five times the current level 
+of the attribute. 
+For example, raising an 
+attribute from two to three 
+costs ten Story Points (2 x 5). 
+Increasing skills cost fewer 
+Story points than attributes. 
+Raising a skill by one point 
+costs a number of Story Points 
+equal to the current level of 
+the skill plus three. 
+For example, raising a skill 
+from zero to one costs three 
+Story Points (0+3). 
+Learning Spells 
+and Potions 
+Learning spells and potions is 
+recorded by marking off boxes 
+on your spell sheet. The 
+number in the leftmost box 
+next to each spell or potion is 
+the current difficulty target. 
+Once all the boxes are filled in 
+you’ve mastered that spell or 
+potion and you no longer 
+need to roll. 
+You can fill in one box 
+(working left to right) in 
+exchange for one third of the 
+number in the box, 
+For example, the Unlocking 
+Charm Alohomora: 
+The beginning difficulty for 
+Alohomora is 12, so you can 
+fill in the first box for four 
+Story Points. The difficulty 
+then drops to nine, so for a 
+further three points you can 
+fill in the second box and 
+master the spell. 
+As well as spending Story 
+Points to learn magic, you can 
+make a roll to learn spells and 
+potions through individual 
+study (book learning), 
+classroom study, or through 
+one–to–one tuition (as when 
+Professor Lupin tutored Harry 
+to repel Dementors). Because 
+classroom learning and one–
+to–one tuition presents you 
+with new knowledge and 
+perspectives, you gain Story 
+Points whenever you roll. 
+Book Learning 
+“And then, of course, there was 
+the sheer size of the library; tens 
+of thousands of books; thousands 
+of shelves; hundreds of narrow 
+rows. Hermione took out a list of 
+subjects and titles she had 
+decided to search while Ron 
+strode off down a row of books 
+and started pulling them off the 
+shelves at random.” 
+For spells and potions in your 
+year, easily available textbooks 
+like the Standard Book of 
+Spells or Magical Drafts and 
+Potions, will provide most of 
+the information you need. 
+For more advance or 
+extracurricular Magic 
+(particularly Dark Magic) you 
+will need to visit the library. 
+The Librarian will point you 
+in the right direction, but 
+you’ll need to do the hard 
+work. Witches and Wizards are 
+famously eccentric and fond 
+of mysteries and cyphers and 
+their books often mirror this. 
+For every hour you spend 
+searching through dusty old 
+books you can roll 
+1D+Knowledge+Archivist
+with a target equal to the 
+starting difficulty of the spell 
+you are looking for. Getting a 
+little help from your friends 
+might be a good idea (see 
+Working Together on page 6). 
+Once you’ve located the spell 
+or potion you can begin 
+studying it. For every four 
+hours of practice with the text 
+to work from you can make a 
+roll to learn the spell or 
+potion. 
+Attribute Current level x5
+Skill Current level +3
+Spell/
+Potion
+1/3 Current 
+difficulty
+hCn Alohomora
+[s. 32]
+32
+32
+Learning & Improving
+Classroom 
+The Core Subjects at 
+Hogwart’s are allowed up to 
+six hours of classroom time 
+each week. Elective subjects 
+like Alchemy and less formal 
+settings like a Dueling Club, 
+will generally have a three 
+hour session. Ideally the 
+Narrator won’t exhaustively 
+play through every session on 
+the timetable. Only the ones 
+that add to the story. 
+For every three hours of group 
+work you can roll to learn or 
+improve one spell or potion 
+with a +1 bonus to your roll 
+because of the support of your 
+tutor and peers. If you roll the 
+spell or potion’s current 
+difficulty or above then you 
+can mark off one box. You also 
+gain a Story Point. 
+If you fail your roll to learn 
+the spell or potion then the 
+Narrator will normally allow a 
+second attempt during the 
+week to reflect further 
+sessions of that lesson in the 
+timetable. Even if you fail both 
+rolls, you can still attempt to 
+perfect it through individual 
+study or tuition (either from a 
+helpful tutor or a talented 
+fellow pupil). 
+Tuition 
+Once you’ve mastered a spell 
+or potion, you can also 
+instruct others. For every 
+two hours of one–to–one 
+instruction you can make a 
+role to improve a spell. If your 
+tutor’s magical skill (Charms, 
+etc.) for that spell is above 
+yours, then you can add +2 to 
+your roll. 
+As an example. Hermione had 
+to quickly teach Harry Accio, 
+the summoning charm, the 
+day before his first task in the 
+Tri–Wizard Tournament. They 
+skipped lunch and carried on 
+until 2am the next morning. 
+Allowing for an Arithmancy 
+class that Hermione insisted 
+on attending and a hurried 
+dinner, they had a little over 
+ten hours for Harry to master 
+the spell. Enough time for 
+Harry to attempt five rolls (one 
+per two hours). The spell has a 
+starting difficulty of 12: 
+To learn the spell, Harry had 
+to first roll 12 or higher using 
+1D+Focus+Charms+2. Having 
+successfully rolled 12+, the 
+difficulty drops to 9. 
+To master the spell Harry only 
+has to roll 9+ which he easily 
+does with Hermione’s help. 
+Having filled in both boxes, 
+the spell difficulty becomes 
+zero, so Harry is guaranteed to 
+cast the spell when needed. 
+The only problem is that 
+Harry faces a Dragon for his 
+first task and Dragons have a 
+sizeable fear effect (see page 
+89) which may leave Harry 
+mentally Rattled or worse, 
+with the resulting penalty 
+adding to his target to cast the 
+Summoning Charm. 
+Faced with a Dragon, even the 
+best prepared Wizard must 
+tread carefully. 
+Learning On 
+The Hoof 
+You can also learn a spell in 
+the field. When you cast a spell 
+you haven’t mastered in a 
+critical situation (like Ron 
+casting the Levitation Charm 
+on a Troll’s club in the first 
+year), you can mark off one 
+box for that spell. 
+Study Time Bonus to your roll Story Points Gained
+Book (Individual Study) 4 hours – 0
+Classroom (Groupwork) 3 hours +1 1
+Tuition (One–on–one) 2 hours +2 2

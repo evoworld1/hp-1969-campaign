@@ -1,0 +1,341 @@
+
+[s. 67]
+67
+67
+Herbology
+Herbology is the study of all 
+plants and fungi, including 
+magical varieties. Witches and 
+wizards who study this field 
+are known as Herbologists. 
+They explore the growth 
+patterns of magical plants, 
+their preferred habitats, 
+cultivation techniques, and the 
+crossbreeding of different 
+plants. They also study the 
+application of these plants in 
+potion-making. 
+Herbology is taught at 
+Hogwarts School of Witchcraft 
+and Wizardry. Students learn 
+how to properly care for a 
+wide variety of plants, as well 
+as learning about their useful 
+applications and magical 
+properties. Hogwarts has 
+seven greenhouses that 
+students graduate through. 
+By the sixth and seventh years 
+they will deal with the most 
+dangerous and aggressive 
+magical plants like Aconite 
+and Venomous Tentacula. 
+The identification of plants, 
+their cultivation, and the 
+harvesting of useful 
+ingredients can be realised 
+through a successful 
+1D+Knowledge+Herbology
+roll (see below). 
+ 
+Equipment 
+Dragon-hide gloves protect 
+against burns, bites, and 
+corrosive sap, while earmuffs 
+block the deadly cries of the 
+Mandrake. Students also use 
+trowels and pruning shears for 
+cultivation, alongside aprons, 
+goggles, and enchanted pots 
+that regulate temperature for 
+sensitive species. 
+Useful spells (see pages 47–59) 
+for Herbologists include; 
+Aguamenti to water plants, the 
+Atmospheric Charm to provide 
+ideal environments, and 
+Defodio to dig channels for 
+planting seeds. 
+Greenhouses 
+There are seven Hogwarts’ 
+greenhouses of increasing skill 
+and complexity. The most 
+challenging and dangerous 
+plants are housed in the 
+domed greenhouse. 
+ 
+Advanced 
+Herbology 
+Plants can have their cuttings 
+hybridises to combine some of 
+their traits (target 21+), like 
+combining Fluxweed and 
+Knotgrass to create a single 
+plant that enhances the 
+Polyjuice potion, or mutate a 
+plant to gain the abilities of a 
+standard spell (target 25+) as 
+listed on pages 47–59. 
+Advanced Herbology can take 
+months of exacting work. 
+Typically a number of months 
+equal to 12 minus your 
+Herbology skill. 
+Difficulty Target
+Elementary: Identifying a common plant like Dittany or 
+Gurdyroot, mixing Dragon Dung compost for seedlings. 3+
+Straightforward: Repotting young Flitterblooms, handling 
+small Mimbulus mimbletonia cuttings for study. 6+
+Tricky: Harvesting Bubotuber pus without skin burns, brewing 
+a mild restorative using Shrivelfig and Gurdyroot. 12+
+Challenging: Cultivating Fluxweed to maturity precisely at the 
+full moon, handling adolescent Mandrakes nearing maturity. 15+
+Ambitious: Quelling an overgrown Devil’s Snare infestation 
+underground, crossbreeding Flitterbloom and Shrivelfig.
+18+
+Formidable: Handling a full-grown Venomous Tentacula safely, 
+reviving a damaged Whomping Willow with restorative spells. 21+
+Almost Impossible: Creating a stable hybrid of Devil’s Snare 
+resistant to light, developing a new strain of Dittany with 
+enhanced restorative power.
+25+
+[s. 68]
+68
+68
+Herbology
+First Year 
+Basic magical plants. sSafe 
+with supervision 
+Asphodel 
+A pale lily–like plant used in 
+potion brewing. Famously 
+combined with wormwood to 
+form a potion associated with 
+deep regret. Introduced early 
+as a common potion 
+ingredient and dangerous only 
+if misused. 
+Knotgrass 
+A common magical herb used 
+as an ingredient in the 
+Polyjuice Potion. Studied 
+early, although its more 
+advanced uses come later. 
+Leaping Toadstool 
+A magical fungus that moves 
+slightly on its own and is used 
+in potion-making. The fungus 
+has no hostile traits. 
+Sneezewort 
+A magical plant that causes 
+sneezing and is used in certain 
+potions and remedies. 
+Causes irritation, but no 
+lasting harm. 
+Wormwood 
+A bitter plant used in potions, 
+famously paired with asphodel 
+in a draught with symbolic 
+associations. Poisonous in 
+quantity, but commonly 
+handled in early potion and 
+herb studies. 
+Second Year 
+Plants with specific handling 
+requirements 
+Baneberry 
+A toxic magical plant whose 
+berries are used in certain 
+potions and are dangerous if 
+mishandled. Requires gloves 
+and careful preparation. 
+Fluxweed 
+A plant used in the Polyjuice 
+Potion, effective only when 
+harvested at the full moon, 
+which introduces complexity. 
+Danger comes from misuse, 
+not the plant itself. 
+Hellebore 
+A toxic, but medicinal, plant 
+which requires careful 
+handling. Primarily valued for 
+its extract, Syrup of Hellebore, 
+a key ingredient in calming 
+potions like the Draught of 
+Peace. 
+Shrivelfig 
+A magical fruit used in potion 
+making that shrivels when 
+picked and must be 
+rehydrated before use. 
+Teaches preservation and 
+rehydration techniques. 
+The plant has no toxic or 
+aggressive properties. 
+Third Year 
+Plants with strong effects, but 
+limited aggression 
+Alihotsy 
+A powerful magical herb 
+whose leaves induce 
+uncontrollable laughter when 
+consumed. Because of its 
+Psychotropic effect, it requires 
+careful handling. 
+Dittany 
+A powerful healing herb that 
+causes fresh skin to grow over 
+wounds immediately when 
+applied. Appropriate for study 
+once the basics are mastered. 
+Puffapod 
+A magical plant that produces 
+large pink seed pods, which 
+burst into flowers when 
+mature. The explosive pods 
+add risk, but are predictable 
+and non–lethal. 
+Plants Studied by Year
+[s. 69]
+69
+Fourth Year 
+Students are now trusted with 
+hazardous specimens. 
+Chinese Chomping 
+Cabbage 
+An aggressive magical cabbage 
+with snapping jaws, often used 
+as a weapon in magical plant 
+combat. Handling requires 
+quick reflexes and protective 
+gear. 
+Devil’s Snare 
+A sentient and potentially 
+lethal, vine–like plant that 
+constricts and suffocates 
+anything that struggles against 
+it, but relaxes in bright light. 
+Studied theoretically or under 
+tight supervision. 
+Mandrake, immature 
+A magical plant whose root 
+resembles a human and whose 
+cry is hazardous when 
+unpotted. The shrill cry of an 
+immature Mandrake will 
+knock out anybody who hears 
+it for several hours, but they 
+are safe to handle with ear 
+protection. The scream of a 
+mature Mandrake is powerful 
+enough to break glass and will 
+kill anybody unlucky enough 
+to hear it. Stewed Mandrake is 
+an essential part of most 
+antidotes including the 
+Mandrake Restorative Draught 
+which returns those who have 
+been petrified back to their 
+rightful state. Their leaves are 
+also used in potions, including 
+the potion needed for the 
+Amato Animo Animato 
+Animagus spell (see page @@). 
+Fifth Year 
+(O.W.L. Level) 
+Plants with severe 
+consequences if mishandled. 
+Gillyweed 
+A magical plant native to the 
+Mediterranean Sea. Eating 
+Gillyweed allows a human to 
+survive underwater, with 
+functioning gills and webbing 
+between the fingers and toes. 
+Accidental ingestion or over–
+exposure to the sap can cause 
+the victim to suffocate on dry 
+land. Best to keep a bucket of 
+water on hand. 
+Mandrake, mature 
+Because of it lethal cry, it is 
+harvested only by advanced 
+students and staff (see 
+Mandrake, immature) 
+Mimbulus Mimbletonia 
+A rare magical plant that 
+resembles a cactus and 
+secretes Stinksap, a foul–
+smelling defensive substance. 
+Because of its defensive 
+secretion, it requires careful 
+handling and supervision. 
+Sixth–Seventh Year 
+(N.E.W.T. Level) 
+Legally regulated, highly 
+dangerous plants. 
+Aconite 
+Also known as Monkshood 
+and Wolfsbane. An extremely 
+poisonous plant used in 
+potion making, most notably 
+as a key ingredient in the 
+Wolfsbane Potion (see page 
+@@) that relieves the 
+symptoms of lycanthropy. 
+Venomous Tentacula 
+An aggressive, venomous, and 
+toothsome magical plant with 
+spiky vines and venomous 
+barbs. The leaves are a 
+valuable potion ingredient and 
+worth ten galleons a piece. 
+Venomous Tentacula seeds are 
+classified as a Class C non–
+tradable substance by the 
+Ministry of Magic. 
+Bubotuber 
+A thick–skinned magical plant 
+resembling a slug. 
+The bubotuber is filled with 
+pus that can be harvested and 
+diluted to treat severe acne. 
+Extraction of the hazardous 
+pus requires protective 
+equipment and practiced 
+techniques.
+Herbology
+69
+[s. 70]
+70
+70
+Plant costs
+Herbology
+Plant Seed Cost Live Specimen Found in the Wild Legality
+Aconite / Monkshood 2G 8–12G Mountainous Europe, shaded forests. Restricted
+Alihotsy 1G 4G Tropical and subtropical magical forests. Restricted
+Asphodel 5s 2G Mediterranean regions. Unrestricted
+Baneberry 6s 3G Temperate woodlands. Restricted
+Bubotuber — 10 – 15G Damp magical marshes. Controlled
+Chinese Chomping Cabbage1G 5 – 7G Cultivated only. Controlled
+Devil’s Snare — 10G Dark, damp caverns. Controlled
+Dittany 1G 6G Mediterranean and Middle East. Unrestricted
+Fluxweed 7s 3G Temperate magical hedgerows. Restricted
+Gillyweed 1G 7 – 9G Freshwater lakes and rivers. Restricted
+Hellebore 5s 2 – 3G European mountain slopes. Restricted
+Knotgrass 3s 1G Common magical meadows. Unrestricted
+Leaping Toadstool — 2G Damp woodland floors. Unrestricted
+Mandrake, immature — 5G Rarely wild; mostly cultivated. Controlled
+Mandrake, mature — 15 – 20G Almost never wild. Prohibited
+Mimbulus Mimbletonia — 10G Extremely rare; uncertain origin. Restricted
+Puffapod 5s 2G Cultivated garden plant. Unrestricted
+Shrivelfig 8s 4G Mediterranean rocky soils. Restricted
+Sneezewort 2s 8s Widespread in Britain. Unrestricted
+Venomous Tentacula — 20+ G Tropical magical jungles. Prohibited
+Wormwood 4s 1G Europe and Britain. Unrestricted
+Unrestricted: Legal to own and grow without permit 
+Restricted: Permit required (typically for danger or misuse risk) 
+Controlled: Ministry–regulated (sale and ownership monitored) 
+Prohibited: Illegal for private ownership except by licence (Apothecary, Academic, or Medical permit)

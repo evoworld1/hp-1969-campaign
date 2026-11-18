@@ -1,0 +1,205 @@
+
+[s. 137]
+137
+137
+Animal Companions
+At Hogwarts, students are 
+permitted to bring a pet (see 
+page 12); an owl, a cat, or a 
+toad. The rule is practical as 
+much as sentimental. Owls 
+carry messages, cats keep 
+down pests, and toads are 
+manageable in crowded 
+dormitories. 
+These animal companions are 
+much loved by their owners. 
+Harry’s Snowy Owl, Hedwig, is 
+his messenger and a constant 
+presence through Harry’s 
+early years. Hermione’s Half–
+Kneazle Cat, Crookshanks, 
+proves unusually perceptive, 
+recognising threats that others 
+overlook. Ron’s Rat, Scabbers, 
+appears ordinary at first, a 
+flea–bitten hand–me–down 
+pet, but his true identity turns 
+out to be far more sinister. 
+Beyond the standard list of 
+permitted animals are more 
+singular creatures. Fawkes the 
+Phoenix, loyal to Albus 
+Dumbledore, demonstrates 
+rare magical power and 
+unwavering allegiance. 
+In darker contrast, slithers 
+Nagini, bound to Lord 
+Voldemort, whose role as a 
+Horcrux (see page @@) makes 
+her far more than just a 
+faithful companion. 
+These animals influence key 
+events during the Harry Potter 
+books and add an extra 
+dimension to the characters 
+they stand beside. Your 
+characters’ pets, under the 
+control of the Narrator, may 
+also surprise you in ways that 
+advance your story and drag 
+you off in unexpected 
+directions. 
+Nagini 
+Species: Snake 
+Owner: Voldemort 
+Vitality 6
+Speed 7 (Strike 12) 
+Wits 9
+Knowledge – 
+Focus – 
+Move: 2D+3 (2D+8 strike) 
+Combat: 2D+5 (2D toxic 
+venom*, see page 38) 
+Fear: 8
+Description 
+Nagini was originally human, 
+but cursed to transform into a 
+Snake. Eventually, she took 
+permanent Snake form and 
+lost her human mind. She 
+came into the possession of 
+Lord Voldemort, who made 
+her into one of his Horcruxes 
+(see page 129). Nagini was 
+killed at the end of the 
+Second Wizarding War. 
+As the last Horcrux to be 
+destroyed, her death left 
+Lord Voldemort vulnerable. 
+* Nagini’s venom requires a 
+specialist antidote. It delays 
+blood clotting and dissolves 
+stitches, which causes the 
+wound to bleed profusely. 
+Hedwig 
+Species: Snowy Owl 
+Owner: Harry Potter 
+Vitality 4
+Speed 9
+Wits 8
+Knowledge – 
+Focus – 
+Move: 2D+3 (flying 4D+2) 
+Combat: 2D+2 (2D Talons) 
+Fear: 1
+Skills 
+Observation 7
+Tracking 7
+Description 
+Harry Potter's pet female 
+Snowy Owl, Hedwig, was an 
+eleventh birthday gift from 
+Rubeus Hagrid purchased at 
+Eeylops Owl Emporium (see 
+page 142). She is highly 
+intelligent and capable of 
+understanding Harry’s wishes 
+and faithfully following his 
+orders. 
+[s. 138]
+138
+138
+Animal Companions
+Scabbers 
+Species: Rat 
+Owner: Ron Weasley 
+Vitality 5
+Speed 10
+Wits 8
+Knowledge 2
+Focus 1
+Move: 2D+5
+Combat: 2D+3 (1D+1 Bite) 
+Fear: 2
+Skills: 
+Observation 9
+Tracking 5
+Description
+Scabbers was an unusually old 
+and scraggly–looking rat that 
+was passed down to Ron by 
+his brother, Percy. When 
+Sirius Black and Remus 
+Lupin, members of the Order 
+of the Phoenix (see page125), 
+revealed that Scabbers was 
+actually an Animagus named 
+Peter Pettigrew (see page 130), 
+Ron refused to believe it until 
+they forced the rat to 
+transform back into his 
+human form. Ron took this 
+revelation as a personal insult, 
+and refused to listen to 
+Pettigrew's pleas. 
+Crookshanks 
+Species: Half–Kneazle Cat 
+Owner: Hermione Grainger 
+Vitality 6 
+Speed 7
+Wits 7
+Knowledge 4 
+Focus – 
+Move: 2D+3
+Combat: 2D+3 (1D+1 Claw) 
+Fear: 2
+Skills: 
+Observation 9
+Tracking 6
+Description
+Hermione Granger's pet cat, 
+Crookshanks, is half–Kneazle, 
+as evidenced by his lion–like 
+appearance, ability to solve 
+problems on his own, and 
+ability to recognise 
+untrustworthy individuals, 
+even if they are in their 
+Animagus form. 
+Sirius Black (see page 125) 
+claimed that Crookshanks was 
+the most intelligent cat he had 
+ever met. Crookshanks, 
+although frequently bad 
+tempered, is very playful and 
+enjoys catching spiders and 
+chasing gnomes. 
+Fawkes 
+Species: Phoenix 
+Owner: Dumbledore 
+Vitality 5
+Speed 10
+Wits 8
+Knowledge 2
+Focus 1
+Move: 2D+5 (flying 7D+2) 
+Combat: 2D+3 (talon 2D+1) 
+Fear: 2
+Skills: 
+Observation 9
+Tracking 7
+Description
+Fawkes is a highly intelligent 
+male phoenix and Albus 
+Dumbledore's animal 
+companion and defender. 
+Fawkes had been in 
+Dumbledore's service for 59
+years up to the Headmaster's 
+death in 1997. His tears, like 
+the tears of all phoenixes, 
+possess healing properties and 
+saved Harry's life after his arm 
+was punctured by the 
+basilisk's venomous fang.

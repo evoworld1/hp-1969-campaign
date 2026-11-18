@@ -1,0 +1,2224 @@
+
+[s. 6]
+6
+6
+Character Lineage
+1. Choose a Name 
+Names in the wizarding world 
+tend to mix the traditional and 
+mundane with the eccentric 
+and mythological. You may 
+want to decide your lineage 
+(see right) before choosing a 
+name so that you can select 
+one that fits your background. 
+Muggle–borns generally have 
+more ordinary names 
+(Hermione Granger, Myrtle 
+Warren, Colin Creevey). Many 
+Half–bloods also fairly 
+conventional (Harry Potter, 
+Maisie Cattermole, Seamus 
+Finnigan, Dean Thomas), but 
+many are more elaborate 
+(Albus Dumbledore, Gilderoy 
+Lockhart, Quirinus Quirrell, 
+Nymphadora Tonks). 
+Pure–bloods draw on a 
+specific pool of ancestral 
+names and many wouldn’t be 
+caught dead with a Muggle 
+name (Draco Malfoy, Bellatrix 
+Lestrange, Sirius Black, 
+Marvolo Gaunt), but with the 
+dilution of the Pure–bloods, 
+many are surprisingly down to 
+earth (Ron Weasley, Neville 
+Longbottom, Lavender 
+Brown). 
+We have fewer examples of 
+Part–human characters, but 
+they are equally flamboyant; 
+(Rubeus Hagrid, Filius 
+Flitwick, Fleur Delacour, 
+and Lorcan d'Eath). 
+If you need inspiration, 
+there are tables to roll 
+wizarding name on 
+pages 163–164. 
+2. Decide on your 
+ Lineage 
+Not all witches and wizards are 
+created equal. Pure–blood 
+wizards come from old 
+Wizarding families. Some of 
+which guard their privilege 
+fiercely, but the number of 
+pure–bloods is vanishingly 
+small. Most wizards are half–
+bloods, having parents or 
+grandparents split between 
+Wizard and Muggle ancestry. 
+Occasionally a witch or wizard 
+is born to two Muggle parents 
+who have a Wizarding 
+ancestor somewhere in the 
+family tree. Muggle–born 
+witches and wizards are as 
+magically talented as any other 
+wizard (sometimes more so), 
+but are looked down upon by 
+haughty Pure–bloods. 
+You can choose your lineage 
+or roll on the table below. 
+Part–human characters face 
+daily prejudice and distrust in 
+the Wizarding World, 
+particularly from 
+Pureblood wizard families. 
+For every fair–minded 
+individual like Albus 
+Dumbledore, there 
+are a hundred 
+wizards who would 
+happily see you 
+hounded out of 
+wizard society. 
+Muggle–born 
+Sometimes referred to by the 
+insulting and offensive 
+pejorative Mudblood, a 
+Muggle–born is a witch or 
+wizard born to two non–
+magical parents. Their magical 
+abilities are unimpeded by 
+their Muggle parentage. In 
+fact, many Muggle–borns like 
+Hermione Granger are among 
+the most talented witches and 
+wizards of their age. 
+Muggle–born wizards may 
+begin the game with the 
+Muggle Studies skill (see page 
+22) depending on their age: 
+Half–blood 
+Wizards who have either one 
+Muggle or Muggle–born 
+parent, two Half–blood 
+parents, or Muggle or Muggle–
+born grandparents. Some of 
+the more zealous Pure–bloods 
+treat Half–bloods as inferiors, 
+considering themselves to be 
+inherently more powerful, but 
+some of the most powerful 
+wizards and witches, like 
+Dumbledore, are half-blood. 
+Because of their wizarding 
+lineage and often eventful 
+childhoods, Half–bloods begin 
+the game with 3 Story Points 
+(see page 4).
+Roll 1D100 Lineage
+1–5 Muggle–born
+6–89 Half–blood
+90–99 Pure–blood
+100 Part–human
+Age Muggle Studies
+1–5 0
+6–8 1
+9–10 2
+11–12 3
+13–14 4
+15 5
+[s. 7]
+7
+7
+Character Lineage
+Pure–bloods 
+Wizarding families who claim 
+to have no Muggles, Muggle￾borns, or Half-bloods in their 
+family tree; however, most 
+wizards and witches consider 
+an individual to be a pure￾blood if neither his or her 
+parents nor grandparents were 
+Muggles or Muggle-borns. 
+The most illustrious Pure–
+blood families are the Sacred 
+Twenty-Eight. Wizarding 
+dynasties listed in the Pure–
+Blood Directory published in 
+the 1930s. 
+Roll for your family name. 
+Each family has specific skills 
+that your character begins the 
+game with (see page 13), 
+including differing levels of 
+Prestige connected to their 
+exalted name. 
+Some families are marked 
+Inert because their line is 
+extinct or reduced to a single 
+member. 
+You may find yourself 
+connected to prominent 
+individuals in the wizarding 
+world, but you’re only likely to 
+be a first or second cousin, so 
+don’t expect any special 
+treatment.
+Roll 1D100 Family Starting skill
+1–4 Abbot* Prestige: 2 Herbology: 1
+5–8 Avery Charms: 2 Prestige: 1
+9–12 Black Prestige: 3
+13–16 Bulstrode Prestige: 1 Magical Creatures: 2
+17–20 Burke Dark Arts: 2 Prestige: 1
+21–24 Carrow Duelling: 1 Prestige: 2
+25–28 Crouch Law: 1 Prestige: 2
+29–32 Fawley Crafting: 1 Prestige: 2
+33–36 Flint Broomstick Flying: 2 Prestige: 1
+Inert Gaunt N/A
+37–40 Greengrass* Charms: 1 Prestige: 2
+41–44 Lestrange Dark Arts: 1 Prestige: 2
+45–48 Longbottom* Prestige: 1 Herbology: 2
+49–53 Macmillan* Authority: 1 Prestige: 2
+53–56 Malfoy Prestige: 3
+57–60 Nott Prestige: 1 Stealth: 2
+61–64 Ollivander Prestige: 2 Wandlore: 1
+65–68 Parkinson Chicanery: 2 Prestige: 1
+69–72 Prewett* Prestige: 1 Strategy: 2
+73–76 Rosier Observation: 2 Prestige: 1
+77–80 Rowle Prestige: 1 Skirmishing: 2
+81–84 Selwyn History of Magic: 1 Prestige: 2
+Inert Shacklebolt N/A
+Inert Shafiq N/A
+85–88 Slughorn Prestige: 2 Potions: 1
+89–92 Travers Concealment: 2 Prestige: 1
+93–96 Weasley* Broomstick Flying: 2 Strategy: 1
+97–100 Yaxley Duelling: 2 Prestige: 1
+* Families generally less staunch about blood purity.
+[s. 8]
+8
+8
+Part–humans
+Part–humans 
+Characters with one human 
+and one non–human parent 
+inherit some of their non–
+human parent’s traits. 
+Half–Elf 
+A House–Elf, or more 
+correctly an Elf, is a magical 
+being devoted to serving their 
+master or masters. House-elves 
+tend to be bonded to old 
+wizarding families and can 
+only be freed when their 
+master present them with 
+clothes. Their offspring, Part– 
+elves, are entirely free, but do 
+frequently fixate on a family or 
+group of friends. Part–Elf’s do 
+not need wands and suffer no 
+penalty for windless magic. In 
+fact they gain a +3 bonus 
+when using a wand. Half–Elf’s 
+are also immune to spells that 
+inhibit Apparition; the Anti–
+Apparition Charm and the 
+Anti–Disapparition Jinx 
+(see page 47) and to 
+spells that block or 
+detect entry; the Anti–
+intruder Jinx (see page 
+47), the Caterwauling 
+Charm (see page 48) 
+and the Intruder 
+Charm (see page 53). 
+Half–Giant 
+beings with half giant heritage 
+and half human. Rubeus 
+Hagrid had a giant mother and 
+a wizard father. Half–Giants 
+share the blood heritage of 
+their ancestors which grants 
+them a degree of spell 
+resistance. When resisting 
+aimed spells (see page 41), 
+a Half–Giant has one or more 
+dice of magical armour (see 
+right). 
+From birth, a Half–Giant has 
+1D of magical protection. 
+At the age of twelve they gain 
+an extra dice and an additional 
+dice every two years until they 
+reach the age of eighteen (see 
+right). 
+Half–Giants also have greater 
+strength and endurance than 
+the equivalent human, gaining 
+a bonus point of Vitality at 
+various ages as shown on the 
+chart below, along with their 
+magical resistance. 
+The bonuses are cumulative, 
+so if you are creating a 16
+year–old Half–Giant witch 
+or wizard, they would have 
+4D magical armour and 
+seven bonus Vitality points. 
+Naturally, Half–Giants are 
+extremely tall and broad. 
+At birth they are no different 
+in size to a human baby, but 
+will ultimately grow to 
+between 8 to 13 feet tall. 
+Hagrid was taller than his 
+wizard father at the age of six, 
+and was already around 
+eleven feet tall at the start of 
+his teens. Growing to eleven 
+and a half feet in adulthood.
+Roll 1D100 Parentage
+1–2 House–Elf
+3–4 Giant
+5–6 Goblin
+7–8 Veela
+9–10 Vampire
+Age Magical
+Armour
+Vitality
+Bonus
+1–5 1D +1
+6 – 11 – +1
+12 +1D +1
+13 – +1
+14 +1D +1
+15 – +1
+16 +1D +1
+17 – +1
+18 +1D +1
+[s. 9]
+9
+9
+Part–humans
+Part–Goblin 
+Of Goblin ancestry, Part–
+Goblins are much shorter 
+than humans, but frequently 
+quicker witted. 
+When you create a part–
+Goblin character add +2
+points to their Wits attribute 
+(see page 12) and +3 to their 
+Crafting skill (see page 21). 
+Part–Goblins are allowed to 
+carry wands and perform 
+wand magic, and are not 
+covered by the Wand Ban that 
+prohibits full Goblins from 
+using wands. Professor Filius 
+Flitwick, Charms Master at 
+Hogwarts, is part–Goblin and 
+a formidable wizard and 
+duelling champion, so Goblin 
+heritage is no bar to wizarding 
+prowess. 
+Goblins possess innate 
+metalworking magic. When a 
+Part–Goblin is crafting a 
+metal, or largely metal, object 
+for enchantment (see page 71), 
+they gain a +5 bonus to their 
+Crafting Score (see page 73). 
+Part–Veela 
+Veela are magical beings 
+native to Bulgaria who are 
+young and beautiful, with 
+white-gold hair and moon￾bright skin. Their appearance 
+and their movements are 
+hypnotically seductive, but 
+they can transform into fierce 
+bird–like creatures like 
+Harpies when angered. 
+Veela hair can be used as a 
+wand core (see page 29) and 
+pairs well with Cherry, 
+Redwood, and Rosewood. 
+Despite the lack of their 
+antecedent’s siren like 
+abilities, part–Veela begin 
+with 5 points in their 
+Persuasion skill (see 
+page 23), 2 points in the 
+Authority skill (see page 21) 
+and, because of their charm, 
+2 points in the Magical 
+Creatures skill (see page 22). 
+Part–Vampire 
+Muggle vampires may bestially 
+rip open the necks of their 
+prey, but wizarding vampires 
+are far more civilised, using a 
+variation of the Tergeo spell to 
+siphon the blood from their 
+victims. Modern vampires 
+more often use Transfiguration 
+to turn water, or wine, or some 
+other potable liquid into a 
+facsimile of blood. Part–
+Vampires don’t have a need to 
+drink blood, but may still 
+imbibe at family gatherings. 
+Part–Vampires are pale and 
+find very bright sunlight 
+uncomfortable. They also 
+retain some of the physical 
+advantages of their ancestors. 
+When you create a part–
+Vampire character add +2
+points to their Speed attribute 
+(see page 12). They also begin 
+with +3 points in their Stealth 
+skill (see page 23). 
+[s. 10]
+10
+10
+Rare Traits
+3. Rare Traits 
+Some abilities are are highly 
+uncommon among wizard 
+kind. Roll to see if you are 
+lucky (or unlucky) enough to 
+possess one of these traits. 
+Wand Versatility
+You can use other wizard’s 
+wands without gaining the 
+wand’s allegiance. The penalty 
+for using another wizards 
+wand (see page 41) is reduced 
+by five points. 
+Seer
+You have the ability to see into 
+the future with your Inner 
+Eye. Seeing into the future is 
+incredibly difficult because of 
+the complexity of every single 
+action and their consequences. 
+Visions are frequently unclear 
+and wildly open to 
+misinterpretation, and not all 
+seers have control over their 
+power. Whenever the Narrator 
+awards you with a vision, roll 
+1D10+Focus+Divination. 
+If you roll 16+, you retain 
+awareness of the outside world 
+and can remember your 
+predictions. If you fail the roll, 
+although the people around 
+you will hear your prophecy, 
+once you leave the trance state 
+you will have no idea that 
+anything out of the ordinary 
+happened. 
+ 
+Metamorphmagus
+You have a rare magical ability 
+to change you physical 
+appearance at will, without the 
+need for Polyjuice Potion, 
+Transfiguration spell, or other 
+external means. You can 
+change your appearance to 
+exactly resemble anybody you 
+have a chance to observe, 
+including ghosts, or alter it to 
+disguise your appearance. 
+You still need to roll 
+1D10+Wits+Disguise to 
+mimic their personality and 
+behaviour. You can substitute 
+Chicanery or Art (Acting) for 
+Disguise, if those skills are 
+higher. A roll of 5+ will fool 
+somebody who barely knows 
+the person you are mimicking, 
+10+ for somebody who knows 
+them well, and 15+ for 
+somebody who knows them 
+intimately (a family member, 
+for example). These abilities 
+are affected by your emotional 
+state, and you cannot use this 
+ability if your mental state is 
+“Drained” or worse (see page 
+35). 
+ 
+Parseltongue
+You can speak Parseltongue, 
+the hissing language of 
+serpents (as well as other 
+magical serpentine creatures, 
+like the Runespoor and 
+Basilisk). A wizard or witch 
+who speaks Parseltongue is 
+known as a Parselmouth. It is 
+normally a hereditary ability 
+and nearly all known 
+Parselmouths are descended 
+from Salazar Slytherin. The 
+ability has an association with 
+Dark wizards which generally 
+causes fear and distrust of 
+those with the ability. 
+ 
+Lycanthropy
+You were bitten by a werewolf, 
+but your wounds were treated 
+with a mixture of powdered 
+silver and dittany. This saved 
+your life, but cursed you to 
+transform into a werewolf 
+during the complete rising of 
+the full moon. This Lunar 
+event happens once during 
+each month and transforms 
+you into an uncontrollable, 
+fearsome, and deadly werewolf 
+(see page 64). You can use the 
+Wolfsbane Potion (see page 
+101) to retain your human 
+mind and avoid changing into 
+a mindless beast. 
+Werewolves suffer from the 
+disdain experienced by half–
+breeds. It is not uncommon 
+for people known to be 
+werewolves to be shunned by 
+society and discriminated 
+against within the wizarding 
+world. For example, it is very 
+difficult for a werewolf to get 
+a job in the wizarding 
+community.
+Roll 1D100 Trait
+1–95 No trait
+96 Wand Versatility
+97 Seer
+98 Metamorphmagus
+99 Parseltongue
+100 Lycanthropy
+[s. 11]
+11
+11
+Character Foundations
+4. Choose a 
+ Profession 
+If you’re playing students at 
+Hogwarts or one of the other 
+Wizarding schools, you can 
+skip this step. The Harry 
+Potter RPG allows you to play 
+witches and wizards at any 
+stage in their school career 
+and beyond. If you’re playing a 
+working wizard you can 
+choose one of the professions 
+on pages 19–20. 
+5. School, Year 
+ and House 
+Most characters will be 
+current students or ex–
+students of Hogwarts School 
+of Witchcraft and Wizardry, 
+but you could easily explore 
+new territory with a campaign 
+set in a different school, or 
+mix things up with an 
+exchange student from a 
+different institution joining 
+students at Hogwarts. There 
+are two other large Schools of 
+magic in Europe; Beauxbaton 
+Academy in France, and The 
+Durmstrang Institute in 
+Eastern Europe. 
+You can play a character 
+from a querulous first–year or
+start off later in their
+academic life (see page 17).
+You can even jump straight
+into playing a fully–qualified
+adult witch or wizard (see
+page 20). Where you start will
+depend on the story that the
+Narrator wants to tell, so
+check with them first. 
+Fill in your school (in most 
+cases, Hogwarts), your year 
+and House. If your Character 
+has left Hogwarts just put the 
+year they left. Alternatively, not 
+every member of the 
+wizarding world will have 
+attended a school of magic in 
+which case just leave this part 
+of the character sheet blank. 
+New students are placed into 
+their Houses (see right) by the 
+Narrator in the guise of the 
+Sorting Hat (see page 152). 
+Players will generally be in the 
+same House because they will 
+share the same common room 
+and attend the same classes. 
+Houses share lessons but are 
+insular and often harbour 
+rivalries that can make 
+cooperative play very tricky. 
+Hogwarts has four School 
+Houses (see page 153): 
+Gryffindor 
+Founded by Godric 
+Gryffindor. Their values are 
+bravery, daring, and chivalry. 
+Its emblem is the Lion. 
+Hufflepuff 
+Founded by Helga Hufflepuff, 
+Their values are hard work, 
+patience, loyalty, and fair play. 
+Its emblem is the Badger. 
+Ravenclaw 
+Founded by Rowena 
+Ravenclaw. Their values are 
+intelligence, knowledge, and 
+wit. Its emblem is the Eagle. 
+Slytherin 
+Founded by Salazar Slytherin. 
+Their values are ambition, 
+cunning and resourcefulness. 
+Its emblem is the Snake.
+Roll 1D100 House
+1–25 Gryffindor
+26–50 Hufflepuf
+51–75 Ravenclaw
+76–100 Slytherin
+[s. 12]
+12
+12
+Define Your Attributes
+What are 
+attributes? 
+Your attributes are qualities 
+that define your character’s 
+ability in five key areas. 
+Vitality 
+Your strength and physical 
+endurance. Your life force. 
+Speed 
+Your reflexes and 
+coordination. Your ability to 
+react and move quickly. 
+Wits 
+Your quickness of thought and 
+perception. Your analytical 
+qualities. 
+Knowledge 
+Your wisdom and accumulated 
+knowledge. Your store of 
+experience. 
+Focus 
+Your discipline and mental 
+strength. Your ability to 
+control magical forces. 
+Each attribute is expressed as 
+a number. The higher the 
+number, the better you will 
+perform in that area. The 
+normal range for a wizard is 
+between one and ten. 
+Some exceptional individuals, 
+like Albus Dumbledore or 
+Lord Voldemort do have 
+attributes higher than ten. It is 
+not impossible that you will 
+attain that kind of mythic 
+ability, but it would require a 
+very long lived character and 
+much sacrifice. 
+Creating a New 
+Character 
+To create a new character 
+divide 11 points between the 
+five attributes. You must allot 
+at least one point to each. 
+Write the score in the 
+adjacent box on your character 
+sheet. For example: 
+“One minute to go and he’d be 
+eleven. Thirty seconds… 
+twenty… ten… nine — maybe 
+he’d wake Dudley up, just to 
+annoy him — three… two… 
+one… BOOM.” 
+These 11 points defines your 
+character at age eleven, 
+entering your first year of 
+study. At each subsequent 
+birthday you can add an extra 
+point to one of your attributes 
+until the age of 18. 
+If you create an older student 
+(see pages 17–18) you will 
+have extra points to add to 
+your Attributes. In the same 
+way, if you want to create a 
+younger character you just 
+reduce the number of 
+Attribute points. For example, 
+to create a seven year–old 
+fledgling wizard you just 
+divide seven points between 
+the five Attributes. 
+Wands 
+A wand is the one 
+indispensable tool of any 
+witch or wizard and it is vital 
+that you have a wand that suits 
+your character. 
+Talk through the outline of 
+your character with the 
+Narrator to identify the ideal 
+material for your wand. 
+Different woods have different 
+bonuses. If you want to play an 
+innately good wizard, a wand 
+with a proclivity for the dark 
+arts may not be the best 
+choice. On the other hand, not 
+everybody starts with their 
+ideal wand. Many young 
+wizards have been held back 
+by a hand–me–down wand. 
+At the Narrator’s discretion 
+you can choose your ideal 
+wand, roll your wand using 
+the information on pages 24 to 
+30, or a combination of the 
+two approaches. 
+Pets 
+All Hogwarts students are 
+allowed a pet. First year 
+students are only permitted 
+a Cat, Owl, or Toad. Older 
+students may choose more 
+exotic animals. Choose one 
+or use the table below.
+Roll 1D100 Pet
+1–50 Owl
+51–90 Cat
+91–100 Toad
+[s. 13]
+13
+13
+Skills 
+The skills section of your 
+character sheet lists commonly 
+encountered skills in the 
+wizarding world (see pages 21–
+23 for skill descriptions) and 
+an optional blank line for a 
+less common skill that makes 
+your character unique. Skills 
+begin at zero points. You can 
+add points to skills during 
+character creation (see right) 
+or during play using Story 
+Points (see page 31). When a 
+skill reaches 5 points or above, 
+you can choose a specialism. 
+For example: 
+ Magical Creatures (Dragons) 
+ Music (Bagpipes) 
+ Riding (Horse) 
+ Strategy (Wizard Chess) 
+ 
+You gain a +1 bonus to any 
+roll involving your specialism. 
+For example, if you specialised 
+in playing the bagpipes, you 
+add +1 to your Music roll 
+when playing the pipes. 
+Childhood skills 
+Divide twelve points between 
+any of the following skills 
+(Half–blood and Pureblood 
+characters have one or two 
+additional options). Then 
+divide three points freely 
+between any other skills of 
+your choice, including First 
+Year spells (see right); 
+ 
+Art 
+Astronomy 
+Balance 
+Chicanery 
+Concealment 
+Crafting 
+Music 
+Observation 
+Riding 
+Stealth 
+Strategy 
+Swimming 
+Trivia 
+ 
+Half–blood as above, plus:
+Broomstick Flying. 
+ 
+Pure–blood as above, plus:
+Broomstick Flying, or 
+Prestige 
+Existing Spells 
+If you’re a keen bean, like 
+Hermione Granger, you might 
+have already learned a spell or 
+two. You can sacrifice a skill 
+point to mark off one box (see 
+page 31) of a first–year spell 
+(see page 18). 
+Beyond First Year 
+If you’re entering your first 
+year at Hogwarts then you 
+won’t have any additional 
+skills. You’ll learn them during 
+play. If you’re starting as a 
+second year or higher use the 
+tables on pages 17–18 to select 
+additional skills and spells. 
+The Wider World 
+Adult witches and wizards will 
+have professional skills 
+dependant on their career. 
+See pages 19–20 for details on 
+creating a fully–formed witch 
+or wizard.
+Choose Your Skills
+As well as a character sheet, there 
+is also a double–page spell and 
+potion sheet to record your 
+magical attainment (see page 175). 
+Adult wizards and older students 
+will mark off boxes to show the 
+spells and potions they’ve learned 
+or are learning, but most new 
+arrivals at Hogwarts won’t have 
+any signifiant magical knowledge. 
+If your character is particularly
+precocious, you can use one of
+your three free spend skill points
+to mark off one First Year spell
+box (see page 13).
+[s. 14]
+14
+14
+Example Character creation
+Introducing, Verity 
+Hopkins, First Year 
+Half–blood witch. 
+As a Half–blood, she doesn’t 
+begin with any existing skills, 
+like a Muggle–born or Pure–
+blood witch, but she does 
+begin with three Story Points 
+(see page 4) which she marks 
+at the bottom–right of her 
+character sheet. 
+Verity is sorted into the 
+knowledge rich Ravenclaw 
+House (see page 154). 
+She divides eleven points 
+between her attributes (see 
+page 12) and puts the majority 
+of her points into Wits and 
+Knowledge to fit in with her 
+fellow Ravenclaws. She rolls 
+for her pet (see page 12) and is 
+pleased to have an Owl. She 
+names him Hermes. 
+Verity rolls for her wand (see 
+page 24–30) and receives a 
+springy Chestnut wand with a 
+Unicorn Hair core. Chestnut 
+and Unicorn Hair are a good 
+combination, so she she gets a 
+slightly better bonus when 
+using protective magic. 
+She has twelve points to 
+divide between childhood 
+skills (see page 13), and 
+chooses Art, Broomstick 
+Flying, Observation, and 
+Strategy (Quidditch). 
+She puts most of her points 
+into Broomstick Flying, 
+hoping to be selected for the 
+Ravenclaw Quidditch team. 
+She also has three points to 
+spend on any other skills or 
+First Year magic. Most 
+students don’t start with any 
+magical knowledge, but she 
+likes the idea of arriving with a 
+spell in hand. She looks down 
+the list of First Year spells (see 
+page 18) and thinks that 
+Flipendo, the Knockback Jinx, 
+sounds like a useful spell to 
+have, so she uses two of her 
+points to mark off two boxes. 
+She now knows the Flipendo 
+spell and can use it freely. 
+The last of her three points 
+she uses to give her one point 
+in the Archivist skill.
+ The Roleplaying Game
+Vitality
+Speed
+Wits
+Knowledge
+Focus
+Alchemy ............................................................. ................
+Ancient Runes ............................................. ................
+Ancient Studies .......................................... ................
+Archivist ............................................................ ................
+Arithmancy ..................................................... ................
+Art .......................................................................... ................
+Astronomy ....................................................... ................
+Authority .......................................................... ................
+Balance ................................................................. ................
+Broomstick Flying ..................................... ................
+Charms ............................................................... ................
+Chicanery ......................................................... ................ 
+Concealment .................................................. ................
+Crafting ............................................................. ................
+Dark Arts ........................................................ ................
+D.A.D.A .............................................................. ................
+Disguise .............................................................. ................
+Divination ......................................................... ................
+Duelling .............................................................. ................
+Herbology ........................................................ ................
+History of Magic ...................................... ................
+Law ......................................................................... ................
+Magical Creatures .................................. ................
+Magical Theory ......................................... ................
+Muggle Studies .......................................... ................
+Music .................................................................... ................
+Observation ................................................... ................
+Occlumency ..................................................... ................
+Persuasion ......................................................... ................
+Potions ................................................................. ................
+Prestige .............................................................. ................
+Riding ................................................................... ................
+Strategy ............................................................. ................
+Skirmishing ..................................................... ................
+Stealth ................................................................. ................
+Swimming ......................................................... ................
+Tracking ............................................................ ................
+Transfiguration .......................................... ................
+Transportation ............................................ ................
+Trivia .................................................................... ................
+Wandlore ......................................................... ................
+ .................................................................................... ................
+Skills
+Wand
+Wood ...................................
+Length .................................
+Core ....................................
+Flex .....................................
+RESILIENCE ..........................
+WAND BONUSES, &c.
+........................................................
+........................................................
+........................................................
+........................................................
+........................................................
+........................................................
+........................................................
+Name
+School
+Year
+House
+Profession
+MIND
+Body
+PENALTY +1 +2 +3 +5 +7 X
+Shaken Bruised Bloodied Broken Fading Lifeless
+Rattled Dazed Drained Confused Raving Mindless
+Health Story Points
+PATRONUS
+Lineage
+N Verity Hopkins PET
+Half–blood
+Student
+2
+2
+3
+3
+1 Chestnut
+7¼”
+Unicorn Hair
+Springy
+2D+2
+Herbology +1 
+Magical Creatures +1 
+Healing Magic +2 
+Protective Magic +2
+3
+Hogwarts
+Ravenclaw
+1
+2
+4
+3
+Quidditch 2
+1
+Hermes (Owl)
+[s. 15]
+15
+15
+First Year and Beyond
+Each year on 1st 
+September, new and 
+returning students take 
+the Hogwarts Express from 
+platform 9¾ at King’s Cross 
+Station. You can begin your 
+journey as a fledgling eleven 
+year old student and play 
+through your education year–
+by–year, or jump straight into 
+an older year. 
+First Year 
+You are taken by boat across 
+the Black Lake to Hogwarts. 
+On arrival you are sorted into 
+the House that will become 
+your family through your 
+magical education. During the 
+first year you study the Core 
+Subjects and take broomstick 
+flying lessons. 
+Second Year 
+Second year and higher, you 
+travel from Hogsmeade Village 
+to the school in a carriage 
+drawn by invisible horses. You 
+continue the Core Subjects. 
+Broomstick flying lessons are 
+optional, but you can fly your 
+own broom on school 
+grounds. You can try out for 
+your house Quidditch team. 
+Third & Fourth Year 
+As well as continuing with the 
+Core Subjects, you study at 
+least two Elective Subjects. 
+Students can also visit 
+Hogsmeade on selected 
+weekends. During the fourth 
+year, work increases as 
+preparations begins for 
+O.W.L. (Ordinary Wizarding 
+Level) Examinations. 
+Fifth Year 
+A demanding year as you work 
+towards O.W.L. exams at the 
+end of the year. Homework 
+increases and many students 
+are forced to drop an Elective. 
+Your O.W.L. results will 
+determine the Nastily 
+Exhausting Wizarding Test 
+(N.E.W.T.) exams you take in 
+Year Seven. Career 
+counselling also begins to 
+help you select appropriate 
+N.E.W.T.S. 
+Sixth Year 
+Students have more free time, 
+but this is all used up with 
+increased homework and 
+studying for N.E.W.T. Exams. 
+Students only take classes 
+where O.W.L. results qualify 
+them to advance to N.E.W.T. 
+examinations. Specialised 
+classes like Alchemy become 
+available (subject to demand) 
+and students can start taking 
+Apparition lessons for a fee of 
+twelve Galleons. 
+Seventh Year 
+The final year of formal 
+magical education. One male 
+and one female student are 
+selected from seventh year to 
+be Head Boy and Girl. 
+Students continue their 
+classes from sixth year as they 
+approach their N.E.W.T. 
+exams. 
+ 
+At the end of the seventh
+year, final year students
+travel back across the Black
+Lake to their graduation
+ceremony. 
+Creating a second 
+year or above 
+If you’ve created your 
+character using the rules on 
+pages 5–14 you are ready to 
+begin play as a First Year. 
+To create a Second Year 
+student or above, choose the 
+appropriate row on the table 
+opposite. 
+Only add points from ONE 
+row. The row for the school 
+years you’ve completed shows 
+you how many accumulated 
+points to divide between your 
+five attributes and your skills. 
+These reflect your education, 
+natural development, and 
+Story Points spent up until 
+this point. 
+For example, you decide to 
+create a student beginning 
+their fourth year. You use the 
+row for Years completed: 1–3. 
+You start by creating a basic 
+character and then divide 
+seven additional points 
+between your attributes on top 
+of the eleven starting points. 
+You then add points to your 
+skills as indicated on that row. 
+Once you’ve added to your 
+attributes and skills, you’ll also 
+need to decide what spells and 
+potions you’ve spent your time 
+learning. See page 15–18 for 
+potions and spells by year. 
+If you are creating an adult 
+witch or wizard, use the row 
+for the years you attended 
+school. There’s a row marked 
+Graduated for students that 
+made it to their final year. 
+Then go on to page 19 to add 
+some professional skills.
+[s. 16]
+16
+16
+First Year and Beyond
+Years 
+completed Attributes Skills
+1
+12 years old.
++3
+Allocate 1 point to each Core Subject, plus Broomstick Flying. 
+Divide 3 additional points between Core Subjects. Divide 3 points 
+between skills of your choice.
+1–2
+13 years old.
++5
+Allocate 1 point to each Core Subject, plus Broomstick Flying. 
+Divide 6 additional points between Core Subjects and/or 2nd Year 
+Elective Subjects. Divide 6 points between skills of your choice.
+1–3
+14 years old.
++7
+Allocate 1 point to each Core Subject. Divide 9 additional points 
+between Core Subjects, 3rd–5th Year Elective Subjects, and/or 
+Broomstick Flying. Divide 9 points between skills of your choice.
+1–4
+15 years old.
++9
+Allocate 1 point to each Core Subject. Divide 12 additional points 
+between Core Subjects, 3rd–5th Year Elective Subjects, and/or 
+Broomstick Flying. Divide 12 points between skills of your choice.
+1–5
+16 years old.
++11
+Allocate 1 point to each Core Subject. Divide 15 additional points 
+between Core Subjects, 3rd–5th Year Elective Subjects, and/or 
+Broomstick Flying. Divide 15 points between skills of your choice.
+1–6
+17 years old with
+O.W.L. Qualifications
++13
+Allocate 2 point to each Core Subject. Divide 18 additional points 
+between Core and Examination Subjects. Divide 10 points between 
+6th–7th Year Elective Subjects, and/or Broomstick Flying.
+Divide 18 points between skills of your choice.
+Graduated
+(Completed 
+years 1–7)
+18 years or older with 
+O.W.L. and N.E.W.T. 
+Qualifications
++15
+Allocate 2 point to each Core Subject. Divide 21 additional points 
+between Core and Examination Subjects. Divide 15 points between 
+6th–7th Year Elective Subjects, and/or Broomstick Flying.
+Divide 21 points between skills of your choice.
+Core Subjects 2nd Year Electives 3rd–5th Year
+Electives
+Examination
+Subjects
+6th–7th Year
+Electives
+• Astronomy
+• Charms
+• Defence Against 
+the Dark Arts 
+(D.A.D.A.)
+• Herbology
+• History of Magic
+• Magical Theory
+• Potions
+• Transfiguration
+• Broomstick Flying
+• Duelling*
+• Magical Theory
+• Ancient Runes
+• Arithmancy
+• Art
+• Divination
+• Duelling*
+• Magical Creatures
+• Magical Theory
+• Muggle Studies
+• Music
+• Ancient Runes
+• Ancient Studies
+• Arithmancy
+• Charms
+• Herbology
+• History of Magic
+• Magical Creatures
+• Muggle Studies
+• Potions
+• Transfiguration
+• Alchemy*
+• Apparition 
+(Lessons)
+• Art
+• Divination
+• Duelling*
+• Magical Theory
+• Music
+• Wandlore
+* Not always officially available. Provision of Alchemy classes is subject to demand and the Duelling Club was 
+only generally available during Harry Potter’s time at Hogwarts in 1992 (ending in chaos) and 1996. There is 
+nothing to stop students conducting their own unofficial duelling practice.
+[s. 17]
+17
+17
+Magical Teaching 
+Students at Hogwarts will 
+typically spend four to six 
+hours each week learning the 
+Core Subjects. The main bulk 
+of their time split between the 
+four practical magic sessions; 
+Charms, Defence Against the 
+Dark Arts, Transfiguration, and 
+Potions. 
+The distribution of time 
+between the core subjects will 
+change as they advance 
+through the school. In the first 
+year learning is weighted 
+towards Charms classes, but as 
+their study becomes more 
+advanced an increasing share 
+of the timetable will be spent 
+on the challenging mastery of 
+Transfiguration and the life–
+saving Defence Against the 
+Dark Arts. The rigorous study 
+of Potions will be maintained 
+throughout their time at the 
+school. 
+Spells & Potions 
+The Spell Sheet has boxes 
+besides each spell and potion 
+that you fill in as they are 
+learned (see page 40 for a full 
+description). For example: 
+The table below shows you 
+how many numbered boxes 
+you can fill in from left to 
+right. When all the boxes have 
+been filled in you have 
+mastered that spell or potion 
+and don’t need to roll. 
+For example, you could fill in 
+four boxes to fully learn 
+Bombarda and to almost 
+master the more powerful 
+Bombarda Maxima:
+First Year and Beyond
+Years 
+completed Classroom Spells Other Spells and Potions
+1 10 boxes of
+1st year spells
+10 boxes 2nd/3rd year spells or 
+beginner potions
+1–2 20 boxes of 1st–2nd
+year spells
+15 boxes 3rd/4th year spells or 
+beginner potions
+1–3 30 boxes of
+1st–3rd year spells
+20 boxes 4th/5th year spells or 
+intermediate potions
+1–4 40 boxes of
+1st–4th year spells
+25 boxes 5th/6th year spells or 
+intermediate potions
+1–5 50 boxes of
+1st–5th year spells
+30 boxes 6th/7th year spells or 
+advanced potions
+1–6 70 boxes of
+1st–6th year spells
+35 boxes 7th year or non–curricular 
+spells or expert potions 
+1–7 
+Graduated
+90 boxes of
+1st–7th year spells 40 boxes of any spells or potions
+ Cn Bombarda 
+FCn Bombarda Maxima
+ Cn Bombarda 
+FCn Bombarda Maxima
+Beginner Advanced
+Babbling 
+Beverage Ageing Potion
+Befuddlement 
+Draught Amortentia
+Confusing 
+Concoction Calming Draught
+Cure for Boils Draught of Peace
+Deflating Draught Elixir to induce 
+Euphoria
+Fire Protection 
+Potion
+Love Potion 
+Antidote
+Forgetfulness 
+Potion Polyjuice Potion
+Murtlap Essence Shrinking 
+Solution
+Pepperup Potion Sleeping Draught
+Swelling Solution Wound–cleaning 
+Potion
+Intermediate Expert
+Blood 
+Replenishing 
+Potion
+Animagus Potion
+Burn Healing 
+Past
+Draught of Living 
+Death
+Hair Raising 
+Potion
+Felix Felicis
+(Liquid Luck)
+Invigoration 
+Draught Veritaserum
+Mandrake 
+Restorative 
+Draught
+Veritaserum 
+Antidote
+Skele–Gro Wolfsbane 
+Potion
+Strengthening 
+Solution
+Wit–sharpening 
+Potion
+[s. 18]
+18
+18
+1st Year Spells 2nd Year Spells 3rd Year Spells 4th Year Spells
+• Alohomora
+• Avifors
+• Bluebell Flames
+• Diffindo
+• Feather–light Charm
+• Flagrate
+• Flipendo
+• Incendio
+• Locomotor
+• Lumos
+• Nox
+• Reparo
+• Spongify
+• Switching Spell
+• Verdimillious
+• Wingardium Leviosa
+• Aparecium
+• Engorgio
+• Expelliarmus
+• Extinguishing Charm
+• Hot Air Charm
+• Immobulus
+• Impervius
+• Inflatus
+• Locomotor Wibbly
+• Mimblewimble
+• Mobiliarbus
+• Reducio
+• Revelio
+• Rictustempra
+• Specialis Revelio
+• Tarantallegra
+• Unbreakable Charm
+• Vermillious
+• Alarte Ascendare
+• Baubillious
+• Carpe Retractum
+• Cheering Charm
+• Colovaria
+• Depulso
+• Descendo
+• Draconifors
+• Duro
+• Erecto
+• Finite Incantatem
+• Flame Freezing Charm
+• Intruder Charm
+• Obliteration Charm
+• Petrificus Totalus
+• Relashio
+• Riddikulus
+• Trip Jinx
+• Accio
+• Bombarda
+• Cistem Aperio
+• Colloportus
+• Confundo
+• Densaugeo
+• Diminuendo
+• Episkey
+• Expects Patronum
+• Fera Verto
+• Imperturbable Charm
+• Orchideous
+• Protego
+• Rennervate
+• Scourgify
+• Serpentsortia
+• Stinging Jinx
+• Tergeo
+5th Year Spells 6th Year Spells 7th Year Spells Non–curricular Spells
+• Arresto Momentum
+• Deletrius
+• Deprimo
+• Disillusionment Charm
+• Evanesco
+• Everete Statum
+• Geminio
+• Homenum Revelio
+• Impedimenta
+• Molliare
+• Muffliato
+• Packing Charm
+• Piscifors
+• Prior Incantato
+• Protego Totalum
+• Quietus
+• Reducto
+• Salvio Hexia
+• Silencio
+• Sonorus
+• Stupefy
+• Vipera Evanesca
+• Age Line
+• Aguamenti
+• Anti–apparition Charm
+• Anti–disapparition Jinx
+• Anti–intruder Jinx
+• Apparition
+• Avis
+• Bombarda Maxima
+• Bubble–head Charm
+• Caterwauling Charm
+• Cave Inimicum
+• Crinis Muto
+• Defodio
+• Drought Charm
+• Glisseo
+• Homorphus Charm
+• Obliviate
+• Oppugno
+• Piertotum Locomotor
+• Protego Horribilis
+• Repello Inimicum
+• Repello Muggletum
+• Anapneo
+• Atmospheric Charm
+• Brackium Emendo
+• Capacious Extremis
+• Confringo
+• Expulso
+• False Memory Charm
+• Ferula
+• Fianto Duri
+• Fidelius Charm
+• Flagrante
+• Flying Charm
+• Homonculous Charm
+• Incarcerous
+• Legilimens
+• Meteolojinx Recanto
+• Obscuro
+• Permanent Sticking 
+Charm
+• Portus
+• Protean Charm
+• Taboo Curse
+• Amato Animo Animato 
+Animagus
+• Arvada Kedavra §
+• Broom Jinx
+• Conjunctivitis Curse
+• Crucio §
+• FiendFyre
+• Furnunculus
+• Imperio §
+• Levicorpus
+• Liberacorpus
+• Locomotor Mortis
+• Mobilicorpus
+• Morsmordre
+• Mucus Ad Nauseam
+• Refilling Charm
+• Sectumsempra
+• Slugulus Eructo
+• Unbreakable Vow
+• Vulnera Sanentur
+• Waddiwasi
+First Year and Beyond
+§ Unforgivable Curse
+[s. 19]
+19
+19
+The Wider World
+There is a whole world 
+beyond Hogwarts. 
+If you’ve ever wondered 
+how the dangerous life of an 
+Auror led Alastor Moony to 
+become a grizzled paranoic 
+forever looking over one 
+shoulder, or how the pressures 
+of being a reporter for the 
+Daily Prophet or The 
+Quibbler can push you to 
+ignore your morals in pursuit 
+of a salacious story, or how the 
+glamorous life of a 
+professional Quidditch player 
+can suddenly turn sour, then 
+you may want to play an adult 
+in the wizarding world. 
+Create the 11 year old self 
+using the standard character 
+creation rules on pages 7–10. 
+Decide your final year at 
+Hogwarts and use pages 17–18
+to allocate extra points to your 
+attributes, your academic 
+skills, spells, and Potions. 
+If you left Hogwarts before the 
+seventh year, add 7 points to 
+skills of your choice for each 
+year you missed. Standards 
+are high for Ministry roles. 
+N.E.W.T. Level qualifications 
+will be expected, so Aurors 
+and Ministry Officers will 
+normally attend all 7 years. 
+Finish your character by 
+dividing 10 points between the 
+skills on the opposite page 
+depending on your chosen 
+profession.
+Roll 1D100 Artifact Roll 1D100 Artifact
+1–10
+Lunascope
+Shows the phases of the moon. 
+Counters the difficulty of using 
+Moon charts.
+61–70
+Revealer
+Looks like an ordinary eraser but 
+renders invisible writing visible 
+when rubbed across it.
+11–20
+Mokeskin Pouch
+Used for storing items which no 
+one but the owner can get out. 
+Bigger on the inside.
+71–80
+Sneakoscope
+Glass spinning top that lights up, 
+spins, and whistles if somebody 
+untrustworthy is nearby.
+21–30
+Omnioculars
+Binoculars that can slow down 
+and replay what you’re viewing.
+81–85
+Foe Glass
+Mirror that shows your enemies 
+as shadows that gain clarity as 
+they draw near.
+31–40
+Rememberall
+Glass sphere that turns red when 
+the owner forgets something.
+86–90
+Secrecy Sensor
+Dark Detector that vibrates when 
+it detects concealment and lies.
+41–50
+Quick–Quotes Quill
+A magical quill that automatically 
+writes down the spoken word.
+91–95
+Pensieve
+Shallow bowl used to store and 
+review memories as though there.
+51–60
+Quality Racing Broom
+A Firebolt, Thunderbolt VII, or 
+similarly high quality broom.
+96–100
+Invisibility Cloak
+A rare, valuable, and well looked 
+after invisibility cloak.
+Enchanted Objects 
+An adult Wizard is bound to have at least one enchanted object (see page 71). Choose a bewitched 
+object that suits your character’s personality or profession, or roll on the table below.
+o
+[s. 20]
+20
+20
+The Wider World
+Activist 
+Chicanery 
+Concealment 
+Law 
+Persuasion 
+Skirmishing 
+Stealth 
+Strategy 
+Alchemist 
+Alchemy 
+Ancient Studies 
+Archivist 
+Crafting 
+Magical Theory 
+Potions 
+Auror 
+Concealment 
+Disguise 
+Duelling 
+Observation 
+Persuasion 
+Stealth 
+Tracking 
+Criminal 
+Chicanery 
+Concealment 
+Disguise 
+Observation 
+Skirmishing 
+Stealth 
+Curse Breaker 
+Ancient Runes 
+Ancient Studies 
+Archivist 
+Arithmancy 
+Balance 
+Observation 
+Herbologist 
+Ancient Studies 
+Archivist 
+Herbology 
+Magical Theory 
+Observation 
+Potions 
+Journalist 
+Art (Broadcast, writing, 
+Photography, or similar) 
+Chicanery 
+Concealment 
+Observation 
+Persuasion 
+Prestige 
+Stealth 
+Magizoologist 
+Concealment 
+Herbology 
+Magical Creatures 
+Riding 
+Stealth 
+Tracking 
+Ministry Officer 
+Archivist 
+Arithmancy 
+Authority 
+Law 
+Muggle Studies 
+Observation 
+Performer 
+Art 
+Balance 
+Chicanery 
+Disguise 
+Music 
+Prestige 
+Professor 
+Archivist 
+Authority 
+History of Magic 
+Observation 
+Persuasion 
+Prestige 
+Trivia 
+Quidditch Player 
+Balance 
+Broomstick Flying 
+Observation 
+Prestige 
+Stealth 
+Strategy 
+Seer 
+Ancient Runes 
+Archivist 
+Arithmancy 
+Astronomy 
+Chicanery 
+Divination 
+Wandmaker 
+Ancient Runes 
+Ancient Studies 
+Archivist 
+Crafting 
+Magical Theory 
+Wandlore 
+Wizarding Noble 
+Authority 
+Command 
+Duelling 
+Prestige 
+Riding 
+Skirmishing 
+Strategy
+[s. 21]
+21
+21
+Skill Descriptions
+Alchemy 
+An ancient science based 
+around the properties and 
+transmutation of the four 
+basic elements. Alchemy is an 
+elective subject taught to sixth 
+and seventh-years only. 
+Ancient Runes 
+The study of ancient texts, 
+although runes are still widely 
+used by the modern magical 
+community. An elective 
+available from the third year. 
+Ancient Studies 
+The ancient origins of magic 
+across the world. Including 
+Ancient Egyptian and Druidic 
+magic. Useful for Curse 
+Breakers and Explorers. 
+An elective during the sixth 
+and seventh years of study. 
+Archivist 
+You know your way around a 
+library and you’re well versed 
+in locating and sifting through 
+old documents, ancient tomes, 
+newspaper clippings, and 
+other ephemera for that vital 
+snippet of information. 
+Arithmancy 
+The study of the complex 
+mathematical properties of 
+numbers. A more scientific 
+method of predicting the 
+future than other forms of 
+divination. An elective subject 
+from the third year. 
+Art 
+A catch all for the creative 
+arts. Ranging from the 
+performing arts like acting and 
+dance, to visual arts like 
+painting, sculpture, and wizard 
+photography. An elective from 
+the third year. 
+Astronomy 
+The study of the stars and 
+movement of planets. A core 
+subject during the first five 
+years of study. 
+Authority 
+You have a position of power, 
+undeniable expertise, or just 
+an air of confidence. You can 
+galvanise and dominate those 
+around you. Useful for 
+inspiring others and quelling 
+cacophonous classrooms. 
+Balance 
+Your physical coordination 
+and equilibrium. Useful for 
+climbing, jumping, throwing 
+and catching, tightrope 
+walking, and many other 
+physical feats. 
+Broomstick Flying 
+First year flying lessons cover 
+broom summoning and 
+mounting, liftoff and landing, 
+and basic flying. Second and 
+third year lessons are optional, 
+The second year covers fast 
+laps and weaving. Third year 
+includes rolling, diving, and 
+loop–the–loop. 
+Charms 
+Charms are a set subject for 
+the first five years of your 
+magical training. Charms 
+account for the majority of 
+spells and are more adaptable 
+than Transfiguration. Charms 
+are less rigorous and exacting 
+than Transfiguration, but are 
+equally powerful. 
+Chicanery 
+Deception, subterfuge, sharp 
+practice, and fast talk. Any 
+attempt to bamboozle for fun 
+or profit is covered by this 
+skill, from minor mischief to 
+grand larceny. You also have a 
+good eye for spotting double–
+dealing and duplicity. 
+Concealment 
+Hiding yourself and allies, 
+palming objects, erasing signs 
+of passage, and obscuring 
+anything that might give you 
+away. Concealment and 
+Disguise is a course taught 
+during Auror training. 
+Crafting 
+Covers a range of constructive 
+crafts; woodworking and 
+metalworking, carving, lens 
+grinding, book binding, and so 
+on. Useful in creating wands 
+and other magical artefacts. 
+Can also be used to modify 
+objects, including Muggle 
+items, but this may fall foul of 
+the Misuse of Muggle Artefacts 
+Office and land you in hot 
+water with the Ministry of 
+Magic. 
+[s. 22]
+22
+22
+Skill Descriptions
+Dark Arts 
+Also known as Dark Magic, 
+the Dark Arts revolve around 
+cruel and malicious magics 
+that seek to harm and control. 
+Dark Magic is inherently 
+corrupting. The Dark Arts are 
+part of the permanent 
+curriculum at Durmstrang, but 
+only taught at Hogwarts when 
+Voldemort controlled the 
+Ministry of Magic between 
+1997 and 1998. 
+Defence Against 
+the Dark Arts 
+(D.A.D.A.) 
+Techniques taught to defend 
+against the Dark Arts (curses, 
+hexes, and jinxes), and dark 
+creatures. Training includes 
+Counter–Spells, and minor 
+curses and jinxes for duelling. 
+Disguise 
+Impersonation and stagecraft 
+to hide your identity or, with 
+sufficient skill, appear to be 
+someone else. Concealment 
+and Disguise is a course 
+taught during Auror training. 
+Divination 
+Rituals and tools to divine the 
+future, including; crystal ball 
+scrying, astrology and 
+horoscopes, and tea leaf 
+reading. Although a useful 
+guide in decision making, 
+divination is notoriously 
+unreliable. Divination is an 
+elective from the third year. 
+Duelling 
+Skill in the formal practise of 
+Wizard Duelling both as a 
+sport and in battle. Wizard 
+Duelling is taught at an extra–
+curricular Duelling Club, 
+although groups of students 
+are also free to organise their 
+own ad–hoc duelling practice. 
+Herbology 
+The study of magical and 
+mundane plants and fungi. 
+The care of these plants and 
+their dangers and uses. 
+A core area of study. 
+History of Magic 
+The history of witches and 
+wizards and the magical world. 
+The foundations of wizarding 
+society, via witch hunts, the 
+Giant Wars, and Goblin 
+Rebellions. A core subject. 
+Law 
+Knowledge of the laws and 
+elaborate legal systems of the 
+wizarding world that govern 
+magical behaviour, preserve 
+secrecy, and avoid anarchy in 
+the wizarding world. 
+Magical Creatures 
+Practical knowledge about the 
+behaviour and habitats of 
+magical creatures and how to 
+maintain and care for them, 
+from Flobberworm to Yetis. 
+Care of Magical Creatures is 
+an elective course from the 
+third year (see page 85). 
+Magical Theory 
+The theoretical foundations of 
+magic, including the basics of 
+how spells work. At advanced 
+levels, the most talented 
+wizards may use it for creating 
+new spells or modifying 
+existing ones. Magical Theory 
+is mandatory in the first year 
+at Hogwarts, but elective 
+thereafter. 
+Muggle Studies 
+The history and daily lives of 
+Muggles. Particularly their 
+amazing ability to live without 
+magic. Vital for blending in 
+with Muggles, but taught as 
+an optional subject from the 
+third year. 
+Music 
+The study of musical 
+performance and composition 
+with one or more instruments. 
+Music is an elective subject at 
+Hogwarts from the third year 
+onwards. Separate classes are 
+available for wizarding and 
+Muggle music. 
+Observation 
+Awareness and perceptiveness. 
+The higher your skill level, the 
+more alert and sharp eyed you 
+are. Useful for spotting small 
+clues, overhearing 
+conversations, and avoiding 
+ambushes. On a good day 
+nothing escapes your notice. 
+A vital skill for Aurors, 
+investigators, hunters, and 
+journalists. 
+[s. 23]
+23
+23
+Skill Descriptions
+Occlumency 
+The magical defence of the 
+mind against external 
+penetration, particularly from 
+Legilimency (see page 44). 
+A practitioner of Occlumency 
+is an Occlumens. Occlumency 
+is not a standard skill and will 
+only be taught with special 
+dispensation. Occlumency can 
+help to resist the effects of the 
+Veritaserum truth Potion. 
+Persuasion 
+Convincing others to see your 
+point of view or to modify 
+their decisions by use of 
+persuasion. Can be through 
+fast talk (Wits+Persuasion) 
+or debate and oratory 
+(Knowledge+Persuasion). 
+Potions 
+The practical brewing of 
+magical potions. A delicate art 
+involving rare ingredients, 
+timing, ageing, stirring 
+techniques, and careful 
+bottling. Potions is a core class 
+for the first five years. 
+Prestige 
+Your standing and influence 
+in the wizard community. 
+Prestige opens doors and calls 
+in favours. Specialisations can 
+include organisations like 
+Hogwarts or the Ministry of 
+Magic. Prestige is not always a 
+positive thing. A strong 
+connection with a particular 
+organisation may make 
+automatic enemies of anybody 
+opposed to that group. 
+Riding 
+The use of beasts, magical and 
+mundane) as mounts and their 
+wrangling. Specialisations 
+include specific beasts like 
+Horses, Gryphons, and 
+Thestrals, or even driving 
+or piloting Muggle vehicles. 
+Strategy 
+The art of planning and 
+analysis for tactical advantage. 
+Useful for skirmishing (see 
+below), Quidditch, Wizards 
+Chess, and other sporting and 
+martial pursuits. 
+Skirmishing 
+The art of brawling, swordplay, 
+and disordered combat. Skill 
+with close–combat and ranged 
+weapons. Specialisations can 
+include particular weapons or 
+martial forms, and even 
+different theatres of combat 
+like forests, corridors, etc. 
+Stealth 
+Careful and silent movement 
+that avoids detection. Stealth 
+and Tracking is a course 
+taught by the Auror’s Office. 
+Specialisations can include 
+particular environments, like 
+urban or rural. 
+Swimming 
+Propelling yourself athletically 
+through water for exercise, 
+recreation, or competition. 
+Specialisation include fresh or 
+saltwater, diving, underwater 
+swimming, or life saving. 
+Tracking 
+The ability to discover clues in 
+your environment that reveal 
+human and animal activity and 
+to follow their movements. 
+Stealth and Tracking is a 
+course taught by the Auror’s 
+Office. 
+Transfiguration 
+Study of the exacting and 
+scientific art of 
+Transfiguration. The alteration 
+of the form or appearance of 
+an object, animal or person. 
+Transportation 
+Study of the various methods 
+of magical transportation, 
+including Apparition, the Floo 
+Network, and Portkey creation. 
+Transportation Magic is 
+heavily regulated by the 
+Ministry of Magic and a 
+licence is required. Practical 
+lessons in Apparition are 
+available from the age of 16, 
+but you can only take your test 
+when you reach the age of 17. 
+Trivia 
+You may have a particular area 
+of interest, but you also have a 
+magpie mind for all sorts of 
+obscure facts and esoterica. 
+Wandlore 
+The mysterious, complex, and 
+ancient lore of the wandmaker 
+and the subtle laws of wands. 
+Wandlore is covered in the 
+sixth year of study.
+[s. 24]
+24
+24
+“Your father, on the other hand, 
+favoured a mahogany wand. 
+Eleven inches. Pliable. A little 
+more power and excellent for 
+transfiguration. Well, I say your 
+father favoured it – it's really the 
+wand that chooses the wizard, of 
+course.” 
+Wands are quasi–
+sentient magical 
+instruments that 
+witches and wizards use to 
+focus their magical powers. 
+Every wand is as individual as 
+their owner and every wand 
+owner feels lost without their 
+individual wand. 
+Each wand has distinctive 
+characteristics; the wood that 
+they are fashioned from, the 
+length of the wand, the wand’s 
+core, and the wand’s flexibility. 
+You can choose the elements 
+of your wand or roll them 
+randomly using the tables on 
+pages 25–26. Given that the 
+wand chooses the witch or 
+wizard, it may be more 
+accurate to roll randomly, but 
+you may have something more 
+specific in mind. 
+Each type of wand wood and 
+wand core offers a particular 
+bonus or bonuses (see pages 
+27–30). 
+Buying Your Wand 
+Most Hogwart’s students will 
+have bought their wands from 
+Ollivander’s in London at 
+Diagon Alley’s South Side or 
+from their branch on the High 
+Street in Hogsmeade. Garrick 
+Ollivander is certainly the 
+most famous Wandmaker in 
+Western Europe and arguably 
+the most celebrated 
+Wandmaker in the World. 
+Ollivander only crafts wands 
+using his three Supreme Cores; 
+Unicorn hair, Dragon 
+heartstring, and Phoenix 
+feather. Ollivander wands cost 
+7 Galleons each. 
+In Eastern Europe, Mykew 
+Gregorovitch is considered the 
+finest Wandmaker. Wands can 
+be purchased at his shop, 
+Gregorovitch Zauberstäbe, 
+somewhere in Central Europe, 
+but are also available to buy at 
+Wands by Gregorovitch sited 
+in a Diagon Alley side street at 
+the Carkitt Market Arcade. 
+Prices upon request. 
+Gregorovitch uses a wider 
+range of wand cores, including 
+Veela hair, Coral, and Thestral 
+tail hair. 
+Wand Loyalty 
+When a wizard tries to use 
+another Wizard’s wand, they 
+normally have a +5 penalty to 
+the difficulty of the spell (see 
+page 41). Some wand woods 
+and cores add a loyalty bonus 
+to the +5 point penalty. Some 
+characters have a rare gift 
+called Wand Versatility (see 
+page 10) that allows easier use 
+of other wizard’s wands. 
+Wand Resilience 
+A wand, despite being a 
+magically powerful object, is 
+still made of wood and subject 
+to breakage. Most wands have 
+at least 2D10 resilience to 
+resist damage, but more 
+flexible wands will have a 
+touch more yield (see page 26). 
+In addition, particular wand 
+woods offer greater resilience. 
+See page 27–28 for details. 
+Broken Wands 
+The only known way to repair 
+a wand is with the powerful 
+and elusive Elder Wand. Short 
+of locating that infamous 
+instrument you can make a 
+makeshift repair with 
+Spellotape. 
+Repaired wands are liable to 
+misfire and add a +3 penalty 
+to all spell difficulties. 
+A failed spell roll with a 
+broken wand will often cause 
+an embarrassing backfire.
+Wands
+Wand
+Wood ...................................
+Length .................................
+Core ....................................
+Flex .....................................
+RESILIENCE ..........................
+Cypress
+7¼”
+Phoenix Feather 
+Supple
+2D+2

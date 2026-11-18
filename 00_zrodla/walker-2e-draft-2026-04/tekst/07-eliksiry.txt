@@ -1,0 +1,737 @@
+
+[s. 60]
+60
+60
+Potions
+“I can teach you how to bewitch 
+the mind and ensnare the senses. 
+I can tell you how to bottle fame, 
+brew glory, and even put a 
+stopper in death.” 
+Studying potions is 
+treated the same way as 
+learning spells (see page 
+40). Learning a particular 
+potion is represented by filling 
+in the boxes next to the name 
+of the potion on your magic 
+sheet. For example: 
+Each box contains a number. 
+The number in the leftmost 
+box is the current difficulty. 
+Once you’ve rolled the current 
+difficulty to mix a dose of that 
+potion you can fill in the 
+current box and the next box 
+along becomes the new target. 
+Once all the boxes are filled in 
+you’ve mastered that potion 
+and you no longer need to roll 
+to mix it. 
+Creating a potion is split into 
+three stages: 
+Stage 1. Gathering. 
+This is where you collect your 
+ingredients (see the potion list 
+on pages 65–66). Some 
+common items, like dried 
+Nettles or Castor Oil, may be 
+in your store–cupboard 
+already (or the shared student 
+store–cupboard). Others will 
+need to be purchased from an 
+Apothecary like Slug and 
+Jigger’s in Diagon Alley, but 
+beware. Some rarer items may 
+be on the Restricted Register 
+for Potion Ingredients and 
+require a little more 
+subterfuge to acquire. 
+Gathering all the ingredients 
+for a powerful potion can be a 
+whole adventure in itself. 
+Common ingredients can be 
+foraged or harvested but even 
+that will present its own 
+challenges. As anybody who is 
+ever tried to pluck a 
+Jobberknoll can tell you. 
+Finding plants in the wild will 
+at some stage involve rolling 
+1D+Knowledge+Herbology
+(see page 67), while hands on 
+activities (like milking a 
+Bubotuber for its pus) will 
+require a strong stomach and 
+rolling 1D+Wits+Magical
+Creatures. 
+Stage 2. Mixing. 
+This is where the ingredients 
+are prepared and combined. 
+Do you chop or squash, stir 
+clockwise or anti–clockwise or 
+both, do you simmer gently or 
+boil furiously. Every detail will 
+effect the outcome. 
+You’ll also need some working 
+space. The Potions Classroom 
+at Hogwart’s offers all the 
+standard lab facilities, but 
+sometimes you’ll need to 
+rough it in a rudimentary lab
+(hopefully not as rudimentary 
+as a toilet stall in the second–
+floor girls’ lavatory). You may 
+even get to work in a luxurious 
+lab like Nicolas Flamel’s in 
+Paris. Unlike Flamel, you may 
+not have the gift of time and 
+it’s possible to shave up to a 
+quarter off the time required 
+by cutting corners with a 
+slapdash effort. However 
+painstaking effort will generally 
+yield the best results as will 
+using an authoritative reference 
+work like Most Potente 
+Potions. An old text book with 
+annotations by a gifted 
+potioneer could also be 
+equally valuable. Having the 
+help of a lab assistant will 
+always be beneficial, but better 
+to have access to expert 
+assistance like a Potions Master. 
+If you’ve mastered the potion 
+you will be able to brew it 
+without rolling. Otherwise 
+you’ll need to roll 
+1D+Knowledge+Potions and 
+compare it to the difficulty to 
+reveal the quality of your 
+potion (see page 49). 
+You target will be the current 
+difficulty of the potion on your 
+magic sheet +/- the following 
+modifiers: 
+ Cn Hair Raising Potion
+Assistance Target
+Rudimentary lab +1
+Luxurious lab -1
+Slapdash effort +1
+Painstaking effort -2
+Reference work -2
+Lab assistant -1
+Expert Assistance -2
+[s. 61]
+61
+61
+Potions
+Stage 3. Bottling. 
+Until you become an 
+accomplished Potioneer, you 
+can never be completely sure 
+of your success until the 
+potion is imbibed. 
+When you finish mixing your 
+potion you will need to roll 
+1D+Knowledge+Potions and 
+compare the result to the 
+current difficulty of the potion 
+(+/- the modifiers on page 60). 
+This will reveal the potion’s 
+apparent Quality: 
+If you’ve mastered the potion 
+(filled in all the numbered 
+boxes next to the potion on 
+your magic sheet) you don’t 
+need to roll and your potion 
+automatically has a quality of 
++3. The Narrator may decide 
+to drop that to +2 if you were 
+working under enormous time 
+pressure or with very basic 
+equipment. 
+The Narrator secretly rolls 
+1D10 +/– your quality score 
+and consults the table below. 
+The Narrator can also add or 
+subtract one or two points in 
+the event of special 
+circumstances. 
+The results can be poisonous 
+(Narrator’s discretion), have 
+side–effects (lasting 1D5 hours 
+or until an antidote can be 
+administered), have no effect, 
+or the effect expected. They 
+can also be highly effective 
+(see potion descriptions). 
+Ageing Potion 
+Difficulty: 15
+Temporarily ages the 
+recipient. The more that they 
+drink, the older they get. A 
+highly effective Ageing Potion 
+makes you ancient in mere 
+seconds. 
+Amortentia 
+Difficulty: 15
+The World’s strongest love 
+potion. The drinker becomes 
+infatuated with the person 
+who gave it to them. Love 
+potions wear off after 24 hours 
+unless another dose (or the 
+antidote) is given. The effects 
+of highly effective Amortentia 
+can last up to 48 hours and 
+only a highly effective version 
+of the antidote is effective 
+against it. 
+Animagus Potion 
+Difficulty: 18
+Part of the complex Animagus 
+ritual that bestows the ability 
+to transform into an animal. 
+For details of the ritual see 
+page 43. You will also need to 
+have mastered the Animagus 
+spell on page 47. A highly 
+effective draught has an 
+additional calming effect that 
+entirely avoids the panicked 
+destruction that can 
+sometimes accompany the 
+transformation. 
+Babbling Beverage 
+Difficulty: 9
+Causes the drinker to babble 
+and speak nonsense. Effect 
+lasts for half an hour, highly 
+effective version twice that. 
+1D10 +
+Quality Effect
+Less than 1 Poisonous
+1–2 Side–effect*
+3 Inert (no effect)
+4–7 Effective
+8+ Highly effective
+*Roll 1D10 Side–effect
+1 Boils
+2 Belching
+3 Dancing
+4 Deafness
+5 Drowsiness
+6 Itchiness
+7 Rhyming Speech
+8 Singing
+9 Sneezing
+10 Vomiting
+Roll
+< 
+½ Difficulty
+Quality -3
+Roll
+< 
+Difficulty
+Quality -2
+Roll
+=> 
+Difficulty
+Quality +1
+Roll
+=> 
+2x Difficulty
+Quality +3
+Automatic +3 if 
+you’ve mastered 
+the potion
+[s. 62]
+62
+62
+Potions
+Befuddlement 
+Draught 
+Difficulty: 9
+Temporarily causes the 
+drinker to become belligerent 
+and reckless. While affected 
+they argue with everybody and 
+dangerously overestimate their 
+abilities. The effects lasts for 
+half an hour, highly effective 
+versions last for twice that. 
+Blood Replenishing 
+Potion 
+Difficulty: 12
+Replenishes blood loss. 
+Reduces body injuries when 
+bloodied or above by one 
+circle (bloodied becomes 
+bruised, for example). A highly 
+effective version reduces 
+injury by two circles. 
+Burn Healing Paste 
+Difficulty: 12
+A thick orange paste used to 
+treat burns. Applied daily, it 
+can heal even severe burns 
+within a month or two. Highly 
+effective burn paste can do the 
+same within a week or two. 
+Calming Draught 
+Difficulty: 15
+Enforces a feeling of calm and 
+serenity after suffering a 
+terrible shock or emotional 
+episode. Reduces your mental 
+state by one circle (raving 
+becomes confused, for 
+example) while a highly 
+effective Draught reduces it by 
+two circles. 
+Confusing 
+Concoction 
+Difficulty: 9
+Temporarily causes the 
+drinker to become confused 
+and incoherent. Normally 
+while under a Confusing 
+Concoction’s effects, the 
+victim’s mental state becomes 
+confused (+5 penalty added to 
+any target they need to roll), 
+but a highly effective 
+concoction causes raving (+7
+penalty). The effects lasts for 
+half an hour, highly effective 
+versions last for twice that. 
+Cure for Boils 
+Difficulty: 9
+Cures boils, pustules, 
+and hives, including those 
+produced by the Pimple Jinx 
+(Furnunculus). As well as 
+clearing the skin of boils, a 
+highly effective dose leaves the 
+skin noticeably healthy and 
+flawless for up to 24 hours. 
+Deflating Draught 
+Difficulty: 9
+Causes anything swollen by 
+magic (the Engorgement 
+Charm, for example) to return 
+to normal size and acts as an 
+antidote to the Swelling 
+Solution. The swelling can 
+take up to an hour to fully 
+shrink back to normal, but a 
+highly effective draught can 
+achieve the same result in 
+seconds. 
+Draught of 
+Living Death 
+Difficulty: 18
+An extremely powerful 
+sleeping draught. It sends the 
+drinker into a deathlike 
+slumber similar to suspended 
+animation. The effects can be 
+cancelled with the Mandrake 
+Restorative Draught. However, 
+a highly effective draught will 
+require a highly effective 
+Mandrake Restorative Draught 
+to counter it. 
+Draught of Peace 
+Difficulty: 15
+Calms anxiety and soothes 
+agitation, but made incorrectly 
+it can put the drinker into a 
+deep and possibly irreversible 
+sleep (alternative to poisonous 
+result for potion effect). 
+Reduces your mental state by 
+one circle (raving becomes 
+confused, for example). A 
+highly effective draught also 
+boosts your mental focus, 
+adding +2 to any rolls you 
+make for an hour. 
+Elixar to Induce 
+Euphoria 
+Difficulty: 15
+A sunshine–yellow potion that 
+makes the drinker irrationally 
+joyful and prone to singing, 
+nose tweaking, and other 
+irritatingly cheerful behaviour. 
+The highly effective version 
+brings joy with a pleasing hint 
+of Peppermint and without the 
+irritating side–effects. 
+[s. 63]
+63
+63
+Potions
+Felix Felicis 
+(Liquid Luck) 
+Difficulty: 18
+A potion with the 
+appearance of molten 
+gold that makes the 
+drinker unbelievably 
+lucky for a period of 
+time during which anything 
+they attempt will be 
+successful. Taking repeated 
+doses is unwise as it causes 
+giddiness, recklessness, and 
+dangerous overconfidence. 
+Large quantities can even be 
+deadly. A single dose lasts for 
+one hour, a highly effective 
+dose last for three hours. 
+Fire Protection 
+Potion 
+Difficulty: 9
+The Fire Protection Potion, 
+also known as the Ice Potion, 
+is a potion used to protect the 
+drinker from flames. It 
+induces a sensation of ice and 
+frigidity and provides 
+protection from most magical 
+fires. A highly effective Fire 
+Protection potion makes one 
+immune to all magical flames, 
+including FiendFyre flames. 
+Forgetfulness Potion 
+Difficulty: 9
+Causes the recipient difficulty 
+in recalling information or 
+forming memories for one 
+hour. Following that hour they 
+will only have vague memories 
+of what happened during that 
+time. A highly effective 
+Forgetfulness Potion will leave 
+them with no memory of what 
+happened. 
+Hair Raising Potion 
+Difficulty: 12
+Causes your hair to stand on 
+end. The highly effective 
+version grows your hair at the 
+same time so even short hair 
+ends up waving high above 
+your head like a tall hat. 
+Invigoration Draught 
+Difficulty: 12
+Removes all fatigue and makes 
+you feel like you’ve just woken 
+from a great night’s sleep. Your 
+energy reserves will remain 
+boundless for up to eight 
+hours or twelve with a highly 
+effective draught. 
+Love Potion 
+Antidote 
+Difficulty: 15
+Immediately halts the effects 
+of a Love Potion. A highly 
+effective Love Potion Antidote 
+is required to combat a highly 
+effective Love Potion. 
+Mandrake 
+Restorative Draught 
+Difficulty: 12
+The Mandrake Draught can 
+return people who have been 
+transfigured or cursed to their 
+original state and is the 
+standard cure for Petrification. 
+Particularly extensive 
+transfigurations and very 
+powerful curses (the Imperius 
+curse, for example) may 
+require a highly effective 
+Mandrake Restorative Draught 
+to reverse. 
+Murtlap Essence 
+Difficulty: 9
+Soothes and heals painful cuts 
+and abrasions. Even deep cuts 
+will heal completely after a 
+day or two. Highly effective 
+Murtlap Essence delivers the 
+same effect within an hour or 
+two of being applied. 
+Pepperup Potion 
+Difficulty: 9
+Used to warm up people who 
+are cold and miserable. It is 
+also a cure for the common 
+cold. A highly effective dose 
+can also cure a range of other 
+minor ailments including 
+Influenza, earache, and 
+Athletes Foot 
+Polyjuice Potion 
+Difficulty: 15
+Allows the drinker to assume 
+the form of another person. 
+They can be a different sex or 
+age, but must be human. 
+A highly complicated, 
+challenging, and time￾consuming potion that takes at 
+least two months to complete. 
+The potion requires a part of 
+the living person who is being 
+imitated. A hair, a toenail 
+clipping, dandruff, or worse. 
+The effects of the potion last 
+for 1D5 hours (rolled secretly 
+by the Narrator). A highly 
+effective Polyjuice Potion is 
+much more reliable and lasts 
+for 2D5+2 hours. The Narrator 
+may of course override the 
+rolled time if the reversal of 
+the transformation at an 
+earlier or later point is more 
+dramatic or amusing. 
+[s. 64]
+64
+64
+Potions
+Shrinking Solution 
+Difficulty: 15
+Causes creatures to shrink to a 
+younger form. A standard 
+Shrinking Solution will 
+reduce a Toad to a Tadpole, or 
+a Sheep to a Lamb. A highly 
+effective version will also make 
+them diminutive so a herd of 
+cows can fit in a pocket. 
+Skele–Gro 
+Difficulty: 12
+A dreadful tasting potion 
+that mends broken 
+bones and can even 
+regrow entire bones that 
+have vanished or been 
+lost in some way. The 
+regrowing of bones is a 
+painful and slow 
+process. Standard Skele–
+Grow can take more than a 
+full day to regrow bones. 
+Highly effective Skele–Gro 
+can do be same job in three or 
+four hours. 
+Sleeping Draught 
+Difficulty: 15
+A purple potion that sends the 
+drinker into a deep, dreamless 
+sleep. A more gentle. Version 
+of the Draught of Living 
+Death. Larger creatures like 
+Dragons and Trolls may 
+require a highly effective 
+draught to be put to sleep. 
+Strengthening 
+Solution 
+Difficulty: 12
+Grants the drinker immense 
+strength for up to half an hour. 
+A normal dose adds +5 to your 
+Vitality attribute. A highly 
+effective dose add +10. 
+Swelling Solution 
+Difficulty: 9
+Causes whatever it touches to 
+swell in size like an 
+Engorgement Charm. The 
+effect lasts for two to three 
+hours or until a Deflating 
+Draught is taken. A highly 
+effective Swelling Draught can 
+last up to 24 hours or until a 
+highly effective Deflating 
+Draught is administered. 
+Veritaserum 
+Difficulty: 18
+Veritaserum is a powerful 
+truth serum. The potion forces 
+the drinker to answer any 
+questions put to them 
+truthfully, though there are 
+certain methods of resistance 
+like the Veritaserum Antidote 
+and Occlumency skill (see 
+page 23). In addition, a Secret 
+Keeper under a Fidelius 
+Charm (see page 51) cannot be 
+forced to reveal their secret 
+using Veritaserum. When 
+using Occlumency (1D+Focus 
++Occlumency) the target to 
+roll to lie in answer to a 
+question is 12+ for a standard 
+dose or 15+ for a highly 
+effective dose. In theory, 
+use of Veritaserum is strictly 
+controlled by the British 
+Ministry of Magic 
+Veritaserum 
+Antidote 
+Difficulty: 18
+Antidote to the truth serum 
+Veritaserum. A highly effective 
+VeritaserumAntidote is 
+required to combat a highly 
+effective Veritaserum. 
+Wit–sharpening 
+Potion 
+Difficulty: 12
+Allows the drinker to think 
+more clearly for up to one 
+hour. A normal dose adds +3
+to your Wits attribute. A highly 
+effective dose add +5. 
+Wolfsbane Potion 
+Difficulty: 18
+Relieves, but does not cure, 
+the symptoms of Lycanthropy. 
+A goblet full must be taken 
+each day during the week 
+leading to the full moon. 
+Missing even one dosage will 
+make it ineffective. The potion 
+allows the Lycanthrope (or 
+Werewolf) to retain their 
+mental faculties while 
+transformed. A highly effective 
+Wolfsbane Potion may even 
+allow a strong minded 
+Lycanthrope to retain their 
+human form by rolling 
+1D+Focus+Occlumency 
+with a target of 15+. 
+Wound–cleaning 
+Potion 
+Difficulty: 15
+A powerful antiseptic in the 
+form of a purple potion that 
+smokes and stings when 
+applied. A normal dose 
+removes any chance of 
+infection and speeds healing 
+tenfold. In addition, a highly 
+effective dose can also ward of 
+magical infections like 
+Lycanthropy if the wounds are 
+treated in time. 
+[s. 65]
+65
+65
+Potions
+Potion Ingredients Time Difficulty
+Ageing Potion Newt Spleens, Bananas. One hour Advanced
+Amortentia Ashwinder Eggs, Rose Thorns, Peppermint,
+Powdered Moonstone, Pearl Dust, Rose Petals. Two hours Advanced
+Animagus Potion Mandrake Leaf, Drinker’s Own Hair, Dew,
+Death’s–Head Hawk Moth Chrysalis.
+At least two 
+months Expert
+Babbling Beverage Valerian Sprigs, Aconite, Dittany Stem. One hour Beginner
+Befuddlement Draught Scurvy Grass, Lovage, Sneezewort. One hour Beginner
+Blood Replenishing Potion
+Honey water, Valerian Root, Nettle Leaves,
+Rose Petals, Dittany Leaves, Fairy Wings, 
+Silverweed Extract.
+Two hours Intermediate
+Burn Healing Paste Juniper Oil, Mallow Leaves and Stems, Aloe,
+Chickweed, Juice of two Slugs. 90 minutes Intermediate
+Calming Draught Lavender, Crocodile Heart, Peppermint. One hour Advanced
+Confusing Concoction Scurvy Grass, Lovage, Sneezewort. Two hours Beginner
+Cure for Boils Dried Nettles, Snake Fangs, Horned Slugs, 
+Porcupine Quills. One hour Beginner
+Deflating Draught Bubotuber Pus, Syrup of Hellebore, Three Moke 
+Ribs, Spine of Lionfish, Dried Murtlap Tentacles. Two hours Beginner
+Draught of Living Death
+Powdered Root of Asphodel, Infusion of 
+Wormwood, Valerian Root, A Sopophorous Bean, 
+Sloth Brain.
+Two hours Expert
+Draught of Peace
+Powdered Moonstone, Syrup of Hellebore, 
+Powdered Unicorn Horn, Powdered Porcupine 
+Quills, Valerian Root.
+90 minutes Advanced
+Elixir to Induce Euphoria Shrivelfig, Porcupine Quills, Peppermint Sprigs,
+Sopophorous Beans, Wormwood. Two hours Advanced
+Felix Felicis (Liquid Luck)
+Ashwinder Egg, Squill Bulb, Murtlap Tentacle, 
+Tincture of Thyme, Occamy Eggshell,
+Powdered Common Rue.
+Six months Expert
+Fire Protection Potion Bursting Mushroom, Salamander Blood,
+Wartcap Powder. Half an hour Beginner
+Forgetfulness Potion Lethe River Water, Valerian Sprigs,
+Mistletoe Berries. One hour Beginner
+Hair Raising Potion Rat Tails, Porcupine Quills, Billywig Stings. One hour Intermediate
+Potion Ingredients
+[s. 66]
+66
+66
+Potions
+Potion Ingredients Time Difficulty
+Invigoration Draught
+Alihotsy Leaves, Dried Billywig Stings, 
+Peppermint, Stewed Mandrake,
+Infusion of Wormwood, Honeywater,
+Vervain Infusion, Scurvy Grass, Lovage.
+Three hours Intermediate
+Love Potion Antidote Wiggentree Twigs, Castor Oil,
+Extract of Gurdyroot. Two hours Advanced
+Mandrake Restorative 
+Draught
+Stewed Mandrake.
+The Mandrakes must be fully mature. Four hours Intermediate
+Murtlap Essence Murtlap Tentacles. One hour Beginner
+Pepperup Potion Bicorn Horn, Mandrake Root. 90 minutes Beginner
+Polyjuice Potion
+Lacewing Flies, Leeches, Powdered Bicorn Horn, 
+Knotgrass, fluxweed (picked at full moon), 
+Shredded Boomslang Skin, a fragment of the 
+person to be mimicked (typically a hair).
+One month Advanced
+Shrinking Solution
+Minced Daisy Roots, Peeled Shrivelfig, Sliced 
+Caterpillars, One Rat Spleen, Dash of a leech 
+Juice, Splash of Cowbane, Wormwood.
+Two hours Advanced
+Skele–Gro Chinese Chomping Cabbage, Three Puffer Fish,
+Five Scarab Beetles. 90 minutes Intermediate
+Sleeping Draught Four Sprigs of Lavendar, Flobberworm Mucus, 
+Valerian Sprigs. 90 minutes Advanced
+Strengthening Solution Salamander Blood, Griffin Claw. Four days Intermediate
+Swelling Solution Pufferfish Eyes, Dried Nettle, Bat Spleens. One hour Beginner
+Veritaserum Powdered Moonstone, Jobberknoll Feathers,
+Adder’s Fork, Sopophorous Beans.
+One Lunar 
+Cycle Expert
+Veritaserum Antidote Honeywater, Valerian Sprigs, Mistletoe Berries,
+Runespoor Eggs, Unicorn Horn. Two months Expert
+Wit–sharpening Potion Ground Scarab Beetles, Cut Ginger Roots,
+Armadillo Bile, Newt Spleens. Four hours Intermediate
+Wolfsbane Potion Aconite, Black Quicksilver, Moonwort, Myrrh. 90 minutes Expert
+Wound–cleaning Potion Dittany Stalks, Honey, Limestone Powder,
+Spider’s Web. One hour Advanced
+See Potion Reference on page 168 for a list of potion ingredients with their cost and rarity (difficulty level when 
+foraging or chance that an Apothecary – or a well stocked supply cupboard – has the ingredient to hand)
+Potion Ingredients
