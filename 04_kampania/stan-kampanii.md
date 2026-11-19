@@ -3,8 +3,8 @@
 Żywy plik: pamięć projektu między sesjami. Reżyser czyta go na początku każdej sesji i aktualizuje na końcu.
 
 ## Bieżąca faza
-- **Faza:** 1 (Fundamenty) w toku. Część A zakończona 2026-11-18: zasady Walkera, ocena mechanik fabularnych, kanon 1969 (wszystko w statusie `recenzja`).
-- **Następny krok:** MG odpowiada na pytania z sekcji „Otwarte pytania”. Potem część B: mechanik nanosi decyzje (zasady domowe, trackery, flagi), architekt-fabuly pisze zarys kampanii 1969 w `04_kampania/`, przegląd i zamknięcie fazy.
+- **Faza:** 1 (Fundamenty) w toku. Część A zakończona 2026-11-18 (zasady Walkera, ocena mechanik, kanon 1969). Część B w toku (2026-11-19): decyzje MG zapisane, powstaje krótki zarys kampanii.
+- **Następny krok:** MG czyta `04_kampania/zarys-kampanii.md` (jedyny dokument, który trzeba przeczytać) i odpowiada na najwyżej 3 pytania z jego końca. Potem Faza 2 (graf Scenariusza 1).
 
 ### Faza 1, część A: co powstało
 - `00_zrodla/walker-2e-draft-2026-04/tekst/`: wyciąg tekstu podręcznika (16 rozdziałów, znaczniki stron). Podręcznik jest jednym PDF (184 s.; numer drukowany = strona PDF − 5).
@@ -24,43 +24,22 @@
 | 2026-11-18 | Archiwalny moduł i streszczenie to szkic kierunkowy, nie wersja ostateczna. | MG |
 | 2026-11-18 | Praca wyłącznie w sesjach w chmurze. Format plików wg `docs/KONTRAKT-DANYCH.md` v1.0, pod przyszły panel webowy MG. | MG |
 | 2026-11-18 | Język: narracja PL, terminy mechaniczne EN z objaśnieniem PL. | MG |
+| 2026-11-19 | Ansel Dray zginął w 1951 roku (18 lat przed akcją). | MG |
+| 2026-11-19 | Córka Crake'a zginęła w niewyjaśnionym incydencie uznanym za wypadek; w tle zamieszki przy marszach charłaków. | MG |
+| 2026-11-19 | Dumbledore wie, że coś jest na rzeczy, ale zajmują go większe zagrożenia, więc odkłada sprawę. Magia czasu go nie dotknęła (chroni go jego wiedza), więc nigdy nie widział Ansela. | MG |
+| 2026-11-19 | Ton: życie uczniowskie, wojna nadciąga, coś wisi w powietrzu, dziwne wydarzenia w szkole i poza nią. | MG |
+| 2026-11-19 | Filch jest nowym woźnym. Tworzymy własnych nauczycieli Astronomii i Wróżbiarstwa. Kanoniczni uczniowie tylko w tle. | MG |
+| 2026-11-19 | Zaklęcia Snape'a w 1969 nieznane. Zmieniacze czasu istnieją, ale to inny rodzaj magii niż Klepsydra Daniny. | MG |
+| 2026-11-19 | „Voldemort” i „śmierciożercy”: w Sesji 1 pada plotka, w kolejnych sesjach coraz więcej wzmianek. | MG |
+| 2026-11-19 | Postacie graczy zaczynają 6. rok nauki, tuż po SUM-ach (Standardowych Umiejętnościach Magicznych), wracają po wakacjach. | MG |
+| 2026-11-19 | Więź z Anselem: osobno dla każdej postaci, od 0 do 3. Zabrane godziny kosztują stan Drained (+3 do trudności). | MG |
+| 2026-11-19 | Zasady domowe z `luki-i-niejasnosci.md`: przyjęte propozycje mechanika. Poprawki MG: (1) wynik co najmniej 2 i 3 razy wyższy od trudności ma dawać też efekt mechaniczny (np. dodatkowe obrażenia), nie tylko narrację (ZD-09); (2) Tempus ma trudność 9 i nie jest zaklęciem podstawowym, więc nie rok 1 (ZD-21). Szczegóły zapisze mechanik później. | MG |
+| 2026-11-19 | Rytm pracy: najwyżej 3–5 pytań naraz, każde z kontekstem i przykładem; bez odsyłania do archiwum i do wielkich plików. Zamiast tego krótki zarys do przeczytania. | MG |
 
 ## Otwarte pytania
-Pełne warianty: `01_kanon/przeniesienie-na-1969.md` (P1–P13), `02_zasady/mechaniki-fabularne.md`, `02_zasady/walker/luki-i-niejasnosci.md` (ZD-xx). W nawiasie rekomendacja agentów.
+Na razie brak. Pytania (najwyżej 3) pojawią się na końcu `04_kampania/zarys-kampanii.md`.
 
-**Świat 1969 i fabuła**
-1. Rok śmierci Ansela (zostaje 1951, 18 lat przed akcją).
-2. Śmierć córki Crake'a (niewyjaśniony incydent uznany za wypadek, zamieszki przy marszach charłaków jako tło).
-3. Kim jest Patron (niezależny gracz z kręgów czystej krwi).
-4. Ojciec Cassiana (urzędnik, który odszedł w proteście przeciw Leachowi i wrócił za Jenkins).
-5. Prorok Codzienny (zwykłe sprawy plus jedna mroczna notka).
-6. Ton Sesji Zero (wojna nadciąga; wyjazd rodziny po zamieszkach jako opcja).
-7. Woźny w 1969 (Filch jako nowy woźny).
-8. Własni nauczyciele Astronomii i Wróżbiarstwa (tak).
-9. Kanoniczni uczniowie (tylko epizody w tle).
-10. Zaklęcia Snape'a w 1969 (nieznane).
-11. Zmieniacze czasu (istnieją jak w kanonie).
-12. Nazwy „Voldemort” i „śmierciożercy” (szeptana plotka).
-13. Dumbledore a noc 1951 (pamięta zgubione godziny, nie łączy z Anselem).
-14. Rok nauki postaci graczy w Scenariuszu 1 (brak rekomendacji).
-
-**Mechaniki fabularne**
-15. Rejestr Danin (progi eskalacji plus Pożyczona Chwila).
-16. Siła Pożyczonej Chwili (dorzut kości, raz na sesję).
-17. Więź z Anselem (osobno dla postaci, 0–3, bez spadków).
-18. Zegar Północy (licznik 0–6, jawny, test przeciwny przy 6).
-19. Kara za uwięzienie do świtu (stan Drained, +3).
-20. Danina czasu (Klepsydra jako przedmiot z Time twisting).
-21. Kontrakt danych: nowa wartość pola pochodzenia dla mechanik kampanii (tak).
-22. Dziennik Lekcji z archiwum (usunąć).
-
-**Zasady domowe (Walker)**
-23. ZD-01 i ZD-02: kary za cudzą i uszkodzoną różdżkę.
-24. ZD-06: nieopanowane zaklęcia w walce (zostawić zasadę podręcznika).
-25. ZD-07 i ZD-08: tarcza i dwie akcje w pojedynku.
-26. ZD-17: klątwy z programu rzucane z D.A.D.A.
-27. ZD-19: limit Story Points z lekcji.
-28. Tempus: zaklęcie domowe czy istniejące zaklęcie (np. Specialis Revelio).
+**Odłożone do konkretnej sceny** (wrócą z przykładem, nie wcześniej): kim jest Patron i skąd się wziął; ojciec Cassiana; treść „Proroka Codziennego”; Rejestr Danin i Pożyczona Chwila; Zegar Północy; czy Klepsydra opiera się na Time twisting Walkera; zmiana kontraktu danych; Dziennik Lekcji. Źródła, gdyby były potrzebne: `01_kanon/przeniesienie-na-1969.md`, `02_zasady/mechaniki-fabularne.md`.
 
 ## Postęp
 
@@ -70,7 +49,7 @@ Pełne warianty: `01_kanon/przeniesienie-na-1969.md` (P1–P13), `02_zasady/mech
 | Podręcznik Walkera w `00_zrodla/` | jest (PDF + wyciąg tekstu) |
 | Kanon 1969 | 8 plików, recenzja |
 | Zasady (Walker) | 15 plików + ocena mechanik fabularnych, recenzja |
-| Zarys kampanii 1969 | nie rozpoczęto (Faza 1, część B) |
+| Zarys kampanii 1969 | w toku (`04_kampania/zarys-kampanii.md`) |
 | Scenariusz 1: graf | nie rozpoczęto |
 | Scenariusz 1: sceny | 0 / ? |
 

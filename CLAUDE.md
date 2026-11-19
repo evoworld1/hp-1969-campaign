@@ -62,6 +62,8 @@ Uruchamiaj subagentów **po kolei**, nie równolegle na tych samych plikach. Pla
 
 Użytkownik jest Mistrzem Gry i autorem kampanii. Gdy pojawia się wybór, który zmienia fabułę (np. kim jest Patron, czy NPC przeżyje, jak działa magia daniny czasu), **zatrzymaj się i zapytaj**. Podaj 2–3 warianty i swoją rekomendację. Nie wybieraj po cichu. Drobne decyzje wykonawcze, np. szczegóły wyglądu korytarza, podejmujesz sam.
 
+**Rytm pytań:** zadawaj najwyżej 3–5 pytań naraz. Każde pytanie ma mówić, skąd się wzięło, i pokazywać konkretny przykład z gry (nie nazwę mechaniki ani identyfikator z pliku). Nie odsyłaj MG do archiwum ani do długich plików: MG nie zna dobrze szkicu archiwalnego. Przed pytaniami daj krótkie streszczenie (do 2 stron), z którego MG może je zrozumieć.
+
 Każdą decyzję użytkownika zapisujesz w `04_kampania/stan-kampanii.md` w sekcji „Rejestr decyzji”.
 
 ## 7. Zero zmyślania
