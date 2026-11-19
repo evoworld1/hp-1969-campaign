@@ -28,7 +28,7 @@ Hogwart, jesień 1969. Gracze zaczynają szósty rok nauki, tuż po wakacjach i 
 
 **Hollis Crake.** Zegarmistrz z Pokątnej, który konserwuje zegary zamku. Jego córka zginęła w wypadku, który nigdy nie został wyjaśniony, w czasie zamieszek przy marszach charłaków. Crake chce cofnąć jej śmierć i od tygodni rozluźnia pieczęć na Klepsydrze. Jest życzliwy, smutny i umie kłamać. To lustro graczy: stoi przed tym samym wyborem co oni, tylko po drugiej stronie.
 
-**Patron.** Ktoś obiecał Crake'owi pomoc i oczekuje Klepsydry w zamian. Kim jest, nie jest jeszcze ustalone i nikt w Sesji 1 tego nie wie.
+**Patron.** Jeden ze śmierciożerców Voldemorta. Na jego prośbę zdobywa informacje o Klepsydrze i o tym, jak ją odnaleźć, a Crake'owi obiecał pomoc w zamian za nią. Która to osoba, nie jest jeszcze ustalone i nikt w Sesji 1 tego nie wie.
 
 **Albus Dumbledore.** Dyrektor czuje, że w zamku coś jest nie tak, ale zajmują go większe zagrożenia, więc odkłada sprawę. Magia czasu go nie dotyka, bo chroni go jego wiedza, dlatego nigdy nie widział Ansela. Może pomóc, ale nie będzie prowadził graczy za rękę.
 
@@ -55,6 +55,6 @@ Szkic kierunkowy z wcześniejszej wersji, dostosowany do roku 1969 i do decyzji 
 
 ## Do weryfikacji
 
-1. **Kto widzi Ansela?** Wzięło się to z założenia, że chłopiec jest widoczny tylko dla tych, którzy stracili godzinę. Przykład: jedna postać straciła godzinę, druga nie. Czy druga w ogóle go zobaczy, czy też musi uwierzyć przyjaciołom na słowo? Wersja z różną widocznością daje ciekawsze sceny, ale wymaga, by przynajmniej jedna postać została przy chłopcu.
-2. **Jak Dumbledore reaguje na dziennik?** Skoro wie, że coś jest nie tak, ale go to nie dotyka, wybór „idziemy do dyrektora” wymaga odpowiedzi. Przykład: postacie oddają mu dziennik. Czy bierze go, prosi o milczenie i zostawia ich bez wsparcia, czy daje im dostęp do pracowni i opiekę kosztem niezależności?
-3. **Czy Crake pojawia się w Sesji 1?** W szkicu pojawia się tylko jego plakietka. Przykład: Crake mógłby w poniedziałek naprawiać zegar w korytarzu, rozmawiać z postaciami i być miły, zanim ktokolwiek go podejrzewa. Czy MG woli takie wcześniejsze poznanie, czy zaskoczenie w Sesji 2?
+Rozstrzygnięte przez MG 2026-11-19: wszystkie postacie graczy widzą Ansela; Dumbledore reaguje dopiero w Sesji 2, a Sesja 1 kończy się cliffhangerem przy wyborze; Crake może się pojawić w Sesji 1 jako przelotna pogawędka (dłuższa rozmowa przy bardzo wysokim wyniku spostrzegawczości, do dopracowania).
+
+Otwarte: brak.

@@ -4,7 +4,7 @@
 
 ## Bieżąca faza
 - **Faza:** 1 (Fundamenty) w toku. Część A zakończona 2026-11-18 (zasady Walkera, ocena mechanik, kanon 1969). Część B w toku (2026-11-19): decyzje MG zapisane, powstaje krótki zarys kampanii.
-- **Następny krok:** MG czyta `04_kampania/zarys-kampanii.md` (jedyny dokument, który trzeba przeczytać) i odpowiada na najwyżej 3 pytania z jego końca. Potem Faza 2 (graf Scenariusza 1).
+- **Następny krok:** MG akceptuje plan czasowy Sesji 1 (4–4,5 h). Potem Faza 2: graf scen Sesji 1 (architekt-fabuly), mniejsze kroki, scena po scenie.
 
 ### Faza 1, część A: co powstało
 - `00_zrodla/walker-2e-draft-2026-04/tekst/`: wyciąg tekstu podręcznika (16 rozdziałów, znaczniki stron). Podręcznik jest jednym PDF (184 s.; numer drukowany = strona PDF − 5).
@@ -35,9 +35,15 @@
 | 2026-11-19 | Więź z Anselem: osobno dla każdej postaci, od 0 do 3. Zabrane godziny kosztują stan Drained (+3 do trudności). | MG |
 | 2026-11-19 | Zasady domowe z `luki-i-niejasnosci.md`: przyjęte propozycje mechanika. Poprawki MG: (1) wynik co najmniej 2 i 3 razy wyższy od trudności ma dawać też efekt mechaniczny (np. dodatkowe obrażenia), nie tylko narrację (ZD-09); (2) Tempus ma trudność 9 i nie jest zaklęciem podstawowym, więc nie rok 1 (ZD-21). Szczegóły zapisze mechanik później. | MG |
 | 2026-11-19 | Rytm pracy: najwyżej 3–5 pytań naraz, każde z kontekstem i przykładem; bez odsyłania do archiwum i do wielkich plików. Zamiast tego krótki zarys do przeczytania. | MG |
+| 2026-11-19 | Zarys kampanii (`zarys-kampanii.md`) zgodny z wizją MG. | MG |
+| 2026-11-19 | Ansela widzą wszystkie postacie graczy (docelowo). Ścieżka dojścia do tego może być stopniowa, ale w Sesji 1 nikt nie zostaje bez kontaktu z chłopcem. | MG |
+| 2026-11-19 | Sesja 1 kończy się cliffhangerem przy wyborze, co zrobić z dziennikiem i Anselem. Wynik wyboru ustawia Sesję 2. | MG |
+| 2026-11-19 | Crake może pojawić się w Sesji 1 jako przelotna pogawędka. Dłuższa rozmowa tylko przy wyjątkowo wysokim wyniku testu spostrzegawczości (pomysł MG, szczegóły do ustalenia). | MG |
+| 2026-11-19 | Patron: jeden ze śmierciożerców Voldemorta, który na jego prośbę zdobywa informacje o Klepsydrze i o tym, jak ją odnaleźć. Konkretna osoba jeszcze nieustalona. | MG |
+| 2026-11-19 | Sesja 1 ma się zmieścić w 4–4,5 godziny (twardy limit czasu MG). | MG |
 
 ## Otwarte pytania
-Na razie brak. Pytania (najwyżej 3) pojawią się na końcu `04_kampania/zarys-kampanii.md`.
+Brak. Trzy pytania z zarysu rozstrzygnięte 2026-11-19 (patrz rejestr decyzji).
 
 **Odłożone do konkretnej sceny** (wrócą z przykładem, nie wcześniej): kim jest Patron i skąd się wziął; ojciec Cassiana; treść „Proroka Codziennego”; Rejestr Danin i Pożyczona Chwila; Zegar Północy; czy Klepsydra opiera się na Time twisting Walkera; zmiana kontraktu danych; Dziennik Lekcji. Źródła, gdyby były potrzebne: `01_kanon/przeniesienie-na-1969.md`, `02_zasady/mechaniki-fabularne.md`.
 
