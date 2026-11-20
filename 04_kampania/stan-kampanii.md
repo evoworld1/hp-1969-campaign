@@ -91,6 +91,11 @@
 | 2026-11-20 | **Do Działu Ksiąg Zakazanych i pracowni tylko nocą, bez zgody.** Nie ma przepustki Flitwicka ani innego legalnego wejścia (odwołuje wcześniejszą decyzję). | MG |
 | 2026-11-20 | **Graf Scenariusza 1 zaakceptowany** (z powyższą poprawką). Faza 2 zamknięta. | MG |
 | 2026-11-20 | Gdy Filch złapie całą drużynę w drodze do biblioteki (siatka 9): szlaban, a po północy Ansel ich budzi i próbują drugi raz tej samej nocy, ostrożniej. | MG |
+| 2026-11-20 | **Zegarek Cassiana nie do zdobycia przed sceną 04.** Przy śniadaniu i na Zaklęciach jest tylko sygnałem. Gracze zdobywają go dopiero w pokazie u Wrena (04) albo w konfrontacji (08), po teście spostrzegawczości; po scenie 04 możliwe są też kradzież, targ i litość. Odwołuje kradzież „w dowolnej chwili” z siatki 1. | MG |
+| 2026-11-20 | Jeśli postać wyrwie zegarek w pokazie (04), Wren go odbiera i oddaje Cassianowi („pamiątka, nie dowód”), ale zaczyna podejrzewać. Prawdziwe przejęcie w 08. | MG |
+| 2026-11-20 | Przemoc w Wielkiej Sali: Wren rozbraja, punkty ujemne, szlaban u Filcha jutro wieczorem; tylko kolor, bez skutków liczbowych w scenie 09. | MG |
+| 2026-11-20 | Dumbledore jest nieobecny przy śniadaniu 22 września (wyjazd do Londynu). | MG |
+| 2026-11-20 | **Zaklęcia ujawniające nie wykrywają magii czasu** (cała kampania); najwyżej dziwnie zimne szkło. | MG |
 
 ## Otwarte pytania
 - Brak pytań fabularnych. (Siatka 9 rozstrzygnięta 2026-11-20: wariant A.)
