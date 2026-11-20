@@ -36,10 +36,8 @@ flagi_wyjscie:
   - flaga.ansel-odbicie
   - flaga.crake-poznany
   - flaga.crake-dluga-rozmowa
-# Plik sceny s1.scena.02 jeszcze nie istnieje, a walidator wymaga istniejących identyfikatorów.
-# Docelowo: nastepne: [s1.scena.02]. Uzupełnić, gdy powstanie plik sceny 02
-# (wtedy też pola prowadzi_do w blokach rozgałęzień z dopiskiem „docelowo s1.scena.02”).
-nastepne: []
+  - flaga.cassian-czujny
+nastepne: [s1.scena.02]
 tagi: [s1, nauka-gry, sygnaly-dziwnosci, grupa-wrena, ansel-odbicie, crake, plotka]
 zrodla:
   - "05_scenariusze/s1-godzina-ktorej-nie-bylo/graf-scen.md (s1.scena.01, pogawędka ruchoma z Crake'iem, grupa Wrena, Kto widzi Ansela, siatka bezpieczeństwa 1)"
@@ -654,7 +652,7 @@ rozgalezienie:
   wyklucza_flagi: [flaga.s1-prolog-pokatna]
   efekt: "Pełna scena, ok. 30 minut: rozmowa nauczająca z Tobiasem, Wren zbiera grupę trzecią, test przy stole, 1–2 sygnały dziwności przy stole, szept o Czarnym Panu, plotka o duchu Puchona. Wyjście: spóźniony dzwon (tekst 7), potem zawsze odbicie w szkle zegara (tekst 6), Crake tylko jeśli zostaje czas. Docelowo s1.scena.02."
   flagi_ustaw: [flaga.plotka-o-voldemorcie, flaga.plotka-duch-puchona, flaga.ansel-odbicie]
-  prowadzi_do: brak
+  prowadzi_do: s1.scena.02
 ```
 
 ```yaml
@@ -664,9 +662,9 @@ rozgalezienie:
   warunek: "Przed sceną grano prolog na Pokątnej."
   wymaga_flag: [flaga.s1-prolog-pokatna]
   wyklucza_flagi: []
-  efekt: "Scena skrócona do ok. 10 minut: sowia poczta, Wren zbiera grupę trzecią, jeden sygnał dziwności (zawsze odbicie w szkle zegara, po dzwonie), jedno zdanie plotki o Czarnym Panu i jedno o duchu Puchona. Bez testu przy stole i bez długiej rozmowy z Tobiasem; bez Crake'a przy zegarze, jeśli poznano go w prologu. Wyjście: spóźniony dzwon na Zaklęcia, potem odbicie (docelowo s1.scena.02)."
+  efekt: "Scena skrócona do ok. 10 minut: sowia poczta, Wren zbiera grupę trzecią, jeden sygnał dziwności (zawsze odbicie w szkle zegara, po dzwonie), jedno zdanie plotki o Czarnym Panu i jedno o duchu Puchona. Bez testu przy stole i bez długiej rozmowy z Tobiasem; bez Crake'a przy zegarze, jeśli poznano go w prologu. Wyjście: spóźniony dzwon na Zaklęcia, potem odbicie."
   flagi_ustaw: [flaga.plotka-o-voldemorcie, flaga.plotka-duch-puchona, flaga.ansel-odbicie]
-  prowadzi_do: brak
+  prowadzi_do: s1.scena.02
 ```
 
 ```yaml
@@ -718,7 +716,7 @@ rozgalezienie:
   wyklucza_flagi: [flaga.godzina-stracona]
   efekt: "MG mówi głosem Wrena: „Różdżka na stół. Teraz.” Wren rozbraja postać jednym płynnym ruchem, zanim zaklęcie dokończy lot, odejmuje punkty domowi (kolor, kilkanaście, bez liczenia) i zapowiada szlaban u Filcha jutro wieczorem; potem po cichu: „Po obiedzie, pod salą. Tam pokaże pan, co umie.” Nie wyrzuca nikogo z grupy: kara kosztuje reputację i komfort, nie grę. Cel jest wstrząśnięty: Cassian blady i milczący, zegarek chowa do kieszonki i nie robi sceny; Filch zapisuje nazwisko i pamięta cały rok; Crake wycofuje się uprzejmie i wraca dopiero w scenie 07, chłodniejszy; koleżanki Maisie milkną, a Maisie sama nie odzywa się do tej postaci. Test przy stole, szept i plotki idą dalej bez zmian dla pozostałych graczy, a odbicie w szkle dostaje nie sprawca, tylko najcichszy gracz. Wracamy: dzwon na Zaklęcia (tekst 7), odbicie, scena 02."
   flagi_ustaw: []
-  prowadzi_do: brak   # docelowo s1.scena.02
+  prowadzi_do: s1.scena.02
 ```
 
 ```yaml
@@ -728,9 +726,9 @@ rozgalezienie:
   warunek: "Postać próbuje zabrać zegarek Cassiana (kradzież, wyrwanie, „pożyczenie”) albo donosi o nim nauczycielowi (Wrenowi, Flitwickowi, McGonagall)."
   wymaga_flag: [flaga.zegarek-cassiana]
   wyklucza_flagi: []
-  efekt: "Zegarek jest zawsze u Cassiana (wartość flagi `u-cassiana` się nie zmienia). Próba zabrania: bez rzutu Cassian zamyka kopertę, chowa zegarek i odsuwa rękę, patrząc postaci w twarz o chwilę za długo (blok cassian-przy-stole); nie woła nikogo. Donos: nauczyciel słucha do końca. Wren mówi: „Zepsuty zegarek to nie przestępstwo, panie (albo panno) [nazwisko].” i dodaje: „Jeśli to się powtórzy, proszę mi powiedzieć.” Flitwick odsyła na lekcję, McGonagall do opiekuna domu (bloki flitwick-stol i mcgonagall-stol); nikt niczego nie konfiskuje. MG zapisuje, kto próbował: Cassian jest wobec tej postaci czujny w scenach 04 i 08. Nie ustawia się `flaga.wren-podejrzewa` (ta przychodzi dopiero w scenie 04 albo 08). Wracamy: Wren prosi o stawienie się po obiedzie pod salą, potem dzwon i scena 02."
-  flagi_ustaw: []
-  prowadzi_do: brak   # docelowo s1.scena.02
+  efekt: "Zegarek jest zawsze u Cassiana (wartość flagi `u-cassiana` się nie zmienia). Próba zabrania: bez rzutu Cassian zamyka kopertę, chowa zegarek i odsuwa rękę, patrząc postaci w twarz o chwilę za długo (blok cassian-przy-stole); nie woła nikogo. Donos: nauczyciel słucha do końca. Wren mówi: „Zepsuty zegarek to nie przestępstwo, panie (albo panno) [nazwisko].” i dodaje: „Jeśli to się powtórzy, proszę mi powiedzieć.” Flitwick odsyła na lekcję, McGonagall do opiekuna domu (bloki flitwick-stol i mcgonagall-stol); nikt niczego nie konfiskuje. Przy próbie zabrania ustaw `flaga.cassian-czujny` (Cassian zna twarz tej postaci; premia w teście kradzieży od sceny 04). Sam donos jej nie ustawia. Nie ustawia się `flaga.wren-podejrzewa` (ta przychodzi dopiero w scenie 04 albo 08). Wracamy: Wren prosi o stawienie się po obiedzie pod salą, potem dzwon i scena 02."
+  flagi_ustaw: [flaga.cassian-czujny]
+  prowadzi_do: s1.scena.02
 ```
 
 ```yaml
@@ -742,7 +740,7 @@ rozgalezienie:
   wyklucza_flagi: []
   efekt: "Odeślij do gotowych bloków dialogowych: s1.scena.01.dialog.flitwick-stol (odsyła na lekcję, most do sceny 02) i s1.scena.01.dialog.mcgonagall-stol (odsyła do opiekuna domu; dyrektor wyjechał). Nikt przy stole niczego nie wyjaśnia, a droga do wskazówki o czasie zostaje otwarta: Flitwick sam chce o tym usłyszeć na lekcji. Wracamy: dzwon na Zaklęcia, odbicie, scena 02."
   flagi_ustaw: []
-  prowadzi_do: brak   # docelowo s1.scena.02
+  prowadzi_do: s1.scena.02
 ```
 
 ```yaml
@@ -754,7 +752,7 @@ rozgalezienie:
   wyklucza_flagi: []
   efekt: "Zaklęcia ujawniające: rzut idzie normalnie, ale udany pokazuje zwykłą zepsutą pamiątkę, bo nie wykrywają magii czasu (decyzja MG z 2026-11-20, ZD-24). MG mówi: „Zegarek wygląda zwyczajnie. Tylko szkło jest dziwnie zimne, choć koperta ciepła.” Cassian zauważa różdżkę wycelowaną w kieszonkę i zapamiętuje twarz. Oko dostaje cele z listy w sekcji „Testy” (stojące wskazówki, plakietka Crake'a, bandaż) i nie pokazuje odbicia. Stłuczenie szyby zegara: zlatuje Filch („Nazwisko. Dom.”), szlaban jutro wieczorem (kolor), Crake albo woźny sprząta szkło; szkło wraca w całości do wieczora, ale **odbicie Ansela w stłuczonej szybie nie wraca**: jeśli odbicie już było, nikt go nie powtarza na życzenie; jeśli szyba pękła przed odbiciem, przesuń je do szybki innego zegara (nad stołem nauczycieli albo zegarek prefekta), dla tej samej postaci. Odbicie nie wypada ze sceny. Wracamy: dzwon, odbicie, scena 02."
   flagi_ustaw: [flaga.ansel-odbicie]
-  prowadzi_do: brak   # docelowo s1.scena.02
+  prowadzi_do: s1.scena.02
 ```
 
 ```yaml
@@ -766,7 +764,7 @@ rozgalezienie:
   wyklucza_flagi: [flaga.godzina-stracona]
   efekt: "Biblioteka jest otwarta, ale Dział Ksiąg Zakazanych stoi za sznurem. Pani Pince (npc.irma-pince; jej obecność w 1969 jest `pewnosc: niepewne`) nie wpuszcza uczniów szóstego roku: „Dział nie jest dla was. Proszę wracać do sali.” Zwykłe półki nie mają niczego, co popchnęłoby fabułę (ogólne tomy o zegarach, kolor). Jeśli postacie się spóźnią na Zaklęcia, to niczego nie blokuje: Flitwick wita je słowami „Siadajcie, siadajcie” i lekcja idzie dalej (kolor, bez kary). Dział dostępny jest dopiero nocą (scena 09). Odbicie w szkle zegara przechodzi do wielkiego zegara w Sali Wejściowej, gdy postać wraca na lekcję. Wracamy: scena 02."
   flagi_ustaw: []
-  prowadzi_do: brak   # docelowo s1.scena.02
+  prowadzi_do: s1.scena.02
 ```
 
 ```yaml
@@ -778,7 +776,7 @@ rozgalezienie:
   wyklucza_flagi: [flaga.godzina-stracona]
   efekt: "Śledzenie nie ma dokąd prowadzić: Cassian idzie na Zaklęcia, tak samo jak wszyscy, w towarzystwie Rosalind. MG mówi: „Cassian idzie prosto na Zaklęcia, wyprostowany, i nie ogląda się za siebie.” Jeśli postać zbliży się albo go zaczepi, wystarczy blok cassian-przy-stole (chłodna uprzejmość, bez konfrontacji; scena 08 potrzebuje flag ze śledztwa). Postacie wchodzą do klasy razem z nim, więc nikt się nie spóźnia. Wracamy: scena 02."
   flagi_ustaw: []
-  prowadzi_do: brak   # docelowo s1.scena.02
+  prowadzi_do: s1.scena.02
 ```
 
 ```yaml
@@ -790,7 +788,7 @@ rozgalezienie:
   wyklucza_flagi: []
   efekt: "Wren znajduje ją na korytarzu i mówi to samo, co przy stole (godzina, miejsce, „wojna nie pyta o dom”), w jednym zdaniu: „Grupa trzecia, po obiedzie, dziesięć minut przed moją lekcją. Najpierw Zaklęcia.” Pytań o nieobecność nie zadaje; ewentualne kłamstwo zbywa jak w bloku wren-grupa-trzecia. Odbicie w szkle zegara dostaje **inna postać**, obecna przy dzwonie, a nieobecna widzi tylko wielki zegar z odległości. Jeśli gracz dołącza w trakcie sesji, jego postać wchodzi przy wyjściu do Sali Wejściowej (siatka 2). Wracamy: dzwon i scena 02."
   flagi_ustaw: [flaga.ansel-odbicie]
-  prowadzi_do: brak   # docelowo s1.scena.02
+  prowadzi_do: s1.scena.02
 ```
 
 ```yaml
@@ -802,7 +800,7 @@ rozgalezienie:
   wyklucza_flagi: [flaga.godzina-stracona]
   efekt: "Drzwi sali Obrony są zamknięte na klucz, a na deskach wisi kartka pismem Wrena: „Grupa trzecia: po obiedzie, dziesięć minut przed lekcją. Najpierw Zaklęcia.” Pukanie nie daje odpowiedzi. MG mówi: „Zamknięte. Kartka mówi to samo, co Wren przy owsiance.” Nic się nie dzieje, a spóźnienie na Zaklęcia jest tylko kolorem (Flitwick: „Siadajcie”). Wracamy: Zaklęcia, scena 02."
   flagi_ustaw: []
-  prowadzi_do: brak   # docelowo s1.scena.02
+  prowadzi_do: s1.scena.02
 ```
 
 ```yaml
@@ -814,7 +812,7 @@ rozgalezienie:
   wyklucza_flagi: []
   efekt: "Tnij w tej kolejności: pogawędkę z Crake'iem (wraca w scenie 07), dodatkowe sygnały dziwności, długą rozmowę z Tobiasem (plotki zostają jako po jednym zdaniu). **Nigdy** nie wycinaj: Wrena zbierającego grupę, dzwonu i odbicia w szkle zegara (scena 05 go potrzebuje). MG mówi: „Rozmowę dokończycie później, teraz biegniecie na Zaklęcia.” Ustaw flagi plotek, jeśli jeszcze nie padły, jednym zdaniem Tobiasa. Wracamy: tekst 7, tekst 6, scena 02."
   flagi_ustaw: [flaga.plotka-o-voldemorcie, flaga.plotka-duch-puchona, flaga.ansel-odbicie]
-  prowadzi_do: brak   # docelowo s1.scena.02
+  prowadzi_do: s1.scena.02
 ```
 
 ```yaml
@@ -826,7 +824,7 @@ rozgalezienie:
   wyklucza_flagi: []
   efekt: "Tobias blednie i oddaje (albo traci) notes bez walki. W notesie są wyłącznie przezwiska („Śpiący Kruk”, „Pan Zegarek”), bez dat, godzin i szczegółów: daty zna tylko Tobias i nie wyjawia ich przy groźbie. MG mówi: „To są same przezwiska.” Od tej pory Tobias omija postać szerokim łukiem i nie zagaduje jej do końca sesji; plotki docierają do niej przez innych. Dopiero uprzejme zainteresowanie (scena 06) daje daty. Wracamy: dzwon, odbicie, scena 02."
   flagi_ustaw: []
-  prowadzi_do: brak   # docelowo s1.scena.02
+  prowadzi_do: s1.scena.02
 ```
 
 ```yaml
@@ -838,7 +836,7 @@ rozgalezienie:
   wyklucza_flagi: []
   efekt: "Siódmoroczni niechętnie pokazują jeden nagłówek z 1969 roku: „Charłacy maszerują pod Ministerstwem” (`pewnosc: niepewne`: nagłówek jest wymysłem kampanii, nie potwierdzonym faktem; do weryfikacji przez strażnika kanonu). To nastrój niepokoju i nic więcej: niczego nie wyjaśnia ani nie ustawia flag. Jeśli przy stole ustalono zasłonę na czystość krwi, siódmoroczni chowają gazetę bez słowa. Wracamy: dzwon i scena 02."
   flagi_ustaw: []
-  prowadzi_do: brak   # docelowo s1.scena.02
+  prowadzi_do: s1.scena.02
 ```
 
 ```yaml
@@ -850,7 +848,7 @@ rozgalezienie:
   wyklucza_flagi: []
   efekt: "Wszystko dozwolone. Prefekt robi uwagę („To nie wasz stół”), ale bez kary i punktów; Wren to zauważa i mówi: „Dobrze. Przyzwyczajajcie się.” Gdy postacie siedzą razem, Wren mówi do wszystkich naraz (blok wren-grupa-trzecia). Gdy Tobias jest Ślizgonem, siedzi bliżej szeptu Rosalind i słyszy go w całości, co go peszy: „Bajki. Podaj dżem.” Plotka o duchu Puchona dociera i tak (z wesołą pogardą „u nas też o tym gadają”), a przy zasłonie na czystość krwi Rosalind urywa po jednym zdaniu. Wracamy: dzwon i scena 02."
   flagi_ustaw: [flaga.plotka-o-voldemorcie, flaga.plotka-duch-puchona]
-  prowadzi_do: brak   # docelowo s1.scena.02
+  prowadzi_do: s1.scena.02
 ```
 
 ## Drabinka podpowiedzi
