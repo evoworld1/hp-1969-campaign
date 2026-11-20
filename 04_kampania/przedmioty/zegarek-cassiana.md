@@ -34,7 +34,7 @@ Zegarek należał do dziadka Cassiana. Wskazówki stanęły w godzinie jego śmi
 
 **Ważne reguły z grafu (po decyzjach MG z 2026-11-20).**
 - **Do końca sceny 04 zegarek jest zawsze przy Cassianie** (`flaga.zegarek-cassiana` = `u-cassiana`). Przy śniadaniu (01) i na Zaklęciach (02) jest tylko sygnałem. Godzina drużyny ginie w scenie 03 i zasila Cassiana w pokazie (04) bez wyjątków.
-- Zegar kradzieży (`flaga.s1-zegar-kradziezy`) biegnie co najmniej od sceny 03 do wieczoru po scenie 04. Nie rośnie, gdy zegarek nie jest u Cassiana. Zatrzymuje się na stałe, gdy zegarek trafia do graczy, zostaje skonfiskowany albo zniszczony.
+- Zegar kradzieży (`flaga.s1-zegar-kradziezy`) biegnie co najmniej od sceny 03 do wieczoru po scenie 04. Nie rośnie, gdy zegarek nie jest u Cassiana. Zatrzymuje się, gdy zegarek trafia do graczy, zostaje skonfiskowany albo zniszczony (zniszczenie zatrzymuje go na stałe; zegarek oddany w targu niezdemaskowanemu Cassianowi pozwala mu ruszyć znowu).
 - Skonfiskowany zegarek (np. w szufladzie Flitwicka po scenie 08) bez Cassiana nic nie podbiera. Cassian próbuje wtedy namówić postacie, żeby pomogły mu go odzyskać.
 - Zniszczony zegarek kończy podbieranie, a **część skradzionych godzin wraca do ofiar**; [[npc.ansel-dray]] na chwilę migocze, gdziekolwiek jest (decyzja MG 2026-11-20; szczegóły w „Dla MG”).
 - Karta Pożyczającego działa tylko razem z tym zegarkiem (decyzja MG 2026-11-20).

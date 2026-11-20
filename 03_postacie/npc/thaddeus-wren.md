@@ -15,7 +15,8 @@ tylko_mg: true
 tagi: [s1, wren, opcm, nauczyciel, auror, grupa-wrena]
 zrodla:
   - "04_kampania/stan-kampanii.md, rejestr decyzji 2026-11-20 (grupy ćwiczeniowe)"
-  - "05_scenariusze/s1-godzina-ktorej-nie-bylo/graf-scen.md (drużyna, sceny 01, 04)"
+  - "05_scenariusze/s1-godzina-ktorej-nie-bylo/graf-scen.md (drużyna, sceny 01, 04, siatka bezpieczeństwa 1)"
+  - "04_kampania/stan-kampanii.md, rejestr decyzji 2026-11-20 (wyrwany zegarek w pokazie, przemoc w Wielkiej Sali)"
   - "01_kanon/kadra-hogwartu-1969.md (OPCM: nauczyciel nieznany z kanonu, klątwa stanowiska)"
   - "archiwum: modul-s1-v0 (obsada; pomysł, nie fakt)"
 aktualizacja: 2026-11-20
