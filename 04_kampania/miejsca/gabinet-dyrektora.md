@@ -9,7 +9,7 @@ pewnosc: niepewne
 # Docelowo: s1.scena.05 (jeśli gracze od razu prowadzą Ansela do dyrektora), s1.scena.12 (siatka bezpieczeństwa 3)
 sceny: []
 tylko_mg: true
-tagi: [s1, hogwart, dumbledore, ansel, siatka-bezpieczenstwa, biblioteka-legalnie]
+tagi: [s1, hogwart, dumbledore, ansel, siatka-bezpieczenstwa]
 zrodla:
   - "Rowling, Komnata Tajemnic, rozdz. 11–12 (kamienny strażnik na hasło, ruchome spiralne schody, okrągły gabinet z portretami dyrektorów i srebrnymi przyrządami); opis własnymi słowami"
   - "Walker 2e s. 159 (Headmaster's Office: okrągły gabinet, portrety, biurko, Tiara Przydziału)"
@@ -26,7 +26,7 @@ Schody kręcą się pod wami same, cicho, jak koło młyńskie, i wynoszą was p
 **Rola w Sesji 1.** Tylko jeśli gracze sami tu przyjdą (siatka bezpieczeństwa 3). Nie podsuwaj tej drogi; nie karz za nią.
 - [[npc.albus-dumbledore]] słucha uprzejmie i uważnie, proponuje Anselowi krzesło, ale patrzy o pół metra obok. Wierzy, że postacie kogoś widzą, prosi o obserwację, niczego nie obiecuje. Ustawia `flaga.dumbledore-powiadomiony`.
 - [[npc.ansel-dray]] cicho: „On mnie nie widzi. Pani profesor też w końcu przestała”.
-- Na prośbę o bibliotekę: zgoda z warunkiem „Opowiecie mi potem, co znaleźliście” (`flaga.biblioteka-legalnie`).
+- Na prośbę o Dział Ksiąg Zakazanych: uprzejma odmowa, regulamin obowiązuje wszystkich, także ciekawych (decyzja MG 2026-11-20: zgody nie daje nikt). Bez kary i bez dalszych pytań.
 
 **Jak tu wejść.** Kamienny strażnik w korytarzu przepuszcza tylko na hasło. Postacie go nie znają. Drogi: poprosić [[npc.minerva-mcgonagall]] albo dowolnego nauczyciela, by ich zaprowadził (najprostsze); poczekać, aż dyrektor sam wyjdzie (kilka minut, jeśli MG chce); próbować haseł (strata czasu, nic więcej). MG może też uznać, że dyrektor „spodziewał się ich” i strażnik odsuwa się sam.
 

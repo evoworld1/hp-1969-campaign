@@ -25,7 +25,7 @@ Sala jest jasna i trochę za ciepła, bo słońce wpada przez wysokie okna prost
 - [[npc.filius-flitwick]] uczy Tempus: nad różdżką pojawiają się dymne cyfry prawdziwej chwili, nie wskazań zegara.
 - **Sygnał dziwności (W0):** gdy wieża bije, cyfry nad różdżką Flitwicka drżą i przeskakują o minutę. Flitwick: „Wieża boczy się od dwóch tygodni”.
 - Jeśli [[npc.cassian-vane]] chodzi na Zaklęcia z postaciami, pięć minut przed końcem prosi o wyjście „do skrzydła szpitalnego”.
-- Flitwick zadaje pracę domową o dryfie (`flaga.praca-domowa-dryf`); ciekawskim podsuwa tytuł z Działu Ksiąg Zakazanych i może podpisać przepustkę (`flaga.przepustka-flitwicka`, `flaga.biblioteka-legalnie`).
+- Flitwick zadaje pracę domową o dryfie (`flaga.praca-domowa-dryf`); ciekawskim wspomina, że o dryfie pisano poważnie tylko w Dziale Ksiąg Zakazanych, ale przepustki nie podpisze (decyzja MG 2026-11-20: do działu wchodzi się wyłącznie nocą, bez zgody).
 
 **Stan zmienny.**
 - Po `flaga.godzina-stracona`: na korepetycjach Flitwick mówi mimochodem: „Już trzecie zgłoszenie zgubionej godziny w tym tygodniu” (droga awaryjna do W1).

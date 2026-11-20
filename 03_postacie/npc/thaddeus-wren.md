@@ -24,7 +24,7 @@ aktualizacja: 2026-11-20
 
 Były auror, od tego roku nauczyciel Obrony przed Czarną Magią. Zmęczony, suchy w humorze, brakuje mu dwóch palców lewej dłoni. Uczy, że pojedynek to rozmowa: „przeciwnik zawsze mówi, co zrobi”. Po niepokojącym lecie podzielił szósty rok na mieszane grupy ćwiczeniowe („wojna nie pyta o dom”); postacie graczy są w grupie trzeciej, Cassian prowadzi grupę rywali. Coś podejrzewa, ale nie oskarży ucznia bez dowodów.
 
-**Rola w Sesji 1.** Zbiera drużynę przy śniadaniu (01), przyjmuje spóźnioną grupę chłodno i prowadzi lekcję czytania przeciwnika (04), pyta „swoją” grupę, kto gubi czas (06–08, zegar kradzieży 2), może dać zgodę na wieczór w bibliotece (09). Przy pojedynku w 08 może przerwać: „Dosyć”.
+**Rola w Sesji 1.** Zbiera drużynę przy śniadaniu (01), przyjmuje spóźnioną grupę chłodno i prowadzi lekcję czytania przeciwnika (04), pyta „swoją” grupę, kto gubi czas (06–08, zegar kradzieży 2), o Dział Ksiąg Zakazanych proszony odmawia (decyzja MG 2026-11-20). Przy pojedynku w 08 może przerwać: „Dosyć”.
 
 **Dalej.** Klątwa stanowiska Obrony (kanon): nie zostanie dłużej niż rok. Jak odejdzie, zdecyduje MG w późniejszych scenariuszach. Grupy trwają cały rok.
 
@@ -67,7 +67,7 @@ Przykładowe kwestie:
 
 | Podejście graczy | Reakcja |
 |---|---|
-| Uprzejmość | Docenia, ale nie mięknie. Szczera prośba „do pracy domowej o dryfie” wystarcza do zgody na wieczór w Dziale Ksiąg Zakazanych (`flaga.biblioteka-legalnie`). |
+| Uprzejmość | Docenia, ale nie mięknie. Prośbę o Dział Ksiąg Zakazanych „do pracy domowej o dryfie” odrzuca krótko: „Przeciwnik zawsze mówi, co zrobi. Wy właśnie mi powiedzieliście”. Od tej chwili uważniej patrzy, kto z jego grupy nie śpi w nocy. |
 | Groźba | Patrzy długo i spokojnie, po czym daje szlaban. Groźba wobec aurora to dla niego dziecinada. |
 | Przekupstwo | Odmowa bez gniewu i minus w jego oczach na długo. |
 | Kłamstwo | Czyta kłamstwo jak przeciwnika na macie. Nie oskarża, ale mówi: „Wróćcie, gdy będziecie gotowi powiedzieć mi prawdę”. |

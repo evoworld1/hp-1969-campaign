@@ -38,7 +38,7 @@ Gruby notatnik w miękkiej, ciemnej skórze, wytartej na rogach od dłoni, któr
 - **Zestawić go z księgą.** W Sesji 1 daje to najwyżej dreszcz: znak odsyłacza z notatnika pasuje do drobnej tarczy na marginesie widocznej rozkładówki księgi. Nic więcej się nie otwiera.
 - **Wynieść go z pracowni.** Gdy notatnik przekracza próg sali, wszystkie zatrzymane zegary w pracowni drgną naraz, a każdy zegar w zamku wybija trzynasty raz (`flaga.trzynasta-wybila`, scena 10). [[npc.ansel-dray]] zaczyna blednąć: notatnik był jedną z jego kotwic.
 - **Zostawić go.** Gablota się zamyka, zegary w pracowni dalej stoją (`flaga.dziennik-miejsce` = `w-pracowni`). Wariant awaryjny cliffhangera opisuje przegląd scenariusza.
-- **Stracić go.** Jeśli bicie zwabi Filcha (nocą) albo panią Pince (wieczorem) i złapią postacie z notatnikiem, trafia on do McGonagall albo do szuflady Filcha (`flaga.dziennik-miejsce` = `skonfiskowany`, `flaga.filch-zlapal`).
+- **Stracić go.** Jeśli bicie zwabi Filcha i złapie on postacie z notatnikiem, trafia on do McGonagall albo do szuflady Filcha (`flaga.dziennik-miejsce` = `skonfiskowany`, `flaga.filch-zlapal`).
 - **Próbować go zniszczyć** (rozgałęzienie „inne” w przeglądzie): notatnik się opiera; przy wielkim wysiłku zostaje osmalony, zegary milkną na jedną noc.
 
 **Czego notatnik nie robi w Sesji 1.** Nie tłumaczy kotwicy Ansela ani tego, jak działa danina czasu. Pierwszy czytelny rozdział (Sesja 2) da pierwszy trop: chłopiec trzyma się czasu zabranego „wielu naraz, w jednej chwili”. Pełniejsze wyjaśnienie wymaga zestawienia notatnika z księgą. Kolejne rozdziały otwierają się za cenę (rozgałęzienie „sekret” w przeglądzie); jaka to cena, rozstrzygnie się przy Sesji 2.

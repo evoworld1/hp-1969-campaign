@@ -3,7 +3,7 @@
 Żywy plik: pamięć projektu między sesjami. Reżyser czyta go na początku każdej sesji i aktualizuje na końcu.
 
 ## Bieżąca faza
-- **Faza:** 2 (Graf Scenariusza 1). Część A zakończona 2026-11-20. **Część B1 zakończona 2026-11-20.** Faza 1 zamknięta 2026-11-20.
+- **Faza:** 2 **zamknięta 2026-11-20** (graf Scenariusza 1 zaakceptowany przez MG). Następna: **Faza 3 (sceny)**. Faza 1 zamknięta 2026-11-20.
 - **Część B1 (zrobione):**
   - mechanik: szybka ścieżka tworzenia postaci (4 archetypy, około 30–35 minut zamiast 140–170); usunięta rada o wspólnym domu; decyzje MG wpisane do instrukcji; 4 nowe terminy w słowniku.
   - architekt-fabuly: graf podzielony na `przeglad.md` (id `s1`) i pomocniczy `graf-scen.md` bez nagłówka. Wprowadzone decyzje MG: Patron Wymark (`npc.silas-wymark`), stracona godzina między lekcjami (scena 03 to teraz stracona godzina, 04 to Obrona), mignięcia Ansela, legalna biblioteka, data 22.09.1969. Dodane wczesne sygnały dziwności w scenach 01–02, 7 siatek bezpieczeństwa i 37 flag. Rdzeń trwa około 4 h 20 min.
@@ -12,13 +12,14 @@
 - **Część B2a (zrobione 2026-11-20):** tworca-npc utworzył 19 szkiców kart NPC w `03_postacie/npc/` (8 pełnych, 11 krótkich); redaktor-ciaglosci sprawdził; Reżyser naprawił drobne błędy (polszczyzna, kominek McGonagall, kwestia Ansela u Dumbledore'a, Sprout w 1951, objaśnienia terminów); w zarysie wpisany Patron Wymark. Walidator czysty (ostrzeżenia o nieużywanych flagach są oczekiwane do czasu scen).
 - **Odpowiedzi MG na pytania B2a wprowadzone (2026-11-20):** tworca-npc ujednolicił karty (zob. rejestr decyzji).
 - **Część B2b (zrobione 2026-11-20):** narrator-scen: 14 kart miejsc (`04_kampania/miejsca/`); tworca-npc: 7 przedmiotów (`04_kampania/przedmioty/`) i nagłówki 4 handoutów (`handouty/`). Po decyzjach MG: architekt-fabuly wprowadził zaklętą księgę do grafu (scena 09, trzy poziomy zabezpieczeń, ucieczka na 13 uderzeń, siatka bezpieczeństwa 8, trzy drogi do wskazówki o gablocie W7, nowe flagi `ksiega-zabezpieczenia` i `ksiega-zlapani`); tworca-npc: nowa karta `przedmiot.zakleta-ksiega`, notatnik Marrow, karta z księgi, Cassian, Ansel; mechanik: `02_zasady/nagrody-z-teaserow.md` (RETRORSUM, Oko, 8 kandydatów na klątwę), liczby zabezpieczeń, ucieczki i zniszczenia zegarka. Dwa przeglądy redaktora, poprawki wprowadzone. Walidator czysty.
-- **Następny krok:** odpowiedzi MG na pytania z B2b (zob. „Otwarte pytania”), potem akceptacja grafu przez MG, co kończy Fazę 2. Następnie Faza 3 (sceny), zaczynając od sceny 01.
+- **Następny krok: Faza 3**, zaczynając od sceny 01 (komenda `/scena`). Kolejność agentów według `CLAUDE.md`. Przy każdej prośbie o akceptację Reżyser podaje MG plik do przeczytania.
+- **Ostatnia poprawka Fazy 2 (2026-11-20):** architekt-fabuly usunął legalne wejście do biblioteki (przepustka Flitwicka, flagi `biblioteka-legalnie` i `przepustka-flitwicka`, karta przepustki); scena 09 tylko nocą, nowa siatka bezpieczeństwa 9 (Filch łapie w drodze).
 - **Dla mechanika (Faza 3), dodatkowo:** zasady domowe niszczenia rzeczy zwykłym uderzeniem i celowania w mały przedmiot (propozycje w `zegarek-cassiana.md`); trudność galerii wahadeł (propozycja Tricky 12).
 - **Dla strażnika kanonu:** czy pani Pomfrey pracuje w Hogwarcie w 1969; Slughorn w 1969; Fawkes w gabinecie w 1969; klepsydry punktów domów w kanonie.
 - **Dla mechanika (Faza 3):** zdolności Cassiana (Skradzione Chwile, zegarek jako słaby punkt), premie za nazwanie nawyków Rosalind i Barnaby'ego, obchód Filcha jako przeciwnik, próg pogawędki z Crake'iem, czy Ansel potrzebuje liczb.
 - **Dla mechanika przy scenach:** czy stan Drained działa już na lekcji Obrony; rdzeń ze smoczego serca a drewno „Oak” (s. 29, niejasność podręcznika).
 - **Odłożone do scen:** liczby dla wyniku 2× i 3× trudności (ZD-09).
-- **Ostatnie podsumowanie rozmowy:** `99_robocze/summary-session#2.md` (2026-11-20). Następną sesję zacznij od `/faza 2` (część B2).
+- **Ostatnie podsumowanie rozmowy:** `99_robocze/summary-session#2.md` (2026-11-20). Następną sesję zacznij od `/scena` (scena 01).
 
 ### Faza 1, część A: co powstało
 - `00_zrodla/walker-2e-draft-2026-04/tekst/`: wyciąg tekstu podręcznika (16 rozdziałów, znaczniki stron). Podręcznik jest jednym PDF (184 s.; numer drukowany = strona PDF − 5).
@@ -61,7 +62,7 @@
 | 2026-11-20 | Patron: **Silas Wymark** (nasza postać), w 1951 prefekt i asystent prof. Marrow, widział Klepsydrę; dziś zwerbowany śmierciożerca, który powiedział o niej Voldemortowi i znalazł Crake'a. Nazwisko Nott pada tylko w plotce. | MG |
 | 2026-11-20 | Postacie tracą godzinę **między Zaklęciami a Obroną** (nie po obu lekcjach). | MG |
 | 2026-11-20 | Ansela widzą też inne ofiary Cassiana, ale **tylko mignięciem**; po szkole krąży plotka o „duchu Puchona”. Rozmawiają z nim tylko postacie graczy. | MG |
-| 2026-11-20 | Przyjęte: legalne wejście do biblioteki obok nocnego; Tempus uczony na lekcji 6. roku w Sesji 1 (nikt go nie zna na starcie); **Pokątna jako opcjonalny prolog** (MG: podoba się); godzinę traci cała drużyna naraz; data 22 września 1969; SUM zdany przy co najmniej 3 punktach; cechy rzadkie losowane z przerzutem przy 99–100; co najmniej 2 fakultety. | MG |
+| 2026-11-20 | Przyjęte: ~~legalne wejście do biblioteki obok nocnego~~ (odwołane 2026-11-20, zob. niżej); Tempus uczony na lekcji 6. roku w Sesji 1 (nikt go nie zna na starcie); **Pokątna jako opcjonalny prolog** (MG: podoba się); godzinę traci cała drużyna naraz; data 22 września 1969; SUM zdany przy co najmniej 3 punktach; cechy rzadkie losowane z przerzutem przy 99–100; co najmniej 2 fakultety. | MG |
 | 2026-11-20 | **Odrzucone: wspólny dom.** Gracze wybierają dowolne domy. Trzeba wymyślić uzasadnienie, dlaczego zbierają się w drużynę (np. klub, wspólne zadanie od profesora). | MG |
 | 2026-11-20 | Jeśli tworzenie postaci według Walkera zajmie wszystkim graczom ponad godzinę, trzeba je uprościć (zadanie do wykonania). | MG |
 | 2026-11-20 | **Drużyna:** na co dzień postacie są w jednej mieszanej grupie ćwiczeniowej prof. Wrena na Obronie („wojna nie pyta o dom”); Cassian w rywalizującej grupie. Głębiej łączy je wspólny sekret z 4. roku, który ustalają gracze przy tworzeniu postaci. Odrzucone: zespół Flitwicka, Koło Astronomiczne, szlaban u Filcha. | MG |
@@ -87,12 +88,13 @@
 | 2026-11-20 | Zniszczenie zegarka Cassiana nie oddaje godziny drużyny (jest kotwicą Ansela); wracają tylko godziny innych ofiar. | MG |
 | 2026-11-20 | **Trzecie RETRORSUM w sesji** niszczy podwójnie napiętnowaną różdżkę i zostawia trwałe blizny na dłoni i przedramieniu; zaklęcie wtedy nie działa. | MG |
 | 2026-11-20 | **Granica cofnięcia RETRORSUM:** gracz mówi, jak daleko się cofa; MG potwierdza albo sam wybiera chwilę (najlepiej tuż przed błędem); gracz odzyskuje wszystkie punkty i akcje i dostaje pewny sukces. | MG |
+| 2026-11-20 | **Do Działu Ksiąg Zakazanych i pracowni tylko nocą, bez zgody.** Nie ma przepustki Flitwicka ani innego legalnego wejścia (odwołuje wcześniejszą decyzję). | MG |
+| 2026-11-20 | **Graf Scenariusza 1 zaakceptowany** (z powyższą poprawką). Faza 2 zamknięta. | MG |
 
 ## Otwarte pytania
-1. Tytuł książki z przepustki Flitwicka: ten sam tom, o który pytał Cassian? (MG zapozna się najpierw ze streszczeniem grafu.)
-2. Akceptacja grafu Scenariusza 1 (zamyka Fazę 2). Streszczenie dla MG: `99_robocze/streszczenie-grafu-s1.md`.
+1. Gdy Filch złapie całą drużynę w drodze do biblioteki (siatka 9): roboczo Ansel budzi ich po północy i próbują drugi raz tej samej nocy; inne warianty: wyprawa następnej nocy albo Cassian idzie sam i drużyna trafia za nim.
 - Kto ma RETRORSUM: MG rozstrzyga w dniu sesji. Autor księgi i jej zagadki: Sesja 2 i później.
-- Uwaga Reżysera na przyszłość: przy każdej prośbie o akceptację podawać MG link do krótkiego streszczenia albo pliku.
+- Zasada pracy: przy każdej prośbie o akceptację podawać MG link do krótkiego streszczenia albo pliku.
 
 ## Zadania do wykonania
 - Brak pilnych. Tworzenie postaci uproszczone (szybka ścieżka) 2026-11-20.
@@ -109,7 +111,7 @@
 | Zasady (Walker) | 15 plików + ocena mechanik fabularnych, recenzja |
 | Zarys kampanii 1969 | `04_kampania/zarys-kampanii.md`, recenzja (zatwierdzony przez MG) |
 | Instrukcja tworzenia postaci | szkic (pełna i szybka ścieżka) |
-| Scenariusz 1: graf | szkic (`przeglad.md` + `graf-scen.md`), decyzje MG wprowadzone, miejsca, przedmioty i handouty jako szkice; czeka na akceptację MG |
+| Scenariusz 1: graf | szkic (`przeglad.md` + `graf-scen.md`), decyzje MG wprowadzone, miejsca, przedmioty i handouty jako szkice; **zaakceptowany przez MG 2026-11-20** (streszczenie: `99_robocze/streszczenie-grafu-s1.md`) |
 | Scenariusz 1: NPC | 19 szkiców w `03_postacie/npc/`, decyzje MG wprowadzone |
 | Scenariusz 1: sceny | 0 / ? |
 

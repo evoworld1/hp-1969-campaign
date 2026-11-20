@@ -24,14 +24,14 @@ Poniedziałek 22 września 1969. Rano w zamku dzieją się drobne dziwne rzeczy:
 |---|---|---|---|
 | 11 | Prolog: Pokątna (opcjonalny) | 30 min | Sobota przed szkołą: Ollivander, witryna Crake'a, plotka w kolejce. Uczy gry zamiast sceny 01. |
 | 01 | Śniadanie | 20 min | Rozmowa z gadatliwym kolegą, Wren zbiera grupę, pierwsze sygnały dziwności, jeden prosty test. |
-| 02 | Zaklęcia: Tempus | 30 min | Pierwsze zaklęcie, praca domowa (zmierzyć trzy zegary), Flitwick może dać przepustkę do Działu Ksiąg Zakazanych. |
+| 02 | Zaklęcia: Tempus | 30 min | Pierwsze zaklęcie, praca domowa (zmierzyć trzy zegary), Flitwick wspomina o książkach z Działu Ksiąg Zakazanych, ale przepustki nie podpisze (zachęta do nocnej wyprawy). |
 | 03 | Stracona godzina | 15 min | Mrugnięcie i godzina znika. Świadek widział Ślizgona z zegarkiem. Pierwsze mignięcie Ansela. |
 | 04 | Obrona: pokaz Cassiana | 30 min | Pierwszy test przeciwny. Cassian działa dwa razy szybciej. |
 | 05 | Chłopiec przy schodach | 25 min | Rozmowa z Anselem. Każda postać ma z nim kontakt. |
 | 06 | Mapa dryfu | 30 min | Pomiary zegarów w zamku: jeden ślad prowadzi do wieży, drugi do lochów. |
 | 07 | Wieża Zegarowa | 20 min | Celowy ślepy zaułek z ziarnem na Sesję 2 (plakietka Crake'a). |
 | 08 | Cassian | 35 min | Konfrontacja: pojedynek, targ, kradzież albo zniszczenie zegarka, litość. |
-| 09 | Biblioteka i pracownia | 40 min | Wejście legalne albo nocą. Księga, gablota, ewentualna ucieczka. |
+| 09 | Biblioteka i pracownia | 40 min | Wejście tylko nocą, bez zgody: test skradania, obchód Filcha (złapanie kosztuje szlaban, ale nie zamyka drogi). Księga, gablota, ewentualna ucieczka. |
 | 10 | Trzynasty raz | 15 min | Cliffhanger. |
 | 12 | Wędrówki po zamku | 5–30 min | Krótkie spotkania do wpięcia w dowolnym momencie (duchy, nauczyciele, kuchnia, ofiary Cassiana). |
 
@@ -40,12 +40,8 @@ Rdzeń (01–10) trwa około **4 h 20 min**. Przerwać i wznowić można po scen
 ## Jak gra nie utyka
 
 - **Trzy drogi do każdej ważnej wskazówki.** Jeśli gracze przegapią jedną, znajdą inną. Przykład dla gablotki: tabliczka „Co dane, można zatrzymać; co zabrane, trzeba zwrócić”, dopisek na odwrocie karty Cassiana i słowa Ansela o pani profesor, która „najpierw jej dawała”.
-- **8 siatek bezpieczeństwa** na typowe kłopoty: spóźniony gracz, postać odłączona od grupy, drużyna złapana przez Filcha, drużyna złapana przez zabezpieczenia księgi i inne.
+- **9 siatek bezpieczeństwa** na typowe kłopoty: spóźniony gracz, postać odłączona od grupy, drużyna złapana przez Filcha w drodze do pracowni albo z notatnikiem, drużyna złapana przez zabezpieczenia księgi i inne.
 - **Zegar kradzieży.** Jeśli gracze zwlekają, Cassian kradnie dalej, a w końcu sam do nich przychodzi.
-
-## Książka z przepustki Flitwicka (pytanie, które zadałem bez kontekstu)
-
-W scenie 02 Flitwick podsuwa ciekawskim uczniom tytuł książki z Działu Ksiąg Zakazanych i może podpisać im przepustkę. Dzięki temu do biblioteki da się wejść legalnie, a nie tylko nocą. Graf nie mówi, co to za książka. Propozycja: ten sam tom, o który wcześniej trzy razy prosił Cassian. Gdy gracze pokazują przepustkę, pani Pince mówi: „Pan Vane też ciągle o nią pyta”. Gracze dostają w ten sposób kolejny trop do Cassiana bez dodatkowej sceny.
 
 ## Co oznacza akceptacja grafu
 

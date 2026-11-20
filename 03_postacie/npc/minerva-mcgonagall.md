@@ -4,12 +4,12 @@ typ: npc
 tytul: "Prof. Minerva McGonagall"
 status: szkic
 imie: "Minerva McGonagall"
-rola: "Nauczycielka Transmutacji: podpisuje przepustki na rozsądne prośby; epizod"
+rola: "Nauczycielka Transmutacji: pilnuje regulaminu, przechowuje skonfiskowany notatnik; epizod"
 dom: Gryffindor
 rocznik_1969: "nauczyciel"
 kanon: true
 pewnosc: niepewne
-# Docelowo: s1.scena.09 (zgoda na wieczór w bibliotece), s1.scena.12, rozgałęzienie „skonfiskowany”
+# Docelowo: s1.scena.12, rozgałęzienie „skonfiskowany”
 sceny: []
 tylko_mg: true
 tagi: [s1, nauczyciel, transmutacja, gryffindor, kanon]
@@ -20,7 +20,7 @@ aktualizacja: 2026-11-20
 ---
 ## W skrócie
 
-Surowa, sprawiedliwa nauczycielka Transmutacji. Podpisuje przepustkę na wieczór w Dziale Ksiąg Zakazanych, gdy prośba jest rozsądna („do pracy domowej o dryfie”; `flaga.biblioteka-legalnie`). Jeśli Filch albo pani Pince skonfiskują notatnik Marrow, trafia on do niej (rozgałęzienie „skonfiskowany”).
+Surowa, sprawiedliwa nauczycielka Transmutacji. Przepustki do Działu Ksiąg Zakazanych na pracę domową szóstego roku nie podpisze (decyzja MG 2026-11-20: do działu wchodzi się wyłącznie nocą, bez zgody). Jeśli Filch skonfiskuje notatnik Marrow, trafia on do niej (rozgałęzienie „skonfiskowany”).
 
 ## Wygląd i sposób bycia
 
@@ -46,8 +46,8 @@ Kłamstwo poznaje po pierwszym zdaniu i daje kłamcy jeszcze jedną szansę, zan
 
 | Podejście graczy | Reakcja |
 |---|---|
-| Rozsądna, uczciwa prośba | Przepustka na wieczór do zamknięcia biblioteki. |
-| Kłamstwo | Brak przepustki i uważne spojrzenie przez kolejny tydzień. |
+| Rozsądna, uczciwa prośba o Dział Ksiąg Zakazanych | Odmowa bez kary: „Dział Ksiąg Zakazanych nie służy do prac domowych, panie i panowie. Czytelnia jest otwarta do dziewiątej”. |
+| Kłamstwo | Odmowa i uważne spojrzenie przez kolejny tydzień (po nocnej wyprawie pierwsza pyta, gdzie postacie były). |
 | Prośba o zwrot skonfiskowanego notatnika | Nie odda bez wyjaśnienia; prawda, opowiedziana w całości, może ją przekonać do rozmowy z dyrektorem (Sesja 2). |
 
 ## Mechanika

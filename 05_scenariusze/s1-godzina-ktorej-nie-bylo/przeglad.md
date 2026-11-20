@@ -25,7 +25,7 @@ aktualizacja: 2026-11-20
 
 Hogwart, poniedziałek **22 września 1969** (trzeci tydzień roku szkolnego). Postacie graczy to szóstoroczni tuż po SUM-ach (Standardowych Umiejętnościach Magicznych), z różnych domów, połączeni mieszaną grupą ćwiczeniową profesora Wrena i wspólnym sekretem z czwartego roku. Od rana zamek jest odrobinę „nie w porę”: wielki zegar się spóźnia, w jego szkle mignie chłopiec, którego za plecami nie ma, pierwszoroczniacy szepczą o „duchu Puchona”, a koleżanka z Hufflepuffu nie pamięta kwadransa. Na Zaklęciach Flitwick uczy Tempus (zaklęcie pokazujące prawdziwą chwilę) i cyfry nad klasą lekko drżą. W przerwie między Zaklęciami a Obroną przed Czarną Magią cała drużyna **traci godzinę**, której nie pamięta. Na Obronie Cassian Vane ze Slytherinu daje pokaz o wiele za szybki: działa dwa razy, zanim przeciwnik skończy jeden ruch. Postacie mogą od razu zapytać: czy to nasza godzina? Wieczorem przy schodach czeka Ansel, chłopiec z Hufflepuffu, z którym rozmawiać mogą tylko one.
 
-Przez kolejne półtora dnia w fikcji postacie mierzą, skąd ucieka czas, trafiają na Cassiana i w bibliotece (wieczorem za zgodą albo nocą bez niej) znajdują ukrytą pracownię profesor Marrow. Nad pulpitem wisi w niebieskawej łunie zaklęta księga, z której Cassian wyrwał kartę; w gablocie leży notatnik Marrow. Gdy wynoszą notatnik, wszystkie zegary w zamku wybijają trzynasty raz, a Ansel zaczyna blednąć. Koniec sesji: co robicie z notatnikiem i z chłopcem?
+Przez kolejne półtora dnia w fikcji postacie mierzą, skąd ucieka czas, trafiają na Cassiana i w bibliotece, do której zakradają się nocą wbrew regulaminowi, znajdują ukrytą pracownię profesor Marrow. Nad pulpitem wisi w niebieskawej łunie zaklęta księga, z której Cassian wyrwał kartę; w gablocie leży notatnik Marrow. Gdy wynoszą notatnik, wszystkie zegary w zamku wybijają trzynasty raz, a Ansel zaczyna blednąć. Koniec sesji: co robicie z notatnikiem i z chłopcem?
 
 **Dla kogo.** 2–3 graczy, dla wszystkich (poza MG) to pierwsza sesja gry fabularnej. Zasady przychodzą po jednej: scena 01 (albo prolog 11) to rozmowa i jeden prosty test, scena 02 to pierwsze zaklęcie, scena 04 to pierwszy test przeciwny, scena 08 to pierwszy pojedynek.
 
@@ -40,7 +40,7 @@ Przez kolejne półtora dnia w fikcji postacie mierzą, skąd ucieka czas, trafi
 5. **Plotka, nie wojna.** Słowa „Voldemort” i „śmierciożercy” padają szeptem jako plotka. Nazwisko Nott pada tylko w plotce. Patron (Silas Wymark) zostawia w Sesji 1 wyłącznie ślad.
 6. **Crake tylko w przelocie.** Jedna krótka pogawędka; dłuższa rozmowa wyłącznie przy bardzo wysokim wyniku testu spostrzegawczości.
 7. **Swoboda.** Wędrówki po zamku (scena 12) i opcjonalny prolog na Pokątnej (scena 11) wpinają się bez psucia ciągu.
-8. **Nikt nie musi łamać regulaminu.** Do biblioteki da się wejść legalnie (przepustka, prośba do nauczyciela, zgoda pani Pince) albo nocą.
+8. **Złamanie regulaminu jest konieczne, ale złapanie nie kończy gry.** Do Działu Ksiąg Zakazanych i pracowni da się dostać tylko nocą, bez zgody (decyzja MG z 2026-11-20). Flitwick rozbudza ciekawość, ale przepustki nie podpisze; żaden nauczyciel nie da zgody. Filch na obchodzie to cena, nie bramka: złapanie kosztuje szlaban, czas i reputację, a droga do pracowni zostaje otwarta (siatki 4 i 9 w `graf-scen.md`).
 9. **Porażka prowadzi naprzód.** Żaden nieudany test nie zamyka drogi; zmienia cenę (czas, hałas, szlaban, reputację).
 10. **Cliffhanger.** Koniec przy wyborze, co zrobić z notatnikiem i Anselem.
 
@@ -59,7 +59,7 @@ Przez kolejne półtora dnia w fikcji postacie mierzą, skąd ucieka czas, trafi
 - **Patron: Silas Wymark** [nasze, decyzja MG 2026-11-20]. W 1951 prefekt i asystent profesor Marrow w obserwatorium; widział Klepsydrę na własne oczy. Dziś, po trzydziestce, zwerbowany śmierciożerca: powiedział o Klepsydrze Voldemortowi i znalazł Crake'a, któremu obiecał pomoc w zamian. W Sesji 1 to **tylko ślad**: inicjały „S.W.” obok podpisu Marrow na ścianie pracowni i zdjęcie z 1951 roku (Marrow przy teleskopie, wysoki prefekt obok) w gablocie przy bibliotece. Nikt w Sesji 1 nie wymawia jego nazwiska. Szept o „panu Notcie”, który „bywał w wakacje u ojca”, to plotka przy stole Slytherinu, nic więcej.
 - **Dumbledore** czuje, że coś jest nie tak, ale odkłada sprawę. Jeśli postacie przyjdą do niego z Anselem, rozmawia z nimi uprzejmie i patrzy na puste krzesło.
 
-**Zmiany względem archiwum:** „Foliał” rozdzielony na dwa obiekty: **zaklętą księgę** nieznanego autora i **notatnik Marrow**; Karta Pożyczającego pochodzi z księgi; rok 1969 zamiast 1976; mechanika z archiwum (Drabina Wyników, progi k20, Dziennik Lekcji, punkty domów) wypada, testy ustali mechanik według Walkera. **Zmiany względem grafu z fazy 2A:** stracona godzina przesunięta między lekcje, numeracja scen 03 i 04 zamieniona (03 to teraz stracona godzina, 04 to Obrona), Patron ustalony, legalne wejście do biblioteki, wczesne sygnały dziwności (w tym odbicie Ansela w szkle zegara), drużyna jako grupa ćwiczeniowa Wrena ze wspólnym sekretem z 4. roku, kotwica jako powód, dla którego tylko postacie graczy rozmawiają z Anselem.
+**Zmiany względem archiwum:** „Foliał” rozdzielony na dwa obiekty: **zaklętą księgę** nieznanego autora i **notatnik Marrow**; Karta Pożyczającego pochodzi z księgi; rok 1969 zamiast 1976; mechanika z archiwum (Drabina Wyników, progi k20, Dziennik Lekcji, punkty domów) wypada, testy ustali mechanik według Walkera. **Zmiany względem grafu z fazy 2A:** stracona godzina przesunięta między lekcje, numeracja scen 03 i 04 zamieniona (03 to teraz stracona godzina, 04 to Obrona), Patron ustalony, wejście do biblioteki wyłącznie nocą bez zgody (decyzja MG 2026-11-20; odwraca wcześniejszą decyzję o wejściu legalnym), wczesne sygnały dziwności (w tym odbicie Ansela w szkle zegara), drużyna jako grupa ćwiczeniowa Wrena ze wspólnym sekretem z 4. roku, kotwica jako powód, dla którego tylko postacie graczy rozmawiają z Anselem.
 
 ## Stałe i elastyczne
 
@@ -68,6 +68,7 @@ Przez kolejne półtora dnia w fikcji postacie mierzą, skąd ucieka czas, trafi
 - Ansel istnieje i każda postać gracza rozmawia z nim w tej sesji. Inni widzą go najwyżej mignięciem.
 - Cassian ma kartę i zegarek; to on kradnie godziny.
 - Pracownia jest za ostatnim rzędem Działu Ksiąg Zakazanych, a notatnik w gablocie.
+- Do Działu Ksiąg Zakazanych i pracowni postacie wchodzą tylko nocą, bez zgody; nikt nie podpisze przepustki.
 - Zaklęta księga lewituje nad pulpitem: nie da się jej zabrać ani kartkować, brakuje w niej karty wyrwanej przez Cassiana. Siła uruchamia stopniowane zabezpieczenia.
 - Gablota otwiera się po oddaniu godziny; wskazówka ma trzy niezależne drogi (W7).
 - Karta działa tylko razem z zegarkiem Cassiana.
@@ -81,8 +82,8 @@ Przez kolejne półtora dnia w fikcji postacie mierzą, skąd ucieka czas, trafi
 - Kolejność scen 06, 07, 08 i 12; która postać co znajdzie i jak.
 - Czy rozegrany będzie prolog na Pokątnej (11).
 - Czy i jak dojdzie do pojedynku z Cassianem (pojedynek, targ, kradzież zegarka, donos).
-- Czy do biblioteki wejdą wieczorem za zgodą, czy nocą bez niej.
-- Jak otworzą gablotę i czy w ogóle; czy złapie ich Filch (albo pani Pince).
+- Jak zakradną się nocą do biblioteki (skradanie, kryjówki, Ansel jako zwiadowca) i czy Filch złapie kogoś w drodze albo z notatnikiem.
+- Jak otworzą gablotę i czy w ogóle.
 - Czy dotkną księgi i jak daleko się posuną (od porażenia do ucieczki przed pełnymi zabezpieczeniami).
 - Czy zniszczą zegarek Cassiana.
 - Kto z nauczycieli i duchów wejdzie do gry (scena 12), czy pójdą do Dumbledore'a.
@@ -101,7 +102,7 @@ Przez kolejne półtora dnia w fikcji postacie mierzą, skąd ucieka czas, trafi
 | s1.scena.06 | Mapa dryfu | 30 min | wt. 23.09, okienka i przerwy | rdzeń, węzeł śledztwa |
 | s1.scena.07 | Wieża Zegarowa | 20 min | wt., po południu | rdzeń, ślepy zaułek z ziarnem |
 | s1.scena.08 | Cassian | 35 min | wt., wieczór | rdzeń, pierwszy pojedynek |
-| s1.scena.09 | Biblioteka: trzynaste drzwi i Sala Zatrzymanych Godzin | 40 min | wt., wieczór (legalnie) albo noc wt./śr. | rdzeń, kulminacja |
+| s1.scena.09 | Biblioteka: trzynaste drzwi i Sala Zatrzymanych Godzin | 40 min | noc wt./śr. | rdzeń, kulminacja |
 | s1.scena.10 | Trzynasty raz (cliffhanger) | 15 min | zaraz po 09 | rdzeń, finał |
 | s1.scena.12 | Wędrówki po zamku (moduł spotkań) | 5–30 min | dowolnie | elastyczna |
 
@@ -113,7 +114,7 @@ Sesja kończy się pytaniem MG: **„Co robicie z notatnikiem i z Anselem?”**.
 
 **Warianty awaryjne cliffhangera.**
 - *Gablota nieotwarta albo notatnik zostawiony:* zegary i tak wybijają trzynasty raz o północy, bo zegar kradzieży doszedł do 4 i Cassian (albo sama luzująca się pieczęć) poruszył gablotę. Ansel znajduje postacie o świcie, blady: „Ktoś tam był. Zrobiło się ciszej”. Wybór dotyczy notatnika w cudzych rękach albo wciąż w pracowni.
-- *Filch (albo pani Pince) łapie postacie z notatnikiem:* trzynasty raz wybił już na progu pracowni, to bicie zwabiło Filcha. Notatnik zostaje skonfiskowany (trafia do McGonagall albo do szuflady Filcha), postacie dostają szlaban. Wybór brzmi wtedy: jak go odzyskać i komu powiedzieć o Anselu.
+- *Filch łapie postacie z notatnikiem:* trzynasty raz wybił już na progu pracowni, to bicie zwabiło Filcha. Notatnik zostaje skonfiskowany (trafia do McGonagall albo do szuflady Filcha), postacie dostają szlaban. Wybór brzmi wtedy: jak go odzyskać i komu powiedzieć o Anselu.
 
 **Zahaczki na Sesję 2.**
 - *Kotwica.* Pierwszy czytelny rozdział notatnika Marrow (albo jego fragment, jeśli notatnik jest skonfiskowany i trzeba go odzyskać) wyjaśnia, że chłopiec trzyma się czasu zabranego „wielu naraz, w jednej chwili”. Postacie rozumieją, że Ansel trwa dzięki ich godzinie i czemu tylko one z nim rozmawiają. Jeśli `flaga.sekret-poruszony`, MG łączy to z okruchami sekretu z 4. roku, które Ansel powtarzał.
@@ -173,7 +174,7 @@ rozgalezienie:
 rozgalezienie:
   id: s1.rozgalezienie.skonfiskowany
   rodzaj: awaryjne
-  warunek: "Filch albo pani Pince odebrali postaciom notatnik po wyjściu z pracowni."
+  warunek: "Filch odebrał postaciom notatnik po wyjściu z pracowni."
   wymaga_flag: [flaga.trzynasta-wybila, flaga.filch-zlapal]
   wyklucza_flagi: []
   efekt: "Notatnik leży u McGonagall albo w szufladzie Filcha. Szlaban daje pretekst, by być blisko niego. Sesja 2 zaczyna się od pytania, czy go odzyskać (podstępem, prośbą, przez Dumbledore'a), czy zostawić; Ansel blednie dalej."

@@ -20,7 +20,7 @@ aktualizacja: 2026-11-20
 ---
 ## W skrócie
 
-Dyrektor czuje, że w zamku coś jest nie tak, ale zajmują go większe zagrożenia, więc odkłada sprawę. Magia czasu go nie dotyka, bo chroni go jego wiedza: nigdy nie widział Ansela (decyzja MG z 2026-11-19). Gdy postacie przyprowadzą chłopca do gabinetu, Dumbledore słucha uprzejmie i uważnie, proponuje Anselowi krzesło, ale patrzy o pół metra obok. Mówi, że wierzy, iż oni kogoś widzą, prosi o obserwację, niczego nie obiecuje. Ustawia `flaga.dumbledore-powiadomiony`; na prośbę daje zgodę na wieczór w bibliotece (`flaga.biblioteka-legalnie`). Nie prowadzi graczy za rękę.
+Dyrektor czuje, że w zamku coś jest nie tak, ale zajmują go większe zagrożenia, więc odkłada sprawę. Magia czasu go nie dotyka, bo chroni go jego wiedza: nigdy nie widział Ansela (decyzja MG z 2026-11-19). Gdy postacie przyprowadzą chłopca do gabinetu, Dumbledore słucha uprzejmie i uważnie, proponuje Anselowi krzesło, ale patrzy o pół metra obok. Mówi, że wierzy, iż oni kogoś widzą, prosi o obserwację, niczego nie obiecuje. Ustawia `flaga.dumbledore-powiadomiony`. O Dział Ksiąg Zakazanych proszony uprzejmie odmawia: regulamin obowiązuje wszystkich, także ciekawych (decyzja MG 2026-11-20). Nie prowadzi graczy za rękę.
 
 ## Wygląd i sposób bycia
 

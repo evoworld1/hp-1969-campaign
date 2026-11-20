@@ -4,12 +4,12 @@ typ: npc
 tytul: "Irma Pince"
 status: szkic
 imie: "Irma Pince"
-rola: "Bibliotekarka: strażniczka Działu Ksiąg Zakazanych, wieczorne zagrożenie przy legalnym wejściu"
+rola: "Bibliotekarka: strażniczka Działu Ksiąg Zakazanych; za dnia rejestr wypożyczeń, rano ślady nocnej wyprawy"
 dom: brak
 rocznik_1969: "dorosła, bibliotekarka"
 kanon: true
 pewnosc: niepewne
-# Docelowo: s1.scena.09 (wariant wieczorny), s1.scena.10, s1.scena.12
+# Docelowo: s1.scena.12 (rejestr wypożyczeń), s1.scena.09 (tylko jako poranny skutek wyprawy)
 sceny: []
 tylko_mg: true
 tagi: [s1, biblioteka, dzial-ksiag-zakazanych, kanon]
@@ -20,7 +20,7 @@ aktualizacja: 2026-11-20
 ---
 ## W skrócie
 
-Surowa bibliotekarka, ustępuje wobec szczerej ciekawości. Szczera prośba może dać zgodę na wieczór w Dziale Ksiąg Zakazanych do zamknięcia o dziewiątej (`flaga.biblioteka-legalnie`). W scenie 12 skarży się na „chłopca od Slughorna”, który trzy razy prosił o ten sam tom o zegarmistrzostwie (W5, droga do pracowni; dostępne też przy legalnej prośbie). W wariancie wieczornym sceny 09 zagląda między regały i może złapać postacie z notatnikiem Marrow (scena 10, `flaga.filch-zlapal`).
+Surowa bibliotekarka, mięknie tylko wobec szczerej ciekawości, ale nigdy na tyle, by wpuścić ucznia za sznur Działu Ksiąg Zakazanych bez zgody (decyzja MG 2026-11-20: do działu wchodzi się wyłącznie nocą, bez zgody, a zgody nikt nie daje). W scenie 12, za dnia, skarży się na „chłopca od Slughorna”, który trzy razy prosił o ten sam tom o zegarmistrzostwie (W5, droga do pracowni). **Nocą nie patroluje** (decyzja wykonawcza: biblioteka jest zamknięta, ona śpi w swoich pokojach); zagrożeniem nocnej wyprawy jest Filch. Rano po wyprawie zauważa ślady (przestawiony sznur, zgaszona lampa, okruchy) i głośno o nich mówi: plotka i podejrzliwość, bez kary.
 
 ## Wygląd i sposób bycia
 
@@ -46,9 +46,10 @@ Krzywi się na każdy okruch i każdy zagięty róg. Przy ostatnim rzędzie dzia
 
 | Podejście graczy | Reakcja |
 |---|---|
-| Szczera ciekawość | Zgoda na wieczór w dziale do dziewiątej i wgląd w rejestr wypożyczeń. |
-| Kłamstwo albo pochlebstwo | Zimne „nie” i obserwacja przez cały wieczór. |
-| Hałas lub zniszczona książka | Wyprasza z biblioteki, zgłasza opiekunowi domu; przy notatniku Marrow: konfiskata (siatka bezpieczeństwa 4). |
+| Szczera ciekawość | Wgląd w rejestr wypożyczeń (W5.2). O Dział Ksiąg Zakazanych: „Z podpisem nauczyciela. A podpisu na takie tematy nie dostaniecie”. |
+| Kłamstwo albo pochlebstwo | Zimne „nie” i obserwacja przez cały wieczór w czytelni. |
+| Hałas lub zniszczona książka (za dnia) | Wyprasza z biblioteki, zgłasza opiekunowi domu. |
+| Ślady nocnej wyprawy (rano) | Wypytuje szósty rok, patrzy na postacie dłużej niż trzeba; jeśli zostawiły coś swojego, oddaje to opiekunowi domu (reputacja, bez szlabanu). |
 
 ## Mechanika
 

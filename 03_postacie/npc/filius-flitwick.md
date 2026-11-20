@@ -20,7 +20,7 @@ aktualizacja: 2026-11-20
 ---
 ## W skrócie
 
-Maleńki, pogodny mistrz Zaklęć. W scenie 02 uczy Tempus (zaklęcia pokazującego prawdziwą chwilę) i marszczy brwi, gdy cyfry nad jego różdżką drżą przy biciu wieży. Zadaje pracę domową: zmierzyć dryf trzech zegarów (`flaga.praca-domowa-dryf`). Ciekawskim podsuwa tytuł książki z Działu Ksiąg Zakazanych i może podpisać przepustkę (`flaga.przepustka-flitwicka`, `flaga.biblioteka-legalnie`). W scenie 12 daje korepetycje z Tempus (`flaga.tempus-opanowane`).
+Maleńki, pogodny mistrz Zaklęć. W scenie 02 uczy Tempus (zaklęcia pokazującego prawdziwą chwilę) i marszczy brwi, gdy cyfry nad jego różdżką drżą przy biciu wieży. Zadaje pracę domową: zmierzyć dryf trzech zegarów (`flaga.praca-domowa-dryf`). Ciekawskim wspomina, że o dryfie czasu pisano poważnie tylko w Dziale Ksiąg Zakazanych, ale przepustki nie podpisze (decyzja MG 2026-11-20: do działu wchodzi się wyłącznie nocą, bez zgody). Jego wzmianka to motywacja do nocnej wyprawy, nie ułatwienie. W scenie 12 daje korepetycje z Tempus (`flaga.tempus-opanowane`).
 
 ## Wygląd i sposób bycia
 
@@ -46,8 +46,9 @@ Przy każdym biciu z wieży zerka w okno. Na błąd w Tempus reaguje zachętą, 
 
 | Podejście graczy | Reakcja |
 |---|---|
-| Uprzejmość lub szczera ciekawość | Przepustka do jednej książki, korepetycje, dobre słowo u pani Pince. |
-| Kłamstwo | Udaje, że wierzy, ale przepustki nie podpisze. |
+| Uprzejmość lub szczera ciekawość | Korepetycje z Tempus i rozpromieniona uwaga, że „o takich rzeczach pisano tylko w książkach, do których szóstego roku nie wpuszczam, i dobrze”. |
+| Prośba o przepustkę do Działu Ksiąg Zakazanych | Uprzejma, stanowcza odmowa: „Nie na ten temat, moi drodzy. Z czasem się nie żartuje”. Bez kary. |
+| Kłamstwo | Udaje, że wierzy, ale przestaje dawkować ciekawostki. |
 | Pytania o zgubione godziny | Poważnieje: „Jeśli ktoś bawi się czasem, to nie jest zabawa”. Kieruje do Wrena albo dyrektora. |
 
 ## Mechanika

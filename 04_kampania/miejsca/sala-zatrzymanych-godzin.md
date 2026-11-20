@@ -57,7 +57,7 @@ Schody schodzą w dół, wąskie i strome, a każdy stopień odzywa się cichym 
 - Galeria wahadeł: uderzenie wahadłem (zadrapanie, siniak; liczby ustala mechanik). Nie zabija.
 - Zaklęta księga: porażenie przy dotyku, przy próbie wyrwania kartki pełne zabezpieczenia i ucieczka. Ciężkie obrażenia i zaklęcie zapomnienia tylko dla tych, którzy nie zdążą; śmierć wyłącznie jako świadomy wybór gracza po dwóch ostrzeżeniach poza fikcją (zob. [[przedmiot.zakleta-ksiega]]; siatka bezpieczeństwa 8).
 - Pokusa ściany: nauczenie się pożyczania chwili to ryzyko moralne, nie fizyczne.
-- Kryjówki: za wielkim zegarem jak drzwi, w niszy pod schodami. Wieczorem pani Pince tu nie zejdzie (nie widzi drzwi); nocą Filch też nie. Zagrożenie z góry przychodzi dopiero po trzynastym biciu albo po hałasie zabezpieczeń księgi.
+- Kryjówki: za wielkim zegarem jak drzwi, w niszy pod schodami. Filch tu nie zejdzie (nie widzi drzwi). Zagrożenie z góry przychodzi dopiero po trzynastym biciu albo po hałasie zabezpieczeń księgi.
 
 ### Do weryfikacji
 - Całe miejsce jest nasze. Liczby zabezpieczeń i ucieczki są w karcie [[przedmiot.zakleta-ksiega]]; trudność galerii wahadeł do ustalenia (propozycja mechanika: Tricky, 12).
@@ -86,7 +86,7 @@ test:
       efekt: "Przechodzą w rytmie wahadeł, cicho i bez strat."
       flagi_ustaw: []
     - wynik: porazka
-      efekt: "MG wybiera jedną cenę: hałas (pani Pince albo Filch na górze zaczyna nasłuchiwać), stracone minuty (bliżej zamknięcia biblioteki) albo zadrapanie dla jednej postaci."
+      efekt: "MG wybiera jedną cenę: hałas (Filch na górze zaczyna nasłuchiwać), stracone minuty (bliżej kolejnego przejścia Filcha) albo zadrapanie dla jednej postaci."
       flagi_ustaw: []
 ```
 

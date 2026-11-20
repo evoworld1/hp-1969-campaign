@@ -57,18 +57,8 @@ flagi:
     typ: bool
     wartosci: []
     sesja: s1
-  - id: flaga.przepustka-flitwicka
-    opis: "Postacie mają podpisaną przez Flitwicka przepustkę do jednej książki w Dziale Ksiąg Zakazanych."
-    typ: bool
-    wartosci: []
-    sesja: s1
   - id: flaga.praca-domowa-dryf
     opis: "Flitwick zadał pracę domową: zmierzyć przesunięcie (dryf) trzech zegarów na różnych piętrach. Daje pretekst do wędrówek po zamku."
-    typ: bool
-    wartosci: []
-    sesja: s1
-  - id: flaga.biblioteka-legalnie
-    opis: "Postacie mają zgodę na wieczorny pobyt w Dziale Ksiąg Zakazanych (przepustka Flitwicka, prośba do Wrena, McGonagall albo Dumbledore'a, zgoda pani Pince). Scena s1.scena.09 może się wtedy dziać wieczorem, bez nocnego wymykania się."
     typ: bool
     wartosci: []
     sesja: s1
@@ -217,7 +207,7 @@ flagi:
     wartosci: []
     sesja: s1
   - id: flaga.filch-zlapal
-    opis: "Filch (nocą) albo pani Pince (wieczorem) przyłapali postacie w bibliotece, zwykle zwabieni biciem zegarów."
+    opis: "Filch przyłapał postacie nocą: w drodze do pracowni (siatka 9), po wypluciu przez pracownię (siatka 8) albo z notatnikiem po trzynastym biciu (siatka 4). Szlaban; o konfiskacie notatnika mówi wyłącznie flaga.dziennik-miejsce."
     typ: bool
     wartosci: []
     sesja: s1

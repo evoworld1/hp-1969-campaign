@@ -28,6 +28,6 @@ Do napisania w Fazie 3.
 1. Nagłówek w głosie Flitwicka: przedmiot, rok, termin oddania (np. na piątek) i polecenie zmierzenia przesunięcia trzech zegarów na różnych piętrach za pomocą Tempus (zaklęcia pokazującego prawdziwą chwilę).
 2. Tabelę na trzy obowiązkowe pomiary (miejsce, piętro, wskazanie zegara, wskazanie Tempus, różnica w minutach) i trzy wiersze „dla ambitnych” (graf: minimum trzy, maksimum sześć miejsc przy początkujących).
 3. Podpowiedź, że pomiar da się zrobić także bez zaklęcia, porównując zwykłe zegarki (druga droga do W3, gdy Tempus nie wyszedł).
-4. Jedno zdanie ostrzeżenia Flitwicka o powadze magii czasu i dopisek, że ciekawi mogą zapytać o książkę z biblioteki (zapowiedź [[przedmiot.przepustka-flitwicka]]).
+4. Jedno zdanie ostrzeżenia Flitwicka o powadze magii czasu i dopisek, że poważniej pisano o tym tylko w książkach z Działu Ksiąg Zakazanych, „do których szósty rok, na szczęście, nie ma wstępu” (motywacja do nocnej wyprawy, nie zaproszenie; decyzja MG 2026-11-20).
 
 **Uwaga.** Kartka nie może podpowiadać wyniku (przypływu ku wieży ani śladu do lochów). Wnioski mają wyjść z pomiarów graczy. Do zapisu wyników pasuje [[s1.handout.mapa-zamku-dryf]].

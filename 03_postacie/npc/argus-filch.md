@@ -9,7 +9,7 @@ dom: brak
 rocznik_1969: "dorosły, woźny (nowy)"
 kanon: true
 pewnosc: niepewne
-# Docelowo: s1.scena.01 (przegania ucznia), s1.scena.09 (nocny wariant), s1.scena.10, s1.scena.12
+# Docelowo: s1.scena.01 (przegania ucznia), s1.scena.09 (nocny obchód), s1.scena.10, s1.scena.12
 sceny: []
 tylko_mg: true
 tagi: [s1, wozny, noc, kanon]
@@ -21,7 +21,7 @@ aktualizacja: 2026-11-20
 ---
 ## W skrócie
 
-Nowy woźny, gorliwy, podejrzliwy, nie zna jeszcze wszystkich tajnych przejść (decyzja MG). W scenie 01 przegania kogoś z sali. Nocą patroluje (scena 09, wariant bez zgody; kandydat na Zegar Północy), zwabiony trzynastym biciem może złapać postacie z notatnikiem Marrow (`flaga.filch-zlapal`, scena 10). W scenie 12: „Zegarmistrz był w czwartek. Znowu” (wskazówka W8) i księga szlabanów po poprzedniku, z której z satysfakcją czyta stare wpisy.
+Nowy woźny, gorliwy, podejrzliwy, nie zna jeszcze wszystkich tajnych przejść (decyzja MG). W scenie 01 przegania kogoś z sali. Nocą patroluje i jest jedynym strażnikiem nocnej wyprawy do biblioteki (scena 09, jedyne wejście od decyzji MG 2026-11-20; kandydat na Zegar Północy). Może złapać postacie w drodze (siatka bezpieczeństwa 9) albo, zwabiony trzynastym biciem, z notatnikiem Marrow (`flaga.filch-zlapal`, scena 10, siatka 4). W scenie 12: „Zegarmistrz był w czwartek. Znowu” (wskazówka W8) i księga szlabanów po poprzedniku, z której z satysfakcją czyta stare wpisy.
 
 ## Wygląd i sposób bycia
 
@@ -60,7 +60,7 @@ statystyki:
   wartosci: {}
   zdolnosci_specjalne:
     - nazwa: "Obchód"
-      opis: "Przeciwnik w teście skradania (test przeciwny: Speed + Stealth, czyli szybkość i skradanie, postaci przeciw jego Wits + Observation, czyli bystrości i spostrzegawczości). Kandydat na Zegar Północy w nocnym wariancie sceny 09; decyzja mechaniczna czeka."
+      opis: "Przeciwnik w teście skradania (test przeciwny: Speed + Stealth, czyli szybkość i skradanie, postaci przeciw jego Wits + Observation, czyli bystrości i spostrzegawczości). Kandydat na Zegar Północy w nocnej wyprawie w scenie 09; decyzja mechaniczna czeka."
 ```
 
 ## Do weryfikacji
