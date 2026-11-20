@@ -3,8 +3,10 @@
 Żywy plik: pamięć projektu między sesjami. Reżyser czyta go na początku każdej sesji i aktualizuje na końcu.
 
 ## Bieżąca faza
-- **Faza:** 1 (Fundamenty) **zakończona 2026-11-20**. Pliki w `01_kanon/`, `02_zasady/` i `04_kampania/zarys-kampanii.md` mają status `recenzja`; MG zatwierdził zarys i kluczowe decyzje.
-- **Następny krok:** Faza 2 w nowej sesji (`/faza 2`). Plan: (1) mechanik pisze instrukcję tworzenia postaci 6. roku dla nowicjuszy (`03_postacie/instrukcja-tworzenia-postaci.md`, maks. 2 strony); (2) architekt-fabuly rozpisuje graf Sesji 1 (8–10 scen z czasem, sceny elastyczne: wędrówki po zamku i opcjonalna Pokątna, punkty pauzy, cliffhanger, flagi w `flagi.yaml`) i proponuje 2–3 kandydatów na Patrona; (3) tworca-npc: szkice kart NPC; (4) symulator-graczy: test grafu; (5) walidator, stan, commit, streszczenie dla MG do 2 stron.
+- **Faza:** 2 (Graf Scenariusza 1), **część A zakończona 2026-11-20**. Faza 1 zamknięta 2026-11-20.
+- **Część A (zrobione):** instrukcja tworzenia postaci (`03_postacie/instrukcja-tworzenia-postaci.md`, szkic); graf Sesji 1 (`05_scenariusze/s1-godzina-ktorej-nie-bylo/graf-scen.md`, szkic, 10 scen + prolog + wędrówki, 3 punkty pauzy); 32 flagi w `flagi.yaml`; raport symulatora graczy (3 problemy główne, 14 drobniejszych); streszczenie dla MG w `99_robocze/streszczenie-fazy-2a.md`.
+- **Następny krok: część B** (nowa sesja, po odpowiedziach MG): architekt-fabuly wprowadza decyzje MG i poprawki z raportu symulatora; poprawki wykonawcze bez pytania (zegarek odebrany Cassianowi przed sceną 04; spóźniony gracz traci godzinę poza kadrem; scenka u Dumbledore'a z niewidzialnym Anselem; Filch łapie graczy z dziennikiem → trzynasta i tak wybija; scena 09 maks. 2 przeszkody obowiązkowe; kontakt z Anselem liczony osobno dla każdej postaci; brakujące wartości flag: `skonfiskowany`, `inne`; „wybija trzynasty raz” zamiast „13:00”; Ślizgon w dormitorium Cassiana; budzenie postaci przy zegarze kradzieży 4); potem tworca-npc (szkice kart NPC, miejsc, przedmiotów), redaktor-ciaglosci, akceptacja grafu przez MG.
+- **Do rozstrzygnięcia wykonawczo w części B:** `graf-scen.md` ma teraz id `s1` (typ scenariusz); zgodnie z `05_scenariusze/README.md` przegląd ma być w `przeglad.md`, więc przy tworzeniu przeglądu trzeba zmienić nazwę pliku albo zdjąć nagłówek z grafu.
 - **Odłożone do scen:** liczby dla wyniku 2× i 3× trudności (ZD-09), rok nauki Tempus (trudność 9, nie rok 1).
 
 ### Faza 1, część A: co powstało
@@ -47,7 +49,11 @@
 | 2026-11-20 | Limit 4–4,5 h nie jest sztywny: jeśli się nie zmieścimy, przerywamy i wznawiamy od tego miejsca. Swoboda graczy ważniejsza od ściskania narracji (wędrówki po Hogwarcie, wyprawa na Pokątną np. po nową różdżkę). Scenariusz potrzebuje punktów pauzy i scen elastycznych. | MG |
 
 ## Otwarte pytania
-Brak. Trzy pytania z zarysu rozstrzygnięte 2026-11-19 (patrz rejestr decyzji).
+Zadane MG 2026-11-20 (Faza 2A), w kolejności ważności:
+1. Kim jest Patron: Rookwood / Nott lub Avery senior / Silas Wymark, dawny asystent Marrow (nasza postać). Rekomendacja: Wymark, a Nott tylko w plotce.
+2. Kiedy postacie tracą godzinę: po Obronie / między Zaklęciami a Obroną / otwarcie sceną straconej godziny. Rekomendacja: między lekcjami.
+3. Kto poza postaciami widzi Ansela: nikt / każda ofiara Cassiana, ale tylko mignięciem (plotka o „duchu Puchona”). Rekomendacja: mignięcie.
+4. Pakiet drobniejszych rekomendacji: legalne wejście do biblioteki obok nocnego; Tempus na lekcji 6. roku; prolog na Pokątnej opcjonalny; godzinę traci cała drużyna naraz; data 22.09.1969; wspólny dom; SUM zdany od 3 punktów; cechy rzadkie z przerzutem 99–100; co najmniej 2 fakultety.
 
 **Odłożone do konkretnej sceny** (wrócą z przykładem, nie wcześniej): kim jest Patron i skąd się wziął; ojciec Cassiana; treść „Proroka Codziennego”; Rejestr Danin i Pożyczona Chwila; Zegar Północy; czy Klepsydra opiera się na Time twisting Walkera; zmiana kontraktu danych; Dziennik Lekcji. Źródła, gdyby były potrzebne: `01_kanon/przeniesienie-na-1969.md`, `02_zasady/mechaniki-fabularne.md`.
 
@@ -60,7 +66,8 @@ Brak. Trzy pytania z zarysu rozstrzygnięte 2026-11-19 (patrz rejestr decyzji).
 | Kanon 1969 | 8 plików, recenzja |
 | Zasady (Walker) | 15 plików + ocena mechanik fabularnych, recenzja |
 | Zarys kampanii 1969 | `04_kampania/zarys-kampanii.md`, recenzja (zatwierdzony przez MG) |
-| Scenariusz 1: graf | nie rozpoczęto |
+| Instrukcja tworzenia postaci | szkic |
+| Scenariusz 1: graf | szkic (`graf-scen.md`), po teście symulatora, czeka na decyzje MG |
 | Scenariusz 1: sceny | 0 / ? |
 
 ## Stan gry (wypełnia kronikarz po rozegranych sesjach)
