@@ -90,7 +90,7 @@ test:
 2. **Galeria wahadeł:** wahadła tną szybko, każde w innym rytmie.
 3. **Tykające schody:** stopnie zapadają się po kolei, od dołu.
 
-Każdy odcinek dodaje do licznika 3 uderzenia. Porażka dodaje cenę. Bez porażek grupa wychodzi przy uderzeniu 10; jedna porażka z ceną „uderzenia” to 12, więc wciąż zdążą. Gdy licznik dojdzie do 13, zanim skończy się trzeci odcinek, każda postać, która jest jeszcze w środku, wykonuje **ostatni skok**.
+Każdy odcinek dodaje do licznika 3 uderzenia. Porażka dodaje cenę. Bez porażek grupa wychodzi przy uderzeniu 10; jedna porażka z ceną „uderzenia” to 12, więc wciąż zdążą. Gdy licznik osiągnie 13 przed sukcesem na trzecim odcinku (także wtedy, gdy przekroczy go sam trzeci odcinek), każda postać, która jest jeszcze w środku, wykonuje **ostatni skok**.
 
 ```yaml
 test:
@@ -138,7 +138,7 @@ test:
       efekt: "Postać przeciska się przez zamykające się drzwi w ostatniej chwili, z naderwaną szatą."
       flagi_ustaw: []
     - wynik: porazka
-      efekt: "Drzwi zamykają się przed nią. Siatka bezpieczeństwa 8 (test „złapani” niżej). Przed rzutem gracz może jeszcze wydać Story Point (dorzut 1D10, s. 4) albo użyć RETRORSUM (zasada.nagrody-z-teaserow)."
+      efekt: "Drzwi zamykają się przed nią. Siatka bezpieczeństwa 8 (test „złapani” niżej). Po nieudanym rzucie, zanim MG ogłosi skutek, gracz może jeszcze wydać Story Point (dorzut 1D10, s. 4) albo użyć RETRORSUM (zasada.nagrody-z-teaserow)."
       flagi_ustaw: [flaga.ksiega-zlapani]
 ```
 
@@ -151,7 +151,7 @@ test:
   trudnosc: "brak"
   wyniki:
     - wynik: zawsze
-      efekt: "Postać budzi się na podłodze ostatniego rzędu Działu Ksiąg Zakazanych. Ciało: stan Bloodied (3 kółka, +3 do trudności; jeśli ma już gorszy stan, zostaje gorszy). Umysł: Dazed (+2) do końca sceny przebudzenia. Pamięć: brak ostatnich minut w pracowni (od chwili, gdy zaczęło się bicie); to skutek magii pracowni, nie zaklęcie Obliviate, więc nie ma rzutu obronnego ani stanu trwałego (s. 36). Noc i dzień w skrzydle szpitalnym: pani Pomfrey zdejmuje kółka zaklęciami (Vulnera Sanentur, s. 59); do końca Sesji 1 zostaje Shaken (+1). Cena: zegar kradzieży +1, znalezienie przez panią Pince albo Filcha, pytania nauczycieli. Grę zapomnienia MG uzgadnia z graczem na kartce."
+      efekt: "Postać budzi się na podłodze ostatniego rzędu Działu Ksiąg Zakazanych. Ciało: stan Bloodied (3 kółka, +3 do trudności; jeśli ma już gorszy stan, zostaje gorszy). Umysł: Dazed (+2) do końca sceny przebudzenia. Pamięć: brak ostatnich minut w pracowni (od chwili, gdy zaczęło się bicie); to skutek magii pracowni, nie zaklęcie Obliviate, więc nie ma rzutu obronnego ani stanu trwałego (s. 36). Noc i dzień w skrzydle szpitalnym: pani Pomfrey zdejmuje kółka zaklęciami (Vulnera Sanentur, s. 59); do końca Sesji 1 zostaje Shaken (+1). Cena: zegar kradzieży +1 (jeśli jeszcze biegnie), znalezienie przez panią Pince albo Filcha, pytania nauczycieli. Grę zapomnienia MG uzgadnia z graczem na kartce."
       flagi_ustaw: [flaga.ksiega-zlapani, flaga.filch-zlapal, flaga.s1-zegar-kradziezy]
 ```
 

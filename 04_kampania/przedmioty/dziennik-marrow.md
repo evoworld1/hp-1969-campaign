@@ -27,7 +27,7 @@ Gruby notatnik w miękkiej, ciemnej skórze, wytartej na rogach od dłoni, któr
 
 **Ostrzeżenie.** W notatniku Marrow wyraźnie ostrzega przed siłowym korzystaniem z księgi (W10.4). W Sesji 1 to ostrzeżenie jest czytelne na pierwszej stronie (`s1.handout.pierwsza-strona-dziennika`).
 
-**W zamkniętej gablocie** notatnik leży otwarty na pierwszej stronie, a litery rozmywają się, gdy ktoś próbuje je przeczytać. **Rysunek na marginesie się nie rozmywa:** dłoń, która wkłada coś do klepsydry, i obok otwarta kłódka (zapasowa droga do W7). Postać z teaserową zdolnością „Oko, które dostrzega ukryte” widzi go bez szukania (mechanikę ustali mechanik). Po otwarciu gabloty pierwsza strona staje się czytelna. Dalsze strony „pływają”: litery przesuwają się jak odbicie na wodzie i nie układają w zdania.
+**W zamkniętej gablocie** notatnik leży otwarty na pierwszej stronie, a litery rozmywają się, gdy ktoś próbuje je przeczytać. **Rysunek na marginesie się nie rozmywa:** dłoń, która wkłada coś do klepsydry, i obok otwarta kłódka (zapasowa droga do W7). Postać z teaserową zdolnością „Oko, które dostrzega ukryte” widzi go bez szukania (zob. [[zasada.nagrody-z-teaserow]]). Po otwarciu gabloty pierwsza strona staje się czytelna. Dalsze strony „pływają”: litery przesuwają się jak odbicie na wodzie i nie układają w zdania.
 
 ## Działanie
 

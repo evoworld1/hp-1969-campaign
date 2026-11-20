@@ -67,8 +67,10 @@ Terminy mechaniczne zostają w oryginale angielskim (Walker 2e). Ten słownik ob
 |---|---|---|
 | Danina czasu | Zasada magii kampanii: czasu nie da się stworzyć, tylko przenieść. Każda zyskana minuta jest utracona gdzie indziej. | nasze, z archiwum |
 | Klepsydra Daniny | Artefakt prof. Marrow przenoszący czas | nasze, z archiwum |
-| Foliał | Dziennik badawczy prof. Marrow | nasze, z archiwum |
-| Karta Pożyczającego | Wyrwana karta Foliału, którą ma Cassian | nasze, z archiwum |
+| Zaklęta księga | Lewitująca księga nieznanego autora o zapomnianej magii czasu w pracowni Marrow; chroniona zabezpieczeniami (`przedmiot.zakleta-ksiega`). Zastępuje archiwalny „Foliał”. | decyzja MG 2026-11-20 |
+| Notatnik Marrow | Przemyślenia i szkice Klepsydry prof. Marrow, oparte na zaklętej księdze; leży w gablocie (`przedmiot.dziennik-marrow`) | decyzja MG 2026-11-20 |
+| Karta Pożyczającego | Karta wyrwana przez Cassiana z zaklętej księgi; działa tylko z jego zegarkiem | decyzja MG 2026-11-20 |
+| Teaser | Interaktywna zagadka przed kampanią (escape room, czyli pokój zagadek, w 3D oraz zaproszenie); nagrody w `zasada.nagrody-z-teaserow` | decyzja MG 2026-11-20 |
 | Rejestr Danin | Kandydat na mechanikę fabularną: kto stracił czas i ile | ocenione w `zasada.mechaniki-fabularne`, czeka na decyzję MG |
 | Więź (z Anselem) | Kandydat na mechanikę fabularną: zaufanie Ansela do postaci | ocenione w `zasada.mechaniki-fabularne`, czeka na decyzję MG |
 | Zegar Północy | Kandydat na mechanikę fabularną: licznik nocnego zagrożenia | ocenione w `zasada.mechaniki-fabularne`, czeka na decyzję MG |

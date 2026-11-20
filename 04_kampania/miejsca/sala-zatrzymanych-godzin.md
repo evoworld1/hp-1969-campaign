@@ -55,12 +55,12 @@ Schody schodzą w dół, wąskie i strome, a każdy stopień odzywa się cichym 
 
 **Zagrożenia i kryjówki.**
 - Galeria wahadeł: uderzenie wahadłem (zadrapanie, siniak; liczby ustala mechanik). Nie zabija.
-- Zaklęta księga: porażenie przy dotyku, przy próbie wyrwania kartki pełne zabezpieczenia i ucieczka. Ciężkie obrażenia i zaklęcie zapomnienia tylko dla tych, którzy nie zdążą; śmierć wyłącznie jako świadomy wybór gracza po wyraźnym ostrzeżeniu poza fikcją (siatka bezpieczeństwa 8).
+- Zaklęta księga: porażenie przy dotyku, przy próbie wyrwania kartki pełne zabezpieczenia i ucieczka. Ciężkie obrażenia i zaklęcie zapomnienia tylko dla tych, którzy nie zdążą; śmierć wyłącznie jako świadomy wybór gracza po dwóch ostrzeżeniach poza fikcją (zob. [[przedmiot.zakleta-ksiega]]; siatka bezpieczeństwa 8).
 - Pokusa ściany: nauczenie się pożyczania chwili to ryzyko moralne, nie fizyczne.
 - Kryjówki: za wielkim zegarem jak drzwi, w niszy pod schodami. Wieczorem pani Pince tu nie zejdzie (nie widzi drzwi); nocą Filch też nie. Zagrożenie z góry przychodzi dopiero po trzynastym biciu albo po hałasie zabezpieczeń księgi.
 
 ### Do weryfikacji
-- Całe miejsce jest nasze. Liczby wahadeł, gabloty, drzwi, zabezpieczeń i ucieczki ustala mechanik.
+- Całe miejsce jest nasze. Liczby zabezpieczeń i ucieczki są w karcie [[przedmiot.zakleta-ksiega]]; trudność galerii wahadeł do ustalenia (propozycja mechanika: Tricky, 12).
 
 ## Ukryte
 

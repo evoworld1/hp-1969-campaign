@@ -11,7 +11,10 @@
 - **Do potwierdzenia przed Sesją 3:** architekt zapisał w przeglądzie wniosek, że oddanie godziny **może** odebrać Anselowi kotwicę. To nie jest decyzja MG.
 - **Część B2a (zrobione 2026-11-20):** tworca-npc utworzył 19 szkiców kart NPC w `03_postacie/npc/` (8 pełnych, 11 krótkich); redaktor-ciaglosci sprawdził; Reżyser naprawił drobne błędy (polszczyzna, kominek McGonagall, kwestia Ansela u Dumbledore'a, Sprout w 1951, objaśnienia terminów); w zarysie wpisany Patron Wymark. Walidator czysty (ostrzeżenia o nieużywanych flagach są oczekiwane do czasu scen).
 - **Odpowiedzi MG na pytania B2a wprowadzone (2026-11-20):** tworca-npc ujednolicił karty (zob. rejestr decyzji).
-- **Następny krok: część B2b** (nowa sesja): szkice 14 miejsc i 7 przedmiotów, nagłówki 4 handoutów (lista w `graf-scen.md`, „Potrzebne obiekty”); redaktor-ciaglosci; akceptacja grafu przez MG, co kończy Fazę 2.
+- **Część B2b (zrobione 2026-11-20):** narrator-scen: 14 kart miejsc (`04_kampania/miejsca/`); tworca-npc: 7 przedmiotów (`04_kampania/przedmioty/`) i nagłówki 4 handoutów (`handouty/`). Po decyzjach MG: architekt-fabuly wprowadził zaklętą księgę do grafu (scena 09, trzy poziomy zabezpieczeń, ucieczka na 13 uderzeń, siatka bezpieczeństwa 8, trzy drogi do wskazówki o gablocie W7, nowe flagi `ksiega-zabezpieczenia` i `ksiega-zlapani`); tworca-npc: nowa karta `przedmiot.zakleta-ksiega`, notatnik Marrow, karta z księgi, Cassian, Ansel; mechanik: `02_zasady/nagrody-z-teaserow.md` (RETRORSUM, Oko, 8 kandydatów na klątwę), liczby zabezpieczeń, ucieczki i zniszczenia zegarka. Dwa przeglądy redaktora, poprawki wprowadzone. Walidator czysty.
+- **Następny krok:** odpowiedzi MG na pytania z B2b (zob. „Otwarte pytania”), potem akceptacja grafu przez MG, co kończy Fazę 2. Następnie Faza 3 (sceny), zaczynając od sceny 01.
+- **Dla mechanika (Faza 3), dodatkowo:** zasady domowe niszczenia rzeczy zwykłym uderzeniem i celowania w mały przedmiot (propozycje w `zegarek-cassiana.md`); trudność galerii wahadeł (propozycja Tricky 12).
+- **Dla strażnika kanonu:** czy pani Pomfrey pracuje w Hogwarcie w 1969; Slughorn w 1969; Fawkes w gabinecie w 1969; klepsydry punktów domów w kanonie.
 - **Dla mechanika (Faza 3):** zdolności Cassiana (Skradzione Chwile, zegarek jako słaby punkt), premie za nazwanie nawyków Rosalind i Barnaby'ego, obchód Filcha jako przeciwnik, próg pogawędki z Crake'iem, czy Ansel potrzebuje liczb.
 - **Dla mechanika przy scenach:** czy stan Drained działa już na lekcji Obrony; rdzeń ze smoczego serca a drewno „Oak” (s. 29, niejasność podręcznika).
 - **Odłożone do scen:** liczby dla wyniku 2× i 3× trudności (ZD-09).
@@ -48,7 +51,7 @@
 | 2026-11-19 | Rytm pracy: najwyżej 3–5 pytań naraz, każde z kontekstem i przykładem; bez odsyłania do archiwum i do wielkich plików. Zamiast tego krótki zarys do przeczytania. | MG |
 | 2026-11-19 | Zarys kampanii (`zarys-kampanii.md`) zgodny z wizją MG. | MG |
 | 2026-11-19 | Ansela widzą wszystkie postacie graczy (docelowo). Ścieżka dojścia do tego może być stopniowa, ale w Sesji 1 nikt nie zostaje bez kontaktu z chłopcem. | MG |
-| 2026-11-19 | Sesja 1 kończy się cliffhangerem przy wyborze, co zrobić z dziennikiem i Anselem. Wynik wyboru ustawia Sesję 2. | MG |
+| 2026-11-19 | Sesja 1 kończy się cliffhangerem przy wyborze, co zrobić z dziennikiem (dziś: notatnikiem Marrow) i Anselem. Wynik wyboru ustawia Sesję 2. | MG |
 | 2026-11-19 | Crake może pojawić się w Sesji 1 jako przelotna pogawędka. Dłuższa rozmowa tylko przy wyjątkowo wysokim wyniku testu spostrzegawczości (pomysł MG, szczegóły do ustalenia). | MG |
 | 2026-11-19 | Patron: jeden ze śmierciożerców Voldemorta, który na jego prośbę zdobywa informacje o Klepsydrze i o tym, jak ją odnaleźć. Konkretna osoba jeszcze nieustalona. | MG |
 | 2026-11-19 | Sesja 1 ma się zmieścić w 4–4,5 godziny (twardy limit czasu MG). | MG |
@@ -63,7 +66,7 @@
 | 2026-11-20 | Jeśli tworzenie postaci według Walkera zajmie wszystkim graczom ponad godzinę, trzeba je uprościć (zadanie do wykonania). | MG |
 | 2026-11-20 | **Drużyna:** na co dzień postacie są w jednej mieszanej grupie ćwiczeniowej prof. Wrena na Obronie („wojna nie pyta o dom”); Cassian w rywalizującej grupie. Głębiej łączy je wspólny sekret z 4. roku, który ustalają gracze przy tworzeniu postaci. Odrzucone: zespół Flitwicka, Koło Astronomiczne, szlaban u Filcha. | MG |
 | 2026-11-20 | Przed straconą godziną Ansel może mignąć tylko jako odbicie w szkle zegara. | MG |
-| 2026-11-20 | Z Anselem rozmawiają tylko postacie graczy, bo ich wspólnie zabrana godzina stała się jego kotwicą (wyjaśni to dziennik w Sesji 2). | MG |
+| 2026-11-20 | Z Anselem rozmawiają tylko postacie graczy, bo ich wspólnie zabrana godzina stała się jego kotwicą (wyjaśni to notatnik Marrow w Sesji 2). | MG |
 | 2026-11-20 | Zaklęcia, które mogą rozwiązać śledztwo jednym rzutem (Homonculous Charm, Obliviate, Legilimens, Amortentia), w pełnej ścieżce tworzenia postaci tylko za zgodą MG; w szybkiej ścieżce ich nie ma. | MG |
 | 2026-11-20 | Astronomii uczy **prof. Ada Fairweather** (ok. 30 lat), w 1951 pierwszoroczna z rocznika Ansela; nie pamięta go, ale na zdjęciu klasy jest puste miejsce. | MG |
 | 2026-11-20 | Tobias Quill: MG przed sesją przypisuje go do domu postaci z najmniejszą liczbą znajomych (lub najbardziej nieśmiałego gracza). | MG |
@@ -71,9 +74,26 @@
 | 2026-11-20 | Ansela pamiętają oboje: Gruby Mnich w Sesji 1 tylko mgliście, Szara Dama w Sesji 2 opowiada o 1951. | MG |
 | 2026-11-20 | Ansel zginął **jesienią 1951** (rok szkolny 1951/52); Wymark był wtedy prefektem 7. roku. | MG |
 | 2026-11-20 | Przyjęte wersje robocze kart: Wymark z Ravenclawu (ok. 35 lat), córka Crake'a Nora, zegarek Cassiana po dziadku, Wren odszedł z biura aurorów po oskarżeniu niewinnego, Barnaby Finch z Gryffindoru. | MG |
+| 2026-11-20 | W pracowni Marrow jest **zaklęta księga nieznanego autora** o zapomnianej magii czasu: lewituje nad ozdobnym pulpitem w niebieskawej łunie, nie da się jej zabrać ani przewracać stron, odblokowują ją zagadki (Sesja 2+). Próby siłowe uruchamiają stopniowane zabezpieczenia: delikatne porażenie, potem coraz silniej, przy wyrywaniu kartki ucieczka albo ciężkie obrażenia, zapomnienie, w skrajności śmierć (tylko po dwóch ostrzeżeniach). | MG |
+| 2026-11-20 | **Notatnik Marrow** (w gablocie) to jej przemyślenia i szkice Klepsydry oparte na księdze; księga i notatnik są sobie potrzebne do rozszyfrowania; notatnik ostrzega przed siłowym korzystaniem z księgi. Gablota otwiera się po oddaniu godziny, a gracze dostają do tego trzy drogi wskazówek. | MG |
+| 2026-11-20 | **Karta Pożyczającego** jest wyrwana z księgi: Cassian nie rozwiązał zagadek, wyrwał kartę, uruchomił zabezpieczenia i ledwo uciekł. Gracze mogą jej użyć tylko z zegarkiem Cassiana (zakończenie „moc”). | MG |
+| 2026-11-20 | Zatrzymane zegary w pracowni to „zapłaty” z 1951 za trwanie Ansela. Zniszczenie zegarka Cassiana: Ansel migocze i wraca część skradzionych godzin. Klepsydra z lekcji Fairweather zostaje niejasna do Sesji 2. Zegary u Dumbledore'a chodzą idealnie równo; Marrow na zdjęciu z 1951 zerka poza kadr. | MG |
+| 2026-11-20 | **Teasery przed kampanią:** zwój z zaklęciem RETRORSUM (z małej wieży obserwacyjnej; ta sama rodzina magii co księga; pojawił się tam Ansel, nie przedstawił się) i zdolność „Oko, które dostrzega ukryte”. Gracz 1 ma oba, gracze 2 i 3 tylko Oko; ostateczny podział MG ustala w dniu sesji. | MG |
+| 2026-11-20 | **RETRORSUM:** raz na sesję pewny sukces w następnym rzucie; piętno na różdżce bez negatywnych skutków. Drugie użycie w tej samej sesji łamie pieczęć: trwała klątwa, która ujawnia się z czasem (wybór wariantu otwarty). | MG |
 
 ## Otwarte pytania
-- Brak. Pytania 1–5 z części B2a rozstrzygnięte 2026-11-20 (zob. rejestr decyzji).
+Z części B2b (2026-11-20), warianty robocze obowiązują do decyzji:
+1. Klątwa za drugie RETRORSUM: który z 8 kandydatów (`zasada.nagrody-z-teaserow`).
+2. Czy RETRORSUM działa na cudzy rzut (roboczo: także na test wspólny, w którym postać pomagała).
+3. Oko po Sesji 1 (roboczo: niewykorzystane przepada).
+4. Czy próba wyrwania kartki z księgi coś daje (roboczo: kartka nie puszcza).
+5. Czy kartę można zwrócić księdze (roboczo: nie w Sesji 1, łuna tylko jaśnieje).
+6. Reakcja Ansela na rozpoznanie z teasera (roboczo: ma wrażenie, że ich zna).
+7. Kto narysował regał na karcie (roboczo: rysunek, „XIII” i dopisek to marginalia Marrow).
+8. Czy Ansel bywał w pracowni w 1951 (roboczo: tak).
+9. Tytuł książki z przepustki Flitwicka: ten sam tom, o który pytał Cassian?
+- Kto ma RETRORSUM: MG rozstrzyga w dniu sesji.
+- Autor księgi i jej zagadki: Sesja 2 i później.
 
 ## Zadania do wykonania
 - Brak pilnych. Tworzenie postaci uproszczone (szybka ścieżka) 2026-11-20.
@@ -90,7 +110,7 @@
 | Zasady (Walker) | 15 plików + ocena mechanik fabularnych, recenzja |
 | Zarys kampanii 1969 | `04_kampania/zarys-kampanii.md`, recenzja (zatwierdzony przez MG) |
 | Instrukcja tworzenia postaci | szkic (pełna i szybka ścieżka) |
-| Scenariusz 1: graf | szkic (`przeglad.md` + `graf-scen.md`), decyzje MG wprowadzone, czeka na karty miejsc i przedmiotów (B2b) |
+| Scenariusz 1: graf | szkic (`przeglad.md` + `graf-scen.md`), decyzje MG wprowadzone, miejsca, przedmioty i handouty jako szkice; czeka na akceptację MG |
 | Scenariusz 1: NPC | 19 szkiców w `03_postacie/npc/`, decyzje MG wprowadzone |
 | Scenariusz 1: sceny | 0 / ? |
 
