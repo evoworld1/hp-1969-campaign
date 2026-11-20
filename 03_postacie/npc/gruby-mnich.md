@@ -9,8 +9,8 @@ dom: Hufflepuff
 rocznik_1969: "duch"
 kanon: true
 pewnosc: kanon
-# Docelowo: s1.scena.01 (kolor), s1.scena.12 (spotkanie, wskazówka W2)
-sceny: []
+# Docelowo także: s1.scena.12 (spotkanie, wskazówka W2)
+sceny: [s1.scena.01]
 tylko_mg: true
 tagi: [s1, duch, hufflepuff, kanon]
 zrodla:
@@ -48,6 +48,7 @@ Przy imieniu „Ansel” na moment blednie jeszcze bardziej i traci wątek.
 |---|---|
 | Uprzejmość, pochwała | Rozgaduje się; daje wskazówkę W2 i może poradzić, by zapytać Szarą Damę (zapowiedź Sesji 2). |
 | Żarty z „ducha Puchona” | Obraża się na resztę dnia i odpływa przez ścianę. |
+| Pytanie o „ducha Puchona”, zanim postacie znają imię Ansela (scena 01) | Rozwlekle narzeka, że jedynym duchem Puchonów jest on. Chłopca w żółtym krawacie nie widział. Na sam „żółty krawat” na chwilę się zamyśla, ale bez imienia nic mu nie świta. |
 | Przyprowadzenie Ansela | Nie widzi go, ale czuje chłód „jak przy kimś bardzo smutnym”. |
 
 ## Mechanika

@@ -9,10 +9,10 @@ dom: Hufflepuff
 rocznik_1969: "brak w spisie (w roku szkolnym 1951/52: 1 rok, 11 lat)"
 kanon: false
 pewnosc: nasze
-# Pliki scen jeszcze nie istnieją (walidator wymaga istniejących identyfikatorów).
-# Docelowo: s1.scena.01 (odbicie), s1.scena.03 (mignięcie), s1.scena.05, s1.scena.06,
+# Pozostałe pliki scen jeszcze nie istnieją (walidator wymaga istniejących identyfikatorów).
+# Docelowo także: s1.scena.03 (mignięcie), s1.scena.05, s1.scena.06,
 #   s1.scena.07, s1.scena.09, s1.scena.10, s1.scena.12
-sceny: []
+sceny: [s1.scena.01]
 tylko_mg: true
 tagi: [s1, ansel, hufflepuff, "1951", kotwica, wiez]
 zrodla:

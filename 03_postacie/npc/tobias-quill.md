@@ -9,8 +9,8 @@ dom: "zmienny (MG przypisuje przed sesją, zob. W skrócie)"
 rocznik_1969: "6 rok"
 kanon: false
 pewnosc: nasze
-# Docelowo: s1.scena.01 (pierwszy dialog), s1.scena.03 (relacja z pokazu, jeśli gracze ominą Obronę), s1.scena.06, s1.scena.12
-sceny: []
+# Docelowo także: s1.scena.03 (relacja z pokazu, jeśli gracze ominą Obronę), s1.scena.06, s1.scena.12
+sceny: [s1.scena.01]
 tylko_mg: true
 tagi: [s1, uczen, plotki, scena-nauczajaca, dom-zmienny]
 zrodla:

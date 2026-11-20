@@ -9,8 +9,8 @@ dom: brak
 rocznik_1969: "dorosły, woźny (nowy)"
 kanon: true
 pewnosc: niepewne
-# Docelowo: s1.scena.01 (przegania ucznia), s1.scena.09 (nocny obchód), s1.scena.10, s1.scena.12
-sceny: []
+# Docelowo także: s1.scena.09 (nocny obchód), s1.scena.10, s1.scena.12
+sceny: [s1.scena.01]
 tylko_mg: true
 tagi: [s1, wozny, noc, kanon]
 zrodla:
@@ -48,6 +48,7 @@ Zatrzymuje się przy każdym spóźnionym zegarze i stuka w szybkę, jakby to po
 | Podejście graczy | Reakcja |
 |---|---|
 | Uprzejmość | Podejrzliwy, ale mięknie wobec kogoś, kto go wysłucha; może powiedzieć o wizytach zegarmistrza. |
+| Zaczepka za dnia (np. przy śniadaniu, scena 01) | Najpierw pyta o nazwisko i dom, zapisuje w zeszycie. Pytanie o spóźniony zegar zbywa burknięciem, że „wieża się boczy, a dzwony za nią”. O zegarmistrzu jeszcze nie mówi (to zostaje na scenę 12). |
 | Kłamstwo przy złapaniu | Nie wierzy nikomu po ciszy nocnej. Szlaban i konfiskata (siatka bezpieczeństwa 4). |
 | Uwaga o charłakach lub magii w jego obecności | Kpina z niemagicznych rani go głęboko; zapamięta postać na cały rok. |
 

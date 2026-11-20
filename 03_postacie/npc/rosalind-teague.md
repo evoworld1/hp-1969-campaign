@@ -9,8 +9,8 @@ dom: Slytherin
 rocznik_1969: "6 rok"
 kanon: false
 pewnosc: nasze
-# Docelowo: s1.scena.01 (szept przy stole Slytherinu), s1.scena.04 (test przeciwny), s1.scena.06, s1.scena.08, s1.scena.12
-sceny: []
+# Docelowo także: s1.scena.04 (test przeciwny), s1.scena.06, s1.scena.08, s1.scena.12
+sceny: [s1.scena.01]
 tylko_mg: true
 tagi: [s1, uczen, slytherin, grupa-vane-a, plotka, test-przeciwny]
 zrodla:

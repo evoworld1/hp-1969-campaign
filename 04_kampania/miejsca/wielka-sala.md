@@ -5,9 +5,9 @@ tytul: "Wielka Sala"
 status: szkic
 lokalizacja: "Hogwart, parter, za Salą Wejściową"
 pewnosc: niepewne
-# Pliki scen jeszcze nie istnieją (walidator wymaga istniejących identyfikatorów).
-# Docelowo: s1.scena.01 (śniadanie), s1.scena.03 (obiad, który przepada), s1.scena.12
-sceny: []
+# Pozostałe pliki scen jeszcze nie istnieją (walidator wymaga istniejących identyfikatorów).
+# Docelowo także: s1.scena.03 (obiad, który przepada), s1.scena.12
+sceny: [s1.scena.01]
 tylko_mg: true
 tagi: [s1, hogwart, sniadanie, plotki, sowy, sygnaly-dziwnosci]
 zrodla:

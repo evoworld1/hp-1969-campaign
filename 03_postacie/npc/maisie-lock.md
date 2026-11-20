@@ -9,8 +9,8 @@ dom: Hufflepuff
 rocznik_1969: "3 rok"
 kanon: false
 pewnosc: nasze
-# Docelowo: s1.scena.01 (sygnał dziwności), s1.scena.05 (mignięcie Ansela), s1.scena.06, s1.scena.12
-sceny: []
+# Docelowo także: s1.scena.05 (mignięcie Ansela), s1.scena.06, s1.scena.12
+sceny: [s1.scena.01]
 tylko_mg: true
 tagi: [s1, uczen, hufflepuff, ofiara-cassiana, duch-puchona]
 zrodla:
@@ -48,6 +48,7 @@ Odruchowo sprawdza zegarek co kilka minut, jakby pilnowała, czy znowu nic nie z
 | Wysłuchanie, potraktowanie poważnie | Ogromna ulga; podaje dokładny dzień i godzinę straty oraz opis „ducha” (żółty krawat, znikł, gdy się odwróciła). |
 | Żart albo zbycie | Zamyka się, odchodzi z płaczem; koleżanki patrzą na postacie krzywo. |
 | Pytanie przy innych | Wstydzi się i zaprzecza; mówi wszystko dopiero na osobności. |
+| Obrona przed koleżankami (scena 01) | Starsza postać, która ucisza dokuczających, dostaje wdzięczne spojrzenie, ale przy wszystkich ani słowa. Po dzwonku Maisie czeka chwilę przy drzwiach Wielkiej Sali, jakby chciała coś powiedzieć. |
 
 ## Mechanika
 

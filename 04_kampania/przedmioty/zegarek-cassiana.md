@@ -6,10 +6,10 @@ status: szkic
 rodzaj: "artefakt (zwykły zegarek kieszonkowy, który stał się kanałem magii karty)"
 wlasciciel_start: npc.cassian-vane
 pewnosc: nasze
-# Pliki scen jeszcze nie istnieją (walidator wymaga istniejących identyfikatorów).
-# Docelowo: s1.scena.01 (zerka na stojące wskazówki), s1.scena.02, s1.scena.03 (poza kadrem),
+# Pozostałe pliki scen jeszcze nie istnieją (walidator wymaga istniejących identyfikatorów).
+# Docelowo także: s1.scena.02, s1.scena.03 (poza kadrem),
 #   s1.scena.04 (dotyka kieszonki), s1.scena.07, s1.scena.08, s1.scena.09, s1.scena.12
-sceny: []
+sceny: [s1.scena.01]
 tylko_mg: true
 tagi: [s1, cassian, zegarek, slaby-punkt, sygnal, zegar-kradziezy]
 zrodla:

@@ -5,9 +5,9 @@ tytul: "Sala Wejściowa i wielki zegar"
 status: szkic
 lokalizacja: "Hogwart, parter, za głównymi drzwiami; łączy Wielką Salę, marmurowe schody i zejścia do podziemi"
 pewnosc: niepewne
-# Pliki scen jeszcze nie istnieją (walidator wymaga istniejących identyfikatorów).
-# Docelowo: s1.scena.01 (spóźniony zegar, drabina Crake'a, odbicie Ansela), s1.scena.03 (przejście), s1.scena.06, s1.scena.12
-sceny: []
+# Pozostałe pliki scen jeszcze nie istnieją (walidator wymaga istniejących identyfikatorów).
+# Docelowo także: s1.scena.03 (przejście), s1.scena.06, s1.scena.12
+sceny: [s1.scena.01]
 tylko_mg: true
 tagi: [s1, hogwart, zegar, crake, ansel-odbicie, sygnaly-dziwnosci, mapa-dryfu]
 zrodla:
