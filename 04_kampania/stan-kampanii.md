@@ -5,7 +5,7 @@
 ## Bieżąca faza
 - **Faza:** 2 (Graf Scenariusza 1), **część A zakończona 2026-11-20**. Faza 1 zamknięta 2026-11-20.
 - **Część A (zrobione):** instrukcja tworzenia postaci (`03_postacie/instrukcja-tworzenia-postaci.md`, szkic); graf Sesji 1 (`05_scenariusze/s1-godzina-ktorej-nie-bylo/graf-scen.md`, szkic, 10 scen + prolog + wędrówki, 3 punkty pauzy); 32 flagi w `flagi.yaml`; raport symulatora graczy (3 problemy główne, 14 drobniejszych); streszczenie dla MG w `99_robocze/streszczenie-fazy-2a.md`.
-- **Następny krok: część B** (nowa sesja, po odpowiedziach MG): architekt-fabuly wprowadza decyzje MG i poprawki z raportu symulatora; poprawki wykonawcze bez pytania (zegarek odebrany Cassianowi przed sceną 04; spóźniony gracz traci godzinę poza kadrem; scenka u Dumbledore'a z niewidzialnym Anselem; Filch łapie graczy z dziennikiem → trzynasta i tak wybija; scena 09 maks. 2 przeszkody obowiązkowe; kontakt z Anselem liczony osobno dla każdej postaci; brakujące wartości flag: `skonfiskowany`, `inne`; „wybija trzynasty raz” zamiast „13:00”; Ślizgon w dormitorium Cassiana; budzenie postaci przy zegarze kradzieży 4); potem tworca-npc (szkice kart NPC, miejsc, przedmiotów), redaktor-ciaglosci, akceptacja grafu przez MG.
+- **Następny krok: część B** (nowa sesja; MG odpowiedział 2026-11-20, zob. rejestr decyzji): mechanik szacuje czas tworzenia postaci i w razie potrzeby upraszcza instrukcję (usuwa też wspólny dom); architekt-fabuly wprowadza decyzje MG (Patron Wymark, stracona godzina między lekcjami, mignięcia Ansela, legalne wejście do biblioteki, prolog na Pokątnej) i proponuje 2–3 warianty, dlaczego postacie z różnych domów tworzą drużynę i poprawki z raportu symulatora; poprawki wykonawcze bez pytania (zegarek odebrany Cassianowi przed sceną 04; spóźniony gracz traci godzinę poza kadrem; scenka u Dumbledore'a z niewidzialnym Anselem; Filch łapie graczy z dziennikiem → trzynasta i tak wybija; scena 09 maks. 2 przeszkody obowiązkowe; kontakt z Anselem liczony osobno dla każdej postaci; brakujące wartości flag: `skonfiskowany`, `inne`; „wybija trzynasty raz” zamiast „13:00”; Ślizgon w dormitorium Cassiana; budzenie postaci przy zegarze kradzieży 4); potem tworca-npc (szkice kart NPC, miejsc, przedmiotów), redaktor-ciaglosci, akceptacja grafu przez MG.
 - **Do rozstrzygnięcia wykonawczo w części B:** `graf-scen.md` ma teraz id `s1` (typ scenariusz); zgodnie z `05_scenariusze/README.md` przegląd ma być w `przeglad.md`, więc przy tworzeniu przeglądu trzeba zmienić nazwę pliku albo zdjąć nagłówek z grafu.
 - **Odłożone do scen:** liczby dla wyniku 2× i 3× trudności (ZD-09), rok nauki Tempus (trudność 9, nie rok 1).
 
@@ -47,13 +47,18 @@
 | 2026-11-20 | Przy stole 2–3 graczy. Dla wszystkich poza MG to pierwsza sesja gry fabularnej. | MG |
 | 2026-11-20 | Gracze tworzą postacie sami, przed sesją; potrzebna prosta instrukcja krok po kroku. | MG |
 | 2026-11-20 | Limit 4–4,5 h nie jest sztywny: jeśli się nie zmieścimy, przerywamy i wznawiamy od tego miejsca. Swoboda graczy ważniejsza od ściskania narracji (wędrówki po Hogwarcie, wyprawa na Pokątną np. po nową różdżkę). Scenariusz potrzebuje punktów pauzy i scen elastycznych. | MG |
+| 2026-11-20 | Patron: **Silas Wymark** (nasza postać), w 1951 prefekt i asystent prof. Marrow, widział Klepsydrę; dziś zwerbowany śmierciożerca, który powiedział o niej Voldemortowi i znalazł Crake'a. Nazwisko Nott pada tylko w plotce. | MG |
+| 2026-11-20 | Postacie tracą godzinę **między Zaklęciami a Obroną** (nie po obu lekcjach). | MG |
+| 2026-11-20 | Ansela widzą też inne ofiary Cassiana, ale **tylko mignięciem**; po szkole krąży plotka o „duchu Puchona”. Rozmawiają z nim tylko postacie graczy. | MG |
+| 2026-11-20 | Przyjęte: legalne wejście do biblioteki obok nocnego; Tempus uczony na lekcji 6. roku w Sesji 1 (nikt go nie zna na starcie); **Pokątna jako opcjonalny prolog** (MG: podoba się); godzinę traci cała drużyna naraz; data 22 września 1969; SUM zdany przy co najmniej 3 punktach; cechy rzadkie losowane z przerzutem przy 99–100; co najmniej 2 fakultety. | MG |
+| 2026-11-20 | **Odrzucone: wspólny dom.** Gracze wybierają dowolne domy. Trzeba wymyślić uzasadnienie, dlaczego zbierają się w drużynę (np. klub, wspólne zadanie od profesora). | MG |
+| 2026-11-20 | Jeśli tworzenie postaci według Walkera zajmie wszystkim graczom ponad godzinę, trzeba je uprościć (zadanie do wykonania). | MG |
 
 ## Otwarte pytania
-Zadane MG 2026-11-20 (Faza 2A), w kolejności ważności:
-1. Kim jest Patron: Rookwood / Nott lub Avery senior / Silas Wymark, dawny asystent Marrow (nasza postać). Rekomendacja: Wymark, a Nott tylko w plotce.
-2. Kiedy postacie tracą godzinę: po Obronie / między Zaklęciami a Obroną / otwarcie sceną straconej godziny. Rekomendacja: między lekcjami.
-3. Kto poza postaciami widzi Ansela: nikt / każda ofiara Cassiana, ale tylko mignięciem (plotka o „duchu Puchona”). Rekomendacja: mignięcie.
-4. Pakiet drobniejszych rekomendacji: legalne wejście do biblioteki obok nocnego; Tempus na lekcji 6. roku; prolog na Pokątnej opcjonalny; godzinę traci cała drużyna naraz; data 22.09.1969; wspólny dom; SUM zdany od 3 punktów; cechy rzadkie z przerzutem 99–100; co najmniej 2 fakultety.
+1. **Dlaczego postacie z różnych domów tworzą drużynę?** Architekt-fabuly zaproponuje 2–3 warianty (np. klub, wspólny projekt lub szlaban u profesora, przydział do pary/grupy na lekcji) w części B; pytanie do MG.
+
+## Zadania do wykonania
+- **Uprościć tworzenie postaci**, jeśli zajmie ponad godzinę dla wszystkich graczy (mechanik: oszacować czas; w razie potrzeby wersja uproszczona, np. gotowe pakiety punktów albo szablony postaci). Instrukcja musi też usunąć rekomendację wspólnego domu.
 
 **Odłożone do konkretnej sceny** (wrócą z przykładem, nie wcześniej): kim jest Patron i skąd się wziął; ojciec Cassiana; treść „Proroka Codziennego”; Rejestr Danin i Pożyczona Chwila; Zegar Północy; czy Klepsydra opiera się na Time twisting Walkera; zmiana kontraktu danych; Dziennik Lekcji. Źródła, gdyby były potrzebne: `01_kanon/przeniesienie-na-1969.md`, `02_zasady/mechaniki-fabularne.md`.
 
