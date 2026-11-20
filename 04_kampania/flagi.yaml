@@ -57,18 +57,8 @@ flagi:
     typ: bool
     wartosci: []
     sesja: s1
-  - id: flaga.przepustka-flitwicka
-    opis: "Postacie mają podpisaną przez Flitwicka przepustkę do jednej książki w Dziale Ksiąg Zakazanych."
-    typ: bool
-    wartosci: []
-    sesja: s1
   - id: flaga.praca-domowa-dryf
     opis: "Flitwick zadał pracę domową: zmierzyć przesunięcie (dryf) trzech zegarów na różnych piętrach. Daje pretekst do wędrówek po zamku."
-    typ: bool
-    wartosci: []
-    sesja: s1
-  - id: flaga.biblioteka-legalnie
-    opis: "Postacie mają zgodę na wieczorny pobyt w Dziale Ksiąg Zakazanych (przepustka Flitwicka, prośba do Wrena, McGonagall albo Dumbledore'a, zgoda pani Pince). Scena s1.scena.09 może się wtedy dziać wieczorem, bez nocnego wymykania się."
     typ: bool
     wartosci: []
     sesja: s1
@@ -165,7 +155,7 @@ flagi:
     wartosci: [u-cassiana, u-graczy, zniszczony, skonfiskowany]
     sesja: s1
   - id: flaga.karta-u-graczy
-    opis: "Postacie mają Kartę Pożyczającego, wyrwaną z dziennika Marrow."
+    opis: "Postacie mają Kartę Pożyczającego, wyrwaną przez Cassiana z zaklętej księgi w pracowni Marrow. Działa tylko razem z zegarkiem Cassiana."
     typ: bool
     wartosci: []
     sesja: s1
@@ -181,23 +171,33 @@ flagi:
     typ: bool
     wartosci: []
     sesja: s1
+  - id: flaga.ksiega-zabezpieczenia
+    opis: "Poziom zabezpieczeń zaklętej księgi w pracowni Marrow (przedmiot.zakleta-ksiega), 0–3: 0 = nietknięta; 1 = pierwsze dotknięcie, delikatne porażenie; 2 = kolejne dotknięcia, każde silniejsze; 3 = próba wyrwania kartki albo siłowego zabrania księgi, pełne zabezpieczenia i ucieczka. Po ucieczce następne dotknięcie w tej sesji zaczyna od 2."
+    typ: liczba
+    wartosci: []
+    sesja: s1
+  - id: flaga.ksiega-zlapani
+    opis: "Pełne zabezpieczenia księgi złapały co najmniej jedną postać (nie zdążyła uciec przed trzynastym uderzeniem): ciężkie obrażenia i zaklęcie zapomnienia na ostatnie minuty w pracowni (siatka bezpieczeństwa 8 w graf-scen.md Sesji 1)."
+    typ: bool
+    wartosci: []
+    sesja: s1
   - id: flaga.pozyczona-chwila-poznana
     opis: "Postać nauczyła się ze ściany w pracowni sztuczki pożyczania chwili (mechanika kandydat: Pożyczona Chwila)."
     typ: bool
     wartosci: []
     sesja: s1
   - id: flaga.gablota-sposob
-    opis: "Jak otwarto gablotę z dziennikiem Marrow."
+    opis: "Jak otwarto gablotę z notatnikiem Marrow (przedmiot.dziennik-marrow)."
     typ: wybor
     wartosci: [oddana-godzina, podzielona-godzina, zabrana-godzina, wylamana, nieotwarta]
     sesja: s1
   - id: flaga.dziennik-u-graczy
-    opis: "Postacie wyniosły dziennik Marrow z pracowni (prawda także wtedy, gdy potem go skonfiskowano; gdzie jest teraz, mówi flaga.dziennik-miejsce)."
+    opis: "Postacie wyniosły notatnik Marrow z pracowni (prawda także wtedy, gdy potem go skonfiskowano; gdzie jest teraz, mówi flaga.dziennik-miejsce)."
     typ: bool
     wartosci: []
     sesja: s1
   - id: flaga.dziennik-miejsce
-    opis: "Gdzie jest dziennik Marrow po Sesji 1."
+    opis: "Gdzie jest notatnik Marrow (przedmiot.dziennik-marrow) po Sesji 1."
     typ: wybor
     wartosci: [w-pracowni, u-graczy, skonfiskowany, u-cassiana, u-dumbledorea, zniszczony]
     sesja: s1
@@ -207,7 +207,7 @@ flagi:
     wartosci: []
     sesja: s1
   - id: flaga.filch-zlapal
-    opis: "Filch (nocą) albo pani Pince (wieczorem) przyłapali postacie w bibliotece, zwykle zwabieni biciem zegarów."
+    opis: "Filch przyłapał postacie nocą: w drodze do pracowni (siatka 9), po wypluciu przez pracownię (siatka 8) albo z notatnikiem po trzynastym biciu (siatka 4). Szlaban; o konfiskacie notatnika mówi wyłącznie flaga.dziennik-miejsce."
     typ: bool
     wartosci: []
     sesja: s1
@@ -217,7 +217,7 @@ flagi:
     wartosci: []
     sesja: s1
   - id: flaga.s1-wybor
-    opis: "Co postacie postanawiają zrobić z dziennikiem i z Anselem (cliffhanger Sesji 1, ustawia Sesję 2)."
+    opis: "Co postacie postanawiają zrobić z notatnikiem i z Anselem (cliffhanger Sesji 1, ustawia Sesję 2)."
     typ: wybor
     wartosci: [dumbledore, sekret, moc, najpierw-chlopiec, skonfiskowany, inne, podzieleni, nierozstrzygniety]
     sesja: s1

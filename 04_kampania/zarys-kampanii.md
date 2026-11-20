@@ -24,11 +24,11 @@ Hogwart, jesień 1969. Gracze zaczynają szósty rok nauki, tuż po wakacjach i 
 
 **Profesor Imelda Marrow.** Dawna nauczycielka Astronomii, która w rozpaczy po śmierci Ansela użyła własnego wynalazku, Klepsydry Daniny, i rozłożyła koszt na wszystkich w zamku. Przestraszona tym, co zrobiła, związała Klepsydrę w mechanizmie zegara na wieży, zostawiła ukrytą pracownię oraz dziennik pełen wiedzy o daninie czasu i odeszła. Dziś jej nie ma w zamku, a astronomii uczy już ktoś inny.
 
-**Cassian Vane.** Szóstoklasista ze Slytherinu, ambitny i wystraszony ojcem z Ministerstwa. Znalazł pracownię Marrow i wyrwał z dziennika jedną kartę. Uczy ona, jak podbierać czas z istniejących „wycieków”. Cassian wygrywa dzięki temu pojedynki, ale każdy jego skok kosztuje czyjąś godzinę. Nie jest zły, jest przyparty do muru.
+**Cassian Vane.** Szóstoklasista ze Slytherinu, ambitny i wystraszony ojcem z Ministerstwa. Znalazł pracownię Marrow, nie umiał rozwiązać zagadek zaklętej księgi nieznanego autora i wyrwał z niej jedną kartę; uruchomił zabezpieczenia i ledwo uciekł. W gablocie obok leży notatnik Marrow, jej szkice Klepsydry oparte na księdze. Uczy ona, jak podbierać czas z istniejących „wycieków”. Cassian wygrywa dzięki temu pojedynki, ale każdy jego skok kosztuje czyjąś godzinę. Nie jest zły, jest przyparty do muru.
 
 **Hollis Crake.** Zegarmistrz z Pokątnej, który konserwuje zegary zamku. Jego córka zginęła w wypadku, który nigdy nie został wyjaśniony, w czasie zamieszek przy marszach charłaków. Crake chce cofnąć jej śmierć i od tygodni rozluźnia pieczęć na Klepsydrze. Jest życzliwy, smutny i umie kłamać. To lustro graczy: stoi przed tym samym wyborem co oni, tylko po drugiej stronie.
 
-**Patron.** Jeden ze śmierciożerców Voldemorta. Na jego prośbę zdobywa informacje o Klepsydrze i o tym, jak ją odnaleźć, a Crake'owi obiecał pomoc w zamian za nią. Która to osoba, nie jest jeszcze ustalone i nikt w Sesji 1 tego nie wie.
+**Patron.** Jeden ze śmierciożerców Voldemorta. Na jego prośbę zdobywa informacje o Klepsydrze i o tym, jak ją odnaleźć, a Crake'owi obiecał pomoc w zamian za nią. To **Silas Wymark** (decyzja MG z 2026-11-20): w 1951 prefekt i asystent prof. Marrow, który widział Klepsydrę. W Sesji 1 nikt z graczy tego nie wie; nazwisko Nott pada tylko w plotce.
 
 **Albus Dumbledore.** Dyrektor czuje, że w zamku coś jest nie tak, ale zajmują go większe zagrożenia, więc odkłada sprawę. Magia czasu go nie dotyka, bo chroni go jego wiedza, dlatego nigdy nie widział Ansela. Może pomóc, ale nie będzie prowadził graczy za rękę.
 
@@ -47,7 +47,7 @@ Hogwart, jesień 1969. Gracze zaczynają szósty rok nauki, tuż po wakacjach i 
 
 ### Sesje 2 i 3
 
-Sesja 2 zabiera graczy na Pokątną, do sklepu Crake'a, gdzie wszystko wskazuje na niego, ale może go ocalić ich przekonanie o jego niewinności. W zamku Szara Dama, jedyna, która pamięta Ansela, opowiada o 1951 roku, a gracze składają obraz w całość i otwierają mechanizm wieży. W Sesji 3 zamek zamiera: uczniowie w pół kroku, płomienie bez ruchu. W komnacie czeka Ansel, Klepsydra i rozpaczliwy Crake, a walka toczy się w czasie, który sam się przewija. Na końcu Klepsydra jest wolna i postacie mają cztery drogi: użyć jej, oddać Dumbledore'owi, zniszczyć albo oddać Patronowi. Żadna nie jest czysta, każda kosztuje.
+Sesja 2 zabiera graczy na Pokątną, do sklepu Crake'a, gdzie wszystko wskazuje na niego, ale może go ocalić ich przekonanie o jego niewinności. W zamku Szara Dama, która pamięta Ansela wyraźniej niż ktokolwiek (Gruby Mnich ma tylko mgliste przeczucie), opowiada o 1951 roku, a gracze składają obraz w całość i otwierają mechanizm wieży. W Sesji 3 zamek zamiera: uczniowie w pół kroku, płomienie bez ruchu. W komnacie czeka Ansel, Klepsydra i rozpaczliwy Crake, a walka toczy się w czasie, który sam się przewija. Na końcu Klepsydra jest wolna i postacie mają cztery drogi: użyć jej, oddać Dumbledore'owi, zniszczyć albo oddać Patronowi. Żadna nie jest czysta, każda kosztuje.
 
 ## Źródła
 
@@ -55,6 +55,6 @@ Szkic kierunkowy z wcześniejszej wersji, dostosowany do roku 1969 i do decyzji 
 
 ## Do weryfikacji
 
-Rozstrzygnięte przez MG 2026-11-19: wszystkie postacie graczy widzą Ansela; Dumbledore reaguje dopiero w Sesji 2, a Sesja 1 kończy się cliffhangerem przy wyborze; Crake może się pojawić w Sesji 1 jako przelotna pogawędka (dłuższa rozmowa przy bardzo wysokim wyniku spostrzegawczości, do dopracowania).
+Rozstrzygnięte przez MG 2026-11-19: wszystkie postacie graczy widzą Ansela; Dumbledore działa dopiero w Sesji 2 (w Sesji 1 pojawia się tylko, jeśli gracze sami do niego pójdą: nie widzi Ansela i prosi o obserwację), a Sesja 1 kończy się cliffhangerem przy wyborze; Crake może się pojawić w Sesji 1 jako przelotna pogawędka (dłuższa rozmowa przy bardzo wysokim wyniku spostrzegawczości, do dopracowania).
 
 Otwarte: brak.

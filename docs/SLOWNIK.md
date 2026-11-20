@@ -67,14 +67,29 @@ Terminy mechaniczne zostają w oryginale angielskim (Walker 2e). Ten słownik ob
 |---|---|---|
 | Danina czasu | Zasada magii kampanii: czasu nie da się stworzyć, tylko przenieść. Każda zyskana minuta jest utracona gdzie indziej. | nasze, z archiwum |
 | Klepsydra Daniny | Artefakt prof. Marrow przenoszący czas | nasze, z archiwum |
-| Foliał | Dziennik badawczy prof. Marrow | nasze, z archiwum |
-| Karta Pożyczającego | Wyrwana karta Foliału, którą ma Cassian | nasze, z archiwum |
+| Zaklęta księga | Lewitująca księga nieznanego autora o zapomnianej magii czasu w pracowni Marrow; chroniona zabezpieczeniami (`przedmiot.zakleta-ksiega`). Zastępuje archiwalny „Foliał”. | decyzja MG 2026-11-20 |
+| Notatnik Marrow | Przemyślenia i szkice Klepsydry prof. Marrow, oparte na zaklętej księdze; leży w gablocie (`przedmiot.dziennik-marrow`) | decyzja MG 2026-11-20 |
+| Karta Pożyczającego | Karta wyrwana przez Cassiana z zaklętej księgi; działa tylko z jego zegarkiem | decyzja MG 2026-11-20 |
+| Teaser | Interaktywna zagadka przed kampanią (escape room, czyli pokój zagadek, w 3D oraz zaproszenie); nagrody w `zasada.nagrody-z-teaserow` | decyzja MG 2026-11-20 |
 | Rejestr Danin | Kandydat na mechanikę fabularną: kto stracił czas i ile | ocenione w `zasada.mechaniki-fabularne`, czeka na decyzję MG |
 | Więź (z Anselem) | Kandydat na mechanikę fabularną: zaufanie Ansela do postaci | ocenione w `zasada.mechaniki-fabularne`, czeka na decyzję MG |
 | Zegar Północy | Kandydat na mechanikę fabularną: licznik nocnego zagrożenia | ocenione w `zasada.mechaniki-fabularne`, czeka na decyzję MG |
 | Pożyczona Chwila | Robocza polska nazwa archiwalnej sztuczki „Borrow a Moment”: dorzut 1D10 po nieudanym teście (jak Story Point), opłacony czasem innej osoby i zapisany w Rejestrze Danin | propozycja, czeka na decyzję MG |
 | Tempus | Zaklęcie pokazujące godzinę; brak w podręczniku, dodane jako zasada domowa ZD-21 (Charm, trudność 9), uczone na lekcji 6. roku w Sesji 1 | przyjęte przez MG 2026-11-20 |
+| Balance | Umiejętność: zręczność ciała (wspinanie, skoki, rzucanie, łapanie) | 21–23 |
+| Observation | Umiejętność: spostrzegawczość, podsłuchiwanie, unikanie zasadzek | 21–23 |
+| Persuasion | Umiejętność: perswazja, gadka (z Wits) albo debata (z Knowledge) | 21–23 |
+| Stealth | Umiejętność: skradanie się | 21–23 |
+| Chicanery | Umiejętność: podstęp, oszustwo, gadanina; też wykrywanie oszustw | 21–23 |
+| Concealment | Umiejętność: ukrywanie siebie, sojuszników, przedmiotów i śladów | 21–23 |
+| Homonculous Charm | Urok śledzący położenie osób na mapie; w kampanii tylko za zgodą MG (może rozwiązać śledztwo jednym rzutem) | decyzja MG 2026-11-20 |
 | Archetyp (szybka ścieżka) | Gotowy pakiet cech, umiejętności, zaklęć i różdżki do tworzenia postaci w około 30 minut: odważny pojedynkowicz, bystry badacz, zręczny kombinator, empatyczny opiekun; zob. `zasada.tworzenie-postaci-6-rok` | nasze, szkic |
+| RETRORSUM | Zaklęcie z teasera (zwój z wieży obserwacyjnej): po nieudanym rzucie rzucającego cofa czas (wszystko i wszystkich, pamięta tylko rzucający) i daje gwarantowany sukces w jego następnym rzucie (poziom Success, Walker s. 3); raz na sesję bez kosztów, drugie użycie w tej samej sesji łamie pieczęć i nakłada klątwę; zob. `zasada.nagrody-z-teaserow` | nasze, teaser MG, szkic |
+| Piętno (na różdżce) | Srebrna kreska na różdżce po każdym użyciu RETRORSUM; bez skutków mechanicznych | nasze, szkic |
+| Pieczęć (RETRORSUM) | Ochrona przed skutkami manipulacji czasem; pęka przy drugim użyciu RETRORSUM w jednej sesji | nasze, szkic |
+| Ten drugi (klątwa RETRORSUM) | Trwały skutek pękniętej pieczęci: siwe pasmo i głos wersji postaci z wymazanej linii czasu, który przy ważnych wyborach raz pomaga, raz kłamie; ujawnia się w trzech etapach | nasze, przyjęte przez MG 2026-11-20 |
+| Oko, które dostrzega ukryte | Zdolność pasywna z teasera: raz w Sesji 1 (niewykorzystane przechodzi na Sesję 2) MG wskazuje istotny szczegół otoczenia (jak test spostrzegawczości z wynikiem Success, Walker s. 3); nie wyjaśnia, co on znaczy | nasze, teaser MG, szkic |
+| Licznik uderzeń | Licznik ucieczki przed pełnymi zabezpieczeniami zaklętej księgi (start 1, +3 za odcinek, 13 = schody się zamykają); zob. `przedmiot.zakleta-ksiega` | nasze, szkic |
 
 ## Skróty
 
