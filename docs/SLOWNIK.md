@@ -48,6 +48,8 @@ Terminy mechaniczne zostają w oryginale angielskim (Walker 2e). Ten słownik ob
 | Beast / Being / Spirit | Klasyfikacja stworzeń Ministerstwa: zwierzę / istota rozumna / duch | 89 |
 | Move / Combat | Kości stworzenia: ruch (inicjatywa, pościg) / atak i obrona | 89 |
 | Notable Spells | W statystykach NPC: zaklęcia, z których postać słynie | 102 |
+| Character levels | Poziomy postaci NPC według sum punktów cech i umiejętności: Young Wizard, Average student, Gifted student (zdolny uczeń: cechy 19–21, umiejętności 41–60), Top of the class, Professional Wizard, Veteran Wizard, Renowned Wizard, Uniquely powerful | 102 |
+| Palming objects | W opisie Concealment: niepostrzeżone chowanie drobnych rzeczy w dłoni; u nas podstawa kradzieży kieszonkowej (Speed + Concealment), bo Walker nie ma osobnej umiejętności kieszonkowca | 21 |
 | Sacred Twenty-Eight | „Uświęcona Dwudziestka Ósemka”: lista rodów czystej krwi; każdy ród daje 3 punkty w dwóch umiejętnościach | 7 |
 | Childhood Skills | Umiejętności z dzieciństwa: 12 punktów na 13 umiejętności z listy (plus Broomstick Flying albo Prestige zależnie od pochodzenia) i 3 punkty dowolne | 13 |
 | Years completed | Ukończone lata nauki: wiersz tabeli, z którego starszy uczeń bierze dodatkowe punkty cech, umiejętności i kratek zaklęć (6. rok = wiersz 1–5) | 15–17 |

@@ -43,7 +43,8 @@ tagi: [s1, nauka-gry, sygnaly-dziwnosci, grupa-wrena, ansel-odbicie, crake, plot
 zrodla:
   - "05_scenariusze/s1-godzina-ktorej-nie-bylo/graf-scen.md (s1.scena.01, pogawędka ruchoma z Crake'iem, grupa Wrena, Kto widzi Ansela, siatka bezpieczeństwa 1)"
   - "04_kampania/stan-kampanii.md, rejestr decyzji do 2026-11-20"
-  - "Walker 2e s. 3 (test standardowy i poziomy wyniku)"
+  - "Walker 2e s. 3 (test standardowy, progi trudności, poziomy wyniku), s. 4 (Quick Test, test przeciwny, współpraca, Story Points), s. 13 (specjalizacja), s. 21 (Concealment), s. 40 (trudność 9), s. 41 i 47 (rzucanie zaklęć, Accio)"
+  - "02_zasady/walker/luki-i-niejasnosci.md (ZD-23: próg 9 bez nazwy)"
 aktualizacja: 2026-11-20
 ---
 ## Do odczytania
@@ -180,7 +181,7 @@ Dla większości stołu to pierwsze minuty gry fabularnej w życiu. Ta scena nie
 
 ### Pogawędka z Crake'iem (opcjonalna, ruchoma)
 
-[[npc.hollis-crake]] pojawia się w Sesji 1 **raz**, w pierwszym pasującym miejscu: prolog 11, ta scena albo scena 07. Tutaj stoi na drabinie przy wielkim zegarze w Sali Wejściowej tylko wtedy, gdy postacie go jeszcze nie poznały (brak `flaga.crake-poznany`). Pogawędka trwa 2–3 minuty. Zwykły sukces testu daje miłego starszego pana pachnącego olejem i zdanie, że „wieża ostatnio wymaga więcej uwagi”. **Tylko bardzo wysoki wynik** daje dłuższą rozmowę: zdjęcie dziewczyny w kopercie zegarka i chwila o córce, która „pomagała w sklepie” (`flaga.crake-dluga-rozmowa`). Crake niczego nie zdradza o Klepsydrze ani o „kliencie z Londynu”. Jeśli gracze go zignorują, nic nie ginie: wraca w scenie 07.
+[[npc.hollis-crake]] pojawia się w Sesji 1 **raz**, w pierwszym pasującym miejscu: prolog 11, ta scena albo scena 07. Tutaj stoi na drabinie przy wielkim zegarze w Sali Wejściowej tylko wtedy, gdy postacie go jeszcze nie poznały (brak `flaga.crake-poznany`). Pogawędka trwa 2–3 minuty. Zwykły sukces testu daje miłego starszego pana pachnącego olejem i zdanie, że „wieża ostatnio wymaga więcej uwagi”. **Tylko bardzo wysoki wynik** (18 lub więcej, czyli sukces imponujący przy progu 9) daje dłuższą rozmowę: zdjęcie dziewczyny w kopercie zegarka i chwila o córce, która „pomagała w sklepie” (`flaga.crake-dluga-rozmowa`). Crake niczego nie zdradza o Klepsydrze ani o „kliencie z Londynu”. Jeśli gracze go zignorują, nic nie ginie: wraca w scenie 07.
 
 ### Linie i zasłony
 
@@ -459,36 +460,50 @@ dialog:
 
 ## Testy
 
+### Jak wytłumaczyć pierwszy rzut (ściąga dla MG)
+
+Powiedz mniej więcej tak: „Weź kość dziesięciościenną i rzuć. Do wyniku dodaj dwie liczby z karty: cechę Wits (bystrość) i umiejętność Observation (spostrzegawczość). Jeśli razem masz 12 albo więcej, twoja postać coś zauważa”. Zanim gracz rzuci, powiedz, co da sukces, a co porażka; po rzucie najpierw opowiedz wynik w świecie gry, dopiero potem liczby. Tak działa prawie każdy rzut w tej grze: kość plus cecha plus umiejętność, przeciw progowi, który ustala MG (Walker 2e s. 3). Story Points (punkty fabularne, dorzucenie kości po porażce, s. 4) i inne rodzaje testów objaśnij dopiero wtedy, gdy będą potrzebne.
+
+**Liczby w skrócie.** Postacie graczy zaczynają 6. rok i mają Wits + Observation zwykle 9–10 (archetypy w `03_postacie/instrukcja-tworzenia-postaci.md`). Przy progu Tricky (12) to około 80–90% szans na sukces: pierwszy rzut prawie zawsze się udaje, ale porażka jest możliwa i niczego nie zamyka.
+
+**Oko, które dostrzega ukryte: rada dla MG.** Jeśli gracz z Okiem zapyta, czy go użyć, powiedz uczciwie: „Możesz, ale tu kość prawie na pewno wystarczy, a to, co tu zobaczysz, niczego nie otwiera. Oko przyda się, gdy coś będzie naprawdę ukryte”. Niewykorzystane Oko przechodzi na Sesję 2, więc zostawienie go na później nic nie kosztuje. Jeśli gracz i tak go użyje, nie odmawiaj: pokaż najcenniejszy szczegół sceny (stojące wskazówki zegarka Cassiana, S4) i zaznacz Oko jako zużyte.
+
 ```yaml
 test:
   id: s1.scena.01.test.przy-stole
-  opis: "Pierwszy test w grze (tylko pełny wariant, bez prologu). Postać rozgląda się po sali albo nasłuchuje przy stole: co jest dziś nie tak? Uczy rzutu; porażka niczego nie zamyka. TODO mechanik: potwierdzić zapis rzutu (z grafu: Wits + Observation), ustalić niski próg, czy rzuca każdy osobno, czy jedna postać, i czy test jest Quick Test."
+  opis: "Pierwszy test w grze (tylko pełny wariant, bez prologu). Postać rozgląda się po sali albo nasłuchuje przy stole: co jest dziś nie tak? Test standardowy (Standard Test, Walker 2e s. 3), nie Quick Test (szybki test, s. 4): Quick Test liczy się odwrotnie (rzut równy lub niższy od jednej wartości), więc na start uczyłby niewłaściwego nawyku i dawałby tylko około 50% szans. Rzuca każda postać osobno, raz, bez współpracy: każdy gracz ma rzucić kością pierwszy raz w życiu. Próg Tricky (12, s. 3) przy Wits + Observation 9–10 daje około 80–90% sukcesu; porażka kompromitująca (poniżej 6) i sukces imponujący (24 lub więcej) są dla postaci startowych nieosiągalne, więc w tym teście liczą się tylko sukces i porażka. Porażka niczego nie zamyka."
   kto: kazdy
   rzut: "1D10 + Wits + Observation"
-  trudnosc: "DO-USTALENIA"
+  trudnosc: "Tricky (12)"
   modyfikatory:
-    - warunek: "Postać z teaserową zdolnością „Oko, które dostrzega ukryte” używa jej tutaj (raz, bez rzutu, wynik sukces; zob. zasada.nagrody-z-teaserow). TODO mechanik: czy zalecać zostawienie Oka na później."
-      wartosc: "DO-USTALENIA"
+    - warunek: "Postać ma specjalizację Observation pasującą do sytuacji (np. Observation (Twarze), gdy patrzy na Cassiana albo Maisie; Specialism, s. 13)"
+      wartosc: "+1 do rzutu"
+    - warunek: "Postać z teaserową zdolnością „Oko, które dostrzega ukryte” używa jej tutaj (zasada nasza, zob. zasada.nagrody-z-teaserow). Rekomendacja: zostawić Oko na później (rada dla MG nad blokiem)."
+      wartosc: "zastępuje rzut: wynik sukces bez rzucania (zasada nasza, nie modyfikator liczbowy)"
   wyniki:
     - wynik: sukces
-      efekt: "MG wskazuje postaci jeden z wybranych sygnałów dziwności (S1, S2 albo S4), zanim zauważy go reszta."
+      efekt: "MG wskazuje postaci jeden z wybranych sygnałów dziwności (S1, S2 albo S4), zanim zauważy go reszta. Wyższe poziomy wyniku nie dają tu nic więcej."
       flagi_ustaw: []
     - wynik: porazka
-      efekt: "Postać niczego szczególnego nie zauważa. Nic się nie zamyka: o duchu Puchona i tak gada cały stół, a ta postać jest dobrą kandydatką do odbicia w szkle zegara."
+      efekt: "Postać niczego szczególnego nie zauważa. Nic się nie zamyka: o duchu Puchona i tak gada cały stół, a ta postać jest dobrą kandydatką do odbicia w szkle zegara. MG nie proponuje wydania Story Point przy tym rzucie (szkoda punktu na test, który niczego nie zamyka); jeśli gracz sam o to zapyta, wolno (s. 4)."
       flagi_ustaw: []
 ```
 
 ```yaml
 test:
   id: s1.scena.01.test.crake-pogawedka
-  opis: "Pogawędka z Crake'iem przy drabinie (tylko bez flaga.crake-poznany). Postać przygląda się zegarmistrzowi podczas rozmowy. TODO mechanik: próg i dokładny poziom wyniku dla dłuższej rozmowy (propozycja z grafu: sukces imponujący, czyli co najmniej dwa razy trudność, Walker 2e s. 3); ten sam blok posłuży w scenach 11 i 07."
+  opis: "Pogawędka z Crake'iem przy drabinie (tylko bez flaga.crake-poznany). Postać przygląda się zegarmistrzowi podczas rozmowy. Test standardowy (s. 3), rzuca jedna postać: ta, która prowadzi rozmowę. Próg 9 (próg bez nazwy, zasada domowa ZD-23; Walker podaje 9 jako trudność prostych uroków, s. 40). Dłuższa rozmowa wymaga sukcesu imponującego (Impressive success, co najmniej 2 × trudność, s. 3), czyli wyniku 18 lub więcej. Przy Wits + Observation 9–10 zwykły sukces jest pewny, a sukces imponujący wypada w około 20–30% rzutów (z jednym pomocnikiem 30–40%, z dwoma 40–50%); sukces niewiarygodny (27) jest nieosiągalny i nie ma osobnego efektu. Wyższy próg (Tricky 12) wymagałby 24 do dłuższej rozmowy, czego postacie startowe nie mogą wyrzucić. Story Points nie podnoszą zwykłego sukcesu do imponującego, bo dorzuca się je tylko po porażce (s. 4). Oko, które dostrzega ukryte, pokazuje zdjęcie w kopercie bez rzutu, ale nie daje dłuższej rozmowy (zasada.nagrody-z-teaserow). Te same liczby obowiązują w prologu (s1.scena.11) i w scenie 07."
   kto: jeden
   rzut: "1D10 + Wits + Observation"
-  trudnosc: "DO-USTALENIA"
-  modyfikatory: []
+  trudnosc: 9
+  modyfikatory:
+    - warunek: "Każda inna postać, która aktywnie podtrzymuje rozmowę (pyta o zegary, chwali robotę, podaje narzędzie); najwyżej dwie (Working Together, współpraca, s. 4)"
+      wartosc: "+1 do rzutu"
+    - warunek: "Postać ma specjalizację Observation pasującą do sytuacji (np. Observation (Twarze); Specialism, s. 13)"
+      wartosc: "+1 do rzutu"
   wyniki:
     - wynik: porazka
-      efekt: "Kilka uprzejmych zdań o pogodzie i schodach. Crake jest poznany, nic więcej."
+      efekt: "Kilka uprzejmych zdań o pogodzie i schodach. Crake jest poznany, nic więcej. (Przy progu 9 zdarza się tylko postaciom z Wits + Observation 7 lub mniej. Gdy postać była niegrzeczna albo groziła, testu nie ma: Crake odchodzi według dialogu crake-drabina.)"
       flagi_ustaw: [flaga.crake-poznany]
     - wynik: sukces
       efekt: "Miły starszy pan, pachnie olejem: „wieża ostatnio wymaga więcej uwagi”."
@@ -496,6 +511,32 @@ test:
     - wynik: sukces-imponujacy
       efekt: "Jak sukces, a do tego postać zauważa zdjęcie dziewczyny w kopercie zegarka; Crake mówi chwilę dłużej o córce, która „pomagała w sklepie”. Niczego nie zdradza o Klepsydrze."
       flagi_ustaw: [flaga.crake-poznany, flaga.crake-dluga-rozmowa]
+```
+
+**Kradzież zegarka przy stole (do rozgałęzienia `kradziez-zegarka`).** Walker nie ma osobnej umiejętności kieszonkowca. Najbliżej jest Concealment (ukrywanie, w opisie także „palming objects”, czyli niepostrzeżone chowanie rzeczy w dłoni, s. 21), więc zabranie zegarka po cichu to Speed + Concealment przeciw czujności Cassiana (Wits + Observation), dokładnie jak w przykładzie testu przeciwnego z s. 4. Przy archetypie „Zręczny kombinator” (Speed 6, Concealment 4) szanse są mniej więcej równe; postać bez Concealment ma około 10%. Najlepszy moment to chwila, gdy Cassian wsuwa zegarek do kieszonki po przejściu Wrena. Dopóki trzyma zegarek w dłoni, po cichu się nie da.
+
+```yaml
+test:
+  id: s1.scena.01.test.kradziez-zegarka
+  opis: "Postać próbuje po cichu wyjąć zegarek z kieszonki kamizelki Cassiana przy stole Slytherinu (rozgałęzienie kradziez-zegarka). Test przeciwny (Opposed Test, s. 4): wyższy wynik wygrywa, remis rozstrzyga MG. Rzuca jedna postać (ta, która sięga); inne mogą odwracać uwagę Cassiana. Cassian jest zmęczony, ale zegarka pilnuje jak oka w głowie, więc nie ma kary. Jawne wyrwanie albo zaklęcie (np. Accio, Charm, trudność startowa 12, s. 47) to nie kradzież, tylko scena na oczach całej sali: zaklęcie rozstrzyga się zwykłym rzucaniem (s. 41; opanowane działa bez rzutu), a skutkiem jest natychmiastowa konfiskata przez nauczyciela (flaga.zegarek-cassiana = skonfiskowany), jak przy donosie. Zgłoszenie nauczycielowi nie wymaga testu."
+  kto: jeden
+  rzut: "1D10 + Speed + Concealment"
+  trudnosc: "przeciwny: 1D10 + Wits + Observation (npc.cassian-vane: Wits 6, Observation 4, razem 1D10 + 10)"
+  modyfikatory:
+    - warunek: "Każda postać, która w tej chwili zagaduje Cassiana albo odwraca jego uwagę; najwyżej dwie (Working Together, s. 4)"
+      wartosc: "+1 do rzutu"
+    - warunek: "Postać ma specjalizację Concealment pasującą do sytuacji (np. Concealment (Drobne przedmioty); Specialism, s. 13)"
+      wartosc: "+1 do rzutu"
+  wyniki:
+    - wynik: wygrana
+      efekt: "Zegarek jest u postaci, a Cassian niczego nie zauważył (flaga.zegarek-cassiana = u-graczy). Godzina i tak ginie w scenie 03 (siatka bezpieczeństwa 1). Na Obronie Cassian maca pustą kieszonkę."
+      flagi_ustaw: [flaga.zegarek-cassiana]
+    - wynik: remis
+      efekt: "Rekomendacja dla MG (remis rozstrzyga Narrator, s. 4): zegarek zostaje u Cassiana. Cassian czuje dotyk przy kieszonce, odwraca się, ale nie wie, kto to był; od tej chwili trzyma dłoń na kamizelce."
+      flagi_ustaw: []
+    - wynik: przegrana
+      efekt: "Cassian łapie dłoń postaci przy swojej kieszonce. Nie robi sceny (nie chce pytań o zegarek), tylko mówi cicho „Nie bierz tego do siebie” i puszcza. Od teraz jest czujnym przeciwnikiem: zna twarz postaci i przy niej trzyma dłoń na kieszonce. Scena biegnie dalej."
+      flagi_ustaw: []
 ```
 
 ## Rozgałęzienia
@@ -567,7 +608,7 @@ rozgalezienie:
   warunek: "Gracze, zaintrygowani zatrzymanym zegarkiem Cassiana (S4), próbują mu go zabrać przy śniadaniu albo donoszą nauczycielowi, który go konfiskuje."
   wymaga_flag: []
   wyklucza_flagi: []
-  efekt: "Siatka bezpieczeństwa 1 z graf-scen.md. Godzina i tak ginie w scenie 03, bo Cassian nakręcił kradzież rano, a wyciek płynie do zegarka, gdziekolwiek ten jest. flaga.zegarek-cassiana = u-graczy (kradzież) albo skonfiskowany (donos). Cassian na Obronie jest zwyczajny i maca pustą kieszonkę; przychodzi po zegarek wieczorem albo nazajutrz (wejście do sceny 08). TODO mechanik: test kradzieży (np. kieszonkostwo kontra spostrzegawczość Cassiana). Cena porażki: Cassian zauważa próbę i od rana jest czujnym przeciwnikiem; scena biegnie dalej."
+  efekt: "Siatka bezpieczeństwa 1 z graf-scen.md. Godzina i tak ginie w scenie 03, bo Cassian nakręcił kradzież rano, a wyciek płynie do zegarka, gdziekolwiek ten jest. flaga.zegarek-cassiana = u-graczy (kradzież) albo skonfiskowany (donos). Cassian na Obronie jest zwyczajny i maca pustą kieszonkę; przychodzi po zegarek wieczorem albo nazajutrz (wejście do sceny 08). Kradzież po cichu rozstrzyga test s1.scena.01.test.kradziez-zegarka (Speed + Concealment przeciw Wits + Observation Cassiana, Walker 2e s. 4, 21). Cena porażki: Cassian zauważa próbę i od rana jest czujnym przeciwnikiem; scena biegnie dalej."
   flagi_ustaw: [flaga.zegarek-cassiana]
   prowadzi_do: brak
 ```

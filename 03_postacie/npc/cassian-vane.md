@@ -90,7 +90,24 @@ Przykładowe kwestie:
 statystyki:
   id: npc.cassian-vane.statystyki
   system: walker-2e-draft-2026-04
-  wartosci: {}
+  wartosci:
+    # Uzupełnione minimalnie dla s1.scena.01 (kradzież zegarka, czytanie blefu).
+    # Pozostałe umiejętności, zaklęcia, różdżka i pochodzenie: do uzupełnienia przy scenach 04 i 08.
+    rodzaj: czarodziej
+    poziom: "Gifted student"      # s. 102; jak postacie graczy: cechy 22 (zakres Top of the class), umiejętności w zakresie Gifted student
+    school: "Hogwarts (1964)"
+    year: 6
+    house: Slytherin
+    cechy:
+      Vitality: 3
+      Speed: 4
+      Wits: 6
+      Knowledge: 4
+      Focus: 5
+    umiejetnosci:                 # tylko te, których już potrzebuje scena 01
+      Observation: 4
+      Chicanery: 5
+      Balance: 2
   zdolnosci_specjalne:
     - nazwa: "Skradzione Chwile"
       opis: "Póki ma zegarek, kilka razy w czasie pojedynku działa poza kolejnością (dodatkowe akcje ponad dwie akcje w rundzie według Walkera, Round/Actions s. 33). Za każdym razem dotyka kieszonki i się wzdryga (sygnał). Postać, która nazwała sygnał na głos, może go uprzedzić. Liczbę użyć i dokładny efekt ustala mechanik."
@@ -99,7 +116,7 @@ statystyki:
     - nazwa: "Zabranie godziny"
       opis: "Po wygranym pojedynku zabiera przegranemu godzinę na oczach wszystkich. Przegrany przegapia coś małego i ważnego następnego dnia. Czy daje to stan Drained (wyczerpanie umysłu, +3 do trudności), ustala mechanik razem z regułą straconej godziny."
     - nazwa: "Czytanie przeciwnika"
-      opis: "Dobry w teście przeciwnym (Opposed Test, s. 4) na wykrywanie blefu; tak samo dobrze blefuje. Para cecha i umiejętność do ustalenia przez mechanika (kandydaci: Wits + Chicanery, czyli bystrość i podstęp; Wits + Observation, czyli bystrość i spostrzegawczość)."
+      opis: "Dobry w teście przeciwnym (Opposed Test, s. 4) na wykrywanie blefu; tak samo dobrze blefuje. Para: Wits + Chicanery (1D10 + 11), bo Chicanery obejmuje też wyczucie oszustwa i dwulicowości (s. 21). Na kradzież i fizyczne podejście do kieszonki reaguje czujnością: Wits + Observation (1D10 + 10, s. 4). To nie zdolność spoza zasad, tylko wysoka Chicanery."
 ```
 
 ## Do weryfikacji
@@ -109,4 +126,5 @@ statystyki:
 - Niezdobyta odznaka prefekta to szczegół wykonawczy; nie zmienia fabuły.
 - Oparzona lewa dłoń i wymówka „kociołek” u pani Pomfrey: szczegóły wykonawcze Twórcy NPC (graf mówi tylko o oparzonej dłoni). Pani Pomfrey jako uzdrowicielka w 1969: do sprawdzenia u strażnika kanonu.
 - Karta Pożyczającego działa tylko razem z jego zegarkiem (decyzja MG 2026-11-20).
-- Mechanik: liczby pojedynku, Skradzione Chwile, efekt zabranej godziny.
+- Mechanik: liczby pojedynku, Skradzione Chwile, efekt zabranej godziny. Cechy i trzy umiejętności uzupełnione 2026-11-20 dla sceny 01 (kradzież zegarka, czytanie blefu); reszta przy scenach 04 i 08.
+- Pochodzenie (Lineage) Cassiana nie jest ustalone; nazwisko Vane nie należy do „Sacred Twenty-Eight” (s. 7). Decyzja dla MG albo twórcy NPC.
