@@ -58,6 +58,8 @@ Terminy mechaniczne zostają w oryginale angielskim (Walker 2e). Ten słownik ob
 | Beginner / Intermediate / Advanced / Expert | Poziomy eliksirów: początkowe, średnie, zaawansowane, eksperckie | 17 |
 | Wood / Length / Core / Flex | Budowa różdżki: drewno, długość, rdzeń, giętkość (giętkość wyznacza wytrzymałość, Resilience) | 24–26 |
 | Pet | Zwierzę ucznia; pierwszoroczni tylko kot, sowa albo ropucha | 12 |
+| Ollivander / Gregorovitch / Legacy wand | Wytwórca różdżki, od którego zależy tabela rdzeni: Ollivander (tylko włos jednorożca, włókno smoczego serca, pióro feniksa), Gregorovitch (szerszy wybór), różdżka rodowa (rdzenie nietypowe) | 26 |
+| Wand bonus categories | Grupy zaklęć, do których różdżka daje premię: Blasting, Fire, Healing, Mind Affecting, Offensive, Protective, Revealing, Transportation, Water Magic | 27–30 |
 
 ## Terminy kampanii
 
@@ -71,6 +73,8 @@ Terminy mechaniczne zostają w oryginale angielskim (Walker 2e). Ten słownik ob
 | Więź (z Anselem) | Kandydat na mechanikę fabularną: zaufanie Ansela do postaci | ocenione w `zasada.mechaniki-fabularne`, czeka na decyzję MG |
 | Zegar Północy | Kandydat na mechanikę fabularną: licznik nocnego zagrożenia | ocenione w `zasada.mechaniki-fabularne`, czeka na decyzję MG |
 | Pożyczona Chwila | Robocza polska nazwa archiwalnej sztuczki „Borrow a Moment”: dorzut 1D10 po nieudanym teście (jak Story Point), opłacony czasem innej osoby i zapisany w Rejestrze Danin | propozycja, czeka na decyzję MG |
+| Tempus | Zaklęcie pokazujące godzinę; brak w podręczniku, dodane jako zasada domowa ZD-21 (Charm, trudność 9), uczone na lekcji 6. roku w Sesji 1 | przyjęte przez MG 2026-11-20 |
+| Archetyp (szybka ścieżka) | Gotowy pakiet cech, umiejętności, zaklęć i różdżki do tworzenia postaci w około 30 minut: odważny pojedynkowicz, bystry badacz, zręczny kombinator, empatyczny opiekun; zob. `zasada.tworzenie-postaci-6-rok` | nasze, szkic |
 
 ## Skróty
 
