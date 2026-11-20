@@ -507,7 +507,7 @@ rozgalezienie:
   warunek: "Postacie są na wieży o zmierzchu albo na nią czekają, a zegarek jest u Cassiana."
   wymaga_flag: []
   wyklucza_flagi: [flaga.cassian-zdemaskowany]
-  efekt: "Cassian przychodzi podbierać czas i zastaje postacie. Konfrontacja zaczyna się na schodach wieży."
+  efekt: "Cassian przychodzi podbierać czas i zastaje postacie. Konfrontacja zaczyna się w krużganku u stóp wieży."
   flagi_ustaw: [flaga.wieza-zbadana]
   prowadzi_do: s1.scena.08
 ```
@@ -545,15 +545,105 @@ rozgalezienie:
   warunek: "Postacie są przy dzwonach, gdy wybija pełna godzina."
   wymaga_flag: []
   wyklucza_flagi: []
-  efekt: "Ogłuszający hałas, chwilowa dezorientacja (cena, nie bramka; liczby ustali mechanik). Ansel na dole zakrywa uszy i ucieka; wraca przy następnym spotkaniu."
+  efekt: "Ogłuszający hałas i chwilowa dezorientacja (cena, nie bramka). Liczby z sekcji Testy: bez rzutu i bez obrażeń, każda postać w komorze albo przy kracie ma +1 do trudności wszystkich testów do końca sceny i przez chwilę nie słyszy rozmowy (wstawka „dzwony”). Ansel na dole zakrywa uszy i ucieka; wraca przy następnym spotkaniu. Wyniki testów z tej sceny zostają ważne, a nikt nie jest ranny. Powrót: po dzwonach wieża jest cicha, a świat podsuwa naturalne zamknięcie: ktoś na dole rusza po schodach (Filch, wstawka „ktoś usłyszał”) albo gracze sami mówią, że dość, i wracają do 06."
   flagi_ustaw: []
   prowadzi_do: s1.scena.06
 ```
 
+```yaml
+rozgalezienie:
+  id: s1.scena.07.rozgalezienie.awaryjne-ukrycie
+  rodzaj: awaryjne
+  warunek: "O zmierzchu postacie chowają się w krużganku albo w oknie nad schodami i tylko patrzą (wygrana w s1.scena.07.test.sledzenie-kruzganek albo po prostu milczą), a Cassian nakręca zegarek i odchodzi bez słowa (dialog cassian-zmierzch, linia „Gdy postacie się chowają i tylko patrzą”)."
+  wymaga_flag: []
+  wyklucza_flagi: [flaga.cassian-zdemaskowany]
+  efekt: "Cassian nie zauważył nikogo: tyka, nakręca, po kilku minutach chowa zegarek i odchodzi mostem. Postacie widziały wszystko (W4.5), ale niczego jeszcze nie nazwały na głos i nic go nie zdemaskowało; scena 07 się kończy. Konfrontacja przychodzi innym wejściem do sceny 08, a MG wybiera jedno z trzech (świat reaguje na to, co postacie zrobią, nikt ich nie prowadzi). (a) Postacie same idą do Cassiana jeszcze tego wieczoru albo następnego dnia: wystarcza `flaga.wieza-zbadana`, a scena 08 zaczyna się tekstem 1a (krużganek, wnęka w lochach albo pusta sala Obrony, zależnie od miejsca). (b) Zegar kradzieży stoi na 3 lub więcej (to zwykle powód, dla którego Cassian tu w ogóle przyszedł): zegarek nadal jest u niego i nic go nie zatrzymało, więc następnego dnia po lekcjach Cassian sam znajduje postacie, zdenerwowany wścibstwem. Scena 08, tekst 1b; krużganek i dziedziniec to otwarta przestrzeń, więc pomiń pierwszy akapit tekstu (drzwi i klamka) i zacznij od tego, że Cassian staje przed nimi i zastawia im drogę. (c) Zegar stoi na 2 lub mniej, a postacie nie ruszają: nie przyspieszaj go na siłę. Zegar rośnie o 1 za każde pół dnia, więc po jednym półdniu bezczynności Cassian sam dojdzie do progu 3 i wejdzie przez 1b. Ślad do podrzucenia: wydeptany do gołego kamienia mech pod filarem (wariant 4b) i melodia pięciu nut, którą ktoś nuci na korytarzu w poniedziałek rano. Niczego nie unieważniamy: nikt nie dostaje zegarka za darmo, a przejęcie zostaje w scenie 08."
+  flagi_ustaw: [flaga.wieza-zbadana]
+  prowadzi_do: s1.scena.08
+```
+
+```yaml
+rozgalezienie:
+  id: s1.scena.07.rozgalezienie.awaryjne-atak-lub-poscig
+  rodzaj: awaryjne
+  warunek: "Po tekście 4 albo po wariancie 4a ktoś rzuca się na Cassiana bez słowa, celuje w niego różdżką albo ściga go po moście, gdy próbuje wyjść."
+  wymaga_flag: []
+  wyklucza_flagi: [flaga.cassian-zdemaskowany]
+  efekt: "Cassian nie jest bezbronny, ale nie ma tu publiczności, na której mu zależy: w krużganku u stóp wieży są tylko postacie i woda kapiąca z dachu. Atak bez słowa: scena 08, `awaryjne-bojka` (pojedynek według zasad z kroku 4, bez Rosalind i bez Wrena; zegarek wypada tak samo jak w tekście 3 sceny 08). Cassian nie atakuje pierwszy, tylko zasłania zegarek i mówi: „Tutaj? Pod wieżą?”. Próba ucieczki: Cassian wycofuje się mostem i znika w kierunku lochów; nie ścigaj go do skutku. Scena 08, `awaryjne-poscig` (nocne korytarze, kolor, nie bramka), a jeśli pościg się rwie, Cassian zatrzymuje się przy zakręcie na pierwszym schodku, żeby złapać oddech, i wtedy zaczyna się rozmowa. Zegarek zostaje u niego, dopóki scena 08 go nie rozstrzygnie; kto celował w niego różdżką, jest odtąd zapamiętany (`flaga.cassian-czujny`, MG zapisuje, której postaci dotyczy)."
+  flagi_ustaw: [flaga.wieza-zbadana, flaga.cassian-czujny]
+  prowadzi_do: s1.scena.08
+```
+
+```yaml
+rozgalezienie:
+  id: s1.scena.07.rozgalezienie.awaryjne-krata-dzwonnicy
+  rodzaj: awaryjne
+  warunek: "Postacie chcą wejść do dzwonów: otwierają kratę pod dachem, szukają klucza albo próbują wspiąć się po belkach."
+  wymaga_flag: []
+  wyklucza_flagi: []
+  efekt: "Krata jest zamknięta na zamek z kluczem, który ma Filch (dialog filch-halas: „Dzwony nie są dla dzieci”). Założenie robocze: zwykłe zaklęcia otwierające i siła nie ruszają starego żelaza w tej scenie (zamek wieży to zabytek pod opieką dyrektora). Próba kończy się hałasem i wstawką „ktoś usłyszał”. Za kratą nic nie ma: dzwony są dzwonami, a Klepsydra w Sesji 1 niczego nie pokazuje. Świat odpowiada tym, co postacie już wiedzą: wszystko w wieży się zgadza, więc nic tu po nich. Powrót: Filch przegania je na dół z zapisem nazwisk, a w drodze do wyjścia słyszą od niego narzekanie na zegarmistrza (W8.3, tylko na uprzejme pytanie), które jest zarazem drogą do dalszych tropów."
+  flagi_ustaw: [flaga.wieza-zbadana]
+  prowadzi_do: s1.scena.06
+```
+
+```yaml
+rozgalezienie:
+  id: s1.scena.07.rozgalezienie.awaryjne-crake-pokatna
+  rodzaj: awaryjne
+  warunek: "Postacie chcą iść za Crakiem albo od razu jechać na Pokątną do jego sklepu, zamiast dokończyć wieżę."
+  wymaga_flag: []
+  wyklucza_flagi: []
+  efekt: "Jest wtorek, środek tygodnia szkolnego, a Crake wsiada do dorożki przy bramie albo znika w drodze do Hogsmeade, zanim postacie go dogonią; w zamku nikt nie wypuści uczniów po południu. Świat nie mówi „nie”, tylko „jeszcze nie”: Crake grzecznie się z nimi żegna (dialog crake-schodzi: „Pan woźny czeka”), a na stopniu zostaje szmatka pachnąca miętą. Zapiszcie nazwę „Crake i Córka, ulica Pokątna” i wracajcie do zamku. Pokątna to sprawa Sesji 2 (lub weekendu w fikcji). Cena: stracony kwadrans, a przy wyjściu bramą Filch zapisuje nazwiska. Powrót: w drodze wracają przez krużganek, więc zmierzch i Cassian (krok 5) mogą nadal się wydarzyć."
+  flagi_ustaw: [flaga.crake-poznany, flaga.plakietka-crake]
+  prowadzi_do: s1.scena.12
+```
+
+```yaml
+rozgalezienie:
+  id: s1.scena.07.rozgalezienie.awaryjne-przy-moscie
+  rodzaj: awaryjne
+  warunek: "Postacie nie wchodzą do wieży: zostają z Anselem na początku mostu albo wolą pytać go o wieżę niż iść po schodach."
+  wymaga_flag: [flaga.ansel-spotkany]
+  wyklucza_flagi: []
+  efekt: "Ansel niczego nie ukrywa, bo nic nie wie: „Dzisiaj ciągnie mocniej” (przy zegarze 2 lub więcej) i „tu jest za głośno” to jego cała wiedza (dialog ansel-dzwon, bez warunku). To wystarcza jako wskazówka W3.4: czas płynie ku wieży. Wieża nie ucieka: czeka za mostem i można wejść innym razem. Jeśli ktoś mimo to stoi tu o zmierzchu, pierwszy słyszy skrzypienie mostu i szept Ansela o tyku w czyjejś kieszeni (dialog ansel-dzwon, linia o zmierzchu), a to prowadzi prosto do kroku 5 i sceny 08. W razie braku zmierzchu: zapisz, że postacie nie sprawdziły mechanizmu, i wróć do mapy dryfu."
+  flagi_ustaw: []
+  prowadzi_do: s1.scena.06
+```
+
+```yaml
+rozgalezienie:
+  id: s1.scena.07.rozgalezienie.awaryjne-wyjscie-postaci
+  rodzaj: awaryjne
+  warunek: "Postać nie może albo nie powinna dalej uczestniczyć w scenie: zasłabła w stanie Drained po scenie 03, skręciła kostkę na wyślizganych stopniach, została odprowadzona przez Filcha do opiekuna domu albo gracz po prostu chce zrobić przerwę."
+  wymaga_flag: []
+  wyklucza_flagi: []
+  efekt: "Śmierć w tej scenie nie wchodzi w grę (upadek z wieży nie jest tu realnym zagrożeniem, zob. Linie i zasłony), a wydalenie ze szkoły to nie skutek tej sceny: kara za hałas to szlaban i zapis w zeszycie Filcha, nic więcej. Postać odprowadza do skrzydła szpitalnego Filch albo ktoś z postaci, a tam dostaje napar i krótko odpoczywa (znika stan Drained, jeśli jeszcze trwał). Pozostali grają dalej i mogą odpowiedzieć na to, co postać w skrzydle usłyszy: plotkę o drugoroczniaku, który „nie wie, kiedy zasnął” (kolor, bez skutków w liczbach). Postać wraca na kolację, a o zmierzchu może dołączyć do reszty, jeśli ta czeka przy wieży. Jej gracz nie traci niczego ponad czas i komfort; zegar kradzieży biegnie dalej zwykłym trybem."
+  flagi_ustaw: []
+  prowadzi_do: s1.scena.12
+```
+
 ## Drabinka podpowiedzi
 
-TODO.
+*Kluczowy wniosek tej sceny to „wieża jest czysta, więc ktoś podbiera czas” (W4 przez wykluczenie, wejście do sceny 08), a ziarno na Sesję 2 to Crake i plakietka (W8). Szturchnięcie wystarczy, jeśli gracze są ciekawi; kolejne stopnie dopiero, gdy się zaciną. Wniosek ma paść z ich ust.*
+
+```yaml
+podpowiedzi:
+  id: s1.scena.07.podpowiedzi
+  szturchniecie: "Zapytaj wprost, bez podpowiadania: „Wszystko tu się zgadza. Co to dla was znaczy?”. Albo niech świat pokaże sprzeczność: wahadło tyka równo, a zegarki w krużganku u stóp wieży spóźniają się najbardziej (W3.2, porównanie zwykłych zegarków uczniów); Ansel przy moście mówi: „Dzisiaj ciągnie mocniej”. Jeśli gracze zbyt długo szukają skazy, wskazówka minutowa za tarczą przeskakuje z cichym, suchym kliknięciem, równo."
+  wieksza: "Daj trzy drogi, każda działa sama. (1) Filch na uprzejme pytanie: „Zegarmistrz był w czwartek. Znowu” i narzeka, że wieża „się boczy” (W3.3, W8.3). (2) Crake na schodach: „Wieża ostatnio wymaga więcej uwagi” (W3.5, tylko przy sukcesie w pogawędce). (3) O zmierzchu mech wydeptany w ciasne koło pod filarem w krużganku albo gwizd pięciu nut (wariant 4b i tekst 4); kto pamięta sygnał z kieszonki Cassiana (scena 04), może go skojarzyć sam. Plakietkę „Crake i Córka” pokaż bez rzutu, jedno zdanie, bez nowego śledztwa."
+  bezposrednia: "MG mówi poza fikcją, jednym zdaniem: „Wieża jest zdrowa, a czas i tak płynie w jej stronę. To znaczy, że ktoś go po drodze podbiera. W ostatnich dniach jeden zegarek tykał za szybko”. Jeśli gracze nie chcą czekać do zmierzchu, powiedz: „Zmierzch jest za godzinę, a Cassian zwykle przychodzi tu wieczorem”, i przejdź do kroku 5, a w razie potrzeby wprost do sceny 08. Ziarno W8 zapisz za nich: „Zapiszcie sobie: Crake i Córka, ulica Pokątna”."
+```
 
 ## Konsekwencje
 
-TODO. Zapisz: `flaga.wieza-zbadana`, `flaga.plakietka-crake`, `flaga.crake-poznany`, `flaga.crake-dluga-rozmowa`.
+*MG zapisuje po scenie (flagi z `04_kampania/flagi.yaml`; wszystkie wymienione tam istnieją).*
+
+- `flaga.wieza-zbadana`: postacie były w wieży i wiedzą, że jest czysta (po wejściu do komory, bez testu; ustawia ją także każda ścieżka awaryjna, która kończy scenę wejściem do 08).
+- `flaga.plakietka-crake`: znalazły plakietkę i świeży olej (bez testu). Czy zauważyły, że „i Córka” wycięto płycej i innym dłutem (wynik `test.mechanizm`), zapisz w notatkach, nie we fladze.
+- `flaga.crake-poznany`: pogawędka na schodach (wynik porażka, sukces albo sukces imponujący), albo ścieżka `awaryjne-crake-pokatna`.
+- `flaga.crake-dluga-rozmowa`: tylko przy sukcesie imponującym w pogawędce (zdjęcie w kopercie, córka Nora przykręcała tabliczkę).
+- `flaga.cassian-czujny`: tylko przy `awaryjne-atak-lub-poscig`, dla postaci, która celowała w Cassiana albo zaatakowała go; przy nieudanej kradzieży z `test.kradziez-zmierzch`.
+- `flaga.zegarek-cassiana`: `u-graczy` tylko po wygranej kradzieży w `test.kradziez-zmierzch` (Cassian przychodzi wtedy po zegarek, scena 08, tekst 1c).
+- `flaga.s1-zegar-kradziezy`: nie zmieniaj w tej scenie na siłę. Zapisz wartość z końca sceny i czy Cassian został bez zdemaskowania (po `awaryjne-ukrycie` rośnie o 1 za każde pół dnia, aż Cassian sam znajdzie postacie w scenie 08, tekst 1b).
+- Notatki bez flag: kto widział, jak Cassian nakręca zatrzymany zegarek (W4.5); czy Filch zapisał nazwiska (rano ktoś z kadry może zapytać, co robiły w wieży); komu Ansel obiecał poczekać i czy postać dotrzymała słowa (Więź); kto dostał zdanie Filcha „Zegarmistrz był w czwartek. Znowu” (W8.3); czy Ansel uciekł przy dzwonach.
+- Dokąd dalej: do sceny 08 (Cassian przychodzi, postacie go znajdują albo wejście 1b), do 06 (mapa dryfu) albo do 12 (wędrówki). Po wariancie 4b scena się kończy.
