@@ -199,11 +199,14 @@ Różdżka na nocnej szafce leży nieruchomo. Kto jej dotknie, poczuje, że drew
 
 **Krok 1. Przed wyprawą** (ok. 2 min)
 - Czytaj: tekst 12 („Budzi was dźwięk, którego nie powinno być…”), tylko w siatce 6, gdy nikt nie ma Więzi z Anselem.
+- Dialog: `s1.scena.09.dialog.ansel-nocna-wyprawa` — „Proszę pana, ja pójdę pierwszy. Mnie nikt nie widzi, to na mnie nikt nie krzyczy.” (przy zegarze kradzieży 4: „Ktoś poszedł do pani profesor. Tam, gdzie książki.”)
 - Krótko: sprawdź `flaga.ansel-kontakt`. Jeśli jest mniejsza niż liczba graczy, najpierw spotkanie wyrównujące z modułu 12 dla każdej brakującej postaci. Przy zegarze kradzieży 4: siatka 6 (Ansel budzi postać z najwyższą Więzią, siedzi na jej łóżku: „Ktoś poszedł do pani profesor. Tam, gdzie książki”; bez Więzi tekst 12). Daj graczom najwyżej 2 minuty na plan: kto idzie, co bierze, gdzie się spotykają.
 - Awaryjne: `awaryjne-za-dnia` (chcą wejść za dnia albo prosić o zgodę).
 
 **Krok 2. Nocna wyprawa** (ok. 6 min)
 - Czytaj: tekst 1 („Po ciszy nocnej zamek oddycha inaczej…”)
+- Dialog: `s1.scena.09.dialog.ansel-nocna-wyprawa` — meldunki zwiadowcy („Pan woźny jest piętro niżej. Stuka w zegar.…”)
+- Dialog: `s1.scena.09.dialog.filch-obchod` — „No proszę. Po ciszy nocnej.” (tylko gdy latarnia złapie postać)
 - Test: `s1.scena.09.test.skradanie` (grupowy; przeciwnik: obchód Filcha; kandydat: Zegar Północy)
 - Flagi: `flaga.filch-zlapal` (siatka 9)
 - Krótko: Ansel może iść przodem jako zwiadowca. Porażka zmienia cenę (minuty, ślad dla pani Pince rano), złapanie: siatka 9. Brzęk kluczy z tekstu 1 to Filch: jego latarnia chodzi zawsze tą samą trasą, więc gracze mogą ją przeczekać.
@@ -223,12 +226,14 @@ Różdżka na nocnej szafce leży nieruchomo. Kto jej dotknie, poczuje, że drew
 
 **Krok 5. Sala Zatrzymanych Godzin** (ok. 5 min)
 - Czytaj: tekst 5 („Za galerią sklepienie się podnosi…”); przy zegarze kradzieży 4 zaraz potem tekst 10 („W głębi sali pali się światło…”) i przejdź do kroku 8.
+- Dialog: `s1.scena.09.dialog.ansel-sala` — „Tu jest pokój pani profesor. Tylko… ciszej niż pamiętam.” (tylko gdy ktoś się do niego odezwie; przy podpisie Ansel milczy)
 - Test: `s1.scena.09.test.sciana-obliczen` (opcjonalna pokusa: zakazana lekcja pożyczania chwili)
 - Flagi: `flaga.wymark-slad` (inicjały „S.W.” obok kredowego podpisu Marrow), `flaga.pozyczona-chwila-poznana`
 - Krótko: zatrzymane zegary to chwile „zapłaty” z 1951 (wiedza tylko dla MG). Podpis i inicjały pokazuj dopiero, gdy ktoś podejdzie do ściany i będzie czytał: na dole kredowych obliczeń, pochyłą ręką, „I. Marrow”, a tuż obok, mniejsze i ostrzejsze, „S.W.”. Nic więcej; nikt nie zna tych inicjałów. Karta Pożyczającego przyłożona do ściany: „XIII” pasuje do kredowych tarcz.
 
 **Krok 6. Zaklęta księga** (ok. 5 min)
 - Czytaj: tekst 6 („Z bliska to pulpit do czytania…”)
+- Dialog: `s1.scena.09.dialog.ansel-ksiega` — „Proszę pana, nie za blisko. Pani profesor mówiła, że jej nie wolno dotykać.”
 - Test: `s1.scena.09.test.ksiega-porazenie` (poziom 2, kolejne dotknięcia)
 - Flagi: `flaga.ksiega-zabezpieczenia` (0–3)
 - Krótko: patrzenie bezpieczne. Pasek po wyrwanej karcie pasuje do karty. Osmalone kamienie i ślady w kurzu (W10.1). Przed poziomem 3 MG mówi wprost, poza fikcją, co się stanie: „To jest to, co zrobił Cassian. Jeśli spróbujecie wyrwać kartkę, pracownia się obudzi i jedynym wyjściem będzie ucieczka”.
@@ -239,6 +244,7 @@ Różdżka na nocnej szafce leży nieruchomo. Kto jej dotknie, poczuje, że drew
 
 **Krok 7. Ucieczka** (ok. 5–10 min, tylko przy poziomie 3)
 - Czytaj: tekst 7 („Księga nie puszcza…”)
+- Dialog: `s1.scena.09.dialog.ansel-ksiega` (Ansel liczy uderzenia: „Trzy! Cztery! Szybciej, ona liczy!”); `s1.scena.09.dialog.filch-obchod` („Kto tam stuka?”, Filch w drzwiach biblioteki)
 - Test: `s1.scena.09.test.ucieczka` (trzy odcinki, test grupowy na każdym)
 - Flagi: `flaga.ksiega-zlapani` (siatka 8), `flaga.filch-zlapal`
 - Krótko: w dłoni zostaje róg kartki z jednym znakiem. Droga otwarta do trzynastego uderzenia. Licz uderzenia na głos albo kośćmi na stole; między odcinkami opisuj jednym zdaniem (sala: zegarki sypią się jak grad; galeria: wahadła tną; schody: stopnie zapadają się od dołu, tyknięcie po tyknięciu). Po wyjściu: „Bicie milknie w pół uderzenia. Za waszymi plecami kamień znowu jest kamieniem.”
@@ -514,6 +520,7 @@ dialog:
   ton: "ostry szept, nigdy głośniej; zimna uprzejmość, spojrzenie o sekundę za długie"
   kwestie:
     - "Otwarcie (do całej czytelni, ale patrzy na szósty rok): „Ktoś był w mojej bibliotece w nocy. Książki to wiedzą. Ja też.”"
+    - "Gdy Filch złapał kogoś tej nocy: „Pan Filch mówi, że widział was na korytarzu.” (patrzy znad okularów) „Ciekawe, dokąd tak się spieszyliście.”"
     - "Gdy postać grzecznie pyta, co się stało: „Sznur przestawiony o dłoń. Kurz z ostatniego rzędu na podłodze czytelni.” (prostuje okulary) „Nikt nie sprząta ostatniego rzędu. Nikt tam nie chodzi.”"
     - "Gdy postać kłamie albo jej schlebia: „Oczywiście.” (zapisuje coś w rejestrze i od tej chwili patrzy na tę postać przez cały wieczór)"
     - "Gdy postać zostawiła tam coś swojego (szalik, pióro, guzik): (kładzie rzecz na ladzie) „Wasza opiekunka domu chętnie zobaczy, czyje to jest.”"
