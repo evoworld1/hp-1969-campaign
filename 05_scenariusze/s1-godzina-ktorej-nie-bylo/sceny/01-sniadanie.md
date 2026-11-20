@@ -154,7 +154,7 @@ Dla większości stołu to pierwsze minuty gry fabularnej w życiu. Ta scena nie
 - **Tobias zagaduje pierwszy.** Gracze nie wiedzą jeszcze, że mogą zaczepiać bohaterów niezależnych. Tobias zadaje pytania, czeka na odpowiedź i reaguje na nią z entuzjazmem, nawet na „no… nie wiem”. Jeśli gracz opisuje zamiast mówić („mówię mu, że jestem zmęczony”), to też jest dobre; nie poprawiaj.
 - **Cisza jest w porządku.** Jeśli przy stole zapada cisza dłuższa niż kilka sekund, nie ratuj jej opisem. Niech Tobias zada pytanie albo sowa wyląduje komuś w owsiance.
 - **Przy pierwszym rzucie** powiedz przed rzutem, co się stanie przy sukcesie, a co przy porażce („Jeśli wyjdzie, zauważysz coś, czego inni nie widzą. Jeśli nie, po prostu jesz śniadanie”). Po rzucie najpierw opowiedz wynik w świecie gry, dopiero potem liczby.
-- **Każdy gracz ma mieć coś swojego.** Przy 2–3 graczach rozdziel to tak: jedna postać prowadzi rozmowę z Tobiasem, druga wygrywa test i dostaje sygnał S1, S2 albo S4, trzecia (najlepiej ta, której test nie wyszedł) widzi odbicie w szkle. Przy dwóch graczach rozmowę i odbicie może dostać ta sama osoba.
+- **Każdy gracz ma mieć coś swojego.** Przy 2–3 graczach rozdziel to tak: jedna postać prowadzi rozmowę z Tobiasem, druga wygrywa test i dostaje sygnał S1, S2 albo S4, trzecia (ta, której test nie wyszedł) widzi odbicie w szkle. **Gdy test wyjdzie wszystkim, odbicie dostaje postać gracza, który do tej pory najmniej mówił.** Przy dwóch graczach rozmowę i odbicie może dostać ta sama osoba.
 - **Gdy gracze pytają „czy to ważne?”,** nie odpowiadaj ani tak, ani nie. Powiedz: „Twoja postać zauważyła, że to dziwne. Co z tym robisz?”. Żaden bohater niezależny w tej scenie niczego nie wyjaśnia.
 - **Odbicie w szkle zegara: na głos czy szeptem?** Szept do jednej osoby (albo karteczka) jest bardziej niepokojący. Przy pierwszej sesji poleca się jednak czytać na głos przy wszystkich, zwracając się do jednego gracza, i dodać: „Wasze postacie tego nie widziały, tylko wy, gracze, o tym wiecie”. To uczy różnicy między wiedzą gracza a wiedzą postaci, która przyda się przez całą kampanię. Wybór należy do MG.
 - **Zegar nad stołem nauczycieli** nadaje się do odbicia tylko wtedy, gdy postać stoi tuż przy nim (np. Wren przywołał ją do stołu nauczycieli albo odnosi coś profesorowi). Z ławki odbicie przy ramieniu jest nieprzekonujące; wtedy lepiej użyć wielkiego zegara w Sali Wejściowej przy wyjściu.
@@ -169,7 +169,7 @@ Dla większości stołu to pierwsze minuty gry fabularnej w życiu. Ta scena nie
 
 | Nr | Sygnał | Gdzie | Kto | Ustawia flagę | Na co działa później |
 |---|---|---|---|---|---|
-| S1 | Wielki zegar spóźnia się o cztery minuty; dzwon na pierwszą lekcję bije „za późno”, prefekci sprawdzają własne zegarki. Jeśli prologu nie było, przy zegarze stoi Crake z drabiną (pogawędka ruchoma) | [[miejsce.sala-wejsciowa]] | wszyscy | opcjonalnie `flaga.crake-poznany` | W3 (dryf ku wieży), W8 (Crake) |
+| S1 | Wielki zegar spóźnia się o cztery minuty; dzwon na pierwszą lekcję bije „za późno”, prefekci sprawdzają własne zegarki. Jeśli prologu nie było, przy zegarze stoi Crake z drabiną (pogawędka ruchoma). Wersja przy stole (z testu przy stole): prefekt porównuje zegarek z zegarem nad stołem nauczycieli | [[miejsce.sala-wejsciowa]]; wersja przy stole: [[miejsce.wielka-sala]] | wszyscy | opcjonalnie `flaga.crake-poznany` | W3 (dryf ku wieży), W8 (Crake) |
 | S2 | Koleżanki dokuczają [[npc.maisie-lock]], że „zasnęła z otwartymi oczami” na sprawdzianie. Maisie: nie spała, „po prostu tego kawałka nie ma” | stół Hufflepuffu | kto siedzi blisko albo nasłuchuje | brak | W4.3 (dopasowanie godzin w scenie 06) |
 | S3 | Gruby Mnich przepływa przez stół urażony plotką o „duchu Puchona” (pierwszoroczniacy widzieli na schodach chłopca w żółtym krawacie, który rozpłynął się, gdy go zawołali). Samą plotkę Tobias opowiada zawsze, także bez S3 | dowolny stół | wszyscy | brak (`flaga.plotka-duch-puchona` ustawia się zawsze, zob. rozgałęzienie `duch-puchona`) | W2.5, sceny 05 i 06 (rozpoznanie plotki) |
 | S4 | [[npc.cassian-vane]] przy stole Slytherinu zerka na zegarek kieszonkowy, którego wskazówki stoją. **Tylko sygnał:** zegarka nie da się tu zdobyć (decyzja MG z 2026-11-20) | stół Slytherinu | postać z dobrym widokiem albo z udanym testem | brak | W4 (pierwsze skojarzenie z Cassianem; rozwija się w pokazie, scena 04) |
@@ -177,7 +177,7 @@ Dla większości stołu to pierwsze minuty gry fabularnej w życiu. Ta scena nie
 
 ### Odbicie Ansela w szkle zegara (decyzja MG z 2026-11-20)
 
-- **Kto:** jedna postać. Najlepiej ta, która nie wygrała testu przy stole, żeby każdy gracz miał „coś swojego”.
+- **Kto:** jedna postać. Ta, która nie wygrała testu przy stole, żeby każdy gracz miał „coś swojego” (gdy przegrało kilka: ta z nich, której gracz najmniej mówił). Gdy test wyszedł wszystkim, odbicie dostaje postać gracza, który najmniej mówił. W wariancie skróconym (bez testu) MG wybiera najcichszego gracza.
 - **Gdzie:** szkło wielkiego zegara w Sali Wejściowej (przy wyjściu ze śniadania) albo szybka zegara ściennego nad stołem nauczycieli. Gdy przy wielkim zegarze stoi Crake na drabinie: zegar nad stołem nauczycieli albo Crake już zszedł (zob. „Rytm sceny”).
 - **Kiedy:** zawsze, po tekście 7 (dzwon). Nigdy nie wypada ze sceny, także przy skrótach.
 - **Co:** w szkle, tuż za ramieniem postaci, chłopiec w żółtym krawacie. Postać się odwraca: nikogo. W szkle też już go nie ma.
@@ -528,12 +528,18 @@ Powiedz mniej więcej tak: „Weź kość dziesięciościenną i rzuć. Do wynik
 
 **Liczby w skrócie.** Postacie graczy zaczynają 6. rok i mają Wits + Observation zwykle 9–10 (archetypy w `03_postacie/instrukcja-tworzenia-postaci.md`). Przy progu Tricky (12) to około 80–90% szans na sukces: pierwszy rzut prawie zawsze się udaje, ale porażka jest możliwa i niczego nie zamyka.
 
-**Oko, które dostrzega ukryte: rada dla MG.** Jeśli gracz z Okiem zapyta, czy go użyć, powiedz uczciwie: „Możesz, ale tu kość prawie na pewno wystarczy, a to, co tu zobaczysz, niczego nie otwiera. Oko przyda się, gdy coś będzie naprawdę ukryte”. Niewykorzystane Oko przechodzi na Sesję 2, więc zostawienie go na później nic nie kosztuje. Jeśli gracz i tak go użyje, nie odmawiaj: pokaż najcenniejszy szczegół sceny (stojące wskazówki zegarka Cassiana, S4) i zaznacz Oko jako zużyte.
+**Oko, które dostrzega ukryte: rada dla MG** (zasada nasza, [[zasada.nagrody-z-teaserow]]). Przed sceną, przy rozdawaniu kartek z nagrodami, powiedz graczom wprost: „Oko możecie użyć dziś. Jeśli go dziś nie użyjecie, nie przepada: przechodzi na drugą sesję”. Jeśli gracz z Okiem zapyta, czy go użyć tutaj, powiedz uczciwie: „Możesz, ale tu kość prawie na pewno wystarczy, a to, co tu zobaczysz, niczego jeszcze nie otwiera. Oko przyda się, gdy coś będzie naprawdę ukryte”. Jeśli gracz i tak go użyje, nie odmawiaj. Przy stole może być 2–3 posiadaczy Oka, więc cele dawaj **po kolei**, każdemu następny, którego drużyna jeszcze nie zna:
+1. stojące wskazówki zegarka Cassiana (S4; pomiń, jeśli drużyna już je zna);
+2. przez otwartą skrzynkę wielkiego zegara w Sali Wejściowej: mosiężna plakietka „Crake i Córka” na wewnętrznej stronie drzwiczek (ziarno W8; tylko gdy przy zegarze pracuje Crake, czyli bez `flaga.crake-poznany`);
+3. brzeg bandaża pod rękawem lewej dłoni Cassiana, widoczny, gdy chowa zegarek; bez wyjaśnienia.
+Gdy lista się wyczerpie: „Tu nic ci nie umknęło”, a Oko nie przepada. Oko nie pokazuje odbicia w szkle zegara (S5 i tak dostaje jedna postać). Zaznacz Oko jako zużyte.
+
+**RETRORSUM: rada dla MG** (zasada nasza, [[zasada.nagrody-z-teaserow]]). Pierwsze użycie w sesji nic nie kosztuje poza piętnem, ale **piętno pojawia się od razu**: cienka srebrzysta kreska na różdżce przy rękojeści, widoczna już w tej scenie dla każdego, kto się przyjrzy (Tobias na pewno zauważy i zapyta). Drugie użycie tego samego wieczoru łamie pieczęć (klątwa „Ten drugi”). W tej scenie żaden rzut niczego nie zamyka: porażka w teście przy stole oznacza tylko zwykłe śniadanie, a porażka w pogawędce z Crake'iem tylko krótszą rozmowę (Crake wraca w scenie 07). Jeśli gracz sięga po RETRORSUM, powiedz uczciwie: „Możesz, ale tu nic nie tracisz, a drugi raz dziś będzie kosztował”. Pewny sukces z RETRORSUM to poziom `sukces`, nie `sukces-imponujacy`, więc dłuższej rozmowy z Crake'iem nie daje. **Kradzieży zegarka w tej scenie nie ma:** próba zabrania zegarka Cassianowi zawsze się nie udaje, bez rzutu, a RETRORSUM działa tylko po nieudanym rzucie. Nie ma czego cofnąć ani czym „wygrać” zegarka.
 
 ```yaml
 test:
   id: s1.scena.01.test.przy-stole
-  opis: "Pierwszy test w grze (tylko pełny wariant, bez prologu). Postać rozgląda się po sali albo nasłuchuje przy stole: co jest dziś nie tak? Test standardowy (Standard Test, Walker 2e s. 3), nie Quick Test (szybki test, s. 4): Quick Test liczy się odwrotnie (rzut równy lub niższy od jednej wartości), więc na start uczyłby niewłaściwego nawyku i dawałby tylko około 50% szans. Rzuca każda postać osobno, raz, bez współpracy: każdy gracz ma rzucić kością pierwszy raz w życiu. Próg Tricky (12, s. 3) przy Wits + Observation 9–10 daje około 80–90% sukcesu; porażka kompromitująca (poniżej 6) i sukces imponujący (24 lub więcej) są dla postaci startowych nieosiągalne, więc w tym teście liczą się tylko sukces i porażka. Porażka niczego nie zamyka."
+  opis: "Pierwszy test w grze (tylko pełny wariant, bez prologu). Postać rozgląda się po sali albo nasłuchuje przy stole: co jest dziś nie tak? Wszystkie sygnały z tego testu są widoczne ze stołu, bez wstawania (S1 w wersji przy stole: prefekt porównuje zegarek z zegarem nad stołem nauczycieli). Test standardowy (Standard Test, Walker 2e s. 3), nie Quick Test (szybki test, s. 4): Quick Test liczy się odwrotnie (rzut równy lub niższy od jednej wartości), więc na start uczyłby niewłaściwego nawyku i dawałby tylko około 50% szans. Rzuca każda postać osobno, raz, bez współpracy: każdy gracz ma rzucić kością pierwszy raz w życiu. Próg Tricky (12, s. 3) przy Wits + Observation 9–10 daje około 80–90% sukcesu; porażka kompromitująca (poniżej 6) i sukces imponujący (24 lub więcej) są dla postaci startowych nieosiągalne, więc w tym teście liczą się tylko sukces i porażka. Porażka niczego nie zamyka."
   kto: kazdy
   rzut: "1D10 + Wits + Observation"
   trudnosc: "Tricky (12)"
@@ -541,13 +547,13 @@ test:
     - warunek: "Postać ma specjalizację Observation pasującą do sytuacji (np. Observation (Twarze), gdy patrzy na Cassiana albo Maisie; Specialism, s. 13)"
       wartosc: "+1 do rzutu"
     - warunek: "Postać z teaserową zdolnością „Oko, które dostrzega ukryte” używa jej tutaj (zasada nasza, zob. zasada.nagrody-z-teaserow). Rekomendacja: zostawić Oko na później (rada dla MG nad blokiem)."
-      wartosc: "zastępuje rzut: wynik sukces bez rzucania (zasada nasza, nie modyfikator liczbowy)"
+      wartosc: "zastępuje rzut: wynik sukces bez rzucania; cel z listy uszeregowanej (rada dla MG nad blokiem; zasada nasza, nie modyfikator liczbowy)"
   wyniki:
     - wynik: sukces
-      efekt: "MG wskazuje postaci jeden z wybranych sygnałów dziwności (S1, S2 albo S4), zanim zauważy go reszta. Wyższe poziomy wyniku nie dają tu nic więcej."
+      efekt: "MG wskazuje postaci jeden z wybranych sygnałów dziwności, zanim zauważy go reszta. S1 przy stole: prefekt przy stole jej domu stuka w szkiełko zegarka, patrzy na okrągły zegar nad stołem nauczycieli, potem znowu na nadgarstek; cztery minuty różnicy (wielki zegar w Sali Wejściowej spóźnia się tak samo, co postać może sprawdzić przy wyjściu). S2: Maisie przy stole Hufflepuffu. S4: zegarek Cassiana przy stole Slytherinu. Zasada podziału: każda postać z sukcesem dostaje inny sygnał, jeśli MG ma ich dość; gdy sukces mają wszyscy, odbicie w szkle zegara (S5) dostaje postać gracza, który do tej pory najmniej mówił, a jej sygnał z testu może być ten sam co u innej postaci. Wyższe poziomy wyniku nie dają tu nic więcej."
       flagi_ustaw: []
     - wynik: porazka
-      efekt: "Postać niczego szczególnego nie zauważa. Nic się nie zamyka: o duchu Puchona i tak gada cały stół, a ta postać jest dobrą kandydatką do odbicia w szkle zegara. MG nie proponuje wydania Story Point przy tym rzucie (szkoda punktu na test, który niczego nie zamyka); jeśli gracz sam o to zapyta, wolno (s. 4)."
+      efekt: "Postać niczego szczególnego nie zauważa. Nic się nie zamyka: o duchu Puchona i tak gada cały stół, a ta postać dostaje odbicie w szkle zegara (S5 jest obowiązkowy; gdy porażkę ma kilka postaci, odbicie dostaje ta z nich, której gracz najmniej mówił). MG nie proponuje wydania Story Point przy tym rzucie (szkoda punktu na test, który niczego nie zamyka); jeśli gracz sam o to zapyta, wolno (s. 4)."
       flagi_ustaw: []
 ```
 
@@ -575,7 +581,9 @@ test:
       flagi_ustaw: [flaga.crake-poznany, flaga.crake-dluga-rozmowa]
 ```
 
-**Kradzież zegarka.** W tej scenie nie ma testu kradzieży: zegarka Cassiana nie da się zdobyć przed sceną 04 (decyzja MG z 2026-11-20). Test kradzieży (dla kradzieży po scenie 04 i w scenie 08) jest w karcie przedmiotu [[przedmiot.zegarek-cassiana]]; przenosi go tam mechanik.
+**Kradzież zegarka.** W tej scenie nie ma testu kradzieży: zegarka Cassiana nie da się zdobyć przed sceną 04 (decyzja MG z 2026-11-20); próba zawsze się nie udaje, bez rzutu (więc także bez RETRORSUM i bez Story Points). Test kradzieży, który obowiązuje od wieczoru po scenie 04, jest w karcie przedmiotu [[przedmiot.zegarek-cassiana]] (`przedmiot.zegarek-cassiana.test.kradziez`).
+
+**Zaklęcia ujawniające przy śniadaniu.** Jeśli postać rzuci na zegarek Cassiana Specialis Revelio (s. 58) albo Revelio (s. 57), rzut idzie normalnie, ale udany pokazuje zwykłą zepsutą pamiątkę: zaklęcia ujawniające nie wykrywają magii czasu (decyzja MG z 2026-11-20, [[zasada.walker-luki]], ZD-24). Cassian zauważa różdżkę wycelowaną w swoją kieszonkę i zapamiętuje twarz, jak przy próbie kradzieży.
 
 ## Rozgałęzienia
 

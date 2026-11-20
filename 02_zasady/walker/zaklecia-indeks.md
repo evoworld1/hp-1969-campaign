@@ -8,7 +8,7 @@ pochodzenie: walker
 strony: "Walker 2e s. 18, 30, 47-59"
 tagi: [zaklecia, indeks, rok-nauki, trudnosc]
 zrodla: ["Walker 2e, szkic 2026-04 (EN)"]
-aktualizacja: 2026-11-18
+aktualizacja: 2026-11-20
 ---
 ## Streszczenie
 
@@ -149,12 +149,12 @@ Healing Magic: Anapneo, Brackium Emendo, Episkey, Ferula, Rennervate, Vulnera Sa
 ## Jak używać przy stole
 
 - Przy teście rzucania w scenie podaj: zaklęcie, umiejętność (z typu) i trudność startową; aktualną trudność gracz bierze ze swojego arkusza.
-- Do śledztwa w Scenariuszu 1 przydatne są zwłaszcza zaklęcia ujawniające (Aparecium, Revelio, Specialis Revelio, Homenum Revelio, Prior Incantato).
+- Do śledztwa w Scenariuszu 1 przydatne są zwłaszcza zaklęcia ujawniające (Aparecium, Revelio, Specialis Revelio, Homenum Revelio, Prior Incantato). **Uwaga kampanii:** nie wykrywają magii czasu (decyzja MG 2026-11-20, [[zasada.walker-luki]], ZD-24); na zwykłą magię działają normalnie.
 - **W podręczniku nie ma zaklęcia „Tempus”** używanego w archiwalnym szkicu modułu. Jeśli scena go potrzebuje, trzeba je dodać jako zasadę domową (np. Charm, trudność 9 lub 12) albo zastąpić istniejącym zaklęciem.
 
 ## Przykład
 
-Uczeń czwartego roku chce sprawdzić, czy klepsydra jest zaczarowana: Specialis Revelio (Charm, 15, s. 58), rzut 1D10 + Focus + Charms (+ premia Revealing Magic z różdżki) przeciw aktualnej trudności z arkusza.
+Uczeń czwartego roku chce sprawdzić, czy klepsydra jest zaczarowana: Specialis Revelio (Charm, 15, s. 58), rzut 1D10 + Focus + Charms (+ premia Revealing Magic z różdżki) przeciw aktualnej trudności z arkusza. W tej kampanii udany rzut na Klepsydrę niczego nie pokaże, bo to magia czasu (ZD-24); przykład zostaje jako ilustracja samego rzutu.
 
 ## Uwagi
 

@@ -8,7 +8,7 @@ pochodzenie: domowa
 strony: "Walker 2e s. 3-4, 31-32, 35-36, 71-76 (odniesienia; same mechaniki są kampanijne)"
 tagi: [mechaniki-fabularne, rejestr-danin, wiez, zegar-polnocy, klepsydra-daniny, danina-czasu, time-twisting, story-points, ocena, do-decyzji-mg]
 zrodla: ["archiwum: modul-s1-v0", "archiwum: streszczenie-kampanii-v0", "Walker 2e, szkic 2026-04 (EN)"]
-aktualizacja: 2026-11-18
+aktualizacja: 2026-11-20
 ---
 ## Streszczenie
 
@@ -121,6 +121,8 @@ Uwaga o typie pliku: kontrakt danych nie ma osobnego typu dla „dokumentu oceny
 - **A. Klepsydra jako przedmiot zaczarowany Walkera, danina jako jej cena.** Klepsydra ma właściwość Time twisting (plus ewentualnie inne z listy s. 71–72), więc jej trudność zaczarowania to co najmniej 40, jak Klosz Czasu (s. 74). To od razu tłumaczy, czemu nikt jej nie odtworzy (Almost Impossible to 25) i czemu Ministerstwo się nią interesuje. Danina to kampanijna, jawnie oznaczona **zasada domowa**: każdy efekt Time twisting tej Klepsydry (i wszystkiego, co z niej „wycieka”: Pożyczona Chwila, Skradzione Chwile Cassiana, przewijanie w walce Crake'a w Scenariuszu 3) musi być opłacony czyimś czasem, a rozliczenie trafia do Rejestru Danin. **Rekomendacja:** jedno źródło prawdy (Walker opisuje przedmiot, my tylko cenę), mało nowych zasad, a pustą lukę s. 72 wypełniamy dokładnie tam, gdzie podręcznik sam ostrzega.
 - **B. Osobny podsystem „magii daniny”.** Własne zaklęcia z trudnością i kratkami (Pożyczona Chwila, Oddanie Godziny, Kotwica), uczone jak zaklęcia z s. 31–32. Bogatsze, ale tworzy równoległą szkołę magii, której Walker nie przewiduje; dużo pracy, ryzyko niespójności i pokusa, by uczniowie „opanowali” pożyczanie i przestali płacić.
 - **C. Czysto fabularnie.** Klepsydra bez statystyk, danina tylko w narracji, bez Rejestru progów. Najlżejsze, ale Scenariusz 3 (walka z Crake'em, który przewija czas) i tak będzie potrzebował zasad, więc odkładamy problem.
+
+**Zaklęcia ujawniające a magia czasu (decyzja MG 2026-11-20, obowiązuje).** Zaklęcia ujawniające (Specialis Revelio s. 58, Revelio s. 57, Homenum Revelio s. 52, Aparecium s. 47, Prior Incantato s. 56) nie wykrywają magii czasu ani jej śladów. To jedyny element tego rozdziału, który już obowiązuje; pełny zapis z przykładami: [[zasada.walker-luki]], ZD-24 (część F).
 
 **Ważne dla kanonu (do strażnika kanonu):** jeśli w 1969 roku istnieją Zmieniacze Czasu (Walker opisuje je na s. 76), gracze zapytają, czemu Ministerstwo nie użyje ich zamiast Klepsydry. Odpowiedź powinna wynikać z różnicy: Zmieniacz cofa podróżnego, Klepsydra **przenosi** czas między ludźmi. To kwestia do sprawdzenia przez `straznik-kanonu`, nie decyzja mechaniczna.
 

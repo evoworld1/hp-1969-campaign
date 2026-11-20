@@ -24,7 +24,7 @@ Srebrny zegarek kieszonkowy, starszy niż jego właściciel, na długim srebrnym
 
 W dłoni jest cięższy, niż powinien, i lekko ciepły. Tempus rzucony obok niego „tyka” szybciej niż gdziekolwiek indziej w zamku.
 
-**Zaklęcia ujawniające nic nie pokazują** (decyzja MG 2026-11-20, obowiązuje w całej kampanii: zaklęcia ujawniające nie wykrywają magii czasu). Kto rzuci na zegarek zaklęcie wykrywające albo ujawniające magię, widzi zwykłą rodzinną pamiątkę z zepsutym mechanizmem. Najwyżej szkło jest dziwnie zimne pod palcem, choć koperta jest ciepła. To jedyny ślad i nie jest dowodem dla nikogo poza samymi postaciami.
+**Zaklęcia ujawniające nic nie pokazują** (decyzja MG 2026-11-20, obowiązuje w całej kampanii: zaklęcia ujawniające nie wykrywają magii czasu; zapis z przykładami zaklęć: [[zasada.walker-luki]], ZD-24). Kto rzuci na zegarek zaklęcie wykrywające albo ujawniające magię, widzi zwykłą rodzinną pamiątkę z zepsutym mechanizmem. Najwyżej szkło jest dziwnie zimne pod palcem, choć koperta jest ciepła. To jedyny ślad i nie jest dowodem dla nikogo poza samymi postaciami.
 
 Zegarek należał do dziadka Cassiana. Wskazówki stanęły w godzinie jego śmierci. Ojciec dał go Cassianowi po SUM-ach ze słowami, że „Vane'owie się nie spóźniają”.
 
@@ -65,23 +65,31 @@ Bez własnych statystyk. W rękach Cassiana zegarek zasila jego zdolność „Sk
 ```yaml
 test:
   id: przedmiot.zegarek-cassiana.test.kradziez
-  opis: "Postać próbuje niepostrzeżenie wyjąć zegarek z kieszonki Cassiana albo spod jego poduszki. Obowiązuje dopiero od wieczoru po scenie 04 (decyzja MG 2026-11-20). Wcześniej testu się nie rzuca: próba zawsze się nie udaje (siatka bezpieczeństwa 1)."
+  opis: "Postać próbuje niepostrzeżenie wyjąć zegarek z kieszonki Cassiana, z jego dłoni albo spod poduszki. Obowiązuje dopiero od wieczoru po scenie 04 (decyzja MG 2026-11-20). Wcześniej testu się nie rzuca: próba zawsze się nie udaje (siatka bezpieczeństwa 1). Test przeciwny (Opposed Test, s. 4): postać rzuca 1D10 + Speed + Concealment (Concealment obejmuje niepostrzeżone chowanie drobnych rzeczy w dłoni, palming objects, s. 21), Cassian 1D10 + Wits + Observation (1D10 + 10). Wyższy wynik wygrywa. Remis rozstrzyga Narrator (s. 4); zasada domowa: Cassian porusza się albo mruczy przez sen, postać może cofnąć rękę bez skutków albo rzucić jeszcze raz, a przy drugim remisie przegrywa. Szanse przy Speed + Concealment 6–9: Cassian przytomny 15–36% (to ruch na desperację), Cassian śpi 45–72% (trudne, ale do przejścia). Samo dostanie się do dormitorium Slytherinu to osobna sprawa: postać ze Slytherinu śpi tam i wchodzi bez testu (siatka 5); inni potrzebują hasła albo testu skradania, którego tu nie liczymy."
   kto: jeden
-  rzut: "DO-USTALENIA"
+  rzut: "1D10 + Speed + Concealment"
   trudnosc: "przeciwny: 1D10 + Wits + Observation (npc.cassian-vane)"
   modyfikatory:
-    - warunek: "Cassian śpi (dormitorium, siatka bezpieczeństwa 5)"
-      wartosc: "DO-USTALENIA"
+    - warunek: "Cassian śpi w dormitorium, zegarek pod poduszką (siatka bezpieczeństwa 5). Brak w podręczniku zasad dla śpiącego przeciwnika; zasada domowa. Cassian śpi płytko i niespokojnie, a zegarek leży pod jego głową, więc nie jest to automatyczny sukces."
+      wartosc: "-4 do rzutu Cassiana"
+    - warunek: "Cassian drzemie przy kominku w pokoju wspólnym z zegarkiem w dłoni (wariant siatki 5 dla dziewczyny ze Slytherinu); zasada domowa"
+      wartosc: "-2 do rzutu Cassiana"
+    - warunek: "Inna postać odwraca uwagę przytomnego Cassiana (zagaduje, upuszcza książki); najwyżej dwie (Working Together, s. 4). Nie działa, gdy Cassian śpi."
+      wartosc: "+1 do rzutu za każdą pomagającą postać"
+    - warunek: "Kradnie postać, która w scenach 01–04 już próbowała zabrać zegarek albo celowała w niego różdżką (Cassian zna jej twarz i jest czujny); zasada domowa"
+      wartosc: "+2 do rzutu Cassiana"
+    - warunek: "Cassian jest pod wpływem eliksiru nasennego (Sleeping Draught, s. 64) albo ogłuszony (Stupefy, s. 58)"
+      wartosc: "bez testu kradzieży: wygrana; trudność przenosi się na podanie eliksiru albo trafienie zaklęciem (osobne testy, przemoc wobec ucznia ma skutki fabularne)"
   wyniki:
     - wynik: wygrana
       efekt: "Zegarek jest u postaci. Cassian odkrywa stratę w ciągu godziny i sam przychodzi po zegarek tego wieczoru albo nazajutrz (wejście do sceny 08)."
       flagi_ustaw: [flaga.zegarek-cassiana]
     - wynik: przegrana
-      efekt: "Cassian łapie rękę albo budzi się. Od tej chwili jest czujny; zegarek nosi przy sobie nawet nocą. Konfrontacja może zacząć się od razu na jego warunkach."
+      efekt: "Cassian łapie rękę albo budzi się. Od tej chwili jest czujny; zegarek nosi przy sobie nawet nocą i kolejnej próby kradzieży nie ma (zostają pojedynek, targ albo litość w scenie 08). Konfrontacja może zacząć się od razu na jego warunkach."
       flagi_ustaw: []
 ```
 
-Uwaga dla mechanika: test czeka na liczby (`rzut` i modyfikator snu: DO-USTALENIA). Obowiązuje **od wieczoru po scenie 04**; w scenach 01–04 się go nie używa. Kandydaci na `rzut` to `1D10 + Speed + Concealment` albo `1D10 + Speed + Chicanery` (Speed to szybkość, Concealment to ukrywanie, Chicanery to podstęp; nazwy z listy Walkera, s. 12 i 21–23). `flaga.zegarek-cassiana` ma przy wygranej wartość `u-graczy`.
+**Test kradzieży: liczby (mechanik, 2026-11-20).** Obowiązuje **od wieczoru po scenie 04**; w scenach 01–04 się go nie używa (próba zawsze się nie udaje, bez rzutu, więc nie da się jej ratować RETRORSUM ani Story Points). Rzut: `1D10 + Speed + Concealment` (Speed to szybkość, Concealment to ukrywanie; Walker wymienia „palming objects” w opisie Concealment, s. 21, a osobnej umiejętności kieszonkowca nie ma). Chicanery (podstęp) odrzucona, bo dotyczy kłamstwa i oszustwa słowem, nie ręki. Przeciw: Cassian `1D10 + Wits + Observation` = 1D10 + 10. Śpiący Cassian: −4 do jego rzutu; drzemka przy kominku: −2 (obie wartości to zasady domowe, brak w podręczniku). Po wygranej `flaga.zegarek-cassiana` ma wartość `u-graczy`. Po przegranej Cassian nosi zegarek przy sobie także nocą i kolejnej próby kradzieży już nie ma: zostają pojedynek, targ albo litość w scenie 08. RETRORSUM po przegranej działa normalnie (cofnięcie i pewna wygrana w nowej linii, zasada nasza).
 
 **Zniszczenie zegarka (liczby: mechanik, 2026-11-20).** Podręcznik ma zasady niszczenia tylko dla zaklęć wysadzających (Blasting Spells, s. 42): obrażenia porównuje się z wytrzymałością materiału (meble 10, mocne drzwi 20). Zwykły zegarek byłby poniżej mebli, ale magia karty go wzmacnia: **wytrzymałość 15**. Dla zwykłego uderzenia (młotek, kamień, rzut o posadzkę) podręcznik nie podaje zasad (brak w podręczniku, s. 35 i 42); propozycja zasady domowej: liczyć je jak cios bronią improwizowaną, **2D + Vitality** obrażeń, i porównać z wytrzymałością tak samo jak przy wysadzaniu. Jedna próba to jedna akcja (s. 33); poza walką próbować można do skutku, ale każda nieudana próba kosztuje hałas i czas.
 

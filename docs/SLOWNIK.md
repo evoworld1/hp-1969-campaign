@@ -62,6 +62,14 @@ Terminy mechaniczne zostają w oryginale angielskim (Walker 2e). Ten słownik ob
 | Pet | Zwierzę ucznia; pierwszoroczni tylko kot, sowa albo ropucha | 12 |
 | Ollivander / Gregorovitch / Legacy wand | Wytwórca różdżki, od którego zależy tabela rdzeni: Ollivander (tylko włos jednorożca, włókno smoczego serca, pióro feniksa), Gregorovitch (szerszy wybór), różdżka rodowa (rdzenie nietypowe) | 26 |
 | Wand bonus categories | Grupy zaklęć, do których różdżka daje premię: Blasting, Fire, Healing, Mind Affecting, Offensive, Protective, Revealing, Transportation, Water Magic | 27–30 |
+| Revealing Magic | Magia ujawniająca: grupa zaklęć (Aparecium, Homenum Revelio, Revelio, Specialis Revelio), do której różdżka może dawać premię; w kampanii nie wykrywa magii czasu (ZD-24) | 30 |
+| Aparecium | Charm, trudność 12: ujawnia niewidzialny atrament i wiadomości ukryte zaklęciem | 47 |
+| Homenum Revelio | Charm, trudność 15: wykrywa ukrytych ludzi, także pod niewidzialnością | 52 |
+| Prior Incantato | Charm, trudność 15: różdżka pokazuje echo swojego ostatniego zaklęcia | 56 |
+| Revelio | Charm, trudność 15: ujawnia ukryte przedmioty, niewidzialne wiadomości, ukryte przejścia i prawdziwy wygląd przebranej osoby | 57 |
+| Specialis Revelio | Charm, trudność 15: ujawnia obecność i rodzaj zaklęć na przedmiocie lub eliksirze | 58 |
+| Sneakoscope / Foe Glass / Secrecy Sensor | Wykrywacze z listy przedmiotów: fałszoskop (bączek, który świeci i gwiżdże przy kimś niegodnym zaufania), lustro wrogów (pokazuje wrogów jako cienie), wykrywacz tajemnic (drga przy ukrywaniu i kłamstwie) | 19 |
+| Sleeping Draught | Eliksir nasenny, trudność 15: głęboki sen bez snów | 64 |
 
 ## Terminy kampanii
 
@@ -92,6 +100,7 @@ Terminy mechaniczne zostają w oryginale angielskim (Walker 2e). Ten słownik ob
 | Ten drugi (klątwa RETRORSUM) | Trwały skutek pękniętej pieczęci: siwe pasmo i głos wersji postaci z wymazanej linii czasu, który przy ważnych wyborach raz pomaga, raz kłamie; ujawnia się w trzech etapach | nasze, przyjęte przez MG 2026-11-20 |
 | Oko, które dostrzega ukryte | Zdolność pasywna z teasera: raz w Sesji 1 (niewykorzystane przechodzi na Sesję 2) MG wskazuje istotny szczegół otoczenia (jak test spostrzegawczości z wynikiem Success, Walker s. 3); nie wyjaśnia, co on znaczy | nasze, teaser MG, szkic |
 | Licznik uderzeń | Licznik ucieczki przed pełnymi zabezpieczeniami zaklętej księgi (start 1, +3 za odcinek, 13 = schody się zamykają); zob. `przedmiot.zakleta-ksiega` | nasze, szkic |
+| Zaklęcia ujawniające a magia czasu (ZD-24) | Zasada kampanii: zaklęcia ujawniające (Revealing Magic) działają na zwykłą magię, ale nie wykrywają magii czasu ani jej śladów (zegarek Cassiana, Karta, Ansel, RETRORSUM); Prior Incantato pokazuje w miejscu zaklęcia czasu tylko bezkształtną mgiełkę | przyjęte (MG 2026-11-20) |
 
 ## Skróty
 
