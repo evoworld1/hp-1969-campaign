@@ -100,7 +100,7 @@ flagi:
     wartosci: []
     sesja: s1
   - id: flaga.marrow-imie-znane
-    opis: "Postacie wiedzą, że profesor Marrow istniała, uczyła astronomii i odeszła wiele lat temu."
+    opis: "Postacie wiedzą, że profesor Marrow istniała, uczyła astronomii i nie ma jej dziś w zamku (że odeszła dawno, potwierdza Fairweather albo Dumbledore)."
     typ: bool
     wartosci: []
     sesja: s1

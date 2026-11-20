@@ -10,7 +10,7 @@ rocznik_1969: "3 rok"
 kanon: false
 pewnosc: nasze
 # Docelowo także: s1.scena.05 (mignięcie Ansela), s1.scena.06, s1.scena.12
-sceny: [s1.scena.01]
+sceny: [s1.scena.01, s1.scena.05]
 tylko_mg: true
 tagi: [s1, uczen, hufflepuff, ofiara-cassiana, duch-puchona]
 zrodla:

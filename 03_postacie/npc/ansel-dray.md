@@ -12,7 +12,7 @@ pewnosc: nasze
 # Pozostałe pliki scen jeszcze nie istnieją (walidator wymaga istniejących identyfikatorów).
 # Docelowo także: s1.scena.03 (mignięcie), s1.scena.05, s1.scena.06,
 #   s1.scena.07, s1.scena.09, s1.scena.10, s1.scena.12
-sceny: [s1.scena.01]
+sceny: [s1.scena.01, s1.scena.05]
 tylko_mg: true
 tagi: [s1, ansel, hufflepuff, "1951", kotwica, wiez]
 zrodla:
