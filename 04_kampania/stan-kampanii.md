@@ -9,7 +9,10 @@
   - architekt-fabuly: graf podzielony na `przeglad.md` (id `s1`) i pomocniczy `graf-scen.md` bez nagłówka. Wprowadzone decyzje MG: Patron Wymark (`npc.silas-wymark`), stracona godzina między lekcjami (scena 03 to teraz stracona godzina, 04 to Obrona), mignięcia Ansela, legalna biblioteka, data 22.09.1969. Dodane wczesne sygnały dziwności w scenach 01–02, 7 siatek bezpieczeństwa i 37 flag. Rdzeń trwa około 4 h 20 min.
 - **Odpowiedzi MG na pytania B1 wprowadzone (2026-11-20):** grupa Wrena i wspólny sekret z 4. roku (graf, przegląd, instrukcja tworzenia postaci z 5 pytaniami startowymi), odbicie Ansela w scenie 01, kotwica w „Prawdzie dla MG”, zaklęcia za zgodą MG. Nowe flagi: `ansel-odbicie`, `sekret-poruszony`.
 - **Do potwierdzenia przed Sesją 3:** architekt zapisał w przeglądzie wniosek, że oddanie godziny **może** odebrać Anselowi kotwicę. To nie jest decyzja MG.
-- **Następny krok: część B2** (nowa sesja): tworca-npc (szkice kart NPC, miejsc i przedmiotów, lista w `graf-scen.md`, sekcja „Potrzebne obiekty”); redaktor-ciaglosci; akceptacja grafu przez MG, co kończy Fazę 2.
+- **Część B2a (zrobione 2026-11-20):** tworca-npc utworzył 19 szkiców kart NPC w `03_postacie/npc/` (8 pełnych, 11 krótkich); redaktor-ciaglosci sprawdził; Reżyser naprawił drobne błędy (polszczyzna, kominek McGonagall, kwestia Ansela u Dumbledore'a, Sprout w 1951, objaśnienia terminów); w zarysie wpisany Patron Wymark. Walidator czysty (ostrzeżenia o nieużywanych flagach są oczekiwane do czasu scen).
+- **Czeka na odpowiedzi MG:** 5 pytań z B2a (zob. „Otwarte pytania”). Po odpowiedziach tworca-npc poprawia karty.
+- **Następny krok: część B2b** (nowa sesja): szkice 14 miejsc i 7 przedmiotów, nagłówki 4 handoutów (lista w `graf-scen.md`, „Potrzebne obiekty”); redaktor-ciaglosci; akceptacja grafu przez MG, co kończy Fazę 2.
+- **Dla mechanika (Faza 3):** zdolności Cassiana (Skradzione Chwile, zegarek jako słaby punkt), premie za nazwanie nawyków Rosalind i Barnaby'ego, obchód Filcha jako przeciwnik, próg pogawędki z Crake'iem, czy Ansel potrzebuje liczb.
 - **Dla mechanika przy scenach:** czy stan Drained działa już na lekcji Obrony; rdzeń ze smoczego serca a drewno „Oak” (s. 29, niejasność podręcznika).
 - **Odłożone do scen:** liczby dla wyniku 2× i 3× trudności (ZD-09).
 - **Ostatnie podsumowanie rozmowy:** `99_robocze/summary-session#2.md` (2026-11-20). Następną sesję zacznij od `/faza 2` (część B2).
@@ -64,7 +67,14 @@
 | 2026-11-20 | Zaklęcia, które mogą rozwiązać śledztwo jednym rzutem (Homonculous Charm, Obliviate, Legilimens, Amortentia), w pełnej ścieżce tworzenia postaci tylko za zgodą MG; w szybkiej ścieżce ich nie ma. | MG |
 
 ## Otwarte pytania
-- Brak. Pytania 1–4 z części B1 rozstrzygnięte 2026-11-20 (zob. rejestr decyzji).
+Z części B2a (2026-11-20):
+1. Kto uczy Astronomii (roboczo: prof. Ada Fairweather, w 1951 pierwszoroczna z rocznika Ansela).
+2. Dom Tobiasa Quilla (roboczo: MG przypisuje przed sesją do domu postaci z najmniejszą liczbą znajomych).
+3. Czy Wymark pojawia się w Sesji 1 (roboczo: tylko ślad, przezwisko „Bocian” z ust nauczycielki Astronomii).
+4. Kto pamięta Ansela: Szara Dama (zarys) czy Gruby Mnich (graf).
+5. Rok szkolny śmierci Ansela: 1950/51 czy 1951/52 (karty liczą różnie).
+- Wersje robocze do potwierdzenia: Wymark z Ravenclawu (ok. 35 lat), córka Crake'a Nora, zegarek Cassiana po dziadku, Wren odszedł z biura aurorów po oskarżeniu niewinnego, Barnaby Finch z Gryffindoru.
+- Zarys mówi „Dumbledore reaguje dopiero w Sesji 2”, graf pozwala graczom pójść do niego w Sesji 1 (nie działa, prosi o obserwację). Do ujednolicenia słów po decyzjach.
 
 ## Zadania do wykonania
 - Brak pilnych. Tworzenie postaci uproszczone (szybka ścieżka) 2026-11-20.
@@ -81,7 +91,8 @@
 | Zasady (Walker) | 15 plików + ocena mechanik fabularnych, recenzja |
 | Zarys kampanii 1969 | `04_kampania/zarys-kampanii.md`, recenzja (zatwierdzony przez MG) |
 | Instrukcja tworzenia postaci | szkic (pełna i szybka ścieżka) |
-| Scenariusz 1: graf | szkic (`przeglad.md` + `graf-scen.md`), decyzje MG wprowadzone, czeka na odpowiedzi 1–4 i karty obiektów |
+| Scenariusz 1: graf | szkic (`przeglad.md` + `graf-scen.md`), decyzje MG wprowadzone, czeka na karty miejsc i przedmiotów (B2b) |
+| Scenariusz 1: NPC | 19 szkiców w `03_postacie/npc/`, czeka na 5 odpowiedzi MG |
 | Scenariusz 1: sceny | 0 / ? |
 
 ## Stan gry (wypełnia kronikarz po rozegranych sesjach)
