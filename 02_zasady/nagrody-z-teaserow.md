@@ -40,7 +40,7 @@ Przed kampanią MG przeprowadził dla graczy dwa teasery. Dały one dwie nagrody
 **Jak działa (decyzja MG 2026-11-20: prawdziwe cofnięcie czasu, tylko dla rzucającego):**
 
 1. **Kiedy.** Po własnym nieudanym rzucie postaci, która zna zaklęcie: wynik `porazka` albo `porazka-kompromitujaca` (s. 3), przegrana w teście przeciwnym (s. 4), nieudany unik albo tarcza (s. 34), rana z rzutu odporności (s. 35), a także nieudany test grupowy, w którym to ona rzucała jako prowadząca (s. 4). Gracz mówi przy stole „Retrorsum”.
-2. **Do jakiej chwili.** MG wskazuje chwilę, która przesądziła o porażce: zwykle początek akcji albo rundy (s. 33), w której padł nieudany rzut, czasem kilka minut wcześniej (np. moment, w którym postać weszła w zasadzkę). Propozycja granicy: nie wcześniej niż początek bieżącej sceny.
+2. **Do jakiej chwili** (decyzja MG 2026-11-20). Gracz mówi, jak daleko chce się cofnąć. MG potwierdza, czy to możliwe. Jeśli nie, MG sam wybiera chwilę, najlepiej tuż przed błędem, którego gracz potem żałował. Gracz odzyskuje wszystkie punkty i akcje wydane w cofniętym odcinku, a następny rzut ma pewny sukces z zaklęcia.
 3. **Co się cofa.** Wszystko i wszyscy. Nowa linia czasu staje się obecną, a stara przestaje istnieć, jak odgałęzienie, którego nikt już nie przejdzie. Wszystkie rzuty z cofniętego odcinka przepadają, także udane rzuty innych postaci i NPC: sytuacja rozgrywa się od nowa, a inni rzucają jeszcze raz, jeśli w nowej linii znów czegoś próbują. Rany, stany i Story Points wydane w cofniętym odcinku (s. 4, 35) wracają do stanu sprzed wskazanej chwili. Samo RETRORSUM się nie cofa: liczy się jako użyte.
 4. **Kto pamięta.** Tylko rzucający. Inne postacie i NPC niczego nie odczuwają i nie wiedzą, co się wydarzy. Rzucający może z tej wiedzy korzystać: działać inaczej, ostrzec drużynę słowami („Nie wchodźcie tam!”). Czy inni mu uwierzą, zależy od nich (rozmowa, ewentualnie zwykły test Persuasion, s. 21–23); zaklęcie nie daje dowodu.
 5. **Gwarantowany sukces dotyczy następnego rzutu rzucającego w nowej linii**, niezależnie od tego, czy powtarza tę samą akcję, czy robi coś innego. W Walkerze to poziom `sukces` (Success, s. 3). Gracz rzuca: wynik niższy niż trudność liczy się jako `sukces`, wynik równy albo wyższy zostaje taki, jaki wypadł (może dać `sukces-imponujacy` albo `sukces-niewiarygodny`).
@@ -127,8 +127,6 @@ Scena 09, ucieczka przed pełnymi zabezpieczeniami księgi. Postać gracza 1 pro
 
 ## Uwagi
 
-**Pytanie do MG (otwarte):** *Trzecie i dalsze użycie w tej samej sesji?* (a) możliwe, każde przesuwa klątwę o etap (wariant roboczy); (b) niemożliwe, różdżka odmawia; (c) możliwe, a „ten drugi” za każdym razem dostaje dodatkową radę na sesję. Rekomendacja: (a).
-
-**Propozycje do potwierdzenia:** granica cofnięcia do początku bieżącej sceny; zwrot Story Points wydanych w cofniętym odcinku.
+**Trzecie użycie w tej samej sesji** (decyzja MG 2026-11-20). Podwójnie napiętnowana różdżka nie wytrzymuje: zostaje zniszczona, a dłoń i przedramię rzucającego pokrywają blizny, które nigdy nie znikną. Zaklęcie nie działa: nic się nie cofa i nie ma pewnego sukcesu. Postać potrzebuje nowej różdżki (np. wyprawa do Ollivandera), a do tego czasu rzuca zaklęcia cudzą różdżką według zasad Walkera o obcej różdżce (Wand Loyalty, zob. słownik). Tekst do odczytania na głos MG pisze w Fazie 3.
 
 **Niejasności i braki podręcznika:** brak w podręczniku zaklęć cofających czas, klątw trwałych innych niż stany umysłu (s. 36) i nagród spoza Story Points (s. 4). Wszystko powyżej to zasady nasze. Po akceptacji MG obowiązujące elementy trafią do `02_zasady/zasady-domowe.md`.

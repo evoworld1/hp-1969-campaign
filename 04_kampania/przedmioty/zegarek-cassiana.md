@@ -108,7 +108,7 @@ test:
 - **Część skradzionych godzin wraca do ofiar.** Przykład do pokazania przy stole: [[npc.maisie-lock]] nagle pamięta swój kwadrans i zaczyna płakać ze śmiechu na korytarzu; drugoroczniak, który „przespał lekcję”, przypomina sobie, co na niej było. Wracają godziny innych ofiar, nie wszystkie.
 - **Zegar kradzieży staje** na stałe (`flaga.zegarek-cassiana` = `zniszczony`).
 
-Wariant roboczy (pytanie do MG, graf „Otwarte po fazie B2b”, pytanie 2): **godzina drużyny nie wraca**, bo jest wpleciona w Ansela jako jego kotwica. Postacie nie odzyskują wspomnień ze straconej godziny. Gdyby MG wybrał inaczej, Ansel słabnie przy zniszczeniu mocniej.
+Decyzja MG 2026-11-20: **godzina drużyny nie wraca**, bo jest wpleciona w Ansela jako jego kotwica. Postacie nie odzyskują wspomnień ze straconej godziny. Gdyby MG wybrał inaczej, Ansel słabnie przy zniszczeniu mocniej.
 
 Cassian przy zniszczeniu: najpierw ulga (koniec), zaraz potem strach (ojciec, dziadek). Jeśli to postacie zniszczyły zegarek bez jego zgody, zapamięta to na długo.
 

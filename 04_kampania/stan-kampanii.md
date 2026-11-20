@@ -84,14 +84,15 @@
 | 2026-11-20 | **RETRORSUM to prawdziwe cofnięcie czasu:** rzucający cofa wszystko i wszystkich, nowa linia czasu zastępuje starą (rozgałęzienie jak w teorii wieloświata); pamięta tylko rzucający, inni niczego nie odczuwają; zaklęcie działa tylko na użytkownika. | MG |
 | 2026-11-20 | Oko niewykorzystane w Sesji 1 przechodzi na Sesję 2. Próba wyrwania kartki z księgi zostawia w dłoni róg z jednym znakiem (przyda się przy zagadkach w Sesji 2). Zwrot karty księdze: w Sesji 1 nic (łuna jaśnieje), w Sesji 2 odsłania pierwszą zagadkę. | MG |
 | 2026-11-20 | Przyjęte drobiazgi: Ansel rozpoznany z teasera ma wrażenie, że zna graczy; rysunek, „XIII” i dopisek na karcie to marginalia Marrow; Ansel bywał w pracowni w 1951. | MG |
+| 2026-11-20 | Zniszczenie zegarka Cassiana nie oddaje godziny drużyny (jest kotwicą Ansela); wracają tylko godziny innych ofiar. | MG |
+| 2026-11-20 | **Trzecie RETRORSUM w sesji** niszczy podwójnie napiętnowaną różdżkę i zostawia trwałe blizny na dłoni i przedramieniu; zaklęcie wtedy nie działa. | MG |
+| 2026-11-20 | **Granica cofnięcia RETRORSUM:** gracz mówi, jak daleko się cofa; MG potwierdza albo sam wybiera chwilę (najlepiej tuż przed błędem); gracz odzyskuje wszystkie punkty i akcje i dostaje pewny sukces. | MG |
 
 ## Otwarte pytania
-Pytania 1–8 z B2b rozstrzygnięte 2026-11-20 (zob. rejestr decyzji). Zostały:
-1. Czy zniszczenie zegarka Cassiana oddaje też godzinę drużyny (roboczo: nie, bo jest wpleciona w Ansela; wracają tylko godziny innych ofiar).
-2. Trzecie i dalsze użycie RETRORSUM w jednej sesji (roboczo: możliwe, każde przesuwa klątwę o etap).
-3. Granice RETRORSUM proponowane przez mechanika: cofnięcie najdalej do początku sceny; Story Points wydane w cofniętym odcinku wracają.
-4. Tytuł książki z przepustki Flitwicka: ten sam tom, o który pytał Cassian?
+1. Tytuł książki z przepustki Flitwicka: ten sam tom, o który pytał Cassian? (MG zapozna się najpierw ze streszczeniem grafu.)
+2. Akceptacja grafu Scenariusza 1 (zamyka Fazę 2). Streszczenie dla MG: `99_robocze/streszczenie-grafu-s1.md`.
 - Kto ma RETRORSUM: MG rozstrzyga w dniu sesji. Autor księgi i jej zagadki: Sesja 2 i później.
+- Uwaga Reżysera na przyszłość: przy każdej prośbie o akceptację podawać MG link do krótkiego streszczenia albo pliku.
 
 ## Zadania do wykonania
 - Brak pilnych. Tworzenie postaci uproszczone (szybka ścieżka) 2026-11-20.
