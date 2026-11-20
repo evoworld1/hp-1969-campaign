@@ -534,7 +534,224 @@ dialog:
 
 ## Testy
 
-TODO (mechanik): `s1.scena.08.test.pierwsze-spojrzenie`, `s1.scena.08.test.czytanie-cassiana`, `s1.scena.08.test.pojedynek`, `s1.scena.08.test.kradziez-zegarka` (liczby w karcie zegarka; modyfikator za `flaga.cassian-czujny`).
+*Jak czytać: wszystkie liczby liczone dla czterech archetypów z instrukcji tworzenia postaci (A pojedynkowicz, B badacz, C kombinator, D opiekun). Przy rzutach przeciwnych (Opposed Test, test przeciwny, Walker s. 4) obie strony rzucają, a wyższy wynik wygrywa; remis rozstrzyga Narrator. Atak w pojedynku trafia, gdy rzut jest równy celowi albo wyższy (s. 165). W tej scenie postacie nie mają stanu Drained (wyczerpanie umysłu, +3 do trudności) z sceny 03, bo pierwszy posiłek go zdjął; wyjątek to wariant poniedziałkowy (zob. modyfikatory).*
+
+### Pojedynek z Cassianem: zasady sceny i liczby
+
+Pojedynek z Cassianem opiera się na zasadach Walkera (Duelling, s. 33, 41, 165) i na zasadach z sceny 04. To jest **pierwszy prawdziwy pojedynek**, więc wszystko jest tu uproszczone do jednego zdania na rundę. Zasady poniżej to zasady domowe sceny (zob. „Założenia robocze” w raporcie).
+
+- **Jedna wymiana na rundę.** W każdej rundzie postać i Cassian atakują po razie (uproszczenie względem dwóch akcji Walkera, tak samo jak w pokazie u Wrena). Obrona to darmowy unik (1D10 + Speed + Wits, s. 33). Tylko zaklęcia opanowane trafiają (ZD-06 a). Formalny pojedynek używa łagodnych uroków bez ran: Flipendo, Trip Jinx, Rictusempra, Expelliarmus, Impedimenta. Kółek zdrowia nie ma, chyba że wynik 3× celu (zob. ZD-09, tabela w scenie 04): Shaken (1 kółko ciała, +1 do trudności).
+- **Kto wygrywa.** Postać wygrywa przy **2 trafieniach** albo gdy zegarek wypadnie Cassianowi. Cassian wygrywa przy **3 trafieniach**. Taka asymetria wyrównuje jego Skradzione Chwile (jak w pokazie u Wrena). Najwyżej **4 rundy**: po czwartej wygrywa ten, kto ma więcej trafień; przy równej liczbie zegarek wypada Cassianowi (tekst 3) i wygrywa postać.
+- **Skradzione Chwile w pojedynku (zdolność Cassiana).** Pula **2 Chwile na całą walkę**, wydawane w rundach 1 i 2 (po jednej, tylko póki zegarek jest przy nim). W rundzie z Chwilą Cassian atakuje **dwa razy, zanim postać zaatakuje raz**. Przed każdą Chwilą: dwa palce w kieszonce i wzdrygnięcie (sygnał). Po wypadnięciu zegarka Chwil nie ma, a Cassian jest zwyczajnie niewyspany: **-2 do jego rzutów** do końca sceny.
+- **Nazwany sygnał.** Postać, która zna sygnał (nazwała go na głos w 04 albo wygrała `pierwsze-spojrzenie`), (a) atakuje **przed** Chwilą Cassiana i (b) Cassian dostaje -2 do rzutu drugiego ataku z Chwili (wzdrygnięcie). Jeśli nikt nie nazwał sygnału wcześniej, ten pojedynek jest drugą szansą: po pierwszej Chwili obserwator rzuca `pierwsze-spojrzenie` ze zmniejszoną trudnością.
+- **Sekundant.** Sekundant nie walczy. Jeśli woła ostrzeżenie na głos (np. „Ręka na kieszonce!”), walcząca postać dostaje **+1 do uniku** (Working Together, s. 4; jeden sekundant, jeden bonus). Rosalind sekunduje Cassianowi tylko rytualnie: nie pomaga mu mechanicznie.
+- **Wygrana Cassiana (zabrana godzina).** Bez rzutu. Przegrany dostaje **stan Drained (+3 do trudności)** do pierwszego posiłku następnego dnia, czyli także na noc (sceny 09 i 12) i do śniadania. Zgodnie z decyzją MG z 2026-11-19 zabrane godziny kosztują Drained. Dodatkowo postać „przegapi coś małego i ważnego” (efekt fabularny w rozgałęzieniu `pojedynek-przegrany`). Po zabraniu godziny staje w drzwiach Wren (granica pojedynku, dialog `wren-dosyc`).
+- **Story Points.** Po nieudanym rzucie ataku albo uniku gracz może wydać 1 Story Point i dorzucić 1D10 (s. 4); jeden punkt na rzut. Za pierwszy pojedynek 1 Story Point, jeśli postać nie dostała go w scenie 04 (s. 4: ważne „pierwsze razy”). RETRORSUM po przegranej rundzie albo po zabranej godzinie: cofa do wskazanej chwili (najwyżej do początku pojedynku), następny rzut to pewne trafienie albo pewny unik ([[zasada.nagrody-z-teaserow]]).
+
+**Szanse (bez Story Points, bez Drained).** Cassian: atak 1D10 + 12 (Wits 6 + Duelling 5 + różdżka 1), unik 1D10 + 10 (Speed 4 + Wits 6).
+
+| Archetyp | Najlepszy atak postaci (rzut) | Trafia w Cassiana | Unik postaci | Cassian trafia | Wygrana pojedynku: sygnał nienazwany, bez / z sekundantem | Sygnał nazwany, bez / z sekundantem |
+|---|---|---|---|---|---|---|
+| A. Odważny pojedynkowicz | Flipendo +12 | 72% | +10 | 72% | 20% / 32% | 59% / 65% |
+| B. Bystry badacz | Expelliarmus +10 | 55% | +8 | 85% | 4% / 8% | 31% / 34% |
+| C. Zręczny kombinator | Expelliarmus +11 | 64% | +12 | 55% | 42% / 57% | 64% / 73% |
+| D. Empatyczny opiekun | Expelliarmus +7 | 28% | +7 | 90% | 0% / 1% | 8% / 8% |
+
+Szanse z symulacji całego pojedynku (Cassian używa obu Chwil). Wytrącenie zegarka (test `pojedynek-zegarek`) i Story Points podnoszą je dalej. **Rada dla MG:** powiedz graczom wprost, że pojedynek jest trudny, jeśli nie zauważyli sygnału, i że nazwanie sygnału zmienia go z „raczej nie” na „może”. Archetyp D prawie nie wygra na rzutach; jego drogą są sekundant, litość i targ. Gracz z D, który chce walczyć, dostaje to samo uczciwe ostrzeżenie.
+
+```yaml
+test:
+  id: s1.scena.08.test.pierwsze-spojrzenie
+  opis: "Postać patrzy na Cassiana i słucha: czy widzi, że szybkość i wypoczęta twarz biorą się z zegarka (dłoń na kieszonce, za szybkie tykanie, ciepłe srebro). Rzuca tylko gdy nikt wcześniej nie ustawił flaga.sygnal-cassiana-nazwany. Test standardowy (Standard Test, s. 3), rzuca każda postać osobno; kto nie zda, rzuca jeszcze raz po pierwszej Skradzionej Chwili w pojedynku, o ile do niego dojdzie (druga szansa). Wits to bystrość, Observation to spostrzegawczość. Szanse przy Wits + Observation 9-10 i trudności 12: A, C, D 80%, B 90%; w 1a (zegarek w jego dłoniach, tykanie słychać) trudność 9: praktycznie pewny sukces. Sukces tylko daje wiedzę: flagę ustawia dopiero powiedzenie na głos w grze (jak w 04), więc MG pyta: „Mówisz to komuś?”."
+  kto: kazdy
+  rzut: "1D10 + Wits + Observation"
+  trudnosc: "Tricky (12)"
+  modyfikatory:
+    - warunek: "Wejście 1a: Cassian nakręca zegarek w obu dłoniach, tykanie słychać od początku"
+      wartosc: "-3 do trudności"
+    - warunek: "Druga próba po pierwszej Skradzionej Chwili w pojedynku (dłoń na kieszonce, wzdrygnięcie, ruch za szybki dla oka)"
+      wartosc: "-3 do trudności"
+    - warunek: "Wejście 1c: zegarek tyka w kieszeni postaci, więc źródło jest oczywiste"
+      wartosc: "bez rzutu: sukces"
+    - warunek: "Gracz zapowiedział, że patrzy na ręce Cassiana (nie na twarz)"
+      wartosc: "+1 do rzutu"
+    - warunek: "Postać ma specjalizację Observation pasującą do sytuacji, np. Observation (Twarze) (s. 13)"
+      wartosc: "+1 do rzutu"
+    - warunek: "Wariant poniedziałkowy: postać nadal ma Drained po scenie 03 (przed pierwszym posiłkiem)"
+      wartosc: "+3 do trudności"
+  wyniki:
+    - wynik: porazka
+      efekt: "Postać widzi tylko, że Cassian jest nienaturalnie wypoczęty i szybki w ruchach. Przy pierwszej Chwili w pojedynku rzuca drugi raz. Bez pojedynku nadal ma drabinkę podpowiedzi: Cassian sam dotyka kieszonki przy słowie „zegarek”."
+      flagi_ustaw: []
+    - wynik: sukces
+      efekt: "Tekst z miejsca spotkania plus: dłoń idzie do kieszonki, zanim ruch Cassiana stanie się za szybki; z kieszonki ciepło i ciche, drobne tykanie. Postać rozumie, że szybkość przychodzi z zegarka. MG pyta, czy mówi to głośno; kto powie, ustawia flaga.sygnal-cassiana-nazwany (rozgałęzienie w scenie 04) i dostaje przewagę w pojedynku (zasady wyżej)."
+      flagi_ustaw: []
+```
+
+```yaml
+test:
+  id: s1.scena.08.test.czytanie-cassiana
+  opis: "Cassian wypowiada kwestię otwierającą dialogu cassian-sekret („Ja wiem o waszym, wy o moim. Czwarty rok, prawda?”). Postać próbuje poznać, czy naprawdę zna sekret, czy blefuje. Test przeciwny (Opposed Test, s. 4), jak u Wrena w scenie 04: postać rzuca 1D10 + Wits + Observation, Cassian 1D10 + Wits + Chicanery (Chicanery to podstęp, tu: kontrola twarzy i blef, s. 21; Wits 6 + Chicanery 5 = 1D10 + 11). Szanse postaci przy Wits + Observation 9: 30%, z nazwanym nawykiem 60%, przy Cassianie przyparty 50%; przy 10: 39%, z nawykiem 69%. MG ustalił zawczasu, czy Cassian zna sekret (odpowiedzi graczy na pytanie startowe 4), i mówi prawdę przy wygranej. Powiedz kwestię otwierającą tak samo w obu przypadkach."
+  kto: jeden
+  rzut: "1D10 + Wits + Observation"
+  trudnosc: "przeciwny: 1D10 + Wits + Chicanery (npc.cassian-vane, 1D10 + 11)"
+  modyfikatory:
+    - warunek: "Gracz nazwał na głos znak blefu i co z niego wynika: dłoń na kieszonce, gwizd urwany po dwóch nutach, uśmiech spóźniony względem oczu (tylko pierwszy raz)"
+      wartosc: "+3 do rzutu"
+    - warunek: "Cassian jest już przyparty (padły co najmniej dwa konkrety z dialogu cassian-oskarzony); trudniej mu panować nad twarzą"
+      wartosc: "+2 do rzutu"
+    - warunek: "Inna postać podpowiada zza pleców (Working Together, s. 4); najwyżej jedna"
+      wartosc: "+1 do rzutu"
+    - warunek: "Wariant poniedziałkowy: Cassian promienny po kradzieży, pewny siebie; postać nadal ma Drained"
+      wartosc: "+3 do trudności"
+  wyniki:
+    - wynik: przegrana
+      efekt: "Cassian brzmi tak samo spokojnie jak zawsze. Postać nie wie, czy blefuje. MG nie zdradza prawdy; kwestia wisi w powietrzu, a groźba donosu staje się ryzykiem."
+      flagi_ustaw: []
+    - wynik: wygrana
+      efekt: "MG mówi prawdę jednym zdaniem: Cassian zna sekret (podaje szczegół) albo blefuje (dłoń na kieszonce, gwizd). Przy blefie postać przejrzała go na oczach drużyny: Cassian jest przyparty (kwestia z dialogu cassian-sekret). Przy prawdziwej wiedzy postać wie, co ma do stracenia, i może wybrać spokojną drogę (targ, litość)."
+      flagi_ustaw: []
+    - wynik: remis
+      efekt: "Cassian przez chwilę nie odpowiada, a potem uśmiecha się za wolno. Rzućcie jeszcze raz, a przy drugim remisie wygrywa Cassian (zasada domowa, jak w przedmiot.zegarek-cassiana.test.kradziez)."
+      flagi_ustaw: []
+```
+
+```yaml
+test:
+  id: s1.scena.08.test.pojedynek
+  opis: "Pojedynek postaci z Cassianem (krok 4), atak postaci. Zasady sceny w części „Pojedynek z Cassianem” wyżej: jedna wymiana na rundę, postać wygrywa przy 2 trafieniach albo wypadnięciu zegarka, Cassian przy 3, najwyżej 4 rundy. Atak w pojedynku to 1D10 + Wits + Duelling (s. 41); jak w scenie 04 bierzemy wyższą z dwóch wartości: Duelling z premią różdżki za Duelling albo umiejętność zaklęcia (Charms dla Expelliarmusa, Rictusempry i Impedimenty; D.A.D.A. dla Flipendo i Trip Jinx), a inne premie różdżek się nie liczą. Tylko zaklęcia opanowane. Cel to unik Cassiana: 1D10 + Speed + Wits (Speed 4 + Wits 6 = 1D10 + 10). Atak trafia, gdy rzut jest równy celowi albo wyższy (s. 165). Wynik 2× i 3× celu daje efekt z tabeli ZD-09 (scena 04): np. przy Flipendo cel traci 3 albo 4 akcje, przy Expelliarmus różdżka leci do ręki rzucającego. Szanse trafienia: A 72% (Flipendo), B 55%, C 64%, D 28% (Expelliarmus); łączne szanse wygranej w tabeli wyżej. Story Point po chybieniu dorzuca 1D10 (s. 4); RETRORSUM daje pewne trafienie."
+  kto: jeden
+  rzut: "1D10 + Wits + Duelling albo umiejętność zaklęcia (wyższa)"
+  trudnosc: "przeciwny: unik 1D10 + Speed + Wits (npc.cassian-vane, 1D10 + 10)"
+  modyfikatory:
+    - warunek: "Zaklęcie nieopanowane (ZD-06 a: dodaje się aktualna trudność zaklęcia, s. 165); w praktyce nie trafia"
+      wartosc: "+12 do trudności"
+    - warunek: "Postać atakuje przed Chwilą Cassiana, bo zna sygnał (kolejność, nie premia do rzutu; zob. zasady wyżej)"
+      wartosc: "bez zmiany rzutu, zmienia kolejność"
+    - warunek: "Cassian po wypadnięciu zegarka: niewyspany, bez Chwil"
+      wartosc: "-2 do rzutu Cassiana"
+    - warunek: "Wariant poniedziałkowy: postać nadal ma Drained (kary atakującego dodają się do celu, s. 165)"
+      wartosc: "+3 do trudności"
+    - warunek: "Postać ma wcześniej odniesioną lekką ranę: Shaken (1 kółko ciała, s. 35)"
+      wartosc: "+1 do trudności"
+  wyniki:
+    - wynik: wygrana
+      efekt: "Trafienie dla postaci: Cassian traci równowagę, ląduje na macie albo różdżka wyskakuje mu z dłoni (odlatuje do rąk rzucającego przy Expelliarmus). Po drugim trafieniu postać wygrywa: Cassian dotrzymuje słowa (rozgałęzienie pojedynek-wygrany), Rosalind mówi „Dosyć, Cassian”. Przy wyniku 2× albo 3× celu dodaj efekt z tabeli ZD-09 (np. 3× Expelliarmus: Cassian odrzucony na 2-3 m i Shaken)."
+      flagi_ustaw: []
+    - wynik: przegrana
+      efekt: "Cassian schodzi z linii o pół kroku, jakby wiedział wcześniej, a urok rozbija się o manekin albo ścianę. Dokładnie jak w 04: bez ran, kilka osób to widzi."
+      flagi_ustaw: []
+```
+
+```yaml
+test:
+  id: s1.scena.08.test.pojedynek-unik
+  opis: "Atak Cassiana w pojedynku, obrona postaci. Cassian atakuje 1D10 + 12 (Wits 6 + Duelling 5 + różdżka 1) zaklęciem opanowanym: Flipendo, Trip Jinx, Expelliarmus albo Impedimenta (Impedimenta: cel traci dwie następne akcje, s. 53). W rundzie z Chwilą atakuje dwa razy, zanim postać zaatakuje raz; nazwany sygnał zmienia kolejność i daje -2 do jego drugiego ataku z Chwili. Postać robi unik: 1D10 + Speed + Wits (darmowy, s. 33), albo opanowane Protego (1D10 + Wits + Charms, traci za to swój najbliższy atak, ZD-07). Wynik uniku plus modyfikatory to cel; Cassian trafia przy rzucie równym albo wyższym. Szanse Cassiana (bez sekundanta, sygnał nieważny dla pojedynczego ataku): A 72%, B 85%, C 55%, D 90%. Sekundant, który woła ostrzeżenie, daje +1 do uniku. Story Point po nieudanym uniku dorzuca 1D10 (s. 4). Trzy trafienia Cassiana kończą pojedynek: zabrana godzina (tekst 4)."
+  kto: jeden
+  rzut: "1D10 + Speed + Wits"
+  trudnosc: "przeciwny: atak 1D10 + Wits + Duelling (npc.cassian-vane, 1D10 + 12)"
+  modyfikatory:
+    - warunek: "Sekundant woła ostrzeżenie na głos (Working Together, s. 4)"
+      wartosc: "+1 do rzutu"
+    - warunek: "Cassian po nazwanym sygnale wydaje Chwilę: drugi atak z Chwili (zasady wyżej)"
+      wartosc: "-2 do rzutu Cassiana"
+    - warunek: "Cassian po wypadnięciu zegarka: niewyspany, bez Chwil"
+      wartosc: "-2 do rzutu Cassiana"
+    - warunek: "Wariant poniedziałkowy: postać nadal ma Drained (obrońca ranny bardziej, cel spada, s. 165)"
+      wartosc: "-3 do rzutu"
+    - warunek: "Postać zamiast uniku stawia opanowaną tarczę Protego (rzut 1D10 + Wits + Charms) i traci najbliższy atak"
+      wartosc: "+0 do rzutu"
+  wyniki:
+    - wynik: wygrana
+      efekt: "Unik się udaje: urok przelatuje obok. Cassian nie zalicza trafienia."
+      flagi_ustaw: []
+    - wynik: przegrana
+      efekt: "Trafienie dla Cassiana: postać ląduje na macie, traci dwie akcje (Flipendo, Impedimenta) albo się przewraca (Trip Jinx). Bez ran. Po trzecim trafieniu Cassian wygrywa i zabiera godzinę: tekst 4, stan Drained (+3 do trudności) do pierwszego posiłku następnego dnia, rozgałęzienie pojedynek-przegrany."
+      flagi_ustaw: []
+```
+
+```yaml
+test:
+  id: s1.scena.08.test.pojedynek-zegarek
+  opis: "Postać celuje w zegarek Cassiana w pojedynku. Zasady jak w scenie 04 (przedmiot.zegarek-cassiana, „Celowanie w kieszonkę w walce”). (1) Expelliarmus po uprzedzeniu: postać zna sygnał i w chwili dotyku kieszonki działa przed Chwilą Cassiana; zegarek jest w jego palcach, więc bez kary (Expelliarmus wytrąca to, co przeciwnik trzyma, s. 51). (2) Accio na kieszonkę: zaklęcie celowane w mały, osłonięty cel (osłona około 40%, +2 za każde 20%, s. 165). Rzut jak w teście pojedynek. Szanse przy opanowanym Expelliarmusie po uprzedzeniu: A 55%, B 55%, C 64%, D 28%; Accio w ciemno: A 21%, B 21%, C 28%, D 6%. Wytrącony zegarek liczy się jako jedno trafienie, kończy Chwile Cassiana i daje mu -2 do rzutów do końca sceny (tekst 3). Jeśli postać wygrała pojedynek, zegarek jest jej; jeśli wygrał Cassian, podnosi go i chowa."
+  kto: jeden
+  rzut: "1D10 + Wits + Duelling albo Charms (wyższa)"
+  trudnosc: "przeciwny: unik 1D10 + Speed + Wits (npc.cassian-vane, 1D10 + 10)"
+  modyfikatory:
+    - warunek: "Accio na zegarek w zapiętej kieszonce (bez uprzedzenia)"
+      wartosc: "+4 do trudności"
+    - warunek: "Postać, którą Cassian zna z wcześniejszej próby zabrania zegarka (flaga.cassian-czujny); pilnuje kieszonki dłonią"
+      wartosc: "+2 do trudności"
+    - warunek: "Wariant poniedziałkowy: postać nadal ma Drained"
+      wartosc: "+3 do trudności"
+  wyniki:
+    - wynik: wygrana
+      efekt: "Zegarek wylatuje z kieszonki albo palców Cassiana (tekst 3): Chwile się kończą, Cassian jest wolniejszy (-2) i patrzy na zegarek, nie na postacie. Liczy się jako trafienie postaci. Postać wygrywa pojedynek przy drugim trafieniu albo gdy zegarek zostanie przy niej: zegarek u graczy, zegar kradzieży staje (rozgałęzienie pojedynek-wygrany)."
+      flagi_ustaw: [flaga.zegarek-cassiana]
+    - wynik: przegrana
+      efekt: "Zaklęcie mija kieszonkę o włos. Cassian przyciska dłoń do kamizelki: „W różdżkę się celuje”. Chwile pozostają. Postać może próbować jeszcze raz w następnej rundzie."
+      flagi_ustaw: [flaga.cassian-czujny]
+```
+
+```yaml
+test:
+  id: s1.scena.08.test.kradziez-zegarka
+  opis: "Postać próbuje niepostrzeżenie wyjąć zegarek Cassianowi z kieszonki, z dłoni albo spod poduszki, podczas rozmowy (krok 5), gdy inna postać go zagaduje. Test przeciwny (Opposed Test, s. 4); liczby z karty przedmiot.zegarek-cassiana.test.kradziez, tu pod scenę 08. Postać rzuca 1D10 + Speed + Concealment (Speed to szybkość, Concealment to ukrywanie, obejmuje niepostrzeżone chowanie drobnych rzeczy w dłoni, s. 21), Cassian 1D10 + Wits + Observation (Observation to spostrzegawczość, razem 1D10 + 10). Wyższy wynik wygrywa; remis: rzut jeszcze raz, przy drugim remisie przegrywa postać (zasada domowa karty). Obowiązuje od wieczoru po scenie 04 (wcześniej próba zawsze się nie udawała). Szanse w obecnym układzie: C (Speed 6 + Concealment 4 = +10) 50%, z dwiema pomagającymi 69%; A (Speed 5, Concealment 0 = +5) 11%, z dwiema pomagającymi 22%; B i D (+3) około 3%, z pomocą 11%. Kto nie ma Concealment, kradnie na desperację: lepsza jest dla niego litość albo targ. Z flaga.cassian-czujny szanse C spadają do 30% (z pomocą 50%), A do 3% (z pomocą 11%)."
+  kto: jeden
+  rzut: "1D10 + Speed + Concealment"
+  trudnosc: "przeciwny: 1D10 + Wits + Observation (npc.cassian-vane, 1D10 + 10)"
+  modyfikatory:
+    - warunek: "Inna postać odwraca uwagę przytomnego Cassiana (zagaduje, upuszcza książki); najwyżej dwie (Working Together, s. 4)"
+      wartosc: "+1 do rzutu"
+    - warunek: "Kradnie postać, która już próbowała zabrać zegarek albo celowała w niego różdżką (flaga.cassian-czujny)"
+      wartosc: "+2 do rzutu Cassiana"
+    - warunek: "Cassian jest przyparty: ręka na kieszonce, gwizd, pilnuje każdej dłoni"
+      wartosc: "+2 do rzutu Cassiana"
+    - warunek: "Cassian śpi w dormitorium, zegarek pod poduszką (wariant nocny, zasada domowa z karty zegarka)"
+      wartosc: "-4 do rzutu Cassiana"
+    - warunek: "Cassian drzemie przy kominku w pokoju wspólnym z zegarkiem w dłoni (zasada domowa z karty zegarka)"
+      wartosc: "-2 do rzutu Cassiana"
+    - warunek: "Cassian jest złamany (tekst 5, siedzi, patrzy na bandaż)"
+      wartosc: "bez testu: sam oddaje zegarek na prośbę (dialog cassian-litosc)"
+  wyniki:
+    - wynik: wygrana
+      efekt: "Zegarek jest u postaci. Zegar kradzieży staje. Cassian zauważa stratę po jednej wymianie zdań albo przy pożegnaniu i w następnej chwili stoi w progu (dialog cassian-oddajcie: rozbity, bez Chwil, prosi, targuje się, w końcu pęka)."
+      flagi_ustaw: [flaga.zegarek-cassiana]
+    - wynik: przegrana
+      efekt: "Cassian łapie rękę albo budzi się. Mówi spokojnie: „Rodzinna pamiątka. Nie chodzi.” Od tej chwili nosi zegarek nawet nocą i kolejnej kradzieży nie ma; zostają pojedynek, targ albo litość (wejście na jego warunkach, zob. cassian-wyzwanie)."
+      flagi_ustaw: [flaga.cassian-czujny]
+    - wynik: remis
+      efekt: "Cassian porusza się albo mruczy. Postać cofa rękę bez skutków albo rzuca jeszcze raz; przy drugim remisie przegrywa."
+      flagi_ustaw: []
+```
+
+```yaml
+test:
+  id: s1.scena.08.test.zniszczenie-zegarka
+  opis: "Postać niszczy zegarek (rozgałęzienie zniszczenie-zegarka, tekst 6). Liczby z karty przedmiot.zegarek-cassiana.test.zniszczenie. Zegarek ma wytrzymałość 15 (magia karty go wzmacnia; podręcznik podaje wytrzymałości tylko dla zaklęć wysadzających, s. 42: meble 10, mocne drzwi 20). Obrażenia porównuje się z wytrzymałością tak samo jak przy wysadzaniu. Reducto (4D + Focus + 20, s. 56), Confringo i Bombarda (6D + Focus + 30, s. 48-49) niszczą go zawsze, o ile zaklęcie się uda; Incendio go nie rusza (srebro), Diffindo przecina tylko łańcuszek. Zwykłe uderzenie (młotek, kamień, rzut o posadzkę): podręcznik nie podaje zasad (brak w podręczniku, s. 35 i 42), propozycja domowa karty: 2D + Vitality obrażeń. Jedna próba to jedna akcja (s. 33); poza walką można próbować do skutku. Skutki udanego zniszczenia: Ansel migocze, część skradzionych godzin wraca do ofiar (godzina drużyny nie wraca: kotwica Ansela), zegar kradzieży staje. Cassian: najpierw ulga, zaraz potem strach przed ojcem."
+  kto: jeden
+  rzut: "obrażenia: 2D + Vitality (uderzenie, zasada domowa) albo obrażenia zaklęcia wysadzającego"
+  trudnosc: "wytrzymałość 15"
+  modyfikatory:
+    - warunek: "Zegarek leży na kamieniu (np. po tekście 3), a postać uderza czymś ciężkim i twardym"
+      wartosc: "+2 do rzutu"
+    - warunek: "Cassian jest obok i próbuje przeszkodzić (zamiast tego może być test przeciwny albo walka)"
+      wartosc: "+3 do trudności"
+  wyniki:
+    - wynik: sukces
+      efekt: "Szkiełko pęka (tekst 6). Zegarek zniszczony: koniec Skradzionych Chwil, część godzin ofiar wraca (np. Maisie nagle pamięta swój kwadrans), Ansel migocze do końca sceny. Reparo składa obudowę, ale nie przywraca magii. Zakończenie „moc” przepada."
+      flagi_ustaw: [flaga.zegarek-cassiana, flaga.cassian-zdemaskowany]
+    - wynik: porazka
+      efekt: "Zegarek odskakuje, rysa na szkiełku się wydłuża, w środku tyka głośniej. Cassian czuje ukłucie w piersi i wie, że ktoś próbował. Można spróbować znowu."
+      flagi_ustaw: []
+```
+
+### Rady dla MG: testy w scenie
+
+- **Oko i RETRORSUM.** Oko przechodzi na Sesję 2 (decyzja MG 2026-11-20), więc w tej scenie nie zastępuje testów. RETRORSUM ratuje przegraną rundę albo zabraną godzinę; w teście kradzieży i w czytaniu Cassiana działa jak w [[zasada.nagrody-z-teaserow]] (wygrana w nowej linii). Użyte po zabraniu godziny cofa także Drained.
+- **Drained po przegranej.** Dotyczy jednej postaci i trwa do pierwszego posiłku (śniadania). Przypomnij o +3 do trudności przed testami nocnymi (09, 12). Jeśli stół woli lżej, MG może zmniejszyć stan do Dazed (+2), ale domyślnie obowiązuje Drained.
+- **Pojedynek nie jest bramką.** Przegrana kosztuje czas i komfort, a pracownia jest osiągalna drogami awaryjnymi; po przegranej powiedz to poza fikcją (zob. „Rady dla MG”).
+- **Nie rzucaj wszystkiego.** Rzucaj `pierwsze-spojrzenie`, gdy nikt nie nazwał sygnału; `czytanie-cassiana` tylko gdy gracze chcą sprawdzić blef; `kradziez-zegarka` tylko gdy ktoś naprawdę próbuje.
 
 ## Rozgałęzienia
 
