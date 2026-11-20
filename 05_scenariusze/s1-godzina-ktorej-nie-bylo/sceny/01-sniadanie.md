@@ -252,14 +252,210 @@ Plotka o „Czarnym Panu” i „panu Notcie” to jedyny moment polityki w tej 
 
 ## Dialogi
 
-<!-- Dla dialogisty. Oczekiwane bloki `dialog` (identyfikatory propozycje):
-- s1.scena.01.dialog.quill-powitanie: pierwszy dialog nauczający; warianty od flaga.s1-prolog-pokatna (krótszy).
-- s1.scena.01.dialog.quill-plotki: duch Puchona i „bajki” o Czarnym Panu; wariant od flaga.plotka-o-voldemorcie (z prologu: „słyszałeś już, co?”).
-- s1.scena.01.dialog.wren-grupa-trzecia: zaczepka przy każdym stole (jedna kwestia na postać).
-- s1.scena.01.dialog.maisie-kawalek: tylko gdy MG wybrał sygnał S2.
-- s1.scena.01.dialog.crake-drabina: wersja zwykła i wersja dla sukcesu imponującego; wyklucza się z flaga.crake-poznany.
-- s1.scena.01.dialog.filch-przegania: jedna kwestia, kolor.
-Ansel w tej scenie nie mówi. -->
+*Jak czytać bloki: każda kwestia zaczyna się etykietą, która mówi, kiedy jej użyć (otwarcie, reakcja na podejście graczy, coś nieprzewidzianego, co postać może zdradzić). MG nie musi mówić wszystkiego; wystarczy kwestia otwierająca i jedna reakcja. Nawias kwadratowy, np. [nazwisko], to miejsce na imię albo nazwisko postaci gracza. Kwestie można czytać dosłownie albo mówić własnymi słowami.*
+
+*Ansel w tej scenie nie mówi: istnieje tylko jako odbicie w szkle zegara (tekst 6).*
+
+### Tobias Quill: pierwsza rozmowa
+
+To rozmowa, na której gracze uczą się mówić w imieniu postaci. Tobias zadaje pytanie, **czeka** na odpowiedź i cieszy się z każdej, także z „nie wiem”. Każda jego kwestia kończy się pytaniem, żeby piłka wracała do gracza. Jeśli gracz opisuje zamiast mówić („mówię mu, że jestem zmęczony”), Tobias reaguje na to tak samo jak na kwestię wypowiedzianą. W wariancie skróconym (po prologu) MG używa tylko kwestii z dopiskiem „po prologu” i najwyżej jednej reakcji.
+
+```yaml
+dialog:
+  id: s1.scena.01.dialog.quill-powitanie
+  npc: npc.tobias-quill
+  wyzwalacz: "Zaraz po otwarciu i sowiej poczcie. Tobias siada obok postaci, której dom ma (przypisany przez MG przed sesją), i zagaduje pierwszy."
+  ton: "szybki, rozgadany, ciepły; pytania jedno za drugim, widelec jak batuta"
+  kwestie:
+    - "Otwarcie: „Przesuń się, przesuń, boczek stygnie. Szósty rok, co? No pewnie, że szósty, widziałem cię na SUM-ach, gryzłeś pióro. Jak wakacje? Tylko nie mów jak do mamy, mów jak było.”"
+    - "Otwarcie, po prologu: „Trzy tygodnie i już kleks na nowej książce? Szacunek. Słyszałeś najnowsze?”"
+    - "Gdy gracz odpowiada chętnie albo uprzejmie: „Nie, serio? To jest dobre. Muszę to zapamiętać. A sowa? Coś ci dziś przyniosła, czy też dostajesz tylko rachunki?”"
+    - "Gdy gracz mówi „nie wiem” albo odpowiada półsłówkiem: „Nie wiesz? Świetnie, ja też nic nie wiem przed dziewiątą. Stawiam knuta, że do obiadu się obudzisz.”"
+    - "Gdy gracz milczy (MG odczekuje kilka sekund, potem): „Dobra, rozumiem, poniedziałek. To ja pogadam za nas dwoje. Kiwnij, jeśli żyjesz.”"
+    - "Gdy gracz go zaczepia albo każe mu się odczepić: „Ała. Dobra, dobra, już mnie nie ma.” (odwraca się do sąsiada i gada dalej tak głośno, że plotka i tak dociera)"
+    - "Gdy gracz kłamie albo zmyśla coś o sobie: „Serio? Smok w ogródku? Nie wierzę. Znaczy wierzę. Mogę to komuś powiedzieć?” (kłamstwo wróci do postaci jako przekręcona plotka)"
+    - "Gdy gracz pyta o notes za uchem albo w kieszeni: „A, to? Same głupoty. Kto kiedy przysnął, kto komu wisi knuta.” (chowa notes; więcej w tej scenie nie pokazuje)"
+    - "Gdy gracz grozi: (blednie) „Spokojnie, spokojnie, ja tylko jem. Patrz, jem.” (od tej pory omija postać szerokim łukiem)"
+    - "Nieprzewidziane (zaklęcie przy stole, wstanie na ławkę, dziwny pomysł): „Ha! Wiedziałem, że ten rok będzie lepszy. Zrób to jeszcze raz, ja przyjmuję zakłady.”"
+    - "Może zdradzić bez warunku: plotki i zakład o ducha Puchona (blok quill-plotki)."
+    - "Może zdradzić tylko przy prawdziwym zainteresowaniu notesem: że zapisuje, kto „zasnął z otwartymi oczami”. Listy, dat ani godzin w tej scenie nie pokazuje."
+  wariant_od: [flaga.s1-prolog-pokatna]
+```
+
+### Rosalind Teague: szept o Czarnym Panu
+
+Ta kwestia idzie **zaraz po tekście 5**. Postacie słyszą ją z daleka, przez gwar, więc MG mówi cicho i urywa. Jeśli żadna postać nie siedzi blisko stołu Slytherinu, tę samą treść przynosi Tobias (blok quill-plotki). Jeśli postacie słyszały plotkę już w prologu, wystarczy krótki wariant.
+
+```yaml
+dialog:
+  id: s1.scena.01.dialog.rosalind-szept
+  npc: npc.rosalind-teague
+  wyzwalacz: "Zaraz po tekście 5. Rosalind szepcze przy końcu stołu Slytherinu do starszych Ślizgonów; postać z dobrym słuchem albo siedząca blisko słyszy strzępy."
+  ton: "cichy, chłodny, z ironią; pauza na końcu zdania"
+  kwestie:
+    - "Szept (pełny): „Mówię tylko, co słyszałam. Czarny Pan zbiera ludzi, a oni każą się nazywać śmierciożercami. Pan Nott był u ojca w wakacje. Siedzieli do rana.”"
+    - "Szept, gdy przy stole jest zasłona na tematy czystości krwi (jedno zdanie, bez nazwisk): „Ktoś, kogo nazywają Czarnym Panem, zbiera zwolenników. Więcej nie powiem przy owsiance.”"
+    - "Szept, gdy postacie znają plotkę z prologu: „…znowu ten Czarny Pan. Mówię tylko, co słyszałam.”"
+    - "Gdy postać podchodzi uprzejmie albo z ciekawością: „Kochanie, to rozmowa przy stole Slytherinu. Ale miło, że słuchasz.”"
+    - "Gdy postać naciska albo zaczepia: „Nie twoja sprawa. Ale skoro już stoisz, podaj sól i wracaj do swoich.”"
+    - "Gdy postać pyta o Cassiana: (zerka na niego) „Cassian jest zmęczony. Wszyscy jesteśmy. Zajmij się swoją grupą.”"
+    - "Gdy postać kłamie, żeby wyciągnąć więcej (np. „mój ojciec też zna Notta”): „Naprawdę? To czemu pytasz mnie, a nie jego?” (uśmiecha się; kłamstwa nie zapomni)"
+    - "Gdy przy stole jest zasłona i postacie podchodzą: Rosalind milknie, obraca spinkę w palcach i patrzy, aż odejdą."
+    - "Nieprzewidziane (np. postać siada przy stole Slytherinu bez zaproszenia): „Odważnie. Albo głupio. Zobaczymy na macie u Wrena, które z dwóch.”"
+    - "Nie zdradza w tej scenie nic więcej: ani czego dotyczyły rozmowy u ojca, ani niczego o Cassianie. Ta wiedza czeka na zaufanie w późniejszych scenach."
+  wariant_od: [flaga.plotka-o-voldemorcie]
+```
+
+### Tobias Quill: plotki przy stole
+
+Tobias zmienia temat z polityki na ducha, bo tak mu łatwiej. Jeśli postacie nie słyszały szeptu Rosalind, Tobias przekazuje go własnymi słowami i od razu zbywa. Zdanie z imieniem „Voldemort” mówi tylko Tobias, bo jako jedyny przy stole nie boi się go wypowiedzieć (a przynajmniej tak udaje).
+
+```yaml
+dialog:
+  id: s1.scena.01.dialog.quill-plotki
+  npc: npc.tobias-quill
+  wyzwalacz: "Po szepcie od stołu Slytherinu (tekst 5 i blok rosalind-szept) albo gdy postacie pytają Tobiasa o nowinki; przy sygnale S3 po przelocie Grubego Mnicha."
+  ton: "konspiracyjny szept, który słyszy pół stołu; przy polityce nagle za szybki i za wesoły"
+  kwestie:
+    - "Duch Puchona: „Nie, posłuchajcie, to jest dobre. Pierwszoroczniaki widziały na schodach chłopaka w żółtym krawacie, zawołały go, a on się rozpłynął. Stawiam knuta, że do piątku ktoś z nas go zobaczy. Wchodzisz?”"
+    - "Duch Puchona, gdy Gruby Mnich właśnie przepłynął obrażony: „Widzieliście jego minę? Obraził się, że ktoś mu podbiera robotę. Dwa knuty, że to Irytek w przebraniu.”"
+    - "Po szepcie Rosalind: „Czarny Pan, śmierciożercy… Bajki. Ślizgoni lubią się straszyć przy owsiance. Podaj dżem.”"
+    - "Gdy postacie szeptu nie słyszały: „Wiecie, co gadają u Ślizgonów? Że jakiś Voldemort, czy jak mu tam, zbiera ludzi i każe ich nazywać śmierciożercami. A pan Nott jeździ w wakacje po domach. Bajki. Podaj dżem.”"
+    - "Gdy postacie szeptu nie słyszały, a przy stole jest zasłona: „U Ślizgonów znowu gadają o jakimś Czarnym Panu. Bajki. Podaj dżem.”"
+    - "Gdy postacie znają plotkę z prologu: „Słyszeliście już, co? No to wiecie. Bajki. Wróćmy do ducha.”"
+    - "O grupie trzeciej, po przejściu Wrena: „Grupa trzecia? Współczuję. Vane od dwóch tygodni nie przegrał niczego. Niczego!”"
+    - "Gdy postać drąży politykę (kto to, czego chcą, kto był u kogo): „Nie wiem i nie chcę wiedzieć. Serio. Duch jest ciekawszy.” (macha widelcem, zmienia temat)"
+    - "Gdy postać życzliwie zauważy, że Tobias się boi (tylko bez zasłony): (cisza, odkłada widelec) „…Może trochę. Nie mów nikomu, dobra? Zepsułbyś mi reputację.”"
+    - "Gdy postać złośliwie wytknie mu strach: „Śmieszne. Bardzo śmieszne.” (przesiada się dalej i do końca śniadania nie zagaduje)"
+    - "Gdy ktoś wspomni, że ktoś „zasnął z otwartymi oczami” albo „zgubił kawałek dnia”: „Czekaj, kto? Kiedy?” (wyciąga notes i zapisuje, nie przestając gadać)"
+    - "Nieprzewidziane (np. postać przyjmuje zakład i stawia od razu galeona): „Galeona?! Dobra, zapisuję. Nie wycofasz się, mam świadków.”"
+    - "Może zdradzić bez warunku: plotkę o duchu Puchona i plotkę o Czarnym Panu (bez szczegółów przy zasłonie)."
+  wariant_od: [flaga.plotka-o-voldemorcie, flaga.plotka-duch-puchona]
+```
+
+### Profesor Wren zbiera grupę trzecią
+
+Kwestie idą **zaraz po tekście 3** („Zatrzymuje się przy pierwszym z was”). Wren podchodzi do każdej postaci przy jej stole domu, po kolei. Pierwsza postać słyszy pełną kwestię, kolejne krótszą, a ostatnia dostaje polecenie, żeby się rozejrzała, co zmusza postacie, żeby zobaczyły się nawzajem przez salę. MG mówi wolno, nisko, może oprzeć rękę na stole. Po ostatniej postaci MG czyta resztę tekstu 3 (prychnięcie od stołu Slytherinu).
+
+```yaml
+dialog:
+  id: s1.scena.01.dialog.wren-grupa-trzecia
+  npc: npc.thaddeus-wren
+  wyzwalacz: "Tekst 3: Wren idzie środkiem Wielkiej Sali i zatrzymuje się przy każdej postaci po kolei. Stały w obu wariantach sceny."
+  ton: "wolny, cichy, krótko jak meldunek; zero uśmiechu, długie pauzy"
+  kwestie:
+    - "Pierwsza postać: „Panie (albo Panno) [nazwisko]. Grupa trzecia: dziś dziesięć minut przed lekcją pod salą, rozstawiacie stanowisko. Grupa pana Vane'a już się chwaliła, że was rozniesie.”"
+    - "Każda następna postać: „Panno (albo Panie) [nazwisko]. Grupa trzecia, dziesięć minut przed lekcją. Resztę wie [pan albo panna i nazwisko poprzedniej postaci].”"
+    - "Ostatnia postać: „Panie (albo Panno) [nazwisko]. To samo. Proszę się rozejrzeć po sali: to jest pańska grupa.” (MG pyta gracza: kogo widzisz?)"
+    - "Gdy postać odpowiada uprzejmie („Będziemy, panie profesorze”): (stuka dwa razy kostką palca w blat) „Dobrze.”"
+    - "Gdy postać milczy albo tylko kiwa głową: „Kiwnięcie wystarczy.” (idzie dalej)"
+    - "Gdy postać pyta, czemu grupy są mieszane, albo krzywi się na kogoś z innego domu: „Wojna nie pyta o dom.”"
+    - "Gdy postać dopytuje „jaka wojna?”: „Jeszcze żadna. Dlatego ćwiczymy teraz.”"
+    - "Gdy postać zaczepia albo się popisuje („Vane może sobie gadać”): „Proszę to powiedzieć na macie. Tam słucham.”"
+    - "Gdy postać prosi o zmianę grupy albo próbuje się wykręcić: „Nie.” (pauza) „Przeciwnik też nie przyjmuje podań.”"
+    - "Gdy postać kłamie, żeby nie przyjść (choroba, inna lekcja): (patrzy długo) „Wrócicie do mnie, gdy będziecie gotowi powiedzieć prawdę. A na razie dziesięć minut przed lekcją.”"
+    - "Gdy postać pyta o Cassiana albo o jego grupę: „O grupie pana Vane'a porozmawiamy na macie. Nie przy owsiance.”"
+    - "Gdy postać mówi o spóźnionym zegarze albo o czymś dziwnym: „Jeszcze nie wiem. Proszę mi powiedzieć, jeśli to się powtórzy.”"
+    - "Nieprzewidziane (różdżka wyciągnięta przy stole, żart z jego dłoni, salutowanie): „Różdżka na stół. Pokaże pan, co umie, na mojej lekcji.” Przy żarcie z palców: „Lewa ręka. Prawą dalej trafiam.”"
+    - "Może zdradzić: tylko godzinę i miejsce zbiórki oraz to, że grupy trwają cały rok. Konkretu o ocenach Cassiana tu nie mówi (zostaje na późniejsze sceny, flaga.wren-podejrzewa)."
+  wariant_od: []
+```
+
+### Maisie Lock: „tego kawałka nie ma” (tylko przy sygnale S2)
+
+Kwestie idą **po tekście S2**. Najpierw odzywa się koleżanka Maisie (tło bez karty), potem Maisie. Przy wszystkich Maisie mówi bardzo mało; dopiero po dzwonku, przy drzwiach, jeśli któraś postać stanęła w jej obronie albo potraktowała ją poważnie, mówi więcej. MG mówi cicho, z uporem, lekko drżącym głosem.
+
+```yaml
+dialog:
+  id: s1.scena.01.dialog.maisie-kawalek
+  npc: npc.maisie-lock
+  wyzwalacz: "MG wybrał sygnał S2; postać siedzi blisko stołu Hufflepuffu albo nasłuchuje. Zaraz po tekście S2."
+  ton: "cichy, uparty, z drżeniem; przy ludziach zawstydzony, na osobności z ulgą"
+  kwestie:
+    - "Koleżanka (tło, kpiąco): „Maisie zasnęła na sprawdzianie z otwartymi oczami! Siedziała jak sowa, a pióro jej wypadło!”"
+    - "Otwarcie, Maisie: „Nie spałam! Ja wiem, jak się śpi. Po prostu… tego kawałka nie ma.”"
+    - "Gdy postać pyta ją przy koleżankach: „Nic. Nic się nie stało. Zapomnijcie.” (wbija wzrok w podręcznik)"
+    - "Gdy postać ucisza dokuczające (starsza uczennica albo uczeń): Maisie nic nie mówi, tylko patrzy z wdzięcznością. Po dzwonku czeka chwilę przy drzwiach Wielkiej Sali."
+    - "Gdy postać żartuje z niej razem z koleżankami: „…Dobrze. Śmiejcie się.” (zbiera książki i wychodzi; do końca sesji nie odezwie się do tej postaci)"
+    - "Przy drzwiach po dzwonku, gdy postać ją zagadnie: „Ty… mi wierzysz? Bo nikt nie wierzy. Patrzyłam na trzecie pytanie, a potem był już dzwonek. Jakby ktoś wyciął stronę.”"
+    - "Przy drzwiach, gdy postać pyta o więcej: „I raz widziałam takiego chłopca. W żółtym krawacie, na schodach. Odwróciłam się, a jego nie było. Myślicie, że coś jest ze mną nie tak?”"
+    - "Gdy postać ją pociesza: (pierwszy raz się uśmiecha) „Dziękuję. Muszę lecieć, mam Zielarstwo.” (zerka na zegarek)"
+    - "Nieprzewidziane (np. postać rzuca zaklęcie na koleżanki albo robi scenę na pół sali): „Nie, proszę, nie trzeba! Teraz będzie jeszcze gorzej.” (chowa twarz w podręczniku)"
+    - "Może zdradzić tylko na osobności i tylko postaci, która ją obroniła albo potraktowała poważnie: że zgubiła kawałek sprawdzianu i że raz widziała chłopca w żółtym krawacie. Dokładny dzień i godzinę straty podaje dopiero w scenie 06."
+  wariant_od: []
+```
+
+### Hollis Crake na drabinie (tylko gdy postacie go jeszcze nie poznały)
+
+Blok obowiązuje tylko bez `flaga.crake-poznany`. Jeśli postacie poznały Crake'a w prologu, tego bloku nie ma (Crake'a nie ma w zamku tego ranka). Crake pierwszy mówi do zegara, nie do postaci. Co powie dalej, zależy od wyniku testu pogawędki (`s1.scena.01.test.crake-pogawedka`): MG używa jednej z trzech kwestii „po teście”. Crake w Sesji 1 nie mówi ani słowa o Klepsydrze, pieczęci ani kliencie z Londynu.
+
+```yaml
+dialog:
+  id: s1.scena.01.dialog.crake-drabina
+  npc: npc.hollis-crake
+  wyzwalacz: "Postacie zatrzymują się przy wielkim zegarze w Sali Wejściowej, a Crake stoi na drabinie (tylko bez flaga.crake-poznany)."
+  ton: "ciepły, trochę chrapliwy, wolny, z westchnieniami; przy córce jedno zdanie urywa się w pół"
+  kwestie:
+    - "Otwarcie, do zegara: „No już, już, kochanie. Jeszcze chwilka.”"
+    - "Otwarcie, do postaci: „O, młodzież. Nie stójcie pod drabiną, ona ma gorszy charakter niż ten zegar. Crake. Zegary, ulica Pokątna.”"
+    - "Gdy postać pyta o spóźnienie: „Cztery minuty. A dopiero co ją stroiłem. Ten zamek ma swoje humory.” (nie jest zdziwiony, tylko zmartwiony)"
+    - "Po teście, porażka: „Ładny dzień na deszcz, co? Uważajcie na schody, w poniedziałki są złośliwe.” (wraca do mechanizmu)"
+    - "Po teście, sukces: „Wieża? Wieża ostatnio wymaga więcej uwagi. Starość, wiecie. Jej i moja.”"
+    - "Po teście, sukces imponujący (postać widzi zdjęcie w kopercie jego zegarka): „To Nora. Pomagała mi w sklepie. Miała lepsze ręce do sprężyn niż…” (urywa) „No. Zegar sam się nie nastawi.”"
+    - "Gdy postać jest uprzejma i pyta o zegary: „Zegar to nie maszyna, to charakter. Ten tutaj jest uparty jak muł, ale nigdy nie kłamie.” (rozpromienia się)"
+    - "Gdy postać dopytuje o wieżę albo o mechanizm: „Ja tylko oliwię i stroję, moi drodzy. Resztę robi starość.” (śmieje się i zmienia temat)"
+    - "Gdy postać próbuje go przekupić: „Synku, ja biorę pieniądze za naprawy, nie za plotki.”"
+    - "Gdy postać jest niegrzeczna albo grozi: „Przepraszam, pan woźny na mnie czeka.” (schodzi z drabiny i odchodzi; zapamiętuje twarz)"
+    - "Nieprzewidziane (postać chce wejść na drabinę albo dotknąć mechanizmu): „Ostrożnie! To staruszka, nie zabawka. Proszę patrzeć z dołu, dobrze?”"
+    - "Może zdradzić: przy sukcesie zdanie o wieży, przy sukcesie imponującym imię córki i to, że pomagała w sklepie (zawsze w czasie przeszłym). Nic więcej, niezależnie od wyniku."
+  wariant_od: [flaga.crake-poznany]
+```
+
+### Argus Filch w drzwiach
+
+Kolor do sceny. Pierwsza kwestia to przeganianie drugorocznego w zabłoconych butach (albo, jeśli MG wzmacnia sygnał S1, ucznia przy wielkim zegarze). Filch mówi szeptem, który nagle przechodzi w krzyk.
+
+```yaml
+dialog:
+  id: s1.scena.01.dialog.filch-przegania
+  npc: npc.argus-filch
+  wyzwalacz: "W trakcie śniadania, w drzwiach między Wielką Salą a Salą Wejściową; albo gdy postacie go zaczepią przy wyjściu."
+  ton: "zgrzytliwy szept, nagle krzyk; podejrzliwy, wszystko zapisuje"
+  kwestie:
+    - "Otwarcie (do drugorocznego): „Stój. Buty. Widzisz te buty? Ja widzę. Wyjść, wytrzeć, wrócić. Nazwisko. Dom!”"
+    - "Wariant przy wielkim zegarze (do ucznia, który przestawia wskazówki): „Łapy precz od zegara! Nazwisko! To jest zegar szkolny, nie twoja zabawka!”"
+    - "Gdy postać go zaczepia bez powodu: „A ty czego? Nazwisko. Dom.” (zapisuje w zeszycie, sprawdza dwa razy)"
+    - "Gdy postać uprzejmie pyta o spóźniony zegar: „Wieża się boczy, a dzwony za nią. Nie moja sprawa. Ja sprzątam to, co po was zostaje.” (stuka palcem w szybkę zegara)"
+    - "Gdy postać uprzejmie go wysłucha (np. zgodzi się, że uczniowie są nieznośni): „No właśnie. Nareszcie ktoś. Idź już, bo się spóźnisz, a potem będzie na mnie.”"
+    - "Gdy postać z niego kpi: „Zapamiętam. Ja wszystko zapamiętuję.” (zapisuje nazwisko; pamięta cały rok)"
+    - "Gdy postać kłamie (podaje fałszywe nazwisko): „Sprawdzę. Ja wszystko sprawdzam.” (i sprawdzi do wieczora)"
+    - "Nieprzewidziane (postać mu pomaga, np. sama wyrzuca błoto albo przytrzymuje drzwi): (podejrzliwie) „…Czego chcesz?” (gdy nic: burczy i odchodzi, ale nie zapisuje nazwiska)"
+    - "Może zdradzić: tylko burknięcie o wieży. O zegarmistrzu i jego wizytach w tej scenie milczy (to zostaje na scenę 12)."
+  wariant_od: []
+```
+
+### Cassian Vane przy stole Slytherinu (gdy postacie go zaczepią)
+
+Cassian sam nie zaczyna rozmowy. Ten blok jest potrzebny tylko wtedy, gdy postacie podejdą do niego, najczęściej po sygnale S4. Mówi spokojnie, odrobinę za wolno, z uśmiechem w głosie; pod presją skraca zdania. Próbę zabrania zegarka obsługuje rozgałęzienie `kradziez-zegarka`.
+
+```yaml
+dialog:
+  id: s1.scena.01.dialog.cassian-przy-stole
+  npc: npc.cassian-vane
+  wyzwalacz: "Postać podchodzi do Cassiana przy stole Slytherinu albo zaczepia go przy wyjściu z Wielkiej Sali."
+  ton: "chłodno uprzejmy, wyćwiczony; pod presją krótszy i powtarza słowa"
+  kwestie:
+    - "Otwarcie: „[nazwisko]. Grupa trzecia, prawda? Wren chyba lubi wyzwania. Nie bierz tego do siebie.”"
+    - "Gdy postać jest uprzejma: „Miło. Do zobaczenia na macie.” (wraca do talerza; rozmowa skończona)"
+    - "Gdy postać zaczepia albo przechwala się przed pokazem: „Wszyscy tak mówią, tylko nie wszyscy potem wygrywają. Dziesięć minut przed lekcją, tak? Nie spóźnijcie się.”"
+    - "Gdy postać pyta o zegarek: (zamyka kopertę, zanim ktoś zajrzy na tarczę) „Pamiątka rodzinna. Nie chodzi, ale się do niej przywiązałem.”"
+    - "Gdy postać naciska w sprawie zegarka: „Pamiątka. Mówiłem. Pamiątka.” (wsuwa zegarek do kieszonki, lewą dłoń chowa w rękawie)"
+    - "Gdy postać szczerze się troszczy („wyglądasz, jakbyś nie spał”): (krótka pauza, za długa) „…Nauka. Szósty rok. Sam wiesz.”"
+    - "Gdy postać kłamie albo blefuje (np. „Wren cię szuka”): „Doprawdy? To poczeka do lekcji.” (uśmiecha się; nie rusza się z miejsca)"
+    - "Nieprzewidziane (postać siada obok, chwyta go za rękę, mówi coś zupełnie od rzeczy): (wstaje) „Muszę iść. Rosalind, idziemy.”"
+    - "Nie zdradza w tej scenie niczego: ani o zegarku, ani o swojej dłoni, ani o pokazie. Jedyny sygnał to zawahanie przy szczerej trosce."
+  wariant_od: []
+```
 
 ## Testy
 
