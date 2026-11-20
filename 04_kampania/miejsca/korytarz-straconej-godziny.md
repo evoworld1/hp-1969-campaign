@@ -3,7 +3,7 @@ id: miejsce.korytarz-straconej-godziny
 typ: miejsce
 tytul: "Boczny korytarz z oknem (korytarz straconej godziny)"
 status: szkic
-lokalizacja: "Hogwart, skrzydło lekcyjne, boczny korytarz między salą Zaklęć a salą Obrony przed Czarną Magią; na końcu wąskie schody w dół"
+lokalizacja: "Hogwart, skrzydło lekcyjne, boczny korytarz między salą Zaklęć a salą Obrony przed Czarną Magią; na końcu wąskie schody w dół, schodzące aż do podziemi przy kuchni"
 pewnosc: nasze
 # Pliki scen jeszcze nie istnieją (walidator wymaga istniejących identyfikatorów).
 # Docelowo: s1.scena.03 (stracona godzina), s1.scena.06 (pomiar), s1.scena.12
@@ -45,9 +45,11 @@ Boczny korytarz jest pusty i cichy; tędy chodzi się na skróty, kiedy nikt nie
 
 ## Ukryte
 
-Cassian ustawił się na schodach na końcu korytarza i wziął godzinę wszystkim naraz, kilka kroków od schodów, którymi Ansel chodzi w stronę kuchni. Ta wspólnie zabrana godzina stała się kotwicą Ansela (prawda dla MG, w Sesji 1 nikt tego nie mówi). Dlatego mignięcie przychodzi właśnie tu.
+Cassian ustawił się na schodach na końcu korytarza i wziął godzinę wszystkim naraz, na górnym końcu tych samych wąskich schodów, które schodzą aż do podziemi i łączą się ze schodami przy kuchni, gdzie czeka Ansel. Ta wspólnie zabrana godzina stała się kotwicą Ansela (prawda dla MG, w Sesji 1 nikt tego nie mówi). Dlatego mignięcie przychodzi właśnie tu.
 
 ## Testy
+
+Terminy Walkera w testach: Wits (bystrość), Persuasion (perswazja).
 
 ```yaml
 test:

@@ -34,7 +34,7 @@ Zwykła czarodziejska fotografia: postacie się ruszają, ale nie odpowiadają i
 - **Zauważyć je** przy wejściu do biblioteki (test `miejsce.biblioteka.test.zdjecie-w-gablocie` w karcie biblioteki). Jeśli postacie znają już nazwisko Marrow (`flaga.marrow-imie-znane`) i szukają jej celowo, MG pokazuje zdjęcie bez rzutu.
 - **Zwrócić uwagę na prefekta.** Ustawia `flaga.wymark-slad` (W9). Kim jest, nikt w Sesji 1 nie wie; nazwisko nie pada.
 - **Pokazać je komuś albo o nie zapytać.**
-  - [[npc.nauczyciel-astronomii]] (prof. Fairweather) rozpoznaje „panią od klepsydr” i „Bociana, który nosił jej lunetę”; nazwiska nie pamięta (`flaga.marrow-imie-znane`, `flaga.wymark-slad`).
+  - [[npc.nauczyciel-astronomii]] (prof. Fairweather) rozpoznaje „panią od klepsydr” i „Bociana, który nosił jej lunetę”; nazwiska prefekta nie pamięta (`flaga.marrow-imie-znane`, `flaga.wymark-slad`).
   - [[npc.ansel-dray]] przykłada dłoń do szkła: „To pani profesor”. Długo patrzy w miejsce poza kadrem i nic nie mówi. Prefekta nie umie nazwać.
   - [[npc.irma-pince]] wzrusza ramionami: gabloty to sprawa woźnego.
 - **Wyjąć je z gabloty.** Gablota jest zamknięta na prosty zamek (otworzy go zwykłe zaklęcie otwierające albo spinka). Brak zdjęcia zauważa [[npc.argus-filch]] w Sesji 2; do tego czasu nikt.

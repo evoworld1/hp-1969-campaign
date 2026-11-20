@@ -40,7 +40,7 @@ Bez testów własnych. Znalezienie plakietki obsługuje test `miejsce.wieza-zega
 
 **Prawda.** Plakietka to uczciwy szyld uczciwego zakładu. Crake od lat konserwuje zegary Hogwartu; słowa „i Córka” dopisał, gdy Nora zaczęła mu pomagać w sklepie. Teraz każda jego wizyta w wieży to też odrobinę luźniejsza pieczęć Klepsydry, ale plakietka tego nie zdradza. W Sesji 1 Crake jest tłem i życzliwym panem; plakietka ma tylko zostać w pamięci graczy.
 
-**Nie przeciągaj.** Wieża jest celowym ślepym zaułkiem. Plakietka ma być jednym zdaniem, nie nowym śledztwem. Jeśli gracze chcą od razu jechać na Pokątną, przypomnij, że jest poniedziałek albo wtorek w środku tygodnia szkolnego; wyprawa to sprawa Sesji 2.
+**Nie przeciągaj.** Wieża jest celowym ślepym zaułkiem. Plakietka ma być jednym zdaniem, nie nowym śledztwem. Jeśli gracze chcą od razu jechać na Pokątną, przypomnij, że jest wtorek w środku tygodnia szkolnego; wyprawa to sprawa Sesji 2.
 
 **Powiązane flagi:** `flaga.plakietka-crake`, `flaga.wieza-zbadana`, `flaga.crake-poznany`, `flaga.crake-dluga-rozmowa`.
 

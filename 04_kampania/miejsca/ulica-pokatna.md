@@ -4,7 +4,7 @@ typ: miejsce
 tytul: "Ulica Pokątna (sobota 30 sierpnia 1969)"
 status: szkic
 lokalizacja: "Londyn, za murem na podwórzu Dziurawego Kotła przy Charing Cross Road"
-pewnosc: kanon
+pewnosc: niepewne
 # Pliki scen jeszcze nie istnieją (walidator wymaga istniejących identyfikatorów).
 # Docelowo: s1.scena.11 (opcjonalny prolog)
 sceny: []

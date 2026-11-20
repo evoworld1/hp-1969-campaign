@@ -4,7 +4,7 @@ typ: miejsce
 tytul: "Sala Wejściowa i wielki zegar"
 status: szkic
 lokalizacja: "Hogwart, parter, za głównymi drzwiami; łączy Wielką Salę, marmurowe schody i zejścia do podziemi"
-pewnosc: kanon
+pewnosc: niepewne
 # Pliki scen jeszcze nie istnieją (walidator wymaga istniejących identyfikatorów).
 # Docelowo: s1.scena.01 (spóźniony zegar, drabina Crake'a, odbicie Ansela), s1.scena.03 (przejście), s1.scena.06, s1.scena.12
 sceny: []
@@ -49,6 +49,8 @@ Sala Wejściowa dudni od kroków i głosów, a pod nimi, równo i ciężko, tyka
 Zegar spóźnia się, bo czas w zamku płynie ku Wieży Zegarowej (przypływ z rozluźnionej pieczęci Klepsydry). Crake o tym wie i nie jest zdziwiony, tylko zmartwiony. Klepsydry z punktami domów są zwykłe: nie mają nic wspólnego z Klepsydrą Daniny i MG nie powinien sugerować graczom, że mają.
 
 ## Testy
+
+Terminy Walkera w testach: Wits (bystrość), Speed (szybkość), Observation (spostrzegawczość), Stealth (skradanie się).
 
 Test spostrzegawczości przy pogawędce z Crake'iem jest opisany w karcie [[npc.hollis-crake]] i w pliku sceny, w której Crake się pojawi.
 

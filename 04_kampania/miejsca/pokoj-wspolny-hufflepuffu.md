@@ -4,7 +4,7 @@ typ: miejsce
 tytul: "Wejście do pokoju wspólnego Hufflepuffu (beczki)"
 status: szkic
 lokalizacja: "Hogwart, podziemia, korytarz przy kuchni; wejście za stosem beczek we wnęce"
-pewnosc: kanon
+pewnosc: niepewne
 # Pliki scen jeszcze nie istnieją (walidator wymaga istniejących identyfikatorów).
 # Docelowo: s1.scena.05 (ręka przez beczkę), s1.scena.12 (pokój wspólny, dormitorium, rejestr Sprout, Gruby Mnich)
 sceny: []
@@ -45,6 +45,8 @@ We wnęce korytarza leży stos starych beczek, ułożonych w piramidę jak w piw
 Ansel pamięta rytm z 1951 roku i myli się w nim o jedno uderzenie. Jeśli postać z Hufflepuffu zapyta, jak on to stuka, odkryje, że ten rytm jest „prawie dobry, tylko staroświecki”. Kolor, nie wskazówka.
 
 ## Testy
+
+Terminy Walkera w testach: Wits (bystrość), Observation (spostrzegawczość).
 
 ```yaml
 test:

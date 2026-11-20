@@ -48,6 +48,8 @@ Nienaturalna szybkość Cassiana na pokazie to dosłownie godzina postaci, zabra
 
 ## Testy
 
+Terminy Walkera w testach: Wits (bystrość), Duelling (pojedynkowanie się).
+
 Test przeciwny czytania przeciwnika (Rosalind, Barnaby) i pokaz grup należą do pliku sceny 04; liczby ustala mechanik.
 
 ```yaml

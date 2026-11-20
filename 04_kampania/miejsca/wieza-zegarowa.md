@@ -23,10 +23,10 @@ Drewniany most skrzypi pod stopami, a na jego końcu otwiera się krużganek, za
 ## Dla MG
 
 **Rola w Sesji 1.** Celowy ślepy zaułek (scena 07). Wszystkie pomiary wskazują tutaj (przypływ, `flaga.przyplyw-ku-wiezy`), a wieża jest **doskonała**: zero przesunięcia, mechanizm bez skazy. Gracze mają wyjść z przekonaniem, że odpowiedź leży gdzie indziej (`flaga.wieza-zbadana`).
-- **Ziarno na Sesję 2 (W8):** świeży olej na zębatkach i mosiężna plakietka „Konserwacja: Crake i Córka, ulica Pokątna” (`flaga.plakietka-crake`; przedmiot `przedmiot.plakietka-crake-i-corka`, plik jeszcze nie istnieje).
+- **Ziarno na Sesję 2 (W8):** świeży olej na zębatkach i mosiężna plakietka „Konserwacja: Crake i Córka, ulica Pokątna” (`flaga.plakietka-crake`; przedmiot [[przedmiot.plakietka-crake-i-corka]]).
 - **Za dnia** [[npc.hollis-crake]] może właśnie schodzić z wieży z torbą narzędzi (pogawędka ruchoma, jeśli nie było jej wcześniej): „Wieża ostatnio wymaga więcej uwagi”.
 - **O zmierzchu** przychodzi tu [[npc.cassian-vane]] podbierać czas. Staje w krużganku u stóp wieży, gdzie przypływ jest najsilniejszy, z zegarkiem w dłoni. Naturalne przejście do sceny 08.
-- [[npc.ansel-dray]] nie wejdzie na most ani do wieży. Zatrzymuje się na początku mostu, wzdryga przy każdym uderzeniu dzwonu: „Ja tu poczekam. Tu jest za głośno”. Nie wie dlaczego.
+- [[npc.ansel-dray]] nie wejdzie na most ani do wieży. Dochodzi do podnóża wieży, ale zatrzymuje się na początku mostu, wzdryga przy każdym uderzeniu dzwonu: „Ja tu poczekam. Tu jest za głośno”. Nie wie dlaczego.
 
 **Krótka wstawka do odczytania (pomiar Tempus w środku wieży):**
 > Cyfry nad różdżką układają się od razu, równo i spokojnie. Zegar wieży wskazuje dokładnie to samo. Ani minuty różnicy. Po całym dniu drżących liczb ta zgodność jest prawie niepokojąca.
@@ -42,7 +42,7 @@ Drewniany most skrzypi pod stopami, a na jego końcu otwiera się krużganek, za
 
 **Zagrożenia i kryjówki.**
 - **Wahadło** przelatuje między klatkami schodowymi na wysokości półpiętra. Kto próbuje przejść „na skróty” między schodami, ryzykuje uderzenie (obrażenia ustala mechanik).
-- **Dzwonnica** jest za kratą na klucz Filcha. Kto wejdzie wyżej, w chwili bicia zostaje ogłuszony (kandydat: stan Rattled, ustala mechanik).
+- **Dzwonnica** jest za kratą na klucz Filcha. Kto wejdzie wyżej, w chwili bicia zostaje ogłuszony (kandydat: stan Rattled, czyli roztrzęsiony, ustala mechanik).
 - Wysokość. Balustrady są stare. Upadek nie powinien być w Sesji 1 realnym zagrożeniem śmierci; to miejsce, gdzie zginął Ansel, i MG decyduje z graczami, jak blisko kadru ma być ten temat (linie i zasłony).
 - **Kryjówki:** zakamarki krużganka za filarami (dobre do śledzenia Cassiana o zmierzchu), wnęka pod schodami przy skrzyni z narzędziami.
 
@@ -56,6 +56,8 @@ Drewniany most skrzypi pod stopami, a na jego końcu otwiera się krużganek, za
 Klepsydra Daniny jest związana w mechanizmie wieży „w godzinie, której wieża nie wybija”. W Sesji 1 niczego z niej nie widać i żaden test tego nie ujawnia: wieża jest tylko kotwicą. Crake co tydzień luzuje jej pieczęć, stąd wycieki i przypływ, który podbiera Cassian. Ansel spadł z tej wieży jesienią 1951 roku; nie pamięta upadku, pamięta tylko, że dzwon był bardzo blisko.
 
 ## Testy
+
+Terminy Walkera w testach: Wits (bystrość), Speed (szybkość), Observation (spostrzegawczość), Stealth (skradanie się).
 
 ```yaml
 test:

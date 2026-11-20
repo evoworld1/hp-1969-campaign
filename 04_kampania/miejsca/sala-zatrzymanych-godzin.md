@@ -27,7 +27,7 @@ Schody schodzą w dół, wąskie i strome, a każdy stopień odzywa się cichym 
 - **Galeria wahadeł** (cena, nie bramka): przejście między zegarami a resztą sali, gdzie z sufitu zwisają rzędy wahadeł, każde w innym rytmie. Jeden test grupowy. Porażka kosztuje hałas, czas albo zadrapanie; przejście jest zawsze.
 - **Ściana obliczeń:** kredowe równania, tarcze z trzynastoma kreskami, podpis Marrow. Obok jej podpisu drugie, mniejsze inicjały: „S.W.” (W9, `flaga.wymark-slad`). Nic więcej o nich nie wiadomo.
 - **Zakazana lekcja** (opcjonalna pokusa): na fragmencie ściany instrukcja pożyczania chwili. Kto się jej nauczy, ustawia `flaga.pozyczona-chwila-poznana` (mechanika kandydat: Pożyczona Chwila).
-- **Gablota** na końcu sali: szkło, mosiądz, w środku gruby dziennik w skórzanej oprawie (`przedmiot.dziennik-marrow`, plik jeszcze nie istnieje). Tabliczka ręką Marrow: „Co dane, można zatrzymać; co zabrane, trzeba zwrócić” (W7). Tempus na gablocie pokazuje lukę równo sześćdziesięciu minut. Otwiera się, gdy ktoś godzinę **odda** (`flaga.gablota-sposob`).
+- **Gablota** na końcu sali: szkło, mosiądz, w środku gruby dziennik w skórzanej oprawie ([[przedmiot.dziennik-marrow]]). Tabliczka ręką Marrow: „Co dane, można zatrzymać; co zabrane, trzeba zwrócić” (W7). Tempus na gablocie pokazuje lukę równo sześćdziesięciu minut. Otwiera się, gdy ktoś godzinę **odda** (`flaga.gablota-sposob`).
 - [[npc.ansel-dray]] (jeśli jest): „Ona czegoś chce, ale nie jest chciwa”. Patrzy na podpis Marrow długo i nic nie mówi.
 
 **Krótka wstawka do odczytania (gablota):**
@@ -57,6 +57,8 @@ Schody schodzą w dół, wąskie i strome, a każdy stopień odzywa się cichym 
 Marrow pracowała tu nad daniną czasu i tu związała dziennik z gablotą, zanim odeszła. Znaczenie zatrzymanych zegarów to **propozycja robocza, nie decyzja MG** (dotyka tego, jak działa magia daniny): każdy zegar zatrzymał się w chwili, w której Klepsydra pobrała z zamku część zapłaty za powrót Ansela w 1951 roku. Jeśli MG woli, mogą być zwykłą kolekcją badawczą Marrow. W Sesji 1 nikt tego nie wyjaśnia.
 
 ## Testy
+
+Terminy Walkera w testach: Speed (szybkość), Balance (zręczność ciała).
 
 ```yaml
 test:

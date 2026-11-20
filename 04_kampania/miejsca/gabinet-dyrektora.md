@@ -4,7 +4,7 @@ typ: miejsce
 tytul: "Gabinet dyrektora"
 status: szkic
 lokalizacja: "Hogwart, okrągły gabinet na szczycie ruchomych spiralnych schodów, za kamiennym strażnikiem w korytarzu"
-pewnosc: kanon
+pewnosc: niepewne
 # Pliki scen jeszcze nie istnieją (walidator wymaga istniejących identyfikatorów).
 # Docelowo: s1.scena.05 (jeśli gracze od razu prowadzą Ansela do dyrektora), s1.scena.12 (siatka bezpieczeństwa 3)
 sceny: []
@@ -35,7 +35,7 @@ Schody kręcą się pod wami same, cicho, jak koło młyńskie, i wynoszą was p
 
 **Stan zmienny.**
 - Przed `flaga.godzina-stracona`: postacie nie mają z czym przyjść poza plotką; dyrektor częstuje cukierkiem i odsyła ich na lekcje.
-- Jeśli `flaga.dumbledore-powiadomiony` już ustawiona: drugi raz strażnik ich nie wpuszcza bez nauczyciela; Dumbledore „jest poza zamkiem” (zajmują go większe sprawy).
+- Jeśli `flaga.dumbledore-powiadomiony` już ustawiona: drugi raz strażnik ich nie wpuszcza bez nauczyciela; Dumbledore „jest poza zamkiem” (zajmują go większe sprawy). Wyjątek: w scenie 10 (rozgałęzienie „dumbledore”) dyrektor wraca i przyjmuje dziennik.
 - Jeśli `flaga.marrow-imie-znane`: przy nazwisku Marrow Dumbledore na moment przestaje się uśmiechać; nic nie wyjaśnia.
 - Po `flaga.trzynasta-wybila` (rozgałęzienie „dumbledore”): przyjmuje dziennik i zamyka go w szafce; Sesja 2 zaczyna się od tego, że „zapamiętał”.
 

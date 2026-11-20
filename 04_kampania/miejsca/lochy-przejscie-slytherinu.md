@@ -4,7 +4,7 @@ typ: miejsce
 tytul: "Lochy: korytarz Eliksirów i przejście do Slytherinu"
 status: szkic
 lokalizacja: "Hogwart, lochy; korytarz od sali Eliksirów do gładkiej kamiennej ściany, za którą jest pokój wspólny i dormitoria Slytherinu"
-pewnosc: kanon
+pewnosc: niepewne
 # Pliki scen jeszcze nie istnieją (walidator wymaga istniejących identyfikatorów).
 # Docelowo: s1.scena.06 (koniec śladu drżących odczytów), s1.scena.08 (konfrontacja, siatka bezpieczeństwa 5), s1.scena.12 (Gideon Pratt, dormitorium)
 sceny: []
@@ -53,20 +53,6 @@ Cassian nie potrzebuje zegara we wnęce: podbiera przez swój zegarek. Wnęka je
 
 ## Testy
 
-```yaml
-test:
-  id: miejsce.lochy-przejscie-slytherinu.test.zegarek-spod-poduszki
-  opis: "Postać ze Slytherinu próbuje nocą wyjąć Cassianowi zegarek spod poduszki albo kartę z podszewki kufra (siatka bezpieczeństwa 5)."
-  kto: jeden
-  rzut: "1D10 + Speed + Stealth"
-  trudnosc: "przeciwny: 1D10 + Wits + Observation (npc.cassian-vane)"
-  wyniki:
-    - wynik: wygrana
-      efekt: "Zegarek (albo karta) jest w ręku postaci. Cassian śpi dalej; rano zacznie szukać."
-      flagi_ustaw: []
-    - wynik: przegrana
-      efekt: "Cassian budzi się z ręką na zegarku. Nie krzyczy. Od tej chwili jest czujnym przeciwnikiem, a konfrontacja (scena 08) przychodzi szybciej."
-      flagi_ustaw: []
-```
+Kradzież zegarka spod poduszki albo karty z kufra (siatka bezpieczeństwa 5) rozstrzyga jeden test opisany w karcie [[przedmiot.zegarek-cassiana]]. Tutaj go nie powtarzamy.
 
 Flagę `flaga.zegarek-cassiana` (`u-graczy`) albo `flaga.karta-u-graczy` ustawia przy wygranej plik sceny, w której do kradzieży dojdzie.

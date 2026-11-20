@@ -4,7 +4,7 @@ typ: miejsce
 tytul: "Biblioteka i Dział Ksiąg Zakazanych"
 status: szkic
 lokalizacja: "Hogwart, biblioteka: czytelnia, regały, odgrodzony Dział Ksiąg Zakazanych w głębi; na korytarzu przed wejściem gablota z pamiątkami szkoły"
-pewnosc: kanon
+pewnosc: niepewne
 # Pliki scen jeszcze nie istnieją (walidator wymaga istniejących identyfikatorów).
 # Docelowo: s1.scena.02 (tytuł książki od Flitwicka), s1.scena.09 (trzynaste drzwi), s1.scena.10 (trzynasty raz), s1.scena.12 (pani Pince, rejestr wypożyczeń, gablota ze zdjęciem)
 sceny: []
@@ -25,7 +25,7 @@ Biblioteka wieczorem jest wysoka i ciemna, a światło lamp kończy się na trze
 **Rola w Sesji 1.** Kulminacja (scena 09) zaczyna się tutaj. Dwa równorzędne wejścia: **wieczorem za zgodą** (`flaga.biblioteka-legalnie`, do zamknięcia o dziewiątej, presję daje [[npc.irma-pince]]) albo **nocą bez zgody** (test skradania, presję daje obchód [[npc.argus-filch]]).
 - **Rejestr wypożyczeń (W5):** pani Pince na szczerą prośbę pokazuje, że „chłopiec od Slughorna”, Vane, trzy razy prosił o ten sam tom o zegarmistrzostwie. Dostępne też w scenie 12 i przy legalnym wejściu.
 - **Ostatni rząd Działu Ksiąg Zakazanych (W5, W6):** na końcu regału stoi mosiężny przycisk do książek w kształcie klepsydry. Ściana za regałem wygląda zwyczajnie. Drzwi otwiera „godzina, której nie ma” (szczegóły i test w pliku sceny 09).
-- **Gablota na korytarzu przed biblioteką (W9):** puchary, medale, kilka oprawionych zdjęć. Na jednym z 1951 roku profesor Marrow stoi przy teleskopie, a obok niej wysoki prefekt; bez podpisu nazwisk (`przedmiot.zdjecie-1951`, plik jeszcze nie istnieje). Ustawia `flaga.wymark-slad`, jeśli postacie zwrócą uwagę na prefekta.
+- **Gablota na korytarzu przed biblioteką (W9):** puchary, medale, kilka oprawionych zdjęć. Na jednym z 1951 roku profesor Marrow stoi przy teleskopie, a obok niej wysoki prefekt; bez podpisu nazwisk ([[przedmiot.zdjecie-1951]]). Ustawia `flaga.wymark-slad`, jeśli postacie zwrócą uwagę na prefekta.
 - [[npc.ansel-dray]] (jeśli idzie z postaciami): „Pani profesor nosiła książki do najdalszego regału” (W5 przy Więzi 2). Przy ścianie ostatniego rzędu przechodzi przez nią i wraca: „Schody tykają trzynaście razy” (W6).
 
 **Krótka wstawka do odczytania (ostatni rząd):**
@@ -55,6 +55,8 @@ Biblioteka wieczorem jest wysoka i ciemna, a światło lamp kończy się na trze
 Za ścianą ostatniego rzędu są schody w dół, do [[miejsce.sala-zatrzymanych-godzin]]. Pani Pince przy ostatnim rzędzie zawsze przyspiesza kroku i nie wie dlaczego (karta NPC). Robocze wyjaśnienie [nasze, do potwierdzenia przy scenie 09]: Marrow zostawiła tu lekki urok odwracający uwagę. Przycisk-klepsydra jest zawsze czysty, choć nikt go nie odkurza.
 
 ## Testy
+
+Terminy Walkera w testach: Wits (bystrość), Speed (szybkość), Observation (spostrzegawczość), Stealth (skradanie się).
 
 ```yaml
 test:

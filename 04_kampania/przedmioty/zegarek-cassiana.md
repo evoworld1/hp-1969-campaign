@@ -45,6 +45,8 @@ Zegarek należał do dziadka Cassiana. Wskazówki stanęły w godzinie jego śmi
 
 ## Mechanika
 
+Terminy Walkera w testach: Wits (bystrość), Speed (szybkość), Observation (spostrzegawczość), Concealment (ukrywanie), Chicanery (podstęp).
+
 Bez własnych statystyk. W rękach Cassiana zegarek zasila jego zdolność „Skradzione Chwile” (opis w karcie [[npc.cassian-vane]]; dodatkowe akcje ponad zwykłe dwie w rundzie, Walker 2e s. 33; liczby ustala mechanik). Trudność wycelowania zaklęcia w kieszonkę ustala mechanik.
 
 ```yaml

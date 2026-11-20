@@ -4,7 +4,7 @@ typ: miejsce
 tytul: "Sala Zaklęć"
 status: szkic
 lokalizacja: "Hogwart, skrzydło lekcyjne; okna od strony Wieży Zegarowej (piętro robocze, zob. Do weryfikacji)"
-pewnosc: kanon
+pewnosc: niepewne
 # Pliki scen jeszcze nie istnieją (walidator wymaga istniejących identyfikatorów).
 # Docelowo: s1.scena.02 (lekcja Tempus), s1.scena.12 (korepetycje u Flitwicka)
 sceny: []

@@ -4,7 +4,7 @@ typ: miejsce
 tytul: "Wielka Sala"
 status: szkic
 lokalizacja: "Hogwart, parter, za Salą Wejściową"
-pewnosc: kanon
+pewnosc: niepewne
 # Pliki scen jeszcze nie istnieją (walidator wymaga istniejących identyfikatorów).
 # Docelowo: s1.scena.01 (śniadanie), s1.scena.03 (obiad, który przepada), s1.scena.12
 sceny: []
@@ -51,6 +51,8 @@ Zegar nad stołem nauczycieli, tak jak wszystkie zegary w zamku, jest kanałem K
 
 ## Testy
 
+Terminy Walkera w testach: Wits (bystrość), Observation (spostrzegawczość).
+
 ```yaml
 test:
   id: miejsce.wielka-sala.test.cos-nie-tak
@@ -60,8 +62,8 @@ test:
   trudnosc: "DO-USTALENIA"
   wyniki:
     - wynik: sukces
-      efekt: "MG wskazuje jeden z sygnałów: drgającą wskazówkę zegara, Maisie Lock, stojący zegarek Cassiana albo szept przy stole Slytherinu."
-      flagi_ustaw: []
+      efekt: "MG wskazuje jeden z sygnałów: drgającą wskazówkę zegara, Maisie Lock, stojący zegarek Cassiana albo szept przy stole Slytherinu. Plotka o „duchu Puchona” i tak krąży."
+      flagi_ustaw: [flaga.plotka-duch-puchona]
     - wynik: porazka
       efekt: "Nic szczególnego, ale o „duchu Puchona” i tak gada cały stół."
       flagi_ustaw: [flaga.plotka-duch-puchona]
