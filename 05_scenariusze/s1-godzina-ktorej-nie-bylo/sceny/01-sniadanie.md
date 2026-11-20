@@ -48,29 +48,114 @@ aktualizacja: 2026-11-20
 ---
 ## Do odczytania
 
-<!-- Dla narratora-scen. Oczekiwane teksty do odczytania na głos, każdy jako osobny akapit z podtytułem:
-1. Otwarcie (pełny wariant, bez prologu): poniedziałek 22 września 1969, śniadanie, sklepienie, sowy, gwar szóstego roku po SUM-ach; cień niepokoju po lecie (bez otwartej wojny).
-2. Otwarcie skrócone (po prologu): „trzy tygodnie później”, 2–3 zdania, od razu sowia poczta.
-3. Wren idzie wzdłuż stołów (krótko, bez dialogu; kwestie napisze dialogista).
-4. Krótkie opisy do każdego sygnału dziwności z listy w „Dla MG” (po 2–4 zdania, MG czyta tylko wybrane).
-5. Odbicie w szkle zegara: osobny, krótki tekst czytany jednej postaci (najlepiej na osobności albo szeptem).
-6. Zamknięcie: dzwon na pierwszą lekcję bije „za późno”, prefekci sprawdzają zegarki.
-Bez prozy o straconej godzinie, Klepsydrze ani Marrow: tu tylko nastrój. -->
+*Każdy tekst ma podtytuł, który mówi, kiedy go przeczytać. MG nie czyta wszystkiego: otwarcie 1 albo 2, tekst Wrena, tylko te sygnały, które wybrał przed sesją, i zamknięcie. Teksty można czytać z kartki albo opowiadać własnymi słowami.*
+
+### 1. Otwarcie (pełny wariant, gdy prologu nie było)
+
+Poniedziałek, dwudziesty drugi września 1969 roku. Za kwadrans ósma.
+
+Wielka Sala szumi jak ul. Pod zaczarowanym sklepieniem płyną nisko szare, wrześniowe chmury; gdzieś tam w górze pada deszcz, który nigdy nie dolatuje do stołów. Pachnie smażonym boczkiem, przypalonymi grzankami i herbatą z wielkich cynowych dzbanków. Przy czterech długich stołach siedzi cała szkoła, a szósty rok ma o czym gadać: o lecie, o wynikach SUM-ów, o tym, kto które zajęcia rzucił, a kto się na nie wcisnął.
+
+A jednak ten gwar jest odrobinę ostrożniejszy niż przed rokiem. Dwóch siódmorocznych czyta jedną gazetę, ramię w ramię, i składa ją na pół, gdy ktoś przechodzi obok.
+
+Nad stołem nauczycieli okrągły zegar w mosiężnej oprawie odlicza minuty do dzwonka.
+
+I wtedy, z szumem setek skrzydeł, przez wysokie okna wlatują sowy.
+
+### 2. Otwarcie skrócone (gdy grany był prolog na Pokątnej)
+
+Trzy tygodnie później.
+
+Pokątna to już tylko wspomnienie, a nowe podręczniki mają pozaginane rogi i pierwsze kleksy. Poniedziałek, dwudziesty drugi września, śniadanie w Wielkiej Sali: boczek, gorąca herbata i szary deszcz pod sklepieniem, który nigdy nie spada na stoły. Nagle nad głowami szum skrzydeł. Sowia poczta.
+
+### 3. Wren idzie wzdłuż stołów (stały, w obu wariantach)
+
+Ktoś przy stole syczy: „Wren”. Nowy profesor Obrony przed Czarną Magią schodzi z podwyższenia i idzie środkiem sali, bez pośpiechu. Szeroki w barach, siwy, ostrzyżony krótko przy skórze, z nosem, który niejeden raz był złamany. Lewą dłoń trzyma na pasie, jakby kiedyś nosił tam coś cięższego niż różdżkę. Tej dłoni brakuje dwóch palców. Nie patrzy na talerze, tylko na twarze, a co kilka kroków zerka na drzwi. Wokół niego gwar cichnie i wraca, kiedy już przejdzie, jak woda za łodzią.
+
+Zatrzymuje się przy pierwszym z was.
+
+*Teraz MG odgrywa kwestię Wrena (blok dialogu) przy każdej postaci po kolei. Gdy Wren skończy przy ostatniej:*
+
+Od stołu Slytherinu dolatuje prychnięcie: głośne, wyćwiczone, żeby wszyscy słyszeli. Wren nie odwraca głowy.
+
+### 4. Sygnały dziwności (MG czyta tylko wybrane)
+
+**S1. Wielki zegar w Sali Wejściowej** (w drodze na śniadanie albo przy wyjściu)
+
+Przy schodach tyka wielki zegar: ciemne drewno, tarcza blada jak księżyc, wahadło za grubą szybą. Pod nim prefekt stuka palcem w szkiełko własnego zegarka, patrzy w górę, na tarczę, potem znowu na nadgarstek. Cztery minuty różnicy. Wielki zegar tyka dalej, ciężko i równo, jakby to reszta świata się spieszyła, a nie on się spóźniał.
+
+**S1, dodatek: Crake na drabinie** (tylko gdy postacie jeszcze go nie poznały)
+
+Skrzynka zegara stoi otworem. Na drabinie, z głową prawie w mechanizmie, balansuje niski, krępy starszy pan w kamizelce. Siwe wąsy, lupa zegarmistrzowska na rzemyku, palce czarne od oleju. Pachnie smarem i miętą. Przesuwa coś w środku bardzo delikatnie i mruczy do zegara jak do starego psa: „No już, już, kochanie”.
+
+**S2. Maisie Lock przy stole Hufflepuffu**
+
+Od stołu Hufflepuffu dolatuje chichot. Kilka trzeciorocznych otacza drobną dziewczynkę z dwoma krzywymi warkoczami, w swetrze o dwa rozmiary za dużym. Jedna z koleżanek robi szkliste oczy i osuwa się na ramię sąsiadki, udając, że zasnęła. Wybucha śmiech. Dziewczynka przyciska podręcznik do piersi jak tarczę i nie śmieje się razem z nimi.
+
+**S3. Gruby Mnich i plotka o duchu Puchona**
+
+Robi się nagle zimno, jakby ktoś otworzył okno. Przez środek stołu, przez dzbanek z sokiem dyniowym i czyjś talerz jajecznicy, przepływa Gruby Mnich, duch Hufflepuffu: perłowy, okrągły, z kapturem zsuniętym na kark. Zwykle uśmiecha się do wszystkich. Dziś ma minę, jakby ktoś nadepnął mu na habit. Mija gromadkę pierwszorocznych, którzy szepczą o „chłopcu w żółtym krawacie”, i odpływa w ścianę wyraźnie urażony.
+
+**S4. Zegarek Cassiana Vane'a** (postać z dobrym widokiem albo z udanym testem)
+
+Przy stole Slytherinu siedzi Cassian Vane: wyprostowany, starannie uczesany, kamizelka zapięta pod szyję. Pod oczami ma sine cienie, jakby nie spał od tygodnia. Wyjmuje z kieszonki srebrny zegarek na łańcuszku, otwiera kopertę, patrzy. Zamyka. Po chwili otwiera znowu. Kto siedzi dość blisko, żeby widzieć tarczę, zauważy jedno: wskazówki nie drgnęły ani razu.
+
+### 5. Szept od stołu Slytherinu (stały, przed kwestią Rosalind albo Tobiasa)
+
+Przy końcu stołu Slytherinu kilka głów pochyla się ku sobie. Wysoka dziewczyna z ciasnym ciemnym warkoczem mówi coś cicho, obracając w palcach srebrną spinkę w kształcie węża. Dolatują tylko strzępy: czyjeś nazwisko, którego nikt nie wymawia przy nauczycielach, i słowo, po którym dwóch pierwszorocznych przy sąsiednim stole przestaje jeść.
+
+*Jeśli przy stole ustalono zasłonę na tematy czystości krwi, MG kończy na tym tekście i nie dodaje szczegółów.*
+
+### 6. Odbicie w szkle zegara (S5, tylko dla jednej postaci)
+
+*Do jednej postaci, w drugiej osobie liczby pojedynczej. MG czyta pierwszą część, zatrzymuje się i pyta gracza: „Co robisz?”. Potem czyta wariant pasujący do odpowiedzi.*
+
+Szybka zegara jest stara i lekko pofalowana, więc twoje odbicie faluje razem z nią. Za tobą przesuwa się tłum, rozmazane plamy czarnych szat. I ktoś stoi bardzo blisko, tuż przy twoim ramieniu: chłopiec, mały, może jedenastoletni, w krawacie w żółte i czarne pasy, zawiązanym starannie, jak do zdjęcia. Nie rusza się. Patrzy prosto w twoje odbicie.
+
+**Jeśli postać się odwraca:** Za twoimi plecami nikogo nie ma. Tylko drugoroczny Krukon przechodzi obok z grzanką w zębach i nawet na ciebie nie patrzy. W szybie też już jesteś sam.
+
+**Jeśli postać patrzy dalej w szkło, woła albo dotyka szyby:** Po szybie przesuwa się cień przechodzącego prefekta, a kiedy znika, chłopca już nie ma. Szkło jest zimne. Zegar za nim tyka równo, jakby nic się nie wydarzyło.
+
+### 7. Zamknięcie: spóźniony dzwon (oba warianty)
+
+Dzwon na pierwszą lekcję odzywa się nagle, kiedy połowa sali i tak już wstała. Kilku prefektów naraz podnosi nadgarstki do oczu, potrząsa zegarkami, przykłada je do ucha. Ktoś woła przez całą salę, że jego zegarek nigdy się nie myli. Ławki szurają, sowy zrywają się spod sklepienia, a strumień uczniów wylewa się do Sali Wejściowej, gdzie wielki zegar tyka swoje, spokojnie i ciężko, jakby nikt na niego nie czekał.
+
+Pierwsza lekcja: Zaklęcia. Według połowy zegarków w zamku już jesteście spóźnieni.
 
 ## Dla MG
 
 **Co się naprawdę dzieje.** Od trzech tygodni Cassian Vane podbiera czas przez zatrzymany zegarek ([[przedmiot.zegarek-cassiana]]). Sygnały przy śniadaniu to skutki tych kradzieży: spóźnione zegary, uczniowie „bez kawałka”, mignięcia Ansela, które ofiary biorą za ducha. Nic z tego nie jest jeszcze zagadką do rozwiązania. Wskazówka W0 („z czasem jest coś nie tak”) to nastrój, nie bramka: stracona godzina w scenie 03 przychodzi niezależnie od tego, co gracze tu zauważą.
 
-**Rytm sceny (pełny wariant, ok. 20 minut).**
-1. Otwarcie i sowia poczta (2 min).
-2. Rozmowa z [[npc.tobias-quill]]: pierwszy dialog w grze. Gracz mówi w imieniu postaci, MG odpowiada jako Tobias. Tobias jest źródłem plotek i rozmówcą do nauki gry. Dom Tobiasa MG ustala przed sesją: dom postaci z najmniejszą liczbą znajomych albo najbardziej nieśmiałego gracza (decyzja MG z 2026-11-20).
-3. **Drużyna się zbiera (stałe):** [[npc.thaddeus-wren]] idzie wzdłuż stołów i zaczepia postacie po kolei, każdą przy jej stole domu: grupa trzecia ma być dziesięć minut przed lekcją pod salą Obrony, a grupa pana Vane'a już się chwaliła. Postacie wymieniają spojrzenia przez salę albo siadają razem na końcu jednego stołu, jeśli gracze tego chcą. Zdanie „wojna nie pyta o dom” zna cały rok; stół Slytherinu prycha.
-4. Jeden prosty test przy stole (sekcja „Testy”). Test uczy rzutu; porażka niczego nie zamyka.
-5. 2–3 sygnały dziwności z listy poniżej (MG wybiera przed sesją).
-6. Plotka o Voldemorcie szeptem od stołu Slytherinu (stałe, ustawia `flaga.plotka-o-voldemorcie`).
-7. Wyjście: spóźniony dzwon na Zaklęcia.
+**Nastrój.** To ma być zwyczajny, ciepły, gwarny poranek: boczek, sowy, plotki, poniedziałkowa niechęć do lekcji. Niepokój siedzi wyłącznie w drobiazgach: w zegarku, który nie chodzi, w dziewczynce, której nikt nie wierzy, w gazecie składanej na pół. Im bardziej zwyczajna jest reszta sceny, tym mocniej te drobiazgi zgrzytają. Sygnały dziwności czytaj tym samym tonem co opis śniadania, bez dramatycznych pauz i bez „i nagle…”. Gracze mają je zauważyć sami. Jedyny wyjątek to odbicie w szkle zegara (tekst 6): tu zwolnij, ścisz głos i zatrzymaj się przed pytaniem „Co robisz?”.
 
-**Wariant skrócony (ok. 10 minut), gdy grany był prolog** (`flaga.s1-prolog-pokatna`). Prolog przejął naukę gry, więc tutaj nie ma testu przy stole ani długiej rozmowy z Tobiasem. Zostaje: sowia poczta, Wren zbiera grupę trzecią (to jest stałe w obu wariantach), **jeden** sygnał dziwności (rekomendacja: odbicie w szkle zegara, bo z niego korzysta scena 05) i jedno zdanie plotki o „Czarnym Panu”, jeśli postacie nie usłyszały jej już w prologu. Crake nie stoi przy zegarze, jeśli postacie poznały go na Pokątnej (`flaga.crake-poznany`).
+**Rytm sceny (pełny wariant, ok. 20 minut).**
+1. Otwarcie (tekst 1) i sowia poczta (2 min).
+2. Rozmowa z [[npc.tobias-quill]]: pierwszy dialog w grze. Gracz mówi w imieniu postaci, MG odpowiada jako Tobias. Tobias jest źródłem plotek i rozmówcą do nauki gry. Dom Tobiasa MG ustala przed sesją: dom postaci z najmniejszą liczbą znajomych albo najbardziej nieśmiałego gracza (decyzja MG z 2026-11-20).
+3. **Drużyna się zbiera (stałe):** [[npc.thaddeus-wren]] idzie wzdłuż stołów (tekst 3) i zaczepia postacie po kolei, każdą przy jej stole domu: grupa trzecia ma być dziesięć minut przed lekcją pod salą Obrony, a grupa pana Vane'a już się chwaliła. Postacie wymieniają spojrzenia przez salę albo siadają razem na końcu jednego stołu, jeśli gracze tego chcą. Zdanie „wojna nie pyta o dom” zna cały rok; stół Slytherinu prycha.
+4. Jeden prosty test przy stole (sekcja „Testy”). Test uczy rzutu; porażka niczego nie zamyka.
+5. 2–3 sygnały dziwności z listy poniżej (MG wybiera przed sesją; teksty 4 i 6).
+6. Plotka o Voldemorcie szeptem od stołu Slytherinu (tekst 5, potem kwestia z dialogu; stałe, ustawia `flaga.plotka-o-voldemorcie`).
+7. Wyjście: spóźniony dzwon na Zaklęcia (tekst 7).
+
+**Wariant skrócony (ok. 10 minut), gdy grany był prolog** (`flaga.s1-prolog-pokatna`). Prolog przejął naukę gry, więc tutaj nie ma testu przy stole ani długiej rozmowy z Tobiasem. Zostaje: otwarcie skrócone (tekst 2) i sowia poczta, Wren zbiera grupę trzecią (tekst 3, stały w obu wariantach), **jeden** sygnał dziwności (rekomendacja: odbicie w szkle zegara, tekst 6, bo z niego korzysta scena 05) i jedno zdanie plotki o „Czarnym Panu”, jeśli postacie nie usłyszały jej już w prologu. Crake nie stoi przy zegarze, jeśli postacie poznały go na Pokątnej (`flaga.crake-poznany`). Zamknięcie jak w pełnym wariancie (tekst 7).
+
+### Jak prowadzić tę scenę z graczami, którzy grają pierwszy raz
+
+Dla większości stołu to pierwsze minuty gry fabularnej w życiu. Ta scena nie musi niczego popchnąć do przodu; ma sprawić, że każdy gracz raz się odezwie, raz rzuci kością i raz poczuje, że jego postać coś zauważyła.
+
+- **Zanim przeczytasz otwarcie,** powiedz jednym zdaniem, jak to działa: „Opiszę wam, co widzą wasze postacie. Potem możecie powiedzieć, co robią, albo mówić ich głosem, jak w teatrze. Nie ma złych odpowiedzi”.
+- **Po otwarciu zadaj każdemu graczowi jedno łatwe pytanie wprost,** zanim pojawi się Tobias: „Przy którym stole siedzisz i z kim?”, „Co masz na talerzu?”, „Czy sowa coś ci dziś przyniosła?”. Jeśli gracz chce list z domu, niech sam powie, od kogo; to tani sposób, żeby opowiedział coś o swojej postaci. Treść listu niczego w fabule nie zmienia.
+- **Tobias zagaduje pierwszy.** Gracze nie wiedzą jeszcze, że mogą zaczepiać bohaterów niezależnych. Tobias zadaje pytania, czeka na odpowiedź i reaguje na nią z entuzjazmem, nawet na „no… nie wiem”. Jeśli gracz opisuje zamiast mówić („mówię mu, że jestem zmęczony”), to też jest dobre; nie poprawiaj.
+- **Cisza jest w porządku.** Jeśli przy stole zapada cisza dłuższa niż kilka sekund, nie ratuj jej opisem. Niech Tobias zada pytanie albo sowa wyląduje komuś w owsiance.
+- **Przy pierwszym rzucie** powiedz przed rzutem, co się stanie przy sukcesie, a co przy porażce („Jeśli wyjdzie, zauważysz coś, czego inni nie widzą. Jeśli nie, po prostu jesz śniadanie”). Po rzucie najpierw opowiedz wynik w świecie gry, dopiero potem liczby.
+- **Każdy gracz ma mieć coś swojego.** Przy 2–3 graczach rozdziel to tak: jedna postać prowadzi rozmowę z Tobiasem, druga wygrywa test i dostaje sygnał S1, S2 albo S4, trzecia (najlepiej ta, której test nie wyszedł) widzi odbicie w szkle. Przy dwóch graczach rozmowę i odbicie może dostać ta sama osoba.
+- **Gdy gracze pytają „czy to ważne?”,** nie odpowiadaj ani tak, ani nie. Powiedz: „Twoja postać zauważyła, że to dziwne. Co z tym robisz?”. Żaden bohater niezależny w tej scenie niczego nie wyjaśnia.
+- **Odbicie w szkle zegara: na głos czy szeptem?** Szept do jednej osoby (albo karteczka) jest bardziej niepokojący. Przy pierwszej sesji poleca się jednak czytać na głos przy wszystkich, zwracając się do jednego gracza, i dodać: „Wasze postacie tego nie widziały, tylko wy, gracze, o tym wiecie”. To uczy różnicy między wiedzą gracza a wiedzą postaci, która przyda się przez całą kampanię. Wybór należy do MG.
+- **Zegar nad stołem nauczycieli** nadaje się do odbicia tylko wtedy, gdy postać stoi tuż przy nim (np. Wren przywołał ją do stołu nauczycieli albo odnosi coś profesorowi). Z ławki odbicie przy ramieniu jest nieprzekonujące; wtedy lepiej użyć wielkiego zegara w Sali Wejściowej przy wyjściu.
+
+**Tempo.** Jeśli scena przekracza 25 minut, zrezygnuj z kolejnych sygnałów i od razu przeczytaj zamknięcie (tekst 7). Dzwon to wygodny sposób, żeby przerwać każdą rozmowę bez urażania graczy: „Rozmowę dokończycie później, teraz biegniecie na Zaklęcia”. W wariancie skróconym nie zatrzymuj się na Tobiasie dłużej niż minutę.
+
+**Czym zamknąć.** Tekstem 7 i jednym pytaniem do wszystkich: „Idziecie razem czy każde osobno?”. Odpowiedź od razu pokazuje, czy drużyna już się czuje drużyną. Jeśli ktoś chce zatrzymać się przy Crake'u albo zaczepić Cassiana po drodze, daj na to minutę i przejdź do sceny 02.
 
 ### Sygnały dziwności (MG wybiera 2–3; w wariancie skróconym 1)
 

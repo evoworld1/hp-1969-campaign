@@ -29,7 +29,7 @@ Sala Wejściowa dudni od kroków i głosów, a pod nimi, równo i ciężko, tyka
 - [[npc.argus-filch]] przy każdym przejściu stuka palcem w szybkę zegara, jakby to pomagało.
 
 **Krótka wstawka do odczytania (odbicie, tylko dla jednej postaci):**
-> W szybie zegara widzisz siebie, za sobą tłum i, tuż przy twoim ramieniu, chłopca w żółto-czarnym krawacie, zawiązanym starannie jak do zdjęcia. Patrzy na ciebie, jakby chciał o coś zapytać. Odwracasz się. Za tobą jest tylko pierwszoroczniak z Ravenclawu, który przeprasza, że cię potrącił.
+> W szybie zegara widzisz siebie, za sobą tłum i, tuż przy twoim ramieniu, chłopca w żółto-czarnym krawacie, zawiązanym starannie jak do zdjęcia. Nie rusza się i nic nie mówi; patrzy na twoje odbicie. Odwracasz się. Za tobą jest tylko pierwszoroczniak z Ravenclawu, który przeprasza, że cię potrącił.
 
 **Stan zmienny.**
 - Jeśli `flaga.s1-prolog-pokatna` albo `flaga.crake-poznany` jest już ustawiona: drabina stoi oparta o ścianę, Crake'a nie ma; Filch: „Zegarmistrz był w czwartek. Znowu” (wskazówka W8).
