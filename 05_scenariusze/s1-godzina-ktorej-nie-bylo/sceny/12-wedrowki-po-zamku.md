@@ -740,7 +740,88 @@ dialog:
 
 ## Testy
 
-TODO (mechanik): `s1.scena.12.test.kradziez-dormitorium` (liczby w karcie zegarka), `s1.scena.12.test.tempus-korepetycje`.
+*Zasada modułu: rzut jest wyjątkiem, nie rytuałem. W ośmiu rozpisanych spotkaniach są tylko dwa testy: pogawędka z Crake'iem (H) i Tempus u Flitwicka (L). Resztę rozstrzyga rozmowa i dobre pytanie. Test z gablotą w spotkaniu K (`miejsce.biblioteka.test.zdjecie-w-gablocie`) ma liczby w karcie miejsca, a test kradzieży w spotkaniu F (zarys) dostanie liczby w kolejnym etapie (TODO: `s1.scena.12.test.kradziez-dormitorium`, liczby w karcie zegarka).*
+
+### Spotkania bez rzutu (decyzja mechanika)
+
+- **B (Mnich i Irytek):** bez rzutu. Imię Ansela otwiera Mnicha samo; melodię Irytka rozpoznaje bez testu postać, która słyszała ją w scenie 03.
+- **D (Fairweather):** bez rzutu. Nazwisko Marrow daje życzliwość albo obietnica zapisu na Astronomię; „Bociana” dostaje się za dłuższą rozmowę, nie za wynik na kościach.
+- **H, część Filcha:** bez rzutu. Kto wysłucha narzekań, dostaje zdanie o zegarmistrzu (W8.3).
+- **K (Pince):** perswazji nie rzuca się. Szczera ciekawość daje W5.2 (rejestr), pochlebstwo i kłamstwo dają zimne „nie”. Jedyny rzut to gablota (test z karty miejsca), a gdy postacie szukają Marrow celowo, bez rzutu.
+- **M (gabinet, McGonagall):** bez rzutu. Uczciwa, krótka opowieść otwiera gargulca; Dumbledore nie podlega testom (odmowa Działu jest zawsze, bez kary).
+- **N (Ansel czeka):** bez rzutu. Wyrównanie kontaktu ma zawsze się udać; Więź rośnie najwyżej do 1, jak w dialogu.
+- **P (Wren):** perswazji nie rzuca się. Wren daje konkret o ocenach Vane'a (W4.6) za samo wysłuchanie; oskarżenie bez dowodu odrzuca niezależnie od liczb. Za kłamstwo, groźbę i przekupstwo kara jest narracyjna (szlaban, minus w jego oczach), bez testu.
+
+### H. Pogawędka z Crake'iem (wtorek, Sala Wejściowa)
+
+Ten sam test co w scenie 07 (`s1.scena.07.test.crake-pogawedka`) i w scenie 01, z tymi samymi liczbami. Gra się go **najwyżej raz w całej sesji**: kto poznał Crake'a w scenie 01 albo 07 (`flaga.crake-poznany`), nie rzuca ponownie, a spotkanie H z Crake'iem się nie odbywa (zostaje sam Filch).
+
+```yaml
+test:
+  id: s1.scena.12.test.crake-pogawedka
+  opis: "Pogawędka z Crake'iem przy wielkim zegarze w Sali Wejściowej (tylko we wtorek i tylko bez flaga.crake-poznany). Test standardowy (Walker 2e s. 3), rzuca jedna postać: ta, która prowadzi rozmowę. Próg 9 (próg bez nazwy, zasada domowa ZD-23; Walker podaje 9 jako trudność prostych uroków, s. 40), jak w s1.scena.01.test.crake-pogawedka i s1.scena.07.test.crake-pogawedka. Dłuższa rozmowa wymaga sukcesu imponującego (co najmniej 2 × trudność, s. 3), czyli wyniku 18 lub więcej. Przy Wits + Observation 9–10 (wszystkie archetypy) zwykły sukces jest pewny, a imponujący wypada w około 20–30% rzutów (z jednym pomocnikiem 30–40%, z dwoma 40–50%). Porażka zdarza się tylko postaciom z Wits + Observation 7 lub mniej. Story Points dorzuca się dopiero po porażce (s. 4). Gdy postać była niegrzeczna albo groziła, testu nie ma: Crake odchodzi według dialogu crake-sala-wejsciowa. Spotkanie H nie dubluje sceny 07: jeśli test już padł w 01 albo 07, ten test się nie odbywa."
+  kto: jeden
+  rzut: "1D10 + Wits + Observation"
+  trudnosc: 9
+  modyfikatory:
+    - warunek: "Każda inna postać, która aktywnie podtrzymuje rozmowę (pyta o zegary, chwali robotę, podaje narzędzie); najwyżej dwie (Working Together, współpraca, s. 4)"
+      wartosc: "+1 do rzutu"
+    - warunek: "Postać ma specjalizację Observation pasującą do sytuacji (np. Observation (Twarze); Specialism, s. 13)"
+      wartosc: "+1 do rzutu"
+    - warunek: "Postać nadal jest w stanie Drained (+3) albo Dazed (+2) po scenie 03 (s. 35)"
+      wartosc: "+3 do trudności"
+  wyniki:
+    - wynik: porazka
+      efekt: "Kilka uprzejmych zdań o zegarze i o humorach zamku (dialog crake-sala-wejsciowa, otwarcie i „Gdy postać pyta o zegar”). Crake jest poznany, nic więcej. Odchodzi z Filchem do wieży; w scenie 07 poznaje się go jeszcze raz bez testu."
+      flagi_ustaw: [flaga.crake-poznany]
+    - wynik: sukces
+      efekt: "Miły starszy pan pachnący olejem. Pada zdanie „wieża ostatnio wymaga więcej uwagi” (dialog crake-sala-wejsciowa, „Po teście pogawędki, sukces”; W8). Odchodzi, bo „pan woźny czeka”."
+      flagi_ustaw: [flaga.crake-poznany]
+    - wynik: sukces-imponujacy
+      efekt: "Jak sukces, a do tego postać zauważa zdjęcie dziewczyny w kopercie zegarka. Crake mówi chwilę dłużej o córce, zawsze w czasie przeszłym, i zamyka kopertę (dialog crake-sala-wejsciowa, „Po teście pogawędki, sukces imponujący”). Nic o Klepsydrze, pieczęci ani kliencie z Londynu."
+      flagi_ustaw: [flaga.crake-poznany, flaga.crake-dluga-rozmowa]
+```
+
+### L. Korepetycje z Tempus u Flitwicka
+
+Druga szansa dla postaci, której Tempus nie wyszedł w scenie 02 (zasada domowa ZD-21: Tempus to zaklęcie kampanii, Charm, umiejętność Charms, trudność startowa 9, jedna kratka). Archetypy A–D z szybkiej ścieżki mają w scenie 02 sukces pewny, więc w praktyce rzuca ten, kto miał niewypał albo połowiczny efekt (pełna ścieżka z niskim Focus + Charms), albo ktoś, kto lekcję opuścił. Kto już ma kratkę i `flaga.tempus-opanowane`, nie rzuca: Flitwick tylko poprawia nadgarstek i chwali.
+
+```yaml
+test:
+  id: s1.scena.12.test.tempus-korepetycje
+  opis: "Korepetycje z zaklęcia Tempus po lekcjach (Walker 2e s. 31–32: nauka zaklęcia pod okiem nauczyciela; s. 41: zasady rzucania). Rzut zaklęcia dla postaci, która jeszcze nie ma kratki Tempus (zasada domowa ZD-21). Rzut: 1D10 + Focus + Charms + premie różdżki do Charms (s. 27–30, 41) przeciw trudności 9. Poziomy wyniku jak w scenie 02 (tabela zaklęć s. 41 i ogólna s. 3): 4 lub mniej to niewypał, 5–8 połowiczny efekt, 9 i więcej pełny sukces, 18 i więcej sukces imponujący. Sukces zaznacza kratkę: zaklęcie jest opanowane i od tej pory działa bez rzutu (s. 31, 41). Korepetycje liczą się jak lekcja (założenie robocze: nauka pod okiem nauczyciela daje +1 do rzutu, jak Classroom w scenie 02). Każda postać rzuca raz na to spotkanie. Po porażce może wydać Story Point i dorzucić 1D10 (s. 4); jeśli dorzut da 9 lub więcej, to sukces. Po porażce bez Story Pointa kolejna próba najwcześniej po następnym pół dnia w fikcji (założenie robocze; Flitwick ma wtedy dyżur), więc nie wolno powtarzać rzutu w kółko do skutku. Story Point za naukę: 1 za korepetycje tylko wtedy, gdy postać nie dostała już punktu z nauki w tej sesji (limit ZD-19: najwyżej 1 punkt z nauki na sesję). Porażka niczego nie zamyka: wskazówki W1–W7 mają drogi bez Tempus."
+  kto: kazdy
+  rzut: "1D10 + Focus + Charms (zaklęcie: Tempus)"
+  trudnosc: 9
+  modyfikatory:
+    - warunek: "Korepetycje pod okiem nauczyciela (Classroom, s. 31–32); zawsze w tym spotkaniu"
+      wartosc: "+1 do rzutu"
+    - warunek: "Różdżka z premią do Charms (np. archetyp C: Black Walnut, Phoenix Feather, Charms +2; s. 27–30, 41). Premie do kategorii z s. 30 nie dotyczą Tempus (założenie kampanii: Tempus nie należy do żadnej z tych kategorii)."
+      wartosc: "+premia różdżki do rzutu (zwykle +1 albo +2)"
+    - warunek: "Postać ma specjalizację Charms pasującą do sytuacji (np. Charms (Uroki codzienne); Specialism, s. 13)"
+      wartosc: "+1 do rzutu"
+    - warunek: "Postać rzuca bez słowa (niewerbalnie, s. 41)"
+      wartosc: "+6 do trudności"
+    - warunek: "Postać rzuca bez różdżki (s. 41)"
+      wartosc: "+9 do trudności"
+    - warunek: "Postać nadal jest w stanie Drained (+3) albo Dazed (+2) po scenie 03 (s. 35)"
+      wartosc: "+3 do trudności"
+  wyniki:
+    - wynik: porazka-kompromitujaca
+      efekt: "Niewypał (Spell fumble, s. 41): z końca różdżki wydobywa się ciche, równe tykanie, jak z kieszonkowego zegarka. Flitwick: „Prawie! Prawie to już bardzo dużo”. Bez obrażeń, bez kary; tykanie przy tej różdżce do wieczora (możliwy ślad dla spotkania N, wariant 3). Kratki brak. Dorzut za Story Point jak w opisie."
+      flagi_ustaw: []
+    - wynik: porazka
+      efekt: "Połowiczny efekt (Spell near miss, s. 41): cyfry się formują, ale pokazują to, co zegar ścienny, a nie prawdziwą chwilę. Flitwick poprawia nadgarstek i proponuje jeszcze raz po odpoczynku. Kratki brak. Dorzut za Story Point jak w opisie."
+      flagi_ustaw: []
+    - wynik: sukces
+      efekt: "Wstawka „Dym nad końcem różdżki…”: srebrne cyfry prawdziwej chwili. Postać zaznacza kratkę: Tempus jest opanowane i działa bez rzutu, chyba że okoliczności dodają kary. Dostaje narzędzie do W3.3 (Flitwick, jeśli zapytać: „Boczy się od dwóch tygodni”). Zanotuj, która postać."
+      flagi_ustaw: [flaga.tempus-opanowane]
+    - wynik: sukces-imponujacy
+      efekt: "Jak sukces, a do tego cyfry pokazują też sekundy i trzymają się dłużej. Flitwick klaszcze i daje 5 punktów domowi (kolor). Efekt mechaniczny jak w scenie 02 (zasada domowa ZD-09, propozycja do akceptacji MG): przy pomiarach Tempus ta postać rozpoznaje, czy odczyt jest gładki, czy drżący, bez osobnego testu."
+      flagi_ustaw: [flaga.tempus-opanowane]
+```
+
+**RETRORSUM: rada dla MG** (zasada nasza, [[zasada.nagrody-z-teaserow]]). Archetyp z pewnym sukcesem nie potrzebuje korepetycji: nie każ mu rzucać, tylko pokaż wstawkę i daj Flitwickowi pochwalić nadgarstek. Rzut jest dla tych, którym naprawdę nie wyszło.
 
 ## Rozgałęzienia
 
