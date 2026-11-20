@@ -82,6 +82,12 @@ Terminy mechaniczne zostają w oryginale angielskim (Walker 2e). Ten słownik ob
 | Concealment | Umiejętność: ukrywanie siebie, sojuszników, przedmiotów i śladów | 21–23 |
 | Homonculous Charm | Urok śledzący położenie osób na mapie; w kampanii tylko za zgodą MG (może rozwiązać śledztwo jednym rzutem) | decyzja MG 2026-11-20 |
 | Archetyp (szybka ścieżka) | Gotowy pakiet cech, umiejętności, zaklęć i różdżki do tworzenia postaci w około 30 minut: odważny pojedynkowicz, bystry badacz, zręczny kombinator, empatyczny opiekun; zob. `zasada.tworzenie-postaci-6-rok` | nasze, szkic |
+| RETRORSUM | Zaklęcie z teasera (zwój z wieży obserwacyjnej): po nieudanym rzucie cofa chwilę i daje gwarantowany sukces (poziom Success, Walker s. 3); raz na sesję bez kosztów, drugie użycie w tej samej sesji łamie pieczęć i nakłada klątwę; zob. `zasada.nagrody-z-teaserow` | nasze, teaser MG, szkic |
+| Piętno (na różdżce) | Srebrna kreska na różdżce po każdym użyciu RETRORSUM; bez skutków mechanicznych | nasze, szkic |
+| Pieczęć (RETRORSUM) | Ochrona przed skutkami manipulacji czasem; pęka przy drugim użyciu RETRORSUM w jednej sesji | nasze, szkic |
+| Klątwa RETRORSUM | Trwały skutek pękniętej pieczęci, ujawniany w trzech etapach; ośmiu kandydatów (K1–K8) czeka na wybór MG | propozycja, czeka na decyzję MG |
+| Oko, które dostrzega ukryte | Zdolność pasywna z teasera: raz w Sesji 1 MG wskazuje istotny szczegół otoczenia (jak test spostrzegawczości z wynikiem Success, Walker s. 3); nie wyjaśnia, co on znaczy | nasze, teaser MG, szkic |
+| Licznik uderzeń | Licznik ucieczki przed pełnymi zabezpieczeniami zaklętej księgi (start 1, +3 za odcinek, 13 = schody się zamykają); zob. `przedmiot.zakleta-ksiega` | nasze, szkic |
 
 ## Skróty
 

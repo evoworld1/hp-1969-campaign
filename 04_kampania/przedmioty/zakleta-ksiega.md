@@ -56,25 +56,108 @@ Pod pulpitem kamienie posadzki są osmalone w nieregularną gwiazdę, a w kurzu 
 
 ## Mechanika
 
-Przedmiot bez statystyk. Obrażenia i stany dla poziomów 1–3, trudności i liczba odcinków ucieczki, skutki zaklęcia zapomnienia: ustala mechanik (graf Sesji 1, „Do weryfikacji”). Poniższy test to szkielet do uzupełnienia; mechanik może go przenieść do pliku sceny 09.
+Liczby ustalił mechanik (2026-11-20). Całość to mechanika przedmiotu (nasza), zbudowana z narzędzi Walkera: obrażenia i odporność (s. 35), stany zdrowia i czas powrotu (s. 35–36), współpraca (s. 4), rzut pościgu (s. 37). Terminy: Vitality (żywotność), Speed (szybkość), Balance (zręczność ciała), Shaken / Bruised / Bloodied / Lifeless (kolejne stany ciała: wstrząśnięty, posiniaczony, zakrwawiony, bez życia), Dazed (oszołomiony, stan umysłu).
+
+**Poziom 1 (pierwsze dotknięcie): bez rzutu, bez obrażeń.** Mrowienie do łokcia, zegary tykają raz. MG podnosi `flaga.ksiega-zabezpieczenia` do 1.
+
+**Poziom 2 (każde kolejne dotknięcie): porażenie.** Obrażenia 2D, potem 3D, potem 4D (więcej nie rośnie). Cel rzuca odporność `1D10 + Vitality` (s. 35). Poziom 2 to ostrzeżenie: rany z niego nigdy nie przekraczają stanu Bruised (2 kółka). Accio na księgę nie działa (jak przedmiot chroniony przed kradzieżą, s. 47), ale liczy się jako dotknięcie, a porażenie idzie przez różdżkę.
+
+```yaml
+test:
+  id: przedmiot.zakleta-ksiega.test.porazenie
+  opis: "Poziom 2 zabezpieczeń: postać dotyka księgi (ręką, różdżką, zaklęciem przyciągającym, próbą przewrócenia strony). Rzut odporności na porażenie."
+  kto: jeden
+  rzut: "1D10 + Vitality"
+  trudnosc: "obrażenia: 2D przy pierwszym dotknięciu na poziomie 2, 3D przy drugim, 4D przy każdym następnym"
+  modyfikatory:
+    - warunek: "Postać dotyka przez rękawicę, szatę albo przedmiot (nie różdżką)"
+      wartosc: "+2 do rzutu"
+  wyniki:
+    - wynik: sukces
+      efekt: "Rzut odporności jest wyższy od obrażeń: brak rany. Odrzut o krok, łuna ciemnieje, wahadła w galerii zaczynają się kołysać."
+      flagi_ustaw: [flaga.ksiega-zabezpieczenia]
+    - wynik: porazka
+      efekt: "Obrażenia równe rzutowi albo wyższe: 1 kółko (Shaken, +1 do trudności, mija po kilku sekundach). Odrzut o metr, różdżka wylatuje z dłoni (podniesienie to akcja darmowa, s. 33). Hałas: pani Pince albo Filch na górze zaczynają nasłuchiwać."
+      flagi_ustaw: [flaga.ksiega-zabezpieczenia]
+    - wynik: porazka-kompromitujaca
+      efekt: "Obrażenia co najmniej dwa razy wyższe od rzutu: 2 kółka (Bruised, +2 do trudności, mija po kilku minutach) i test 1D10 + Vitality przeciw 5 (3 + obecna kara, ZD-10), by nie stracić przytomności; nieprzytomny budzi się po Rennervate albo po kilku minutach (ZD-14). Rana nie bywa cięższa niż Bruised."
+      flagi_ustaw: [flaga.ksiega-zabezpieczenia]
+```
+
+**Poziom 3: ucieczka przed trzynastym uderzeniem.** MG prowadzi **licznik uderzeń** (na kartce albo kośćmi na stole). Sala budzi się z pierwszym uderzeniem: licznik = 1. Ucieczka ma trzy odcinki, każdy to jeden test grupowy: gracze wybierają postać, która prowadzi i rzuca; każda inna postać, która pomaga, daje +1 do rzutu (Working Together, s. 4).
+
+1. **Sala:** zegary ruszają, z gwoździków lecą kieszonkowe zegarki, posadzka drży.
+2. **Galeria wahadeł:** wahadła tną szybko, każde w innym rytmie.
+3. **Tykające schody:** stopnie zapadają się po kolei, od dołu.
+
+Każdy odcinek dodaje do licznika 3 uderzenia. Porażka dodaje cenę. Bez porażek grupa wychodzi przy uderzeniu 10; jedna porażka z ceną „uderzenia” to 12, więc wciąż zdążą. Gdy licznik dojdzie do 13, zanim skończy się trzeci odcinek, każda postać, która jest jeszcze w środku, wykonuje **ostatni skok**.
 
 ```yaml
 test:
   id: przedmiot.zakleta-ksiega.test.ucieczka
-  opis: "Pełne zabezpieczenia (poziom 3): postacie uciekają z sali przez galerię wahadeł i po tykających schodach, zanim wybije trzynaste uderzenie. Propozycja: jeden test grupowy na odcinek, dwa albo trzy odcinki."
+  opis: "Pełne zabezpieczenia (poziom 3). Jeden test grupowy na każdy z trzech odcinków: sala, galeria wahadeł, tykające schody. Ten sam rzut na każdym odcinku. Każdy odcinek: +3 do licznika uderzeń (start: 1)."
   kto: grupa
-  rzut: "DO-USTALENIA"
-  trudnosc: "DO-USTALENIA"
+  rzut: "1D10 + Speed + Balance"
+  trudnosc: "Challenging (15)"
+  modyfikatory:
+    - warunek: "Każda inna postać, która pomaga prowadzącej (Working Together, s. 4)"
+      wartosc: "+1 do rzutu"
+    - warunek: "Ktoś oświetla drogę albo na galerii ktoś liczy rytm wahadeł na głos (raz na odcinek)"
+      wartosc: "+1 do rzutu"
+    - warunek: "Rany i stany prowadzącej (s. 35), np. Shaken po porażeniu"
+      wartosc: "+1 do trudności"
   wyniki:
+    - wynik: sukces-imponujacy
+      efekt: "Grupa przebiega odcinek wyjątkowo sprawnie: ten odcinek dodaje tylko 2 uderzenia zamiast 3."
+      flagi_ustaw: []
     - wynik: sukces
-      efekt: "Grupa przebiega odcinek bez strat. Po ostatnim odcinku drzwi w bibliotece zatrzaskują się za nimi, bicie milknie."
+      efekt: "Grupa przebiega odcinek bez strat (+3 uderzenia). Po trzecim odcinku drzwi w bibliotece zatrzaskują się za nimi, bicie milknie."
       flagi_ustaw: []
     - wynik: porazka
-      efekt: "MG wybiera cenę: jedno uderzenie zegara bliżej zamknięcia, obrażenia dla jednej postaci albo upuszczona rzecz. Droga dalej jest otwarta, dopóki nie wybije trzynaste uderzenie. Jeśli wybiło, a ktoś jest jeszcze w środku: siatka bezpieczeństwa 8."
+      efekt: "+3 uderzenia i MG wybiera jedną cenę (może oddać wybór graczom): +2 uderzenia; albo obrażenia 2D dla jednej postaci (wahadło, spadający zegar, zapadający się stopień) przeciw 1D10 + Vitality; albo upuszczona rzecz (różdżka zostaje w sali do końca sceny, notatnik zostaje w środku, karta upada na posadzkę). Droga dalej jest otwarta."
+      flagi_ustaw: []
+    - wynik: porazka-kompromitujaca
+      efekt: "+3 uderzenia i dwie różne ceny z listy przy porażce (MG wybiera)."
+      flagi_ustaw: []
+```
+
+```yaml
+test:
+  id: przedmiot.zakleta-ksiega.test.ostatni-skok
+  opis: "Licznik doszedł do 13, a grupa nie skończyła trzeciego odcinka. Schody się zamykają. Każda postać, która jest jeszcze w środku, rzuca osobno (rzut jak w pościgu pieszym, s. 37). Kolejność dowolna; kto zdążył, może podać rękę następnym."
+  kto: kazdy
+  rzut: "1D10 + Vitality + Speed"
+  trudnosc: "Tricky (12)"
+  modyfikatory:
+    - warunek: "Każda postać, która już zdała ostatni skok i podaje rękę (Working Together, s. 4)"
+      wartosc: "+1 do rzutu"
+    - warunek: "Rany i stany skaczącej postaci (s. 35)"
+      wartosc: "+1 do trudności"
+  wyniki:
+    - wynik: sukces
+      efekt: "Postać przeciska się przez zamykające się drzwi w ostatniej chwili, z naderwaną szatą."
+      flagi_ustaw: []
+    - wynik: porazka
+      efekt: "Drzwi zamykają się przed nią. Siatka bezpieczeństwa 8 (test „złapani” niżej). Przed rzutem gracz może jeszcze wydać Story Point (dorzut 1D10, s. 4) albo użyć RETRORSUM (zasada.nagrody-z-teaserow)."
       flagi_ustaw: [flaga.ksiega-zlapani]
 ```
 
-Uwaga: `flaga.ksiega-zlapani` ustawia się przy porażce tylko wtedy, gdy wybiło trzynaste uderzenie, a postać nie zdążyła. Poziom zabezpieczeń (`flaga.ksiega-zabezpieczenia`) MG podnosi przy każdym dotknięciu, bez rzutu.
+```yaml
+test:
+  id: przedmiot.zakleta-ksiega.test.zlapani
+  opis: "Siatka bezpieczeństwa 8: postać nie zdążyła przed trzynastym uderzeniem. Bez rzutu: skutek stały, żeby porażka kosztowała, ale nie zatrzymywała gry."
+  kto: jeden
+  rzut: "brak rzutu"
+  trudnosc: "brak"
+  wyniki:
+    - wynik: zawsze
+      efekt: "Postać budzi się na podłodze ostatniego rzędu Działu Ksiąg Zakazanych. Ciało: stan Bloodied (3 kółka, +3 do trudności; jeśli ma już gorszy stan, zostaje gorszy). Umysł: Dazed (+2) do końca sceny przebudzenia. Pamięć: brak ostatnich minut w pracowni (od chwili, gdy zaczęło się bicie); to skutek magii pracowni, nie zaklęcie Obliviate, więc nie ma rzutu obronnego ani stanu trwałego (s. 36). Noc i dzień w skrzydle szpitalnym: pani Pomfrey zdejmuje kółka zaklęciami (Vulnera Sanentur, s. 59); do końca Sesji 1 zostaje Shaken (+1). Cena: zegar kradzieży +1, znalezienie przez panią Pince albo Filcha, pytania nauczycieli. Grę zapomnienia MG uzgadnia z graczem na kartce."
+      flagi_ustaw: [flaga.ksiega-zlapani, flaga.filch-zlapal, flaga.s1-zegar-kradziezy]
+```
+
+**Śmierć (tylko po dwóch ostrzeżeniach).** Pierwsze ostrzeżenie: MG mówi poza fikcją przed próbą wyrwania kartki (poziom 3). Drugie: gdy postać po trzynastym uderzeniu świadomie zostaje albo wraca do księgi, MG pyta: „Jeśli zostanie, może zginąć. Na pewno?”. Dopiero wtedy co rundę (około 3 sekund, s. 33) postać dostaje **3D obrażeń** przeciw `1D10 + Vitality` (skala jak trucizna śmiertelna, s. 38). Szóste kółko (Lifeless, s. 35) oznacza śmierć. Gracz może w każdej rundzie zmienić zdanie: wtedy pracownia wypluwa postać jak w teście „złapani”, z gorszym z dwóch stanów ciała. Linie i zasłony ustalone przy stole mają pierwszeństwo.
+
+**Po ucieczce** księga „pamięta”: następne dotknięcie w tej sesji to poziom 2, od 3D.
 
 ## Dla MG
 
@@ -101,4 +184,4 @@ Uwaga: `flaga.ksiega-zlapani` ustawia się przy porażce tylko wtedy, gdy wybił
 - Dopiski Marrow w księdze to wariant roboczy Twórcy NPC (wyjaśnia, skąd na wyrwanej karcie jej ręka; zob. [[przedmiot.karta-pozyczajacego]]). Do potwierdzenia przez MG.
 - Autor księgi, treść zagadek, pochodzenie zabezpieczeń: do ustalenia przed Sesją 2.
 - Czy [[npc.silas-wymark]] wie o księdze (był asystentem Marrow w 1951): nieustalone.
-- Liczby: mechanik.
+- Liczby (mechanik, 2026-11-20): do akceptacji MG; zwłaszcza trudność ucieczki Challenging (15) i stan Bloodied dla złapanych.

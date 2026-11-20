@@ -48,7 +48,7 @@ Zegarek należał do dziadka Cassiana. Wskazówki stanęły w godzinie jego śmi
 
 Terminy Walkera w testach: Wits (bystrość), Speed (szybkość), Observation (spostrzegawczość), Concealment (ukrywanie), Chicanery (podstęp).
 
-Bez własnych statystyk. W rękach Cassiana zegarek zasila jego zdolność „Skradzione Chwile” (opis w karcie [[npc.cassian-vane]]; dodatkowe akcje ponad zwykłe dwie w rundzie, Walker 2e s. 33; liczby ustala mechanik). Trudność wycelowania zaklęcia w kieszonkę ustala mechanik.
+Bez własnych statystyk. W rękach Cassiana zegarek zasila jego zdolność „Skradzione Chwile” (opis w karcie [[npc.cassian-vane]]; dodatkowe akcje ponad zwykłe dwie w rundzie, Walker 2e s. 33; liczby ustala mechanik). Trudność wycelowania zaklęcia w kieszonkę i zniszczenia zegarka: niżej.
 
 ```yaml
 test:
@@ -71,13 +71,39 @@ test:
 
 Uwaga dla mechanika: kandydaci na `rzut` to `1D10 + Speed + Concealment` albo `1D10 + Speed + Chicanery` (Speed to szybkość, Concealment to ukrywanie, Chicanery to podstęp; nazwy z listy Walkera, s. 12 i 21–23). `flaga.zegarek-cassiana` ma przy wygranej wartość `u-graczy`.
 
+**Zniszczenie zegarka (liczby: mechanik, 2026-11-20).** Podręcznik ma zasady niszczenia tylko dla zaklęć wysadzających (Blasting Spells, s. 42): obrażenia porównuje się z wytrzymałością materiału (meble 10, mocne drzwi 20). Zwykły zegarek byłby poniżej mebli, ale magia karty go wzmacnia: **wytrzymałość 15**. Dla zwykłego uderzenia (młotek, kamień, rzut o posadzkę) podręcznik nie podaje zasad (brak w podręczniku, s. 35 i 42); propozycja zasady domowej: liczyć je jak cios bronią improwizowaną, **2D + Vitality** obrażeń, i porównać z wytrzymałością tak samo jak przy wysadzaniu. Jedna próba to jedna akcja (s. 33); poza walką próbować można do skutku, ale każda nieudana próba kosztuje hałas i czas.
+
+```yaml
+test:
+  id: przedmiot.zegarek-cassiana.test.zniszczenie
+  opis: "Postać próbuje zniszczyć zegarek. Rzuca obrażenia i porównuje z wytrzymałością 15 (s. 42). Reducto (4D + Focus + 20, s. 56), Confringo i Bombarda (6D + Focus + 30, s. 48–49) niszczą go zawsze, o ile zaklęcie się uda. Incendio go nie rusza (srebro), Diffindo przecina tylko łańcuszek."
+  kto: jeden
+  rzut: "obrażenia: 2D + Vitality (uderzenie, zasada domowa) albo obrażenia zaklęcia wysadzającego"
+  trudnosc: "wytrzymałość 15"
+  modyfikatory:
+    - warunek: "Zegarek leży na kamieniu, a postać uderza czymś ciężkim i twardym (młotek, kamień)"
+      wartosc: "+2 do rzutu"
+    - warunek: "Cassian jest obok i próbuje przeszkodzić (zamiast tego może być test przeciwny lub walka)"
+      wartosc: "+3 do trudności"
+  wyniki:
+    - wynik: sukces
+      efekt: "Obrażenia równe wytrzymałości albo wyższe: szkiełko pęka, z koperty wylatuje ciche, długie westchnienie. Skutki z „Dla MG”: Ansel migocze, część skradzionych godzin wraca do ofiar, zegar kradzieży staje. Reparo (s. 57) składa obudowę, ale magii nie przywraca."
+      flagi_ustaw: [flaga.zegarek-cassiana]
+    - wynik: porazka
+      efekt: "Mniej niż wytrzymałość: zegarek odskakuje, rysa na szkiełku się wydłuża, a w środku tyka głośniej. Jeśli Cassian jest w zamku, czuje to jak ukłucie w piersi i wie, że ktoś próbował. Można spróbować znowu."
+      flagi_ustaw: []
+```
+
+**Celowanie w kieszonkę w walce (propozycja zasady domowej).** Expelliarmus (s. 51) wytrąca tylko to, co przeciwnik trzyma w dłoni, więc działa na zegarek, gdy Cassian go wyjmie (po każdym użyciu Skradzionych Chwil dotyka kieszonki). Zegarek w kieszonce wyrywa Accio (s. 47) traktowane jak zaklęcie celowane (s. 33, 165): cel to obrona Cassiana **+4 do trudności** (osłona około 40%, +2 za każde 20%, s. 165).
+
+
 ## Dla MG
 
 **Prawda.** Zegarek nie jest magicznym przedmiotem z natury. Stał się kanałem, bo Cassian zrobił z nim to, czego uczy karta. Dlaczego karta wymaga zegara, który stanął, i co to mówi o daninie czasu, wyjaśni się najwcześniej w Sesji 2.
 
 **Cassian i zegarek.** To jego słaby punkt i jego wstyd naraz: prezent od ojca, którego się boi. Odebranie zegarka wstrząsa nim bardziej niż przegrana. Litość i rozmowa o dziadku mogą go złamać szybciej niż groźba.
 
-**Zniszczenie zegarka (decyzja MG 2026-11-20).** Gdy zegarek pęka (zaklęcie, młotek, rzucony o kamień; liczby ustala mechanik), dzieją się trzy rzeczy naraz:
+**Zniszczenie zegarka (decyzja MG 2026-11-20).** Gdy zegarek pęka (zaklęcie, młotek, rzucony o kamień; test `przedmiot.zegarek-cassiana.test.zniszczenie` w „Mechanice”), dzieją się trzy rzeczy naraz:
 - **Ansel migocze**, gdziekolwiek jest: brzegi się strzępią, głos dochodzi jak z innego pokoju. Wraca do siebie przed końcem sceny; trwałego skutku brak.
 - **Część skradzionych godzin wraca do ofiar.** Przykład do pokazania przy stole: [[npc.maisie-lock]] nagle pamięta swój kwadrans i zaczyna płakać ze śmiechu na korytarzu; drugoroczniak, który „przespał lekcję”, przypomina sobie, co na niej było. Wracają godziny innych ofiar, nie wszystkie.
 - **Zegar kradzieży staje** na stałe (`flaga.zegarek-cassiana` = `zniszczony`).

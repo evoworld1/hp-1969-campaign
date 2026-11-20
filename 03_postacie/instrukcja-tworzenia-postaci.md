@@ -162,6 +162,10 @@ Dwa lata temu, na 4. roku, wasze postacie razem coś odkryły albo przeskrobały
 
 Odpowiedzi zapiszcie krótko na odwrocie kart postaci. MG wykorzysta je w grze.
 
+### Nagrody z teaserów (obie ścieżki, wpisuje MG)
+
+Jeśli przed kampanią zdobyłeś nagrodę w teaserze (zaklęcie **RETRORSUM** albo zdolność **„Oko, które dostrzega ukryte”**), MG wpisze ją na twoją kartę w dniu sesji i da ci kartkę z jej treścią. Sam nic nie dopisujesz, a nagrody nie liczą się do punktów ani kratek z tej instrukcji. Zasady dla MG: [[zasada.nagrody-z-teaserow]].
+
 ## Jak używać przy stole
 
 - **Dla MG, przy sprawdzaniu karty:** cechy sumują się do 22; umiejętności do 53 plus premia z pochodzenia; kratki do 50 (lata 1–5), 30 (lata 6–7 albo eliksiry zaawansowane) i do 3 z kroku 6b. Według tabeli poziomów (s. 102) to cechy jak u najlepszych w klasie, a umiejętności jak u ucznia zdolnego. Archetypy z szybkiej ścieżki spełniają te sumy (cechy 22, umiejętności 53, kratki 50 + 30) i mają co najmniej 1 punkt w dwóch fakultetach.
