@@ -57,7 +57,123 @@ aktualizacja: 2026-11-20
 ---
 ## Do odczytania
 
-TODO (narrator-scen): tekst 1 (wymykanie się nocą), tekst 2 (ostatni rząd, przycisk w kształcie klepsydry), tekst 3 (drzwi i tykające schody), tekst 4 (galeria wahadeł), tekst 5 (Sala Zatrzymanych Godzin), tekst 6 (zaklęta księga w niebieskawej łunie), tekst 7 (pełne zabezpieczenia: trzynaście uderzeń), tekst 8 (gablota i tabliczka), tekst 9 (gablota się otwiera).
+*Każdy tekst ma podtytuł, który mówi, kiedy go przeczytać. Teksty 1–6 i 8 idą po kolei, w miarę jak postacie schodzą coraz niżej. Tekst 7 tylko przy pełnych zabezpieczeniach księgi. Tekst 9 ma dwa warianty, zależnie od tego, czyją godzinę dostała gablota. Teksty 10–12 to wstawki do sytuacji szczególnych. Czytaj ciszej niż zwykle: to noc i nikt nie powinien was słyszeć. Teksty 7 i 10 czytaj szybciej, krótkimi oddechami.*
+
+### 1. Nocna wyprawa (zawsze, po ciszy nocnej)
+
+Po ciszy nocnej zamek oddycha inaczej. Pochodnie przygaszono do połowy, więc światło leży na posadzce w okrągłych plamach, a między nimi ciemność jest gęsta jak sukno. Portrety śpią. Jakiś starzec w peruce chrapie tak głośno, że rama lekko drży na gwoździu. Kamień ciągnie chłodem przez podeszwy, a każdy krok wraca echem o pół sekundy za późno, jakby ktoś szedł tuż za wami.
+
+Gdzieś daleko, piętro niżej albo dwa, metal dzwoni o metal. Pęk kluczy. Potem szuranie, powolne i ciężkie. Potem cisza, w której słychać już tylko syk pochodni.
+
+Drzwi biblioteki są wysokie i ciemne. Mosiężna klamka łapie światło ostatniej pochodni na korytarzu. Spod drzwi wypływa zapach kurzu, kleju i wosku.
+
+### 2. Ostatni rząd (gdy postacie przejdą za linę Działu Ksiąg Zakazanych)
+
+Za wyświechtaną liną regały stoją ciaśniej i są ciemniejsze, jakby grzbiety piły światło różdżek. Na wysokiej półce coś szeleści, choć nikt jej nie dotknął. Z jednej grubej książki dobiega ciche, gniewne mruczenie, jak z kocura, któremu przeszkodzono w spaniu.
+
+Ostatni rząd jest najwęższy. Trzeba iść bokiem, plecami do grzbietów, a kurz łaskocze w nosie. Na samym końcu regału, tam, gdzie powinna stać ostatnia książka, stoi mosiężny przycisk w kształcie klepsydry. Cała półka jest szara od pyłu. Klepsydra lśni, jakby ktoś przecierał ją co rano.
+
+Dalej nie ma nic. Goła kamienna ściana, sucha i chłodna. Bez drzwi, bez zawiasów, bez szpary, w którą dałoby się wsunąć choćby paznokieć.
+
+### 3. Drzwi i tykające schody (gdy drzwi się otworzą)
+
+Kamień nie skrzypi i nie odsuwa się. Po prostu przestaje być kamieniem. Krawędzie bloków rozmywają się jak cyfry na zaparowanej tarczy i w ich miejscu zostaje wąski, ciemny prześwit. Z dołu ciągnie suchym powietrzem. Pachnie kredą, mosiądzem i świecą, którą ktoś zdmuchnął bardzo dawno temu.
+
+Schody schodzą w dół, strome i kręte, tak wąskie, że idzie się gęsiego. Gdy na pierwszym stopniu staje stopa, kamień odpowiada cichym tyknięciem. Następny stopień: tyk. I następny. Każdy odzywa się trochę innym tonem, jak sekundniki w zegarach, które nigdy nie chodziły równo.
+
+Na górze, za plecami, prześwit wciąż jest otwarty. Ciemny prostokąt i w nim kawałek regału.
+
+### 4. Galeria wahadeł (u stóp schodów)
+
+U stóp schodów korytarz rozszerza się w długą, niską galerię. Ze sklepienia, w kilku rzędach, zwisają wahadła: mosiężne dyski wielkości talerza na cienkich prętach, a gdzieniegdzie większe, ciężkie jak tarcze rycerzy. Kołyszą się. Każde w innym rytmie: jedno wolno, jak oddech śpiącego, inne nerwowo, prawie na granicy brzęku. Przelatują nisko, na wysokości piersi, i z cichym świstem przecinają miejsce, w którym przed chwilą było tylko powietrze.
+
+Światło różdżek ślizga się po ich brzegach. Pręty skrzypią w zawieszeniach.
+
+Na posadzce, w kurzu, ktoś przed wami przeszedł tę drogę. Ślady idą zygzakiem: krótki krok, długi sus, znowu krótki.
+
+### 5. Sala Zatrzymanych Godzin (gdy postacie wyjdą z galerii)
+
+Za galerią sklepienie się podnosi i otwiera się długa sala. Tu jest cicho. Nie spokojnie: cicho tak, jak w pokoju, w którym ktoś wstrzymał oddech i boi się go wypuścić.
+
+Na ścianach wiszą zegary. Dziesiątki zegarów. Kieszonkowe na gwoździkach, rzędem jak klucze w portierni. Kuchenne z malowanymi różyczkami. Ścienne w ciemnych skrzynkach. Przy przeciwległej ścianie jeden wysoki jak drzwi. Żaden nie tyka. Wskazówki stoją, każda gdzie indziej: za kwadrans trzecia, dziesięć po siódmej, minuta przed północą.
+
+Na długiej ścianie po lewej ktoś zapisał kredą kamień od posadzki po sklepienie: rzędy liczb, strzałki, tarcze rysowane od ręki, każda o jedną kreskę za dużo. Kreda wygląda świeżo, choć kurz mówi, że nikt tu nie sprzątał od lat.
+
+Pośrodku sali, nad czymś drewnianym, wisi niebieskawe światło. Za nim, na samym końcu, połyskuje szkło.
+
+### 6. Zaklęta księga (gdy postacie podejdą do pulpitu)
+
+Z bliska to pulpit do czytania: ciemny, wypolerowany dłońmi, z nogą rzeźbioną w pnące się liście i w tarcze zegarowe tak drobne, że trzeba się pochylić, żeby je dojrzeć. Blat jest pusty. Księga wisi nad nim w powietrzu, otwarta, na szerokość dłoni od drewna.
+
+Otacza ją niebieska łuna, jak księżyc odbity w wiadrze wody. Przygasa i jaśnieje, powoli i równo. Strony mają kolor starej kości. Pokrywa je gęste, kanciaste pismo, którego nie umiecie przeczytać, i rysunki kół zębatych, i strzałki, które zawracają same do siebie. Na marginesach ktoś coś dopisywał drobną, pochyłą ręką.
+
+Przy grzbiecie, tuż obok rozkładówki, sterczy wąski, poszarpany pasek. Ktoś tu wyrwał kartkę.
+
+Pod pulpitem kamienie są czarne od sadzy, rozlane w nierówną gwiazdę. Od gwiazdy przez kurz biegną długie, rozmazane ślady. Ktoś się tu ślizgał. Ktoś stąd uciekał.
+
+### 7. Trzynaście uderzeń (tylko przy pełnych zabezpieczeniach, poziom 3)
+
+Księga nie puszcza. Coś trzaska cicho, jak suchy liść, i w dłoni zostaje tylko róg kartki: trójkątny strzęp, ciepły jak żywa skóra.
+
+A potem sala się budzi.
+
+Wszystkie zegary ruszają naraz. Dziesiątki wskazówek skaczą, sprężyny jęczą, wahadło w wielkim zegarze przy ścianie zamachuje się, jakby ktoś je pchnął. Z gwoździków sypią się kieszonkowe zegarki i dzwonią o posadzkę jak grad. Łuna nad pulpitem robi się biała i ostra, aż bolą oczy.
+
+Pierwsze uderzenie. Głębokie, z kamienia, z posadzki, z waszych żeber.
+
+Z galerii dobiega świst. Wahadła już się nie kołyszą. Tną.
+
+Drugie uderzenie.
+
+### 8. Gablota i tabliczka (gdy postacie podejdą na koniec sali)
+
+Na końcu sali, pod ścianą, stoi gablota: wysoka szafka z mosiądzu i szkła, z drzwiczkami bez zamka i bez klamki. Mosiądz zmatowiał ze starości, ale szkło jest czyste, jakby nikt nigdy nie śmiał dotknąć go brudną ręką. Bije od niego lekkie ciepło, jak od policzka.
+
+W środku, na aksamicie koloru starego wina, leży gruby notatnik w ciemnej skórze, otwarty na pierwszej stronie. Pismo jest drobne i pochyłe. Kiedy próbujecie je przeczytać, litery odpływają jak odbicie w poruszonej wodzie. Na marginesie jest chyba jakiś rysunek, ale w tym świetle trudno go złapać wzrokiem.
+
+Na mosiężnej ramie, nad drzwiczkami, ta sama pochyła ręka wyryła kilka słów:
+
+„Co dane, można zatrzymać; co zabrane, trzeba zwrócić.”
+
+### 9. Gablota się otwiera (po oddaniu godziny)
+
+**Wariant A: godzina oddana (przez jedną postać albo podzielona między kilka).**
+
+Pod dłonią szkło najpierw chłodnieje, potem robi się ciepłe, coraz cieplejsze. Gdzieś w sali jeden z zatrzymanych zegarów tyka. Raz. Tylko raz.
+
+Coś odpływa. Nie boli. To jak ciepło, które ucieka z ręki zanurzonej w strumieniu: powoli, równo, do samego końca. Światło różdżki przygasa i wraca. Wskazówka na czyimś zegarku drga, staje na mgnienie oka, a potem idzie dalej, jakby nic się nie stało.
+
+Mosiężne drzwiczki odskakują z cichym kliknięciem, jakby ktoś od środka przesunął zasuwkę.
+
+Strona notatnika przestaje pływać. Litery stoją w miejscu. Pierwszą stronę da się przeczytać.
+
+**Wariant B: godzina zabrana komuś innemu (karta i zegarek Cassiana).**
+
+Zegarek tyka pod palcami jak drugie, obce serce, a brzegi pergaminu jarzą się na niebiesko. Gablota przyjmuje to, co jej podajecie. Drzwiczki odskakują, równie cicho i równie grzecznie.
+
+Tylko zegary na ścianach milczą. Żaden nie tyka, nawet raz. Cisza w sali jest teraz inna: cięższa, jakby ktoś dopisał coś do rachunku.
+
+Strona notatnika przestaje pływać. Pierwszą stronę da się przeczytać.
+
+### 10. Cassian przy gablocie (tylko gdy zegar kradzieży doszedł do 4)
+
+W głębi sali pali się światło, którego nie zapaliliście. Przy gablocie, plecami do was, stoi wysoki chłopiec w szacie Slytherinu. Cassian Vane. Lewą dłoń, owiniętą bandażem, przyciska płasko do szkła.
+
+Szkło pod jego palcami matowieje, jakby ktoś na nie chuchnął, i mętna plama rośnie, aż zasłania notatnik. Cassian syczy przez zęby, cofa rękę, potrząsa nią i przykłada znowu. W drugiej dłoni ściska coś małego i okrągłego, co błyska mosiądzem.
+
+Zegary na ścianach stoją. W ciszy słychać tylko jego oddech, szybki i nierówny.
+
+### 11. Gablota wyłamana (gdy postacie otworzą ją siłą)
+
+Szkło pęka z dźwiękiem, który w tej ciszy brzmi jak wystrzał. Odłamki sypią się na aksamit i na posadzkę, a echo biegnie w górę po schodach, stopień po stopniu, tyk, tyk, tyk, aż gdzieś pod samą biblioteką.
+
+Notatnik leży wśród odłamków. Pierwsza strona się uspokaja i da się ją przeczytać. Ale gdy kartki przesuną się pod palcami, na kilku następnych litery nie wracają na miejsce: rozlewają się w szare smugi, jak atrament w deszczu.
+
+### 12. Pobudka w nocy (tylko siatka bezpieczeństwa 6, gdy postacie śpią, a Ansel nikogo nie budzi)
+
+Budzi was dźwięk, którego nie powinno być. Gdzieś w zamku bije zegar, nisko i ciężko, choć do pełnej godziny daleko. Raz. Drugi. Potem cisza tak głęboka, że słychać szum krwi w uszach.
+
+Różdżka na nocnej szafce leży nieruchomo. Kto jej dotknie, poczuje, że drewno drży lekko, jakby w środku coś tykało.
 
 ## Dla MG
 
@@ -65,7 +181,17 @@ TODO (narrator-scen): tekst 1 (wymykanie się nocą), tekst 2 (ostatni rząd, pr
 
 **Wejście:** `flaga.lokalizacja-pracowni` albo droga awaryjna (Tempus przy półkach, rejestr wypożyczeń, śledzenie Cassiana, zegar kradzieży 4). Zawsze nocą, bez zgody (decyzja MG z 2026-11-20).
 
-**Co się naprawdę dzieje.** TODO. Galeria wahadeł to cena, nie bramka. Księga nie jest przeszkodą obowiązkową. Siłowe otwarcie gabloty nie uruchamia zabezpieczeń księgi.
+**Co się naprawdę dzieje.** Pod biblioteką, za ścianą ostatniego rzędu Działu Ksiąg Zakazanych, leży dawna pracownia profesor Marrow ([[miejsce.sala-zatrzymanych-godzin]]). Tu w 1951 roku studiowała zaklętą księgę i budowała Klepsydrę Daniny. Drzwi otwiera „godzina, której nie ma”: trzynasta. Zatrzymane zegary na ścianach to rachunki z 1951 roku, chwile, w których Klepsydra pobrała z zamku „zapłatę” za trwanie Ansela; **w tej sesji nikt graczom tego nie wyjaśnia**, zegary tylko stoją i tykają przy zabezpieczeniach księgi. Trzy tygodnie temu był tu Cassian: nie rozwiązał zagadek księgi, wyrwał z niej kartę ([[przedmiot.karta-pozyczajacego]]), obudził pełne zabezpieczenia i ledwo uciekł. Osmalone kamienie i biegnące ślady w kurzu to pamiątka tamtej nocy. Notatnik Marrow w gablocie jest cały i jest jedną z kotwic Ansela: gdy przekroczy próg sali, w całym zamku wybije trzynasty raz (scena 10).
+
+**Co jest obowiązkowe, a co nie.** Obowiązkowe są tylko dwie przeszkody: **drzwi** (W6) i **gablota** (W7). Galeria wahadeł to **cena, nie bramka**: przejście jest zawsze. Ściana obliczeń z zakazaną lekcją to pokusa. Zaklęta księga **nie jest przeszkodą**: to obraz, ostrzeżenie i ziarno na Sesję 2. Siłowe otwarcie gabloty **nie** budzi zabezpieczeń księgi; to dwa osobne mechanizmy.
+
+**Jak otworzyć drzwi (założenie robocze).** Przyjmij każde rozsądne „trzynaście” skierowane do ściany albo przycisku-klepsydry: trzynaście stuknięć w kamień, trzynaście obrotów klepsydry, przesunięcie wskazówki w dymnej tarczy Tempus na trzynastą kreskę, wystukanie rytmu bicia, które słychać zza ściany. Drzwi otwierają się wtedy bez rzutu (tekst 3). Test `s1.scena.09.test.drzwi` służy tylko do **znalezienia** odpowiedzi (nasłuchiwanie, Tempus), nie do samego otwarcia. Prześwit zostaje otwarty, dopóki postacie są w środku; zamyka się dopiero po trzynastym uderzeniu przy pełnych zabezpieczeniach albo po wyjściu ostatniej osoby.
+
+**Jak oddać godzinę gablocie (założenie robocze).** Wystarczy dłoń na szkle albo na mosiężnej ramie i wyraźny zamiar oddania czasu, wypowiedziany na głos albo w myślach (gracz mówi to MG). Kilka postaci może położyć dłonie razem i podzielić koszt. Sam koszt (zmęczenie, stan, ile minut na osobę) ustala mechanik. Zwykły przedmiot (moneta, cukierek, pióro) **nie** otwiera gabloty, ale nie jest błędem: szkło lekko cieplej, a jeden zegar w sali tyka raz. To znak „jesteście blisko”, nie odmowa. Próba **zabrania** czegoś gablocie (zaklęcie przyciągające, ręka na szkle z zamiarem wzięcia) kończy się tak jak u Cassiana: szkło matowieje i robi się zimne. Ansel nie może oddać godziny za postacie: nie ma własnego czasu; jeśli spróbuje, szkło nie reaguje, a on na chwilę blednie (tylko kolor, bez skutków).
+
+**Ansel w tej scenie (krótko; pełne reakcje w „Obecnych”).** Idzie, jeśli ma kontakt z drużyną; nikt poza postaciami go nie widzi, więc może iść przodem jako zwiadowca i przechodzić przez ścianę ostatniego rzędu. W pracowni był w 1951 roku i nie wie skąd: zna szafkę, która „najpierw chce dostać”, i boi się łuny nad pulpitem. Do księgi nie podchodzi bliżej niż na kilka kroków. Przy kredowym podpisie Marrow staje i patrzy długo, bez słowa. Nie komentuj tego; niech gracze zauważą sami.
+
+**Ślady dla pani Pince rano.** Każda porażka przy skradaniu, w galerii albo przy gablocie może zostawić jeden ślad w bibliotece (zgaszona lampa, przestawiony sznur, kurz z ostatniego rzędu na podłodze czytelni, odłamek szkła). Zapisz go: pani Pince znajdzie go o świcie (plotka i podejrzliwość, bez kary).
 
 ### Rytm sceny
 
