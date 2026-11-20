@@ -3,12 +3,14 @@
 Żywy plik: pamięć projektu między sesjami. Reżyser czyta go na początku każdej sesji i aktualizuje na końcu.
 
 ## Bieżąca faza
-- **Faza:** 2 (Graf Scenariusza 1), **część A zakończona 2026-11-20**. Faza 1 zamknięta 2026-11-20.
-- **Część A (zrobione):** instrukcja tworzenia postaci (`03_postacie/instrukcja-tworzenia-postaci.md`, szkic); graf Sesji 1 (`05_scenariusze/s1-godzina-ktorej-nie-bylo/graf-scen.md`, szkic, 10 scen + prolog + wędrówki, 3 punkty pauzy); 32 flagi w `flagi.yaml`; raport symulatora graczy (3 problemy główne, 14 drobniejszych); streszczenie dla MG w `99_robocze/streszczenie-fazy-2a.md`.
-- **Następny krok: część B** (nowa sesja; MG odpowiedział 2026-11-20, zob. rejestr decyzji): mechanik szacuje czas tworzenia postaci i w razie potrzeby upraszcza instrukcję (usuwa też wspólny dom); architekt-fabuly wprowadza decyzje MG (Patron Wymark, stracona godzina między lekcjami, mignięcia Ansela, legalne wejście do biblioteki, prolog na Pokątnej) i proponuje 2–3 warianty, dlaczego postacie z różnych domów tworzą drużynę i poprawki z raportu symulatora; poprawki wykonawcze bez pytania (zegarek odebrany Cassianowi przed sceną 04; spóźniony gracz traci godzinę poza kadrem; scenka u Dumbledore'a z niewidzialnym Anselem; Filch łapie graczy z dziennikiem → trzynasta i tak wybija; scena 09 maks. 2 przeszkody obowiązkowe; kontakt z Anselem liczony osobno dla każdej postaci; brakujące wartości flag: `skonfiskowany`, `inne`; „wybija trzynasty raz” zamiast „13:00”; Ślizgon w dormitorium Cassiana; budzenie postaci przy zegarze kradzieży 4); potem tworca-npc (szkice kart NPC, miejsc, przedmiotów), redaktor-ciaglosci, akceptacja grafu przez MG.
-- **Do rozstrzygnięcia wykonawczo w części B:** `graf-scen.md` ma teraz id `s1` (typ scenariusz); zgodnie z `05_scenariusze/README.md` przegląd ma być w `przeglad.md`, więc przy tworzeniu przeglądu trzeba zmienić nazwę pliku albo zdjąć nagłówek z grafu.
-- **Odłożone do scen:** liczby dla wyniku 2× i 3× trudności (ZD-09). Tempus: rozstrzygnięte 2026-11-20 (uczony na lekcji 6. roku).
-- **Ostatnie podsumowanie rozmowy:** `99_robocze/summary-session#1.md` (2026-11-20). Następną sesję zacznij od `/faza 2` (część B).
+- **Faza:** 2 (Graf Scenariusza 1). Część A zakończona 2026-11-20. **Część B1 zakończona 2026-11-20.** Faza 1 zamknięta 2026-11-20.
+- **Część B1 (zrobione):**
+  - mechanik: szybka ścieżka tworzenia postaci (4 archetypy, około 30–35 minut zamiast 140–170); usunięta rada o wspólnym domu; decyzje MG wpisane do instrukcji; 4 nowe terminy w słowniku.
+  - architekt-fabuly: graf podzielony na `przeglad.md` (id `s1`) i pomocniczy `graf-scen.md` bez nagłówka. Wprowadzone decyzje MG: Patron Wymark (`npc.silas-wymark`), stracona godzina między lekcjami (scena 03 to teraz stracona godzina, 04 to Obrona), mignięcia Ansela, legalna biblioteka, data 22.09.1969. Dodane wczesne sygnały dziwności w scenach 01–02, 7 siatek bezpieczeństwa i 37 flag. Rdzeń trwa około 4 h 20 min.
+- **Następny krok: część B2** (nowa sesja): wprowadzić odpowiedzi MG na pytania 1–4 niżej; tworca-npc (szkice kart NPC, miejsc i przedmiotów, lista w `graf-scen.md`, sekcja „Potrzebne obiekty”); redaktor-ciaglosci; akceptacja grafu przez MG, co kończy Fazę 2.
+- **Dla mechanika przy scenach:** czy stan Drained działa już na lekcji Obrony; rdzeń ze smoczego serca a drewno „Oak” (s. 29, niejasność podręcznika).
+- **Odłożone do scen:** liczby dla wyniku 2× i 3× trudności (ZD-09).
+- **Ostatnie podsumowanie rozmowy:** `99_robocze/summary-session#1.md` (2026-11-20).
 
 ### Faza 1, część A: co powstało
 - `00_zrodla/walker-2e-draft-2026-04/tekst/`: wyciąg tekstu podręcznika (16 rozdziałów, znaczniki stron). Podręcznik jest jednym PDF (184 s.; numer drukowany = strona PDF − 5).
@@ -55,11 +57,14 @@
 | 2026-11-20 | **Odrzucone: wspólny dom.** Gracze wybierają dowolne domy. Trzeba wymyślić uzasadnienie, dlaczego zbierają się w drużynę (np. klub, wspólne zadanie od profesora). | MG |
 | 2026-11-20 | Jeśli tworzenie postaci według Walkera zajmie wszystkim graczom ponad godzinę, trzeba je uprościć (zadanie do wykonania). | MG |
 
-## Otwarte pytania
-1. **Dlaczego postacie z różnych domów tworzą drużynę?** Architekt-fabuly zaproponuje 2–3 warianty (np. klub, wspólny projekt lub szlaban u profesora, przydział do pary/grupy na lekcji) w części B; pytanie do MG.
+## Otwarte pytania (zadane MG 2026-11-20, część B1)
+1. **Dlaczego postacie z różnych domów tworzą drużynę?** A: stały zespół Flitwicka; B: Koło Astronomiczne założone przez Marrow (zdjęcie z 1951 z Wymarkiem); C: wspólny szlaban u Filcha przy zegarach. Rekomendacja: B.
+2. **Czy postać może mignięciem zobaczyć Ansela, zanim straci godzinę?** A: nie; B: tylko w odbiciu w szkle zegara; C: postacie straciły już po kilka minut przed sesją. Rekomendacja: B.
+3. **Dlaczego tylko postacie graczy rozmawiają z Anselem?** A: ich godzina, wzięta naraz, stała się jego kotwicą (wyjaśnienie w Sesji 2); B: Ansel sam ich wybrał; C: bez wyjaśnienia. Rekomendacja: A.
+4. **Zaklęcia „psujące śledztwo” w pełnej ścieżce tworzenia postaci** (Homonculous Charm, Obliviate, Legilimens, Amortentia): A: zakazane; B: tylko za zgodą MG; C: bez ograniczeń. Rekomendacja: B.
 
 ## Zadania do wykonania
-- **Uprościć tworzenie postaci**, jeśli zajmie ponad godzinę dla wszystkich graczy (mechanik: oszacować czas; w razie potrzeby wersja uproszczona, np. gotowe pakiety punktów albo szablony postaci). Instrukcja musi też usunąć rekomendację wspólnego domu.
+- Brak pilnych. Tworzenie postaci uproszczone (szybka ścieżka) 2026-11-20.
 
 **Odłożone do konkretnej sceny** (wrócą z przykładem, nie wcześniej): kim jest Patron i skąd się wziął; ojciec Cassiana; treść „Proroka Codziennego”; Rejestr Danin i Pożyczona Chwila; Zegar Północy; czy Klepsydra opiera się na Time twisting Walkera; zmiana kontraktu danych; Dziennik Lekcji. Źródła, gdyby były potrzebne: `01_kanon/przeniesienie-na-1969.md`, `02_zasady/mechaniki-fabularne.md`.
 
@@ -72,8 +77,8 @@
 | Kanon 1969 | 8 plików, recenzja |
 | Zasady (Walker) | 15 plików + ocena mechanik fabularnych, recenzja |
 | Zarys kampanii 1969 | `04_kampania/zarys-kampanii.md`, recenzja (zatwierdzony przez MG) |
-| Instrukcja tworzenia postaci | szkic |
-| Scenariusz 1: graf | szkic (`graf-scen.md`), po teście symulatora, czeka na decyzje MG |
+| Instrukcja tworzenia postaci | szkic (pełna i szybka ścieżka) |
+| Scenariusz 1: graf | szkic (`przeglad.md` + `graf-scen.md`), decyzje MG wprowadzone, czeka na odpowiedzi 1–4 i karty obiektów |
 | Scenariusz 1: sceny | 0 / ? |
 
 ## Stan gry (wypełnia kronikarz po rozegranych sesjach)
