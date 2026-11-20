@@ -1,8 +1,8 @@
 # Sesja 1: graf scen (plik pomocniczy)
 
-Plik pomocniczy do przeglądu scenariusza `s1` (`przeglad.md` w tym samym folderze), bez nagłówka YAML. Zawiera mapę scen, warunki wejścia i wyjścia, siatki bezpieczeństwa, punkty pauzy, zegar kradzieży, tabelę flag, zasadę trzech dróg, listę potrzebnych obiektów, pytania do MG i sprawy do weryfikacji. Prawda dla MG, stałe i elastyczne oraz rozwidlenie końcowe są w przeglądzie.
+Plik pomocniczy do przeglądu scenariusza `s1` (`przeglad.md` w tym samym folderze), bez nagłówka YAML. Zawiera mapę scen, warunki wejścia i wyjścia, drużynę i wspólny sekret, siatki bezpieczeństwa, punkty pauzy, zegar kradzieży, tabelę flag, zasadę trzech dróg, listę potrzebnych obiektów, pytania do MG i sprawy do weryfikacji. Prawda dla MG, stałe i elastyczne oraz rozwidlenie końcowe są w przeglądzie.
 
-Stan: szkic po fazie 2B (2026-11-20). Wprowadzone decyzje MG z 2026-11-20: Patron to Silas Wymark; godzina ginie między Zaklęciami a Obroną; inne ofiary widzą Ansela tylko mignięciem; legalne wejście do biblioteki; Pokątna jako opcjonalny prolog; data 22 września 1969 (poniedziałek, sprawdzone); postacie z dowolnych domów.
+Stan: szkic po fazie 2B (2026-11-20), wszystkie pytania do MG z tej fazy rozstrzygnięte. Wprowadzone decyzje MG z 2026-11-20: Patron to Silas Wymark; godzina ginie między Zaklęciami a Obroną; inne ofiary widzą Ansela tylko mignięciem; legalne wejście do biblioteki; Pokątna jako opcjonalny prolog; data 22 września 1969 (poniedziałek, sprawdzone); postacie z dowolnych domów; drużyna to mieszana grupa ćwiczeniowa Wrena plus wspólny sekret z 4. roku; przed stratą Ansel miga tylko jako odbicie w szkle zegara; z Anselem rozmawiają tylko postacie graczy, bo ich godzina jest jego kotwicą.
 
 **Zmiana numeracji (faza 2B).** Ponieważ godzina ginie teraz przed Obroną, sceny 03 i 04 zamieniły się miejscami: `s1.scena.03` to Stracona godzina, `s1.scena.04` to Obrona przed Czarną Magią. Pliki scen jeszcze nie istnieją, więc nic się nie psuje.
 
@@ -47,16 +47,17 @@ flowchart TD
 - Ustawia: `flaga.s1-prolog-pokatna`, `flaga.crake-poznany`, ewentualnie `flaga.crake-dluga-rozmowa`, `flaga.plotka-o-voldemorcie`.
 - Następne: s1.scena.01.
 
-**s1.scena.01 Śniadanie w Wielkiej Sali (20 min, nauka gry, pierwsze sygnały).** Poniedziałek 22 września 1969. Sowy, plan lekcji, rozmowa z gadatliwym kolegą z roku (pierwszy dialog: gracz mówi w imieniu postaci, MG odpowiada). Jak drużyna się zbiera, zależy od odpowiedzi MG na pytanie 1. Od stołu Slytherinu dolatuje szept o „Czarnym Panu”, „śmierciożercach” i „panu Notcie, który był u ojca w wakacje”; kolega wzrusza ramionami, że to bajki. Filch, nowy woźny, przegania kogoś z sali.
+**s1.scena.01 Śniadanie w Wielkiej Sali (20 min, nauka gry, pierwsze sygnały).** Poniedziałek 22 września 1969. Sowy, plan lekcji, rozmowa z gadatliwym kolegą z roku (pierwszy dialog: gracz mówi w imieniu postaci, MG odpowiada). **Drużyna się zbiera:** profesor Wren idzie wzdłuż stołów i zaczepia postacie po kolei, każdą przy jej stole domu: „Grupa trzecia: dziś dziesięć minut przed lekcją pod salą, rozstawiacie stanowisko. Grupa pana Vane'a już się chwaliła, że was rozniesie”. Postacie wymieniają spojrzenia przez salę (albo siadają razem na końcu jednego stołu, jeśli gracze tego chcą). Po niepokojącym lecie Wren podzielił szósty rok na mieszane grupy ćwiczeniowe, bo „wojna nie pyta o dom”; to zdanie zna cały rok i nie wszyscy je lubią (stół Slytherinu prycha). Od stołu Slytherinu dolatuje szept o „Czarnym Panu”, „śmierciożercach” i „panu Notcie, który był u ojca w wakacje”; kolega wzrusza ramionami, że to bajki. Filch, nowy woźny, przegania kogoś z sali.
 **Pierwsze sygnały dziwności** (MG wybiera 2–3, bez zmiany fabuły; to skutki trzech tygodni kradzieży Cassiana):
 - Wielki zegar w Sali Wejściowej spóźnia się o cztery minuty; dzwon na pierwszą lekcję bije „za późno”, prefekci sprawdzają własne zegarki. Jeśli prologu nie było, przy zegarze stoi Crake z drabiną (pogawędka ruchoma).
 - Przy stole Hufflepuffu koleżanki dokuczają Maisie Lock, że „zasnęła z otwartymi oczami” na sprawdzianie. Maisie upiera się: „Nie spałam. Po prostu mi tego kawałka nie ma”.
 - Plotka o „duchu Puchona”: pierwszoroczniacy widzieli na schodach chłopca w żółtym krawacie, który rozpłynął się, gdy go zawołali. Gruby Mnich jest urażony, że to nie o nim.
 - Cassian Vane zerka na zegarek kieszonkowy, którego wskazówki stoją.
+- **Odbicie w szkle zegara (decyzja MG z 2026-11-20).** Jedna postać, przechodząc obok wielkiego zegara w Sali Wejściowej (albo patrząc w szybkę zegara ściennego nad stołem nauczycieli), widzi w szkle tuż za swoim ramieniem chłopca w żółtym krawacie. Odwraca się: nikogo nie ma. W szkle też już go nie ma. To **jedyna** postać Ansela przed straconą godziną: wyłącznie odbicie w szkle zegara, nigdy na żywo (zegary są kanałami Klepsydry). Najlepiej dać je postaci, która nie wygrała testu przy stole, żeby każdy miał coś swojego.
 Jeden prosty test: zauważyć coś przy stole (Wits + Observation, czyli bystrość i spostrzegawczość; niski próg, liczby ustali mechanik). Sukces wskazuje jeden z sygnałów, porażka nic nie zamyka: o duchu Puchona i tak gada cały stół.
 - Wejście: początek sesji albo po prologu.
 - Wyjście: dzwon (spóźniony) na Zaklęcia.
-- Ustawia: `flaga.plotka-o-voldemorcie`, opcjonalnie `flaga.plotka-duch-puchona`, `flaga.crake-poznany`.
+- Ustawia: `flaga.plotka-o-voldemorcie`, opcjonalnie `flaga.plotka-duch-puchona`, `flaga.crake-poznany`, `flaga.ansel-odbicie`.
 - Następne: s1.scena.02.
 
 **s1.scena.02 Zaklęcia: Tempus (30 min).** Flitwick uczy zaklęcia Tempus, które pokazuje prawdziwą chwilę, nie wskazania zegara (decyzja MG: Tempus to nowe zaklęcie szóstego roku, nikt go nie zna na starcie; trudność według zasady domowej ZD-21). Pierwszy test magiczny każdej postaci. **Sygnał dziwności:** gdy z Wieży Zegarowej dochodzi bicie, cyfry nad różdżką Flitwicka drżą i przeskakują o minutę; Flitwick marszczy brwi: „Wieża boczy się od dwóch tygodni, pan Filch twierdzi, że dzwony chodzą wolno”. Jeśli Cassian chodzi na Zaklęcia z postaciami, pięć minut przed końcem prosi o wyjście „do skrzydła szpitalnego” (idzie przygotować kradzież). Flitwick zadaje pracę domową: zmierzyć przesunięcie trzech zegarów na różnych piętrach. Ciekawskim podsuwa tytuł książki z Działu Ksiąg Zakazanych i może podpisać przepustkę.
@@ -65,22 +66,22 @@ Jeden prosty test: zauważyć coś przy stole (Wits + Observation, czyli bystro�
 - Ustawia: `flaga.tempus-opanowane`, `flaga.praca-domowa-dryf`, opcjonalnie `flaga.przepustka-flitwicka`, `flaga.biblioteka-legalnie`.
 - Następne: s1.scena.03.
 
-**s1.scena.03 Stracona godzina (15 min).** Przerwa obiadowa między Zaklęciami a Obroną. Drużyna idzie razem bocznym korytarzem (na obiad albo prosto pod salę Obrony). Złote światło, mrugnięcie, dzwon na Obronę bije **od razu**: minęła godzina, obiad przepadł. Dla postaci nie minęła chwila. Świadek (Irytek albo portret przy oknie): „Staliście jak posągi, a jakiś Ślizgon z zegarkiem przeszedł obok i gwizdał”. Każda postać dostaje osobisty ślad (zadrę): list sprzed miesiąca w kieszeni, skończony esej, atrament na dłoniach, wspomnienie spotkania, na którym „była”. Świeżo nauczony Tempus pokazuje godzinę różnicy wobec własnego zegarka. Na końcu jedna postać (ta, która się obejrzy) widzi na schodach chłopca w szacie Hufflepuffu, który znika: **mignięcie, pierwszy kontakt**. Godzinę traci cała drużyna naraz (zob. siatki bezpieczeństwa: postać, która odłączyła się od grupy, i spóźniony gracz).
+**s1.scena.03 Stracona godzina (15 min).** Przerwa obiadowa między Zaklęciami a Obroną. Drużyna idzie razem bocznym korytarzem: Wren kazał grupie trzeciej przyjść wcześniej i rozstawić stanowisko, więc postacie łapią coś z kuchni albo z obiadu na wynos i idą prosto pod salę Obrony. Grupa daje powód, by trzymać się razem bez względu na dom. Złote światło, mrugnięcie, dzwon na Obronę bije **od razu**: minęła godzina, obiad przepadł. Dla postaci nie minęła chwila. Świadek (Irytek albo portret przy oknie): „Staliście jak posągi, a jakiś Ślizgon z zegarkiem przeszedł obok i gwizdał”. Każda postać dostaje osobisty ślad (zadrę): list sprzed miesiąca w kieszeni, skończony esej, atrament na dłoniach, wspomnienie spotkania, na którym „była”. Jedna zadra może dotyczyć wspólnego sekretu z 4. roku (zob. niżej): w kieszeni leży rzecz z tamtego dnia, którą postać na pewno zostawiła w kufrze. Świeżo nauczony Tempus pokazuje godzinę różnicy wobec własnego zegarka. Na końcu jedna postać (ta, która się obejrzy) widzi na schodach chłopca w szacie Hufflepuffu, który znika: **mignięcie, pierwszy kontakt**. Godzinę traci cała drużyna naraz (zob. siatki bezpieczeństwa: postać, która odłączyła się od grupy, i spóźniony gracz).
 - Wejście: po scenie 02 (albo w dowolnym momencie przerwy, jeśli gracze zboczyli).
 - Wyjście: biegiem na Obronę, kilka minut spóźnienia (04). Jeśli gracze zamiast tego idą do skrzydła szpitalnego albo do nauczyciela, Obrona i tak się odbywa: Wren przychodzi po nich osobiście albo kolega relacjonuje pokaz Cassiana („był jak błyskawica, nikt go nie trafił”).
 - Ustawia: `flaga.godzina-stracona`. Startuje `flaga.s1-zegar-kradziezy` (0).
 - Następne: s1.scena.04; s1.scena.12 dostępna. **Punkt pauzy 1** po tej scenie.
 
-**s1.scena.04 Obrona przed Czarną Magią: pokaz Cassiana (30 min).** Profesor Wren [nasze] przyjmuje spóźnionych chłodno: „Gdzie byliście?”. Jeśli powiedzą prawdę, pyta, czy Vane był w pobliżu. Lekcja: „Przeciwnik zawsze mówi, co zrobi”. Ćwiczenie na dwóch uczniach tła z widocznymi nawykami (pierwsza nauka testu przeciwnego). Potem pokaz: Cassian, wypoczęty i spokojny, walczy z jedną z postaci i działa dwa razy, zanim ona skończy jeden ruch, po czym dotyka kieszonki kamizelki. **Nowy sens w świetle straty:** postacie, głodne i wybite z rytmu, patrzą na kogoś, kto ma godzinę za dużo; Tempus rzucony przy Cassianie tyka szybciej niż gdziekolwiek. Kto nazwie sygnał na głos, ma przewagę w scenie 08. Po lekcji Wren może rzucić uwagę o ocenach Vane'a. Czy stracona godzina daje postaciom stan Drained (wyczerpanie, +3 do trudności, decyzja MG z 2026-11-19) już w tej scenie, ustala mechanik.
+**s1.scena.04 Obrona przed Czarną Magią: pokaz Cassiana (30 min).** Profesor Wren [nasze] przyjmuje spóźnionych chłodno: „Gdzie byliście?”. Grupa trzecia miała przyjść dziesięć minut wcześniej, a wpada kilka minut po dzwonie; cena spóźnienia: grupa Cassiana wybrała już lepsze stanowisko i zaczyna pierwsza (bez punktów domów). Jeśli postacie powiedzą prawdę, Wren pyta, czy Vane był w pobliżu. Lekcja: „Przeciwnik zawsze mówi, co zrobi”. **Rywalizacja grup:** każda grupa ćwiczy czytanie przeciwnika na uczniach z grupy rywali; dwóch uczniów tła z widocznymi nawykami (Rosalind Teague, Barnaby Finch, oboje w grupie Cassiana) to pierwsza nauka testu przeciwnego. Potem pokaz grup: Cassian, wypoczęty i spokojny, występuje za swoją grupę i walczy z jedną z postaci i działa dwa razy, zanim ona skończy jeden ruch, po czym dotyka kieszonki kamizelki. Jego grupa wygrywa, Wren chwali ją przed całym rokiem. **Nowy sens w świetle straty:** postacie, głodne, zmęczone i wybite z rytmu, patrzą na kogoś, kto ma godzinę za dużo; Tempus rzucony przy Cassianie tyka szybciej niż gdziekolwiek. Kto nazwie sygnał na głos, ma przewagę w scenie 08. Po lekcji Wren może rzucić uwagę o ocenach Vane'a. Czy stracona godzina daje postaciom stan Drained (wyczerpanie, +3 do trudności, decyzja MG z 2026-11-19) już w tej scenie, ustala mechanik.
 - Wejście: brak warunków (zwykle po 03).
 - Wyjście: koniec lekcji, korytarz, wieczór.
 - Ustawia: `flaga.sygnal-cassiana-nazwany`, opcjonalnie `flaga.wren-podejrzewa`.
 - Następne: s1.scena.05, s1.scena.12; s1.scena.08 możliwa od razu, jeśli gracze konfrontują Cassiana po lekcji.
 
-**s1.scena.05 Chłopiec przy schodach (25 min).** Wieczorem, u stóp cichych schodów przy kuchni, Ansel pyta, która godzina, bo „pani profesor Marrow kazała czekać przy schodach”. Rozmawiać z nim mogą wszystkie postacie graczy, które straciły godzinę. Przechodzący uczniowie go nie zauważają; ktoś, kto też stracił godzinę (np. Maisie Lock), zatrzymuje się, mruga i idzie dalej: „Zdawało mi się…”. Życzliwość (jedzenie, słuchanie, imię, którego może się trzymać) buduje Więź; nieuprzejmość płoszy go na resztę wieczoru. Tempus przy Anselu nie formuje cyfr; ręka przechodzi przez beczkę przy wejściu do Hufflepuffu.
+**s1.scena.05 Chłopiec przy schodach (25 min).** Wieczorem, u stóp cichych schodów przy kuchni, Ansel pyta, która godzina, bo „pani profesor Marrow kazała czekać przy schodach”. Rozmawiać z nim mogą wszystkie postacie graczy, które straciły godzinę, i tylko one: ich wspólnie zabrana godzina stała się jego kotwicą (MG to wie, gracze dowiedzą się z dziennika w Sesji 2). Postać, która rano widziała odbicie w szkle zegara, rozpoznaje chłopca; Ansel: „Widziałem panią/pana w zegarze. Wszyscy w zegarach są tacy daleko”. Ansel może mimochodem dotknąć wspólnego sekretu z 4. roku (zob. niżej). Przechodzący uczniowie go nie zauważają; ktoś, kto też stracił godzinę (np. Maisie Lock), zatrzymuje się, mruga i idzie dalej: „Zdawało mi się…”. Życzliwość (jedzenie, słuchanie, imię, którego może się trzymać) buduje Więź; nieuprzejmość płoszy go na resztę wieczoru. Tempus przy Anselu nie formuje cyfr; ręka przechodzi przez beczkę przy wejściu do Hufflepuffu.
 - Wejście: `flaga.godzina-stracona`.
 - Wyjście: Ansel znika, gdy ktoś nadchodzi, albo zostaje „przy schodach”. Gracze mogą od razu pójść z nim do nauczyciela albo do Dumbledore'a (siatka bezpieczeństwa 3).
-- Ustawia: `flaga.ansel-spotkany`, `flaga.ansel-kontakt` (+1 za każdą postać, która rozmawia z nim **pierwszy raz**), opcjonalnie `flaga.ansel-poza-spisem`, `flaga.marrow-imie-znane`, `flaga.dumbledore-powiadomiony`.
+- Ustawia: `flaga.ansel-spotkany`, `flaga.ansel-kontakt` (+1 za każdą postać, która rozmawia z nim **pierwszy raz**), opcjonalnie `flaga.ansel-poza-spisem`, `flaga.marrow-imie-znane`, `flaga.dumbledore-powiadomiony`, `flaga.sekret-poruszony`.
 - Następne: s1.scena.06 albo s1.scena.12. **Punkt pauzy 2** po tej scenie.
 
 **s1.scena.06 Mapa dryfu (30 min, węzeł śledztwa).** Wtorek 23 września. Praca domowa na serio. Gracze wybierają miejsca w zamku (minimum trzy, maksimum sześć przy początkujących) i porównują chwilę prawdziwą z zegarami. Dwa wzory: gładkie spóźnienia rosnące ku Wieży Zegarowej (przypływ) i drżące odczyty prowadzące do lochów (ktoś podbiera). Boczna droga: rozpytać uczniów, którzy też stracili godziny, i dopasować je do nagłych sukcesów Cassiana; przy okazji ofiary opowiadają o swoim mignięciu „ducha Puchona”. Każde miejsce może być małą scenką z modułu 12.
@@ -95,10 +96,10 @@ Jeden prosty test: zauważyć coś przy stole (Wits + Observation, czyli bystro�
 - Ustawia: `flaga.wieza-zbadana`, `flaga.plakietka-crake`, opcjonalnie `flaga.crake-poznany`.
 - Następne: s1.scena.08, s1.scena.06, s1.scena.12.
 
-**s1.scena.08 Cassian (35 min).** Drogi do konfrontacji: sygnał z kieszonki, dopasowane godziny, ślad drżących zegarów do przejścia Slytherinu, wspólne dormitorium (siatka bezpieczeństwa 5) albo Cassian sam ich znajduje. Jest chłodny, potem roztrzęsiony; proponuje formalny pojedynek: jeśli przegra, powie, skąd ma kartę. Alternatywy: targ, kradzież zegarka, litość, donos do Wrena (brak dowodów, ale Wren zaczyna patrzeć). Każdy wynik prowadzi do 09 (zob. drogi awaryjne do pracowni).
+**s1.scena.08 Cassian (35 min).** Drogi do konfrontacji: sygnał z kieszonki, dopasowane godziny, ślad drżących zegarów do przejścia Slytherinu, wspólne dormitorium (siatka bezpieczeństwa 5) albo Cassian sam ich znajduje. Jest chłodny, potem roztrzęsiony; jako lider rywalizującej grupy zna postacie z ćwiczeń u Wrena i może sięgnąć po wspólny sekret z 4. roku jako kartę przetargową (zob. niżej). Proponuje formalny pojedynek: jeśli przegra, powie, skąd ma kartę. Alternatywy: targ, kradzież zegarka, litość, donos do Wrena (brak dowodów, ale Wren zaczyna patrzeć). Każdy wynik prowadzi do 09 (zob. drogi awaryjne do pracowni).
 - Wejście: co najmniej jedna z flag `flaga.sygnal-cassiana-nazwany`, `flaga.slad-ukaszen`, `flaga.rejestr-godzin`, `flaga.wieza-zbadana` **albo** `flaga.s1-zegar-kradziezy` = 3 (Cassian przychodzi sam) **albo** zegarek jest u graczy (Cassian przychodzi po niego).
 - Wyjście: lokalizacja pracowni z ust Cassiana albo jedna z dróg awaryjnych.
-- Ustawia: `flaga.cassian-zdemaskowany`, `flaga.cassian-los`, `flaga.zegarek-cassiana`, `flaga.karta-u-graczy`, `flaga.lokalizacja-pracowni`.
+- Ustawia: `flaga.cassian-zdemaskowany`, `flaga.cassian-los`, `flaga.zegarek-cassiana`, `flaga.karta-u-graczy`, `flaga.lokalizacja-pracowni`, opcjonalnie `flaga.sekret-poruszony`.
 - Następne: s1.scena.09. **Punkt pauzy 3** po tej scenie.
 
 **s1.scena.09 Biblioteka: trzynaste drzwi i Sala Zatrzymanych Godzin (40 min).** Dwa równorzędne wejścia; **noc w bibliotece nie jest obowiązkowa**.
@@ -126,13 +127,46 @@ W ostatnim rzędzie przycisk do książek w kształcie klepsydry i drzwi otwiera
 - **Wędrówki po zamku (12)** to spotkania wielkości 5 minut: jedno spotkanie = jedna wskazówka albo jeden moment z Anselem albo czysty kolor. Zegar kradzieży rośnie o 1 za każde pół dnia w fikcji, więc długie wędrówki nie zatrzymują świata.
 - **Pogawędka ruchoma z Crake'iem.** Crake pojawia się raz, w pierwszym pasującym miejscu: prolog 11 (witryna sklepu), scena 01 (drabina przy wielkim zegarze) albo scena 07 (schodzi z wieży). Test spostrzegawczości (Wits + Observation; próg ustali mechanik). Zwykły sukces: miły starszy pan, pachnie olejem, „wieża ostatnio wymaga więcej uwagi”. **Tylko bardzo wysoki wynik** (propozycja: poziom Walkera „Impressive success”, co najmniej dwa razy trudność, Walker 2e s. 3; do potwierdzenia przez mechanika): postać zauważa zdjęcie dziewczyny w kopercie jego zegarka; Crake mówi chwilę dłużej o córce, która „pomagała mu w sklepie”. Crake niczego nie zdradza o Klepsydrze ani o „kliencie z Londynu”.
 
+## Drużyna: grupa Wrena i wspólny sekret (decyzja MG z 2026-11-20)
+
+### Na co dzień: grupa trzecia u profesora Wrena
+
+Po niepokojącym lecie 1969 profesor Wren podzielił szósty rok na Obronie przed Czarną Magią na stałe grupy ćwiczeniowe z różnych domów: „wojna nie pyta o dom”. Postacie graczy są w jednej grupie (roboczo „grupa trzecia”; MG może ją nazwać inaczej). Cassian Vane prowadzi grupę rywalizującą, w której są też Rosalind Teague i Barnaby Finch. Grupy ćwiczą razem, przychodzą razem na zajęcia i rywalizują w pokazach, bez punktów domów.
+
+Co to daje w scenach:
+- **01:** Wren zaczepia postacie przy śniadaniu i umawia grupę przed lekcją; rywalizacja z grupą Vane'a zapowiedziana od rana.
+- **02–03:** drużyna wychodzi z Zaklęć razem i razem idzie wcześniej pod salę Obrony, więc razem traci godzinę. Nikt nie musi wymyślać pretekstu.
+- **04:** spóźniona grupa oddaje rywalom lepsze stanowisko; pokaz Cassiana to zwycięstwo jego grupy na tle zmęczenia postaci.
+- **06–08:** grupa ma prawo ćwiczyć razem po lekcjach w pustej sali Obrony (wygodny punkt zborny i baza śledztwa); Wren pyta „swoją” grupę, kto ostatnio gubi czas, zanim zapyta publicznie.
+- **Sesja 2 i dalej:** grupa trwa cały rok, więc drużyna nie potrzebuje nowego powodu.
+
+### Głębiej: wspólny sekret z 4. roku
+
+Postacie łączy coś, co wydarzyło się dwa lata temu, na czwartym roku (1967/1968). **Treść ustalają gracze przy tworzeniu postaci; scenariusz jej nie narzuca.** MG pilnuje tylko, żeby sekret mieścił się w liniach i zasłonach ustalonych przy stole i żeby nie wymagał rozwiązania w Sesji 1.
+
+**Pytania startowe dla graczy** (zadawane wspólnie po stworzeniu postaci, 10 minut):
+1. Co się wtedy stało? Opowiedzcie to razem w dwóch, trzech zdaniach.
+2. Co wtedy zrobiłeś, czego inni ci nie zapomną (na dobre albo na złe)?
+3. Czego wtedy się baliście? Czy to wciąż czasem wraca?
+4. Kto o tym wie poza wami? I kto nie może się dowiedzieć?
+5. Jaka mała rzecz z tamtego dnia została u ciebie (przedmiot, blizna, słowo)?
+
+**Zapis.** Odpowiedzi MG zapisuje jako zwykły tekst (kilka zdań) przy kartach postaci albo w notatce kampanii; nie są flagą. To, czy sekret padł w grze, mówi `flaga.sekret-poruszony`.
+
+**Gdzie MG może do niego nawiązać w Sesji 1** (wybiera 1–2, wszystko nieobowiązkowe):
+- **Zadra w scenie 03.** Jedna z osobistych zadr to rzecz z odpowiedzi na pytanie 5: leży w kieszeni, choć postać zostawiła ją w kufrze. Nie ustawia flagi, to tylko dreszcz.
+- **Ansel w scenie 05 albo 12.** Ponieważ Ansel jest „utkany” z ich wspólnej godziny, nosi jej okruchy. Mówi mimochodem coś, czego nie może wiedzieć: słowo, rzecz albo strach z odpowiedzi na pytania 3 i 5 („Wy też się wtedy baliście, prawda?”). Sam nie wie, skąd to ma. To zapowiedź kotwicy, którą wyjaśni dziennik w Sesji 2. Ustawia `flaga.sekret-poruszony`.
+- **Cassian w scenie 08.** Zna postacie z rywalizacji grup i jest jedną z osób z odpowiedzi na pytanie 4 („kto o tym wie”) albo blefuje, że wie. Używa tego w targu albo jako groźby („Ja wiem o waszym, wy o moim”). Ustawia `flaga.sekret-poruszony`. Jeśli gracze wskazali, że nikt spoza drużyny nie wie, Cassian tylko blefuje, a test przeciwny czytania przeciwnika (jak u Wrena) to ujawnia.
+- *Kolor, opcjonalnie w module 12:* Filch, nowy woźny, przegląda księgę szlabanów po poprzedniku i z satysfakcją czyta na głos wpis sprzed dwóch lat z nazwiskami postaci (tylko jeśli sekret wiązał się z przyłapaniem).
+
 ## Kontakt z Anselem
 
 ### Kto widzi Ansela (decyzja MG z 2026-11-20)
 
 | Kto | Co widzi | Uwagi |
 |---|---|---|
-| Postacie graczy (po scenie 03) | W pełni: rozmawiają z nim, on z nimi | Jedyni rozmówcy Ansela |
+| Postacie graczy (przed sceną 03) | Tylko odbicie w szkle zegara, nigdy na żywo | Wczesny sygnał w scenie 01 (decyzja MG z 2026-11-20) |
+| Postacie graczy (po scenie 03) | W pełni: rozmawiają z nim, on z nimi | Jedyni rozmówcy Ansela, bo ich wspólnie zabrana godzina stała się jego kotwicą (wyjaśnia dziennik w Sesji 2) |
 | Inne ofiary Cassiana (Maisie Lock, Gideon Pratt, pierwszoroczniacy) | Tylko mignięcie: chłopiec w żółtym krawacie, znika, gdy się odwrócić | Źródło plotki o „duchu Puchona”; nikt nie zamienia z nim słowa |
 | Reszta zamku, w tym Dumbledore | Nic | Dumbledore'a magia czasu nie dotyka |
 
@@ -142,6 +176,7 @@ MG prowadzi na kartce przy każdej postaci jeden znacznik: **brak → mignięcie
 
 | Stopień | Gdzie | Kto | Co się dzieje |
 |---|---|---|---|
+| 0. Odbicie (nie liczy się do znacznika) | 01 | jedna postać | chłopiec w szkle zegara za ramieniem, za plecami nikogo |
 | 1. Mignięcie | 03 | jedna postać | chłopiec na schodach, znika |
 | 2. Rozmowa | 05, 12 | każda postać osobno | pierwsza rozmowa; +1 do `flaga.ansel-kontakt` tylko za postać, która rozmawia pierwszy raz |
 | 3. Towarzyszenie | 06, 07, 12 | postać z najwyższą Więzią albo ta, której Tempus „tyka” po porażce kompromitującej | Ansel idzie z nią, pomaga przy jednej wskazówce |
@@ -191,6 +226,8 @@ Zegar zatrzymuje się, gdy `flaga.cassian-zdemaskowany` albo gdy zegarek trafia 
 | `flaga.s1-prolog-pokatna` | bool | 11 | 01 (skrócenie) |
 | `flaga.plotka-o-voldemorcie` | bool | 11, 01 | Sesja 2 (więcej wzmianek) |
 | `flaga.plotka-duch-puchona` | bool | 01, 12 | 05, 06 (rozpoznanie plotki) |
+| `flaga.ansel-odbicie` | bool | 01 | 05 (rozpoznanie chłopca) |
+| `flaga.sekret-poruszony` | bool | 05, 08, 12 | Sesja 2 (dziennik i kotwica) |
 | `flaga.crake-poznany` | bool | 11, 01, 07 | 07, Sesja 2 |
 | `flaga.crake-dluga-rozmowa` | bool | 11, 01, 07 | Sesja 2 |
 | `flaga.tempus-opanowane` | bool | 02, 12 | 03, 05, 06, 09 |
@@ -230,7 +267,7 @@ Zegar zatrzymuje się, gdy `flaga.cassian-zdemaskowany` albo gdy zegarek trafia 
 
 | Wskazówka | Drogi (każda działa sama) | Gdy gracze przegapią wszystkie |
 |---|---|---|
-| **W0. Z czasem w zamku jest coś nie tak** (01, 02; nastrój, nie bramka) | 1) spóźniony wielki zegar i dzwon; 2) Maisie Lock „bez kawałka”; 3) plotka o „duchu Puchona”; 4) drżące cyfry Tempus u Flitwicka; 5) zatrzymany zegarek Cassiana | Nie jest potrzebna: stracona godzina (03) i tak przychodzi |
+| **W0. Z czasem w zamku jest coś nie tak** (01, 02; nastrój, nie bramka) | 1) spóźniony wielki zegar i dzwon; 2) Maisie Lock „bez kawałka”; 3) plotka o „duchu Puchona”; 4) drżące cyfry Tempus u Flitwicka; 5) zatrzymany zegarek Cassiana; 6) odbicie chłopca w szkle zegara | Nie jest potrzebna: stracona godzina (03) i tak przychodzi |
 | **W1. Godzina naprawdę zniknęła** (03) | 1) Tempus kontra własny zegarek: równo godzina różnicy; 2) świadkowie: Irytek albo portret („staliście jak posągi”), sprzątnięte talerze po obiedzie; 3) osobisty ślad (zadra) każdej postaci; 4) Ansel pyta, która godzina | Wren na Obronie: „Godzinę spóźnienia? Dopiero co dzwoniło na przerwę”, Flitwick: „Już trzecie zgłoszenie zgubionej godziny w tym tygodniu” |
 | **W2. Ansel nie należy do teraźniejszości** (05, 12) | 1) Tempus nie formuje cyfr przy Anselu; 2) profesor Sprout nie ma go w rejestrze Hufflepuffu; 3) ręka przechodzi przez beczkę, inni uczniowie go mijają; 4) Gruby Mnich: „Znałem chłopca o tym imieniu… nie, to niemożliwe”; 5) ofiary Cassiana widziały go tylko mignięciem jako „ducha Puchona”, choć nie jest duchem | Ansel sam: „Pani profesor Marrow… a gdzie jest pani profesor?”, nauczyciel astronomii: „Marrow odeszła wiele lat temu” |
 | **W3. Czas płynie ku Wieży Zegarowej** (06) | 1) mapa dryfu z Tempus; 2) porównanie zwykłych zegarków uczniów na różnych piętrach (bez magii); 3) Flitwick i Filch o „boczącej się” wieży i wolnych dzwonach; 4) Ansel czuje ciągnięcie i boi się dzwonu; 5) Crake: „wieża ostatnio wymaga uwagi” | Flitwick po lekcji, przeglądając pracę domową: „Wszystkie wasze błędy pochylają się w jedną stronę” |
@@ -258,7 +295,7 @@ Przegrany pojedynek, ucieczka Cassiana albo odmowa rozmowy nie blokują sceny 09
 | `npc.hollis-crake` | Zegarmistrz z Pokątnej konserwujący zegary zamku; w Sesji 1 tylko życzliwa pogawędka [nasze]. |
 | `npc.silas-wymark` | Patron: w 1951 prefekt i asystent Marrow, widział Klepsydrę; dziś zwerbowany śmierciożerca, który powiedział o niej Voldemortowi i znalazł Crake'a; w Sesji 1 tylko ślad [nasze]. |
 | `npc.filius-flitwick` | Nauczyciel Zaklęć, uczy Tempus, zna niebezpieczeństwa magii czasu [kanon, obecność w 1969 niepewna]. |
-| `npc.thaddeus-wren` | Nauczyciel Obrony, były auror, „przeciwnik zawsze mówi, co zrobi”, nie może oskarżyć bez dowodów [nasze]. |
+| `npc.thaddeus-wren` | Nauczyciel Obrony, były auror, „przeciwnik zawsze mówi, co zrobi”, nie może oskarżyć bez dowodów; po niepokojącym lecie podzielił szósty rok na mieszane grupy ćwiczeniowe („wojna nie pyta o dom”), postacie są w jednej, Cassian prowadzi rywalizującą [nasze]. |
 | `npc.argus-filch` | Nowy, gorliwy woźny, nie zna jeszcze wszystkich przejść; nocne zagrożenie [kanon, decyzja MG o 1969]. |
 | `npc.irma-pince` | Bibliotekarka, strażniczka Działu Ksiąg Zakazanych, ustępuje wobec szczerej ciekawości; wieczorne zagrożenie przy legalnym wejściu [kanon, niepewne dla 1969]. |
 | `npc.pomona-sprout` | Opiekunka Hufflepuffu, nie znajduje Ansela w rejestrze domu [kanon, niepewne dla 1969]. |
@@ -268,8 +305,8 @@ Przegrany pojedynek, ucieczka Cassiana albo odmowa rozmowy nie blokują sceny 09
 | `npc.nauczyciel-astronomii` | Następca lub następczyni Marrow, imię do nadania; pamięta ją jako „panią od klepsydr” [nasze]. |
 | `npc.gruby-mnich` | Duch Hufflepuffu, coś mu świta przy imieniu Ansela; urażony plotką o „duchu Puchona” [kanon jako postać, reakcja nasze]. |
 | `npc.tobias-quill` | Gadatliwy kolega z szóstego roku (dom dowolny, dopasować do postaci), rozmówca w scenie nauczającej i źródło plotek [nasze]. |
-| `npc.rosalind-teague` | Ślizgonka z roku, pociera kciuk przed zaklęciem (ćwiczenie u Wrena), powtarza szept o „śmierciożercach” i „panu Notcie” [nasze]. |
-| `npc.barnaby-finch` | Uczeń z roku, zerka na drzwi przed ruchem (ćwiczenie u Wrena) [nasze]. |
+| `npc.rosalind-teague` | Ślizgonka z roku w grupie Cassiana, pociera kciuk przed zaklęciem (ćwiczenie u Wrena), powtarza szept o „śmierciożercach” i „panu Notcie” [nasze]. |
+| `npc.barnaby-finch` | Uczeń z roku w grupie Cassiana, zerka na drzwi przed ruchem (ćwiczenie u Wrena) [nasze]. |
 | `npc.maisie-lock` | Trzecioroczna z Hufflepuffu, straciła godzinę w dniu sprawdzianu, który Cassian zdał celująco; widziała „ducha Puchona” raz [nasze]. |
 | `npc.gideon-pratt` | Piątoroczny z Ravenclawu, stracił godzinę na korytarzu Eliksirów [nasze]. |
 
@@ -283,7 +320,7 @@ Przegrany pojedynek, ucieczka Cassiana albo odmowa rozmowy nie blokują sceny 09
 | `miejsce.sala-wejsciowa` | Wielki zegar stojący (spóźnia się), drabina Crake'a. |
 | `miejsce.sala-zaklec` | Lekcja Tempus u Flitwicka. |
 | `miejsce.korytarz-straconej-godziny` | Boczny korytarz między salą Zaklęć a salą Obrony, okno, portret świadek [nasze]. |
-| `miejsce.sala-obrony` | Lekcja Wrena, manekiny, pokaz Cassiana. |
+| `miejsce.sala-obrony` | Lekcja Wrena, manekiny, pokaz Cassiana; po lekcjach miejsce ćwiczeń grupy postaci. |
 | `miejsce.schody-przy-kuchni` | Ciche schody, przy których czeka Ansel. |
 | `miejsce.wieza-zegarowa` | Mechanizm bez skazy, plakietka, olej; kotwica Klepsydry [nasze, oparte na mapie Walkera s. 159]. |
 | `miejsce.lochy-przejscie-slytherinu` | Koniec śladu drżących odczytów, miejsce, gdzie Cassian podbiera; dormitorium szóstego roku. |
@@ -312,21 +349,7 @@ Przegrany pojedynek, ucieczka Cassiana albo odmowa rozmowy nie blokują sceny 09
 
 ## Pytania do MG
 
-1. **Dlaczego postacie z różnych domów trzymają się razem?** Skąd pytanie: wspólny dom odpadł (decyzja MG z 2026-11-20), a w Hogwarcie domy jedzą, śpią i często uczą się osobno. Przykład z gry: w scenie 01 Puchonka je przy innym stole niż Ślizgon; MG musi powiedzieć, dlaczego po Zaklęciach idą razem tym samym korytarzem i razem tracą godzinę.
-   - **A. Zespół Flitwicka.** Grupa Zaklęć na szóstym roku jest mała i mieszana; w pierwszym tygodniu Flitwick podzielił ją na stałe zespoły międzydomowe „do zaklęć pomiarowych na cały rok”. W scenie 01 każda postać dostaje sową tę samą kartkę: „Zespół 3, praca domowa wspólna”; w scenie 02 ćwiczą Tempus razem. Daje gotowy pretekst do mapy dryfu i Flitwicka jako naturalnego adresata zgłoszeń. Nowy NPC: brak. Słabość: znają się dopiero trzy tygodnie.
-   - **B. Koło Astronomiczne.** Nieformalne koło obserwacji nieba, założone przed laty przez profesor Marrow, dziś prowadzone przez nowego nauczyciela astronomii; postacie należą do niego od drugiego, trzeciego roku, więc znają się od lat. W scenie 01 nauczyciel astronomii zatrzymuje się przy stołach, by przypomnieć każdemu o środowej obserwacji; w sali koła wisi zdjęcie członków z 1951 roku (Marrow i wysoki prefekt, czyli Wymark). Daje przyjaźń bez tłumaczenia, wczesny i jeszcze nieczytelny ślad Marrow i Wymarka, legalny powód, by bywać w wieżach po zmroku. Nowy NPC: nauczyciel astronomii dostaje większą rolę (i tak jest potrzebny).
-   - **C. Wspólny szlaban.** W pierwszym tygodniu każda postać zarobiła szlaban (każdy gracz wymyśla, za co) i wszyscy odrabiają go razem u Filcha: przez dwa tygodnie polerują zegary i mosiężne tarcze w zamku. W scenie 01 Filch przechodzi przez salę i warczy na nich po kolei: „Siódma, Sala Wejściowa, wszyscy”. Daje każdemu graczowi zabawną historię na start, stawia postacie przy zegarach (wcześnie widzą dryf i Crake'a), a wieczorny szlaban sam prowadzi pod schody do Ansela. Nowy NPC: brak (rośnie rola Filcha). Słabość: związek z przymusu, w Sesji 2 potrzebny drugi powód.
-   - **Rekomendacja: B**, bo daje drużynę, która zna się od lat (prościej dla nowicjuszy), i wiąże ją z tajemnicą bez zdradzania jej.
-2. **Czy postać może zobaczyć Ansela mignięciem, zanim straci godzinę?** Skąd pytanie: test symulatora pokazał, że tajemnica zaczyna się za późno. Do scen 01–02 wpisałem już sygnały, które nie zmieniają zasad (spóźniony zegar, plotka o „duchu Puchona”, Maisie bez kawałka dnia, drżące cyfry Tempus). Najmocniejszy sygnał, sam chłopiec, wymaga jednak wyjątku od zasady „widzą go ci, którzy stracili czas”. Przykład z gry: przy śniadaniu postać widzi w szybie wielkiego zegara chłopca w żółtym krawacie tuż za swoim ramieniem; odwraca się i nikogo nie ma.
-   - **A.** Nie: przed stratą tylko plotka i ślady. Zasada zostaje prosta.
-   - **B.** Tak, ale tylko w odbiciu w szkle zegara (zegary są kanałami Klepsydry). Jeden wyjątek, który zapowiada zasadę.
-   - **C.** Postacie straciły już po kilka minut przed sesją (Cassian ćwiczył), więc mignięcia są możliwe od rana.
-   - **Rekomendacja: B.**
-3. **Dlaczego tylko postacie graczy mogą z Anselem rozmawiać?** Skąd pytanie: decyzja MG z 2026-11-20 mówi, że inne ofiary widzą go tylko mignięciem; gracze zapytają „czemu my?”. Przykład z gry: Maisie Lock mówi „ja też go raz widziałam, a wy z nim rozmawiacie?”.
-   - **A.** Ich godzina została wzięta w całości, kilku osobom naraz, blisko schodów Ansela, i stała się jego nową kotwicą: Ansel jest dosłownie „utkany” z ich godziny. Wyjaśnienie w dzienniku Marrow w Sesji 2; w Sesji 3 daje ciężar decyzji o oddaniu czasu.
-   - **B.** Ansel sam ich wybrał, bo kogoś mu przypominają (np. członków Koła z 1951, jeśli w pytaniu 1 wygra B).
-   - **C.** Bez wyjaśnienia w kampanii; to tajemnica magii, której nie trzeba rozwiązywać.
-   - **Rekomendacja: A** (MG zna odpowiedź od razu, gracze dostają ją w Sesji 2).
+Brak otwartych pytań. Pytania fazy 2B (drużyna, odbicie Ansela przed stratą, dlaczego tylko postacie graczy rozmawiają z Anselem) rozstrzygnięte 2026-11-20 i wprowadzone powyżej oraz w przeglądzie.
 
 ## Do weryfikacji
 

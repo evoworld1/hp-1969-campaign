@@ -30,6 +30,16 @@ flagi:
     typ: bool
     wartosci: []
     sesja: s1
+  - id: flaga.ansel-odbicie
+    opis: "Jedna z postaci przed straconą godziną widziała Ansela jako odbicie w szkle zegara (scena s1.scena.01). Jedyna forma, w jakiej Ansel pojawia się przed stratą."
+    typ: bool
+    wartosci: []
+    sesja: s1
+  - id: flaga.sekret-poruszony
+    opis: "W grze ktoś dotknął wspólnego sekretu postaci z 4. roku (Ansel mimochodem albo Cassian w targu). Treść sekretu ustalają gracze i zapisuje się ją tekstem przy kartach postaci, nie we fladze."
+    typ: bool
+    wartosci: []
+    sesja: s1
   - id: flaga.crake-poznany
     opis: "Postacie zamieniły kilka zdań z zegarmistrzem Hollisem Crake'iem (przelotna pogawędka)."
     typ: bool
