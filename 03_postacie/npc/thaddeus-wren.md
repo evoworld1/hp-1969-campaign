@@ -92,5 +92,5 @@ statystyki:
 ## Do weryfikacji
 
 - Nazwisko i postać są nasze; zgodne z kanonem dzięki temu, że nauczyciel Obrony w 1969 jest nieznany, a stanowisko jest przeklęte (KP rozdz. 20, zob. [[kanon.kadra-hogwartu-1969]]).
-- Wiek, sprawa z Biura Aurorów i brakujące palce to szczegóły wykonawcze; nie zmieniają fabuły Sesji 1.
+- Odejście z Biura Aurorów po oskarżeniu niewinnego: przyjęte przez MG. Wiek i brakujące palce to szczegóły wykonawcze.
 - Czy Wren nieformalnie raportuje Dumbledore'owi o werbunku: propozycja tła, bez skutków w Sesji 1.

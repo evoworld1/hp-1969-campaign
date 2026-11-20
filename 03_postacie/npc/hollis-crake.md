@@ -43,8 +43,7 @@ Starszy zegarmistrz z ulicy Pokątnej, właściciel zakładu „Crake i Córka�
 Przykładowe kwestie:
 - „Spóźnia się o cztery minuty, a ja ją dopiero co regulowałem. Ten zamek ma swoje humory, młoda damo.”
 - „Wieża? Wieża ostatnio wymaga więcej uwagi. Starość, wiecie. Jej i moja.”
-- (tylko przy dłuższej rozmowie) „To Nora. Pomagała mi w sklepie. Miała lepsze ręce do sprężyn niż ja.” (imię córki robocze)
-
+- (tylko przy dłuższej rozmowie) „To Nora. Pomagała mi w sklepie. Miała lepsze ręce do sprężyn niż ja.”
 ## Czego chce
 
 - **Cel jawny:** dobrze wykonywać pracę, utrzymać zakład, „żeby szyld był prawdziwy”.
@@ -92,6 +91,6 @@ statystyki:
 
 ## Do weryfikacji
 
-- Imię córki („Nora”) jest robocze; MG może je zmienić. Wiek córki (ok. 25 lat) też roboczy.
+- Imię córki („Nora”): przyjęte przez MG. Wiek córki (ok. 25 lat) to szczegół wykonawczy.
 - Dom Crake'a w szkole (Hufflepuff) to szczegół wykonawczy, nie wpływa na fabułę.
 - Mechanik: próg pogawędki i „bardzo wysokiego wyniku” (propozycja grafu: Impressive success, co najmniej dwa razy trudność, Walker 2e s. 3).

@@ -5,14 +5,14 @@ tytul: "Tobias Quill"
 status: szkic
 imie: "Tobias Quill"
 rola: "Gadatliwy kolega z roku: rozmówca w scenie nauczającej i źródło plotek"
-dom: "zmienny (DO DECYZJI MG przed sesją, zob. W skrócie)"
+dom: "zmienny (MG przypisuje przed sesją, zob. W skrócie)"
 rocznik_1969: "6 rok"
 kanon: false
 pewnosc: nasze
 # Docelowo: s1.scena.01 (pierwszy dialog), s1.scena.03 (relacja z pokazu, jeśli gracze ominą Obronę), s1.scena.06, s1.scena.12
 sceny: []
 tylko_mg: true
-tagi: [s1, uczen, plotki, scena-nauczajaca, do-decyzji-mg]
+tagi: [s1, uczen, plotki, scena-nauczajaca, dom-zmienny]
 zrodla:
   - "05_scenariusze/s1-godzina-ktorej-nie-bylo/graf-scen.md (scena 01, lista NPC)"
   - "04_kampania/stan-kampanii.md, rejestr decyzji 2026-11-20 (dowolne domy graczy)"
@@ -22,7 +22,7 @@ aktualizacja: 2026-11-20
 
 Szóstoroczny gaduła, który wie wszystko o wszystkich i połowę zmyśla. Pierwszy rozmówca w Sesji 1: na nim gracze uczą się, że mówią w imieniu postaci, a MG odpowiada. Prowadzi notes plotek i drobne zakłady o knuty („kto zobaczy ducha Puchona do piątku”). Jest mugolakiem; szepty o „Czarnym Panu” zbywa wzruszeniem ramion, że to bajki, bo tak mu łatwiej.
 
-**Dom: elastyczny (DO DECYZJI MG przed sesją).** Tobias siedzi przy śniadaniu obok jednej z postaci graczy, więc musi być z jej domu. Propozycja: MG po obejrzeniu kart postaci przypisuje go do domu tej postaci, która ma najmniej znajomych w opisie (albo której gracz jest najbardziej nieśmiały: Tobias zagada pierwszy). Charakter nie zależy od domu; zmienia się tylko kolor krawata i jedno zdanie o własnym domu.
+**Dom: elastyczny (decyzja MG, wariant A).** Tobias siedzi przy śniadaniu obok jednej z postaci graczy, więc musi być z jej domu. MG po obejrzeniu kart postaci, przed sesją, przypisuje go do domu tej postaci, która ma najmniej znajomych w opisie (albo której gracz jest najbardziej nieśmiały: Tobias zagada pierwszy). Charakter nie zależy od domu; zmienia się tylko kolor krawata i jedno zdanie o własnym domu.
 
 **Rola w Sesji 1.** Scena 01: pierwszy dialog, plotka o „duchu Puchona” i szept o Voldemorcie przetłumaczony na „bajki”. Jeśli gracze ominą Obronę: relacja z pokazu Cassiana („był jak błyskawica, nikt go nie trafił”). Scena 06 i 12: jego notes plotek może być boczną drogą do dopasowania straconych godzin (`flaga.rejestr-godzin`).
 
@@ -89,6 +89,6 @@ statystyki:
 
 ## Do weryfikacji
 
-- Dom: DO DECYZJI MG przed sesją (pytanie w raporcie).
+- Dom: przypisuje MG przed sesją według zasady z „W skrócie” (decyzja MG, wariant A). Na karcie zapisać wybrany dom po sesji.
 - Gargulki (kamienie, które plują w przegranego) są kanoniczną grą (KF), ale ich obecność w 1969 to drobny wniosek [niepewne, bez wpływu na fabułę].
 - Pochodzenie mugolskie to szczegół wykonawczy, który wiąże go z tonem 1969 (napięcia wokół czystości krwi). Jeśli MG wolałby Tobiasa bez tej warstwy, wystarczy usunąć sekcję „Sekret”.

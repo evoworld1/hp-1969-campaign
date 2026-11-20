@@ -6,11 +6,11 @@ status: szkic
 imie: "Silas Wymark"
 rola: "Patron: zwerbowany śmierciożerca szukający Klepsydry; w Sesji 1 tylko ślad"
 dom: Ravenclaw
-rocznik_1969: "dorosły (ok. 35 lat); w 1950/51 prefekt 6. roku"
+rocznik_1969: "dorosły (ok. 35 lat); w roku szkolnym 1951/52 prefekt 7. roku"
 kanon: false
 pewnosc: nasze
 # W Sesji 1 nie pojawia się osobiście (decyzja MG z 2026-11-20: tylko ślad).
-# Ślad docelowo w: s1.scena.09 (inicjały „S.W.”, zdjęcie z 1951), s1.scena.12 (nauczycielka astronomii, propozycja)
+# Ślad docelowo w: s1.scena.09 (inicjały „S.W.”, zdjęcie z 1951), s1.scena.12 (prof. Fairweather wspomina „Bociana”)
 sceny: []
 tylko_mg: true
 tagi: [patron, wymark, smierciozerca, ravenclaw, "1951", slad]
@@ -21,15 +21,15 @@ aktualizacja: 2026-11-20
 ---
 ## W skrócie
 
-W 1951 roku zdolny prefekt Ravenclawu i asystent profesor Marrow w obserwatorium. Widział Klepsydrę Daniny na własne oczy i widział, jak Marrow ją ukrywa. Dziś, po trzydziestce, zwerbowany śmierciożerca: opowiedział o Klepsydrze Voldemortowi, odnalazł Hollisa Crake'a i obiecał mu pomoc w zamian za artefakt. Nie jest fanatykiem czystej krwi. Jest kimś, kogo kiedyś odsunięto od wielkiego odkrycia, i kto sprzedał je temu, kto pierwszy go docenił.
+Jesienią 1951 roku (rok szkolny 1951/52) zdolny siódmoroczny prefekt Ravenclawu i asystent profesor Marrow w obserwatorium. Widział Klepsydrę Daniny na własne oczy i widział, jak Marrow ją ukrywa. Dziś, po trzydziestce, zwerbowany śmierciożerca: opowiedział o Klepsydrze Voldemortowi, odnalazł Hollisa Crake'a i obiecał mu pomoc w zamian za artefakt. Nie jest fanatykiem czystej krwi. Jest kimś, kogo kiedyś odsunięto od wielkiego odkrycia, i kto sprzedał je temu, kto pierwszy go docenił.
 
-**Rola w Sesji 1: tylko ślad** (decyzja MG z 2026-11-20). Nikt w Sesji 1 nie wymawia jego nazwiska. Gracze mogą zauważyć: inicjały „S.W.” obok kredowego podpisu Marrow na ścianie pracowni (09) i zdjęcie z 1951 w gablocie przy bibliotece, na którym Marrow stoi przy teleskopie, a obok niej wysoki prefekt bez podpisu (09 albo przy okazji wizyty w bibliotece w scenie 12). Zob. propozycje w sekcji „Sygnały”.
+**Rola w Sesji 1: tylko ślad** (decyzja MG z 2026-11-20). Nikt w Sesji 1 nie wymawia jego nazwiska. Gracze mogą zauważyć: inicjały „S.W.” obok kredowego podpisu Marrow na ścianie pracowni (09) i zdjęcie z 1951 w gablocie przy bibliotece, na którym Marrow stoi przy teleskopie, a obok niej wysoki prefekt bez podpisu (09 albo przy okazji wizyty w bibliotece w scenie 12). W wędrówkach (12) prof. Fairweather wspomina „wysokiego prefekta, którego wołaliśmy Bocian”. Zob. sekcja „Sygnały”.
 
 **Dalej.** Sesja 2: trop przez Crake'a, zdjęcie i dziennik. Sesja 3: jedna z czterech dróg finału to „oddać Patronowi”.
 
 ## Wygląd i sposób bycia
 
-- Bardzo wysoki, chudy, lekko przygarbiony, jakby całe życie schylał się do okularu teleskopu. W 1951 nazywano go w szkole „Bocianem” (propozycja: przezwisko, które może pamiętać nauczycielka astronomii).
+- Bardzo wysoki, chudy, lekko przygarbiony, jakby całe życie schylał się do okularu teleskopu. W szkole nazywano go „Bocianem”; to przezwisko pamięta prof. Fairweather (w 1951/52 pierwszoroczna).
 - Ubrany starannie, ale niemodnie: ciemnogranatowy płaszcz, rękawiczki, które zdejmuje palec po palcu, gdy zaczyna mówić poważnie.
 - Patrzy na rozmówcę dłużej, niż wypada, i nie mruga, jak przy obserwacji gwiazdy.
 - **Do gry przy stole (Sesja 2 i dalej):** cichy, ciepły, bardzo uprzejmy głos nauczyciela, który nigdy nie musiał krzyczeć.
@@ -62,12 +62,12 @@ Przykładowe kwestie (Sesja 2 i dalej):
 Ślady, które gracze mogą znaleźć w Sesji 1 (żaden nie jest obowiązkowy, każdy ustawia `flaga.wymark-slad`; graf nie zmienia się):
 1. **Inicjały „S.W.”** obok kredowego podpisu Marrow na ścianie obliczeń w Sali Zatrzymanych Godzin (scena 09). Już w grafie.
 2. **Zdjęcie z 1951** w gablocie przy bibliotece: Marrow przy teleskopie, obok wysoki prefekt z odznaką Ravenclawu, bez podpisu (scena 09 przy wejściu albo spotkanie w bibliotece w scenie 12). Już w grafie.
-3. **Propozycja: nauczycielka astronomii w scenie 12.** Pytana o Marrow wspomina „wysokiego prefekta z Ravenclawu, którego wołaliśmy Bocian; nosił jej lunetę”. Nazwiska nie pamięta. Mieści się w istniejącym spotkaniu z modułu 12 i w liście flag ustawianych przez 12.
+3. **Prof. Fairweather w scenie 12** (decyzja MG). Pytana o Marrow wspomina „wysokiego prefekta, którego wołaliśmy Bocian; nosił jej lunetę”. Nazwiska nie pamięta. Mieści się w istniejącym spotkaniu z modułu 12 i w liście flag ustawianych przez 12.
 4. *Nie w Sesji 1:* zdanie Crake'a o „kliencie z Londynu” (graf wprost tego zabrania w Sesji 1, zostaje na Sesję 2).
 
 ## Reakcje
 
-W Sesji 1 Wymark nie spotyka graczy. Tabela na Sesję 2 i dalej (robocza):
+W Sesji 1 Wymark nie spotyka graczy (decyzja MG: tylko ślad). Jedyna „reakcja” w Sesji 1 to ślady z sekcji „Sygnały”, każdy ustawia `flaga.wymark-slad`. Tabela na Sesję 2 i dalej (robocza):
 
 | Podejście graczy | Reakcja |
 |---|---|
@@ -93,7 +93,7 @@ statystyki:
 
 ## Do weryfikacji
 
-- Dom Ravenclaw i wiek: ustalone przez twórcę NPC zgodnie z propozycją w grafie (graf delegował tę decyzję). Rachunek: prefekt na 6. roku w roku szkolnym 1950/51, urodzony ok. 1934, w 1969 ok. 35 lat („po trzydziestce”, zgodnie z decyzją MG).
-- Przezwisko „Bocian” i ślad nr 3 (nauczycielka astronomii) to propozycje, nie decyzje.
+- Dom Ravenclaw: przyjęty przez MG. Rachunek (decyzja MG): prefekt 7. roku w roku szkolnym 1951/52, urodzony ok. 1933/34, w 1969 ok. 35 lat.
+- Przezwisko „Bocian” i ślad u prof. Fairweather: przyjęte przez MG.
 - Czy Marrow żyje: nieustalone (nie rozstrzygam). Karta pisze „żywej czy martwej”.
 - Słowo „śmierciożerca” w tekstach dla MG zostaje; w tekstach dla graczy w Sesji 1 pada tylko jako szept (decyzja MG z 2026-11-19).

@@ -63,4 +63,4 @@ statystyki:
 
 ## Do weryfikacji
 
-- Dom (Gryffindor) to decyzja wykonawcza; graf nie podawał domu. Jeśli MG woli, może go zmienić bez skutków dla fabuły.
+- Dom Gryffindor: przyjęty przez MG.

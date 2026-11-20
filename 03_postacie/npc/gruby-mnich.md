@@ -36,7 +36,7 @@ Dobroduszny, rozwlekły, łatwo się wzrusza: „Duch Puchona! Doprawdy! Tyle wi
 
 ## Sekret
 
-Ma mglistą pamięć chłopca z 1951 i nie umie jej uchwycić; duchy żyją obok czasu, więc trzyma się w nim okruch wspomnienia, którego żywi nie mają [nasze].
+Ma tylko mgliste przeczucie, że znał chłopca z jesieni 1951, i nie umie go uchwycić; duchy żyją obok czasu, więc trzyma się w nim okruch wspomnienia, którego żywi nie mają [nasze]. Pełnej opowieści o 1951 roku nie zna: tę daje Szara Dama w Sesji 2 (decyzja MG). Mnich może tylko odesłać do niej postacie.
 
 ## Sygnały
 
@@ -62,5 +62,5 @@ statystyki:
 
 ## Do weryfikacji
 
-- Czy duch może widzieć Ansela: przyjęto, że **nie** (decyzja MG: z Anselem rozmawiają tylko postacie graczy, reszta zamku go nie widzi). Mglista pamięć z 1951 to nasz pomysł; do potwierdzenia przez MG, czy nie koliduje z rolą Szarej Damy jako „jedynej, która pamięta” (zarys kampanii).
+- Czy duch może widzieć Ansela: przyjęto, że **nie** (decyzja MG: z Anselem rozmawiają tylko postacie graczy, reszta zamku go nie widzi). Rozstrzygnięte przez MG: Ansela pamiętają oboje duchowie; Gruby Mnich w Sesji 1 ma tylko mgliste przeczucie, pełną opowieść o 1951 roku daje Szara Dama w Sesji 2.
 - Kanon nie podaje daty śmierci Grubego Mnicha; w kwestiach mówionych używać ogólnego „tyle wieków” [niepewne].

@@ -54,8 +54,7 @@ Przykładowe kwestie:
 
 ## Sekret
 
-- Ma Kartę Pożyczającego (w podszewce kufra) i zatrzymany zegarek kieszonkowy (w kieszonce kamizelki, nocą pod poduszką). Zegarek był dziadka; wskazówki stanęły w godzinie jego śmierci, a ojciec dał go Cassianowi po SUM-ach ze słowami, że „Vane'owie się nie spóźniają”. To jego pomysł roboczy na pochodzenie zegarka, do potwierdzenia przez MG przy scenie 08.
-- Wie, gdzie jest pracownia (ostatni rząd Działu Ksiąg Zakazanych), ale nie wie, jak otworzyły się drzwi: „One mnie znalazły”.
+- Ma Kartę Pożyczającego (w podszewce kufra) i zatrzymany zegarek kieszonkowy (w kieszonce kamizelki, nocą pod poduszką). Zegarek był dziadka; wskazówki stanęły w godzinie jego śmierci, a ojciec dał go Cassianowi po SUM-ach ze słowami, że „Vane'owie się nie spóźniają”.- Wie, gdzie jest pracownia (ostatni rząd Działu Ksiąg Zakazanych), ale nie wie, jak otworzyły się drzwi: „One mnie znalazły”.
 - Może znać wspólny sekret postaci z 4. roku albo tylko blefować, że zna (zależnie od odpowiedzi graczy na pytanie startowe 4). Blef ujawnia test przeciwny czytania przeciwnika, jak na lekcji Wrena.
 - **Gdy prawda wyjdzie:** publicznie oznacza dla niego koniec (ojciec, Wren, możliwe wydalenie). Dlatego zrobi prawie wszystko, żeby prawda wyszła po cichu. Prywatnie, wobec samych postaci, pęka szybciej, niż się spodziewają, bo w połowie na to czekał.
 
@@ -101,6 +100,6 @@ statystyki:
 ## Do weryfikacji
 
 - Ojciec Cassiana (kim jest, jakie ma poglądy) jest odłożony do sceny 08 decyzją MG. Karta mówi tylko: urzędnik Ministerstwa, wymagający.
-- Pochodzenie zegarka (zegarek dziadka, prezent od ojca po SUM-ach) to propozycja robocza, do potwierdzenia przy scenie 08.
+- Pochodzenie zegarka (zegarek dziadka, prezent od ojca po SUM-ach): przyjęte przez MG.
 - Niezdobyta odznaka prefekta to szczegół wykonawczy; nie zmienia fabuły.
 - Mechanik: liczby pojedynku, Skradzione Chwile, efekt zabranej godziny.

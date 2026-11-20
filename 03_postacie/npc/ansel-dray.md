@@ -6,7 +6,7 @@ status: szkic
 imie: "Ansel Dray"
 rola: "Serce kampanii: chłopiec cofnięty ze śmierci, trwający dzięki skradzionym godzinom"
 dom: Hufflepuff
-rocznik_1969: "brak w spisie (w 1951: 1 rok, 11 lat)"
+rocznik_1969: "brak w spisie (w roku szkolnym 1951/52: 1 rok, 11 lat)"
 kanon: false
 pewnosc: nasze
 # Pliki scen jeszcze nie istnieją (walidator wymaga istniejących identyfikatorów).
@@ -23,11 +23,11 @@ aktualizacja: 2026-11-20
 ---
 ## W skrócie
 
-Jedenastoletni Puchon w szacie sprzed osiemnastu lat. Zginął w 1951 roku, spadając z Wieży Zegarowej, a profesor Marrow cofnęła jego śmierć Klepsydrą Daniny. Wrócił „źle”: nie ma go w żadnym spisie i nikt go nie pamięta. Trwa dzięki skradzionym godzinom. Wie tylko, że pani profesor kazała mu czekać przy schodach. Od straconej godziny rozmawiają z nim wyłącznie postacie graczy, bo ich wspólnie zabrana godzina stała się jego nową kotwicą. Inne ofiary Cassiana widzą go najwyżej mignięciem.
+Jedenastoletni Puchon w szacie sprzed osiemnastu lat. Zginął jesienią 1951 roku (na początku roku szkolnego 1951/52, swojego pierwszego), spadając z Wieży Zegarowej, a profesor Marrow cofnęła jego śmierć Klepsydrą Daniny. Wrócił „źle”: nie ma go w żadnym spisie i nikt z żywych go nie pamięta. Trwa dzięki skradzionym godzinom. Wie tylko, że pani profesor kazała mu czekać przy schodach. Od straconej godziny rozmawiają z nim wyłącznie postacie graczy, bo ich wspólnie zabrana godzina stała się jego nową kotwicą. Inne ofiary Cassiana widzą go najwyżej mignięciem.
 
 **Rola w Sesji 1.** Odbicie w szkle zegara (scena 01), mignięcie na schodach (03), pierwsza rozmowa przy schodach koło kuchni (05), towarzysz przy jednej wskazówce (06, 07, 12), budzik przy zegarze kradzieży 4, blednięcie przy trzynastym biciu (10). Każda postać gracza musi w tej sesji z nim porozmawiać (decyzja MG z 2026-11-19).
 
-**Dalej.** Sesja 2: dziennik Marrow wyjaśnia kotwicę; Szara Dama pamięta chłopca. Sesja 3: oddanie godziny może odebrać Anselowi kotwicę (wniosek architekta, **nie** decyzja MG).
+**Dalej.** Sesja 2: dziennik Marrow wyjaśnia kotwicę; Szara Dama opowiada pełną historię 1951 roku (Gruby Mnich w Sesji 1 ma tylko mgliste przeczucie; decyzja MG). Sesja 3: oddanie godziny może odebrać Anselowi kotwicę (wniosek architekta, **nie** decyzja MG).
 
 ## Wygląd i sposób bycia
 
@@ -56,7 +56,7 @@ Przykładowe kwestie:
 
 ## Sekret
 
-- Nie żyje od 1951 roku: spadł z Wieży Zegarowej. Nie pamięta upadku. Pamięta tylko, że było wysoko i że dzwon był bardzo blisko.
+- Nie żyje od jesieni 1951 roku: spadł z Wieży Zegarowej. Nie pamięta upadku. Pamięta tylko, że było wysoko i że dzwon był bardzo blisko.
 - Jest „utkany” ze wspólnej godziny postaci graczy (kotwica, decyzja MG z 2026-11-20). Dlatego nosi okruchy ich przeszłości, w tym wspólnego sekretu z 4. roku, i może je powtórzyć, nie wiedząc skąd.
 - **Gdy prawda wyjdzie (Sesja 2, dziennik):** Ansel nie rozpacza od razu. Pyta, czy „to znaczy, że mama już nie czeka”. Jeśli postacie powiedzą mu wprost, że umarł, blednie na resztę sceny; przy wysokiej Więzi potrafi to przyjąć i zaczyna zadawać własne pytania o Marrow. Sposób, w jaki postacie to powiedzą, waży więcej niż sam fakt.
 
