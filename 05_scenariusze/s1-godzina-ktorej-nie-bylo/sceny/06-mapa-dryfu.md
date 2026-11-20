@@ -469,7 +469,115 @@ dialog:
 
 ## Testy
 
-TODO (mechanik): `s1.scena.06.test.pomiar`, `s1.scena.06.test.odczytanie-wzoru`.
+*Zasada naczelna sceny: rzut ma tu być wyjątkiem, nie rytuałem. Pomiary robi się głównie Tempus (opanowane zaklęcie działa bez rzutu, Walker 2e s. 31, 41, zasada domowa ZD-21), wzór widać z mapy, a kość wchodzi tylko tam, gdzie coś realnie przeszkadza. Liczby poniżej to Walker 2e s. 3-4 (test standardowy, progi, współpraca) i s. 35 (kary z ran). Szanse liczone dla archetypów szybkiej ścieżki (`03_postacie/instrukcja-tworzenia-postaci.md`): cechy Wits 4-6, Knowledge 2-6, Focus 4-5; umiejętność Observation 3-5, Charms 3-5. Archetyp: A odważny pojedynkowicz, B bystry badacz, C zręczny kombinator, D empatyczny opiekun.*
+
+### Pomiar (Tempus albo zwykłe zegarki)
+
+**Kto rzuca i kiedy.** Postać z opanowanym Tempus (`flaga.tempus-opanowane`, czyli sukces w scenie 02) **nie rzuca**: cyfry srebrnej chwili po prostu odczytuje; to zaklęcie opanowane, a opanowane działa bez rzutu (s. 31, 41). Rzut jest tylko wtedy, gdy:
+- postać nie opanowała Tempus, ale chce rzucić je „na próbę” (zwykły rzut zaklęcia przeciw 9, bez premii za lekcję, bez zaznaczania kratki, ZD-05); albo
+- pomiar idzie zwykłymi zegarkami (W3.2, tryb „bez magii”) w miejscu, które utrudnia odczyt.
+
+W miejscach spokojnych (krużganek, biblioteka, Sala Zaklęć) pomiar zwykłym zegarkiem też idzie **bez rzutu**. Nie każ rzucać przy każdej liczbie.
+
+**Szanse.** Zwykły zegarek, próg 6: archetypy A-D 100% (rzucają razem z cechami 9-10 przed kością). Z jednym utrudnieniem (próg 9): nadal 100%. Z dwoma utrudnieniami naraz (próg 12): 80-90%. Dopiero rany (Drained +3, Dazed +2) albo postać z pełnej ścieżki o słabej Wits i Observation wprowadzają realne ryzyko. To zamierzone: pomiar jest lekcją, nie bramką.
+
+```yaml
+test:
+  id: s1.scena.06.test.pomiar
+  opis: "Postać mierzy dryf czasu w jednym miejscu zamku. Tempus: opanowane zaklęcie działa bez rzutu (Walker 2e s. 31, 41; ZD-21), więc pomiar nim nie wymaga testu. Rzut dotyczy tylko (a) próby Tempus przez postać, która go nie opanowała, oraz (b) pomiaru zwykłymi zegarkami w miejscu, które go utrudnia (W3.2: nastawić razem, rozejść się, porównać przy dzwonku). Wynik to jedna liczba i słowo „gładko” albo „drżąco” z tabeli odczytów w Dla MG. Pomiar nigdy nie fałszuje liczby: porażka oznacza brak odczytu i powtórkę, nie złą liczbę (gracze zapisują dane na mapie i muszą im ufać)."
+  kto: jeden
+  rzut: "1D10 + Wits + Observation"
+  trudnosc: "Straightforward (6)"
+  modyfikatory:
+    - warunek: "Postać opanowała Tempus (flaga.tempus-opanowane)"
+      wartosc: "bez rzutu"
+    - warunek: "Postać nie opanowała Tempus i rzuca je na próbę: zamiast tego rzutu wykonaj 1D10 + Focus + Charms (zaklęcie: Tempus) przeciw 9 (s. 41, ZD-21), bez premii za lekcję i bez zaznaczania kratki (ZD-05). Wynik poniżej 9 to połowiczny efekt: cyfry pokazują to, co zegar ścienny, a pomiar się nie liczy."
+      wartosc: "bez rzutu"
+    - warunek: "Miejsce spokojne (krużganek, biblioteka, Sala Zaklęć, Sala Obrony) i pomiar zwykłym zegarkiem"
+      wartosc: "bez rzutu"
+    - warunek: "Tłok i hałas (Sala Wejściowa w przerwie, Wielka Sala przy posiłku): trudno wyłapać dzwonek"
+      wartosc: "+3 do trudności"
+    - warunek: "Miejsce z drżącymi odczytami (korytarz straconej godziny, schody w dół, lochy) i pomiar zwykłym zegarkiem: sekundnik się zacina, zamiast skakać"
+      wartosc: "+3 do trudności"
+    - warunek: "Każdy pomagający (jeden trzyma zegarek, drugi liczy; najwyżej dwóch pomocników, Narrator ustala, s. 4)"
+      wartosc: "+1 do rzutu"
+    - warunek: "Postać w stanie Drained (+3) albo Dazed (+2) po scenie 03, jeśli jeszcze go nie zdjął posiłek albo napar (s. 35)"
+      wartosc: "+3 do trudności"
+  wyniki:
+    - wynik: porazka-kompromitujaca
+      efekt: "Pomiar zakłócony tak, że ktoś to zauważa: Filch zapisuje nazwisko postaci do zeszytu, prefekt pyta, co robi, albo starsi uczniowie się przyglądają (kolor, bez skutków liczbowych). Brak liczby. Postać może spróbować w innym miejscu."
+      flagi_ustaw: []
+    - wynik: porazka
+      efekt: "Brak czytelnej liczby: zegarki się rozjechały, dzwonek zagłuszył tłum. Powtórka kosztuje kilka minut sceny, nic więcej (zegar kradzieży rośnie tylko o pół dnia, nie o pomiar). MG nigdy nie podaje fałszywej liczby."
+      flagi_ustaw: []
+    - wynik: sukces
+      efekt: "Liczba i słowo z tabeli odczytów (Dla MG, „Odczyty do mapy dryfu”). Gracz wpisuje je sam na handout `s1.handout.mapa-zamku-dryf`. Nie mów, co liczby znaczą."
+      flagi_ustaw: []
+    - wynik: sukces-imponujacy
+      efekt: "Jak sukces, a postać dostaje jeszcze jedno zdanie obserwacji bez wniosku: kierunek, w który „pochyla się” błąd (np. ku zachodnim oknom w Sali Wejściowej) albo ślad, że drżenie jest wąskie jak ścieżka. Dla postaci z sukcesem imponującym z Tempus w scenie 02 to samo jest automatyczne (założenie robocze ze sceny 02, ZD-09): rozpoznaje „gładko” i „drżąco” od razu, bez rzutu."
+      flagi_ustaw: []
+```
+
+**Rada dla MG.** Jeśli gracze zrobili trzy pomiary z samym Tempus, w tej scenie nie rzucicie ani jednej kością. To dobrze: odkrycie wzoru na własnej mapie jest nagrodą. Rzut zaproponuj tylko wtedy, gdy ktoś sam wybiera „bez magii”, jest ranny albo mierzy w trudnym miejscu.
+
+### Odczytanie wzoru (mapa dryfu)
+
+**Zasada.** Wzór widać z samej mapy, jeśli gracze mają dość danych. **Bez rzutu**, gdy mają co najmniej 3 pomiary danego wzoru w różnych miejscach: 3 gładkie spóźnienia rosnące ku zachodowi dają przypływ (`flaga.przyplyw-ku-wiezy`), 3 drżące odczyty na trasie Cassiana albo 2 drżące plus Pratt z korytarza Eliksirów albo Ansel w lochach dają ślad (`flaga.slad-ukaszen`). Przy dobrej mapie test nie jest potrzebny: gracze po prostu patrzą i mówią, co widzą. Test dotyczy tylko sytuacji, gdy danych jest mało, a gracze chcą się upewnić albo utknęli. Każdy wzór (przypływ, ślad) sprawdza się osobno.
+
+**Szanse (1D10 + Wits + Knowledge, test jednej postaci z pomocnikami).** Archetypy mają Wits + Knowledge: A 7, B 11, C 9, D 9.
+
+| Liczba pomiarów danego wzoru | Trudność | A | B | C | D |
+|---|---|---|---|---|---|
+| 3 i więcej | bez rzutu | 100% | 100% | 100% | 100% |
+| 2 | Tricky (12) | 60% | 100% | 80% | 80% |
+| 1 | Challenging (15) | 30% | 70% | 50% | 50% |
+| 0 | brak testu: brak danych, wzoru nie widać | , | , | , | , |
+
+Każdy pomagający dodaje +1 (więc trzy osoby nad mapą: +2 albo +3), co podnosi te szanse o 10-20 punktów procentowych. Archetyp B ma też Arithmancy 3, ale Wits + Knowledge wypada lepiej (11 wobec 8), więc w liczbach zostaje Knowledge. Gracz z Arithmancy może zaproponować Wits + Arithmancy zamiast Wits + Knowledge (zwykły test cecha + umiejętność, s. 3); MG zgadza się, jeśli wynik jest dla niego lepszy.
+
+```yaml
+test:
+  id: s1.scena.06.test.odczytanie-wzoru
+  opis: "Postacie mają za mało pomiarów (1 albo 2 danego wzoru) i chcą ocenić, czy z liczb na mapie wynika wzór: gładkie spóźnienia rosnące ku Wieży Zegarowej (przypływ, W3) albo wąska ścieżka drżących odczytów ku lochom (ślad, W4.4). Rzucają raz na wzór, wspólnie nad mapą. Przy 3 i więcej pomiarach danego wzoru testu nie ma: gracze sami widzą wzór. Przy 0 pomiarach wzoru nie ma jak odczytać (MG podsuwa wskazówkę NPC z drabinki). Test niczego nie blokuje: porażka zamienia wniosek gracza na wskazówkę od NPC."
+  kto: grupa
+  rzut: "1D10 + Wits + Knowledge"
+  trudnosc: "Tricky (12) przy 2 pomiarach danego wzoru; Challenging (15) przy 1 pomiarze"
+  modyfikatory:
+    - warunek: "3 i więcej pomiarów danego wzoru w różnych miejscach"
+      wartosc: "bez rzutu"
+    - warunek: "Każdy pomagający nad mapą (jedna osoba prowadzi i rzuca, Narrator ustala, ilu realnie pomaga, najwyżej trzech; s. 4)"
+      wartosc: "+1 do rzutu"
+    - warunek: "Do wzoru dołożono dane z rozmowy (Pratt: korytarz Eliksirów, drżenie; rejestr godzin Maisie lub Tobiasa; Filch o dwóch tygodniach spóźnienia)"
+      wartosc: "+2 do rzutu"
+    - warunek: "Prowadząca postać jest w stanie Drained (+3) albo Dazed (+2) i jeszcze nie jadła ani nie piła naparu (s. 35)"
+      wartosc: "+3 do trudności"
+  wyniki:
+    - wynik: porazka
+      efekt: "Liczby nie układają się w nic pewnego (Flitwick ostrzega, że zbyt mało danych i można się łatwo pomylić). Nie zatrzymuj gry: MG daje wskazówkę z drabinki podpowiedzi albo z NPC (Flitwick: „błędy pochylają się w jedną stronę, na zachód”, Ansel: „tu ciągle ktoś stoi”, Wren: „kto gubi czas?”). Wniosek mówi NPC, ale flaga ustawia się tak samo, jak przy sukcesie, tylko drużyna nie ma satysfakcji „sami to znaleźliśmy”. Postacie mogą zrobić jeszcze jeden pomiar i zyskać dodatkowe dane (wtedy test nie jest już potrzebny)."
+      flagi_ustaw: []
+    - wynik: sukces
+      efekt: "Gracze widzą wzór i sami mówią wniosek na głos (nie podawaj go): „spóźnienia rosną na zachód” albo „drżenie idzie ścieżką w dół do lochów”. Ustaw flagę odpowiadającą wzorowi, który odczytali: `flaga.przyplyw-ku-wiezy` (przypływ) albo `flaga.slad-ukaszen` (ślad). Test rzuca się osobno dla każdego wzoru."
+      flagi_ustaw: [flaga.przyplyw-ku-wiezy, flaga.slad-ukaszen]
+```
+
+**Rada dla MG.** Nie zapowiadaj testu. Najpierw niech gracze popatrzą na mapę i pogadają. Jeśli mają trzy pomiary danego wzoru, powiedz tylko „co widzicie na mapie?”. Test (jeden rzut na wzór) proponuj tak: „Macie tylko dwa punkty. Chcecie ocenić, czy to coś znaczy?”. Przy porażce ułatw bez karania: wskazówka od NPC jest równie dobra jak własny wniosek.
+
+### Zegar kradzieży (bez testu)
+
+Zegar kradzieży w tej scenie rośnie **bez rzutu**, zgodnie z tabelą i zasadą w `graf-scen.md` (o 1 za każde pół dnia w fikcji, jeśli zegarek jest u Cassiana i nikt go nie skonfrontował):
+- **Wtorek rano** (krok 1, `flaga.s1-zegar-kradziezy` +1): wartość 1 (zakładamy, że wchodzimy do sceny z 0; jeśli wejście było wyższe, dodaj do bieżącej wartości).
+- **Wtorek po obiedzie** (okno między krokami 4-5 a zamknięciem sceny): +1, wartość 2. Przy 2 pierwszoroczniak mdleje na schodach (moduł 12), a Wren zaczyna krok 6.
+- **Wartość 3** (nie w tej scenie, ale gdy scena się wydłuża albo gracze jeszcze nie skończyli): Cassian sam przychodzi do postaci (scena 08, `awaryjne-cassian-przychodzi`).
+- Jeśli zegarek jest już u graczy (kradzież po scenie 04), zegar **stoi**: ani rano, ani po obiedzie nie rośnie.
+
+Pomiar, rozmowa ani ścieżka nie podnoszą zegara. Tylko upływ pół dnia. Dzięki temu gracze nie boją się mierzyć „za długo” w obrębie jednej połowy dnia.
+
+### Czego tu nie ma (rozstrzygnięcia)
+
+- **Pogawędka z Crake'iem:** w scenie 06 zegarmistrza nie ma w Obecnych ani w rytmie, więc testu nie ma. Wskazówka W3.5 („wieża ostatnio wymaga uwagi”) pada dopiero w scenach 07 i 12. Próg 9 u Crake'a z założeń roboczych dotyczy kradzieży zegarka, nie tej sceny.
+- **Galeria wahadeł:** to element sali zatrzymanych godzin (scena 09, `miejsce.sala-zatrzymanych-godzin`), nie tej sceny. Trudność galerii (propozycja z karty miejsca: Tricky, 12) ustala mechanik przy scenie 09.
+- **Perswazja wobec ofiar (Maisie, Pratt, Tobias):** bez testu. Dialogi stawiają warunki narracyjne (uprzejmość, dane, przeprosiny), a rzut kością na „czy ci uwierzy” odebrałby sens rozmowy. Jeśli gracz bardzo chce, MG może dać Persuasion (Wits + Persuasion) przeciw 6, ale tylko jako dodatkowy ukłon, nie bramkę.
+- **Wren (krok 6):** bez testu. To rozmowa z dialogiem warunkowym; stawką jest wybór kierunku, nie rzut.
 
 ## Rozgałęzienia
 
