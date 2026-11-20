@@ -289,7 +289,7 @@ aktualizacja: 2026-11-20
 
 **Spotkanie N. Ansel czeka (spotkanie wyrównujące)** (ok. 5 min, gdy `flaga.ansel-kontakt` jest mniejsza niż liczba graczy)
 - Czytaj: tekst N, jeden z trzech wariantów („Budzi cię cisza…”, „Sala jest jeszcze pusta…”, „Na pustym korytarzu…”).
-- Dialog: `s1.scena.12.dialog.ansel-wyrownujace` — „Przepraszam, która jest godzina? Tamci mówili, że pan też mnie zobaczy. Albo pani. Przepraszam.”
+- Dialog: `s1.scena.12.dialog.ansel-wyrownujace` — „Przepraszam, która jest godzina? Pana koledzy mnie widzą, to pomyślałem, że pan też. Albo pani. Przepraszam.”
 - Flagi: `flaga.ansel-spotkany`, `flaga.ansel-kontakt` (+1), `flaga.sekret-poruszony` (opcjonalnie)
 - Krótko: jedna postać, jedna rozmowa, bez reszty drużyny. Ansel pyta o godzinę, opowiada, że czeka na panią profesor, i chce wiedzieć, jak postać ma na imię. Gdy postać spyta o panią profesor, może paść powiedzonko o szafce, która „najpierw chce dostać” (W7.3). Jeśli okruch wspólnego sekretu nie padł jeszcze w tej sesji, to dobre miejsce („Wy też się wtedy baliście, prawda?”). Kończy się, gdy ktoś nadchodzi: Ansel znika w pół zdania i wraca potem przy całej drużynie. Obowiązkowe przed sceną 09.
 - Awaryjne: rozgałęzienie `s1.scena.12.rozgalezienie.wyrownanie-kontaktu`
@@ -360,11 +360,383 @@ Moduł zamyka się na trzy sposoby: (1) gracze mają to, po co szli, i wracają 
 
 ## Obecni
 
-TODO (tworca-npc).
+*Przy każdej osobie: w którym spotkaniu jest, co robi, czego chce, sygnał do pokazania i krótka reakcja na zaczepkę. Pełne karty są pod identyfikatorami. Osoby ze spotkań w zarysie mają na razie tylko odsyłacz.*
+
+**[[npc.gruby-mnich]], duch Hufflepuffu** (spotkanie B)
+- *Co robi:* wisi pod sklepieniem korytarza przy kuchni i znosi docinki Irytka z miną męczennika. Gdy Irytek ucieka, szuka kogoś, komu może się wyżalić.
+- *Czego chce:* żeby ktoś przyznał, że jedynym duchem Puchonów jest on, i żeby plotka wreszcie ucichła.
+- *Sygnał:* przy imieniu „Ansel” blednie, gubi wątek i na chwilę prześwituje (wstawka). Gdy Ansel stoi obok, wzdryga się od chłodu „jak przy kimś bardzo smutnym”, ale go nie widzi.
+- *Gdy postacie go zaczepią:* uprzejmość go rozgaduje. Żart z „ducha Puchona” obraża go na resztę dnia: odpływa przez ścianę.
+
+**Irytek, poltergeist (bez karty NPC)** (spotkanie B)
+- *Co robi:* dokucza Mnichowi, bębni ukradzionymi łyżkami w rurę, gwiżdże krótką melodyjkę i nurkuje w kratkę wentylacyjną. Wraca, jeśli ktoś go zawoła albo zagwiżdże.
+- *Czego chce:* widowni, bałaganu i cudzej złości.
+- *Sygnał:* melodyjka to ta sama, którą gwizdał Ślizgon w korytarzu straconej godziny (scena 03). Cassiana nazywa „paniczykiem Tik-Takiem”.
+- *Gdy postacie go zaczepią:* zaklęcie albo kreda: „Pudło!” i znika. Groźba Krwawym Baronem: ucieka przez sufit. Nazwiska nie poda nigdy. Ansela nie widzi.
+
+**[[npc.nauczyciel-astronomii]], prof. Ada Fairweather** (spotkanie D)
+- *Co robi:* siedzi po turecku na parapecie z mapą nieba i lunetą, liczy, o ile spóźniają się gwiazdy. Do uczniów mówi jak do kolegów z obserwatorium.
+- *Czego chce:* żeby ktoś z szóstego roku zapisał się na Astronomię. Pod spodem, nie wiedząc o tym: zrozumieć, czemu z pierwszego roku pamięta tylko klepsydrę.
+- *Sygnał:* na nazwisko „Marrow” milknie na sekundę, zanim się uśmiechnie. Na „ducha Puchona” pyta nagle: „Jak wyglądał?”. Nigdy nie mówi „niemożliwe”, tylko „jeszcze tego nie widziałam”.
+- *Gdy postacie ją zaczepią:* życzliwość ją rozgaduje, obietnica zapisu na Astronomię działa jak łapówka (szczerze). Kłamstwu wierzy, ale jutro opowie je przy stole nauczycieli. Groźba kończy rozmowę i trafia do Wrena.
+
+**[[npc.argus-filch]], woźny** (spotkanie H)
+- *Co robi:* stuka paznokciem w szybkę wielkiego zegara w Sali Wejściowej i szuka kogoś, na kim wyładuje zniecierpliwienie.
+- *Czego chce:* porządku i szacunku. Ktoś, kto wysłucha jego żalów, dostaje więcej, niż Filch zamierzał powiedzieć.
+- *Sygnał:* zapisuje nazwiska w zeszycie litera po literze. Na plamę oleju pod zegarem patrzy jak na osobistą zniewagę.
+- *Gdy postacie go zaczepią:* najpierw nazwisko i dom. Kłamstwo kwituje kpiną i zapisuje dwa razy. Kpina z charłaków albo z niemagicznych ucisza go zupełnie: nie krzyczy, tylko zapamiętuje postać na cały rok.
+
+**[[npc.hollis-crake]], zegarmistrz z ulicy Pokątnej** (spotkanie H, tylko we wtorek i tylko bez `flaga.crake-poznany`)
+- *Co robi:* wyciera palce w szmatkę czarną od smaru i mówi do zegara jak do starego psa. Za chwilę idzie z Filchem do wieży.
+- *Czego chce:* jawnie: dobrze zrobić robotę i nie dać się zagadać o wieżę. Pod spodem (Sesja 2): cofnąć śmierć córki.
+- *Sygnał:* zapach oleju i mięty, lupa na rzemyku. Nie dziwi się, że zegar się spóźnia, tylko martwi. O córce mówi w czasie przeszłym i od razu wraca do zegarów.
+- *Gdy postacie go zaczepią:* uprzejmość go rozpromienia (test pogawędki). Natarczywość i groźba: „pan woźny czeka” i odchodzi, zapamiętując twarze. Przekupstwo go śmieszy.
+
+**[[npc.irma-pince]], bibliotekarka** (spotkanie K)
+- *Co robi:* przegląda rejestr wypożyczeń i stuka z wyrzutem w jedną linijkę: trzy razy ten sam tom dla tego samego ucznia.
+- *Czego chce:* żeby książki wracały całe, a uczniowie nie opierali się o rejestr. Po cichu lubi tych, którzy naprawdę czytają.
+- *Sygnał:* krzywi się na każdy okruch i zagięty róg. Gdy mówi o ostatnim regale, zniża szept jeszcze bardziej.
+- *Gdy postacie ją zaczepią:* szczera ciekawość otwiera rejestr (W5.2). Pochlebstwo i kłamstwo dostają zimne „nie” i obserwację do zamknięcia czytelni. Hałas: wyproszenie i zgłoszenie opiekunowi domu.
+
+**[[npc.filius-flitwick]], nauczyciel Zaklęć** (spotkanie L)
+- *Co robi:* stoi na stosie książek i poprawia prace domowe. Przy każdym biciu Wieży Zegarowej patrzy w okno i sprawdza swój zegarek.
+- *Czego chce:* żeby uczniowie zrozumieli zaklęcie, nie tylko je powtórzyli. Martwi się wieżą i zgłoszeniami zgubionych godzin.
+- *Sygnał:* chwali starania głośniej niż wynik. Przy magii czasu nagle poważnieje i zniża głos.
+- *Gdy postacie go zaczepią:* chętnie daje korepetycje. Kłamstwo przyjmuje z uśmiechem, ale potem przestaje dawkować ciekawostki. O Dział Ksiąg Zakazanych odmawia, bez kary.
+
+**[[npc.albus-dumbledore]], dyrektor** (spotkanie M, tylko gdy postacie same przyprowadzą Ansela i nie zrobiły tego w scenie 05)
+- *Co robi:* czyta listy z Londynu; odkłada je dla gości. Przysuwa krzesło dla kogoś, kogo nie widzi.
+- *Czego chce:* chronić szkołę przed tym, co nadciąga z zewnątrz. Sprawę zamku odkłada, ale nie lekceważy.
+- *Sygnał:* patrzy o pół metra obok Ansela. Przy nazwisku „Marrow” na moment przestaje się uśmiechać.
+- *Gdy postacie go zaczepią:* kłamstwo widzi od razu i czeka, nie karze. Niczego nie obiecuje. Drugi raz ich już nie przyjmie (karta [[miejsce.gabinet-dyrektora]]).
+
+**[[npc.minerva-mcgonagall]], nauczycielka Transmutacji** (spotkanie M, tylko gdy postacie nie znają hasła do gargulca)
+- *Co robi:* nadchodzi korytarzem, gdy postacie stoją przed gargulcem, i pyta, czego tu szukają.
+- *Czego chce:* żeby dyrektor nie tracił czasu na żarty, a prawdziwa sprawa trafiła tam, gdzie trzeba.
+- *Sygnał:* kłamstwo poznaje po pierwszym zdaniu i daje jedną szansę na poprawkę. Zdejmuje okulary, gdy słucha naprawdę uważnie.
+- *Gdy postacie ją zaczepią:* uczciwa, krótka opowieść otwiera gargulca (założenie robocze). Kluczenie: odsyła do dormitoriów i patrzy na postacie przez tydzień.
+
+**[[npc.ansel-dray]]** (spotkanie N; jako towarzysz najwyżej w jednym spotkaniu, najlepiej B albo K; w M, gdy go przyprowadzą)
+- *Co robi:* w N czeka na jedną postać, która jeszcze z nim nie rozmawiała: na jej łóżku o świcie, przy jej ławce albo idzie za jej krokami. W innych spotkaniach stoi obok postaci z najwyższą Więzią i mówi tylko do niej.
+- *Czego chce:* wiedzieć, która jest godzina, doczekać się pani profesor i, choć sam tego nie wie, żeby ktoś zapamiętał jego imię.
+- *Sygnał:* pauza przed każdym pytaniem, „proszę pana”, „proszę pani”. Wzdryga się przy biciu zegara. Ręce przechodzą przez rzeczy.
+- *Gdy postacie go zaczepią:* krzyk albo chwyt: przeprasza i znika. Kłamstwo przyjmuje z ufnością (odkryte: Więź −1). Nigdy nie mówi „umarłem” ani „duch”; o mamie w Sesji 1 nie rozmawia dłużej niż jednym zdaniem.
+
+**[[npc.thaddeus-wren]], nauczyciel Obrony, opiekun grupy trzeciej** (spotkanie P)
+- *Co robi:* siedzi twarzą do drzwi nad jednym wypracowaniem, z piórem, które nie dotyka papieru. Słucha bez przerywania.
+- *Czego chce:* dowodu, nie pewności. Wiedzieć, kto w jego grupie nie śpi w nocy i czemu.
+- *Sygnał:* lewa dłoń płasko na blacie. Dwa stuknięcia kostką palca w biurko za dobrą odpowiedź, to cała pochwała.
+- *Gdy postacie go zaczepią:* kłamstwo: „Wróćcie, gdy będziecie gotowi powiedzieć prawdę”. Groźba: szlaban. Przekupstwo: suche „nie” i minus na długo.
+
+**W spotkaniach w zarysie (TODO, kolejny etap):** [[npc.pomona-sprout]] (E), [[npc.maisie-lock]] i [[npc.gideon-pratt]] (J), [[npc.cassian-vane]] (F, O), [[npc.rosalind-teague]] i [[npc.tobias-quill]] (F, J; do rozpisania).
 
 ## Dialogi
 
-TODO (dialogista): bloki o identyfikatorach z „Rytmu sceny”.
+*Bloki tylko dla ośmiu rozpisanych spotkań. Kwestie są krótkie, żeby dało się je przeczytać z kartki albo powiedzieć po swojemu. Spotkania w zarysie (A, C, E, F, G, I, J, O) nie mają jeszcze bloków: identyfikatory w „Rytmie sceny” są zarezerwowane (TODO, kolejny etap).*
+
+### B. Gruby Mnich: „Duch Puchona! Doprawdy!”
+
+Mnich jest urażony i bardzo chce się wygadać. Bez imienia Ansela tylko narzeka. Imię działa jak kamień wrzucony do stawu: Mnich traci wątek i mówi jedno zdanie, które sam uważa za niemożliwe (W2.4). Pełnej historii nie zna; najwyżej odsyła do Szarej Damy (zapowiedź Sesji 2, nic więcej).
+
+```yaml
+dialog:
+  id: s1.scena.12.dialog.gruby-mnich-imie
+  npc: npc.gruby-mnich
+  wyzwalacz: "Po ucieczce Irytka (tekst B), gdy postacie podchodzą do Mnicha albo go zagadują."
+  ton: "dobroduszny, rozwlekły, urażony; przy imieniu Ansela nagle cichy i zagubiony"
+  kwestie:
+    - "Otwarcie: „Duch Puchona! Doprawdy! Tyle wieków służby i takie plotki! Wy przynajmniej w to nie wierzycie, prawda?”"
+    - "Gdy postać przyznaje mu rację albo go chwali: (rozpromienia się) „No właśnie! A pierwszoroczniacy łapią mnie po korytarzach i pytają, czy widziałem chłopca w żółtym krawacie. Nie widziałem!”"
+    - "Gdy postacie pytają o chłopca w żółtym krawacie, ale bez imienia: (zamyśla się) „Żółty krawat… Coś mi to… Nie. Tylu ich przez te wieki było.”"
+    - "Gdy postać wymówi imię Ansel (wstawka „Ansel…”): „Znałem chłopca o tym imieniu.” (długa pauza) „Nie. To niemożliwe. To było… bardzo dawno.” (W2.4; flaga.ansel-poza-spisem, gdy postacie zestawią to z innym tropem)"
+    - "Gdy dopytują uprzejmie, kiedy i skąd go znał: „Nie umiem tego złapać. Jak sen zaraz po przebudzeniu. Szara Dama pamięta lepiej ode mnie, choć rzadko mówi. Ją spytajcie.” (zapowiedź Sesji 2, nic więcej)"
+    - "Gdy pytają o melodię Irytka: „Gwiżdże to od kilku dni. Podłapał od jakiegoś ucznia, bo sam nigdy nic ładnego nie wymyślił.”"
+    - "Gdy naciskają albo kłamią, że muszą wiedzieć: (smutnieje) „Ja bym chętnie, naprawdę. Ale tam nic więcej nie ma. Tylko to imię dzwoni mi w głowie jak dzwonek na kolację.”"
+    - "Gdy żartują z „ducha Puchona” albo z jego tuszy: „Ach tak. To życzę miłego dnia z waszym chudszym duchem.” (odpływa przez ścianę; dziś już nie wraca)"
+    - "Gdy Ansel stoi przy postaci: (wzdryga się, rozgląda) „Zimno się zrobiło. Jak przy kimś bardzo smutnym.” (Ansel szepcze do postaci: „On jest miły. Tylko nigdy na mnie nie patrzy.”)"
+    - "Nieprzewidziane (postać przechodzi przez niego, rzuca na niego zaklęcie albo częstuje go ciastem): „Ojej! Przez ducha się nie przechodzi, z duchem się rozmawia.” (przy cieście wzdycha nad zapachem; obraża się tylko, jeśli postać nie przeprosi)"
+    - "Może zdradzić bez warunku: że plotka o duchu Puchona to bzdura i że pierwszoroczniacy go o nią wypytują."
+    - "Może zdradzić, gdy padnie imię Ansel: że znał chłopca o tym imieniu i że to „niemożliwe” (W2.4). Przy uprzejmości dodatkowo radę, by spytać Szarą Damę."
+    - "Nie zdradza: roku, wieży, profesor Marrow (nie pamięta ich). Ansela nie widzi."
+  wariant_od: []
+```
+
+### B. Irytek: „Grubasek ma rywala!”
+
+Irytek nie ma karty NPC, więc blok jest zapisany w formacie `dialog`, ale w ogrodzeniu `text`, tak jak w scenie 03. Po utworzeniu karty wystarczy zmienić ogrodzenie na `yaml`. Ważna rzecz w tym bloku to melodia: postać, która słyszała gwizd Ślizgona w korytarzu straconej godziny, rozpoznaje ją bez testu (echo W4.2).
+
+```text
+dialog:
+  id: s1.scena.12.dialog.irytek-mnich
+  npc: npc.irytek   # karta do utworzenia (kanon jako postać, kwestie nasze)
+  wyzwalacz: "Tekst B, zanim Irytek zanurkuje w kratkę; także gdy postacie go zawołają albo zagwiżdżą jego melodię."
+  ton: "wrzaskliwy, złośliwy, rozbawiony; rymuje i przekręca słowa"
+  kwestie:
+    - "Otwarcie: „Grubasek się obraził! Grubasek ma rywala! Uuu, duszek w żółtym krawaciku!”"
+    - "Gdy pytają o ducha Puchona: „Irytek go nie widział, a Irytek widzi wszystko! Więc go nie ma! Albo jest! Uuu!”"
+    - "Gdy postać rozpoznaje melodię albo pyta, skąd ją zna: „Ładna? Ładniusia! Paniczyk Tik-Tak gwiżdże, jak nakręca! Tik i tak, gwizdu-gwizdu!” (echo W4.2)"
+    - "Gdy pytają o Ślizgona z zegarkiem albo o nazwisko: „Nazwisko? A co ja, sowa pocztowa? Paniczyk Tik-Tak, i tyle!” (przedrzeźnia: chodzi sztywno w powietrzu i zerka na niewidzialny zegarek)"
+    - "Gdy mu pochlebiają: „Irytek najmądrzejszy? Prawda, prawdziwa! Paniczyk Tik-Tak w dzień ziewa, oczy jak u sowy po balu, ha!” (więcej nie powie; ucieka)"
+    - "Gdy ktoś grozi Krwawym Baronem: „Dobrze już, dobrze! Irytek grzeczny jak aniołek!” (ucieka przez sufit, sypiąc łyżkami)"
+    - "Gdy ktoś rzuca w niego zaklęciem albo czymkolwiek: „Pudło!” (zrzuca łyżki komuś na głowę i znika)"
+    - "Nieprzewidziane (postać gwiżdże melodię razem z nim albo ją kończy): (zawisa do góry nogami, zachwycony) „Drugi Tik-Tak! Dwa Tik-Taki! Powiem Grubaskowi!” (odlatuje, gwiżdżąc; kolor)"
+    - "Może zdradzić bez warunku: melodię i przezwisko „paniczyk Tik-Tak”."
+    - "Nie zdradza nigdy: nazwiska. Ansela nie widzi."
+  wariant_od: []
+```
+
+### D. Profesor Fairweather: pani od klepsydr
+
+Fairweather jest najłagodniejszą drogą do nazwiska Marrow (rezerwa W2) i do „Bociana” (W9). Daje jedno i drugie chętnie, ale w kawałkach, między dygresjami o gwiazdach. „Bocian” pada tylko przy dłuższej, życzliwej rozmowie. O zdjęciu klasy w szufladzie milczy (Sesja 2).
+
+```yaml
+dialog:
+  id: s1.scena.12.dialog.astronomia-marrow
+  npc: npc.nauczyciel-astronomii
+  wyzwalacz: "Po tekście D, gdy postacie podejdą do parapetu i się odezwą."
+  ton: "lekki, szybki, z dygresjami; nagła cisza, gdy coś sobie przypomina"
+  kwestie:
+    - "Otwarcie: „Och! Przepraszam. Wszystko dziś wschodzi o cztery minuty za późno, a gwiazdy się nie spóźniają, więc to chyba my. Szósty rok? Proszę powiedzieć, że ktoś przyszedł się zapisać na Astronomię.”"
+    - "Gdy postać jest ciekawa nieba albo spóźnienia: (podaje lunetę) „Proszę, nad lasem. Widzicie? Jest, ale spóźniona. Piszę o tym do Ministerstwa. Nikt mi nie odpisze.”"
+    - "Gdy pada nazwisko Marrow (wstawka): „Marrow? Och… Pani od klepsydr. Uczyła mnie trzy tygodnie na pierwszym roku, a potem po prostu odeszła. Wiele lat temu.” (flaga.marrow-imie-znane)"
+    - "Gdy dopytują życzliwie o Marrow: „Na pierwszej lekcji pokazała nam klepsydrę, w której piasek leciał do góry. Nikt mi nie wierzy, że to pamiętam.”"
+    - "Przy dłuższej, życzliwej rozmowie albo pytaniu, kto był przy Marrow: „Był przy niej wysoki prefekt z Ravenclawu, siódmy rok. Nosił jej lunetę jak ze szkła. Wołaliśmy go Bocian.” (marszczy brwi) „Nazwiska? Nie pamiętam. Dziwne.” (flaga.wymark-slad)"
+    - "Gdy ktoś wspomina „ducha Puchona” albo chłopca w żółtym krawacie: (za szybko) „Jak wyglądał?” (po odpowiedzi milknie) „Nie wiem, czemu o to spytałam. Proszę mówić dalej.”"
+    - "Gdy postać mówi, że coś jest niemożliwe (gwiazdy, piasek w górę, zgubione godziny): „Niemożliwe? Och, nie. Po prostu jeszcze tego nie widziałam.”"
+    - "Gdy postacie chcą posiedzieć wieczorem w czytelni: „Mogę szepnąć pani Pince, że robicie coś dla mnie. Ale za liną nawet ja nie mam czego szukać bez podpisu.”"
+    - "Gdy postać obiecuje zapisać się na Astronomię: (szczerze uradowana) „Naprawdę? Och! To pytajcie, o co chcecie.” (działa jak uprzejmość; MG notuje obietnicę)"
+    - "Gdy postać kłamie: (wierzy od razu) „Och, to ciekawe!” (MG notuje: jutro opowie to przy stole nauczycieli jako anegdotę)"
+    - "Gdy postać grozi albo jest niegrzeczna: (ściska lunetę) „Słucham? Chyba skończyliśmy.” (schodzi z parapetu i odchodzi; mówi o tym Wrenowi)"
+    - "Gdy ktoś rzuca przy niej Tempus: (cyfry stoją równo z czasem zamku, bo ona nie straciła godziny) „Pokażcie mi to jeszcze raz. Och, jeszcze raz!”"
+    - "Nieprzewidziane (postacie proszą, żeby zabrała je teraz na wieżę astronomiczną): „Dziś? Czemu nie, do ciszy nocnej jest godzina. Tylko nie dotykać dużego teleskopu, on się obraża.” (kolor; Ansel tam nie idzie)"
+    - "Może zdradzić bez warunku: że gwiazdy „spóźniają się” o cztery minuty i że pisze o tym do Ministerstwa."
+    - "Może zdradzić przy nazwisku Marrow: „pani od klepsydr”, trzy tygodnie lekcji, odeszła wiele lat temu (rezerwa W2). Przy dłuższej, życzliwej rozmowie: „Bociana” (W9)."
+    - "Nie zdradza: zdjęcia swojej klasy z pustym miejscem (Sesja 2) ani nazwiska Bociana (nie pamięta go)."
+  wariant_od: [flaga.marrow-imie-znane]
+```
+
+### H. Filch przy wielkim zegarze
+
+Filch jest kolczasty, ale samotny. Zbywa pytanie o zegar, a dopiero kto wysłucha jego narzekań, dostaje zdanie o zegarmistrzu (W8.3). Wariant zależy od dnia: we wtorek Crake jest obok, w poniedziałek Filch mówi, że zegarmistrz „ma być jutro”.
+
+```yaml
+dialog:
+  id: s1.scena.12.dialog.filch-obchod
+  npc: npc.argus-filch
+  wyzwalacz: "Tekst H (albo wstawka „Woźny sam”), gdy Filch wybiera postacie na ofiarę swojego zniecierpliwienia."
+  ton: "zgrzytliwy szept, który nagle przechodzi w krzyk; podejrzliwy, mięknie, gdy ktoś go słucha"
+  kwestie:
+    - "Otwarcie: „Czego? Nazwisko, dom. I ręce od szybki.” (zapisuje w zeszycie litera po literze)"
+    - "Gdy pytają, czemu zegar się spóźnia: „Wieża się boczy, a dzwony za nią. Co, mam ją za wahadło trzymać?” (W3.3)"
+    - "Gdy postać go wysłucha albo zapyta, jak mu się pracuje: (podejrzliwie, potem coraz szybciej) „Nikt tu nie pyta, jak się ma woźny. Pan Pringle zostawił mi księgę szlabanów i stado smarkaczy, co znają przejścia lepiej ode mnie.”"
+    - "Po wysłuchaniu, we wtorek: „Zegarmistrz był w czwartek. I dziś znowu. Coraz częściej, a olej z posadzki zmywam ja.” (W8.3)"
+    - "Po wysłuchaniu, w poniedziałek: „Zegarmistrz był w czwartek. I jutro znowu ma być. Coraz częściej.” (W8.3)"
+    - "Gdy pytają o nazwisko zegarmistrza: „Na tabliczce ma. Czytać umiecie?” (stuka w mosiężną plakietkę na obudowie zegara)"
+    - "Gdy postać kłamie albo się wykręca: „Tak, tak. A ja jestem minister magii.” (zapisuje nazwisko drugi raz i podkreśla)"
+    - "Gdy postać jest bezczelna albo grozi: (krzyk) „Do opiekuna domu! Natychmiast!” (za dnia bez szlabanu, ale Filch zapamiętuje)"
+    - "Gdy ktoś kpi z charłaków albo z ludzi bez magii: (cichnie zupełnie) „Powtórz.” (nie krzyczy; zapisuje nazwisko osobno, na ostatniej stronie, i pamięta je cały rok)"
+    - "Gdy postać ma u niego szlaban za bójkę w Wielkiej Sali: „A, ty. Wtorek wieczorem, u mnie. Nie spóźnij się. Zegary tu kłamią, ja nie.”"
+    - "Kolor, opcjonalnie (tylko gdy wspólny sekret z 4. roku wiązał się z przyłapaniem i gracze zgodzili się to ujawnić): (otwiera księgę szlabanów, wodzi palcem) „O, proszę. Czwarty rok. [nazwiska]. Pan Pringle ładnie to zapisał.”"
+    - "Nieprzewidziane (postać chce sama poprawić zegar różdżką albo go nakręcić): „Ręce precz! Jeszcze tego brakuje, żeby uczeń mi zegar różdżką naprawiał.” (ale zerka z nadzieją; zegar i tak spóźnia się dalej)"
+    - "Może zdradzić bez warunku: że „wieża się boczy” (W3.3)."
+    - "Może zdradzić, gdy ktoś go wysłucha: wizyty zegarmistrza, coraz częstsze (W8.3); nazwisko tylko przez tabliczkę."
+    - "Nie zdradza: że jest charłakiem."
+  wariant_od: []
+```
+
+### H. Crake przy zegarze (wtorek)
+
+Crake jest ciepły i krótki. Mówi do zegara częściej niż do postaci. Jego blok zależy od testu pogawędki (`s1.scena.12.test.crake-pogawedka`, liczby ustala mechanik): zwykły sukces daje jedno zdanie o wieży, sukces imponujący zdjęcie córki. O Klepsydrze, pieczęci i „kliencie z Londynu” nie mówi nigdy.
+
+```yaml
+dialog:
+  id: s1.scena.12.dialog.crake-sala-wejsciowa
+  npc: npc.hollis-crake
+  wyzwalacz: "Tekst H w wersji z zegarmistrzem: tylko we wtorek i tylko wtedy, gdy postacie jeszcze go nie spotkały."
+  ton: "ciepły, trochę chrapliwy, wolny; uśmiech w każdym zdaniu; przy córce zdanie się urywa"
+  kwestie:
+    - "Otwarcie: „Spóźnia się o cztery minuty, a dopiero co go regulowałem. Ten zamek ma swoje humory, młodzi państwo.”"
+    - "Gdy postać pyta o zegar albo o jego pracę: „Zegar to nie maszyna, to charakter. Ten tu jest uparty, ale uczciwy. Jak się spóźnia, to ma powód.”"
+    - "Po teście pogawędki, sukces: „Wieża? Wieża ostatnio wymaga więcej uwagi. Starość, wiecie. Jej i moja.” (flaga.crake-poznany)"
+    - "Po teście pogawędki, sukces imponujący: (otwiera kopertę zegarka, w środku małe zdjęcie) „To Nora. Pomagała mi w sklepie. Miała lepsze ręce do sprężyn niż ja. Ona by…” (zamyka kopertę) „No. Zegary same się nie naoliwią.” (flaga.crake-dluga-rozmowa)"
+    - "Gdy pytają o szyld albo plakietkę „Crake i Córka”: „Szyld musi być prawdziwy. Tak zawsze mówiłem.” (wraca wzrokiem do wahadła)"
+    - "Gdy pytają, czemu przyjeżdża tak często: „Stare mechanizmy są jak stare psy. Trzeba je częściej odwiedzać.” (więcej nie powie)"
+    - "Gdy postać proponuje pieniądze albo przysługę za informacje: (śmieje się życzliwie) „Synku, ja biorę pieniądze za naprawy, nie za plotki.” (do dziewczyny: „Panienko…”)"
+    - "Gdy postać kłamie: (uśmiecha się jak do wnuka) „Oczywiście, oczywiście.” (temat wieży zamknięty)"
+    - "Gdy postać naciska, grozi albo zagradza drogę: (uprzejmie, cofając się) „Pan woźny czeka, młodzi państwo. Miłego dnia.” (odchodzi; zapamiętuje twarze)"
+    - "Nieprzewidziane (postać chce zajrzeć do mechanizmu albo rzuca zaklęcie na zegar): „Ostrożnie, kochanie.” (mówi to do zegara, nie do postaci, i zasłania obudowę dłonią) „On nie lubi, jak ktoś grzebie bez pytania. Ja też nie.” (zaklęcie rzucone na samego Crake'a: skandal i szlaban, zob. karta)"
+    - "Może zdradzić po sukcesie: że wieża „wymaga więcej uwagi” (W8). Po sukcesie imponującym: imię córki i zdjęcie, zawsze w czasie przeszłym."
+    - "Nie zdradza nigdy w Sesji 1: Klepsydry, pieczęci, „klienta z Londynu” ani tego, że córka nie żyje."
+  wariant_od: [flaga.crake-poznany]
+```
+
+### K. Pani Pince i rejestr wypożyczeń
+
+Pani Pince daje W5.2 tylko za szczerą ciekawość i w dwóch kawałkach: najpierw kto i ile razy, potem, gdzie znalazła tom. To rozmowa, nie zgoda: za linę nie wpuści nikogo. Jeśli Ansel jest przy postaci, mówi tylko do niej; pani Pince go nie słyszy.
+
+```yaml
+dialog:
+  id: s1.scena.12.dialog.pince-rejestr
+  npc: npc.irma-pince
+  wyzwalacz: "Tekst K, gdy postacie podchodzą do biurka wypożyczeń albo ktoś pyta o rejestr."
+  ton: "ostry szept, nigdy głośniej; przy szczerej ciekawości łagodniejszy o pół tonu"
+  kwestie:
+    - "Otwarcie: „Trzy razy. Trzy razy ten sam tom, jakby był jego własnością. Czego szukacie? I proszę nie opierać się o rejestr.”"
+    - "Gdy postać szczerze pyta, kto to taki: „Chłopiec od Slughorna. Vane, szósty rok. Trzy razy ten sam tom o zegarmistrzostwie, a oddaje z zagiętymi rogami.” (W5.2, część pierwsza)"
+    - "Gdy dopytują o ten tom albo o to, gdzie stoi: (szept jeszcze ciszej) „Stoi na zwykłej półce. Ale za trzecim razem znalazłam go za liną, na samym końcu ostatniego regału. A przecież nikogo tam nie wpuszczam.” (flaga.lokalizacja-pracowni)"
+    - "Gdy pytają o ostatni regał: (krótka cisza) „Tam jest zimno. Nikt tam nie siedzi.” (sama nie wie, czemu przy nim przyspiesza kroku)"
+    - "Gdy proszą o wejście do Działu Ksiąg Zakazanych: „Z podpisem nauczyciela. A podpisu na takie tematy nie dostaniecie.”"
+    - "Gdy pytają o zdjęcia, gablotę albo profesor Marrow: „Gablota stoi na korytarzu. Ja pilnuję książek, nie pucharów.” (wskazuje drzwi; wstawka „Za szybą gabloty…”)"
+    - "Gdy postać pochlebia albo kłamie: „Nie.” (wraca do rejestru; do zamknięcia czytelni patrzy na postacie znad okularów)"
+    - "Gdy postać hałasuje, je albo zagina róg: „Wyjście jest tam. Opiekun waszego domu dowie się o tym jeszcze dziś.”"
+    - "Ansel przy postaci z Więzią 2, szeptem, tylko do niej: „Pani profesor nosiła książki do najdalszego regału.” (W5.5; pani Pince nic nie słyszy)"
+    - "Ansel przy gablocie: (przykłada dłoń do szkła; dłoń trochę w nie wchodzi) „To pani profesor.”"
+    - "Nieprzewidziane (postać odkłada książki na miejsce, naprawia grzbiet albo naprawdę czyta przy biurku): (patrzy długo) „Grzbietem na zewnątrz. Nie tak. O, tak.” (prawie się uśmiecha; na następne pytanie odpowiada pełniej, jak przy szczerej ciekawości)"
+    - "Może zdradzić przy szczerej ciekawości: nazwisko Vane, trzy wypożyczenia tego samego tomu, tom znaleziony za liną na końcu ostatniego regału (W5.2)."
+    - "Nie zdradza: zgody na wejście za linę. Nikogo tam nie wpuści, za dnia ani wieczorem."
+  wariant_od: [flaga.lokalizacja-pracowni]
+```
+
+### L. Flitwick: korepetycje z Tempus
+
+Flitwick daje drugą szansę na Tempus i nigdy nie karze za błąd. Pytanie o zgubione godziny zmienia mu głos: poważnieje i odsyła do Wrena albo dyrektora. Przy prośbie o Dział Ksiąg Zakazanych daje jedną rzecz: potwierdza, że o takich sprawach pisano tylko tam.
+
+```yaml
+dialog:
+  id: s1.scena.12.dialog.flitwick-korepetycje
+  npc: npc.filius-flitwick
+  wyzwalacz: "Tekst L, gdy postacie wchodzą do sali Zaklęć po lekcjach i proszą o pomoc albo o cokolwiek pytają."
+  ton: "piskliwy, szybki i radosny; przy magii czasu nagle poważny i ściszony"
+  kwestie:
+    - "Otwarcie: „Ach, szósty rok! Pytanie po lekcjach? Wszystkie najlepsze pytania przychodzą po lekcjach. Różdżki w górę, nadgarstek miękko, jak przy nakręcaniu zegarka.”"
+    - "Gdy postać prosi o pomoc z Tempus: „Proszę pokazać. Nie, nie, nie ściskać! Zaklęcie nie lubi, jak się je dusi.” (test s1.scena.12.test.tempus-korepetycje)"
+    - "Po udanym rzucie (wstawka „Dym nad końcem różdżki…”): „Brawo! Widzicie? Cyfry stoją jak na tablicy!” (flaga.tempus-opanowane)"
+    - "Po nieudanym rzucie: „Prawie! Prawie to już bardzo dużo. Oddech, nadgarstek, i jeszcze raz.” (czy wolno rzucić drugi raz, ustala mechanik w teście)"
+    - "Gdy wieża bije i ktoś pyta, czemu profesor patrzy w okno: „Boczy się od dwóch tygodni. Wieże też mają nastroje.” (marszczy brwi; W3.3)"
+    - "Gdy pytają o zgubione godziny: (poważnieje, ścisza głos) „Jeśli ktoś bawi się czasem, to nie jest zabawa. To już trzecie zgłoszenie w tym tygodniu. Idźcie z tym do profesora Wrena albo do dyrektora.”"
+    - "Gdy pytają z ciekawości o teorię dryfu: „O takich rzeczach pisano tylko w książkach, do których szóstego roku nie wpuszczam. I dobrze.”"
+    - "Gdy proszą o przepustkę do Działu Ksiąg Zakazanych: „Nie na ten temat, moi drodzy. Z czasem się nie żartuje.” (bez kary)"
+    - "Gdy postać kłamie: „Ach tak? Ciekawe, ciekawe.” (dalej się uśmiecha, ale ciekawostek już nie dorzuca)"
+    - "Nieprzewidziane (postać pokazuje różdżkę, która tyka po nieudanym Tempus): (przykłada różdżkę do ucha) „Ojej. Tyka. To się zdarza po bardzo ambitnej próbie. Do wieczora przejdzie, tylko proszę nie kłaść jej przy poduszce.”"
+    - "Może zdradzić bez warunku: korepetycje; że wieża „boczy się” od dwóch tygodni (W3.3)."
+    - "Może zdradzić przy pytaniu o zgubione godziny: że to trzecie zgłoszenie w tym tygodniu i że trzeba iść do Wrena albo dyrektora."
+    - "Nie zdradza: przepustki ani tytułów książek z Działu."
+  wariant_od: [flaga.tempus-opanowane]
+```
+
+### M. Dumbledore: „Ilu was jest?”
+
+Ten blok jest na wypadek, gdy postacie prowadzą Ansela do dyrektora dopiero w wędrówkach, a nie w scenie 05 (tam jest blok `s1.scena.05.dialog.dumbledore-puste-krzeslo`; drugi raz dyrektor ich nie przyjmie). Pytanie otwierające jest uprzejme i zupełnie poważne: dyrektor naprawdę nie wie, ile krzeseł przysunąć.
+
+```yaml
+dialog:
+  id: s1.scena.12.dialog.dumbledore-krzeslo
+  npc: npc.albus-dumbledore
+  wyzwalacz: "Postacie wchodzą z Anselem do gabinetu dyrektora (tekst M), od wieczoru 22 września, jeśli nie były u niego w scenie 05."
+  ton: "łagodny, niespieszny, z humorem, który nagle przechodzi w powagę"
+  kwestie:
+    - "Otwarcie: „Dobry wieczór. Siadajcie, proszę. Ilu was jest?”"
+    - "Gdy postacie liczą z Anselem: (przysuwa jeszcze jedno krzesło, odrobinę za daleko od reszty) „W takim razie proszę. Dla gościa.” (patrzy o pół metra obok chłopca)"
+    - "Ansel do postaci, szeptem, gdy widzi dyrektora: „Ja go znam! To pan profesor od transmutacji.” (nie rozumie, czemu siedzi za tym biurkiem)"
+    - "Gdy postacie opowiadają o straconej godzinie i o chłopcu: „Wierzę, że kogoś widzicie. To nie to samo, co widzieć go samemu, ale to dużo. Proszę patrzeć dalej. Z tym, co zobaczycie, idźcie do profesora Wrena.”"
+    - "Gdy pada nazwisko Marrow: (na moment przestaje się uśmiechać) „Profesor Marrow uczyła tu dawno temu.” (nic więcej; wraca uprzejmość)"
+    - "Gdy proszą o pomoc albo obietnicę: „Nie obiecuję rzeczy, których nie umiem dotrzymać. A mam dziś na biurku sprawy, które nie czekają.”"
+    - "Gdy oskarżają Cassiana: „Oskarżenie ucznia to ciężka rzecz. Proszę nieść ją ostrożnie. Profesor Wren wie, co zrobić z dowodem.”"
+    - "Gdy proszą o zgodę na Dział Ksiąg Zakazanych: „Regulamin biblioteki napisano właśnie dla ciekawych. Reszta go nie potrzebuje.” (odmowa, bez kary, z uważnym spojrzeniem)"
+    - "Gdy postacie kłamią albo coś przemilczają: „Poczekam, aż będziecie gotowi powiedzieć resztę.” (nie karze)"
+    - "Ansel do postaci, cicho, przy wyjściu: „On mnie nie widzi. Pani profesor też w końcu przestała.”"
+    - "Nieprzewidziane (postać prosi, żeby dyrektor podał Anselowi rękę, albo rzuca zaklęcie, które ma go pokazać): (cierpliwie wyciąga dłoń w puste miejsce) „Nie poczuję. Ale ręka zostanie wyciągnięta. To też się liczy.” (Ansel kładzie na niej swoją; przechodzi na wylot. Zaklęcie nic nie pokazuje, ZD-24)"
+    - "Może zdradzić: że profesor Marrow uczyła w Hogwarcie dawno temu (flaga.marrow-imie-znane, jeśli jeszcze nie ustawiona)."
+    - "Nie zdradza: kiedy i dlaczego Marrow odeszła ani niczego o 1951. Nie obiecuje pomocy."
+  wariant_od: [flaga.marrow-imie-znane, flaga.dumbledore-powiadomiony]
+```
+
+### M. McGonagall przy gargulcu
+
+Gdy postacie nie znają hasła, nadchodzi McGonagall. Nie jest ścianą: krótka, uczciwa opowieść ją przekonuje i otwiera gargulca (założenie robocze). Kluczenie dostaje jedną szansę na poprawkę.
+
+```yaml
+dialog:
+  id: s1.scena.12.dialog.mcgonagall-odmowa
+  npc: npc.minerva-mcgonagall
+  wyzwalacz: "Postacie stoją przed gargulcem bez hasła albo przychodzą najpierw do niej z prośbą o rozmowę z dyrektorem."
+  ton: "krótko i precyzyjnie, bez podnoszenia głosu"
+  kwestie:
+    - "Otwarcie: „Dyrektor ma dziś wiele spraw. Jeśli wasza jest pilna, najpierw usłyszę ją ja.”"
+    - "Gdy postacie mówią krótko i uczciwie, co się stało: (zdejmuje okulary, słucha do końca) „Dobrze. Pięć minut. I powtórzycie mu dokładnie to samo co mnie.” (mówi hasło gargulcowi; dalej tekst M)"
+    - "Gdy mówią o chłopcu, którego nikt nie widzi: „Nie twierdzę, że go nie ma. Twierdzę, że ja go nie widzę. Proszę mówić dalej.”"
+    - "Gdy postacie kluczą albo kłamią po raz pierwszy: „Zacznijcie jeszcze raz. Tym razem od prawdy.”"
+    - "Gdy kłamią po raz drugi: „Do dormitoriów. Wszyscy.” (bez kary; przez tydzień patrzy na nie uważniej)"
+    - "Gdy proszą o Dział Ksiąg Zakazanych: „Dział Ksiąg Zakazanych nie służy do prac domowych, panie i panowie. Czytelnia jest otwarta do dziewiątej.”"
+    - "Gdy nalegają albo podnoszą głos: „Rozsądna prośba dostaje rozsądną odpowiedź. Ta rozsądna nie była. Następna?”"
+    - "Nieprzewidziane (postacie zgadują przy niej hasło albo próbują ominąć gargulca): (sucho) „Jeśli zgadniecie, i tak będę stała obok.”"
+    - "Może zdradzić bez warunku: że dyrektor wrócił z Londynu i jest zajęty."
+    - "Nie zdradza: hasła bez uczciwej opowieści."
+  wariant_od: []
+```
+
+### N. Ansel czeka (spotkanie wyrównujące)
+
+Jedna postać, jedna rozmowa, bez reszty drużyny. Ansel jest tu bardziej nieśmiały niż przy schodach: przyszedł sam do kogoś, kto go jeszcze nie zna. Więź rośnie w tym spotkaniu najwyżej do 1. Ansel nigdy nie mówi „umarłem” ani „duch”, a rozmowę o mamie ucina jednym zdaniem (rozmowa o mamie dopiero w Sesji 2). Kończy się, gdy ktoś nadchodzi.
+
+```yaml
+dialog:
+  id: s1.scena.12.dialog.ansel-wyrownujace
+  npc: npc.ansel-dray
+  wyzwalacz: "Spotkanie N, po jednym z trzech wariantów tekstu, dla postaci, która jeszcze nie rozmawiała z Anselem."
+  ton: "cichy, z pauzą przed pytaniem; potem szybko, jednym tchem, z ulgą"
+  kwestie:
+    - "Otwarcie: „Przepraszam, która jest godzina?” (pauza) „Pana koledzy mnie widzą, to pomyślałem, że pan też. Albo pani. Przepraszam.”"
+    - "Wariant 1, na łóżku (po swoim „Przepraszam”): „Tu jest cicho. Na schodach ciągle ktoś chodzi i nikt nie patrzy.”"
+    - "Wariant 2, przy ławce: „Ktoś tu wyciął literki. Ja bym się bał, za ławki jest szlaban.” (jeśli to inicjały postaci: „To pana? To ja zapamiętam.”)"
+    - "Wariant 3, za tykaniem: „Pana różdżka tyka. Jak zegarek. Szedłem za tym przez trzy korytarze.” (bez tykającej różdżki: „Szedłem za panem. Pan tak równo chodzi.”)"
+    - "Gdy postać podaje godzinę: „Dziękuję.” (powtarza ją szeptem) „To chyba długo, prawda?”"
+    - "Gdy postać się przedstawia: (powtarza imię dwa razy) „Ja zapamiętam. Teraz znam już was wszystkich.” (Więź +1, najwyżej do 1)"
+    - "Gdy postać pyta o panią profesor (W7.3, jeśli ta postać jeszcze tego nie słyszała): „Kazała czekać. Ona nigdy nic z szafki nie brała, zawsze najpierw coś jej dawała. Mówiła, że szafka jest uczciwa: najpierw chce dostać.”"
+    - "Okruch wspólnego sekretu (raz na sesję, jeśli jeszcze nie padł): „Pan też się wtedy bał, prawda? [czego się bali]. Tak samo jak ja na wieży.” (mruga) „Czemu ja to wiem?” (flaga.sekret-poruszony)"
+    - "Gdy postać pyta, czy jest duchem albo czy nie żyje: (marszczy brwi, jakby nie zrozumiał żartu) „Przecież tu jestem. Gruby Mnich jest przezroczysty i lata. Ja chodzę po schodach, normalnie.” (pyta znowu o godzinę)"
+    - "Gdy postać pyta o dom albo o mamę: (uśmiecha się szybko) „Pisze co tydzień. Opowiem panu kiedy indziej, dobrze?” (zmienia temat; dłużej o mamie dopiero w Sesji 2)"
+    - "Gdy postać mówi mu, że jest 1969 albo że pani profesor odeszła: (cichnie) „Pan żartuje.” (liczy na palcach i przestaje) „To pomyłka. Ona kazała czekać.” (Więź nie spada; rozmowa się kończy)"
+    - "Gdy postać obiecuje, że przyjdzie z resztą: „To ja poczekam. Ja dobrze czekam.”"
+    - "Gdy postać go zbywa albo na niego krzyczy: (cofa się) „Przepraszam. Już nie przeszkadzam.” (znika; kontakt i tak się liczy, Więź bez zmian)"
+    - "Gdy ktoś nadchodzi: „Ktoś idzie. Przepraszam, ja…” (znika w pół zdania; wraca później przy całej drużynie)"
+    - "Nieprzewidziane (postać chce go od razu zaprowadzić do drużyny albo go przytulić): (przy prowadzeniu) „Teraz? Ale pani profesor…” (idzie dwa kroki za postacią); (przy uścisku ręce przechodzą przez zimną mgłę) „Ojej. Zimno panu? Przepraszam.”"
+    - "Może zdradzić bez warunku: imię, dom, że czeka na panią profesor Marrow."
+    - "Może zdradzić, gdy postać pyta o panią profesor: powiedzonko o szafce, która „najpierw chce dostać” (W7.3)."
+    - "Nie mówi nigdy: „umarłem”, „duch”, roku. O mamie najwyżej jedno zdanie."
+  wariant_od: [flaga.ansel-kontakt, flaga.sekret-poruszony]
+```
+
+### P. Wren w pustej sali Obrony
+
+Wren słucha do końca i dopiero potem pyta. Oskarżenia bez dowodu nie przyjmie, ale zawsze daje jeden konkret: oceny Vane'a (W4.6). Prośba o Dział Ksiąg Zakazanych mówi mu więcej, niż postacie chciały powiedzieć.
+
+```yaml
+dialog:
+  id: s1.scena.12.dialog.wren-sala-obrony
+  npc: npc.thaddeus-wren
+  wyzwalacz: "Tekst P: postacie przychodzą do sali Obrony po lekcjach (zawsze po scenie 04)."
+  ton: "niski, cichy, zdania krótkie jak meldunek, długie pauzy"
+  kwestie:
+    - "Otwarcie: „Grupa trzecia. Siadajcie albo stójcie, jak wolicie. Słucham.”"
+    - "Gdy opowiadają o straconej godzinie: (słucha do końca, nie przerywa; potem od razu) „Czy Vane był w pobliżu?”"
+    - "Gdy oskarżają Cassiana bez dowodu: „Przeczucie to nie dowód. Proszę mi przynieść coś, co jest.” (pauza) „Pan Vane podniósł oceny w dwa tygodnie. Ze wszystkiego naraz. Tak się nie da, chyba że ktoś przestał spać.” (W4.6)"
+    - "Gdy flaga.wren-podejrzewa jest ustawiona po wyrwanym zegarku: „Panno [nazwisko]. Celowała pani w kieszonkę, nie w różdżkę. Dlaczego?” (czeka na odpowiedź; do chłopca „Panie [nazwisko]”)"
+    - "Gdy mówią o chłopcu, którego widzą tylko oni: (długa pauza) „Jeszcze nie wiem, co to znaczy. Zapisuję.” (notuje coś na marginesie wypracowania)"
+    - "Gdy proszą o Dział Ksiąg Zakazanych: „Przeciwnik zawsze mówi, co zrobi. Wy właśnie mi powiedzieliście.” (od tej chwili patrzy, kto z grupy nie śpi w nocy; kolor)"
+    - "Przy zegarze kradzieży 2, jeśli pytanie ze sceny 06 jeszcze nie padło: „Pierwszy rok, na schodach, przed chwilą. Chłopak nie wie, kiedy zasnął. Kto z was ostatnio gubi czas?”"
+    - "Gdy przynoszą skradziony zegarek Cassiana: (nie dotyka go) „Nie mówcie, skąd. Nie przyjmę rzeczy zabranej uczniowi. Do jutra zróbcie z nim, co trzeba. Potem sam zapytam pana Vane'a, czego mu brakuje.”"
+    - "Gdy postać mówi coś trafnego: (dwa stuknięcia kostką palca w biurko; nic więcej)"
+    - "Gdy pytają o jego pracę w Biurze Aurorów: „Mieli lepszą kawę niż pokój nauczycielski. Na tym poprzestańmy.”"
+    - "Gdy postać kłamie: „Wróćcie, gdy będziecie gotowi powiedzieć mi prawdę.” (wraca do wypracowania)"
+    - "Gdy postać grozi albo jest bezczelna: (patrzy długo) „Szlaban. Jutro po kolacji. Chce pan coś dodać?”"
+    - "Gdy postać proponuje przysługę albo coś w zamian: „Nie.” (wraca do pióra; minus w jego oczach na długo)"
+    - "Nieprzewidziane (postać wyciąga różdżkę w sali, celuje w manekin albo proponuje pojedynek na próbę): (rozbraja ją w pół sekundy, nie wstając) „Poza ćwiczeniami nie. Różdżka leży na biurku. Weźmie ją pani przy wyjściu.”"
+    - "Może zdradzić bez warunku: pytanie, czy Vane był w pobliżu."
+    - "Może zdradzić przy rozmowie o stracie albo o Cassianie: konkret o ocenach Vane'a (W4.6). Kierunek: do sceny 08 albo z powrotem do 06."
+    - "Nie zdradza: oskarżenia bez dowodu, niczego o Biurze Aurorów poza żartem, swojej dawnej pomyłki."
+  wariant_od: [flaga.wren-podejrzewa, flaga.s1-zegar-kradziezy, flaga.zegarek-cassiana]
+```
 
 ## Testy
 
