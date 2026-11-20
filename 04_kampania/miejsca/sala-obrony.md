@@ -25,11 +25,11 @@ aktualizacja: 2026-11-20
 - **Stanowiska:** jedno przy oknie jest najlepsze (światło za plecami, widać drzwi). Grupa, która przyszła pierwsza, wybiera. Spóźniona grupa trzecia dostaje stanowisko pod tablicą, ze słońcem w oczach (kolor; ewentualną karę ustala mechanik).
 - [[npc.thaddeus-wren]] przyjmuje spóźnionych: „Gdzie byliście?”. Jeśli powiedzą prawdę, pyta, czy Vane był w pobliżu.
 - [[npc.rosalind-teague]] (pociera kciuk przed zaklęciem) i [[npc.barnaby-finch]] (zerka na drzwi przed ruchem) z grupy rywali to materiał do ćwiczenia czytania przeciwnika.
-- [[npc.cassian-vane]] wygrywa pokaz: działa dwa razy, zanim przeciwnik skończy jeden ruch, potem dotyka kieszonki kamizelki. Kto nazwie sygnał na głos, ustawia `flaga.sygnal-cassiana-nazwany`.
+- [[npc.cassian-vane]] wygrywa pokaz: działa dwa razy, zanim przeciwnik skończy jeden ruch, potem dotyka kieszonki kamizelki. Zegarek ma przy sobie **zawsze** (decyzja MG 2026-11-20: przed sceną 04 nie da się go zdobyć). Test spostrzegawczości postaci, która patrzy na pokaz, ujawnia, że szybkość daje zegarek; kto nazwie sygnał na głos, ustawia `flaga.sygnal-cassiana-nazwany`.
+- Postać, która pokona Cassiana, może wyrwać mu zegarek. Wren od razu go odbiera i oddaje Cassianowi („Pamiątka, nie dowód”), ale od tej chwili podejrzewa (`flaga.wren-podejrzewa`). Szczegóły w [[przedmiot.zegarek-cassiana]].
 - Po lekcji Wren może rzucić uwagę o ocenach Vane'a (`flaga.wren-podejrzewa`).
 
 **Stan zmienny.**
-- Jeśli `flaga.zegarek-cassiana` = `u-graczy` albo `skonfiskowany` przed lekcją: Cassian jest zwyczajny, przegrywa pokaz i nerwowo maca pustą kieszonkę (siatka bezpieczeństwa 1).
 - Gdy `flaga.s1-zegar-kradziezy` = 2: Wren zbiera tu swoją grupę i pyta, kto ostatnio „gubi czas”, zanim zapyta publicznie.
 - Jeśli `flaga.wren-podejrzewa`: po lekcjach Wren zostawia drzwi uchylone i „przypadkiem” wychodzi, gdy grupa trzecia ćwiczy; nie chce nic wiedzieć oficjalnie.
 - Po `flaga.cassian-zdemaskowany` (Sesja 2): grupa rywali ćwiczy przy innym stanowisku i nie patrzy w stronę drużyny, albo przeciwnie, zależnie od `flaga.cassian-los`.

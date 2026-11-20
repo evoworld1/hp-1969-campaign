@@ -50,7 +50,7 @@ Przykładowe kwestie:
 
 - **Cel jawny:** przygotować szósty rok na to, co nadciąga, zanim ktoś to nazwie wojną. Nauczyć ich patrzeć na przeciwnika, nie na jego dom.
 - **Cel ukryty:** zatrzymać choć kilku uczniów przed werbunkiem ruchu czystej krwi. Grupy mieszane to także sposób, żeby obserwować, kto z kim trzyma, i kto latem gościł „pana Notta”.
-- **Co robi bez graczy:** prowadzi lekcje i ćwiczenia grup, sprawdza oceny, pisze listy do dawnego kolegi z Biura Aurorów. Przy zegarze kradzieży 2 publicznie pyta rok, kto ostatnio „gubi czas”. Zauważył, że wyniki Vane'a skoczyły w dwa tygodnie, i zaczyna się przyglądać.
+- **Co robi bez graczy:** prowadzi lekcje i ćwiczenia grup, sprawdza oceny, pisze listy do dawnego kolegi z Biura Aurorów. Przy zegarze kradzieży 2 publicznie pyta rok, kto ostatnio „gubi czas”. Zauważył, że wyniki Vane'a skoczyły w dwa tygodnie, i zaczyna się przyglądać; głośno mówi o tym uczniom dopiero od sceny 04.
 
 ## Sekret
 
@@ -59,7 +59,7 @@ Przykładowe kwestie:
 
 ## Sygnały
 
-- Każde pytanie o Cassiana zbywa zdaniem o dowodach, ale zawsze dorzuca jeden konkret („oceny skoczyły w dwa tygodnie”). To `flaga.wren-podejrzewa`.
+- **Od sceny 04** każde pytanie o Cassiana zbywa zdaniem o dowodach, ale zawsze dorzuca jeden konkret: „Pan Vane podniósł oceny w dwa tygodnie. Z pojedynków, z teorii, ze wszystkiego naraz. Tak się nie da, chyba że ktoś przestał spać”. To `flaga.wren-podejrzewa`. **W scenie 01** konkretu jeszcze nie daje: pytania o Cassiana ucina („O grupie pana Vane'a porozmawiamy na macie, nie przy owsiance”).
 - Gdy postacie mówią prawdę o straconej godzinie, od razu pyta: „Czy Vane był w pobliżu?”.
 - Nie siada tyłem do drzwi.
 
@@ -72,7 +72,9 @@ Przykładowe kwestie:
 | Przekupstwo | Odmowa bez gniewu i minus w jego oczach na długo. |
 | Kłamstwo | Czyta kłamstwo jak przeciwnika na macie. Nie oskarża, ale mówi: „Wróćcie, gdy będziecie gotowi powiedzieć mi prawdę”. |
 | Magia | Rzucanie zaklęć poza ćwiczeniami na jego lekcji kończy się rozbrojeniem w pół sekundy i szlabanem. |
-| Przemoc | Przerywa każdą bójkę i każdy pojedynek, który wymyka się spod kontroli. Ciężko ranny uczeń to dla niego sprawa dla dyrektora. |
+| Przemoc | Przerywa każdą bójkę i każdy pojedynek, który wymyka się spod kontroli. Ciężko ranny uczeń to dla niego sprawa dla dyrektora. Przemoc w Wielkiej Sali (np. przy śniadaniu, 01): rozbraja w pół sekundy, odejmuje punkty domowi i daje szlaban u Filcha jutro wieczorem (decyzja MG 2026-11-20; tylko kolor, bez skutków liczbowych w scenie 09). |
+| Wyrwanie zegarka Cassianowi w pokazie (04) | Odbiera zegarek postaci jednym ruchem, zanim ktokolwiek zajrzy na tarczę, i oddaje go Cassianowi: „Pamiątka, nie dowód. Wygrała pani/pan pojedynek, nie śledztwo”. Patrzy przy tym chwilę dłużej na Cassiana niż na postać. Od tej chwili podejrzewa (`flaga.wren-podejrzewa`); po lekcji może sam zapytać postać, czemu celowała w kieszonkę. |
+| Donos „zegarek Vane'a nie chodzi, coś z nim jest nie tak” | Niczego nie konfiskuje: „Zepsuty zegarek to nie przestępstwo. Proszę mi przynieść coś, co jest”. Przed sceną 04 na tym koniec. Od sceny 04 (albo gdy już podejrzewa) dorzuca swój konkret o ocenach Vane'a i słucha uważniej. |
 | Ignorowanie | Pyta grupę trzecią prywatnie, potem publicznie. Jeśli postacie milczą, sam zaczyna obserwować Cassiana, co płoszy Cassiana i przyspiesza zegar kradzieży. |
 
 ## Mechanika

@@ -15,6 +15,7 @@ tagi: [s1, cassian, zegarek, slaby-punkt, sygnal, zegar-kradziezy]
 zrodla:
   - "05_scenariusze/s1-godzina-ktorej-nie-bylo/graf-scen.md (siatka bezpieczeństwa 1, zegar kradzieży, scena 08)"
   - "03_postacie/npc/cassian-vane.md (pochodzenie zegarka przyjęte przez MG 2026-11-20)"
+  - "04_kampania/stan-kampanii.md, rejestr decyzji 2026-11-20 (zegarek nie do zdobycia przed 04, wyrwanie w pokazie, zaklęcia ujawniające)"
 aktualizacja: 2026-11-20
 ---
 ## Opis
@@ -23,26 +24,37 @@ Srebrny zegarek kieszonkowy, starszy niż jego właściciel, na długim srebrnym
 
 W dłoni jest cięższy, niż powinien, i lekko ciepły. Tempus rzucony obok niego „tyka” szybciej niż gdziekolwiek indziej w zamku.
 
+**Zaklęcia ujawniające nic nie pokazują** (decyzja MG 2026-11-20, obowiązuje w całej kampanii: zaklęcia ujawniające nie wykrywają magii czasu). Kto rzuci na zegarek zaklęcie wykrywające albo ujawniające magię, widzi zwykłą rodzinną pamiątkę z zepsutym mechanizmem. Najwyżej szkło jest dziwnie zimne pod palcem, choć koperta jest ciepła. To jedyny ślad i nie jest dowodem dla nikogo poza samymi postaciami.
+
 Zegarek należał do dziadka Cassiana. Wskazówki stanęły w godzinie jego śmierci. Ojciec dał go Cassianowi po SUM-ach ze słowami, że „Vane'owie się nie spóźniają”.
 
 ## Działanie
 
-**Co robi (prawda dla MG).** Przez ten zegarek działa magia [[przedmiot.karta-pozyczajacego]]. Wyciek czasu z Wieży Zegarowej płynie **do zegarka**, gdziekolwiek ten jest. Cassian nakręca go nocą, a podebrane chwile wydaje: na sprawdzianach, w pokazie u Wrena, w pojedynku.
+**Co robi (prawda dla MG).** Przez ten zegarek działa magia [[przedmiot.karta-pozyczajacego]]. Cassian nakręca go nocą, a zegarek podbiera dla niego czas z wycieków Klepsydry; podebrane chwile Cassian wydaje na sprawdzianach, w pokazie u Wrena, w pojedynku.
 
-**Ważne reguły z grafu.**
-- Godzina drużyny ginie w scenie 03 **zawsze**, także gdy zegarek jest już u postaci. Wtedy godzina wpada do zegarka w ich kieszeni, a nie do Cassiana (siatka bezpieczeństwa 1). Na Obronie (04) Cassian jest wtedy zwyczajny, przegrywa pokaz i maca pustą kieszonkę.
-- Zegar kradzieży (`flaga.s1-zegar-kradziezy`) nie rośnie, dopóki zegarek nie jest u Cassiana. Zatrzymuje się na stałe, gdy zegarek trafia do graczy, zostaje skonfiskowany albo zniszczony.
-- Skonfiskowany zegarek (np. w szufladzie Flitwicka) nadal przyjmuje wyciek. Cassian próbuje wtedy namówić postacie, żeby pomogły mu go odzyskać.
+**Ważne reguły z grafu (po decyzjach MG z 2026-11-20).**
+- **Do końca sceny 04 zegarek jest zawsze przy Cassianie** (`flaga.zegarek-cassiana` = `u-cassiana`). Przy śniadaniu (01) i na Zaklęciach (02) jest tylko sygnałem. Godzina drużyny ginie w scenie 03 i zasila Cassiana w pokazie (04) bez wyjątków.
+- Zegar kradzieży (`flaga.s1-zegar-kradziezy`) biegnie co najmniej od sceny 03 do wieczoru po scenie 04. Nie rośnie, gdy zegarek nie jest u Cassiana. Zatrzymuje się na stałe, gdy zegarek trafia do graczy, zostaje skonfiskowany albo zniszczony.
+- Skonfiskowany zegarek (np. w szufladzie Flitwicka po scenie 08) bez Cassiana nic nie podbiera. Cassian próbuje wtedy namówić postacie, żeby pomogły mu go odzyskać.
 - Zniszczony zegarek kończy podbieranie, a **część skradzionych godzin wraca do ofiar**; [[npc.ansel-dray]] na chwilę migocze, gdziekolwiek jest (decyzja MG 2026-11-20; szczegóły w „Dla MG”).
 - Karta Pożyczającego działa tylko razem z tym zegarkiem (decyzja MG 2026-11-20).
 
-**Co postacie mogą z nim zrobić w Sesji 1.**
-- **Zauważyć go** przy śniadaniu (01): Cassian patrzy na stojące wskazówki, jakby sprawdzał godzinę (W0).
-- **Nazwać sygnał** na Obronie (04): dotknięcie kieszonki i wzdrygnięcie po każdym nienaturalnym ruchu (`flaga.sygnal-cassiana-nazwany`, W4).
-- **Wytrącić albo przywołać go w pojedynku** (np. Expelliarmus, czyli zaklęcie rozbrajające, albo Accio, czyli zaklęcie przywołujące, wymierzone w kieszonkę): Cassian traci przewagę do końca sceny.
-- **Ukraść go** (przy śniadaniu, na Zaklęciach, w dormitorium nocą, gdy leży pod poduszką). Test niżej.
-- **Oddać go nauczycielowi** (`flaga.zegarek-cassiana` = `skonfiskowany`) albo **zniszczyć** (`zniszczony`).
-- **Oddać go Cassianowi** w targu: wtedy zegar kradzieży znów może rosnąć, chyba że Cassian zostaje zdemaskowany i obiecuje przestać.
+**Co postacie mogą z nim zrobić w Sesji 1** (zgodnie z grafem scen i siatką bezpieczeństwa 1, decyzje MG z 2026-11-20).
+
+*Sceny 01–02 (śniadanie, Zaklęcia, przerwa): tylko sygnał.*
+- **Zauważyć go** przy śniadaniu (01): Cassian patrzy na stojące wskazówki, jakby sprawdzał godzinę (W0). Na Zaklęciach (02) najwyżej widać łańcuszek i dłoń na kieszonce.
+- **Zdobyć go się tu nie da.** Cassian trzyma zegarek w zaciśniętej dłoni albo w zapiętej kieszonce i nie odchodzi od stołu Slytherinu. Próba kradzieży kończy się chwyceniem ręki, uwagą prefekta albo nauczyciela. Donos nic nie daje: „rodzinna pamiątka, nie chodzi”, a nikt niczego nie konfiskuje (zob. [[npc.thaddeus-wren]]: „Zepsuty zegarek to nie przestępstwo”). Cena próby: Cassian zapamiętuje twarz postaci i w 04 i 08 jest wobec niej czujny. Szczegóły w sekcjach „Gdy gracze zboczą” plików scen.
+
+*Scena 04 (pokaz u Wrena): odkrycie, ale nie przejęcie.*
+- **Zobaczyć, że to zegarek daje Cassianowi szybkość.** Postać, która patrzy na pokaz (walcząca albo z boku), robi test spostrzegawczości (Wits + Observation, czyli bystrość i spostrzegawczość; liczby w pliku sceny 04, ustala mechanik). Sukces: dotyk kieszonki tuż przed każdym podwójnym ruchem, ciepło szkła, tykanie, którego nie powinno być. Kto powie to na głos, ustawia `flaga.sygnal-cassiana-nazwany` (W4) i ma przewagę w scenie 08.
+- **Wyrwać go w pokazie.** Postać, która pokona Cassiana, może wyrwać mu zegarek (np. Expelliarmus, czyli zaklęcie rozbrajające, gdy Cassian trzyma go w dłoni, albo Accio, czyli zaklęcie przywołujące, na kieszonkę; zasady niżej). Wren natychmiast odbiera zegarek i oddaje go Cassianowi: „Pamiątka, nie dowód”. Od tej chwili Wren podejrzewa (`flaga.wren-podejrzewa`). Zegarek zostaje `u-cassiana`, zegar kradzieży biegnie dalej.
+
+*Od wieczoru po scenie 04: prawdziwe przejęcie.*
+- **Ukraść go**, np. w dormitorium Slytherinu nocą, gdy leży pod poduszką (siatka bezpieczeństwa 5), albo w pokoju wspólnym, gdy Cassian zasypia przy kominku. Test niżej. Zegarek u graczy zatrzymuje zegar kradzieży, a Cassian sam przychodzi po niego jeszcze tego wieczoru albo nazajutrz (wejście do sceny 08).
+- **Wytargować go** w scenie 08 (np. milczenie postaci za zegarek albo za kartę).
+- **Dostać go z litości:** roztrzęsiony Cassian oddaje zegarek sam, gdy ktoś szczerze mu pomoże (scena 08).
+- **Wygrać go w pojedynku** w scenie 08: jako stawkę albo wytrącony z ręki (Cassian traci przewagę do końca sceny).
+- Potem: **oddać go nauczycielowi** (`flaga.zegarek-cassiana` = `skonfiskowany`), **zniszczyć** (`zniszczony`) albo **oddać Cassianowi** w targu. Oddany Cassianowi znów może podbierać i zegar kradzieży może ruszyć, chyba że Cassian jest zdemaskowany i obiecuje przestać.
 
 ## Mechanika
 
@@ -53,7 +65,7 @@ Bez własnych statystyk. W rękach Cassiana zegarek zasila jego zdolność „Sk
 ```yaml
 test:
   id: przedmiot.zegarek-cassiana.test.kradziez
-  opis: "Postać próbuje niepostrzeżenie wyjąć zegarek z kieszonki Cassiana albo spod jego poduszki."
+  opis: "Postać próbuje niepostrzeżenie wyjąć zegarek z kieszonki Cassiana albo spod jego poduszki. Obowiązuje dopiero od wieczoru po scenie 04 (decyzja MG 2026-11-20). Wcześniej testu się nie rzuca: próba zawsze się nie udaje (siatka bezpieczeństwa 1)."
   kto: jeden
   rzut: "DO-USTALENIA"
   trudnosc: "przeciwny: 1D10 + Wits + Observation (npc.cassian-vane)"
@@ -69,7 +81,7 @@ test:
       flagi_ustaw: []
 ```
 
-Uwaga dla mechanika: kandydaci na `rzut` to `1D10 + Speed + Concealment` albo `1D10 + Speed + Chicanery` (Speed to szybkość, Concealment to ukrywanie, Chicanery to podstęp; nazwy z listy Walkera, s. 12 i 21–23). `flaga.zegarek-cassiana` ma przy wygranej wartość `u-graczy`.
+Uwaga dla mechanika: test czeka na liczby (`rzut` i modyfikator snu: DO-USTALENIA). Obowiązuje **od wieczoru po scenie 04**; w scenach 01–04 się go nie używa. Kandydaci na `rzut` to `1D10 + Speed + Concealment` albo `1D10 + Speed + Chicanery` (Speed to szybkość, Concealment to ukrywanie, Chicanery to podstęp; nazwy z listy Walkera, s. 12 i 21–23). `flaga.zegarek-cassiana` ma przy wygranej wartość `u-graczy`.
 
 **Zniszczenie zegarka (liczby: mechanik, 2026-11-20).** Podręcznik ma zasady niszczenia tylko dla zaklęć wysadzających (Blasting Spells, s. 42): obrażenia porównuje się z wytrzymałością materiału (meble 10, mocne drzwi 20). Zwykły zegarek byłby poniżej mebli, ale magia karty go wzmacnia: **wytrzymałość 15**. Dla zwykłego uderzenia (młotek, kamień, rzut o posadzkę) podręcznik nie podaje zasad (brak w podręczniku, s. 35 i 42); propozycja zasady domowej: liczyć je jak cios bronią improwizowaną, **2D + Vitality** obrażeń, i porównać z wytrzymałością tak samo jak przy wysadzaniu. Jedna próba to jedna akcja (s. 33); poza walką próbować można do skutku, ale każda nieudana próba kosztuje hałas i czas.
 
@@ -94,7 +106,7 @@ test:
       flagi_ustaw: []
 ```
 
-**Celowanie w kieszonkę w walce (propozycja zasady domowej).** Expelliarmus (s. 51) wytrąca tylko to, co przeciwnik trzyma w dłoni, więc działa na zegarek, gdy Cassian go wyjmie (po każdym użyciu Skradzionych Chwil dotyka kieszonki). Zegarek w kieszonce wyrywa Accio (s. 47) traktowane jak zaklęcie celowane (s. 33, 165): cel to obrona Cassiana **+4 do trudności** (osłona około 40%, +2 za każde 20%, s. 165).
+**Celowanie w kieszonkę w walce (propozycja zasady domowej; pokaz w 04 i pojedynek w 08).** W pokazie (04) skutek jest tylko chwilowy: Wren oddaje zegarek Cassianowi. Expelliarmus (s. 51) wytrąca tylko to, co przeciwnik trzyma w dłoni, więc działa na zegarek, gdy Cassian go wyjmie (po każdym użyciu Skradzionych Chwil dotyka kieszonki). Zegarek w kieszonce wyrywa Accio (s. 47) traktowane jak zaklęcie celowane (s. 33, 165): cel to obrona Cassiana **+4 do trudności** (osłona około 40%, +2 za każde 20%, s. 165).
 
 
 ## Dla MG
@@ -119,5 +131,6 @@ Cassian przy zniszczeniu: najpierw ulga (koniec), zaraz potem strach (ojciec, dz
 **Powiązane obiekty:** [[npc.cassian-vane]], [[npc.filius-flitwick]] (szuflada przy konfiskacie), [[npc.thaddeus-wren]], [[npc.ansel-dray]], [[miejsce.sala-obrony]], [[miejsce.wieza-zegarowa]], [[miejsce.lochy-przejscie-slytherinu]].
 
 ### Do weryfikacji
+- Co dzieje się z zegarkiem skonfiskowanym po scenie 08: roboczo bez Cassiana nic nie podbiera (dawna reguła „wyciek płynie do zegarka, gdziekolwiek jest” usunięta po decyzjach MG z 2026-11-20). Do potwierdzenia przez MG.
 - Grawer „V” i rysa na szkiełku to szczegóły wykonawcze.
 - Godzina, na której stoją wskazówki (godzina śmierci dziadka), nieustalona; nie ma wpływu na Sesję 1.
