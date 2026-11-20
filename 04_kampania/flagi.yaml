@@ -21,12 +21,12 @@ flagi:
     wartosci: []
     sesja: s1
   - id: flaga.plotka-o-voldemorcie
-    opis: "Postacie usłyszały plotkę o kimś, kogo nazywają Voldemortem, i o jego zwolennikach zwanych śmierciożercami. Tylko plotka, bez potwierdzenia."
+    opis: "Postacie usłyszały plotkę o kimś, kto zbiera zwolenników (Czarny Pan, Voldemort, śmierciożercy; przy zasłonie na tematy czystości krwi bez imion i nazwisk, np. „ktoś, kogo nazywają Czarnym Panem”). Tylko plotka, bez potwierdzenia. Ustawiana zawsze w s1.scena.01 albo w prologu, niezależnie od tego, które nazwy padły."
     typ: bool
     wartosci: []
     sesja: s1
   - id: flaga.plotka-duch-puchona
-    opis: "Postacie usłyszały szkolną plotkę o „duchu Puchona”: chłopcu w żółtym krawacie, którego ofiary Cassiana widziały tylko mignięciem."
+    opis: "Postacie usłyszały szkolną plotkę o „duchu Puchona”: chłopcu w żółtym krawacie, którego ofiary Cassiana widziały tylko mignięciem. W s1.scena.01 ustawiana zawsze (Tobias o niej mówi; Gruby Mnich i Maisie Lock to dodatkowe źródła)."
     typ: bool
     wartosci: []
     sesja: s1
@@ -68,7 +68,7 @@ flagi:
     wartosci: []
     sesja: s1
   - id: flaga.wren-podejrzewa
-    opis: "Profesor Wren podzielił się z postaciami podejrzeniem wobec Cassiana (oceny skoczyły w dwa tygodnie)."
+    opis: "Profesor Wren podejrzewa Cassiana i daje to postaciom odczuć: po wyrwaniu zegarka w pokazie (s1.scena.04; Wren oddaje zegarek Cassianowi, „pamiątka, nie dowód”), po uwadze o ocenach Vane'a (skoczyły w dwa tygodnie) albo po donosie (s1.scena.08)."
     typ: bool
     wartosci: []
     sesja: s1
@@ -150,7 +150,7 @@ flagi:
     wartosci: [nie-skonfrontowany, sojusznik, dluznik, rywal, ranny, uciekl, martwy]
     sesja: s1
   - id: flaga.zegarek-cassiana
-    opis: "Gdzie jest zatrzymany zegarek kieszonkowy Cassiana, przez który działa magia karty."
+    opis: "Gdzie jest zatrzymany zegarek kieszonkowy Cassiana, przez który działa magia karty. Do końca s1.scena.04 zawsze u-cassiana (decyzja MG 2026-11-20: przed pokazem nie da się go zdobyć, a wyrwany w pokazie Wren oddaje Cassianowi). Zmienia się najwcześniej po scenie 04: u-graczy (pojedynek, kradzież, targ, litość, zwykle w s1.scena.08), zniszczony (postacie go niszczą), skonfiskowany (nauczyciel albo Filch odbiera go postaciom, np. złapanym nocą)."
     typ: wybor
     wartosci: [u-cassiana, u-graczy, zniszczony, skonfiskowany]
     sesja: s1

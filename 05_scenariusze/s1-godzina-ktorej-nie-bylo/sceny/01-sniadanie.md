@@ -6,7 +6,7 @@ status: szkic
 sesja: s1
 akt: "I"
 kolejnosc: 1
-czas_min: 20
+czas_min: 30
 cel: "Nauczyć gry (pierwsza rozmowa z bohaterem niezależnym i jeden prosty test), zebrać drużynę jako grupę trzecią profesora Wrena i dać 2–3 pierwsze sygnały, że z czasem w zamku jest coś nie tak, zanim padnie stracona godzina."
 npc:
   - npc.tobias-quill
@@ -34,7 +34,6 @@ flagi_wyjscie:
   - flaga.ansel-odbicie
   - flaga.crake-poznany
   - flaga.crake-dluga-rozmowa
-  - flaga.zegarek-cassiana
 # Plik sceny s1.scena.02 jeszcze nie istnieje, a walidator wymaga istniejących identyfikatorów.
 # Docelowo: nastepne: [s1.scena.02]. Uzupełnić, gdy powstanie plik sceny 02
 # (wtedy też pola prowadzi_do w blokach rozgałęzień z dopiskiem „docelowo s1.scena.02”).
@@ -43,7 +42,7 @@ tagi: [s1, nauka-gry, sygnaly-dziwnosci, grupa-wrena, ansel-odbicie, crake, plot
 zrodla:
   - "05_scenariusze/s1-godzina-ktorej-nie-bylo/graf-scen.md (s1.scena.01, pogawędka ruchoma z Crake'iem, grupa Wrena, Kto widzi Ansela, siatka bezpieczeństwa 1)"
   - "04_kampania/stan-kampanii.md, rejestr decyzji do 2026-11-20"
-  - "Walker 2e s. 3 (test standardowy, progi trudności, poziomy wyniku), s. 4 (Quick Test, test przeciwny, współpraca, Story Points), s. 13 (specjalizacja), s. 21 (Concealment), s. 40 (trudność 9), s. 41 i 47 (rzucanie zaklęć, Accio)"
+  - "Walker 2e s. 3 (test standardowy, progi trudności, poziomy wyniku), s. 4 (Quick Test, współpraca, Story Points), s. 13 (specjalizacja), s. 40 (trudność 9)"
   - "02_zasady/walker/luki-i-niejasnosci.md (ZD-23: próg 9 bez nazwy)"
 aktualizacja: 2026-11-20
 ---
@@ -125,20 +124,24 @@ Pierwsza lekcja: Zaklęcia. Według połowy zegarków w zamku już jesteście sp
 
 ## Dla MG
 
-**Co się naprawdę dzieje.** Od trzech tygodni Cassian Vane podbiera czas przez zatrzymany zegarek ([[przedmiot.zegarek-cassiana]]). Sygnały przy śniadaniu to skutki tych kradzieży: spóźnione zegary, uczniowie „bez kawałka”, mignięcia Ansela, które ofiary biorą za ducha. Nic z tego nie jest jeszcze zagadką do rozwiązania. Wskazówka W0 („z czasem jest coś nie tak”) to nastrój, nie bramka: stracona godzina w scenie 03 przychodzi niezależnie od tego, co gracze tu zauważą.
+**Co się naprawdę dzieje.** Od trzech tygodni Cassian Vane podbiera czas przez zatrzymany zegarek ([[przedmiot.zegarek-cassiana]]). **Zegarek jest tu tylko sygnałem** (decyzja MG z 2026-11-20): w tej scenie nie da się go zdobyć ani kradzieżą, ani donosem; pierwsza okazja to pokaz u Wrena (scena 04), prawdziwe przejęcie w scenie 08. Próby graczy obsługuje sekcja „Gdy gracze zboczą”.
+
+**Dumbledore'a nie ma przy śniadaniu** (decyzja MG z 2026-11-20: wyjazd do Londynu). Jego krzesło na środku stołu nauczycieli stoi puste; jeśli gracze zapytają, ktoś przy stole wie tylko, że „dyrektor wyjechał”. Nie trzeba tego czytać, chyba że gracze chcą od razu iść do dyrektora. Sygnały przy śniadaniu to skutki tych kradzieży: spóźnione zegary, uczniowie „bez kawałka”, mignięcia Ansela, które ofiary biorą za ducha. Nic z tego nie jest jeszcze zagadką do rozwiązania. Wskazówka W0 („z czasem jest coś nie tak”) to nastrój, nie bramka: stracona godzina w scenie 03 przychodzi niezależnie od tego, co gracze tu zauważą.
 
 **Nastrój.** To ma być zwyczajny, ciepły, gwarny poranek: boczek, sowy, plotki, poniedziałkowa niechęć do lekcji. Niepokój siedzi wyłącznie w drobiazgach: w zegarku, który nie chodzi, w dziewczynce, której nikt nie wierzy, w gazecie składanej na pół. Im bardziej zwyczajna jest reszta sceny, tym mocniej te drobiazgi zgrzytają. Sygnały dziwności czytaj tym samym tonem co opis śniadania, bez dramatycznych pauz i bez „i nagle…”. Gracze mają je zauważyć sami. Jedyny wyjątek to odbicie w szkle zegara (tekst 6): tu zwolnij, ścisz głos i zatrzymaj się przed pytaniem „Co robisz?”.
 
-**Rytm sceny (pełny wariant, ok. 20 minut).**
+**Rytm sceny (pełny wariant, ok. 30 minut).**
 1. Otwarcie (tekst 1) i sowia poczta (2 min).
 2. Rozmowa z [[npc.tobias-quill]]: pierwszy dialog w grze. Gracz mówi w imieniu postaci, MG odpowiada jako Tobias. Tobias jest źródłem plotek i rozmówcą do nauki gry. Dom Tobiasa MG ustala przed sesją: dom postaci z najmniejszą liczbą znajomych albo najbardziej nieśmiałego gracza (decyzja MG z 2026-11-20).
 3. **Drużyna się zbiera (stałe):** [[npc.thaddeus-wren]] idzie wzdłuż stołów (tekst 3) i zaczepia postacie po kolei, każdą przy jej stole domu: grupa trzecia ma być dziesięć minut przed lekcją pod salą Obrony, a grupa pana Vane'a już się chwaliła. Postacie wymieniają spojrzenia przez salę albo siadają razem na końcu jednego stołu, jeśli gracze tego chcą. Zdanie „wojna nie pyta o dom” zna cały rok; stół Slytherinu prycha.
 4. Jeden prosty test przy stole (sekcja „Testy”). Test uczy rzutu; porażka niczego nie zamyka.
-5. 2–3 sygnały dziwności z listy poniżej (MG wybiera przed sesją; teksty 4 i 6).
-6. Plotka o Voldemorcie szeptem od stołu Slytherinu (tekst 5, potem kwestia z dialogu; stałe, ustawia `flaga.plotka-o-voldemorcie`).
-7. Wyjście: spóźniony dzwon na Zaklęcia (tekst 7).
+5. 1–2 sygnały dziwności przy stole z listy poniżej (MG wybiera przed sesją; tekst 4). Odbicie w szkle zegara (tekst 6) jest zawsze i idzie przy wyjściu (punkt 7).
+6. Plotka o Voldemorcie szeptem od stołu Slytherinu (tekst 5, potem kwestia z dialogu; stałe, ustawia `flaga.plotka-o-voldemorcie`) i plotka o duchu Puchona od Tobiasa (stałe, ustawia `flaga.plotka-duch-puchona`).
+7. **Wyjście, zawsze w tej kolejności:** tekst 7 (spóźniony dzwon), potem tekst 6 (odbicie w szkle zegara, w drodze przez Salę Wejściową), potem pogawędka z Crake'iem, **tylko jeśli zostaje czas**. Odbicia nigdy się nie ucina: scena 05 go potrzebuje. Ucina się Crake'a (wraca w scenie 07).
 
-**Wariant skrócony (ok. 10 minut), gdy grany był prolog** (`flaga.s1-prolog-pokatna`). Prolog przejął naukę gry, więc tutaj nie ma testu przy stole ani długiej rozmowy z Tobiasem. Zostaje: otwarcie skrócone (tekst 2) i sowia poczta, Wren zbiera grupę trzecią (tekst 3, stały w obu wariantach), **jeden** sygnał dziwności (rekomendacja: odbicie w szkle zegara, tekst 6, bo z niego korzysta scena 05) i jedno zdanie plotki o „Czarnym Panu”, jeśli postacie nie usłyszały jej już w prologu. Crake nie stoi przy zegarze, jeśli postacie poznały go na Pokątnej (`flaga.crake-poznany`). Zamknięcie jak w pełnym wariancie (tekst 7).
+**Odbicie i Crake nie przy tym samym zegarze.** Nie łącz odbicia w szkle wielkiego zegara z Crake'iem stojącym na drabinie przy tym zegarze: chłopiec za ramieniem i zegarmistrz z głową w skrzynce zabierają sobie nawzajem uwagę, a otwarta skrzynka nie ma szyby. Wybierz jedno z dwóch: odbicie idzie w szybce zegara nad stołem nauczycieli (postać podchodzi tam przed wyjściem, zob. niżej), albo Crake właśnie zszedł z drabiny, zamknął skrzynkę i pakuje narzędzia z boku, a postacie zaczepiają go dopiero po odbiciu.
+
+**Wariant skrócony (ok. 10 minut), gdy grany był prolog** (`flaga.s1-prolog-pokatna`). Prolog przejął naukę gry, więc tutaj nie ma testu przy stole ani długiej rozmowy z Tobiasem. Zostaje: otwarcie skrócone (tekst 2) i sowia poczta, Wren zbiera grupę trzecią (tekst 3, stały w obu wariantach), **jeden** sygnał dziwności: zawsze odbicie w szkle zegara (tekst 6), bo z niego korzysta scena 05, jedno zdanie plotki o „Czarnym Panu”, jeśli postacie nie usłyszały jej już w prologu, i jedno zdanie Tobiasa o duchu Puchona. Crake nie stoi przy zegarze, jeśli postacie poznały go na Pokątnej (`flaga.crake-poznany`). Zamknięcie jak w pełnym wariancie: tekst 7, potem tekst 6.
 
 ### Jak prowadzić tę scenę z graczami, którzy grają pierwszy raz
 
@@ -154,26 +157,27 @@ Dla większości stołu to pierwsze minuty gry fabularnej w życiu. Ta scena nie
 - **Odbicie w szkle zegara: na głos czy szeptem?** Szept do jednej osoby (albo karteczka) jest bardziej niepokojący. Przy pierwszej sesji poleca się jednak czytać na głos przy wszystkich, zwracając się do jednego gracza, i dodać: „Wasze postacie tego nie widziały, tylko wy, gracze, o tym wiecie”. To uczy różnicy między wiedzą gracza a wiedzą postaci, która przyda się przez całą kampanię. Wybór należy do MG.
 - **Zegar nad stołem nauczycieli** nadaje się do odbicia tylko wtedy, gdy postać stoi tuż przy nim (np. Wren przywołał ją do stołu nauczycieli albo odnosi coś profesorowi). Z ławki odbicie przy ramieniu jest nieprzekonujące; wtedy lepiej użyć wielkiego zegara w Sali Wejściowej przy wyjściu.
 
-**Tempo.** Jeśli scena przekracza 25 minut, zrezygnuj z kolejnych sygnałów i od razu przeczytaj zamknięcie (tekst 7). Dzwon to wygodny sposób, żeby przerwać każdą rozmowę bez urażania graczy: „Rozmowę dokończycie później, teraz biegniecie na Zaklęcia”. W wariancie skróconym nie zatrzymuj się na Tobiasie dłużej niż minutę.
+**Tempo.** Jeśli scena przekracza 35 minut, zrezygnuj z kolejnych sygnałów przy stole i od razu przeczytaj zamknięcie (tekst 7), a po nim odbicie (tekst 6); Crake'a wtedy pomiń. Dzwon to wygodny sposób, żeby przerwać każdą rozmowę bez urażania graczy: „Rozmowę dokończycie później, teraz biegniecie na Zaklęcia”. W wariancie skróconym nie zatrzymuj się na Tobiasie dłużej niż minutę.
 
-**Czym zamknąć.** Tekstem 7 i jednym pytaniem do wszystkich: „Idziecie razem czy każde osobno?”. Odpowiedź od razu pokazuje, czy drużyna już się czuje drużyną. Jeśli ktoś chce zatrzymać się przy Crake'u albo zaczepić Cassiana po drodze, daj na to minutę i przejdź do sceny 02.
+**Czym zamknąć.** Tekstem 7 i jednym pytaniem do wszystkich: „Idziecie razem czy każde osobno?”. Odpowiedź od razu pokazuje, czy drużyna już się czuje drużyną. W drodze przez Salę Wejściową tekst 6 (odbicie) dla wybranej postaci. Jeśli zostaje czas i ktoś chce zatrzymać się przy Crake'u albo zaczepić Cassiana po drodze, daj na to minutę i przejdź do sceny 02.
 
-### Sygnały dziwności (MG wybiera 2–3; w wariancie skróconym 1)
+### Sygnały dziwności (S5 zawsze, do tego MG wybiera 1–2; w wariancie skróconym tylko S5)
 
-Żaden sygnał nie zmienia fabuły i żaden nie jest obowiązkowy. Każdy to jedna z dróg do W0 (tabela trzech dróg w pliku pomocniczym `graf-scen.md`).
+Żaden sygnał nie zmienia fabuły. Obowiązkowe jest tylko odbicie (S5), bo korzysta z niego scena 05; reszta jest do wyboru. Każdy to jedna z dróg do W0 (tabela trzech dróg w pliku pomocniczym `graf-scen.md`).
 
 | Nr | Sygnał | Gdzie | Kto | Ustawia flagę | Na co działa później |
 |---|---|---|---|---|---|
 | S1 | Wielki zegar spóźnia się o cztery minuty; dzwon na pierwszą lekcję bije „za późno”, prefekci sprawdzają własne zegarki. Jeśli prologu nie było, przy zegarze stoi Crake z drabiną (pogawędka ruchoma) | [[miejsce.sala-wejsciowa]] | wszyscy | opcjonalnie `flaga.crake-poznany` | W3 (dryf ku wieży), W8 (Crake) |
 | S2 | Koleżanki dokuczają [[npc.maisie-lock]], że „zasnęła z otwartymi oczami” na sprawdzianie. Maisie: nie spała, „po prostu tego kawałka nie ma” | stół Hufflepuffu | kto siedzi blisko albo nasłuchuje | brak | W4.3 (dopasowanie godzin w scenie 06) |
-| S3 | Plotka o „duchu Puchona”: pierwszoroczniacy widzieli na schodach chłopca w żółtym krawacie, który rozpłynął się, gdy go zawołali; [[npc.gruby-mnich]] urażony, że to nie o nim | dowolny stół, Tobias | wszyscy | `flaga.plotka-duch-puchona` | W2.5, sceny 05 i 06 (rozpoznanie plotki) |
-| S4 | [[npc.cassian-vane]] przy stole Slytherinu zerka na zegarek kieszonkowy, którego wskazówki stoją | stół Slytherinu | postać z dobrym widokiem albo z udanym testem | brak | W4 (pierwsze skojarzenie z Cassianem) |
-| S5 | **Odbicie w szkle zegara** (osobny blok niżej) | Sala Wejściowa albo zegar ścienny nad stołem nauczycieli | jedna postać | `flaga.ansel-odbicie` | scena 05 (rozpoznanie chłopca) |
+| S3 | Gruby Mnich przepływa przez stół urażony plotką o „duchu Puchona” (pierwszoroczniacy widzieli na schodach chłopca w żółtym krawacie, który rozpłynął się, gdy go zawołali). Samą plotkę Tobias opowiada zawsze, także bez S3 | dowolny stół | wszyscy | brak (`flaga.plotka-duch-puchona` ustawia się zawsze, zob. rozgałęzienie `duch-puchona`) | W2.5, sceny 05 i 06 (rozpoznanie plotki) |
+| S4 | [[npc.cassian-vane]] przy stole Slytherinu zerka na zegarek kieszonkowy, którego wskazówki stoją. **Tylko sygnał:** zegarka nie da się tu zdobyć (decyzja MG z 2026-11-20) | stół Slytherinu | postać z dobrym widokiem albo z udanym testem | brak | W4 (pierwsze skojarzenie z Cassianem; rozwija się w pokazie, scena 04) |
+| S5 | **Odbicie w szkle zegara** (osobny blok niżej; **zawsze**, przy wyjściu po tekście 7) | Sala Wejściowa albo zegar ścienny nad stołem nauczycieli | jedna postać | `flaga.ansel-odbicie` | scena 05 (rozpoznanie chłopca) |
 
 ### Odbicie Ansela w szkle zegara (decyzja MG z 2026-11-20)
 
 - **Kto:** jedna postać. Najlepiej ta, która nie wygrała testu przy stole, żeby każdy gracz miał „coś swojego”.
-- **Gdzie:** szkło wielkiego zegara w Sali Wejściowej (przy wyjściu ze śniadania) albo szybka zegara ściennego nad stołem nauczycieli.
+- **Gdzie:** szkło wielkiego zegara w Sali Wejściowej (przy wyjściu ze śniadania) albo szybka zegara ściennego nad stołem nauczycieli. Gdy przy wielkim zegarze stoi Crake na drabinie: zegar nad stołem nauczycieli albo Crake już zszedł (zob. „Rytm sceny”).
+- **Kiedy:** zawsze, po tekście 7 (dzwon). Nigdy nie wypada ze sceny, także przy skrótach.
 - **Co:** w szkle, tuż za ramieniem postaci, chłopiec w żółtym krawacie. Postać się odwraca: nikogo. W szkle też już go nie ma.
 - **Twarda zasada:** przed straconą godziną (scena 03) Ansel **nigdy** nie pojawia się na żywo, tylko jako odbicie w szkle zegara (zegary są kanałami Klepsydry). Nie mówi, nie reaguje, nie da się go zatrzymać. Nie ma testu: odbicie widzi się albo nie, decyduje MG.
 - **Nie liczy się** do znacznika kontaktu z Anselem (stopień 0, zob. `graf-scen.md`, „Kontakt każdej postaci”); `flaga.ansel-kontakt` nie rośnie.
@@ -209,7 +213,7 @@ Plotka o „Czarnym Panu” i „panu Notcie” to jedyny moment polityki w tej 
 - *Co robi:* siedzi wyprostowany przy stole Slytherinu, je mało, otwiera i zamyka zegarek. Rano, przed śniadaniem, nakręcił zegarek na dzisiejszą kradzież (prawda dla MG; scena 03 przyjdzie niezależnie od tego, co tu się stanie).
 - *Czego chce w tej scenie:* wyglądać zwyczajnie i przetrwać śniadanie bez pytań. Pod spodem: upewnić się, że zegarek „działa”, i nie myśleć o pokazie u Wrena, który musi wygrać. Nie chce rozmawiać z grupą trzecią dłużej niż jedno uprzejme zdanie.
 - *Sygnał:* srebrny zegarek ze stojącymi wskazówkami, na który i tak patrzy, jakby sprawdzał godzinę. Lewą dłoń trzyma w rękawie. Gdy Wren przechodzi obok, Cassian nie prycha razem z resztą stołu, tylko zamyka kopertę i wsuwa zegarek do kieszonki.
-- *Gdy postacie go zaczepią:* chłodna uprzejmość i drobna szpila o grupie trzeciej („nie bierzcie tego do siebie”). Pytanie o zegarek: zamyka go, zanim ktoś zdąży zajrzeć na tarczę, i ucina temat zdaniem o rodzinnej pamiątce. Szczera troska („wyglądasz, jakbyś nie spał”) trafia, ale tu kończy się tylko zawahaniem, nie zwierzeniem. Próba zabrania zegarka: rozgałęzienie `kradziez-zegarka`.
+- *Gdy postacie go zaczepią:* chłodna uprzejmość i drobna szpila o grupie trzeciej („nie bierzcie tego do siebie”). Pytanie o zegarek: zamyka go, zanim ktoś zdąży zajrzeć na tarczę, i ucina temat zdaniem o rodzinnej pamiątce. Szczera troska („wyglądasz, jakbyś nie spał”) trafia, ale tu kończy się tylko zawahaniem, nie zwierzeniem. Próba zabrania zegarka w tej scenie się nie udaje (decyzja MG z 2026-11-20); obsługuje ją sekcja „Gdy gracze zboczą”.
 
 **[[npc.rosalind-teague]], Ślizgonka z grupy Cassiana** (szept, tekst 5)
 - *Co robi:* siedzi na końcu stołu Slytherinu z kilkoma starszymi Ślizgonami, mówi cicho, żeby trzeba się było nachylić, i powtarza to, co słyszała w domu o „Czarnym Panu” i „panu Notcie”.
@@ -513,31 +517,7 @@ test:
       flagi_ustaw: [flaga.crake-poznany, flaga.crake-dluga-rozmowa]
 ```
 
-**Kradzież zegarka przy stole (do rozgałęzienia `kradziez-zegarka`).** Walker nie ma osobnej umiejętności kieszonkowca. Najbliżej jest Concealment (ukrywanie, w opisie także „palming objects”, czyli niepostrzeżone chowanie rzeczy w dłoni, s. 21), więc zabranie zegarka po cichu to Speed + Concealment przeciw czujności Cassiana (Wits + Observation), dokładnie jak w przykładzie testu przeciwnego z s. 4. Przy archetypie „Zręczny kombinator” (Speed 6, Concealment 4) szanse są mniej więcej równe; postać bez Concealment ma około 10%. Najlepszy moment to chwila, gdy Cassian wsuwa zegarek do kieszonki po przejściu Wrena. Dopóki trzyma zegarek w dłoni, po cichu się nie da.
-
-```yaml
-test:
-  id: s1.scena.01.test.kradziez-zegarka
-  opis: "Postać próbuje po cichu wyjąć zegarek z kieszonki kamizelki Cassiana przy stole Slytherinu (rozgałęzienie kradziez-zegarka). Test przeciwny (Opposed Test, s. 4): wyższy wynik wygrywa, remis rozstrzyga MG. Rzuca jedna postać (ta, która sięga); inne mogą odwracać uwagę Cassiana. Cassian jest zmęczony, ale zegarka pilnuje jak oka w głowie, więc nie ma kary. Jawne wyrwanie albo zaklęcie (np. Accio, Charm, trudność startowa 12, s. 47) to nie kradzież, tylko scena na oczach całej sali: zaklęcie rozstrzyga się zwykłym rzucaniem (s. 41; opanowane działa bez rzutu), a skutkiem jest natychmiastowa konfiskata przez nauczyciela (flaga.zegarek-cassiana = skonfiskowany), jak przy donosie. Zgłoszenie nauczycielowi nie wymaga testu."
-  kto: jeden
-  rzut: "1D10 + Speed + Concealment"
-  trudnosc: "przeciwny: 1D10 + Wits + Observation (npc.cassian-vane: Wits 6, Observation 4, razem 1D10 + 10)"
-  modyfikatory:
-    - warunek: "Każda postać, która w tej chwili zagaduje Cassiana albo odwraca jego uwagę; najwyżej dwie (Working Together, s. 4)"
-      wartosc: "+1 do rzutu"
-    - warunek: "Postać ma specjalizację Concealment pasującą do sytuacji (np. Concealment (Drobne przedmioty); Specialism, s. 13)"
-      wartosc: "+1 do rzutu"
-  wyniki:
-    - wynik: wygrana
-      efekt: "Zegarek jest u postaci, a Cassian niczego nie zauważył (flaga.zegarek-cassiana = u-graczy). Godzina i tak ginie w scenie 03 (siatka bezpieczeństwa 1). Na Obronie Cassian maca pustą kieszonkę."
-      flagi_ustaw: [flaga.zegarek-cassiana]
-    - wynik: remis
-      efekt: "Rekomendacja dla MG (remis rozstrzyga Narrator, s. 4): zegarek zostaje u Cassiana. Cassian czuje dotyk przy kieszonce, odwraca się, ale nie wie, kto to był; od tej chwili trzyma dłoń na kamizelce."
-      flagi_ustaw: []
-    - wynik: przegrana
-      efekt: "Cassian łapie dłoń postaci przy swojej kieszonce. Nie robi sceny (nie chce pytań o zegarek), tylko mówi cicho „Nie bierz tego do siebie” i puszcza. Od teraz jest czujnym przeciwnikiem: zna twarz postaci i przy niej trzyma dłoń na kieszonce. Scena biegnie dalej."
-      flagi_ustaw: []
-```
+**Kradzież zegarka.** W tej scenie nie ma testu kradzieży: zegarka Cassiana nie da się zdobyć przed sceną 04 (decyzja MG z 2026-11-20). Test kradzieży (dla kradzieży po scenie 04 i w scenie 08) jest w karcie przedmiotu [[przedmiot.zegarek-cassiana]]; przenosi go tam mechanik.
 
 ## Rozgałęzienia
 
@@ -548,8 +528,8 @@ rozgalezienie:
   warunek: "Sesja zaczyna się od śniadania (prologu na Pokątnej nie grano)."
   wymaga_flag: []
   wyklucza_flagi: [flaga.s1-prolog-pokatna]
-  efekt: "Pełna scena, ok. 20 minut: rozmowa nauczająca z Tobiasem, Wren zbiera grupę trzecią, test przy stole, 2–3 sygnały dziwności, szept o Czarnym Panu. Crake może stać przy zegarze. Wyjście: spóźniony dzwon na Zaklęcia (docelowo s1.scena.02)."
-  flagi_ustaw: [flaga.plotka-o-voldemorcie]
+  efekt: "Pełna scena, ok. 30 minut: rozmowa nauczająca z Tobiasem, Wren zbiera grupę trzecią, test przy stole, 1–2 sygnały dziwności przy stole, szept o Czarnym Panu, plotka o duchu Puchona. Wyjście: spóźniony dzwon (tekst 7), potem zawsze odbicie w szkle zegara (tekst 6), Crake tylko jeśli zostaje czas. Docelowo s1.scena.02."
+  flagi_ustaw: [flaga.plotka-o-voldemorcie, flaga.plotka-duch-puchona, flaga.ansel-odbicie]
   prowadzi_do: brak
 ```
 
@@ -560,8 +540,8 @@ rozgalezienie:
   warunek: "Przed sceną grano prolog na Pokątnej."
   wymaga_flag: [flaga.s1-prolog-pokatna]
   wyklucza_flagi: []
-  efekt: "Scena skrócona do ok. 10 minut: sowia poczta, Wren zbiera grupę trzecią, jeden sygnał dziwności (rekomendacja: odbicie w szkle zegara), jedno zdanie plotki. Bez testu przy stole i bez długiej rozmowy z Tobiasem; bez Crake'a przy zegarze, jeśli poznano go w prologu. Wyjście: spóźniony dzwon na Zaklęcia (docelowo s1.scena.02)."
-  flagi_ustaw: [flaga.plotka-o-voldemorcie]
+  efekt: "Scena skrócona do ok. 10 minut: sowia poczta, Wren zbiera grupę trzecią, jeden sygnał dziwności (zawsze odbicie w szkle zegara, po dzwonie), jedno zdanie plotki o Czarnym Panu i jedno o duchu Puchona. Bez testu przy stole i bez długiej rozmowy z Tobiasem; bez Crake'a przy zegarze, jeśli poznano go w prologu. Wyjście: spóźniony dzwon na Zaklęcia, potem odbicie (docelowo s1.scena.02)."
+  flagi_ustaw: [flaga.plotka-o-voldemorcie, flaga.plotka-duch-puchona, flaga.ansel-odbicie]
   prowadzi_do: brak
 ```
 
@@ -569,7 +549,7 @@ rozgalezienie:
 rozgalezienie:
   id: s1.scena.01.rozgalezienie.odbicie-ansela
   rodzaj: poboczne
-  warunek: "MG wybrał sygnał S5: jedna postać przechodzi obok wielkiego zegara albo patrzy w szybkę zegara nad stołem nauczycieli."
+  warunek: "Zawsze (S5 jest obowiązkowy), po tekście 7: jedna postać przechodzi obok wielkiego zegara albo patrzy w szybkę zegara nad stołem nauczycieli (ten drugi wariant, gdy przy wielkim zegarze stoi Crake na drabinie)."
   wymaga_flag: []
   wyklucza_flagi: []
   efekt: "Postać widzi w szkle za swoim ramieniem chłopca w żółtym krawacie; za plecami i w szkle nikogo. Bez testu, bez rozmowy, bez wzrostu kontaktu z Anselem. W scenie 05 ta postać rozpoznaje chłopca."
@@ -580,11 +560,11 @@ rozgalezienie:
 ```yaml
 rozgalezienie:
   id: s1.scena.01.rozgalezienie.duch-puchona
-  rodzaj: poboczne
-  warunek: "MG wybrał sygnał S3 albo postacie pytają Tobiasa o nowinki."
+  rodzaj: glowne
+  warunek: "Zawsze: Tobias i tak opowiada o duchu Puchona (dialog quill-plotki). Dodatkowe źródła, gdy MG je wybrał: sygnał S3 (Gruby Mnich przepływa obrażony) i sygnał S2 (Maisie Lock przy drzwiach po dzwonku mówi, że sama widziała chłopca w żółtym krawacie)."
   wymaga_flag: []
   wyklucza_flagi: []
-  efekt: "Plotka o „duchu Puchona” trafia do postaci; Gruby Mnich przelatuje obrażony."
+  efekt: "Plotka o „duchu Puchona” trafia do postaci zawsze, bez testu. S3 dodaje obrażonego Grubego Mnicha, S2 świadka z pierwszej ręki (Maisie), co wzmacnia W2.5 i W4.3 w scenie 06."
   flagi_ustaw: [flaga.plotka-duch-puchona]
   prowadzi_do: brak
 ```
@@ -596,20 +576,8 @@ rozgalezienie:
   warunek: "Postacie zatrzymują się przy wielkim zegarze w Sali Wejściowej, a Crake stoi tam z drabiną (tylko bez wcześniejszego spotkania)."
   wymaga_flag: []
   wyklucza_flagi: [flaga.crake-poznany]
-  efekt: "Pogawędka 2–3 minuty i test s1.scena.01.test.crake-pogawedka. Jeśli postacie przejdą obok, Crake wraca w scenie 07 (schodzi z wieży)."
+  efekt: "Pogawędka 2–3 minuty i test s1.scena.01.test.crake-pogawedka, tylko po odbiciu w szkle zegara i tylko jeśli zostaje czas; nie przy tym samym zegarze co odbicie (wtedy Crake już zszedł z drabiny). Jeśli postacie przejdą obok, Crake wraca w scenie 07 (schodzi z wieży)."
   flagi_ustaw: [flaga.crake-poznany]
-  prowadzi_do: brak
-```
-
-```yaml
-rozgalezienie:
-  id: s1.scena.01.rozgalezienie.kradziez-zegarka
-  rodzaj: poboczne
-  warunek: "Gracze, zaintrygowani zatrzymanym zegarkiem Cassiana (S4), próbują mu go zabrać przy śniadaniu albo donoszą nauczycielowi, który go konfiskuje."
-  wymaga_flag: []
-  wyklucza_flagi: []
-  efekt: "Siatka bezpieczeństwa 1 z graf-scen.md. Godzina i tak ginie w scenie 03, bo Cassian nakręcił kradzież rano, a wyciek płynie do zegarka, gdziekolwiek ten jest. flaga.zegarek-cassiana = u-graczy (kradzież) albo skonfiskowany (donos). Cassian na Obronie jest zwyczajny i maca pustą kieszonkę; przychodzi po zegarek wieczorem albo nazajutrz (wejście do sceny 08). Kradzież po cichu rozstrzyga test s1.scena.01.test.kradziez-zegarka (Speed + Concealment przeciw Wits + Observation Cassiana, Walker 2e s. 4, 21). Cena porażki: Cassian zauważa próbę i od rana jest czujnym przeciwnikiem; scena biegnie dalej."
-  flagi_ustaw: [flaga.zegarek-cassiana]
   prowadzi_do: brak
 ```
 
@@ -637,9 +605,9 @@ podpowiedzi:
 
 Po scenie MG zapisuje (w notatkach sesji, potem w `04_kampania/stan-kampanii.md`):
 - `flaga.plotka-o-voldemorcie`: zawsze `true` po tej scenie albo po prologu.
-- `flaga.plotka-duch-puchona`: `true`, jeśli padł sygnał S3.
-- `flaga.ansel-odbicie`: `true` i **która postać** widziała odbicie (scena 05 tego potrzebuje).
+- `flaga.plotka-duch-puchona`: zawsze `true` po tej scenie (Tobias o niej mówi; S3 i Maisie to tylko dodatkowe źródła). Zanotuj, czy Maisie powiedziała postaciom o chłopcu (przyda się w scenie 06).
+- `flaga.ansel-odbicie`: zawsze `true` i **która postać** widziała odbicie (scena 05 tego potrzebuje).
 - `flaga.crake-poznany` i ewentualnie `flaga.crake-dluga-rozmowa`; jeśli Crake'a nie poznano, zostaje do sceny 07.
-- `flaga.zegarek-cassiana`: zmienia się z `u-cassiana` tylko przy siatce bezpieczeństwa 1.
+- `flaga.zegarek-cassiana`: bez zmian, zawsze `u-cassiana` (zegarka nie da się zdobyć przed sceną 04). Jeśli ktoś próbował go zabrać, zanotuj **kto**: Cassian zna jego twarz i jest wobec niego czujny w scenach 04 i 08.
 - Które sygnały dziwności MG już wykorzystał (żeby nie powtarzać ich w scenie 02) i czy postacie usiadły razem.
 - Dom przypisany Tobiasowi Quillowi.
