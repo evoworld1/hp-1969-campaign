@@ -12,7 +12,7 @@
 - **Następny krok: część B2** (nowa sesja): tworca-npc (szkice kart NPC, miejsc i przedmiotów, lista w `graf-scen.md`, sekcja „Potrzebne obiekty”); redaktor-ciaglosci; akceptacja grafu przez MG, co kończy Fazę 2.
 - **Dla mechanika przy scenach:** czy stan Drained działa już na lekcji Obrony; rdzeń ze smoczego serca a drewno „Oak” (s. 29, niejasność podręcznika).
 - **Odłożone do scen:** liczby dla wyniku 2× i 3× trudności (ZD-09).
-- **Ostatnie podsumowanie rozmowy:** `99_robocze/summary-session#1.md` (2026-11-20).
+- **Ostatnie podsumowanie rozmowy:** `99_robocze/summary-session#2.md` (2026-11-20). Następną sesję zacznij od `/faza 2` (część B2).
 
 ### Faza 1, część A: co powstało
 - `00_zrodla/walker-2e-draft-2026-04/tekst/`: wyciąg tekstu podręcznika (16 rozdziałów, znaczniki stron). Podręcznik jest jednym PDF (184 s.; numer drukowany = strona PDF − 5).
