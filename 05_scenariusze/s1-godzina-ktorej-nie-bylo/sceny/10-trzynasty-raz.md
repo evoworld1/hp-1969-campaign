@@ -32,6 +32,7 @@ flagi_wyjscie:
   - flaga.s1-wybor
   - flaga.filch-zlapal
   - flaga.dziennik-miejsce
+  - flaga.dumbledore-powiadomiony
 nastepne: []
 tagi: [s1, final, cliffhanger, ansel, trzynasta]
 zrodla:
@@ -460,10 +461,108 @@ rozgalezienie:
   prowadzi_do: brak
 ```
 
+*Zasada wspólna dla wszystkich ścieżek poniżej: świat reaguje na to, co gracze zrobili, i niczego im nie odbiera. Trzynasty raz już wybił, Ansel zostaje blady, a nikt (ani Ansel, ani dorośli) nie mówi, co byłoby „słuszne”. Nie ma też wyrzucenia ze szkoły: w Sesji 1 najwyższą karą jest szlaban, list do domu i chłodniejsze spojrzenia. Postać nigdy nie ginie w tej scenie (porażka kosztuje czas, komfort i reputację).*
+
+### Gracze chcą jeszcze tej nocy odnieść notatnik do pracowni
+
+Ścieżka dla graczy, którzy po biciu mówią: „Zanieśmy go z powrotem”. Nie ma tu czego blokować: to ich decyzja i świat jej nie unieważnia. Wejście do pracowni działa tak jak w scenie 09 (te same drzwi, ten sam korytarz za ostatnim rzędem), a gablota przyjmuje notatnik bez żadnej ceny: bez nowej godziny do oddania, bez zabezpieczeń księgi, bez rozmycia kartek. Zegary w pracowni dalej stoją. **Nic się nie cofa**: trzynasty raz już wybił, a Ansel zostaje blady (stopień 4 kontaktu). Gdy gracze zapytają, czy teraz „coś się zmieni”, odpowiedź brzmi jak zawsze: „Nie wiecie. Ansel też nie”.
+
+Co dodajesz od siebie, żeby świat był żywy (a nie czekał na nich):
+- **Filch nadal idzie za biciem.** Postacie wracają tam, gdzie latarnia już zmierza. Rzuć `s1.scena.10.test.ucieczka-przed-filchem` bez premii +3 za tłum w piżamach (biblioteka i dolne korytarze są puste), z resztą modyfikatorów bez zmian. Jeśli Filch złapie postacie **z notatnikiem w ręku**, zadziała zwykła konfiskata (rozgałęzienie `skonfiskowany`). Jeśli złapie je **już po odłożeniu notatnika**, nie ma czego konfiskować: szlaban (albo list do domu, gdy `flaga.filch-zlapal` już stoi), bez dialogu o szufladzie.
+- **Ansel.** Idzie z nimi do progu sali i tam się zatrzymuje. Patrzy na gablotę, nie podchodzi, nic nie komentuje. Jeśli ktoś pyta, czemu nie wchodzi: „Pani profesor nie lubiła, jak ktoś stał w drzwiach.” (nie mówi, że nie może; sam nie wie).
+- **Pytanie końcowe** zmienia się na: „Notatnik jest w gablocie, tam, skąd go wzięliście. Co robicie z tym i z Anselem?”.
+
+Krótki tekst na otwarcie, gdy gracze odkładają notatnik (czytaj ciszej niż resztę nocy):
+
+> Gablota nie protestuje. Szkło odsuwa się tak cicho, jakby tylko czekało. Notatnik leży na swoim miejscu i mosiężna tarcza bez wskazówek chwilę łapie światło różdżek, a potem je gasi.
+>
+> Zegary dookoła stoją. Nic nie drgnęło. Zamek za ścianami wciąż nie śpi.
+
+```yaml
+rozgalezienie:
+  id: s1.scena.10.rozgalezienie.awaryjne-odniesienie-notatnika
+  rodzaj: awaryjne
+  warunek: "Po trzynastym uderzeniu postacie decydują, że jeszcze tej nocy odniosą notatnik do pracowni (wracają przez te same drzwi co w scenie 09)."
+  wymaga_flag: [flaga.dziennik-u-graczy, flaga.trzynasta-wybila]
+  wyklucza_flagi: []
+  efekt: "Drzwi otwierają się jak w scenie 09, gablota przyjmuje notatnik bez ceny, zegary w pracowni dalej stoją. Nic się nie cofa: trzynasty raz już wybił, Ansel zostaje blady. Zapisz flaga.dziennik-miejsce = w-pracowni i flaga.s1-wybor = inne (flaga.dziennik-u-graczy zostaje prawdziwa, bo notatnik był wyniesiony). Po drodze Filch może ich złapać (ten sam test ucieczki, bez premii za tłum); bez notatnika w ręku nie ma konfiskaty, tylko szlaban. Pytanie końcowe: „Notatnik jest w gablocie. Co robicie z tym i z Anselem?”. Zahaczka na Sesję 2: wrócić po notatnik trzeba będzie w sposób, który pamięta, że został odłożony dobrowolnie."
+  flagi_ustaw: [flaga.trzynasta-wybila, flaga.dziennik-miejsce, flaga.s1-wybor]
+  prowadzi_do: brak
+```
+
+### Gracze chcą od razu iść do dyrektora (albo do McGonagall)
+
+Nie mów, że to dobry ani zły pomysł. Zamek jest przebudzony, więc nauczyciele krążą po korytarzach: po drodze natkną się na McGonagall (tekst 8, dialog `s1.scena.10.dialog.mcgonagall-konfiskata` w wersji „dobrowolnej”: bez Filcha, bez złapania). Ona i tak idzie zameldować dyrektorowi bicie, więc po krótkiej, chłodnej wymianie zabiera postacie ze sobą. Dyrektor przyjmuje je na kilka minut: zamyka notatnik, nie otwiera go przy nich, nie widzi Ansela i prosi o dalszą obserwację (`s1.rozgalezienie.dumbledore`). Cena: postacie nie zapewnią sobie dostępu do notatnika w Sesji 2, a McGonagall odnotowuje nocną wędrówkę (kara łagodna, bo przyszły same: uwaga bez szlabanu, kolor). Jeśli nauczyciel nie jest wybrany wprost, a gracze wahają się między „dyrektor” a „McGonagall”, zapisz to, co powiedzieli, i nie rozstrzygaj za nich.
+
+```yaml
+rozgalezienie:
+  id: s1.scena.10.rozgalezienie.awaryjne-do-dyrektora-tej-nocy
+  rodzaj: awaryjne
+  warunek: "Po biciu postacie deklarują, że idą od razu do Dumbledore'a (z notatnikiem i opowieścią o Anselu) zamiast czekać do rana."
+  wymaga_flag: [flaga.dziennik-u-graczy, flaga.trzynasta-wybila]
+  wyklucza_flagi: [flaga.filch-zlapal]
+  efekt: "Po drodze natykają się na przebudzoną McGonagall, która prowadzi ich do dyrektora. Dumbledore przyjmuje notatnik i zamyka go, nie widzi Ansela, prosi o dalszą obserwację; nic nie mówi o tym, czy notatnik pomoże chłopcu. Zapisz flaga.dziennik-miejsce = u-dumbledorea, flaga.s1-wybor = dumbledore, flaga.dumbledore-powiadomiony. Pytanie końcowe: „Notatnik jest u dyrektora. Co robicie z Anselem?”. Gdy postacie z notatnikiem zostały już złapane przez Filcha, ta ścieżka jest zamknięta: obowiązuje rozgałęzienie skonfiskowany."
+  flagi_ustaw: [flaga.trzynasta-wybila, flaga.dziennik-miejsce, flaga.s1-wybor, flaga.dumbledore-powiadomiony]
+  prowadzi_do: brak
+```
+
+### Postać jest ranna, wypluta przez pracownię albo „wyłączona” z gry
+
+Dotyczy graczy, których postać po scenie 09 jest nieprzytomna, bardzo osłabiona albo w tak złym stanie, że nikt nie chce jej puszczać po schodach. Postać nie umiera i nie wypada z gry: zasypia (albo traci przytomność tylko na chwilę) i budzi się rano w skrzydle szpitalnym, a trzynasty raz słyszy na jawie jak wszyscy. Rano przychodzi do niej Ansel (blady, ze zdziwioną twarzą) i mówi tylko to, co zwykle: że zrobiło się ciszej. Szkolna pielęgniarka (w tekście bez imienia, zob. raport) wypuszcza ją po śniadaniu. Pozostałe postacie dalej grają krok po kroku, a gracz „z łóżka” może mówić ustami Ansela albo wybrać, co postać zrobiła z notatnikiem, zanim straciła przytomność. Uwaga na linie i zasłony: nie opisuj ran, tylko zmęczenie i zimno.
+
+```yaml
+rozgalezienie:
+  id: s1.scena.10.rozgalezienie.awaryjne-skrzydlo-szpitalne
+  rodzaj: awaryjne
+  warunek: "Po scenie 09 postać jest nieprzytomna albo zbyt osłabiona, żeby uciekać, albo gracz chce, żeby jego postać trafiła do skrzydła szpitalnego."
+  wymaga_flag: []
+  wyklucza_flagi: []
+  efekt: "Postać budzi się rano w skrzydle szpitalnym, a Ansel (blady) siada w nogach łóżka. Reszta drużyny gra dalej w kroku 3 i 4. Gdy ranna postać trzyma notatnik, pielęgniarka nie zabiera go jej; odbiera go dopiero Filch albo McGonagall, jeśli ktoś go złapie (rozgałęzienie skonfiskowany). Brak szlabanu dla postaci w skrzydle szpitalnym. Pytanie końcowe zadaj całej grupie, także poszkodowanemu graczowi."
+  flagi_ustaw: [flaga.trzynasta-wybila, flaga.s1-wybor]
+  prowadzi_do: brak
+```
+
+### Gracz próbuje zniszczyć notatnik
+
+Zasada ze sekcji Testy: bez rzutu, bo to decyzja, nie test. Zapytaj: „Na pewno?”. Jeśli gracz potwierdza, opisz, że kartki trzymają się, a zamek nie reaguje ani wybuchem, ani ostrzeżeniem. Ansel patrzy i milczy (nie komentuje, nie błaga, nie ocenia). Nie robisz z tego kary ani nagrody; skutki dla kotwicy rozstrzyga Sesja 2.
+
+```yaml
+rozgalezienie:
+  id: s1.scena.10.rozgalezienie.awaryjne-zniszczenie-notatnika
+  rodzaj: awaryjne
+  warunek: "Postać deklaruje, że zniszczy notatnik (spali, rozerwie, zaleje, zniszczy zaklęciem), i po pytaniu MG „na pewno?” gracz potwierdza."
+  wymaga_flag: [flaga.dziennik-u-graczy]
+  wyklucza_flagi: []
+  efekt: "Bez rzutu. Zapisz flaga.dziennik-miejsce = zniszczony i flaga.s1-wybor = inne; Ansel dalej jest blady, ten sam stopień 4 kontaktu, bez reakcji dramatycznej. Pytanie końcowe: „Notatnika już nie ma. Co robicie z Anselem?”. Zahaczka: Sesja 2 musi poradzić sobie bez notatnika (zob. decyzja użytkownika w raporcie)."
+  flagi_ustaw: [flaga.trzynasta-wybila, flaga.dziennik-miejsce, flaga.s1-wybor]
+  prowadzi_do: brak
+```
+
+### Gracze chcą oddać notatnik Cassianowi
+
+Cassian ucieka pierwszy (zob. „Wariant: Cassian w pracowni”) i tej nocy nie da się go dogonić. Jeśli gracz uparcie chce mu go oddać, odłóż to na rano: „Jutro go znajdziecie”. Nie rozstrzygaj tego teraz; zapisz zamiar w notatce, `flaga.s1-wybor` = `inne`, `flaga.dziennik-miejsce` zostaje `u-graczy` do spotkania w Sesji 2. Bez nowego bloku: wystarczy notatka MG.
+
 ## Drabinka podpowiedzi
 
-TODO (zwykle zbędna: scena kończy się pytaniem).
+*Tu nie podpowiadamy, **co** wybrać: scena kończy się pytaniem, na które gracze odpowiadają sami (zob. „Czego nie podpowiadać”). Drabinka służy wyłącznie wtedy, gdy gracze nie wiedzą, **co mogą**, albo siedzą w ciszy i nie chcą mówić pierwsi. Każdy szczebel zwiększa przejrzystość, nie sugeruje odpowiedzi.*
+
+```yaml
+podpowiedzi:
+  id: s1.scena.10.podpowiedzi
+  szturchniecie: "Pozwól, żeby przemówiła fikcja: Ansel patrzy na mosiężną tarczę notatnika i milczy. Zapytaj ogólnie: „Co robi twoja postać, zanim zaśnie tej nocy?”. Nie wskazuj opcji."
+  wieksza: "Przypomnij fakty, bez oceniania: kto trzyma notatnik, kto widział Ansela, że dorośli nie widzą Ansela (jeśli któryś z nich już się o nim dowiedział). Powiedz: „Macie czas: nikt nie wymaga odpowiedzi dziś.”"
+  bezposrednia: "Powiedz wprost, że sesja się kończy, a odpowiedź może paść do następnego razu. Jeśli gracze proszą o listę, wymień neutralnie, bez rekomendacji: można zanieść notatnik komuś dorosłemu, zachować go w tajemnicy, spróbować czegoś z mocą, zająć się najpierw chłopcem, zrobić coś innego albo nie zdecydować jeszcze. Zapisz `flaga.s1-wybor` = `nierozstrzygniety` (albo `podzieleni`, gdy każdy chce czego innego)."
+```
 
 ## Konsekwencje
 
-TODO. Zapisz w `04_kampania/stan-kampanii.md`: `flaga.trzynasta-wybila`, `flaga.s1-wybor`, `flaga.dziennik-miejsce`, `flaga.filch-zlapal`, stan Ansela (znaczniki kontaktu, Więź), los Cassiana, gdzie są zegarek i karta.
+Zapisz w `04_kampania/stan-kampanii.md` po scenie:
+
+- **`flaga.trzynasta-wybila`**: zawsze prawda po tej scenie (Ansel jest blady, stopień 4 kontaktu; Crake w Londynie słyszał).
+- **`flaga.dziennik-miejsce`**: `u-graczy` (czysta ucieczka), `skonfiskowany` (Filch; zapisz, czy McGonagall, czy szuflada Filcha), `w-pracowni` (bez notatnika albo odniesiony), `u-dumbledorea` albo `zniszczony` (ścieżki awaryjne). Wartość `u-cassiana` tylko po scenie w Sesji 2.
+- **`flaga.s1-wybor`**: `dumbledore`, `sekret`, `moc`, `najpierw-chlopiec`, `skonfiskowany`, `inne`, `podzieleni` albo `nierozstrzygniety` (zwykle ten ostatni). Zapisz też zdanie każdego gracza, jeśli padło.
+- **`flaga.filch-zlapal`**: tak, jeśli łapał (szlaban, list do domu przy drugim razie); zapisz, czy Filch ma „zapamiętane” nazwisko postaci, która z niego kpiła.
+- **Ansel:** blady od tej nocy aż do Sesji 2; zapisz znaczniki kontaktu (`flaga.ansel-kontakt` na postać), Więź z Anselem, obietnice, które postacie mu złożyły (jeśli okażą się kłamstwem, Więź spada), i to, kogo Ansel zapamiętał jako „pana, który krzyczał”.
+- **Cassian:** zapisz `flaga.cassian-los` (tej nocy tylko `nie-skonfrontowany`, `uciekl` albo wynik sceny 08) i czy ktoś widział go w pracowni.
+- **Zegarek (`flaga.zegarek-cassiana`) i karta (`flaga.karta-u-graczy`):** gdzie są po nocy.
+- **Notatka dla Sesji 2:** gdzie leży notatnik i kto o tym wie; kto wie o Anselu poza postaciami; czy dyrektor został powiadomiony (`flaga.dumbledore-powiadomiony`).

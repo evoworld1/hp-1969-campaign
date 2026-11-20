@@ -140,7 +140,7 @@ aktualizacja: 2026-11-20
 
 **Krok 2. Crake schodzi** (ok. 3 min, tylko bez `flaga.crake-poznany`, za dnia)
 - Czytaj: wstawka „ktoś schodzi” („Z góry dochodzi stuk butów…”)
-- Dialog: `s1.scena.07.dialog.crake-schodzi` — „Ostrożnie na stopniach, młodzi. Wieża ostatnio wymaga więcej uwagi.”
+- Dialog: `s1.scena.07.dialog.crake-schodzi` — „Ostrożnie na stopniach, młodzi. Wyślizgane jak stare monety, a ta pani nie lubi pośpiechu.”
 - Test: `s1.scena.07.test.crake-pogawedka`
 - Flagi: `flaga.crake-poznany`, `flaga.crake-dluga-rozmowa` (tylko bardzo wysoki wynik)
 - Krótko: ostatnie miejsce pogawędki ruchomej. Crake zagaduje, chwali zegar, nic nie zdradza i schodzi dalej, „bo pan woźny czeka”. Jeśli `flaga.crake-poznany` już jest ustawiona, pomiń krok: na stopniu leży tylko zapomniana szmatka pachnąca miętą.
@@ -150,6 +150,7 @@ aktualizacja: 2026-11-20
 - Test: `s1.scena.07.test.mechanizm`
 - Flagi: `flaga.wieza-zbadana`
 - Krótko: zero przesunięcia, mechanizm bez skazy. Postacie udowadniają, że to nie tu. Pozwól im sprawdzać, ile chcą; każda kolejna próba daje ten sam spokojny wynik.
+- Dialog: `s1.scena.07.dialog.filch-halas` — „Kto tam dłubie? Nazwiska. Domy. Teraz.” (tylko po wstawce „ktoś usłyszał” albo gdy postacie szukają klucza do kraty dzwonnicy)
 - Awaryjne: `awaryjne-majsterkowanie`, `awaryjne-dzwon` (gdy w tej chwili wybija pełna godzina)
 
 **Krok 4. Plakietka i olej** (ok. 3 min)
@@ -159,6 +160,7 @@ aktualizacja: 2026-11-20
 
 **Krok 5. Zmierzch** (ok. 5 min, gdy postacie są tu o zmierzchu albo czekają)
 - Czytaj: tekst 4 („Światło w okienkach szarzeje…”); wariant 4a, gdy Cassian był pierwszy; wariant 4b, gdy nikt nie przychodzi.
+- Dialog: `s1.scena.07.dialog.cassian-zmierzch` — „Grupa trzecia. Też mierzycie czas?” (tylko wariant 4a albo gdy postacie zawołają do niego z wieży; potem od razu scena 08)
 - Krótko: Cassian przychodzi podbierać czas (W4.5). Po tekście 4 przejdź do sceny 08, tekst 1a (krużganek), od części wspólnej („Cassian Vane, sam, plecami do was…”). Po wariancie 4a Cassian ma inicjatywę: w scenie 08 pomiń tekst 1a i zacznij od jego pierwszej kwestii. Po wariancie 4b scena się kończy (powrót do 06 albo 12).
 
 ### Jak prowadzić (2–3 graczy, pierwsza sesja RPG)
@@ -178,11 +180,147 @@ Ansel zginął, spadając z tej wieży. Nikt tego w tej scenie nie mówi i nic w
 
 ## Obecni
 
-TODO (tworca-npc).
+*Przy każdej osobie: kiedy jest w scenie, co robi, czego chce, sygnał do pokazania i krótka reakcja na zaczepkę. Pełne karty są pod identyfikatorami. Nikt z obecnych nie wie, co naprawdę kryje wieża, poza Crake'iem, który o tym milczy.*
+
+**[[npc.ansel-dray]], chłopiec przy schodach** (tylko gdy idzie z postaciami; zostaje na początku mostu)
+- *Co robi:* doprowadza postacie do krytego mostu i staje tam, gdzie kamień przechodzi w deski. Dalej nie idzie. Liczy deski mostu szeptem i co chwilę patrzy w górę, na dzwonnicę.
+- *Czego chce w tej scenie:* żeby postacie wróciły, zanim uderzy dzwon. I żeby nikt go nie namawiał.
+- *Sygnał:* przy każdym spojrzeniu na wieżę brzegi postaci lekko drżą; przy biciu pełnej godziny zakrywa uszy i znika (`awaryjne-dzwon`), wraca przy następnym spotkaniu.
+- *Gdy postacie go zaczepią:* grzecznie, cicho, „proszę pana”, „proszę pani”. Namawiany odmawia; ciągnięty za rękę znika. Kto zostaje z nim o zmierzchu, ten pierwszy słyszy, że ktoś idzie po moście.
+
+**[[npc.hollis-crake]], zegarmistrz z Pokątnej** (tylko za dnia i tylko bez `flaga.crake-poznany`; krok 2)
+- *Co robi:* schodzi z komory mechanizmu z torbą narzędzi, z lupą na rzemyku i szmatką w palcach. Właśnie skończył oliwić mechanizm. Zatrzymuje się na chwilę, zagaduje i schodzi dalej, „bo pan woźny czeka”.
+- *Czego chce w tej scenie:* jawnie: być miłym i iść do domu. Pod spodem: żeby nikt nie zaglądał w jego robotę i nie zapamiętał, jak często tu bywa.
+- *Sygnał:* zapach mięty, czarne od oleju palce, w kopercie zegarka (widoczne tylko przy sukcesie imponującym) zdjęcie dziewczyny. O córce mówi w czasie przeszłym i od razu zmienia temat.
+- *Gdy postacie go zaczepią:* ciepło, wolno, z westchnieniem. Chwali zegar, nic nie mówi o wieży poza tym, że „wymaga uwagi”. Na groźbę i dociekliwość grzecznie się wycofuje. Nie przyłapie się go na kłamstwie żadnym testem w tej sesji.
+
+**[[npc.argus-filch]], nowy woźny** (tylko gdy postacie hałasują albo szukają klucza do kraty dzwonnicy)
+- *Co robi:* wchodzi z latarnią i kluczami, zapisuje nazwiska w zeszycie, sprawdza dwa razy. Kraty nie otwiera.
+- *Czego chce w tej scenie:* porządku i spokoju w „jego” wieży. Żeby nikt nie zepsuł zabytku, za który on odpowiada przed dyrektorem.
+- *Sygnał:* stuka kostką palca w szkło tarczy, jakby to pomagało. Na słowo „zegarmistrz” prycha z wyraźną zazdrością: tamten ma klucze od dyrektora, nie od niego.
+- *Gdy postacie go zaczepią:* najpierw zeszyt i pytanie o dom. Wobec kogoś, kto uprzejmie zapyta i wysłucha narzekania, mięknie i mówi o zegarmistrzu (W8.3). Na presję i kłamstwo tylko zapisuje i przegania.
+
+**[[npc.cassian-vane]], szóstoroczny Ślizgon** (tylko o zmierzchu, gdy zegarek jest u niego; krok 5)
+- *Co robi:* przechodzi mostem bez latarni, staje przy filarze w krużganku, wyjmuje zegarek i nakręca go, gwiżdżąc pięć tych samych nut. W wariancie 4a jest tu przed postaciami.
+- *Czego chce w tej scenie:* podebrać czas w ciszy i odejść, zanim ktoś go zobaczy. Gdy ktoś go zobaczy: ukryć zegarek i wyjść z twarzą.
+- *Sygnał:* srebrny błysk łańcuszka przy piersi, gwizd, który urywa się w pół nuty, lewa dłoń w rękawie.
+- *Gdy postacie go zaczepią:* uprzejmie i chłodnie, nazwiskiem. Rozmowa właściwa toczy się już w scenie 08: ten blok to tylko pierwsze zdania, zanim przejdziesz dalej.
 
 ## Dialogi
 
-TODO (dialogista): bloki o identyfikatorach z „Rytmu sceny”.
+*Jak czytać bloki: każda kwestia zaczyna się etykietą, która mówi, kiedy jej użyć. Wystarczy kwestia otwierająca i jedna reakcja. [nazwisko] to miejsce na nazwisko postaci gracza; „proszę pana” u Ansela zamień na „proszę pani”, gdy mówi do dziewczyny. Kwestie możesz czytać dosłownie albo mówić własnymi słowami. Ta scena jest cicha, więc wszyscy mówią tu ciszej niż zwykle, nawet Filch, dopóki nie krzyknie.*
+
+### Ansel na moście (krok 1)
+
+Ansel dochodzi do mostu i dalej nie idzie. To nie upór, tylko strach, którego sam nie rozumie. Nie tłumacz go graczom. Jeśli w scenie 06 padła już ta sama kwestia przy tekście 4, zacznij od drugiej („Teraz cicho…”) albo od wariantu z zegarem kradzieży.
+
+```yaml
+dialog:
+  id: s1.scena.07.dialog.ansel-dzwon
+  npc: npc.ansel-dray
+  wyzwalacz: "Ansel idzie z postaciami ku wieży i dochodzi do początku krytego mostu (wstawka „Ansel zostaje”)."
+  ton: "cichy, grzeczny, wyższy niż zwykle; pauza przed każdym pytaniem; przy dzwonie urwany"
+  kwestie:
+    - "Otwarcie: „Ja tu poczekam. Tu jest za głośno.” (patrzy w górę, na milczące dzwony)"
+    - "Gdy postać zauważa, że przecież jest cicho: „Teraz cicho. Ale on zaraz uderzy. Zawsze uderza wtedy, kiedy człowiek się nie spodziewa.”"
+    - "Gdy postać jest uprzejma i obiecuje wrócić: „Naprawdę pan wróci? To ja policzę deski. Jak skończę, pan już będzie.” (jeśli postać dotrzyma słowa, MG notuje to przy jej Więzi)"
+    - "Gdy postać go namawia albo naciska: „Proszę mnie nie prosić. Ja bym poszedł, naprawdę. Tylko nogi nie chcą.” (przy drugim naciskaniu kuli się i milknie)"
+    - "Gdy postać krzyczy albo się złości: (kuli się) „Przepraszam. Ja już nic nie mówię.” (znika przy pierwszej okazji; wraca następnego dnia i pamięta tę postać jako „tego pana, który krzyczał”)"
+    - "Gdy postać kłamie, żeby go uspokoić (np. „na górze nic nie ma, chodź”): „Naprawdę? To dobrze.” (wierzy, ale i tak nie idzie; MG notuje kłamstwo przy tej postaci)"
+    - "Gdy postać pyta łagodnie, czy był tu kiedyś (tylko przy Więzi co najmniej 1; przy zasłonie na śmierć dzieci pomiń): „Chyba byłem. Tam wysoko. Pamiętam, że dzwon był bardzo blisko. Tak blisko, że…” (marszczy brwi) „Dalej nie pamiętam.”"
+    - "Wariant, gdy zegar kradzieży doszedł do 2 lub więcej (flaga.s1-zegar-kradziezy): „Dzisiaj ciągnie mocniej. Jakby ktoś mnie trzymał za rękaw i ciągnął tam, do góry.” (brzegi postaci się strzępią)"
+    - "Gdy postać wraca z wieży: „Długo pana nie było. Dzwon nie bił. To dobrze.”"
+    - "Gdy postać wraca po pełnej godzinie (Ansel uciekł przy dzwonie, wraca przy następnym spotkaniu): „Uciekłem. Przepraszam. Biło tak, że aż mnie nie było.”"
+    - "O zmierzchu, gdy postać czeka z nim przy moście, a Cassian przechodzi obok (tekst 4): (szeptem, przysuwa się) „Proszę pana… ktoś przeszedł. Tuż koło mnie. Tyka mu w kieszeni, szybko, jak serce.” (Cassian go nie widzi ani nie słyszy)"
+    - "Okruch wspólnej godziny (raz na sesję, tylko jeśli nie padł wcześniej; gdy postać przyznaje, że ona też się czegoś boi; ustaw flaga.sekret-poruszony): „Wy też się wtedy baliście, prawda? Tak samo jak ja na wieży.” (sam nie wie, skąd to wie)"
+    - "Nieprzewidziane (postać próbuje go przenieść przez most albo chwycić za rękę): (ręka przechodzi na wylot; krótki krzyk; Ansel znika) Wraca przy następnym spotkaniu, cichszy: „Ja tu poczekam. Dobrze?”"
+    - "Nieprzewidziane (postać rzuca przy nim Tempus albo zaklęcie ujawniające): (dym rozmywa się w nic) „Przy mnie zegary nie chcą. Przepraszam.”"
+    - "Może zdradzić bez warunku: że przy wieży „ciągnie” i że boi się dzwonu."
+    - "Może zdradzić przy Więzi co najmniej 1 i łagodnym pytaniu: że chyba był kiedyś wysoko, blisko dzwonu."
+    - "Nie zdradza: dlaczego się boi ani co się stało na wieży (nie wie). Nigdy nie mówi „umarłem” ani „duch”, nie podaje roku."
+  wariant_od: [flaga.s1-zegar-kradziezy, flaga.sekret-poruszony]
+```
+
+### Crake schodzi z wieży (krok 2)
+
+Ostatnie miejsce pogawędki ruchomej. Crake jest ciepły i krótki: zatrzymuje się dwa stopnie nad postaciami, zagaduje, chwali zegar i idzie dalej. Co powie po pierwszych zdaniach, zależy od wyniku testu `s1.scena.07.test.crake-pogawedka`: użyj jednej z trzech kwestii „po teście”. Zdanie „wieża ostatnio wymaga więcej uwagi” pada dopiero przy sukcesie, dlatego otwarcie go nie zawiera. W Sesji 1 Crake nie mówi ani słowa o Klepsydrze, pieczęci ani kliencie z Londynu, cokolwiek gracze zrobią.
+
+```yaml
+dialog:
+  id: s1.scena.07.dialog.crake-schodzi
+  npc: npc.hollis-crake
+  wyzwalacz: "Za dnia, w drodze na górę (wstawka „ktoś schodzi”), tylko bez flaga.crake-poznany."
+  ton: "ciepły, trochę chrapliwy, wolny, z westchnieniami; uśmiech w każdym zdaniu; przy córce jedno zdanie urywa się w pół"
+  kwestie:
+    - "Otwarcie: „Ostrożnie na stopniach, młodzi. Wyślizgane jak stare monety, a ta pani nie lubi pośpiechu.” (klepie ścianę wieży jak koński bok)"
+    - "Przedstawia się, gdy postacie spytają, kim jest: „Crake. Zegary, ulica Pokątna. A wy pewnie z tych, co liczą minuty do kolacji.”"
+    - "Po teście, porażka: „Uważajcie na wahadło, nie wychylajcie się przez barierkę. Miłego popołudnia.” (mija ich i schodzi)"
+    - "Po teście, sukces: „Wieża? Wieża ostatnio wymaga więcej uwagi. Starość, wiecie. Jej i moja.”"
+    - "Po teście, sukces imponujący (sprawdza godzinę, a postać widzi zdjęcie w kopercie): „To Nora. Pomagała mi w sklepie. Tę tabliczkę na górze to ona przykręcała, bo ja już…” (urywa, zatrzaskuje kopertę) „No. Pan woźny czeka.”"
+    - "Gdy postać jest uprzejma i pyta o zegar: „Zegar to nie maszyna, to charakter. Ta tutaj chodzi co do sekundy. To reszta zamku za nią nie nadąża.” (rozpromienia się)"
+    - "Gdy postać pyta, co robił na górze, albo czuje zapach oleju: „Oliwiłem. Co tydzień, jak w zegarku.” (śmieje się z własnego żartu i wyciera palce w szmatkę)"
+    - "Gdy postać pyta, czemu zegary w zamku się spóźniają: „Zamek ma swoje humory, panienko. Ja pilnuję tej jednej. Reszta niech się martwi sama.” (zmartwiony, ale nie zdziwiony)"
+    - "Gdy postać pyta o „Crake i Córka” (zna plakietkę ze sceny 01) albo o córkę wprost, bez sukcesu imponującego: „Pomagała mi w sklepie.” (krótko, w czasie przeszłym) „A wy z którego domu?”"
+    - "Gdy postać kłamie (np. „profesor kazał nam sprawdzić mechanizm”): „To proszę sprawdzać, ja już skończyłem. Tylko rękami nic nie ruszać, dobrze?” (uśmiecha się; nie wierzy, ale nie dopytuje)"
+    - "Gdy postać próbuje go przekupić: „Synku, ja biorę pieniądze za naprawy, nie za plotki.”"
+    - "Gdy postać naciska, grozi albo dopytuje o mechanizm i tajemnice: „Przepraszam, młodzi, pan woźny na mnie czeka.” (schodzi bez pośpiechu; zapamiętuje twarze; testu pogawędki już nie ma)"
+    - "Nieprzewidziane (postać pyta, czy ktoś kiedyś spadł z wieży albo czy tu straszy): (milknie na moment) „Ja tu jeżdżę do zegarów, nie do plotek. Ale od balustrady trzymajcie się z daleka, dobrze?”"
+    - "Nieprzewidziane (postać celuje w niego różdżką albo rzuca zaklęcie): „Schowaj to, synku. Zanim ktoś zobaczy, a zobaczy na pewno.” (odchodzi; zaklęcie na dorosłego w zamku to sprawa dla Filcha i opiekuna domu, zob. karta)"
+    - "Nieprzewidziane (postacie chcą zejść razem z nim albo nieść mu torbę): „O, dziękuję. Dawno nikt mi nie pomagał.” (wolno, zadowolony; na dole oddaje go Filchowi, a postacie mogą wrócić na górę)"
+    - "Może zdradzić: przy sukcesie zdanie o wieży, przy sukcesie imponującym imię córki, to, że pomagała w sklepie, i że przykręcała tabliczkę (zawsze w czasie przeszłym). Bez warunku: że oliwi wieżę co tydzień."
+    - "Nie zdradza: nic o Klepsydrze, pieczęci ani kliencie z Londynu; nie mówi, że córka nie żyje."
+  wariant_od: [flaga.crake-poznany]
+```
+
+### Filch słyszy hałas (krok 3, tylko w razie potrzeby)
+
+Filch przychodzi tylko wtedy, gdy postacie hałasują w mechanizmie, zatrzymują wahadło albo chcą przejść przez kratę dzwonnicy (klucz ma on). Blok jest krótki: Filch zapisuje, przegania i odchodzi. Jedyna rzecz warta wyciągnięcia z niego to zdanie o zegarmistrzu (W8.3), które pada wyłącznie na uprzejme pytanie. Jeśli postacie usłyszały je już w scenie 06, Filch tylko burczy, że „mówił”.
+
+```yaml
+dialog:
+  id: s1.scena.07.dialog.filch-halas
+  npc: npc.argus-filch
+  wyzwalacz: "Wstawka „ktoś usłyszał” (hałas, zatrzymane wahadło, grzebanie w mechanizmie) albo postacie szukają klucza do kraty dzwonnicy."
+  ton: "zgrzytliwy szept, który nagle przechodzi w krzyk; mięknie, gdy ktoś go uprzejmie zapyta i wysłucha"
+  kwestie:
+    - "Otwarcie: „Kto tam dłubie? Nazwiska. Domy. Teraz.” (podnosi latarnię i zapisuje w zeszycie)"
+    - "Gdy postać jest uprzejma i pyta o plakietkę albo o to, kto dba o zegar: (prycha, ale odpowiada) „Zegarmistrz. Był w czwartek. Znowu. I dzisiaj znowu łaził na górę. Ja tu sprzątam, a on ma klucze od dyrektora.”"
+    - "Gdy postać dopytuje o zegarmistrza: „Z Pokątnej. Niski, wąsaty, pachnie miętą jak cukiernia. Odkąd tu jestem, co tydzień. A ostatnio jeszcze częściej.” (stuka w zeszyt) „Wpisuję go. Ja wszystkich wpisuję.”"
+    - "Wariant, gdy postacie mówią „Crake” (flaga.plakietka-crake albo flaga.crake-poznany): „No, Crake. I co z tego? Robi swoje i idzie. Nie to, co niektórzy.”"
+    - "Gdy postać prosi o otwarcie kraty dzwonnicy: „Dzwony nie są dla dzieci. Ja tam sam nie wchodzę bez potrzeby.” (krata zostaje zamknięta; uprzejmość tego nie zmienia)"
+    - "Gdy postać naciska albo rozkazuje: „Domy. Punkty. Zeszyt.” (zapisuje i wskazuje schody; więcej nic nie powie)"
+    - "Gdy postać kłamie (np. „profesor Flitwick kazał nam zmierzyć czas”): „Flitwick. Dobrze. To jutro Flitwicka zapytam.” (zapisuje nazwisko; jeśli kłamstwo się nie trzyma, następnego dnia ktoś z kadry pyta postać, co robiła w wieży)"
+    - "Gdy postacie zatrzymały wahadło: „Zatrzymaliście ją?! Wiecie, ile się nasłucham od dyrektora?” (wahadło po chwili rusza samo; Filch patrzy na nie podejrzliwie, potem na postacie) „Precz. Wszyscy.”"
+    - "Gdy ktoś kpi z ludzi bez magii albo pyta, czemu sam nie naprawi zegara zaklęciem: (cisza, potem szeptem) „Zapamiętam pana. Na cały rok.” (od tej chwili ta postać nie dostanie od niego nic)"
+    - "Nieprzewidziane (postacie chowają się albo uciekają po drugiej klatce schodowej): (świeci latarnią w górę, nasłuchuje, w końcu odchodzi) „I tak was znajdę. Ja zawsze znajduję.” (nikt nie trafia do zeszytu, ale Filch tej nocy zagląda do wieży jeszcze raz)"
+    - "Może zdradzić tylko na uprzejme pytanie: że zegarmistrz był w czwartek i dziś znowu, i że przyjeżdża coraz częściej (W8.3). Zdanie o dzisiejszej wizycie pada także wtedy, gdy postacie nie spotkały Crake'a na schodach (był rano albo minęli się)."
+    - "Nie zdradza: nic więcej; nie wie nic o mechanizmie poza tym, że jest „zabytkiem”."
+  wariant_od: [flaga.plakietka-crake, flaga.crake-poznany]
+```
+
+### Cassian o zmierzchu (krok 5, most do sceny 08)
+
+Krótki pomost. Ten blok obejmuje tylko pierwsze zdania w krużganku, zanim zaczniesz scenę 08. Po wariancie 4a pierwszą kwestią Cassiana jest otwarcie z tego bloku (identyczne z tekstem 4a), a potem od razu dialog `s1.scena.08.dialog.cassian-oskarzony`. Po tekście 4 Cassian nic nie mówi, dopóki postacie go nie zawołają albo nie zejdą (wtedy scena 08, tekst 1a, część wspólna).
+
+```yaml
+dialog:
+  id: s1.scena.07.dialog.cassian-zmierzch
+  npc: npc.cassian-vane
+  wyzwalacz: "O zmierzchu, zegarek jest u Cassiana: wariant 4a (Cassian był pierwszy) albo postacie wołają do niego z wieży po tekście 4."
+  ton: "spokojny, uprzejmy, odrobinę za wolny, z uśmiechem w głosie; pod spodem czujny"
+  kwestie:
+    - "Otwarcie (wariant 4a): „Grupa trzecia. Też mierzycie czas?” (dłonie z zegarkiem zsuwają się do kieszonki kamizelki)"
+    - "Gdy postać woła do niego z okna albo ze schodów (po tekście 4): (gwizd urywa się w pół nuty; długa pauza) „Wieża jest otwarta dla wszystkich, [nazwisko]. Krużganek też.” (dalej scena 08, tekst 1a, część wspólna)"
+    - "Gdy postać jest uprzejma i pyta, co tu robi: „Stoję. Tu jest cicho, a w lochach wiecznie ktoś gada. Nie bierzcie tego do siebie.”"
+    - "Gdy postać kłamie, że przyszli przypadkiem: „Przypadkiem. O zmierzchu. Na końcu mostu.” (uśmiech dociera do oczu z opóźnieniem) „Oczywiście.”"
+    - "Gdy postać od razu oskarża albo grozi: przejdź do dialogu s1.scena.08.dialog.cassian-oskarzony."
+    - "Gdy postacie się chowają i tylko patrzą: Cassian nic nie mówi. Nakręca zegarek, tyka szybko, po kilku minutach chowa go i odchodzi mostem. Postacie widziały wszystko (W4.5); konfrontacja przychodzi w scenie 08 innym wejściem."
+    - "Nieprzewidziane (wieża wybija pełną godzinę, gdy z nim rozmawiają): (wzdryga się, ręka na kieszonce) „Ona jedna w tym zamku się nie spóźnia.” (ciszej) „Zazdroszczę jej.”"
+    - "Nieprzewidziane (ktoś mówi do Ansela, którego Cassian nie widzi): (marszczy brwi, patrzy w puste miejsce przy moście) „Z kim ty rozmawiasz?”"
+    - "Może zdradzić bez warunku: że przychodzi tu „bo cicho”."
+    - "Nie zdradza tu: nic o zegarku, kradzieży ani karcie. Cała reszta w scenie 08."
+  wariant_od: [flaga.s1-zegar-kradziezy, flaga.cassian-czujny]
+```
 
 ## Testy
 
