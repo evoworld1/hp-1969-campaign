@@ -7,7 +7,7 @@ lokalizacja: "Hogwart, skrzydło lekcyjne, boczny korytarz między salą Zaklę�
 pewnosc: nasze
 # Pliki scen jeszcze nie istnieją (walidator wymaga istniejących identyfikatorów).
 # Docelowo: s1.scena.03 (stracona godzina), s1.scena.06 (pomiar), s1.scena.12
-sceny: []
+sceny: [s1.scena.03]
 tylko_mg: true
 tagi: [s1, hogwart, stracona-godzina, portret, irytek, ansel-migniecie, mapa-dryfu]
 zrodla:

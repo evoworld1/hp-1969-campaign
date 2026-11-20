@@ -6,7 +6,7 @@ status: szkic
 sesja: s1
 # Pliki scen jeszcze nie istnieją (walidator wymaga istniejących identyfikatorów).
 # Docelowo: s1.scena.02 (Flitwick rozdaje na koniec lekcji), s1.scena.06 (mapa dryfu)
-pokaz_w: []
+pokaz_w: [s1.scena.02]
 tylko_mg: false
 tagi: [s1, flitwick, tempus, praca-domowa, dryf, sledztwo]
 zrodla:

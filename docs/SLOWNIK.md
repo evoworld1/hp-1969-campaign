@@ -7,6 +7,7 @@ Terminy mechaniczne zostają w oryginale angielskim (Walker 2e). Ten słownik ob
 | Termin (EN) | Objaśnienie (PL) | Strona |
 |---|---|---|
 | Narrator | Prowadzący grę w Walkerze; u nas MG | 2 |
+| Classroom | Nauka na lekcji: co 3 godziny zajęć rzut, +1 do opanowania zaklęcia, 1 Story Point (punkt fabularny) | 31–32 |
 | D10, D | Kość dziesięciościenna, jedyna kość systemu; `3D+2` = trzy kości plus 2 | 2 |
 | Standard Test | Test standardowy: 1D10 + cecha + umiejętność, sukces przy wyniku ≥ trudności | 3 |
 | Difficulty Level | Próg trudności testu: Elementary 3, Straightforward 6, Tricky 12, Challenging 15, Ambitious 18, Formidable 21, Almost Impossible 25 | 3 |

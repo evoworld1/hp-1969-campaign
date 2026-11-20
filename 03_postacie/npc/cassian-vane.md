@@ -11,7 +11,7 @@ kanon: false
 pewnosc: nasze
 # Docelowo także: s1.scena.02, s1.scena.03 (poza kadrem), s1.scena.04,
 #   s1.scena.07, s1.scena.08, s1.scena.09 (przy zegarze kradzieży 4), s1.scena.12
-sceny: [s1.scena.01]
+sceny: [s1.scena.01, s1.scena.02, s1.scena.03]
 tylko_mg: true
 tagi: [s1, cassian, slytherin, przeciwnik, grupa-wrena, karta-pozyczajacego]
 zrodla:

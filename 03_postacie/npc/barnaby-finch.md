@@ -10,7 +10,7 @@ rocznik_1969: "6 rok"
 kanon: false
 pewnosc: nasze
 # Docelowo: s1.scena.04, s1.scena.12
-sceny: []
+sceny: [s1.scena.03]
 tylko_mg: true
 tagi: [s1, uczen, grupa-vane-a, test-przeciwny]
 zrodla:
