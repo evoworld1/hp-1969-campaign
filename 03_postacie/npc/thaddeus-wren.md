@@ -43,7 +43,7 @@ Były auror, od tego roku nauczyciel Obrony przed Czarną Magią. Zmęczony, suc
 - **Czego nigdy nie powie:** oskarżenia bez dowodu. Nie powie też niczego o swojej pracy w Biurze Aurorów poza suchym żartem.
 
 Przykładowe kwestie:
-- „Grupa trzecia. Dziś dziesięć minut przed lekcją pod salą, rozstawiacie stanowisko. Grupa pana Vane'a już się chwaliła, że was rozniesie.”
+- „Grupa trzecia. Dziś po obiedzie, dziesięć minut przed moją lekcją, pod salą. Rozstawiacie stanowisko. Najpierw Zaklęcia. Grupa pana Vane'a już się chwaliła, że was rozniesie.”
 - „Gdzie byliście? Nie pytam o wymówkę. Pytam, gdzie byliście.”
 - „Pan Vane podniósł oceny w dwa tygodnie. Gratuluję mu. I patrzę.”
 

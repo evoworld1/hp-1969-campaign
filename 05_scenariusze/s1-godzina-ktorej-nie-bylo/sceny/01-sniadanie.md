@@ -18,6 +18,8 @@ npc:
   - npc.hollis-crake
   - npc.gruby-mnich
   - npc.ansel-dray
+  - npc.filius-flitwick
+  - npc.minerva-mcgonagall
 miejsca:
   - miejsce.wielka-sala
   - miejsce.sala-wejsciowa
@@ -133,7 +135,7 @@ Pierwsza lekcja: Zaklęcia. Według połowy zegarków w zamku już jesteście sp
 **Rytm sceny (pełny wariant, ok. 30 minut).**
 1. Otwarcie (tekst 1) i sowia poczta (2 min).
 2. Rozmowa z [[npc.tobias-quill]]: pierwszy dialog w grze. Gracz mówi w imieniu postaci, MG odpowiada jako Tobias. Tobias jest źródłem plotek i rozmówcą do nauki gry. Dom Tobiasa MG ustala przed sesją: dom postaci z najmniejszą liczbą znajomych albo najbardziej nieśmiałego gracza (decyzja MG z 2026-11-20).
-3. **Drużyna się zbiera (stałe):** [[npc.thaddeus-wren]] idzie wzdłuż stołów (tekst 3) i zaczepia postacie po kolei, każdą przy jej stole domu: grupa trzecia ma być dziesięć minut przed lekcją pod salą Obrony, a grupa pana Vane'a już się chwaliła. Postacie wymieniają spojrzenia przez salę albo siadają razem na końcu jednego stołu, jeśli gracze tego chcą. Zdanie „wojna nie pyta o dom” zna cały rok; stół Slytherinu prycha.
+3. **Drużyna się zbiera (stałe):** [[npc.thaddeus-wren]] idzie wzdłuż stołów (tekst 3) i zaczepia postacie po kolei, każdą tam, gdzie siedzi (zwykle przy stole jej domu): grupa trzecia ma być po obiedzie, dziesięć minut przed jego lekcją, pod salą Obrony (najpierw Zaklęcia), a grupa pana Vane'a już się chwaliła. Postacie wymieniają spojrzenia przez salę albo siadają razem na końcu jednego stołu, jeśli gracze tego chcą. Zdanie „wojna nie pyta o dom” zna cały rok; stół Slytherinu prycha.
 4. Jeden prosty test przy stole (sekcja „Testy”). Test uczy rzutu; porażka niczego nie zamyka.
 5. 1–2 sygnały dziwności przy stole z listy poniżej (MG wybiera przed sesją; tekst 4). Odbicie w szkle zegara (tekst 6) jest zawsze i idzie przy wyjściu (punkt 7).
 6. Plotka o Voldemorcie szeptem od stołu Slytherinu (tekst 5, potem kwestia z dialogu; stałe, ustawia `flaga.plotka-o-voldemorcie`) i plotka o duchu Puchona od Tobiasa (stałe, ustawia `flaga.plotka-duch-puchona`).
@@ -204,8 +206,8 @@ Plotka o „Czarnym Panu” i „panu Notcie” to jedyny moment polityki w tej 
 - *Gdy postacie go zaczepią:* zagaduje pierwszy, zadaje pytania i cieszy się z każdej odpowiedzi, nawet z „nie wiem”. Zapytany o notes: pokazuje go tylko przy prawdziwym zainteresowaniu, a w tej scenie najwyżej „to tylko głupoty, kto kiedy przysnął”. Odsunięty: gada do sąsiada, a plotka i tak dociera. W wariancie skróconym zajmuje najwyżej minutę.
 
 **[[npc.thaddeus-wren]], nowy profesor Obrony przed Czarną Magią**
-- *Co robi:* schodzi z podwyższenia, idzie wzdłuż stołów i zaczepia postacie po kolei, każdą przy jej stole domu (tekst 3). Potem wraca na swoje miejsce, skąd widzi drzwi.
-- *Czego chce w tej scenie:* jawnie: żeby grupa trzecia była dziesięć minut przed lekcją pod salą. Po cichu: zobaczyć, kto z kim siedzi, kto zerka na kogo przez salę i kto przy stole Slytherinu słucha szeptów o „panu Notcie”. Grupy mieszane to dla niego także sposób obserwacji.
+- *Co robi:* schodzi z podwyższenia, idzie wzdłuż stołów i zaczepia postacie po kolei tam, gdzie siedzą (tekst 3). Potem wraca na swoje miejsce, skąd widzi drzwi.
+- *Czego chce w tej scenie:* jawnie: żeby grupa trzecia była po obiedzie, dziesięć minut przed jego lekcją, pod salą Obrony. Po cichu: zobaczyć, kto z kim siedzi, kto zerka na kogo przez salę i kto przy stole Slytherinu słucha szeptów o „panu Notcie”. Grupy mieszane to dla niego także sposób obserwacji.
 - *Sygnał:* nie odwraca głowy na prychnięcie od stołu Slytherinu. Co kilka kroków zerka na drzwi. Lewa dłoń z dwoma brakującymi palcami spoczywa na pasie.
 - *Gdy postacie go zaczepią:* odpowiada krótko jak w meldunku, zwraca się „panie…”, „panno…”. Pytania o grupy zbywa zdaniem „wojna nie pyta o dom”. Pytania o Cassiana ucina: o grupie pana Vane'a porozmawiają na macie, nie przy owsiance (swój „jeden konkret” o ocenach Cassiana, czyli `flaga.wren-podejrzewa`, zostawia na późniejsze sceny). Na skargę o dziwny zegar: „Jeszcze nie wiem. Proszę mi powiedzieć, jeśli to się powtórzy”. Nikogo o nic nie oskarża.
 
@@ -304,7 +306,7 @@ dialog:
     - "Gdy obok siedzi postać gracza ze Slytherinu (po pełnym szepcie, ciszej, tylko do niej): „Ty też słyszałaś, prawda? (albo: słyszałeś) U was w domu też już o tym mówią?” (obraca spinkę i czeka na odpowiedź)"
     - "Ślizgon obok, przy zasłonie na tematy czystości krwi (zamiast pełnego szeptu): „Ty też słyszałaś, prawda? O tym… Czarnym Panu.” (urywa) „Nieważne. Nie przy owsiance.”"
     - "Ślizgon obok przytakuje albo dopytuje: „Wiedziałam, że nie tylko ja. Ale nie tutaj, kochanie. Stół nauczycieli ma dobre uszy.” (zerka na Wrena)"
-    - "Ślizgon obok się odcina („bzdury”, „nic mnie to nie obchodzi”): (uniesiona brew) „Nikt cię nie pyta, czy cię to obchodzi. Kiedyś zapytają, po której stronie stoisz.”"
+    - "Ślizgon obok się odcina („bzdury”, „nic mnie to nie obchodzi”): (uniesiona brew) „Nikt cię nie pyta, czy cię to obchodzi. Kiedyś zapytają, po której stronie stoisz.” Przy zasłonie zamiast tego: „Jak chcesz, kochanie.” (i milknie)"
     - "Ślizgon obok milczy albo zmienia temat: „Mądrze. Milczenie też jest odpowiedzią.” (wraca do szeptu ze starszymi)"
     - "Gdy postać podchodzi uprzejmie albo z ciekawością: „Kochanie, to rozmowa przy stole Slytherinu. Ale miło, że słuchasz.”"
     - "Gdy postać naciska albo zaczepia: „Nie twoja sprawa. Ale skoro już stoisz, podaj sól i wracaj do swoich.”"
@@ -345,7 +347,7 @@ dialog:
 
 ### Profesor Wren zbiera grupę trzecią
 
-Kwestie idą **zaraz po tekście 3** („Zatrzymuje się przy pierwszym z was”). Wren podchodzi do każdej postaci przy jej stole domu, po kolei. Pierwsza postać słyszy pełną kwestię, kolejne krótszą, a ostatnia dostaje polecenie, żeby się rozejrzała, co zmusza postacie, żeby zobaczyły się nawzajem przez salę. MG mówi wolno, nisko, może oprzeć rękę na stole. Po ostatniej postaci MG czyta resztę tekstu 3 (prychnięcie od stołu Slytherinu).
+Kwestie idą **zaraz po tekście 3** („Zatrzymuje się przy pierwszym z was”). Grupy istnieją od piątku (lista wisi), a dziś jest pierwszy pokaz, więc postacie wiedzą, że są razem w grupie trzeciej; Wren tylko przypomina, kiedy i gdzie. Godzinę mówi jednoznacznie: **dziś po obiedzie, dziesięć minut przed jego lekcją, pod salą Obrony; najpierw Zaklęcia u Flitwicka.** Wren podchodzi do każdej postaci po kolei, tam, gdzie siedzi. Pierwsza postać słyszy pełną kwestię, kolejne krótszą, a ostatnia dostaje polecenie, żeby się rozejrzała, co zmusza postacie, żeby zobaczyły się nawzajem przez salę. Jeśli postacie siedzą razem, Wren mówi do wszystkich naraz; jeśli ktoś siedzi przy cudzym stole, Wren to zauważa i pochwala po swojemu. MG mówi wolno, nisko, może oprzeć rękę na stole. Po ostatniej postaci MG czyta resztę tekstu 3 (prychnięcie od stołu Slytherinu).
 
 ```yaml
 dialog:
@@ -354,20 +356,26 @@ dialog:
   wyzwalacz: "Tekst 3: Wren idzie środkiem Wielkiej Sali i zatrzymuje się przy każdej postaci po kolei. Stały w obu wariantach sceny."
   ton: "wolny, cichy, krótko jak meldunek; zero uśmiechu, długie pauzy"
   kwestie:
-    - "Pierwsza postać: „Panie (albo Panno) [nazwisko]. Grupa trzecia: dziś dziesięć minut przed lekcją pod salą, rozstawiacie stanowisko. Grupa pana Vane'a już się chwaliła, że was rozniesie.”"
-    - "Każda następna postać: „Panno (albo Panie) [nazwisko]. Grupa trzecia, dziesięć minut przed lekcją. Resztę wie [pan albo panna i nazwisko poprzedniej postaci].”"
-    - "Ostatnia postać: „Panie (albo Panno) [nazwisko]. To samo. Proszę się rozejrzeć po sali: to jest pańska grupa.” (MG pyta gracza: kogo widzisz?)"
+    - "Pierwsza postać: „Panie (albo Panno) [nazwisko]. Grupa trzecia: dziś po obiedzie, dziesięć minut przed moją lekcją, pod salą Obrony.” (pauza) „Najpierw Zaklęcia. Nie spóźnijcie się do profesora Flitwicka.”"
+    - "Pierwsza postać, zaraz potem: „Rozstawiacie stanowisko. Grupa pana Vane'a już się chwaliła, że was rozniesie.”"
+    - "Każda następna postać: „Panno (albo Panie) [nazwisko]. Grupa trzecia, po obiedzie, dziesięć minut przed moją lekcją. Resztę wie [pan albo panna i nazwisko poprzedniej postaci].”"
+    - "Ostatnia postać: „Panie (albo Panno) [nazwisko]. To samo.” (pauza) „Proszę się rozejrzeć. Po obiedzie pokażecie, ile jesteście warci razem.” (MG pyta gracza: kogo widzisz?)"
+    - "Gdy postacie siedzą razem przy jednym stole (Wren mówi do wszystkich naraz, potem treść kwestii dla pierwszej postaci w liczbie mnogiej): „Grupa trzecia w komplecie. Oszczędzacie mi spaceru.”"
+    - "Gdy postać siedzi przy stole innego domu niż swój: „Pan (albo Pani) [nazwisko] przy złym stole.” (pauza) „Dobrze. Przyzwyczajajcie się.”"
+    - "Gdy postać myli godziny („to przed Zaklęciami?”): „Nie. Rano Zaklęcia u profesora Flitwicka. Do mnie po obiedzie.”"
+    - "Gdy postać pyta, od kiedy są grupy, albo udaje, że nie wie, o co chodzi: „Lista wisi od piątku. Dziś pierwszy pokaz.”"
+    - "Gdy postać pyta, co będzie na pokazie: „Grupa na grupę. Resztę zobaczycie po obiedzie.”"
     - "Gdy postać odpowiada uprzejmie („Będziemy, panie profesorze”): (stuka dwa razy kostką palca w blat) „Dobrze.”"
     - "Gdy postać milczy albo tylko kiwa głową: „Kiwnięcie wystarczy.” (idzie dalej)"
     - "Gdy postać pyta, czemu grupy są mieszane, albo krzywi się na kogoś z innego domu: „Wojna nie pyta o dom.”"
     - "Gdy postać dopytuje „jaka wojna?”: „Jeszcze żadna. Dlatego ćwiczymy teraz.”"
     - "Gdy postać zaczepia albo się popisuje („Vane może sobie gadać”): „Proszę to powiedzieć na macie. Tam słucham.”"
     - "Gdy postać prosi o zmianę grupy albo próbuje się wykręcić: „Nie.” (pauza) „Przeciwnik też nie przyjmuje podań.”"
-    - "Gdy postać kłamie, żeby nie przyjść (choroba, inna lekcja): (patrzy długo) „Wrócicie do mnie, gdy będziecie gotowi powiedzieć prawdę. A na razie dziesięć minut przed lekcją.”"
+    - "Gdy postać kłamie, żeby nie przyjść (choroba, inna lekcja): (patrzy długo) „Wrócicie do mnie, gdy będziecie gotowi powiedzieć prawdę. A na razie po obiedzie, dziesięć minut przed moją lekcją.”"
     - "Gdy postać pyta o Cassiana albo o jego grupę: „O grupie pana Vane'a porozmawiamy na macie. Nie przy owsiance.”"
     - "Gdy postać mówi o spóźnionym zegarze albo o czymś dziwnym: „Jeszcze nie wiem. Proszę mi powiedzieć, jeśli to się powtórzy.”"
     - "Nieprzewidziane (różdżka wyciągnięta przy stole, żart z jego dłoni, salutowanie): „Różdżka na stół. Pokaże pan, co umie, na mojej lekcji.” Przy żarcie z palców: „Lewa ręka. Prawą dalej trafiam.”"
-    - "Może zdradzić: tylko godzinę i miejsce zbiórki oraz to, że grupy trwają cały rok. Konkretu o ocenach Cassiana tu nie mówi (zostaje na późniejsze sceny, flaga.wren-podejrzewa)."
+    - "Może zdradzić: tylko godzinę i miejsce zbiórki (po obiedzie, przed jego lekcją, pod salą Obrony), to, że lista grup wisi od piątku, a dziś jest pierwszy pokaz, i to, że grupy trwają cały rok. Konkretu o ocenach Cassiana tu nie mówi (zostaje na późniejsze sceny, flaga.wren-podejrzewa)."
   wariant_od: []
 ```
 
@@ -446,7 +454,7 @@ dialog:
 
 ### Cassian Vane przy stole Slytherinu (gdy postacie go zaczepią)
 
-Cassian sam nie zaczyna rozmowy. Ten blok jest potrzebny tylko wtedy, gdy postacie podejdą do niego, najczęściej po sygnale S4. Mówi spokojnie, odrobinę za wolno, z uśmiechem w głosie; pod presją skraca zdania. Próbę zabrania zegarka obsługuje rozgałęzienie `kradziez-zegarka`.
+Cassian sam nie zaczyna rozmowy. Ten blok jest potrzebny tylko wtedy, gdy postacie podejdą do niego, najczęściej po sygnale S4. Mówi spokojnie, odrobinę za wolno, z uśmiechem w głosie; pod presją skraca zdania. Do chłopców zwraca się samym nazwiskiem, do dziewcząt z przekąsem „panno [nazwisko]”. **Zegarka nie da się tu zdobyć** (decyzja MG z 2026-11-20): próba dotknięcia albo zabrania zawsze się nie udaje, bez testu. Cassian chowa zegarek, zapamiętuje twarz i nie robi sceny (kwestia niżej); MG notuje w „Konsekwencjach”, kto próbował.
 
 ```yaml
 dialog:
@@ -455,15 +463,60 @@ dialog:
   wyzwalacz: "Postać podchodzi do Cassiana przy stole Slytherinu albo zaczepia go przy wyjściu z Wielkiej Sali."
   ton: "chłodno uprzejmy, wyćwiczony; pod presją krótszy i powtarza słowa"
   kwestie:
-    - "Otwarcie: „[nazwisko]. Grupa trzecia, prawda? Wren chyba lubi wyzwania. Nie bierz tego do siebie.”"
+    - "Otwarcie: „[nazwisko] (do dziewczyny: panno [nazwisko]). Grupa trzecia, prawda? Wren chyba lubi wyzwania. Nie bierz tego do siebie.”"
     - "Gdy postać jest uprzejma: „Miło. Do zobaczenia na macie.” (wraca do talerza; rozmowa skończona)"
-    - "Gdy postać zaczepia albo przechwala się przed pokazem: „Wszyscy tak mówią, tylko nie wszyscy potem wygrywają. Dziesięć minut przed lekcją, tak? Nie spóźnijcie się.”"
+    - "Gdy postać zaczepia albo przechwala się przed pokazem: „Wszyscy tak mówią, tylko nie wszyscy potem wygrywają. Po obiedzie, tak? Nie spóźnijcie się.”"
     - "Gdy postać pyta o zegarek: (zamyka kopertę, zanim ktoś zajrzy na tarczę) „Pamiątka rodzinna. Nie chodzi, ale się do niej przywiązałem.”"
     - "Gdy postać naciska w sprawie zegarka: „Pamiątka. Mówiłem. Pamiątka.” (wsuwa zegarek do kieszonki, lewą dłoń chowa w rękawie)"
+    - "Gdy postać próbuje dotknąć albo zabrać zegarek (zawsze bez skutku, bez testu): (zamyka kopertę i chowa zegarek do kieszonki, zanim palce postaci go dosięgną; jeśli trzeba, spokojnie odsuwa jej rękę) „Rodzinna pamiątka. Nie chodzi. Nic ciekawego.” (patrzy postaci w twarz o chwilę za długo i ją zapamiętuje; nie woła nauczycieli, nie robi sceny)"
+    - "Gdy postać pyta o bandaż na lewej dłoni: (lekko, z uśmiechem) „Kociołek. Slughorn każe nam pracować za blisko ognia.” (wsuwa dłoń głębiej w rękaw)"
+    - "Gdy postać naciska w sprawie bandaża: „Kociołek. Mówiłem.” (zmienia temat) „Lepiej martw się o pokaz.”"
     - "Gdy postać szczerze się troszczy („wyglądasz, jakbyś nie spał”): (krótka pauza, za długa) „…Nauka. Szósty rok. Sam wiesz.”"
     - "Gdy postać kłamie albo blefuje (np. „Wren cię szuka”): „Doprawdy? To poczeka do lekcji.” (uśmiecha się; nie rusza się z miejsca)"
     - "Nieprzewidziane (postać siada obok, chwyta go za rękę, mówi coś zupełnie od rzeczy): (wstaje) „Muszę iść. Rosalind, idziemy.”"
-    - "Nie zdradza w tej scenie niczego: ani o zegarku, ani o swojej dłoni, ani o pokazie. Jedyny sygnał to zawahanie przy szczerej trosce."
+    - "Nie zdradza w tej scenie niczego: ani o zegarku, ani o swojej dłoni (poza wymówką o kociołku), ani o pokazie. Jedyny sygnał to zawahanie przy szczerej trosce."
+  wariant_od: []
+```
+
+### Stół nauczycieli: Flitwick i McGonagall (gdy postacie podejdą)
+
+Dumbledore'a nie ma (wyjazd do Londynu, decyzja MG z 2026-11-20): jego krzesło na środku stołu stoi puste, a nikt przy stole nie wie więcej niż „dyrektor wyjechał”. Te bloki są potrzebne tylko wtedy, gdy postacie podejdą do stołu nauczycieli, żeby zgłosić dziwny zegar, czyjąś zgubioną godzinę albo poprosić o rozmowę z dyrektorem. Flitwick odsyła na swoją lekcję (most do sceny 02), McGonagall do opiekuna domu. Nikt przy stole nauczycieli niczego nie wyjaśnia. Wren też tu siedzi; jego kwestie są w bloku wren-grupa-trzecia.
+
+```yaml
+dialog:
+  id: s1.scena.01.dialog.flitwick-stol
+  npc: npc.filius-flitwick
+  wyzwalacz: "Postać podchodzi do stołu nauczycieli ze sprawą zegara, zgubionego czasu albo z pytaniem o naukę; Flitwick odzywa się pierwszy."
+  ton: "piskliwy, szybki, radosny; przy czasie nagle poważny i ściszony"
+  kwestie:
+    - "Otwarcie: „Ach, szósty rok przy śniadaniu i już z pytaniami! Wspaniale. Co się stało, panie (albo panno) [nazwisko]?”"
+    - "Gdy postać mówi o spóźnionym zegarze: (zerka w okno, w stronę wieży) „Wieża znowu się boczy. Proszę mi o tym opowiedzieć na lekcji, dobrze? Z minutami, dokładnie.”"
+    - "Gdy postać mówi o czyjejś zgubionej godzinie albo o „zasypianiu z otwartymi oczami”: (poważnieje, zniża głos) „Z czasem się nie żartuje. Proszę mi o tym opowiedzieć na lekcji, nie przy jajecznicy.”"
+    - "Gdy postać jest uprzejma albo szczerze ciekawa: „Na lekcji, na lekcji! Mam dziś dla was coś, co bardzo się wam spodoba.” (rozpromienia się; nie mówi, co)"
+    - "Gdy postać naciska, żeby powiedział coś teraz: „Teraz, panie [nazwisko], jem jajko. Za chwilę jestem cały wasz, w klasie.”"
+    - "Gdy postać przesadza albo zmyśla: „Doprawdy? No, no.” (uśmiecha się uprzejmie i nic więcej nie dodaje)"
+    - "Gdy postać pyta o dyrektora: „Dyrektor wyjechał, moi drodzy. Ale ja jestem tutaj, a za chwilę w klasie.”"
+    - "Nieprzewidziane (postać rzuca zaklęcie przy stole nauczycieli, wskakuje na stopień, przynosi zegar do sprawdzenia): (klaszcze w małe dłonie) „Brawo za zapał! Ale nie przy śniadaniu. Proszę to pokazać na lekcji.”"
+    - "Może zdradzić: tylko to, że wieża „boczy się” od dwóch tygodni. O Dziale Ksiąg Zakazanych i o zgłoszeniach zgubionych godzin mówi dopiero w scenie 02, i to tylko ciekawskim."
+  wariant_od: []
+```
+
+```yaml
+dialog:
+  id: s1.scena.01.dialog.mcgonagall-stol
+  npc: npc.minerva-mcgonagall
+  wyzwalacz: "Postać podchodzi do stołu nauczycieli i chce iść do dyrektora, skarży się albo zgłasza coś, czego Flitwick nie podjął."
+  ton: "krótki, precyzyjny, bez podnoszenia głosu"
+  kwestie:
+    - "Otwarcie: „Słucham, panie (albo panno) [nazwisko]. Krótko, proszę.”"
+    - "Gdy postać chce do dyrektora albo zgłasza coś dziwnego: „Dyrektor wyjechał. Z takimi sprawami proszę najpierw do opiekuna swojego domu.”"
+    - "Do postaci z Gryffindoru (tylko jeśli MG przyjmuje, że McGonagall jest w 1969 opiekunką Gryffindoru; to niepewne): „Czyli do mnie. Po lekcjach, w moim gabinecie. Teraz proszę wrócić do stołu.”"
+    - "Gdy postać jest uprzejma i rzeczowa: „Rozsądna prośba dostaje rozsądną odpowiedź. Opiekun domu. Następna sprawa?”"
+    - "Gdy postać naciska albo się kłóci: „Powiedziałam już. Nie powtarzam się przy śniadaniu.”"
+    - "Gdy postać kłamie albo przesadza (poznaje po pierwszym zdaniu): „Spróbuje pan (albo pani) jeszcze raz, tym razem zgodnie z prawdą?”"
+    - "Gdy postać pyta, dokąd i po co wyjechał dyrektor: „Dyrektor nie zdaje mi relacji ze swoich podróży. A ja nie zdaję ich uczniom.”"
+    - "Nieprzewidziane (postać próbuje sama iść do gabinetu dyrektora, robi zamieszanie przy stole nauczycieli): „Panie (albo panno) [nazwisko]. Do stołu. Natychmiast.” (gabinet i tak jest zamknięty, a gargulec nie reaguje na hasło)"
+    - "Może zdradzić: tylko to, że dyrektor wyjechał. O wieży, zegarach i zgubionym czasie nic nie mówi."
   wariant_od: []
 ```
 
