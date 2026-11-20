@@ -324,7 +324,179 @@ dialog:
 
 ## Testy
 
-TODO (mechanik): `s1.scena.07.test.crake-pogawedka` (próg jak w 01), `s1.scena.07.test.mechanizm`.
+*Terminy Walkera: Wits (bystrość), Observation (spostrzegawczość), Focus (skupienie), Charms (zaklęcia typu Charm, czyli uroki), Speed (szybkość), Stealth (skradanie się), Concealment (ukrywanie, w tym chowanie drobnych rzeczy w dłoni), Opposed Test (test przeciwny, Walker 2e s. 4), Impressive success (sukces imponujący, co najmniej dwa razy trudność, s. 3), Working Together (współpraca, s. 4). Szanse podaję dla czterech archetypów z szybkiej ścieżki (A pojedynkowicz, B badacz, C kombinator, D opiekun).*
+
+**Zasada tej sceny: wieża jest czysta bez rzutu.** To, że mechanizm jest bez skazy, zero przesunięcia, a świeży olej i plakietka „Crake i Córka” leżą na wierzchu, postacie dostają **zawsze i bez testu** (graf: ślepy zaułek ma być satysfakcjonujący, nie frustrujący; `flaga.wieza-zbadana` i `flaga.plakietka-crake` ustawiasz od razu, gdy postacie dotrą do komory). Rzut sprawdza tylko drobiazgi ponad ten podstawowy obraz. Każda kolejna próba „sprawdzenia, czy jednak coś” daje ten sam spokojny wynik i nie wymaga rzutu.
+
+### Pogawędka z Crake'iem
+
+Te same liczby co w scenie 01 i w prologu (próg 9). Crake pojawia się w Sesji 1 raz; ten blok jest tylko tam, gdzie postacie nie poznały go wcześniej.
+
+```yaml
+test:
+  id: s1.scena.07.test.crake-pogawedka
+  opis: "Pogawędka z Crake'iem na schodach (tylko bez flaga.crake-poznany, za dnia). Postać przygląda się zegarmistrzowi podczas rozmowy. Test standardowy (s. 3), rzuca jedna postać: ta, która prowadzi rozmowę. Próg 9 (próg bez nazwy, zasada domowa ZD-23; Walker podaje 9 jako trudność prostych uroków, s. 40), jak w s1.scena.01.test.crake-pogawedka. Dłuższa rozmowa wymaga sukcesu imponującego (co najmniej 2 × trudność, s. 3), czyli wyniku 18 lub więcej. Przy Wits + Observation 9–10 (wszystkie archetypy) zwykły sukces jest pewny, a sukces imponujący wypada w około 20–30% rzutów (z jednym pomocnikiem 30–40%, z dwoma 40–50%); sukces niewiarygodny (27) jest nieosiągalny i nie ma osobnego efektu. Porażka zdarza się tylko postaciom z Wits + Observation 7 lub mniej (w praktyce przy karach ze stanu Drained). Story Points dorzuca się dopiero po porażce (s. 4), więc nie podnoszą zwykłego sukcesu do imponującego. Oko, które dostrzega ukryte, pokazuje zdjęcie w kopercie bez rzutu, ale nie daje dłuższej rozmowy (zasada.nagrody-z-teaserow). Gdy postać była niegrzeczna albo groziła, testu nie ma: Crake odchodzi według dialogu crake-schodzi."
+  kto: jeden
+  rzut: "1D10 + Wits + Observation"
+  trudnosc: 9
+  modyfikatory:
+    - warunek: "Każda inna postać, która aktywnie podtrzymuje rozmowę (pyta o zegary, chwali robotę, niesie torbę); najwyżej dwie (Working Together, s. 4)"
+      wartosc: "+1 do rzutu"
+    - warunek: "Postać ma specjalizację Observation pasującą do sytuacji (np. Observation (Twarze); Specialism, s. 13)"
+      wartosc: "+1 do rzutu"
+    - warunek: "Postać nadal jest w stanie Drained (+3) albo Dazed (+2) po scenie 03 (s. 35)"
+      wartosc: "+3 do trudności"
+  wyniki:
+    - wynik: porazka
+      efekt: "Crake mówi kilka uprzejmych zdań o stopniach i wahadle (dialog crake-schodzi, linia „Po teście, porażka”) i schodzi. Jest poznany, nic więcej. Nic się nie zamyka: plakietka i olej są na górze bez testu."
+      flagi_ustaw: [flaga.crake-poznany]
+    - wynik: sukces
+      efekt: "Miły starszy pan pachnący olejem. Pada zdanie o wymagającej uwagi wieży (dialog crake-schodzi, linia „Po teście, sukces”: „Wieża? Wieża ostatnio wymaga więcej uwagi”). To jedyna szczelina w jego uprzejmości, a on sam jej nie zauważa."
+      flagi_ustaw: [flaga.crake-poznany]
+    - wynik: sukces-imponujacy
+      efekt: "Jak sukces, a do tego postać zauważa zdjęcie dziewczyny w kopercie zegarka, gdy Crake sprawdza godzinę. Pada zdanie o córce przykręcającej tabliczkę (dialog crake-schodzi, linia „Po teście, sukces imponujący”: „To Nora. Pomagała mi w sklepie. Tę tabliczkę na górze to ona przykręcała, bo ja już…”) i Crake zatrzaskuje kopertę. Zawsze w czasie przeszłym; nic o Klepsydrze."
+      flagi_ustaw: [flaga.crake-poznany, flaga.crake-dluga-rozmowa]
+```
+
+### Mechanizm, olej i plakietka (drobiazgi)
+
+Bez rzutu postacie widzą: mechanizm bez skazy, świeży olej, miętę, plakietkę „Konserwacja: Crake i Córka, ulica Pokątna” (tekst 3 bez ostatniego zdania). Test decyduje tylko o tym, **kto z bliska widzi, że słowa „i Córka” wycięto płycej, innym dłutem** (ostatnie zdanie tekstu 3). To ziarno na Sesję 2 (W8), nie bramka: Crake i tak sam powie o córce przykręcającej tabliczkę, a sam napis „i Córka” jest czytelny dla każdego.
+
+```yaml
+test:
+  id: s1.scena.07.test.mechanizm
+  opis: "Postać ogląda z bliska mechanizm, olej i plakietkę, szukając czegokolwiek nietypowego. Podstawowy wynik (mechanizm bez skazy, zero przesunięcia, olej, plakietka z napisem) postacie dostają bez rzutu; ten test dotyczy tylko drobiazgu, że „i Córka” wycięto później i innym dłutem. Test standardowy (s. 3), rzuca jedna postać, przy czym ta sama postać nie rzuca ponownie w tej scenie; inna postać może spróbować osobno. Trudność Tricky (12), bo to drobiazg w półmroku. Szanse (Wits + Observation 9–10): archetypy A, C i D wystarczy 3 lub więcej na kości (ok. 80%), archetyp B wystarczy 2 (ok. 90%). Sukces imponujący (24) jest nieosiągalny dla postaci startowych i nie ma osobnego efektu. Porażka nie kosztuje niczego: postać widzi tylko starannie wygrawerowaną, nowiutką tabliczkę. Story Point po porażce wolno wydać (s. 4), ale nie warto: ziarno i tak dostarczy Crake albo Filch (W8)."
+  kto: jeden
+  rzut: "1D10 + Wits + Observation"
+  trudnosc: "Tricky (12)"
+  modyfikatory:
+    - warunek: "Każda inna postać, która pomaga (świeci Lumos, trzyma ramię, podpowiada, gdzie patrzeć); najwyżej dwie (Working Together, s. 4)"
+      wartosc: "+1 do rzutu"
+    - warunek: "Postać ma specjalizację Observation pasującą do sytuacji (np. Observation (Napisy) albo (Twarze); Specialism, s. 13)"
+      wartosc: "+1 do rzutu"
+    - warunek: "Postać wcześniej w sesji zauważyła plakietkę „Crake i Córka” na wielkim zegarze w Sali Wejściowej (założenie robocze ze sceny 01) i porównuje oba napisy"
+      wartosc: "-3 do trudności"
+    - warunek: "Postać nadal jest w stanie Drained (+3) albo Dazed (+2) po scenie 03 (s. 35)"
+      wartosc: "+3 do trudności"
+  wyniki:
+    - wynik: porazka
+      efekt: "Nic nietypowego: czysta robota, błyszcząca tabliczka. Postacie mają jednak olej, miętę i plakietkę „Crake i Córka” (bez testu)."
+      flagi_ustaw: [flaga.wieza-zbadana, flaga.plakietka-crake]
+    - wynik: sukces
+      efekt: "Czytaj ostatnie zdanie tekstu 3: „i Córka” wycięto płycej i innym dłutem, jakby dopisano po latach. Mała nieścisłość, nie dowód. MG nie tłumaczy, co to znaczy."
+      flagi_ustaw: [flaga.wieza-zbadana, flaga.plakietka-crake]
+```
+
+### Zaklęcia w wieży
+
+**Tempus (zaklęcie kampanii, ZD-21: Charm, trudność startowa 9; Walker 2e s. 31, 41).** Wieża nie dodaje żadnych kar ani premii: zaklęcie działa tu jak w każdym spokojnym miejscu. Postać, która opanowała Tempus w scenie 02 (`flaga.tempus-opanowane`), rzuca je **bez rzutu** i od razu czyta wstawkę „Tempus w wieży” (odczyt 0, gładko, godzina zgodna ze wskazówkami). Postać, która go nie opanowała, rzuca na próbę raz (bez zaznaczania kratki, jak w scenie 06, ZD-05).
+
+```yaml
+test:
+  id: s1.scena.07.test.tempus-wieza
+  opis: "Postać rzuca Tempus w komorze mechanizmu, żeby porównać prawdziwą chwilę z tarczą. Tempus to zaklęcie kampanii (ZD-21): Charm, Charms, trudność startowa 9 (s. 41). Kto je opanował (flaga.tempus-opanowane), rzuca bez rzutu (s. 31, 41; jak w s1.scena.06.test.pomiar). Ten blok dotyczy tylko postaci, które w scenie 02 nie zaznaczyły kratki (porażka lub niewypał) i próbują je teraz: rzut na próbę, bez premii za lekcję i bez zaznaczania kratki (ZD-05). Poziomy wyniku według tabeli zaklęć (s. 41): poniżej 5 niewypał, poniżej 9 połowiczny efekt, 9 i więcej pełny sukces. Szanse (Focus + Charms 8–10 dla archetypów A–D z różdżką bez premii): sukces pewny albo bliski pewności, sukces imponujący (18) jak w scenie 02 w 20–50% rzutów, ale tu nie ma osobnego efektu. Wieża nie wykazuje żadnej różnicy, więc wynik nie zmienia fabuły: zgodna godzina potwierdza ślepy zaułek."
+  kto: jeden
+  rzut: "1D10 + Focus + Charms (zaklęcie: Tempus)"
+  trudnosc: "aktualna trudność: Tempus (start 9)"
+  modyfikatory:
+    - warunek: "Postać opanowała Tempus w scenie 02 (flaga.tempus-opanowane)"
+      wartosc: "bez rzutu: zawsze pełny sukces"
+    - warunek: "Przy kracie dzwonnicy wybija pełna godzina i hałas zagłusza skupienie (zasada domowa, patrz niżej, awaryjne-dzwon)"
+      wartosc: "+2 do trudności"
+    - warunek: "Postać nadal jest w stanie Drained (+3) albo Dazed (+2) po scenie 03 (s. 35)"
+      wartosc: "+3 do trudności"
+  wyniki:
+    - wynik: porazka-kompromitujaca
+      efekt: "Cyfry rozsypują się w błysk, a różdżka tyka do wieczora (kolor, jak w scenie 02). Tempus nie jest potrzebne do niczego w tej scenie, więc nic nie ginie."
+      flagi_ustaw: []
+    - wynik: porazka
+      efekt: "Połowiczny efekt: cyfry pokazują tylko to, co wskazówki za tarczą. Można spróbować jeszcze raz za kilka minut fikcji."
+      flagi_ustaw: []
+    - wynik: sukces
+      efekt: "Wstawka „Tempus w wieży”: cyfry i wskazówki zgodne co do minuty, zero różnicy. Wniosek: tu czas się zgadza, a przypływ idzie ku wieży, nie z niej."
+      flagi_ustaw: []
+```
+
+**Zaklęcie ujawniające w wieży (ZD-24).** Revelio (Charm, 15, s. 57) albo Specialis Revelio (Charm, 15, s. 58) na koła, osie, obudowę lub tarczę. Wieża jest tu tylko kotwicą i **nie widać w niej magii czasu**; nic poza jednym drobiazgiem fizycznym, który nie jest wynikiem zaklęcia i nie jest dowodem.
+
+```yaml
+test:
+  id: s1.scena.07.test.zaklecie-ujawniajace
+  opis: "Postać rzuca zaklęcie ujawniające (Revelio albo Specialis Revelio, Charm, trudność 15, s. 57–58) na mechanizm wieży. Rzut wykonuje się normalnie (kratki, trudność, premia różdżki do Revealing Magic, s. 27–30, 40–41), ale zgodnie z ZD-24 zaklęcia ujawniające nie widzą magii czasu: udany rzut pokazuje zwykły, stary, zadbany zegar. Jedyny ślad to zimne szkło tarczy (zimniejsze niż kamień obok), które postać czuje dłonią bez rzutu i bez zaklęcia; to nie wynik zaklęcia i nie jest dowodem dla nikogo poza samymi postaciami. Szanse: dla postaci bez premii różdżki do Revealing Magic i Focus + Charms 8–10 sukces wypada około 35–55% (potrzeba 5–7 lub więcej na kości); poziom wyniku nie zmienia obrazu."
+  kto: jeden
+  rzut: "1D10 + Focus + Charms (zaklęcie: Specialis Revelio)"
+  trudnosc: "aktualna trudność: Specialis Revelio (start 15)"
+  modyfikatory:
+    - warunek: "Premia różdżki do Revealing Magic (s. 30), jeśli postać ją ma"
+      wartosc: "+N do rzutu (wartość z karty postaci)"
+    - warunek: "Postać nadal jest w stanie Drained (+3) albo Dazed (+2) po scenie 03 (s. 35)"
+      wartosc: "+3 do trudności"
+  wyniki:
+    - wynik: porazka
+      efekt: "Zaklęcie niczego nie odsłania, a postać nie wie, czy dlatego, że nic tu nie ma, czy dlatego, że zaklęcie się nie udało. Można spróbować jeszcze raz za kilka minut fikcji."
+      flagi_ustaw: []
+    - wynik: sukces
+      efekt: "Wstawka „zaklęcie ujawniające”: zaklęcie spływa po kołach jak woda po kamieniu, zwykły stary zegar; zimne szkło tarczy pod dłonią. Nie ma żadnego znaku magii, żadnego „ale”. Nie ustawia flag; wniosek „to nie wieża” jest silniejszy niż przed rzutem."
+      flagi_ustaw: [flaga.wieza-zbadana]
+```
+
+**Bicie dzwonów (`awaryjne-dzwon`).** Liczby, o które prosi blok awaryjny: **bez rzutu i bez obrażeń** (cena, nie bramka). Każda postać w komorze mechanizmu albo przy kracie, gdy wybija pełna godzina, ma **+1 do trudności** wszystkich testów do końca sceny (jak stan Rattled, s. 35, ale znika po kilku minutach fikcji, bez posiłku i naparu; zasada domowa, do akceptacji MG) i przez chwilę nie słyszy rozmowy. Ogłuszenie nie zatrzymuje ani nie zmienia wyników testów powyżej; Ansel na dole zakrywa uszy i ucieka (bez testu).
+
+### Cassian o zmierzchu
+
+**Śledzenie z ukrycia.** Postacie, które ukrywają się w krużganku i patrzą, nie wchodząc w rozmowę (opcja z dialogu cassian-zmierzch „gdy postacie się chowają i tylko patrzą”). Test przeciwny (s. 4): skradanie postaci przeciw spostrzegawczości Cassiana. Cassian jest pochłonięty nakręcaniem zegarka (założenie robocze, zasada domowa, `-3` do jego rzutu). Walker nie ma osobnych zasad dla grupy chowającej się razem, więc rzuca jedna postać (ta, która kieruje ukryciem), a pozostałe pomagają. Karą za przegraną jest tylko to, że konfrontacja zaczyna się na jego warunkach (scena 08).
+
+```yaml
+test:
+  id: s1.scena.07.test.sledzenie-kruzganek
+  opis: "O zmierzchu postacie obserwują Cassiana z ukrycia (filar, okno nad schodami), nie zdradzając się. Test przeciwny (Opposed Test, s. 4): postać rzuca 1D10 + Speed + Stealth, Cassian 1D10 + Wits + Observation (1D10 + 10). Cassian jest pochłonięty nakręcaniem zegarka i gwizdaniem, więc ma -3 do rzutu (zasada domowa: brak w podręczniku zasad dla przeciwnika zajętego czymś innym). Wyższy wynik wygrywa; remis rozstrzyga Narrator na korzyść Cassiana (czujnego z natury). Rzuca jedna postać, pozostałe pomagają (Working Together, s. 4, najwyżej dwie, każda +1). Szanse po modyfikatorze: archetyp C (Speed + Stealth 11) ok. 80%, A (7) ok. 45%, B (4) ok. 20%, D (3) ok. 15%; pomocnicy podnoszą szanse o kilkanaście punktów procentowych każdy. Porażka niczego nie zamyka: konfrontacja przychodzi inną drogą (scena 08), a Ansel (jeśli czeka na moście) może zostać w pobliżu."
+  kto: jeden
+  rzut: "1D10 + Speed + Stealth"
+  trudnosc: "przeciwny: 1D10 + Wits + Observation (npc.cassian-vane)"
+  modyfikatory:
+    - warunek: "Cassian pochłonięty nakręcaniem zegarka (zasada domowa)"
+      wartosc: "-3 do rzutu Cassiana"
+    - warunek: "Każda inna postać, która pomaga (osłania, odwraca uwagę dźwiękiem w drugiej części krużganka); najwyżej dwie (Working Together, s. 4)"
+      wartosc: "+1 do rzutu"
+    - warunek: "Postać ma specjalizację Stealth pasującą do sytuacji (np. Stealth (Zamek nocą); Specialism, s. 13)"
+      wartosc: "+1 do rzutu"
+    - warunek: "Cassian jest czujny wobec tej postaci (flaga.cassian-czujny)"
+      wartosc: "+2 do rzutu Cassiana"
+  wyniki:
+    - wynik: wygrana
+      efekt: "Widzą wszystko: Cassian nakręca zatrzymany zegarek, który nie powinien działać, tyka szybko, a jego twarz nagle się wygładza (W4.5). Nic nie ustawia flagi samo: flagi z tej obserwacji ustawia dopiero nazwanie sygnału na głos (scena 08) albo konfrontacja."
+      flagi_ustaw: []
+    - wynik: przegrana
+      efekt: "Cassian odwraca się w pół ruchu: „Grupa trzecia. Też mierzycie czas?” Konfrontacja zaczyna się na jego warunkach (dialog cassian-zmierzch, potem scena 08)."
+      flagi_ustaw: []
+```
+
+**Kradzież zegarka o zmierzchu.** Scena 07 dzieje się po scenie 04, więc test kradzieży z karty [[przedmiot.zegarek-cassiana]] obowiązuje (od wieczoru po scenie 04). Liczby są te z karty (Speed + Concealment przeciw Wits + Observation Cassiana); w tej scenie obowiązuje blok niżej tylko z zapisem skutków. Cassian trzyma zegarek w złożonych dłoniach przy piersi (wariant 4a) albo w kieszonce: postać musi stać w zasięgu ręki, więc dochodzi do tego tylko po tym, jak postacie zeszły do krużganka albo Cassian do nich podszedł. Próba w trakcie rozmowy (Cassian patrzy na postać) wymaga odwrócenia jego uwagi (pomocnik, modyfikator z karty).
+
+```yaml
+test:
+  id: s1.scena.07.test.kradziez-zmierzch
+  opis: "Postać próbuje wyjąć zegarek z kieszonki albo dłoni Cassiana w krużganku o zmierzchu. Obowiązują liczby z karty przedmiot.zegarek-cassiana.test.kradziez (Opposed Test, s. 4): postać rzuca 1D10 + Speed + Concealment, Cassian 1D10 + Wits + Observation (1D10 + 10); remis wygrywa Cassian (zasada domowa z karty). Cassian jest przytomny i trzyma zegarek przy sobie, więc nie ma modyfikatorów za sen ani drzemkę. Szanse (przy braku modyfikatorów): archetyp C (Speed 6 + Concealment 4 = 10) ok. 45%, archetyp A (5 + 0) ok. 10%, B i D (3 + 0) ok. 3%; każdy pomocnik odwracający uwagę +1 (np. C z dwoma pomocnikami ok. 65%). Skutki: wygrana zatrzymuje zegar kradzieży (zegarek poza Cassianem); przegrana kończy możliwość kradzieży w tej sesji, ale zostają pojedynek, targ albo litość w scenie 08."
+  kto: jeden
+  rzut: "1D10 + Speed + Concealment"
+  trudnosc: "przeciwny: 1D10 + Wits + Observation (npc.cassian-vane)"
+  modyfikatory:
+    - warunek: "Inna postać odwraca uwagę przytomnego Cassiana (zagaduje, upuszcza książki); najwyżej dwie (Working Together, s. 4)"
+      wartosc: "+1 do rzutu za każdą pomagającą postać"
+    - warunek: "Postać wcześniej próbowała zabrać zegarek albo celowała w niego różdżką (flaga.cassian-czujny): Cassian zna jej twarz"
+      wartosc: "+2 do rzutu Cassiana"
+    - warunek: "Cassian wie, że ktoś jest w krużganku (wariant 4a albo postać go zawołała) i patrzy na tę postać"
+      wartosc: "+2 do rzutu Cassiana"
+  wyniki:
+    - wynik: wygrana
+      efekt: "Zegarek jest u postaci. Cassian odkrywa stratę w ciągu godziny i sam przychodzi po zegarek (wejście do sceny 08), a zegar kradzieży staje (zob. karta przedmiotu). Tu: gwizd urywa się w pół nuty, Cassian sięga po pustą kieszonkę i dopiero wtedy odwraca głowę."
+      flagi_ustaw: [flaga.zegarek-cassiana]
+    - wynik: przegrana
+      efekt: "Cassian łapie rękę postaci przy kieszonce. Konfrontacja zaczyna się od razu na jego warunkach (scena 08, dialog cassian-oskarzony). Zegarek nosi odtąd przy sobie nawet nocą; kolejnej kradzieży nie ma."
+      flagi_ustaw: [flaga.cassian-czujny]
+```
+
+**Rada dla MG.** Zdemaskowanie Cassiana na schodach wieży zamyka wariant 4b. Jeśli postacie robią kradzież i śledzenie w tej samej scenie, rzuć najpierw śledzenie (jeśli wygrają, mogą dopiero potem podejść do kradzieży z modyfikatorem „Cassian nie wie, że ktoś jest”, czyli bez +2).
 
 ## Rozgałęzienia
 
