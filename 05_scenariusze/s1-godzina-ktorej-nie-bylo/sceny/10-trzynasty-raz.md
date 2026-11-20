@@ -208,11 +208,121 @@ Koniec Sesji 1. Po pytaniu końcowym MG może zamknąć sesję w dowolnej chwili
 
 ## Obecni
 
-TODO (tworca-npc).
+*Przy każdej osobie: gdzie jest i co robi, czego chce w tej scenie, jeden sygnał do pokazania gestem albo głosem i krótka reakcja, gdy postacie ją zaczepią. Pewny jest tylko Ansel. Filch przychodzi, gdy postacie nie uciekły od razu albo przegrały test ucieczki. McGonagall pojawia się tylko przy konfiskacie, i to wtedy, gdy wybierzesz ją zamiast szuflady Filcha. Crake jest wyłącznie w epilogu i nie mówi ani słowa.*
+
+**[[npc.ansel-dray]], chłopiec przy schodach** (krok 3; w wariancie bez notatnika o świcie, w tekście 5)
+- *Gdzie jest i co robi:* stoi między regałami Działu Ksiąg Zakazanych, na skraju światła różdżek, i ogląda swoje dłonie. Jeśli szedł z drużyną, wyszedł za nią przez ścianę; jeśli nie, przyciągnęło go bicie. W wariancie bez notatnika siedzi rano w nogach łóżka postaci z najwyższą Więzią (bez Więzi: postaci, która najdłużej z nim rozmawiała).
+- *Czego chce w tej scenie:* jawnie: żeby ktoś mu powiedział, czemu zrobiło się ciszej, i żeby nie zostać samemu. Ukrycie (sam tego nie wie): żeby ktoś go zapamiętał teraz, kiedy trochę mniej go widać.
+- *Sygnał:* co chwilę zaciska i rozprostowuje palce, jakby sprawdzał, czy jeszcze są. Jego wzrok wraca do notatnika, ale ani razu nie wyciąga po niego ręki.
+- *Gdy postacie go zaczepią:* odpowiada krótko, wolniej niż zwykle, z dłuższymi pauzami. Przyczyny nie zna i jej nie zgaduje. Na pytania o to, co pomoże, nie ma odpowiedzi: „Nie wiem, proszę pana”. Przy krzyku kuli się i znika do rana (karta: groźba).
+
+**[[npc.argus-filch]], woźny** (krok 4)
+- *Gdzie jest i co robi:* biegnie za biciem, które najgłośniej i najniżej szło spod biblioteki. Wchodzi z latarnią uniesioną wysoko, rząd po rzędzie. Ansela nie widzi i nie słyszy.
+- *Czego chce w tej scenie:* winnego. Cały zamek słyszał trzynaście uderzeń, a on chce rano zanieść komuś nazwiska, żeby nikt nie powiedział, że nowy woźny przespał taką noc.
+- *Sygnał:* zadyszka i stukanie paznokciem w szybkę najbliższego zegara, zanim kogokolwiek zapyta o nazwisko. Jakby chciał sprawdzić, czy ten też.
+- *Gdy postacie go zaczepią:* najpierw nazwiska i domy, potem „to pod pachą”. Uprzejmość zmienia ton, kłamstwo i kpina zmieniają to, gdzie trafi notatnik (do szuflady Filcha zamiast do McGonagall).
+
+**[[npc.minerva-mcgonagall]], nauczycielka Transmutacji** (krok 4, tylko przy konfiskacie, tekst 8)
+- *Gdzie jest i co robi:* obchodzi korytarze po biciu, jak pewnie połowa nauczycieli. Na głos Filcha skręca w stronę biblioteki. Przejmuje sprawę od woźnego i odbiera notatnik.
+- *Czego chce w tej scenie:* porządku i prawdy, w tej kolejności. Chce wiedzieć, czy uczniowie mają coś wspólnego z biciem, ale nie będzie tego wyciągać na korytarzu w środku nocy.
+- *Sygnał:* zakłada okulary, gdy przyjmuje notatnik; nie otwiera go. Przy kłamstwie milknie na jeden oddech i daje drugą szansę (karta).
+- *Gdy postacie ją zaczepią:* odpowiada krótko i nie podnosi głosu. Notatnika nie odda tej nocy pod żadnym warunkiem. Umawia rozmowę na jutro, co otwiera drogę w Sesji 2.
+
+**[[npc.hollis-crake]], zegarmistrz** (krok 5, tylko epilog, tekst 4)
+- Poza zamkiem i poza zasięgiem postaci. Nie mówi nic. Gracze widzą tylko obraz; nazwiska nie słyszą.
+
+**Tło bez kart:** portrety, rozbudzone i oburzone (tekst 2); Irytek, który odlicza „Trzy-naś-cie” i trzaska drzwiami; prefekt liczący głowy w pokoju wspólnym (tekst 7); Cassian, tylko w wariancie z zegarem kradzieży 4 (ucieka bez słowa, zob. Dla MG).
 
 ## Dialogi
 
-TODO (dialogista): bloki o identyfikatorach z „Rytmu sceny”.
+*Jak czytać bloki: każda kwestia zaczyna się etykietą, która mówi, kiedy jej użyć. Wystarczy kwestia otwierająca i jedna, dwie reakcje. Nawias kwadratowy, np. [nazwisko], to miejsce na dane postaci gracza. Kwestie można czytać dosłownie albo mówić własnymi słowami.*
+
+*Najważniejsza zasada tej sceny: **nikt nie podpowiada wyboru.** Ani Ansel, ani Filch, ani McGonagall nie mówią, czy notatnik trzeba odnieść, oddać, schować, czy czas oddany Anselowi coś zmieni. Ansel nie wie. Dorośli nie wiedzą nawet, że jest o czym wiedzieć.*
+
+### Ansel: zrobiło się ciszej (krok 3)
+
+Ansel mówi teraz wolniej niż kiedykolwiek w tej sesji: bez zwykłego potoku słów, z pauzami w środku zdania. Głos MG cichszy, jakby zza drzwi (tekst 3). Nie cierpi i nie płacze; jest zdziwiony i trochę zmarznięty. Przy linii na śmierć dziecka grasz go jako bardzo zmęczonego chłopca, a kwestie o dłoniach pomijasz.
+
+```yaml
+dialog:
+  id: s1.scena.10.dialog.ansel-ciszej
+  npc: npc.ansel-dray
+  wyzwalacz: "Po tekście 3, gdy Ansel podnosi głowę i patrzy na postacie (krok 3). W wariancie bez notatnika: rano, po ostatnim zdaniu tekstu 5."
+  ton: "cicho, wolno, z pauzami w pół zdania; zdziwiony, nie przerażony; głos jak zza zamkniętych drzwi"
+  kwestie:
+    - "Otwarcie: „Zrobiło się ciszej. Nie podoba mi się to.”"
+    - "Gdy postać pyta, jak się czuje: „Trochę jak przed snem, proszę pani.” (pauza) „Kiedy lampa już zgaszona, a za drzwiami ktoś jeszcze rozmawia.”"
+    - "Gdy postać pyta, co się stało albo czemu blednie: „Nie wiem. Zegary zrobiły coś bardzo głośnego.” (patrzy w sufit) „A potem było ciszej. We mnie też.”"
+    - "Gdy postać jest dla niego ciepła (podchodzi, mówi jego imię, okrywa go szalikiem, który przez niego przelatuje): (uśmiecha się, pierwszy raz tej nocy) „Dziękuję. Pan mnie dalej dobrze widzi, prawda?” (Więź +1, jeśli ją prowadzisz)"
+    - "Gdy postać pyta, czy ma odnieść notatnik, oddać go albo zatrzymać: (długo patrzy na tarczę bez wskazówek) „Ja nie wiem, proszę pana. Pani profesor wiedziała takie rzeczy. Ja tylko nosiłem lunetę.”"
+    - "Gdy postać pyta, co to za notatnik: „To pani profesor. Ona go zawsze nosiła pod pachą, jak pan teraz.” (nie wyciąga ręki)"
+    - "Gdy postać proponuje mu swój czas, godzinę albo kładzie mu dłoń na ramieniu, żeby „coś oddać”: (nie rozumie) „Mnie? Ale ja niczego nie zgubiłem.” (patrzy na dłonie) „Chyba… chyba tak samo, proszę pani.” (nic się nie zmienia; nie dawaj przełącznika)"
+    - "Gdy postać pyta wprost, czy znika albo czy umrze: (marszczy brwi) „Przecież tu stoję.” (ciszej) „Tylko trochę mniej.”"
+    - "Gdy postać obiecuje coś, czego nie wie (że pani profesor przyjdzie, że to minie do rana): „Naprawdę? To dobrze. To ja poczekam.” (zapisz obietnicę: jeśli w Sesji 2 okaże się kłamstwem, Więź tej postaci spada)"
+    - "Gdy postać krzyczy na niego albo każe mu zniknąć: (kuli się) „Przepraszam.” (cofa się między regały i rozmywa; wraca rano przy łóżku innej postaci, tę pamięta jako „pana, który krzyczał”)"
+    - "Gdy słychać Filcha (tekst 6): „Pan woźny idzie. Mnie nie widzi.” (pauza) „Ale was tak.”"
+    - "Gdy postacie się kłócą, co dalej (raz na sesję, tylko jeśli okruch wspólnej godziny nie padł wcześniej; flaga.sekret-poruszony): „Wtedy też tak staliście. Razem, a każdy chciał czego innego.” (dopasuj do wspólnego sekretu z 4. roku; Ansel sam nie wie, skąd to wie, i nie mówi, kto miał rację)"
+    - "Wariant: postać wypluta przez pracownię leży na podłodze (flaga.ksiega-zlapani): (kuca przy niej) „Pani spała. Ja liczyłem uderzenia, żeby się pani obudziła.”"
+    - "Wariant bez notatnika, rano (po tekście 5), gdy postać pyta, kto tam był: „Nie wiem. Ktoś.” (obejmuje kolana mocniej) „Zrobiło się tak, jakby ktoś zamknął okno w drugim pokoju.”"
+    - "Nieprzewidziane (postać chce go zabrać do dormitorium, do skrzydła szpitalnego, do dyrektora albo rzuca na niego zaklęcie): (idzie posłusznie albo patrzy na różdżkę z ciekawością) „Mogę iść z panem. Jak pan pójdzie, to ja też.” (przy zaklęciu: „Ładnie świeciło. Ale chyba nic.”) Nikt poza postaciami go nie widzi; dorośli zobaczą ucznia, który mówi do pustego miejsca."
+    - "Może zdradzić bez warunku: że po biciu zrobiło się ciszej, że jest mu zimno i sennie, że notatnik należał do pani profesor."
+    - "Może zdradzić tylko w wariancie bez notatnika: że „ktoś był u pani profesor” tej nocy (nie wie kto)."
+    - "Nie zdradza: przyczyny blednięcia (nie zna jej), czy pomoże odniesienie notatnika albo oddany czas (nie wie), słów „umarłem” ani „duch” (nigdy)."
+  wariant_od: [flaga.dziennik-u-graczy, flaga.ksiega-zlapani, flaga.sekret-poruszony, flaga.filch-zlapal]
+```
+
+### Filch: konfiskata (krok 4)
+
+Filch jest zdyszany i, pierwszy raz tej nocy, prawie zadowolony: cały zamek słyszał bicie, a on ma przed sobą winnych. Głos to zgrzytliwy szept, który bez ostrzeżenia przechodzi w krzyk. Nie szarpie i nie poniża; zapisuje. Gdzie trafi notatnik, decyduje zachowanie postaci: uczciwość i milczenie prowadzą do McGonagall (zalecane), kłamstwo albo kpina do jego szuflady.
+
+```yaml
+dialog:
+  id: s1.scena.10.dialog.filch-konfiskata
+  npc: npc.argus-filch
+  wyzwalacz: "Po tekście 6, gdy latarnia Filcha znajduje postacie (porażka w teście ucieczki albo postacie nie uciekły)."
+  ton: "zadyszany zgrzyt, nagły krzyk; przy notatniku podejrzliwy i zadowolony z siebie"
+  kwestie:
+    - "Otwarcie: „Po ciszy nocnej? Nazwiska. Domy. I co to jest, to pod pachą?”"
+    - "Gdy postać grzecznie podaje nazwisko i oddaje notatnik: (pisze powoli) „No proszę. Grzecznie. To pójdzie do opiekuna domu, a nie do mojej szuflady. Szlaban i tak będzie.”"
+    - "Gdy postać pyta, o co chodzi albo udaje, że nic nie słyszała: „Trzynaście razy. Liczyłem. Wszystkie zegary naraz, a najgłośniej spod tej podłogi.” (świeci latarnią prosto w notatnik) „I kogo tu znajduję?”"
+    - "Gdy postać kłamie (znalazła to na korytarzu, to podręcznik, przyszła sprawdzić, co dzwoni): „Słowo w słowo jak wszyscy.” (wyjmuje notatnik z rąk) „To zostaje u mnie. Dowód.” (notatnik trafia do szuflady Filcha)"
+    - "Gdy postać kpi z niego albo z ludzi bez magii: (cichnie zupełnie) „Zapamiętam cię, [nazwisko].” (notatnik do szuflady; ta postać jest jego celem do końca roku)"
+    - "Gdy postać grozi różdżką albo nie chce oddać notatnika: (nie cofa się) „Jeszcze zaklęcie na woźnego. Proszę bardzo. Dopiszę.” (zapisuje i woła na korytarz; tu możesz wprowadzić McGonagall, tekst 8)"
+    - "Gdy Filch otwiera notatnik: (mruży oczy nad stroną, zamyka szybko) „Pływa. Wszystko mi w tych waszych książkach pływa.”"
+    - "Gdy postać mówi o chłopcu, którego on nie widzi: (świeci latarnią w puste miejsce, długo) „Duchy mają swój obchód, ja swój.” (wraca do zeszytu) „Nazwisko.”"
+    - "Gdy złapał tę samą drużynę drugi raz tej nocy (flaga.filch-zlapal już ustawiona): (uśmiecha się) „Dwa razy w jednym zeszycie. Ładnie. Tym razem pójdzie list do domu.”"
+    - "Gdy jedna postać ucieka z notatnikiem, a reszta zostaje: „Stój! Ty z książką!” (latarnia odpływa za nią; reszta może się wymknąć, a dla uciekającej postaci rozstrzygnij test ucieczki jeszcze raz)"
+    - "Nieprzewidziane (postać próbuje go przekupić, zagaduje o zegary, prosi, żeby udał, że nikogo nie widział): (stuka paznokciem w szybkę najbliższego zegara) „Ten też. Wszystkie dziś zwariowały.” (odwraca się z powrotem) „Po północy nie ma pytań. Są nazwiska.”"
+    - "Może zdradzić bez warunku: że bicie najgłośniej szło spod biblioteki i że rano wszyscy się o nich dowiedzą."
+    - "Może zdradzić tylko uprzejmej postaci, w drodze do dormitorium: „Wieża się ostatnio boczy. A dzwony za nią.” (o zegarmistrzu nocą nie mówi; to zostaje na scenę 12)"
+    - "Nie zdradza nigdy: że jest charłakiem; że strony pływają mu bardziej niż innym."
+  wariant_od: [flaga.filch-zlapal, flaga.dziennik-u-graczy]
+```
+
+### McGonagall: przejęcie (krok 4, przy konfiskacie)
+
+McGonagall mówi mało i bez podnoszenia głosu. Odbiera notatnik, nie otwiera go na korytarzu i umawia rozmowę na jutro. Nie pyta o Ansela, bo o nim nie wie; gdy ktoś o nim wspomni, nie wyśmiewa, tylko odkłada sprawę na rano. Nie mówi, co zrobi z notatnikiem, i nie daje do zrozumienia, że jest ważny.
+
+```yaml
+dialog:
+  id: s1.scena.10.dialog.mcgonagall-konfiskata
+  npc: npc.minerva-mcgonagall
+  wyzwalacz: "Po tekście 8, gdy McGonagall dochodzi do Filcha i postaci (konfiskata, wariant z McGonagall)."
+  ton: "krótko, precyzyjnie, chłodno; ani razu nie podnosi głosu"
+  kwestie:
+    - "Otwarcie (do Filcha, potem do postaci): „Dziękuję, panie Filch. Dalej ja.” (zakłada okulary, wyciąga dłoń) „Proszę mi to dać.”"
+    - "Gdy postać oddaje notatnik bez sprzeciwu: (bierze go, nie otwiera) „Rozsądnie. Jutro po śniadaniu, w moim gabinecie. Wszyscy.”"
+    - "Gdy postać mówi prawdę albo jej kawałek (biblioteka, ukryte drzwi, zegary): (milczy jeden oddech) „Rano. Całość, nie kawałki. Na korytarzu o tej porze nikt nie myśli jasno, łącznie ze mną.”"
+    - "Gdy postać kłamie: (patrzy na nią długo) „Proszę spróbować jeszcze raz, panno/panie [nazwisko]. Tym razem tak, żebym chciała w to uwierzyć.” (drugie kłamstwo: punkty ujemne i chłód na cały tydzień; notatnik i tak zostaje u niej)"
+    - "Gdy postać prosi o zwrot albo nalega, że to bardzo ważne: „Skoro tak ważne, tym bardziej nie będzie leżało pod czyjąś poduszką.” (chowa notatnik do kieszeni szlafroka)"
+    - "Gdy postać pyta, czy ona wie, czemu zegary biły trzynaście razy: „Nie wiem.” (krótka pauza) „Mam nadzieję, że jutro państwo mi to powiedzą.”"
+    - "Gdy postać wspomina o chłopcu, którego nikt nie widzi: (nie uśmiecha się) „Rano. Proszę zapamiętać, co pan/pani chce mi o nim powiedzieć, słowo w słowo.”"
+    - "Gdy złapano ich drugi raz tej nocy (flaga.filch-zlapal już ustawiona): „Drugi raz. Panie Filch, proszę przygotować list do rodziców. Ja go podpiszę.”"
+    - "Nieprzewidziane (postać ucieka, rzuca zaklęcie, wyrywa notatnik albo próbuje go zniszczyć): (jeden ruch różdżką, bez słowa; notatnik albo różdżka postaci jest u niej w dłoni) „To było niemądre. Do dormitorium. Natychmiast.”"
+    - "Może zdradzić bez warunku: że notatnik jest u niej, że rozmowa będzie jutro po śniadaniu w jej gabinecie, że nauczyciele też słyszeli bicie."
+    - "Nie zdradza: co zrobi z notatnikiem, czy pokaże go dyrektorowi (sama jeszcze nie wie), ani co o nim myśli. Notatnika przy postaciach nie otwiera."
+  wariant_od: [flaga.filch-zlapal]
+```
 
 ## Testy
 
