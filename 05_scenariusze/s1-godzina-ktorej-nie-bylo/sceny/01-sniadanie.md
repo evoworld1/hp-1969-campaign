@@ -132,19 +132,77 @@ Pierwsza lekcja: Zaklęcia. Według połowy zegarków w zamku już jesteście sp
 
 **Nastrój.** To ma być zwyczajny, ciepły, gwarny poranek: boczek, sowy, plotki, poniedziałkowa niechęć do lekcji. Niepokój siedzi wyłącznie w drobiazgach: w zegarku, który nie chodzi, w dziewczynce, której nikt nie wierzy, w gazecie składanej na pół. Im bardziej zwyczajna jest reszta sceny, tym mocniej te drobiazgi zgrzytają. Sygnały dziwności czytaj tym samym tonem co opis śniadania, bez dramatycznych pauz i bez „i nagle…”. Gracze mają je zauważyć sami. Jedyny wyjątek to odbicie w szkle zegara (tekst 6): tu zwolnij, ścisz głos i zatrzymaj się przed pytaniem „Co robisz?”.
 
-**Rytm sceny (pełny wariant, ok. 30 minut).**
-1. Otwarcie (tekst 1) i sowia poczta (2 min).
-2. Rozmowa z [[npc.tobias-quill]]: pierwszy dialog w grze. Gracz mówi w imieniu postaci, MG odpowiada jako Tobias. Tobias jest źródłem plotek i rozmówcą do nauki gry. Dom Tobiasa MG ustala przed sesją: dom postaci z najmniejszą liczbą znajomych albo najbardziej nieśmiałego gracza (decyzja MG z 2026-11-20).
-3. **Drużyna się zbiera (stałe):** [[npc.thaddeus-wren]] idzie wzdłuż stołów (tekst 3) i zaczepia postacie po kolei, każdą tam, gdzie siedzi (zwykle przy stole jej domu): grupa trzecia ma być po obiedzie, dziesięć minut przed jego lekcją, pod salą Obrony (najpierw Zaklęcia), a grupa pana Vane'a już się chwaliła. Postacie wymieniają spojrzenia przez salę albo siadają razem na końcu jednego stołu, jeśli gracze tego chcą. Zdanie „wojna nie pyta o dom” zna cały rok; stół Slytherinu prycha.
-4. Jeden prosty test przy stole (sekcja „Testy”). Test uczy rzutu; porażka niczego nie zamyka.
-5. 1–2 sygnały dziwności przy stole z listy poniżej (MG wybiera przed sesją; tekst 4). Odbicie w szkle zegara (tekst 6) jest zawsze i idzie przy wyjściu (punkt 7).
-6. Plotka o Voldemorcie szeptem od stołu Slytherinu (tekst 5, potem kwestia z dialogu; stałe, ustawia `flaga.plotka-o-voldemorcie`) i plotka o duchu Puchona od Tobiasa (stałe, ustawia `flaga.plotka-duch-puchona`).
-7. **Wyjście, zawsze w tej kolejności:** tekst 7 (spóźniony dzwon), potem tekst 6 (odbicie w szkle zegara, w drodze przez Salę Wejściową), potem pogawędka z Crake'iem, **tylko jeśli zostaje czas**. Odbicia nigdy się nie ucina: scena 05 go potrzebuje. Ucina się Crake'a (wraca w scenie 07).
+### Rytm sceny
+
+*Oś sceny: przy każdym kroku stoi, co czytać, który blok dialogu otworzyć, jaki test rzucić i jakie flagi zapisać. Pełne teksty są w „Do odczytania”, dialogi w „Dialogach”, testy w „Testach”, bloki awaryjne w „Gdy gracze zboczą”. Pełny wariant trwa ok. 30 minut (`s1.scena.01.rozgalezienie.wariant-pelny`); wariant skrócony jest niżej.*
+
+**Krok 1. Otwarcie i sowia poczta** (ok. 2 min)
+- Zanim zaczniesz: jedno zdanie o tym, jak działa gra (zob. „Jak prowadzić tę scenę z graczami, którzy grają pierwszy raz”).
+- Czytaj: tekst 1 („Poniedziałek, dwudziesty drugi września 1969 roku…”)
+- Krótko: po otwarciu każdy gracz dostaje jedno łatwe pytanie wprost („Przy którym stole siedzisz i z kim?”). Gracze sami decydują, gdzie siedzą postacie.
+- Awaryjne: `awaryjne-nieobecna-postac` (ktoś nie przyszedł na śniadanie), `awaryjne-miejsca-przy-stole` (postacie siadają razem albo przy cudzym stole).
+
+**Krok 2. Tobias zagaduje** (ok. 6 min)
+- Dialog: `s1.scena.01.dialog.quill-powitanie` — „Przesuń się, przesuń, boczek stygnie. Jak weekend? Tylko nie mów jak do mamy, mów jak było.”
+- Krótko: pierwszy dialog w grze; gracz mówi w imieniu postaci, MG odpowiada jako [[npc.tobias-quill]], każda kwestia kończy się pytaniem. Dom Tobiasa MG ustala przed sesją: dom postaci z najmniejszą liczbą znajomych albo najbardziej nieśmiałego gracza (decyzja MG z 2026-11-20).
+- Awaryjne: `awaryjne-notes-tobiasa` (kradzież notesu albo groźba).
+
+**Krok 3. Wren zbiera grupę trzecią** (ok. 5 min, stały w obu wariantach)
+- Czytaj: tekst 3 („Ktoś przy stole syczy: „Wren”…”) do zdania „Zatrzymuje się przy pierwszym z was.”
+- Dialog: `s1.scena.01.dialog.wren-grupa-trzecia` — „Panie (albo Panno) [nazwisko]. Grupa trzecia: dziś po obiedzie, dziesięć minut przed moją lekcją, pod salą Obrony.”
+- Czytaj potem: resztę tekstu 3 („Od stołu Slytherinu dolatuje prychnięcie…”), gdy Wren skończy przy ostatniej postaci.
+- Krótko: [[npc.thaddeus-wren]] podchodzi do każdej postaci po kolei, tam, gdzie siedzi: grupa trzecia po obiedzie, dziesięć minut przed jego lekcją, pod salą Obrony (najpierw Zaklęcia), a grupa pana Vane'a już się chwaliła. Ostatnia postać ma się rozejrzeć, więc postacie widzą się przez salę albo siadają razem; „wojna nie pyta o dom”, stół Slytherinu prycha.
+- Dialog opcjonalny (tu albo przy kroku 5): `s1.scena.01.dialog.quill-plotki` (kwestia „O grupie trzeciej”) — „Grupa trzecia? Współczuję. Vane od dwóch tygodni nie przegrał niczego. Niczego!”
+- Awaryjne: `awaryjne-miejsca-przy-stole`, `awaryjne-przemoc-w-sali` (różdżka wyciągnięta przy stole).
+
+**Krok 4. Pierwszy rzut** (ok. 4 min, tylko pełny wariant)
+- Test: `s1.scena.01.test.przy-stole` (każda postać osobno, raz; ściąga „Jak wytłumaczyć pierwszy rzut” w sekcji „Testy”)
+- Krótko: przed rzutem powiedz, co da sukces, a co porażka; po rzucie najpierw świat gry, potem liczby. Sukces daje sygnał z kroku 5, porażka daje odbicie w kroku 8.
+
+**Krok 5. Sygnały dziwności przy stole** (ok. 5 min)
+- Czytaj: 1–2 wybrane przed sesją sygnały z tekstu 4: S2 („Od stołu Hufflepuffu dolatuje chichot…”), S3 („Robi się nagle zimno, jakby ktoś otworzył okno…”), S4 („Przy stole Slytherinu siedzi Cassian Vane…”); S1 przy stole opisuje wynik testu (prefekt i zegar nad stołem nauczycieli).
+- Dialog przy S2: `s1.scena.01.dialog.maisie-kawalek` — „Maisie zasnęła na sprawdzianie z otwartymi oczami! Siedziała jak sowa, a pióro jej wypadło!” (koleżanka), potem Maisie: „Nie spałam! Ja wiem, jak się śpi. Po prostu… tego kawałka nie ma.”
+- Dialog przy S3: `s1.scena.01.dialog.quill-plotki` — „Widzieliście jego minę? Obraził się, że ktoś mu podbiera robotę. Dwa knuty, że to Irytek w przebraniu.”
+- Dialog przy S4 (tylko gdy postać podejdzie): `s1.scena.01.dialog.cassian-przy-stole` — „[nazwisko] (do dziewczyny: panno [nazwisko]). Grupa trzecia, prawda? Wren chyba lubi wyzwania. Nie bierz tego do siebie.”
+- Dialog w tle (kolor, w dowolnej chwili śniadania): `s1.scena.01.dialog.filch-przegania` — „Stój. Buty. Widzisz te buty? Ja widzę. Wyjść, wytrzeć, wrócić. Nazwisko. Dom!”
+- Krótko: sygnały czytaj tym samym tonem co śniadanie; nikt niczego nie wyjaśnia. Zegarek Cassiana jest tylko sygnałem: nie da się go tu zdobyć.
+- Awaryjne: `awaryjne-zegarek-donos` (próba zabrania zegarka albo donos), `awaryjne-zaklecia-ujawniajace` (Revelio, Oko, stłuczona szyba), `awaryjne-stol-nauczycieli` (skarga u Flitwicka albo McGonagall; dialogi `flitwick-stol` i `mcgonagall-stol`), `awaryjne-gazeta-siodmoroczniakow`.
+
+**Krok 6. Plotki: Czarny Pan i duch Puchona** (ok. 4 min, stałe)
+- Czytaj: tekst 5 („Przy końcu stołu Slytherinu kilka głów pochyla się ku sobie…”)
+- Dialog: `s1.scena.01.dialog.rosalind-szept` — „Mówię tylko, co słyszałam. Czarny Pan zbiera ludzi, a oni każą się nazywać śmierciożercami. Pan Nott był u ojca w wakacje. Siedzieli do rana.”
+- Dialog: `s1.scena.01.dialog.quill-plotki` — „Nie, posłuchajcie, to jest dobre. Pierwszoroczniaki widziały na schodach chłopaka w żółtym krawacie, zawołały go, a on się rozpłynął. Stawiam knuta, że do piątku ktoś z nas go zobaczy. Wchodzisz?”
+- Flagi: `flaga.plotka-o-voldemorcie`, `flaga.plotka-duch-puchona` (rozgałęzienie `duch-puchona`)
+- Krótko: Rosalind szepcze, Tobias zbywa politykę i przechodzi do ducha. Przy zasłonie na tematy czystości krwi: kwestia jednozdaniowa i koniec (zob. „Linie i zasłony”).
+
+**Krok 7. Spóźniony dzwon** (ok. 1 min, oba warianty)
+- Czytaj: tekst 7 („Dzwon na pierwszą lekcję odzywa się nagle…”)
+- Krótko: zadaj pytanie „Idziecie razem czy każde osobno?”. Przy S2 Maisie czeka chwilę przy drzwiach (dalsze kwestie z `maisie-kawalek`); w drzwiach może stać Filch.
+- Awaryjne: `awaryjne-przeciagnieta-scena` (scena przekroczyła 30 minut: tnij według bloku).
+
+**Krok 8. Odbicie w szkle zegara** (ok. 2 min, zawsze, nigdy nie wypada)
+- Czytaj: tekst 6 („Szybka zegara jest stara i lekko pofalowana…”), pauza, „Co robisz?”, potem wariant pasujący do odpowiedzi.
+- Flagi: `flaga.ansel-odbicie` (rozgałęzienie `odbicie-ansela`; zanotuj, która postać widziała)
+- Krótko: jedna postać, ta, której nie wyszedł test (albo najcichszy gracz), w drodze przez Salę Wejściową. Bez testu i bez rozmowy; scena 05 tego potrzebuje.
+- Awaryjne: `awaryjne-zaklecia-ujawniajace` (stłuczona szyba przed odbiciem: przenieś je do innego zegara).
+
+**Krok 9. Crake na drabinie** (ok. 2–3 min, tylko jeśli zostaje czas i bez `flaga.crake-poznany`)
+- Czytaj: tekst 4, S1 („Przy schodach tyka wielki zegar…”) i dodatek („Skrzynka zegara stoi otworem…”); nie przy tym samym zegarze co odbicie (zob. niżej).
+- Dialog: `s1.scena.01.dialog.crake-drabina` — „No już, już, kochanie. Jeszcze chwilka.”
+- Test: `s1.scena.01.test.crake-pogawedka`
+- Flagi: `flaga.crake-poznany`, przy sukcesie imponującym także `flaga.crake-dluga-rozmowa` (rozgałęzienie `crake-przy-zegarze`)
+- Krótko: ten krok tnie się pierwszy; Crake wraca w scenie 07.
+
+**Przejście do sceny 02.** Wszyscy idą na Zaklęcia. Gdy gracze chcą gdzie indziej: `awaryjne-biblioteka-rano`, `awaryjne-sledzenie-cassiana`, `awaryjne-sala-obrony`.
+
+**Wariant skrócony (ok. 10 minut), gdy grany był prolog** (`flaga.s1-prolog-pokatna`, `s1.scena.01.rozgalezienie.wariant-skrocony`). Prolog przejął naukę gry, więc nie ma testu przy stole ani długiej rozmowy z Tobiasem. Crake nie stoi przy zegarze, jeśli postacie poznały go na Pokątnej (`flaga.crake-poznany`).
+1. **Otwarcie skrócone** (ok. 1 min). Czytaj: tekst 2 („Trzy tygodnie później…”).
+2. **Tobias, najwyżej minuta.** Dialog: `s1.scena.01.dialog.quill-powitanie` — „Trzy tygodnie i już kleks na nowej książce? Szacunek. Słyszałeś najnowsze?”, potem jedno zdanie o duchu Puchona z `quill-plotki` i jedno zdanie o Czarnym Panu, jeśli postacie nie usłyszały go w prologu (gdy słyszały: „Słyszeliście już, co? No to wiecie. Bajki. Wróćmy do ducha.”). Flagi: `flaga.plotka-o-voldemorcie`, `flaga.plotka-duch-puchona`.
+3. **Wren zbiera grupę trzecią** (ok. 4 min): jak krok 3.
+4. **Spóźniony dzwon** (ok. 1 min): jak krok 7.
+5. **Odbicie w szkle zegara** (ok. 2 min): jak krok 8; odbicie dostaje najcichszy gracz. Jedyny sygnał dziwności w tym wariancie.
 
 **Odbicie i Crake nie przy tym samym zegarze.** Nie łącz odbicia w szkle wielkiego zegara z Crake'iem stojącym na drabinie przy tym zegarze: chłopiec za ramieniem i zegarmistrz z głową w skrzynce zabierają sobie nawzajem uwagę, a otwarta skrzynka nie ma szyby. Wybierz jedno z dwóch: odbicie idzie w szybce zegara nad stołem nauczycieli (postać podchodzi tam przed wyjściem, zob. niżej), albo Crake właśnie zszedł z drabiny, zamknął skrzynkę i pakuje narzędzia z boku, a postacie zaczepiają go dopiero po odbiciu.
-
-**Wariant skrócony (ok. 10 minut), gdy grany był prolog** (`flaga.s1-prolog-pokatna`). Prolog przejął naukę gry, więc tutaj nie ma testu przy stole ani długiej rozmowy z Tobiasem. Zostaje: otwarcie skrócone (tekst 2) i sowia poczta, Wren zbiera grupę trzecią (tekst 3, stały w obu wariantach), **jeden** sygnał dziwności: zawsze odbicie w szkle zegara (tekst 6), bo z niego korzysta scena 05, jedno zdanie plotki o „Czarnym Panu”, jeśli postacie nie usłyszały jej już w prologu, i jedno zdanie Tobiasa o duchu Puchona. Crake nie stoi przy zegarze, jeśli postacie poznały go na Pokątnej (`flaga.crake-poznany`). Zamknięcie jak w pełnym wariancie: tekst 7, potem tekst 6.
-
 ### Jak prowadzić tę scenę z graczami, którzy grają pierwszy raz
 
 Dla większości stołu to pierwsze minuty gry fabularnej w życiu. Ta scena nie musi niczego popchnąć do przodu; ma sprawić, że każdy gracz raz się odezwie, raz rzuci kością i raz poczuje, że jego postać coś zauważyła.
