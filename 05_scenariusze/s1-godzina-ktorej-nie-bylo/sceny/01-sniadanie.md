@@ -2,7 +2,7 @@
 id: s1.scena.01
 typ: scena
 tytul: "Śniadanie w Wielkiej Sali"
-status: szkic
+status: recenzja
 sesja: s1
 akt: "I"
 kolejnosc: 1
@@ -128,7 +128,7 @@ Pierwsza lekcja: Zaklęcia. Według połowy zegarków w zamku już jesteście sp
 
 **Co się naprawdę dzieje.** Od trzech tygodni Cassian Vane podbiera czas przez zatrzymany zegarek ([[przedmiot.zegarek-cassiana]]). **Zegarek jest tu tylko sygnałem** (decyzja MG z 2026-11-20): w tej scenie nie da się go zdobyć ani kradzieżą, ani donosem; pierwsza okazja to pokaz u Wrena (scena 04), prawdziwe przejęcie w scenie 08. Próby graczy obsługuje sekcja „Gdy gracze zboczą”.
 
-**Dumbledore'a nie ma przy śniadaniu** (decyzja MG z 2026-11-20: wyjazd do Londynu). Jego krzesło na środku stołu nauczycieli stoi puste; jeśli gracze zapytają, ktoś przy stole wie tylko, że „dyrektor wyjechał”. Nie trzeba tego czytać, chyba że gracze chcą od razu iść do dyrektora. Sygnały przy śniadaniu to skutki tych kradzieży: spóźnione zegary, uczniowie „bez kawałka”, mignięcia Ansela, które ofiary biorą za ducha. Nic z tego nie jest jeszcze zagadką do rozwiązania. Wskazówka W0 („z czasem jest coś nie tak”) to nastrój, nie bramka: stracona godzina w scenie 03 przychodzi niezależnie od tego, co gracze tu zauważą.
+**Dumbledore'a nie ma przy śniadaniu** (decyzja MG z 2026-11-20: wyjazd do Londynu). Jego krzesło na środku stołu nauczycieli stoi puste; jeśli gracze zapytają, ktoś przy stole wie tylko, że „dyrektor wyjechał”. Nie trzeba tego czytać, chyba że gracze chcą od razu iść do dyrektora. Sygnały przy śniadaniu to skutki podbierania czasu przez Cassiana: spóźnione zegary, uczniowie „bez kawałka”, mignięcia Ansela, które ofiary biorą za ducha. Nic z tego nie jest jeszcze zagadką do rozwiązania. Wskazówka W0 („z czasem jest coś nie tak”) to nastrój, nie bramka: stracona godzina w scenie 03 przychodzi niezależnie od tego, co gracze tu zauważą.
 
 **Nastrój.** To ma być zwyczajny, ciepły, gwarny poranek: boczek, sowy, plotki, poniedziałkowa niechęć do lekcji. Niepokój siedzi wyłącznie w drobiazgach: w zegarku, który nie chodzi, w dziewczynce, której nikt nie wierzy, w gazecie składanej na pół. Im bardziej zwyczajna jest reszta sceny, tym mocniej te drobiazgi zgrzytają. Sygnały dziwności czytaj tym samym tonem co opis śniadania, bez dramatycznych pauz i bez „i nagle…”. Gracze mają je zauważyć sami. Jedyny wyjątek to odbicie w szkle zegara (tekst 6): tu zwolnij, ścisz głos i zatrzymaj się przed pytaniem „Co robisz?”.
 
@@ -212,7 +212,7 @@ Plotka o „Czarnym Panu” i „panu Notcie” to jedyny moment polityki w tej 
 - *Gdy postacie go zaczepią:* odpowiada krótko jak w meldunku, zwraca się „panie…”, „panno…”. Pytania o grupy zbywa zdaniem „wojna nie pyta o dom”. Pytania o Cassiana ucina: o grupie pana Vane'a porozmawiają na macie, nie przy owsiance (swój „jeden konkret” o ocenach Cassiana, czyli `flaga.wren-podejrzewa`, zostawia na późniejsze sceny). Na skargę o dziwny zegar: „Jeszcze nie wiem. Proszę mi powiedzieć, jeśli to się powtórzy”. Nikogo o nic nie oskarża.
 
 **[[npc.cassian-vane]], Ślizgon, lider rywalizującej grupy** (sygnał S4)
-- *Co robi:* siedzi wyprostowany przy stole Slytherinu, je mało, otwiera i zamyka zegarek. Rano, przed śniadaniem, nakręcił zegarek na dzisiejszą kradzież (prawda dla MG; scena 03 przyjdzie niezależnie od tego, co tu się stanie).
+- *Co robi:* siedzi wyprostowany przy stole Slytherinu, je mało, otwiera i zamyka zegarek. Zegarek nakręcił zeszłej nocy, na dzisiejsze podbieranie czasu (prawda dla MG; scena 03 przyjdzie niezależnie od tego, co tu się stanie).
 - *Czego chce w tej scenie:* wyglądać zwyczajnie i przetrwać śniadanie bez pytań. Pod spodem: upewnić się, że zegarek „działa”, i nie myśleć o pokazie u Wrena, który musi wygrać. Nie chce rozmawiać z grupą trzecią dłużej niż jedno uprzejme zdanie.
 - *Sygnał:* srebrny zegarek ze stojącymi wskazówkami, na który i tak patrzy, jakby sprawdzał godzinę. Lewą dłoń trzyma w rękawie. Gdy Wren przechodzi obok, Cassian nie prycha razem z resztą stołu, tylko zamyka kopertę i wsuwa zegarek do kieszonki.
 - *Gdy postacie go zaczepią:* chłodna uprzejmość i drobna szpila o grupie trzeciej („nie bierzcie tego do siebie”). Pytanie o zegarek: zamyka go, zanim ktoś zdąży zajrzeć na tarczę, i ucina temat zdaniem o rodzinnej pamiątce. Szczera troska („wyglądasz, jakbyś nie spał”) trafia, ale tu kończy się tylko zawahaniem, nie zwierzeniem. Próba zabrania zegarka w tej scenie się nie udaje (decyzja MG z 2026-11-20); obsługuje ją sekcja „Gdy gracze zboczą”.
@@ -583,7 +583,7 @@ test:
 
 **Kradzież zegarka.** W tej scenie nie ma testu kradzieży: zegarka Cassiana nie da się zdobyć przed sceną 04 (decyzja MG z 2026-11-20); próba zawsze się nie udaje, bez rzutu (więc także bez RETRORSUM i bez Story Points). Test kradzieży, który obowiązuje od wieczoru po scenie 04, jest w karcie przedmiotu [[przedmiot.zegarek-cassiana]] (`przedmiot.zegarek-cassiana.test.kradziez`).
 
-**Zaklęcia ujawniające przy śniadaniu.** Jeśli postać rzuci na zegarek Cassiana Specialis Revelio (s. 58) albo Revelio (s. 57), rzut idzie normalnie, ale udany pokazuje zwykłą zepsutą pamiątkę: zaklęcia ujawniające nie wykrywają magii czasu (decyzja MG z 2026-11-20, [[zasada.walker-luki]], ZD-24). Cassian zauważa różdżkę wycelowaną w swoją kieszonkę i zapamiętuje twarz, jak przy próbie kradzieży.
+**Zaklęcia ujawniające przy śniadaniu.** Jeśli postać rzuci na zegarek Cassiana Specialis Revelio (s. 58, zaklęcie wykrywające ukryte rzeczy) albo Revelio (s. 57, zaklęcie ujawniające ukryte przedmioty i przejścia), rzut idzie normalnie, ale udany pokazuje zwykłą zepsutą pamiątkę: zaklęcia ujawniające nie wykrywają magii czasu (decyzja MG z 2026-11-20, [[zasada.walker-luki]], ZD-24). Cassian zauważa różdżkę wycelowaną w swoją kieszonkę i zapamiętuje twarz, jak przy próbie kradzieży.
 
 ## Rozgałęzienia
 
