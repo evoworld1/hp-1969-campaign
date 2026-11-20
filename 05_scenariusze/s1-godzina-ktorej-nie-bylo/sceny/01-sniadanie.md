@@ -263,7 +263,7 @@ Plotka o „Czarnym Panu” i „panu Notcie” to jedyny moment polityki w tej 
 
 ### Tobias Quill: pierwsza rozmowa
 
-To rozmowa, na której gracze uczą się mówić w imieniu postaci. Tobias zadaje pytanie, **czeka** na odpowiedź i cieszy się z każdej, także z „nie wiem”. Każda jego kwestia kończy się pytaniem, żeby piłka wracała do gracza. Jeśli gracz opisuje zamiast mówić („mówię mu, że jestem zmęczony”), Tobias reaguje na to tak samo jak na kwestię wypowiedzianą. W wariancie skróconym (po prologu) MG używa tylko kwestii z dopiskiem „po prologu” i najwyżej jednej reakcji.
+To rozmowa, na której gracze uczą się mówić w imieniu postaci. Rok szkolny trwa już trzy tygodnie, a Tobias zna postać od pierwszej klasy: nie przedstawia się i nie wypytuje o wakacje, tylko o weekend. Tobias zadaje pytanie, **czeka** na odpowiedź i cieszy się z każdej, także z „nie wiem”. Każda jego kwestia kończy się pytaniem, żeby piłka wracała do gracza. Jeśli gracz opisuje zamiast mówić („mówię mu, że jestem zmęczony”), Tobias reaguje na to tak samo jak na kwestię wypowiedzianą. W wariancie skróconym (po prologu) MG używa tylko kwestii z dopiskiem „po prologu” i najwyżej jednej reakcji.
 
 ```yaml
 dialog:
@@ -272,14 +272,14 @@ dialog:
   wyzwalacz: "Zaraz po otwarciu i sowiej poczcie. Tobias siada obok postaci, której dom ma (przypisany przez MG przed sesją), i zagaduje pierwszy."
   ton: "szybki, rozgadany, ciepły; pytania jedno za drugim, widelec jak batuta"
   kwestie:
-    - "Otwarcie: „Przesuń się, przesuń, boczek stygnie. Szósty rok, co? No pewnie, że szósty, widziałem cię na SUM-ach, gryzłeś pióro. Jak wakacje? Tylko nie mów jak do mamy, mów jak było.”"
+    - "Otwarcie: „Przesuń się, przesuń, boczek stygnie. Jak weekend? Tylko nie mów jak do mamy, mów jak było.”"
     - "Otwarcie, po prologu: „Trzy tygodnie i już kleks na nowej książce? Szacunek. Słyszałeś najnowsze?”"
     - "Gdy gracz odpowiada chętnie albo uprzejmie: „Nie, serio? To jest dobre. Muszę to zapamiętać. A sowa? Coś ci dziś przyniosła, czy też dostajesz tylko rachunki?”"
     - "Gdy gracz mówi „nie wiem” albo odpowiada półsłówkiem: „Nie wiesz? Świetnie, ja też nic nie wiem przed dziewiątą. Stawiam knuta, że do obiadu się obudzisz.”"
     - "Gdy gracz milczy (MG odczekuje kilka sekund, potem): „Dobra, rozumiem, poniedziałek. To ja pogadam za nas dwoje. Kiwnij, jeśli żyjesz.”"
     - "Gdy gracz go zaczepia albo każe mu się odczepić: „Ała. Dobra, dobra, już mnie nie ma.” (odwraca się do sąsiada i gada dalej tak głośno, że plotka i tak dociera)"
-    - "Gdy gracz kłamie albo zmyśla coś o sobie: „Serio? Smok w ogródku? Nie wierzę. Znaczy wierzę. Mogę to komuś powiedzieć?” (kłamstwo wróci do postaci jako przekręcona plotka)"
-    - "Gdy gracz pyta o notes za uchem albo w kieszeni: „A, to? Same głupoty. Kto kiedy przysnął, kto komu wisi knuta.” (chowa notes; więcej w tej scenie nie pokazuje)"
+    - "Gdy gracz kłamie albo zmyśla coś o sobie: „Serio? Ty? Pięć lat cię znam i nic nie mówiłeś! Mogę to komuś powiedzieć?” (kłamstwo wróci do postaci jako przekręcona plotka)"
+    - "Gdy gracz pyta o notes w kieszeni: „A, to? Nowa kolekcja. Kto kiedy przysnął, kto komu wisi knuta. Same głupoty.” (chowa notes; więcej w tej scenie nie pokazuje)"
     - "Gdy gracz grozi: (blednie) „Spokojnie, spokojnie, ja tylko jem. Patrz, jem.” (od tej pory omija postać szerokim łukiem)"
     - "Nieprzewidziane (zaklęcie przy stole, wstanie na ławkę, dziwny pomysł): „Ha! Wiedziałem, że ten rok będzie lepszy. Zrób to jeszcze raz, ja przyjmuję zakłady.”"
     - "Może zdradzić bez warunku: plotki i zakład o ducha Puchona (blok quill-plotki)."
@@ -289,7 +289,7 @@ dialog:
 
 ### Rosalind Teague: szept o Czarnym Panu
 
-Ta kwestia idzie **zaraz po tekście 5**. Postacie słyszą ją z daleka, przez gwar, więc MG mówi cicho i urywa. Jeśli żadna postać nie siedzi blisko stołu Slytherinu, tę samą treść przynosi Tobias (blok quill-plotki). Jeśli postacie słyszały plotkę już w prologu, wystarczy krótki wariant.
+Ta kwestia idzie **zaraz po tekście 5**. Postacie słyszą ją z daleka, przez gwar, więc MG mówi cicho i urywa. Jeśli żadna postać nie siedzi blisko stołu Slytherinu, tę samą treść przynosi Tobias (blok quill-plotki). Jeśli postacie słyszały plotkę już w prologu, wystarczy krótki wariant. **Wyjątek: postać gracza ze Slytherinu siedzi obok Rosalind.** Wtedy słyszy szept z bliska, w całości, a Rosalind zwraca się wprost do niej i czeka na odpowiedź: to chwila wyboru, po której stronie stołu postać chce być. Przy zasłonie na tematy czystości krwi Rosalind też ją zagaduje, ale urywa po jednym zdaniu, bez nazwisk.
 
 ```yaml
 dialog:
@@ -301,6 +301,11 @@ dialog:
     - "Szept (pełny): „Mówię tylko, co słyszałam. Czarny Pan zbiera ludzi, a oni każą się nazywać śmierciożercami. Pan Nott był u ojca w wakacje. Siedzieli do rana.”"
     - "Szept, gdy przy stole jest zasłona na tematy czystości krwi (jedno zdanie, bez nazwisk): „Ktoś, kogo nazywają Czarnym Panem, zbiera zwolenników. Więcej nie powiem przy owsiance.”"
     - "Szept, gdy postacie znają plotkę z prologu: „…znowu ten Czarny Pan. Mówię tylko, co słyszałam.”"
+    - "Gdy obok siedzi postać gracza ze Slytherinu (po pełnym szepcie, ciszej, tylko do niej): „Ty też słyszałaś, prawda? (albo: słyszałeś) U was w domu też już o tym mówią?” (obraca spinkę i czeka na odpowiedź)"
+    - "Ślizgon obok, przy zasłonie na tematy czystości krwi (zamiast pełnego szeptu): „Ty też słyszałaś, prawda? O tym… Czarnym Panu.” (urywa) „Nieważne. Nie przy owsiance.”"
+    - "Ślizgon obok przytakuje albo dopytuje: „Wiedziałam, że nie tylko ja. Ale nie tutaj, kochanie. Stół nauczycieli ma dobre uszy.” (zerka na Wrena)"
+    - "Ślizgon obok się odcina („bzdury”, „nic mnie to nie obchodzi”): (uniesiona brew) „Nikt cię nie pyta, czy cię to obchodzi. Kiedyś zapytają, po której stronie stoisz.”"
+    - "Ślizgon obok milczy albo zmienia temat: „Mądrze. Milczenie też jest odpowiedzią.” (wraca do szeptu ze starszymi)"
     - "Gdy postać podchodzi uprzejmie albo z ciekawością: „Kochanie, to rozmowa przy stole Slytherinu. Ale miło, że słuchasz.”"
     - "Gdy postać naciska albo zaczepia: „Nie twoja sprawa. Ale skoro już stoisz, podaj sól i wracaj do swoich.”"
     - "Gdy postać pyta o Cassiana: (zerka na niego) „Cassian jest zmęczony. Wszyscy jesteśmy. Zajmij się swoją grupą.”"
