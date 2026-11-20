@@ -25,6 +25,21 @@ flagi:
     typ: bool
     wartosci: []
     sesja: s1
+  - id: flaga.plotka-duch-puchona
+    opis: "Postacie usłyszały szkolną plotkę o „duchu Puchona”: chłopcu w żółtym krawacie, którego ofiary Cassiana widziały tylko mignięciem."
+    typ: bool
+    wartosci: []
+    sesja: s1
+  - id: flaga.ansel-odbicie
+    opis: "Jedna z postaci przed straconą godziną widziała Ansela jako odbicie w szkle zegara (scena s1.scena.01). Jedyna forma, w jakiej Ansel pojawia się przed stratą."
+    typ: bool
+    wartosci: []
+    sesja: s1
+  - id: flaga.sekret-poruszony
+    opis: "W grze ktoś dotknął wspólnego sekretu postaci z 4. roku (Ansel mimochodem albo Cassian w targu). Treść sekretu ustalają gracze i zapisuje się ją tekstem przy kartach postaci, nie we fladze."
+    typ: bool
+    wartosci: []
+    sesja: s1
   - id: flaga.crake-poznany
     opis: "Postacie zamieniły kilka zdań z zegarmistrzem Hollisem Crake'iem (przelotna pogawędka)."
     typ: bool
@@ -38,7 +53,7 @@ flagi:
 
   # --- Lekcje ---
   - id: flaga.tempus-opanowane
-    opis: "Co najmniej jedna postać umie rzucić Tempus (zależne od decyzji MG o nauce Tempus na 6. roku)."
+    opis: "Co najmniej jedna postać umie rzucić Tempus (nauczone na lekcji Flitwicka w s1.scena.02 albo na korepetycjach; decyzja MG 2026-11-20)."
     typ: bool
     wartosci: []
     sesja: s1
@@ -49,6 +64,11 @@ flagi:
     sesja: s1
   - id: flaga.praca-domowa-dryf
     opis: "Flitwick zadał pracę domową: zmierzyć przesunięcie (dryf) trzech zegarów na różnych piętrach. Daje pretekst do wędrówek po zamku."
+    typ: bool
+    wartosci: []
+    sesja: s1
+  - id: flaga.biblioteka-legalnie
+    opis: "Postacie mają zgodę na wieczorny pobyt w Dziale Ksiąg Zakazanych (przepustka Flitwicka, prośba do Wrena, McGonagall albo Dumbledore'a, zgoda pani Pince). Scena s1.scena.09 może się wtedy dziać wieczorem, bez nocnego wymykania się."
     typ: bool
     wartosci: []
     sesja: s1
@@ -65,7 +85,7 @@ flagi:
 
   # --- Stracona godzina i Ansel ---
   - id: flaga.godzina-stracona
-    opis: "Postacie straciły godzinę, której nie pamiętają; od tej chwili mogą widzieć Ansela."
+    opis: "Cała drużyna straciła godzinę w przerwie między Zaklęciami a Obroną (s1.scena.03); od tej chwili postacie mogą widzieć Ansela i rozmawiać z nim."
     typ: bool
     wartosci: []
     sesja: s1
@@ -75,7 +95,7 @@ flagi:
     wartosci: []
     sesja: s1
   - id: flaga.ansel-kontakt
-    opis: "Ile postaci graczy miało już bezpośredni kontakt z Anselem (rozmowa, nie tylko mignięcie). Przed sceną s1.scena.10 musi się równać liczbie graczy."
+    opis: "Liczba postaci graczy, które przynajmniej raz rozmawiały z Anselem (nie tylko mignięcie). Każda postać liczy się raz; MG prowadzi znacznik osobno przy każdej postaci. Przed sceną s1.scena.10 musi się równać liczbie graczy."
     typ: liczba
     wartosci: []
     sesja: s1
@@ -86,6 +106,12 @@ flagi:
     sesja: s1
   - id: flaga.marrow-imie-znane
     opis: "Postacie wiedzą, że profesor Marrow istniała, uczyła astronomii i odeszła wiele lat temu."
+    typ: bool
+    wartosci: []
+    sesja: s1
+
+  - id: flaga.dumbledore-powiadomiony
+    opis: "Postacie powiedziały Dumbledore'owi o Anselu albo o straconych godzinach (dyrektor nie widzi Ansela, prosi o obserwację)."
     typ: bool
     wartosci: []
     sesja: s1
@@ -117,7 +143,7 @@ flagi:
     wartosci: []
     sesja: s1
   - id: flaga.s1-zegar-kradziezy
-    opis: "Zegar świata Sesji 1, 0–4: ile razy Cassian podebrał czas od chwili straconej godziny, a postacie go nie powstrzymały. +1 za każde pół dnia w fikcji. Progi w graf-scen Sesji 1."
+    opis: "Zegar świata Sesji 1, 0–4: ile razy Cassian podebrał czas od chwili straconej godziny (s1.scena.03), a postacie go nie powstrzymały. +1 za każde pół dnia w fikcji; nie rośnie, gdy zegarek nie jest u Cassiana. Progi w graf-scen.md Sesji 1."
     typ: liczba
     wartosci: []
     sesja: s1
@@ -166,22 +192,32 @@ flagi:
     wartosci: [oddana-godzina, podzielona-godzina, zabrana-godzina, wylamana, nieotwarta]
     sesja: s1
   - id: flaga.dziennik-u-graczy
-    opis: "Postacie wyniosły dziennik Marrow z pracowni."
+    opis: "Postacie wyniosły dziennik Marrow z pracowni (prawda także wtedy, gdy potem go skonfiskowano; gdzie jest teraz, mówi flaga.dziennik-miejsce)."
+    typ: bool
+    wartosci: []
+    sesja: s1
+  - id: flaga.dziennik-miejsce
+    opis: "Gdzie jest dziennik Marrow po Sesji 1."
+    typ: wybor
+    wartosci: [w-pracowni, u-graczy, skonfiskowany, u-cassiana, u-dumbledorea, zniszczony]
+    sesja: s1
+  - id: flaga.wymark-slad
+    opis: "Postacie zauważyły ślad Patrona (inicjały „S.W.” obok podpisu Marrow albo zdjęcie z 1951 z wysokim prefektem). Nazwiska jeszcze nie znają."
     typ: bool
     wartosci: []
     sesja: s1
   - id: flaga.filch-zlapal
-    opis: "Filch (albo pani Pince) przyłapał postacie w nocy w bibliotece."
+    opis: "Filch (nocą) albo pani Pince (wieczorem) przyłapali postacie w bibliotece, zwykle zwabieni biciem zegarów."
     typ: bool
     wartosci: []
     sesja: s1
   - id: flaga.trzynasta-wybila
-    opis: "Wszystkie zegary w zamku wybiły trzynastą, a Ansel zaczął blednąć. Crake w Londynie to usłyszał."
+    opis: "Wszystkie zegary w zamku wybiły trzynasty raz (trzynaście uderzeń, niezależnie od pory), a Ansel zaczął blednąć. Crake w Londynie to usłyszał."
     typ: bool
     wartosci: []
     sesja: s1
   - id: flaga.s1-wybor
     opis: "Co postacie postanawiają zrobić z dziennikiem i z Anselem (cliffhanger Sesji 1, ustawia Sesję 2)."
     typ: wybor
-    wartosci: [dumbledore, sekret, moc, najpierw-chlopiec, podzieleni, nierozstrzygniety]
+    wartosci: [dumbledore, sekret, moc, najpierw-chlopiec, skonfiskowany, inne, podzieleni, nierozstrzygniety]
     sesja: s1
