@@ -255,9 +255,9 @@ Różdżka na nocnej szafce leży nieruchomo. Kto jej dotknie, poczuje, że drew
 - Dialog: `s1.scena.09.dialog.ansel-szafka` — „Pani profesor nigdy nic z szafki nie brała. Zawsze najpierw coś jej dawała.” (propozycja; W7.3, gdy Ansel jest obecny)
 - Dialog: `s1.scena.09.dialog.cassian-gablota` — „Nie podchodźcie. Ona nie daje się brać.” (propozycja; tylko przy zegarze kradzieży 4, Cassian w środku)
 - Test: `s1.scena.09.test.gablota-sila` (siłowe otwarcie, z ceną)
-- Flagi: `flaga.gablota-sposob`, `flaga.dziennik-u-graczy`, `flaga.dziennik-miejsce`
+- Flagi: `flaga.gablota-sposob` przy otwarciu; `flaga.dziennik-u-graczy` i `flaga.dziennik-miejsce` (u-graczy) dopiero gdy notatnik opuszcza gablotę razem z postacią (rozgałęzienie `notatnik-wyniesiony`)
 - Krótko: przeszkoda obowiązkowa 2. Trzy drogi główne: tabliczka, dopisek na karcie, Ansel; zapasowe: szkic przez szkło (rysunek na marginesie: dłoń wkłada coś do klepsydry, obok otwarta kłódka; postać z „Okiem, które dostrzega ukryte” widzi go od razu, inni po przyjrzeniu się z bliska), Tempus (luka 60 minut), ściana obliczeń. Handout `s1.handout.pierwsza-strona-dziennika` po otwarciu. Przejście do 10 przy progu: gdy notatnik zbliża się do wyjścia z sali, przerwij i czytaj scenę 10.
-- Rozgałęzienia: `gablota-oddana`, `gablota-zabrana`, `gablota-wylamana`, `gablota-nieotwarta`, `cassian-w-srodku`.
+- Rozgałęzienia: `gablota-oddana`, `gablota-zabrana`, `gablota-wylamana`, `notatnik-wyniesiony`, `gablota-nieotwarta`, `cassian-w-srodku`.
 
 ### Czas i tempo
 
@@ -808,7 +808,7 @@ test:
 
 ### Gablota: oddanie godziny (krok 8)
 
-Oddanie godziny to **dar, nie koszt do wykupienia**, dlatego jest lżejsze niż godzina zabrana (scena 03: Drained, +3). Godzina to 60 minut. Cena w stanie umysłu zależy od tego, na ile osób ją podzielono: **jedna osoba (60 minut): Dazed (+2); dwie (po 30): Rattled (+1); trzy lub więcej (po 20 albo mniej): Rattled (+1)**. Stan trwa do pierwszego posiłku po nocy, nie zdejmuje go ani Story Point, ani RETRORSUM (nie ma rzutu). To oznacza, że kara dotyczy też sceny 10; MG może ją skrócić do końca sceny 09, jeśli scena 10 ma rzuty. Ansel nie może oddać godziny (nie ma własnego czasu). Nie stawiaj graczom wyboru „kto się poświęci”: pokaż, że dzielenie jest tańsze.
+Oddanie godziny to **dar, nie koszt do wykupienia**, dlatego jest lżejsze niż godzina zabrana (scena 03: Drained, +3). Godzina to 60 minut. Cena w stanie umysłu zależy od tego, na ile osób ją podzielono: **jedna osoba (60 minut): Dazed (+2); dwie (po 30): Rattled (+1); trzy lub więcej (po 20 albo mniej): Rattled (+1)**. Stan trwa **do końca sceny 09** (założenie robocze: skrócone, żeby kara nie przechodziła na scenę 10; zmęczenie, które postać czuje potem, to już tylko kolor). Nie zdejmuje go ani Story Point, ani RETRORSUM (nie ma rzutu). Dotyczy więc ucieczki i drogi powrotnej w tej samej scenie. Ansel nie może oddać godziny (nie ma własnego czasu). Nie stawiaj graczom wyboru „kto się poświęci”: pokaż, że dzielenie jest tańsze.
 
 ```yaml
 test:
@@ -822,7 +822,7 @@ test:
       wartosc: "bez rzutu: koszt o jedno kółko mniejszy (najmniej Rattled)"
   wyniki:
     - wynik: zawsze
-      efekt: "Gablota otwiera się czysto. Koszt na każdą oddającą: jedna osoba Dazed (+2); dwie lub więcej Rattled (+1), do pierwszego posiłku po nocy. Wartość flagi: oddana-godzina (jedna osoba) albo podzielona-godzina (kilka). Tekst 9, wariant A. Pierwsza strona notatnika czytelna; Ansel: „Tak samo jak u pani profesor”."
+      efekt: "Gablota otwiera się czysto. Koszt na każdą oddającą: jedna osoba Dazed (+2); dwie lub więcej Rattled (+1), do końca sceny 09 (nie przechodzi na scenę 10). Wartość flagi: oddana-godzina (jedna osoba) albo podzielona-godzina (kilka). Tekst 9, wariant A. Pierwsza strona notatnika czytelna; Ansel: „Tak samo jak u pani profesor”. Notatnik leży jeszcze w gablocie: flaga.dziennik-u-graczy dopiero przy wyniesieniu (rozgałęzienie notatnik-wyniesiony)."
       flagi_ustaw: [flaga.gablota-sposob]
 ```
 
@@ -884,8 +884,8 @@ rozgalezienie:
   warunek: "Postać oddaje gablocie godzinę (sama albo kilka postaci dzieli się kosztem)."
   wymaga_flag: [flaga.pracownia-otwarta]
   wyklucza_flagi: []
-  efekt: "Gablota otwiera się czysto; notatnik w całości. Wartość flagi: oddana-godzina albo podzielona-godzina. Koszt oddania ustali mechanik (czas, zmęczenie)."
-  flagi_ustaw: [flaga.gablota-sposob, flaga.dziennik-u-graczy, flaga.dziennik-miejsce]
+  efekt: "Gablota otwiera się czysto; notatnik w całości. Wartość flagi: oddana-godzina albo podzielona-godzina. Koszt oddania: Dazed (jedna osoba) albo Rattled (kilka) do końca sceny 09. Notatnik leży jeszcze w gablocie (flaga.dziennik-miejsce = w-pracowni); u graczy jest dopiero po wyniesieniu (rozgałęzienie notatnik-wyniesiony)."
+  flagi_ustaw: [flaga.gablota-sposob, flaga.dziennik-miejsce]
   prowadzi_do: s1.scena.10
 ```
 
@@ -896,8 +896,8 @@ rozgalezienie:
   warunek: "Postacie oddają gablocie godzinę zabraną komuś innemu (przez kartę i zegarek)."
   wymaga_flag: [flaga.pracownia-otwarta, flaga.karta-u-graczy]
   wyklucza_flagi: []
-  efekt: "Gablota się otwiera, ale ktoś w zamku traci godzinę (kandydat: Rejestr Danin). Pierwszy krok ku zakończeniu „moc”. Wartość flagi: zabrana-godzina."
-  flagi_ustaw: [flaga.gablota-sposob, flaga.dziennik-u-graczy, flaga.dziennik-miejsce]
+  efekt: "Gablota się otwiera, ale ktoś w zamku traci godzinę (kandydat: Rejestr Danin). Pierwszy krok ku zakończeniu „moc”. Wartość flagi: zabrana-godzina. Notatnik leży jeszcze w gablocie (flaga.dziennik-miejsce = w-pracowni); u graczy dopiero po wyniesieniu."
+  flagi_ustaw: [flaga.gablota-sposob, flaga.dziennik-miejsce]
   prowadzi_do: s1.scena.10
 ```
 
@@ -908,8 +908,20 @@ rozgalezienie:
   warunek: "Postacie otwierają gablotę siłą."
   wymaga_flag: [flaga.pracownia-otwarta]
   wyklucza_flagi: []
-  efekt: "Działa, z ceną: część notatnika rozmyta, hałas słychać w bibliotece. Zabezpieczenia księgi się nie budzą. Wartość flagi: wylamana."
-  flagi_ustaw: [flaga.gablota-sposob, flaga.dziennik-u-graczy, flaga.dziennik-miejsce]
+  efekt: "Działa, z ceną: część notatnika rozmyta, hałas słychać w bibliotece. Zabezpieczenia księgi się nie budzą. Wartość flagi: wylamana. Notatnik leży jeszcze wśród odłamków (flaga.dziennik-miejsce = w-pracowni); u graczy dopiero po wyniesieniu."
+  flagi_ustaw: [flaga.gablota-sposob, flaga.dziennik-miejsce]
+  prowadzi_do: s1.scena.10
+```
+
+```yaml
+rozgalezienie:
+  id: s1.scena.09.rozgalezienie.notatnik-wyniesiony
+  rodzaj: glowne
+  warunek: "Gablota jest otwarta (oddana, zabrana albo wyłamana), a postać bierze notatnik i niesie go ku wyjściu z sali: przekracza próg. Także gdy pracownia wypluwa postać z notatnikiem w ręku (siatka 8)."
+  wymaga_flag: [flaga.pracownia-otwarta, flaga.gablota-sposob]
+  wyklucza_flagi: []
+  efekt: "Dopiero teraz notatnik jest u graczy: flaga.dziennik-miejsce zmienia się z w-pracowni na u-graczy. Przy progu MG przerywa scenę i czyta scenę 10 (trzynasty raz wybija). Jeśli notatnik zostaje w pracowni, ten blok się nie uruchamia (zob. gablota-nieotwarta)."
+  flagi_ustaw: [flaga.dziennik-u-graczy, flaga.dziennik-miejsce]
   prowadzi_do: s1.scena.10
 ```
 
@@ -971,7 +983,7 @@ rozgalezienie:
   wymaga_flag: [flaga.ksiega-zabezpieczenia]
   wyklucza_flagi: []
   efekt: "Pracownia ją „wypluwa” w ostatnim rzędzie: ciężkie obrażenia, zaklęcie zapomnienia na ostatnie minuty, skrzydło szpitalne, Filch ją znajduje, zegar kradzieży +1. Informacja nie ginie (inni pamiętają, Ansel, rzecz w dłoni). Śmierć tylko jako świadomy wybór gracza po dwóch ostrzeżeniach."
-  flagi_ustaw: [flaga.ksiega-zlapani, flaga.filch-zlapal]
+  flagi_ustaw: [flaga.ksiega-zlapani, flaga.filch-zlapal, flaga.s1-zegar-kradziezy]
   prowadzi_do: s1.scena.10
 ```
 

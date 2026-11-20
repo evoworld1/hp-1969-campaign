@@ -165,7 +165,8 @@ Scena ma dwa zadania. Pierwsze: **zegarek** może tu przejść do postaci jedną
 - Czytaj: tekst 1a („Cassian Vane, sam, plecami do was…”, poprzedzony zdaniem miejsca), 1b („Drzwi otwierają się bez pukania…”) albo 1c („Najpierw słyszycie zegarek…”), według drogi wejścia.
 - Test: `s1.scena.08.test.pierwsze-spojrzenie` (tylko bez `flaga.sygnal-cassiana-nazwany`: czy postać widzi, że źródłem szybkości jest zegarek)
 - Krótko: miejsce zależy od drogi: wnęka w lochach (ślad drżących odczytów), krużganek u stóp wieży o zmierzchu (po scenie 07), pusta sala Obrony (baza grupy trzeciej, tu zwykle przychodzi Cassian w 1b). **Wariant poniedziałkowy** (prosto z korytarza po 04): Cassian mówi „Nie tutaj. Nie przy wszystkich” i wprowadza postacie do pustej klasy obok; przeczytaj tylko pierwszy akapit tekstu 1b (drzwi i klamka), resztę pomiń: tego popołudnia Cassian jest promienny po kradzieży, nie roztrzęsiony.
-- Awaryjne: `awaryjne-milczenie` (Cassian ucieka od razu), `awaryjne-bojka` (ktoś atakuje bez słowa).
+- Dialog (tylko wejście 1c, zegarek jest u postaci): `s1.scena.08.dialog.cassian-oddajcie` — „Oddajcie.” (prostuje się) „Proszę. To rodzinna pamiątka.” Ten dialog zastępuje kroki 2–3 (Cassian bez zegarka nie ma przewagi i nie wyzywa na pojedynek): po nim idź do kroku 5 (targ, litość albo zniszczenie).
+- Awaryjne: `awaryjne-milczenie` (Cassian odmawia rozmowy), `awaryjne-poscig` (ucieka biegiem), `awaryjne-bojka` (ktoś atakuje bez słowa), `awaryjne-brak-czasu` (zostało mniej niż 20 minut).
 
 **Krok 2. Oskarżenie** (ok. 6 min)
 - Dialog: `s1.scena.08.dialog.cassian-oskarzony` — „Zgubiliście coś? Bo patrzycie na mnie tak, jakbym to ja to znalazł.”
@@ -177,22 +178,27 @@ Scena ma dwa zadania. Pierwsze: **zegarek** może tu przejść do postaci jedną
 **Krok 3. Wyzwanie** (ok. 3 min)
 - Dialog: `s1.scena.08.dialog.cassian-wyzwanie` — „Zróbmy to jak ludzie: pojedynek, zasady, sekundanci. Przegram, powiem wam, skąd to mam. Wygram, zapomnicie o mnie.”
 - Krótko: Cassian proponuje pojedynek, bo w pojedynku ma przewagę, a pojedynek to dla niego sposób, żeby prawda wyszła po cichu. Postacie mogą przyjąć, odmówić albo targować się o stawkę (zegarek, karta, milczenie). Odmowa nie kończy sceny: przejdź do kroku 5.
-- Awaryjne: `donos` (postacie idą do Wrena zamiast walczyć).
+- Awaryjne: `donos` (postacie idą do Wrena zamiast walczyć), `awaryjne-wyzsza-instancja` (idą do McGonagall albo Dumbledore'a).
 
 **Krok 4. Pojedynek** (ok. 12 min)
 - Czytaj: tekst 3 („Srebro błyska w powietrzu…”), gdy zegarek wypadnie Cassianowi; tekst 4 („Cassian podchodzi do pokonanego…”), gdy Cassian wygra.
-- Test: `s1.scena.08.test.pojedynek`
+- Dialog: `s1.scena.08.dialog.rosalind-sekundantka` — „Kochanie, jeśli już musicie, to porządnie. Ukłon, różdżki w górę, na trzy. Na trzy, nie na dwa.” (przed pierwszą rundą, rytuał i sekundant)
+- Dialog: `s1.scena.08.dialog.wren-dosyc` — „Dosyć.” (pauza) „Różdżki na podłogę. Wszystkie.” (gdy pojedynek przekroczy granicę: krew, ktoś nie wstaje, zabrana godzina)
+- Dialog (tylko jeśli Ansel jest z postaciami): `s1.scena.08.dialog.ansel-przy-cassianie` — „Proszę pana… proszę pani… to tyka tak samo jak wtedy, kiedy zrobiło się cicho.”
+- Test: `s1.scena.08.test.pojedynek` (atak postaci); `s1.scena.08.test.pojedynek-unik` (atak Cassiana, obrona postaci; w rundzie z Chwilą Cassian atakuje dwa razy)
+- Test: `s1.scena.08.test.pojedynek-zegarek` (gdy postać celuje w zegarek: Expelliarmus po uprzedzeniu albo Accio na kieszonkę)
 - Flagi: `flaga.zegarek-cassiana` (wygrany pojedynek: zegarek jako stawka albo wytrącony z ręki)
-- Krótko: pierwszy prawdziwy pojedynek w grze. Przegrana kosztuje: Cassian zabiera przegranemu godzinę na oczach wszystkich (tekst 4). Najwyżej 3–4 rundy; jeśli się przeciąga, zegarek wypada (tekst 3) albo w drzwiach staje Wren.
-- Awaryjne: `awaryjne-bojka` (pięści zamiast różdżek, świadkowie).
+- Krótko: pierwszy prawdziwy pojedynek w grze. Przegrana kosztuje: Cassian zabiera przegranemu godzinę na oczach wszystkich (tekst 4). Najwyżej 3–4 rundy; jeśli się przeciąga, zegarek wypada (tekst 3) albo w drzwiach staje Wren. Kolejność w rundzie: unik postaci przeciw atakowi Cassiana (`pojedynek-unik`), potem atak postaci (`pojedynek`); `pojedynek-zegarek` zamiast zwykłego ataku.
+- Awaryjne: `awaryjne-bojka` (pięści zamiast różdżek, świadkowie), `awaryjne-skrzydlo-szpitalne` (ktoś nie wstaje albo jest ranny), `awaryjne-zegarek-do-wrena` (postacie po pojedynku niosą zegarek do nauczyciela).
 
 **Krok 5. Zegarek innymi drogami** (ok. 5 min, zamiast pojedynku albo po nim)
 - Test: `s1.scena.08.test.kradziez-zegarka`
+- Test: `s1.scena.08.test.zniszczenie-zegarka` (tylko gdy postać naprawdę próbuje rozbić zegarek; nie rzucaj, jeśli stół tego nie chce)
 - Dialog: `s1.scena.08.dialog.cassian-targ` — „Targ. Wreszcie ktoś mówi moim językiem. Pieniędzy nie chcę, chcę ciszy: ile kosztuje wasza?”
 - Dialog: `s1.scena.08.dialog.cassian-litosc` — „Nie patrz tak na mnie. Ja tylko… Trzy tygodnie nie spałem. Trzy tygodnie.” (po szczerej trosce, nie po ciekawości)
 - Czytaj: tekst 5 („Cassian siada…”), gdy Cassian pęka; tekst 6 („Szkiełko pęka…”), gdy postacie niszczą zegarek.
 - Flagi: `flaga.zegarek-cassiana`, `flaga.karta-u-graczy`
-- Krótko: kradzież (podczas rozmowy, gdy jedna postać zagaduje), targ (milczenie za zegarek albo kartę), litość (szczera pomoc). Zniszczenie zegarka: rozgałęzienie `zniszczenie-zegarka`.
+- Krótko: kradzież (podczas rozmowy, gdy jedna postać zagaduje), targ (milczenie za zegarek albo kartę), litość (szczera pomoc). Zniszczenie zegarka: rozgałęzienie `zniszczenie-zegarka` (gdy Cassian milczał i niczego jeszcze nie powiedział: `awaryjne-zniszczenie-wczesne`). Nieudana kradzież: `awaryjne-kradziez-wpadka`. Karta bez zegarka: `awaryjne-karta-bez-zegarka`; obiecana karta, która nie przychodzi: `awaryjne-karta-nie-przyszla`.
 
 **Krok 6. Co Cassian wie** (ok. 3 min)
 - Dialog: `s1.scena.08.dialog.cassian-pracownia` — „Biblioteka. Ostatni rząd. Tam, gdzie Pince nie wpuszcza nikogo.”
@@ -836,8 +842,8 @@ rozgalezienie:
   warunek: "Cassian odmawia rozmowy, ucieka albo postacie nie chcą go o nic pytać."
   wymaga_flag: []
   wyklucza_flagi: []
-  efekt: "Drogi awaryjne do pracowni (W5): rejestr pani Pince za dnia, śledzenie drżących odczytów, Ansel z Więzią, zegar kradzieży 4 (Cassian idzie tam sam, siatka 6)."
-  flagi_ustaw: []
+  efekt: "Cassian kończy rozmowę uprzejmie („Miłego wieczoru, grupo trzecia”) i odchodzi; nikt go nie zatrzymuje siłą. Świat idzie dalej bez niego: zegar kradzieży rośnie o 1 za każde pół dnia, w którym go nie skonfrontowano, a sceny przestają go ukrywać. Lokalizację pracowni (W5) postacie zdobywają innymi drogami, z których każda jest zwykłą sceną, nie zagadką: (1) rejestr wypożyczeń pani Pince: czytelnia jest czynna do ciszy nocnej, rejestr leży na pulpicie przy wejściu, wpisy „V., trzy razy ten sam tom o zegarmistrzostwie” widać bez testu; (2) śledzenie drżących odczytów Tempus albo zegarków uczniów (bez magii) od przejścia Slytherinu do biblioteki; (3) Ansel, jeśli już go poznano: „Pani profesor nosiła książki do najdalszego regału”; (4) zegar kradzieży = 4: Cassian idzie tam nocą sam i postacie budzi Ansel albo bicie (siatka 6). Rosalind, pilnując Cassiana, może rzucić jedno zdanie na odchodnym tylko gdy ktoś jest wobec niej szczerze troskliwy (dialog rosalind-sekundantka). Żadna z dróg nie wymaga wygranego pojedynku. Ustaw flaga.cassian-los = nie-skonfrontowany, jeśli nie padło oskarżenie w twarz."
+  flagi_ustaw: [flaga.cassian-los]
   prowadzi_do: s1.scena.12
 ```
 
@@ -848,15 +854,140 @@ rozgalezienie:
   warunek: "Postacie atakują Cassiana bez pojedynku, przy świadkach."
   wymaga_flag: []
   wyklucza_flagi: []
-  efekt: "Przychodzi prefekt albo Wren: rozbrojenie, punkty ujemne, szlaban jako kolor. Cassian zostaje zdemaskowany przed postaciami, ale rozmowa o pracowni przesuwa się na później (z ceną czasu)."
+  efekt: "Przychodzi prefekt albo Wren (w sali Obrony i w pobliżu gabinetu zawsze Wren): rozbrojenie, punkty ujemne, szlaban jako kolor (założenie robocze: wtorek wieczorem, tylko wzmianka). Cassian zostaje zdemaskowany przed postaciami, ale rozmowa o pracowni przesuwa się na później, z ceną czasu: ktoś musi być przy Cassianie, gdy ten wyjdzie. Cassian, wzdrygnięty i zawstydzony (nie bije się „jak w porcie”), pęka szybciej w drugiej rozmowie, o ile nikt go nie poniżył. Jeśli bójkę zaczęły postacie, Rosalind zapamiętuje, kto pierwszy wyciągnął różdżkę (dialog rosalind-sekundantka), i to wraca w scenie 12 jako chłód Ślizgonów, nie kara. Postacie mogą dokończyć scenę kolejnym krokiem (targ, litość) po odejściu nauczyciela."
   flagi_ustaw: [flaga.cassian-zdemaskowany]
   prowadzi_do: s1.scena.12
 ```
 
+```yaml
+rozgalezienie:
+  id: s1.scena.08.rozgalezienie.awaryjne-poscig
+  rodzaj: awaryjne
+  warunek: "Cassian ucieka biegiem (np. po kłamstwie, że Wren już wie) albo postacie gonią go po korytarzu."
+  wymaga_flag: []
+  wyklucza_flagi: []
+  efekt: "Bez rzutu na pościg: z Chwilą Cassian jest szybszy niż ktokolwiek, kogo znacie, i znika za zakrętem. Świat reaguje zamiast blokować: biegnące uczniowskie kroki zwabiają prefekta („Nie biegać!”), a przy drzwiach do lochów staje Rosalind z rękami skrzyżowanymi: „Nie dziś, kochanie”. Jeśli ktoś zamiast przepychać się zapyta ją spokojnie o Cassiana, mówi dwa zdania (nie śpi; nakręca zegarek nocą przy kominku w pokoju wspólnym). To otwiera nocną drogę: kradzież zegarka w pokoju wspólnym (modyfikator −2 do rzutu Cassiana) albo spokojną rozmowę rano. Po pościgu Cassian jest przyparty; jeśli postacie nie zrobiły nic gorszego, przy następnym spotkaniu zaczyna od stopnia przyparty. Lokalizację pracowni zdobywają drogami z awaryjne-milczenie."
+  flagi_ustaw: [flaga.cassian-los]
+  prowadzi_do: s1.scena.12
+```
+
+```yaml
+rozgalezienie:
+  id: s1.scena.08.rozgalezienie.awaryjne-brak-czasu
+  rodzaj: awaryjne
+  warunek: "Do końca sesji zostało mniej niż 20 minut przy stole albo scena się ciągnie."
+  wymaga_flag: []
+  wyklucza_flagi: []
+  efekt: "Skrót, który niczego nie odbiera graczom. Zostaw: krok 1 (jedna kwestia wejścia), jeden konkret z kroku 2 i jedną kwestię z kroku 3 (wyzwanie). Pojedynek skróć do dwóch rund; po rundzie 2 zegarek wypada (tekst 3), jeśli postać choć raz trafiła albo nazwała sygnał, w przeciwnym razie wygrywa Cassian (tekst 4). Jeśli stół woli: litość w jednej wymianie (jedno zdanie troski, tekst 5). Czego nie wolno wyciąć: zapowiedzi stawki przed pojedynkiem, tekstu 5 (bandaż jako dowód do W10), zdania Cassiana „Biblioteka. Ostatni rząd.” (albo pokazanie, że Cassian milczy), tekstu 2 i zapisu flag przed Punktem pauzy 3. Wytnij: dialog sekretu z 4. roku, Rosalind jako sekundantkę (Cassian sam zlicza rundy), rozmowę o kartę i dopisek (karta przychodzi przed ciszą nocną, zob. awaryjne-karta-nie-przyszla)."
+  flagi_ustaw: [flaga.cassian-los]
+  prowadzi_do: s1.scena.09
+```
+
+```yaml
+rozgalezienie:
+  id: s1.scena.08.rozgalezienie.awaryjne-wyzsza-instancja
+  rodzaj: awaryjne
+  warunek: "Postacie zamiast walczyć albo rozmawiać idą z całą wiedzą do McGonagall albo Dumbledore'a."
+  wymaga_flag: []
+  wyklucza_flagi: []
+  efekt: "Dyrektor wrócił z Londynu przed wieczorem poprzedniego dnia (założenie robocze). Słucha do końca, nie śmieje się i nie rozwiązuje sprawy za graczy: zegarek, o którym nikt nic nie udowodnił, nie jest dowodem („Dowód, nie podejrzenie”), a Dział Ksiąg Zakazanych jest zamknięty dla uczniów bez wyjątków, więc zgody na wejście nie będzie. Prosi, żeby postacie obserwowały Cassiana, i zapowiada, że Wren zostanie uprzedzony. Dumbledore Ansela nie widzi (jeśli postacie o nim wspomną, prosi o spotkanie wyrównujące rano). Cassian dowiaduje się o rozmowie od Wrena następnego dnia i jest przyparty. Pracownię postacie zdobywają drogami z awaryjne-milczenie."
+  flagi_ustaw: [flaga.dumbledore-powiadomiony, flaga.wren-podejrzewa]
+  prowadzi_do: s1.scena.12
+```
+
+```yaml
+rozgalezienie:
+  id: s1.scena.08.rozgalezienie.awaryjne-zegarek-do-wrena
+  rodzaj: awaryjne
+  warunek: "Zegarek jest u postaci (kradzież, pojedynek, targ, litość) i postacie niosą go Wrenowi, McGonagall albo Filchowi."
+  wymaga_flag: []
+  wyklucza_flagi: []
+  efekt: "Nauczyciel bierze zegarek, waży go w dłoni, nie otwiera („Zostanie u mnie”). Zegarek u nauczyciela sam nic nie podbiera, więc zegar kradzieży staje, a magia karty bez niego nie działa (decyzja MG). Wren wezwie Cassiana po lekcjach i nie ujawni, kto przyniósł zegarek. Jeśli w targu obiecano Cassianowi milczenie wobec Wrena, jest to złamana umowa: Cassian staje się rywalem, nie dłużnikiem, i nie przynosi karty (ale lokalizacja, jeśli padła, pozostaje). W przeciwnym razie Cassian ma ulgę, strach i brak sił na wrogość. Droga do pracowni zostaje otwarta. Zakończenie „moc” (karta plus zegarek) przepada do czasu, aż ktoś zegarek odzyska."
+  flagi_ustaw: [flaga.zegarek-cassiana, flaga.wren-podejrzewa, flaga.cassian-los]
+  prowadzi_do: s1.scena.09
+```
+
+```yaml
+rozgalezienie:
+  id: s1.scena.08.rozgalezienie.awaryjne-kradziez-wpadka
+  rodzaj: awaryjne
+  warunek: "Próba kradzieży zegarka się nie udaje (Cassian łapie rękę albo budzi się)."
+  wymaga_flag: []
+  wyklucza_flagi: []
+  efekt: "Cassian nie krzyczy i nie biegnie do Wrena: mówi spokojnie „Rodzinna pamiątka. Nie chodzi.” i od tej chwili nosi zegarek nawet nocą. Kolejnej kradzieży nie ma, ale nic nie jest utracone: ma to cenę reputacji i kierunku, nie dostępu. Cassian proponuje pojedynek na swoich warunkach („Zróbmy to jak ludzie”, dialog cassian-wyzwanie), zwykle ze świadkiem (Rosalind). Jeśli złapana postać jest uprzejma, Cassian jest chłodny, ale nie zabiera godziny z zemsty. Stawka zegarka i karty nadal jest do wzięcia w pojedynku, targu albo litości."
+  flagi_ustaw: [flaga.cassian-czujny]
+  prowadzi_do: s1.scena.08
+```
+
+```yaml
+rozgalezienie:
+  id: s1.scena.08.rozgalezienie.awaryjne-karta-bez-zegarka
+  rodzaj: awaryjne
+  warunek: "Postacie biorą od Cassiana tylko kartę (targ, litość albo pojedynek o kartę), a zegarek zostaje u niego."
+  wymaga_flag: []
+  wyklucza_flagi: []
+  efekt: "Karta leży w kufrze Cassiana, w podszewce, więc „oddaje kartę” znaczy: przynosi ją przed ciszą nocną, tam, gdzie powiedziano (pusta klasa, krużganek), albo przysyła Rosalind, która kładzie złożoną kartę na dłoni i nie mówi ani słowa. Karta bez zegarka nie robi nic (decyzja MG): to wskazówka i pokusa, nie narzędzie. Dopisek na odwrocie jest czytelny bez testu: co da się wziąć, da się też oddać (W7.2). Cassian, jeśli zobaczy dopisek, blednie: „Myślałem, że to ozdobnik”. Zegarek pozostaje przy Cassianie i nadal tyka; jeśli nie jest zdemaskowany, zegar kradzieży biegnie dalej, a zakończenie „moc” jest w tej sesji niedostępne, dopóki postacie nie zdobędą zegarka (kradzież w pokoju wspólnym, targ drugi raz). Droga do pracowni nie zależy od karty."
+  flagi_ustaw: [flaga.karta-u-graczy, flaga.lokalizacja-pracowni, flaga.cassian-los]
+  prowadzi_do: s1.scena.09
+```
+
+```yaml
+rozgalezienie:
+  id: s1.scena.08.rozgalezienie.awaryjne-karta-nie-przyszla
+  rodzaj: awaryjne
+  warunek: "Cassian obiecał kartę (targ, wygrany pojedynek, litość), ale do ciszy nocnej jej nie przyniósł."
+  wymaga_flag: []
+  wyklucza_flagi: []
+  efekt: "Słowo Vane'a nie jest unieważnione: Cassian jest po prostu przerażony (Wren zatrzymał go w korytarzu, ręka mu drży, nie umie jej wyjąć z kufra). Przed ciszą nocną pojawia się Rosalind, bo ktoś musi to dokończyć: wsuwa kartę w złożonej serwetce i odchodzi. Jeśli Rosalind nie ma w pobliżu, Cassian zostawia kartę w uzgodnionym miejscu, gdy nikt nie patrzy; w razie braku miejsca karta znajduje się rano w kieszeni szaty postaci, która z nim rozmawiała (świat dotrzymuje słowa, ale Cassian jest wtedy zawstydzony). Po drodze postacie nic nie tracą: lokalizacja pracowni już padła, a na W7 mają jeszcze tabliczkę i Ansela. Brak karty w nocy nie zamyka sceny 09."
+  flagi_ustaw: [flaga.karta-u-graczy]
+  prowadzi_do: s1.scena.09
+```
+
+```yaml
+rozgalezienie:
+  id: s1.scena.08.rozgalezienie.awaryjne-zniszczenie-wczesne
+  rodzaj: awaryjne
+  warunek: "Postacie niszczą zegarek od razu, zanim Cassian cokolwiek powie o pracowni."
+  wymaga_flag: []
+  wyklucza_flagi: []
+  efekt: "Nie karzemy decyzji. Czytaj tekst 6, a zaraz potem tekst 5: Cassian, który nie ma już nic do ukrycia ani do obrony, siada i mówi sam, trzema zdaniami: „Biblioteka. Ostatni rząd.”, księga, „wszystko się obudziło”. Gablotę dopowiada tylko, jeśli ktoś zapyta („Ona nie daje się brać”). Prosi o jedno: „Nie mówcie Wrenowi. Nie mówcie ojcu.” Zegarek jest zniszczony, a zakończenie „moc” przepada; karta zostaje w kufrze Cassiana jako wskazówka z dopiskiem na odwrocie (jeśli ją przyniesie, W7.2 pozostaje tylko wskazówką, bo karta bez zegarka nie działa). Ansel migocze, część godzin ofiar wraca, godzina drużyny nie wraca (kotwica Ansela). Cassian jest wolny od Chwil, wyczerpany, z ulgą mieszającą się ze strachem. Jeśli postacie okażą mu troskę, zostaje sojusznikiem; jeśli triumfują, rywalem."
+  flagi_ustaw: [flaga.zegarek-cassiana, flaga.cassian-zdemaskowany, flaga.lokalizacja-pracowni, flaga.cassian-los]
+  prowadzi_do: s1.scena.09
+```
+
+```yaml
+rozgalezienie:
+  id: s1.scena.08.rozgalezienie.awaryjne-skrzydlo-szpitalne
+  rodzaj: awaryjne
+  warunek: "Postać nie wstaje po pojedynku albo szarpaninie, jest Shaken (ranna) albo jest wyczerpana bardziej, niż stół chce grać."
+  wymaga_flag: []
+  wyklucza_flagi: []
+  efekt: "Wren (dialog wren-dosyc: „Skrzydło szpitalne. Ty i ty, pod ramiona. Już.”) odsyła postać z dwoma towarzyszami; reszta idzie do dormitoriów. Nie ma wyrzucenia ze szkoły ani zatrzymania gry: pielęgniarka sprawdza postać, każe odpocząć najwyżej do ciszy nocnej i pozwala wrócić do dormitorium. Gracz bez postaci przy stole nie czeka: gra uczniów, którzy tam siedzą (Maisie Lock z kwadransem „bez kawałka”, Gideon Pratt) i dzięki temu ma okazję usłyszeć o dziwnych stratach godzin. Jeśli w skrzydle leży ofiara Cassiana, każdy tykający zegarek w sali na chwilę przyspiesza (ziarno W0). Drained z zabranej godziny trwa do śniadania i dotyczy nocnych testów w 09 i 12."
+  flagi_ustaw: [flaga.wren-podejrzewa]
+  prowadzi_do: s1.scena.09
+```
+
 ## Drabinka podpowiedzi
 
-TODO.
+*Dotyczy głównego zadania sceny: skąd postacie wiedzą, że źródłem jest zegarek (W4), i jak dojdą do pracowni (W5). Używaj stopni po kolei, tylko gdy stół naprawdę stoi; każdy stopień to świat, który coś robi, a nie MG, który prowadzi za rękę. Zasada trzech dróg: do lokalizacji pracowni są cztery niezależne drogi (Cassian, rejestr pani Pince, śledzenie odczytów, Ansel), a zegar kradzieży = 4 jest siatką, gdy żadna nie zadziała.*
+
+```yaml
+podpowiedzi:
+  id: s1.scena.08.podpowiedzi
+  szturchniecie: "Cassian sam dotyka kieszonki przy słowie „zegarek” i gwiżdże pięć nut. Rosalind pociera kciukiem palec i wzdryga się, gdy on się wzdryga. Z lochów, we wnęce pod zegarem, tykanie wydaje się odrobinę za szybkie. Opisz to bez komentarza i zapytaj gracza: „Co robisz, gdy on to robi?”."
+  wieksza: "Pani Pince na pulpicie przy wejściu zostawiła rejestr: „V., trzykrotnie ten sam tom o zegarmistrzostwie, Dział Ksiąg Zakazanych (ostatni rząd)”, albo Ansel, jeśli jest przy postaciach: „Pani profesor nosiła książki do najdalszego regału”. Cassian, nawet gdy milczy, mimowolnie zaciska lewą dłoń w pięść przy słowie „biblioteka”. Rosalind, na odchodnym i tylko po szczerej trosce: „On nie śpi. Nakręca ten zegarek nocą przy kominku.”"
+  bezposrednia: "Cassian siada i mówi: „Biblioteka. Ostatni rząd.” i dodaje o księdze („wszystko się obudziło”) i gablocie („ona nie daje się brać”), bez targu, bo nie ma już sił na uprzejmość. Jeśli nic nie zadziałało, MG mówi wprost, poza fikcją: „Pracownia jest w ostatnim rzędzie Działu Ksiąg Zakazanych, a wejść można tylko nocą, bez zgody”, i pyta, jak postacie się tam dostaną."
+```
 
 ## Konsekwencje
 
-TODO. Zapisz: `flaga.cassian-los`, `flaga.zegarek-cassiana`, `flaga.karta-u-graczy`, `flaga.lokalizacja-pracowni`, `flaga.sekret-poruszony`, `flaga.wren-podejrzewa`; czy zegar kradzieży stanął; komu Cassian zabrał godzinę po przegranej.
+Zapisz po scenie (przed Punktem pauzy 3):
+- `flaga.cassian-los`: nie-skonfrontowany, sojusznik (litość), dluznik (targ), rywal (upokarzający targ, złamana umowa, triumf po zniszczeniu), uciekl (pościg albo milczenie po oskarżeniu), ranny (tylko gdy stół zagrał ciężki wariant bójki), martwy (nie w tej scenie).
+- `flaga.zegarek-cassiana`: u-cassiana, u-graczy (kto go ma, w czyjej kieszeni), zniszczony, skonfiskowany (kto: Wren, McGonagall albo Filch).
+- `flaga.karta-u-graczy` (czy karta jest już przy postaciach, czy dopiero przyjdzie przed ciszą nocną albo przez Rosalind) i czy postacie widziały dopisek na odwrocie.
+- `flaga.lokalizacja-pracowni` (czy padła i z czyich ust: Cassian, rejestr, odczyty, Ansel).
+- `flaga.cassian-zdemaskowany` (czy powiedziano mu w twarz), `flaga.sekret-poruszony` (czy sięgnął po sekret z 4. roku i czy to blef), `flaga.wren-podejrzewa` (donos, szlaban, skrzydło szpitalne), `flaga.dumbledore-powiadomiony`.
+- `flaga.s1-zegar-kradziezy`: czy stanął i na ilu (kradzież, pojedynek wygrany, zniszczenie, skonfiskowanie zatrzymują zegar; Cassian z zegarkiem i bez rozmowy go nie zatrzymuje).
+- Pojedynek: kto z postaci wygrał albo przegrał, komu Cassian zabrał godzinę (Drained do śniadania, +3 do trudności w scenach 09 i 12), kto był sekundantem, wydane Story Points (nie dubluj punktu z sceny 04), kto jest ranny (Shaken) albo spędził wieczór w skrzydle szpitalnym.
+- Szlaban za przemoc (tylko kolor, wtorek wieczorem), uwaga Wrena o ocenach Vane'a (czy padła), słowa Cassiana na pożegnanie („Biblioteka. Ostatni rząd.” albo cisza).
+- Do sceny 09: czy postacie mają zegarek i kartę razem (zakończenie „moc”), a w scenie 12: kto widział zabranie godziny i czy Rosalind pamięta, kto pierwszy wyciągnął różdżkę.
