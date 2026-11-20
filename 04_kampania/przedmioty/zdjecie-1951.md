@@ -24,7 +24,7 @@ Czarno-białe, ruchome zdjęcie w prostej drewnianej ramce, za szkłem gabloty n
 Na zdjęciu, na szczycie wieży, noc i gwiazdy rozmyte w smugi:
 - **Kobieta przy teleskopie**, w ciemnej szacie i szalu, z włosami upiętymi wysoko. Raz po raz prostuje się znad okularu i z uśmiechem tłumaczy coś komuś, kogo nie widać.
 - **Obok niej bardzo wysoki, chudy prefekt** z odznaką Ravenclawu, lekko przygarbiony. Trzyma jej lunetę jak coś cennego i patrzy na nią, nie w obiektyw.
-- **(DO DECYZJI MG, wariant roboczy: tak)** Kobieta co kilka chwil zerka w bok, **poza kadr**, na wysokość dziecka, jakby ktoś tam stał. Prefekt tam nie patrzy.
+- Kobieta co kilka chwil zerka w bok, **poza kadr**, na wysokość dziecka, jakby ktoś tam stał. Prefekt tam nie patrzy.
 
 ## Działanie
 
@@ -47,7 +47,7 @@ Bez testów własnych. Zauważenie zdjęcia obsługuje test w karcie [[miejsce.b
 
 **Prawda.** Kobieta to profesor Imelda Marrow, prefekt to [[npc.silas-wymark]], wtedy siódmoroczny asystent Marrow w obserwatorium. Zdjęcie zrobiono jesienią 1951, przed śmiercią Ansela albo tuż po niej; MG nie musi tego rozstrzygać w Sesji 1.
 
-**DO DECYZJI MG: czy Marrow na zdjęciu zerka poza kadr, jakby ktoś tam stał?** Wariant roboczy: **tak, jako cichy ślad Ansela**. Ansel był wtedy pierwszorocznym na lekcjach Marrow, ale nikt go nie pamięta, więc na zdjęciu „go nie ma”, a ona i tak na niego patrzy. Ten sam wariant zapisano już w teście zdjęcia w karcie [[miejsce.biblioteka]]; jeśli MG odrzuci wariant, trzeba poprawić oba pliki. Gracze nie dostają wyjaśnienia; to dreszcz, nie wskazówka obowiązkowa.
+**Zerkanie poza kadr (przyjęte przez MG 2026-11-20).** Marrow na zdjęciu zerka poza kadr, jakby ktoś tam stał: to cichy ślad Ansela. Ansel był wtedy pierwszorocznym na lekcjach Marrow, ale nikt go nie pamięta, więc na zdjęciu „go nie ma”, a ona i tak na niego patrzy. Ten sam opis ma test zdjęcia w karcie [[miejsce.biblioteka]]. Gracze nie dostają wyjaśnienia; to dreszcz, nie wskazówka obowiązkowa.
 
 **Nie mylić z innym zdjęciem.** Prof. Fairweather ma w szufladzie **inne** zdjęcie: swojej klasy z 1951 z pustym miejscem w pierwszym rzędzie (ziarno na Sesję 2). To zdjęcie z gabloty dotyczy Marrow i Wymarka.
 

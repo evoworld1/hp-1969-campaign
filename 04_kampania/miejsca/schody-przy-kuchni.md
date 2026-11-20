@@ -50,7 +50,7 @@ Kamienne schody schodzą z gwaru Sali Wejściowej w ciszę. Na dole korytarz jes
 
 **Detal do wyboru MG (kolor, nie wskazówka obowiązkowa):** schody mają dwanaście stopni, ale Ansel zawsze doliczy się trzynastu. Jeśli gracze policzą sami, wyjdzie im dwanaście. To zapowiedź „godziny, której nie ma” (W6), niczego nie rozstrzyga.
 
-Ansel pamięta tylko polecenie Marrow „czekaj przy schodach”. Kiedy i przy których schodach je usłyszał, nie wie; trzyma się tych, bo stąd blisko do domu. Okoliczności polecenia z 1951 roku nie są jeszcze ustalone (Sesja 2: dziennik albo Szara Dama).
+Ansel pamięta tylko polecenie Marrow „czekaj przy schodach”. Kiedy i przy których schodach je usłyszał, nie wie; trzyma się tych, bo stąd blisko do domu. Okoliczności polecenia z 1951 roku nie są jeszcze ustalone (Sesja 2: notatnik Marrow albo Szara Dama).
 
 ## Testy
 

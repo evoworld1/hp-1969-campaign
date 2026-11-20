@@ -20,7 +20,7 @@ aktualizacja: 2026-11-20
 ---
 ## W skrócie
 
-Surowa, sprawiedliwa nauczycielka Transmutacji. Podpisuje przepustkę na wieczór w Dziale Ksiąg Zakazanych, gdy prośba jest rozsądna („do pracy domowej o dryfie”; `flaga.biblioteka-legalnie`). Jeśli Filch albo pani Pince skonfiskują dziennik, trafia on do niej (rozgałęzienie „skonfiskowany”).
+Surowa, sprawiedliwa nauczycielka Transmutacji. Podpisuje przepustkę na wieczór w Dziale Ksiąg Zakazanych, gdy prośba jest rozsądna („do pracy domowej o dryfie”; `flaga.biblioteka-legalnie`). Jeśli Filch albo pani Pince skonfiskują notatnik Marrow, trafia on do niej (rozgałęzienie „skonfiskowany”).
 
 ## Wygląd i sposób bycia
 
@@ -48,7 +48,7 @@ Kłamstwo poznaje po pierwszym zdaniu i daje kłamcy jeszcze jedną szansę, zan
 |---|---|
 | Rozsądna, uczciwa prośba | Przepustka na wieczór do zamknięcia biblioteki. |
 | Kłamstwo | Brak przepustki i uważne spojrzenie przez kolejny tydzień. |
-| Prośba o zwrot skonfiskowanego dziennika | Nie odda bez wyjaśnienia; prawda, opowiedziana w całości, może ją przekonać do rozmowy z dyrektorem (Sesja 2). |
+| Prośba o zwrot skonfiskowanego notatnika | Nie odda bez wyjaśnienia; prawda, opowiedziana w całości, może ją przekonać do rozmowy z dyrektorem (Sesja 2). |
 
 ## Mechanika
 

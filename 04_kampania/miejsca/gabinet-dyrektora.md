@@ -35,18 +35,18 @@ Schody kręcą się pod wami same, cicho, jak koło młyńskie, i wynoszą was p
 
 **Stan zmienny.**
 - Przed `flaga.godzina-stracona`: postacie nie mają z czym przyjść poza plotką; dyrektor częstuje cukierkiem i odsyła ich na lekcje.
-- Jeśli `flaga.dumbledore-powiadomiony` już ustawiona: drugi raz strażnik ich nie wpuszcza bez nauczyciela; Dumbledore „jest poza zamkiem” (zajmują go większe sprawy). Wyjątek: w scenie 10 (rozgałęzienie „dumbledore”) dyrektor wraca i przyjmuje dziennik.
+- Jeśli `flaga.dumbledore-powiadomiony` już ustawiona: drugi raz strażnik ich nie wpuszcza bez nauczyciela; Dumbledore „jest poza zamkiem” (zajmują go większe sprawy). Wyjątek: w scenie 10 (rozgałęzienie „dumbledore”) dyrektor wraca i przyjmuje notatnik Marrow.
 - Jeśli `flaga.marrow-imie-znane`: przy nazwisku Marrow Dumbledore na moment przestaje się uśmiechać; nic nie wyjaśnia.
-- Po `flaga.trzynasta-wybila` (rozgałęzienie „dumbledore”): przyjmuje dziennik i zamyka go w szafce; Sesja 2 zaczyna się od tego, że „zapamiętał”.
+- Po `flaga.trzynasta-wybila` (rozgałęzienie „dumbledore”): przyjmuje notatnik i zamyka go w szafce; Sesja 2 zaczyna się od tego, że „zapamiętał”.
 
-**Odczyt do mapy dryfu (propozycja robocza):** 0 minut, idealnie, jak w Wieży Zegarowej, ale z innego powodu: magia czasu nie dotyka dyrektora i jego najbliższego otoczenia (decyzja MG z 2026-11-19 rozciągnięta na gabinet, **do potwierdzenia**). Uwaga: dwa „zera” w zamku mogą zmylić graczy; to w porządku, bo oba miejsca są ślepymi zaułkami.
+**Odczyt do mapy dryfu (przyjęte przez MG 2026-11-20):** 0 minut. Wszystkie zegary w gabinecie chodzą idealnie równo, co do sekundy. **Graczom nikt tego nie wyjaśnia**: ani dyrektor, ani portrety. Roboczy powód tylko dla MG (nie potwierdzony): ten sam, dla którego Dumbledore nie widzi Ansela (magia czasu go nie dotyka, decyzja MG z 2026-11-19); nie mów tego przy stole. Uwaga: dwa „zera” w zamku (tu i w Wieży Zegarowej) mogą zmylić graczy; to w porządku, bo oba miejsca są ślepymi zaułkami.
 
 **Zagrożenia i kryjówki.** Brak zagrożeń fizycznych. Koszt to czas i to, że dyrektor nie rozwiąże sprawy za postacie. Portrety dyrektorów słuchają i plotkują między ramami (kolor na Sesję 2). Kryjówek brak: kto tu wchodzi, jest widziany.
 
 ### Do weryfikacji
 - Feniks Fawkes w gabinecie w 1969: niepewne (kanon pokazuje go w latach 90.); MG może go pominąć albo dać jako ptaka śpiącego na żerdzi.
 - Kamienny strażnik na hasło w 1969: niepewne co do lat, przyjmujemy, że był.
-- Zero dryfu w gabinecie to nasza propozycja (zob. wyżej).
+- Zero dryfu w gabinecie: nasze, przyjęte przez MG 2026-11-20 (bez wyjaśnienia graczom).
 
 ## Ukryte
 

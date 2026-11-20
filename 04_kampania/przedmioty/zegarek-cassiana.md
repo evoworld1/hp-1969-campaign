@@ -33,7 +33,8 @@ Zegarek należał do dziadka Cassiana. Wskazówki stanęły w godzinie jego śmi
 - Godzina drużyny ginie w scenie 03 **zawsze**, także gdy zegarek jest już u postaci. Wtedy godzina wpada do zegarka w ich kieszeni, a nie do Cassiana (siatka bezpieczeństwa 1). Na Obronie (04) Cassian jest wtedy zwyczajny, przegrywa pokaz i maca pustą kieszonkę.
 - Zegar kradzieży (`flaga.s1-zegar-kradziezy`) nie rośnie, dopóki zegarek nie jest u Cassiana. Zatrzymuje się na stałe, gdy zegarek trafia do graczy, zostaje skonfiskowany albo zniszczony.
 - Skonfiskowany zegarek (np. w szufladzie Flitwicka) nadal przyjmuje wyciek. Cassian próbuje wtedy namówić postacie, żeby pomogły mu go odzyskać.
-- Zniszczony zegarek kończy podbieranie, ale skradzione godziny nie wracają (karta [[npc.cassian-vane]]).
+- Zniszczony zegarek kończy podbieranie, a **część skradzionych godzin wraca do ofiar**; [[npc.ansel-dray]] na chwilę migocze, gdziekolwiek jest (decyzja MG 2026-11-20; szczegóły w „Dla MG”).
+- Karta Pożyczającego działa tylko razem z tym zegarkiem (decyzja MG 2026-11-20).
 
 **Co postacie mogą z nim zrobić w Sesji 1.**
 - **Zauważyć go** przy śniadaniu (01): Cassian patrzy na stojące wskazówki, jakby sprawdzał godzinę (W0).
@@ -76,9 +77,16 @@ Uwaga dla mechanika: kandydaci na `rzut` to `1D10 + Speed + Concealment` albo `1
 
 **Cassian i zegarek.** To jego słaby punkt i jego wstyd naraz: prezent od ojca, którego się boi. Odebranie zegarka wstrząsa nim bardziej niż przegrana. Litość i rozmowa o dziadku mogą go złamać szybciej niż groźba.
 
-**DO DECYZJI MG: czy zniszczenie zegarka dotyka Ansela?** Pytanie nowe, zgłoszone w raporcie dla Reżysera. Wariant roboczy: **Ansel tylko na chwilę migocze** (brzegi się strzępią, głos dochodzi jak z innego pokoju) i wraca do siebie przed końcem sceny; trwałego skutku brak. Do decyzji MG nie przypisuj zniszczeniu zegarka żadnego trwałego skutku dla Ansela.
+**Zniszczenie zegarka (decyzja MG 2026-11-20).** Gdy zegarek pęka (zaklęcie, młotek, rzucony o kamień; liczby ustala mechanik), dzieją się trzy rzeczy naraz:
+- **Ansel migocze**, gdziekolwiek jest: brzegi się strzępią, głos dochodzi jak z innego pokoju. Wraca do siebie przed końcem sceny; trwałego skutku brak.
+- **Część skradzionych godzin wraca do ofiar.** Przykład do pokazania przy stole: [[npc.maisie-lock]] nagle pamięta swój kwadrans i zaczyna płakać ze śmiechu na korytarzu; drugoroczniak, który „przespał lekcję”, przypomina sobie, co na niej było. Wracają godziny innych ofiar, nie wszystkie.
+- **Zegar kradzieży staje** na stałe (`flaga.zegarek-cassiana` = `zniszczony`).
 
-**DO DECYZJI MG: czy postacie mogą same użyć zegarka (razem z kartą)?** Zob. [[przedmiot.karta-pozyczajacego]]. Wariant roboczy: tylko oba przedmioty naraz, i tylko jako wejście w rozgałęzienie „moc”.
+Wariant roboczy (pytanie do MG, graf „Otwarte po fazie B2b”, pytanie 2): **godzina drużyny nie wraca**, bo jest wpleciona w Ansela jako jego kotwica. Postacie nie odzyskują wspomnień ze straconej godziny. Gdyby MG wybrał inaczej, Ansel słabnie przy zniszczeniu mocniej.
+
+Cassian przy zniszczeniu: najpierw ulga (koniec), zaraz potem strach (ojciec, dziadek). Jeśli to postacie zniszczyły zegarek bez jego zgody, zapamięta to na długo.
+
+**Użycie zegarka razem z kartą (decyzja MG 2026-11-20).** Tylko oba przedmioty naraz. Postacie, które ich użyją, wchodzą w zakończenie „moc” z przeglądu scenariusza.
 
 **Powiązane flagi:** `flaga.zegarek-cassiana`, `flaga.s1-zegar-kradziezy`, `flaga.sygnal-cassiana-nazwany`, `flaga.godzina-stracona`, `flaga.cassian-zdemaskowany`, `flaga.cassian-los`, `flaga.rejestr-godzin`.
 

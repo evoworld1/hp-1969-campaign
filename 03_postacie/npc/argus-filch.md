@@ -21,7 +21,7 @@ aktualizacja: 2026-11-20
 ---
 ## W skrócie
 
-Nowy woźny, gorliwy, podejrzliwy, nie zna jeszcze wszystkich tajnych przejść (decyzja MG). W scenie 01 przegania kogoś z sali. Nocą patroluje (scena 09, wariant bez zgody; kandydat na Zegar Północy), zwabiony trzynastym biciem może złapać postacie z dziennikiem (`flaga.filch-zlapal`, scena 10). W scenie 12: „Zegarmistrz był w czwartek. Znowu” (wskazówka W8) i księga szlabanów po poprzedniku, z której z satysfakcją czyta stare wpisy.
+Nowy woźny, gorliwy, podejrzliwy, nie zna jeszcze wszystkich tajnych przejść (decyzja MG). W scenie 01 przegania kogoś z sali. Nocą patroluje (scena 09, wariant bez zgody; kandydat na Zegar Północy), zwabiony trzynastym biciem może złapać postacie z notatnikiem Marrow (`flaga.filch-zlapal`, scena 10). W scenie 12: „Zegarmistrz był w czwartek. Znowu” (wskazówka W8) i księga szlabanów po poprzedniku, z której z satysfakcją czyta stare wpisy.
 
 ## Wygląd i sposób bycia
 

@@ -20,7 +20,7 @@ aktualizacja: 2026-11-20
 ---
 ## W skrócie
 
-Surowa bibliotekarka, ustępuje wobec szczerej ciekawości. Szczera prośba może dać zgodę na wieczór w Dziale Ksiąg Zakazanych do zamknięcia o dziewiątej (`flaga.biblioteka-legalnie`). W scenie 12 skarży się na „chłopca od Slughorna”, który trzy razy prosił o ten sam tom o zegarmistrzostwie (W5, droga do pracowni; dostępne też przy legalnej prośbie). W wariancie wieczornym sceny 09 zagląda między regały i może złapać postacie z dziennikiem (scena 10, `flaga.filch-zlapal`).
+Surowa bibliotekarka, ustępuje wobec szczerej ciekawości. Szczera prośba może dać zgodę na wieczór w Dziale Ksiąg Zakazanych do zamknięcia o dziewiątej (`flaga.biblioteka-legalnie`). W scenie 12 skarży się na „chłopca od Slughorna”, który trzy razy prosił o ten sam tom o zegarmistrzostwie (W5, droga do pracowni; dostępne też przy legalnej prośbie). W wariancie wieczornym sceny 09 zagląda między regały i może złapać postacie z notatnikiem Marrow (scena 10, `flaga.filch-zlapal`).
 
 ## Wygląd i sposób bycia
 
@@ -48,7 +48,7 @@ Krzywi się na każdy okruch i każdy zagięty róg. Przy ostatnim rzędzie dzia
 |---|---|
 | Szczera ciekawość | Zgoda na wieczór w dziale do dziewiątej i wgląd w rejestr wypożyczeń. |
 | Kłamstwo albo pochlebstwo | Zimne „nie” i obserwacja przez cały wieczór. |
-| Hałas lub zniszczona książka | Wyprasza z biblioteki, zgłasza opiekunowi domu; przy dzienniku: konfiskata (siatka bezpieczeństwa 4). |
+| Hałas lub zniszczona książka | Wyprasza z biblioteki, zgłasza opiekunowi domu; przy notatniku Marrow: konfiskata (siatka bezpieczeństwa 4). |
 
 ## Mechanika
 

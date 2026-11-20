@@ -35,7 +35,7 @@ Biblioteka wieczorem jest wysoka i ciemna, a światło lamp kończy się na trze
 - Jeśli `flaga.przepustka-flitwicka` albo `flaga.biblioteka-legalnie`: pani Pince wpuszcza do działu bez testu, ale co jakiś czas zagląda między regały; zamknięcie o dziewiątej to twardy limit.
 - Jeśli `flaga.lokalizacja-pracowni`: postacie idą prosto do ostatniego rzędu. Bez niej trafiają tu drogą awaryjną (rejestr, drżące odczyty, Ansel).
 - Gdy `flaga.s1-zegar-kradziezy` = 4: Cassian jest tu przed postaciami, nocą; przycisk-klepsydra jest ciepły, a drzwi już raz otwarte (siatka bezpieczeństwa 6).
-- Po `flaga.trzynasta-wybila`: bicie zwabia Filcha (nocą) albo panią Pince (wieczorem). Złapane postacie z dziennikiem tracą go (`flaga.filch-zlapal`, `flaga.dziennik-miejsce` = `skonfiskowany`).
+- Po `flaga.trzynasta-wybila`: bicie zwabia Filcha (nocą) albo panią Pince (wieczorem). Złapane postacie z notatnikiem Marrow tracą go (`flaga.filch-zlapal`, `flaga.dziennik-miejsce` = `skonfiskowany`).
 
 **Odczyt do mapy dryfu (propozycja robocza):** czytelnia −2 minuty, gładko; w ostatnim rzędzie działu odczyt lekko drży (Cassian tędy chodził). Tempus przy samej ścianie pokazuje tarczę z trzynastoma kreskami (W6, scena 09). Liczby zatwierdza architekt-fabuly.
 

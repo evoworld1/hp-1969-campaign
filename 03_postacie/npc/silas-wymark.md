@@ -25,7 +25,7 @@ Jesienią 1951 roku (rok szkolny 1951/52) zdolny siódmoroczny prefekt Ravenclaw
 
 **Rola w Sesji 1: tylko ślad** (decyzja MG z 2026-11-20). Nikt w Sesji 1 nie wymawia jego nazwiska. Gracze mogą zauważyć: inicjały „S.W.” obok kredowego podpisu Marrow na ścianie pracowni (09) i zdjęcie z 1951 w gablocie przy bibliotece, na którym Marrow stoi przy teleskopie, a obok niej wysoki prefekt bez podpisu (09 albo przy okazji wizyty w bibliotece w scenie 12). W wędrówkach (12) prof. Fairweather wspomina „wysokiego prefekta, którego wołaliśmy Bocian”. Zob. sekcja „Sygnały”.
 
-**Dalej.** Sesja 2: trop przez Crake'a, zdjęcie i dziennik. Sesja 3: jedna z czterech dróg finału to „oddać Patronowi”.
+**Dalej.** Sesja 2: trop przez Crake'a, zdjęcie i notatnik Marrow. Sesja 3: jedna z czterech dróg finału to „oddać Patronowi”.
 
 ## Wygląd i sposób bycia
 
@@ -74,7 +74,7 @@ W Sesji 1 Wymark nie spotyka graczy (decyzja MG: tylko ślad). Jedyna „reakcja
 | Uprzejmość | Odpowiada uprzejmością i ciekawością. Wypytuje o pracownię, udając dawnego ucznia Marrow, który „chciałby wiedzieć, co się z nią stało”. |
 | Groźba | Uśmiecha się. Uczniowie nie są dla niego zagrożeniem; groźba mówi mu tylko, ile wiedzą. |
 | Przekupstwo | Sam przekupuje: obiecuje wiedzę (jak uratować Ansela), której nie ma. |
-| Kłamstwo | Dobrze wyczuwa kłamstwo, ale lekceważy młodych, więc dobrze opowiedziane kłamstwo o tym, gdzie jest dziennik, może go na chwilę zwieść. |
+| Kłamstwo | Dobrze wyczuwa kłamstwo, ale lekceważy młodych, więc dobrze opowiedziane kłamstwo o tym, gdzie jest notatnik Marrow, może go na chwilę zwieść. |
 | Magia | Dorosły, wykształcony czarodziej; w otwartym starciu przewyższa uczniów. Unika walki w Hogwarcie. |
 | Przemoc | Wycofuje się i wraca przez innych (Crake, ktoś z kręgu „pana Notta”). |
 | Ignorowanie | Działa dalej przez Crake'a. Kampania toczy się bez niego, ale coraz szybciej. |

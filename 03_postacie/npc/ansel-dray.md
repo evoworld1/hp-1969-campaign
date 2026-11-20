@@ -27,7 +27,9 @@ Jedenastoletni Puchon w szacie sprzed osiemnastu lat. Zginął jesienią 1951 ro
 
 **Rola w Sesji 1.** Odbicie w szkle zegara (scena 01), mignięcie na schodach (03), pierwsza rozmowa przy schodach koło kuchni (05), towarzysz przy jednej wskazówce (06, 07, 12), budzik przy zegarze kradzieży 4, blednięcie przy trzynastym biciu (10). Każda postać gracza musi w tej sesji z nim porozmawiać (decyzja MG z 2026-11-19).
 
-**Dalej.** Sesja 2: dziennik Marrow wyjaśnia kotwicę; Szara Dama opowiada pełną historię 1951 roku (Gruby Mnich w Sesji 1 ma tylko mgliste przeczucie; decyzja MG). Sesja 3: oddanie godziny może odebrać Anselowi kotwicę (wniosek architekta, **nie** decyzja MG).
+**Teaser (wariant roboczy, pytanie do MG).** Część graczy mogła spotkać Ansela przed kampanią w escape roomie na szczycie małej wieży obserwacyjnej: dał im jedną radę i się nie przedstawił. Jeśli rozpoznają go w scenie 05 (albo już w odbiciu w 01), Ansel **nie pamięta tamtego spotkania, ale ma wrażenie, że ich zna**: przygląda się dłużej, przechyla głowę, uśmiecha się niepewnie. Nie potwierdza i nie zaprzecza. Do decyzji MG nie mówi niczego więcej.
+
+**Dalej.** Sesja 2: notatnik Marrow daje pierwszy trop do kotwicy (pełniej razem z zaklętą księgą); Szara Dama opowiada pełną historię 1951 roku (Gruby Mnich w Sesji 1 ma tylko mgliste przeczucie; decyzja MG). Sesja 3: oddanie godziny może odebrać Anselowi kotwicę (wniosek architekta, **nie** decyzja MG).
 
 ## Wygląd i sposób bycia
 
@@ -47,6 +49,9 @@ Przykładowe kwestie:
 - „Przepraszam… czy pan wie, która jest godzina? Pani profesor Marrow kazała mi czekać przy schodach i chyba czekam już bardzo długo.”
 - „Widziałem panią w zegarze. Wszyscy w zegarach są tacy daleko.” (do postaci z odbicia, gdy `flaga.ansel-odbicie`)
 - „Wy też się wtedy baliście, prawda? Tak samo jak ja na wieży.” (okruch wspólnego sekretu z 4. roku; sam nie wie, skąd to wie)
+- „Chyba… chyba już kiedyś z panią rozmawiałem? Nie wiem kiedy. Ja dużo czekam, to dużo widzę.” (gdy gracz rozpozna go z teasera; wariant roboczy)
+- „Pani profesor nigdy nic z szafki nie brała. Zawsze najpierw coś jej dawała. Mówiła, że szafka jest uczciwa: najpierw chce dostać.” (powiedzonko Marrow, droga W7.3 do gabloty; w scenie 05 lub 12, gdy ktoś pyta o panią profesor, albo w pracowni przy gablocie; ostateczne brzmienie da dialogista)
+- „Nie! Nie ruszajcie jej, proszę, ona się złości!” (przy drugim dotknięciu zaklętej księgi, W10.3)
 
 ## Czego chce
 
@@ -58,7 +63,8 @@ Przykładowe kwestie:
 
 - Nie żyje od jesieni 1951 roku: spadł z Wieży Zegarowej. Nie pamięta upadku. Pamięta tylko, że było wysoko i że dzwon był bardzo blisko.
 - Jest „utkany” ze wspólnej godziny postaci graczy (kotwica, decyzja MG z 2026-11-20). Dlatego nosi okruchy ich przeszłości, w tym wspólnego sekretu z 4. roku, i może je powtórzyć, nie wiedząc skąd.
-- **Gdy prawda wyjdzie (Sesja 2, dziennik):** Ansel nie rozpacza od razu. Pyta, czy „to znaczy, że mama już nie czeka”. Jeśli postacie powiedzą mu wprost, że umarł, blednie na resztę sceny; przy wysokiej Więzi potrafi to przyjąć i zaczyna zadawać własne pytania o Marrow. Sposób, w jaki postacie to powiedzą, waży więcej niż sam fakt.
+- Pamięta z 1951 drobiazgi o pracowni pani profesor: szafkę, której „najpierw trzeba coś dać”, i książkę, która świeci i której nie wolno dotykać. Nie wie, skąd to pamięta ani kiedy tam był.
+- **Gdy prawda wyjdzie (Sesja 2, notatnik Marrow):** Ansel nie rozpacza od razu. Pyta, czy „to znaczy, że mama już nie czeka”. Jeśli postacie powiedzą mu wprost, że umarł, blednie na resztę sceny; przy wysokiej Więzi potrafi to przyjąć i zaczyna zadawać własne pytania o Marrow. Sposób, w jaki postacie to powiedzą, waży więcej niż sam fakt.
 
 ## Sygnały
 
@@ -66,7 +72,8 @@ Przykładowe kwestie:
 - Ręka przechodzi mu przez beczkę przy wejściu do Hufflepuffu, przez klamkę, przez talerz. Gdy coś chce podnieść, marszczy brwi i próbuje drugi raz, i czasem mu się udaje.
 - Przy każdym biciu zegara wzdryga się i patrzy w górę, w stronę wieży.
 - Przechodzący uczniowie go mijają. Ofiary Cassiana (np. [[npc.maisie-lock]]) zatrzymują się, mrugają i idą dalej: „Zdawało mi się…”.
-- Gdy słabnie (zegar kradzieży rośnie albo trzynaste bicie), brzegi postaci się „strzępią”, a głos dochodzi jakby z innego pokoju.
+- Gdy słabnie (zegar kradzieży rośnie albo trzynaste bicie), brzegi postaci się „strzępią”, a głos dochodzi jakby z innego pokoju. To samo, tylko na chwilę, gdy ktoś niszczy zegarek Cassiana (decyzja MG 2026-11-20).
+- W pracowni nie podchodzi do pulpitu z księgą bliżej niż na kilka kroków. Gdy ktoś jej dotyka, cofa się; przy drugim dotknięciu krzyczy, żeby przestali.
 
 ## Reakcje
 
@@ -100,4 +107,6 @@ statystyki:
 
 - Więź z Anselem to wciąż **kandydat** na tracker (`tracker.wiez-ansel`), nie przyjęta mechanika. Opisy reakcji zakładają, że MG ją prowadzi; bez niej wystarczy znacznik kontaktu z grafu.
 - Kwestie o „profesorze Dumbledorze od transmutacji” i „dyrektorze Dippecie” zakładają, że w 1951 Dumbledore jeszcze uczył, a dyrektorem był Dippet. Według [[kanon.kadra-hogwartu-1969]] to `niepewne` dla 1951 (pewne dla lat 40.). Jeśli strażnik kanonu tego nie potwierdzi, zastąpić neutralną kwestią („pan profesor od transmutacji”).
+- Reakcja na rozpoznanie z teasera („ma wrażenie, że ich zna”) to wariant roboczy architekta; pytanie do MG (graf Sesji 1, „Otwarte po fazie B2b”, pytanie 4).
+- Wspomnienia Ansela o pracowni (szafka, świecąca książka) to szczegół Twórcy NPC, potrzebny dla W7.3 i W10.3; zakłada, że Ansel bywał w pracowni w 1951. Do potwierdzenia przez MG.
 - Temat śmierci dziecka: przed grą MG ustala linie i zasłony. Upadek z wieży może zostać poza kadrem na zawsze.

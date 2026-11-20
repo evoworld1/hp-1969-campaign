@@ -55,7 +55,7 @@ Przykładowe kwestie:
 
 - Ma zdjęcie swojej klasy z jesieni 1951 z pustym miejscem w pierwszym rzędzie; na odwrocie brakuje jednego nazwiska (ziarno na Sesję 2).
 - Nie wie, że była w tym samym roczniku co Ansel. Nie zobaczy go (nie straciła godziny).
-- **Gdy wyjdzie:** jeśli postacie pokażą jej dowód (dziennik, rejestr), zostaje sojuszniczką z grona nauczycielskiego, ale niewiele może; nie ma wpływów.
+- **Gdy wyjdzie:** jeśli postacie pokażą jej dowód (notatnik Marrow, rejestr), zostaje sojuszniczką z grona nauczycielskiego, ale niewiele może; nie ma wpływów.
 
 ## Sygnały
 
