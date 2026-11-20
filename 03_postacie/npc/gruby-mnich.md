@@ -20,7 +20,7 @@ aktualizacja: 2026-11-20
 ---
 ## W skrócie
 
-Pogodny duch Hufflepuffu. W Sesji 1 jest urażony plotką o „duchu Puchona”: przecież to on jest duchem Puchonów (kolor w scenie 01). Zapytany o chłopca o imieniu Ansel, marszczy czoło: „Znałem chłopca o tym imieniu… nie, to niemożliwe” (wskazówka W2, `flaga.ansel-poza-spisem` przy zestawieniu z innymi tropami). Reakcja na Ansela to nasze [nasze]; sama postać jest kanoniczna.
+Pogodny duch Hufflepuffu. W Sesji 1 jest urażony plotką o „duchu Puchona”: przecież to on jest duchem Puchonów (kolor w scenie 01). Zapytany o chłopca o imieniu Ansel, marszczy czoło: „Znałem chłopca o tym imieniu… nie, to niemożliwe” (wskazówka W2, `flaga.ansel-poza-spisem` przy zestawieniu z innymi tropami). Reakcja na Ansela to [nasze]; sama postać jest kanoniczna.
 
 ## Wygląd i sposób bycia
 

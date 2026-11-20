@@ -63,4 +63,4 @@ statystyki:
 ## Do weryfikacji
 
 - Flitwick jako nauczyciel Zaklęć i opiekun Ravenclawu w 1969: `niepewne` (bardzo prawdopodobne; zob. [[kanon.kadra-hogwartu-1969]]). Walker (s. 120) podaje lata nauki 1946–1952, czego kanon nie potwierdza.
-- Tempus to zaklęcie kampanii (zasada domowa ZD-21, Charm, trudność 9), nie kanon.
+- Tempus to zaklęcie kampanii (zasada domowa ZD-21, Charm (urok), trudność 9), nie kanon.

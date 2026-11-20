@@ -20,7 +20,7 @@ aktualizacja: 2026-11-20
 ---
 ## W skrócie
 
-Surowa, sprawiedliwa nauczycielka Transmutacji. Podpisuje przepustkę na wieczór w Dziale Ksiąg Zakazanych, gdy prośba jest rozsądna („do pracy domowej o dryfie”; `flaga.biblioteka-legalnie`). Jeśli Filch albo pani Pince skonfiskują dziennik, trafia on do niej (rozgałęzienie „skonfiskowany”). Poza kanałem Sesji 2 może też załatwić wyjście przez kominek na Pokątną po nową różdżkę.
+Surowa, sprawiedliwa nauczycielka Transmutacji. Podpisuje przepustkę na wieczór w Dziale Ksiąg Zakazanych, gdy prośba jest rozsądna („do pracy domowej o dryfie”; `flaga.biblioteka-legalnie`). Jeśli Filch albo pani Pince skonfiskują dziennik, trafia on do niej (rozgałęzienie „skonfiskowany”).
 
 ## Wygląd i sposób bycia
 

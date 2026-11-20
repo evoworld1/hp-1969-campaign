@@ -40,7 +40,7 @@ Brak sekretu fabularnego. Lubi uczniów, którzy naprawdę czytają, i nigdy teg
 
 ## Sygnały
 
-Krzywi się na każdy okruch i każde zagięte rogi. Przy ostatnim rzędzie działu zawsze przyspiesza kroku, nie wie dlaczego.
+Krzywi się na każdy okruch i każdy zagięty róg. Przy ostatnim rzędzie działu zawsze przyspiesza kroku, nie wie dlaczego.
 
 ## Reakcje
 

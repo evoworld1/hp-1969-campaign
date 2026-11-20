@@ -19,7 +19,7 @@ aktualizacja: 2026-11-20
 ---
 ## W skrócie
 
-Trzecioroczna Puchonka, która straciła godzinę w dniu sprawdzianu, który Cassian zdał celująco. Koleżanki dokuczają jej, że „zasnęła z otwartymi oczami”; ona się upiera: „Nie spałam. Po prostu mi tego kawałka nie ma” (sygnał w scenie 01). Raz widziała „ducha Puchona” mignięciem. W scenie 05 przechodzi obok Ansela, zatrzymuje się, mruga: „Zdawało mi się…”. W scenach 06 i 12 jest świadkiem, którego godzinę da się dopasować do sukcesu Cassiana (`flaga.rejestr-godzin`).
+Trzecioroczna Puchonka, która straciła godzinę w dniu, w którym Cassian celująco zdał swój sprawdzian. Koleżanki dokuczają jej, że „zasnęła z otwartymi oczami”; ona się upiera: „Nie spałam. Po prostu mi tego kawałka nie ma” (sygnał w scenie 01). Raz widziała „ducha Puchona” mignięciem. W scenie 05 przechodzi obok Ansela, zatrzymuje się, mruga: „Zdawało mi się…”. W scenach 06 i 12 jest świadkiem, którego godzinę da się dopasować do sukcesu Cassiana (`flaga.rejestr-godzin`).
 
 ## Wygląd i sposób bycia
 

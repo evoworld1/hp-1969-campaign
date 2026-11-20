@@ -71,7 +71,7 @@ Przykładowe kwestie:
 | Uprzejmość | Rozpromienia się, opowiada o zegarach. Zwykły sukces testu spostrzegawczości: „wieża ostatnio wymaga więcej uwagi” (`flaga.crake-poznany`). Bardzo wysoki wynik: zdjęcie córki i kilka zdań o niej (`flaga.crake-dluga-rozmowa`). |
 | Groźba | Uprzejmie się wycofuje, „bo pan woźny czeka”. Zapamiętuje te twarze. W Sesji 1 nic więcej. |
 | Przekupstwo | Śmieje się życzliwie: „Synku, ja biorę pieniądze za naprawy, nie za plotki”. |
-| Kłamstwo | Dobrze kłamie, więc kłamstwa nie wyczuwa gorzej niż inni, ale nie daje się wciągnąć w temat wieży. |
+| Kłamstwo | Kłamstwo wyczuwa nie gorzej niż inni, ale nie daje się wciągnąć w temat wieży. |
 | Magia | Dorosły czarodziej-rzemieślnik, nie pojedynkowicz. Zaklęcie rzucone na niego w zamku to skandal i szlaban dla postaci. |
 | Przemoc | Nie broni się. Przemoc wobec starszego pana na oczach Filcha kończy się dla postaci bardzo źle, a Crake staje się w Sesji 2 nieufny. |
 | Ignorowanie | Robi swoje i wraca do Londynu. Plakietka zostaje w wieży. |

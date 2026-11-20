@@ -93,7 +93,7 @@ statystyki:
 
 ## Do weryfikacji
 
-- Dom Ravenclaw i wiek: ustalone przez tworcę NPC zgodnie z propozycją w grafie (graf delegował tę decyzję). Rachunek: prefekt na 6. roku w roku szkolnym 1950/51, urodzony ok. 1934, w 1969 ok. 35 lat („po trzydziestce”, zgodnie z decyzją MG).
+- Dom Ravenclaw i wiek: ustalone przez twórcę NPC zgodnie z propozycją w grafie (graf delegował tę decyzję). Rachunek: prefekt na 6. roku w roku szkolnym 1950/51, urodzony ok. 1934, w 1969 ok. 35 lat („po trzydziestce”, zgodnie z decyzją MG).
 - Przezwisko „Bocian” i ślad nr 3 (nauczycielka astronomii) to propozycje, nie decyzje.
 - Czy Marrow żyje: nieustalone (nie rozstrzygam). Karta pisze „żywej czy martwej”.
 - Słowo „śmierciożerca” w tekstach dla MG zostaje; w tekstach dla graczy w Sesji 1 pada tylko jako szept (decyzja MG z 2026-11-19).

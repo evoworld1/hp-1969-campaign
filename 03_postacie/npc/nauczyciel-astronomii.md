@@ -23,7 +23,7 @@ aktualizacja: 2026-11-20
 
 **DO DECYZJI MG: imię, płeć i charakter.** Identyfikator `npc.nauczyciel-astronomii` zostaje bez zmian bez względu na wybór. Poniżej wariant roboczy B (rekomendowany); warianty A i C są w sekcji „Do weryfikacji”.
 
-**Wariant roboczy B.** Profesor Ada Fairweather, około trzydziestki, najmłodsza w gronie. W 1951 była pierwszoroczną (z tego samego rocznika co Ansel, choć go nie pamięta, bo nikt go nie pamięta) i przez kilka tygodni uczyła ją Marrow, zanim odeszła. Marrow zapamiętała jako „panią od klepsydr”, która na pierwszej lekcji pokazała im piasek przesypujący się w górę. Wróciła do szkoły jako nauczycielka kilka lat temu. Ciepła, roztargniona, żyje nocą.
+**Wariant roboczy B.** Profesor Ada Fairweather, około trzydziestki, najmłodsza w gronie. W 1951 była pierwszoroczną (z tego samego rocznika co Ansel, choć go nie pamięta, bo nikt go nie pamięta) i przez kilka tygodni uczyła ją Marrow, zanim odeszła. Zapamiętała Marrow jako „panią od klepsydr”, która na pierwszej lekcji pokazała im piasek przesypujący się w górę. Wróciła do szkoły jako nauczycielka kilka lat temu. Ciepła, roztargniona, żyje nocą.
 
 **Rola w Sesji 1.** Spotkanie w module wędrówek (12): na szczycie wieży astronomicznej albo na korytarzu z lunetą pod pachą. Droga awaryjna do wskazówki W2 („Marrow odeszła wiele lat temu”, `flaga.marrow-imie-znane`). Propozycja: także łagodny ślad Patrona („wysoki prefekt, którego wołaliśmy Bocian”, `flaga.wymark-slad`).
 

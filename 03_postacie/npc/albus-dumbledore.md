@@ -46,7 +46,7 @@ Przy słowie „Marrow” na moment przestaje się uśmiechać. Na puste krzesł
 
 | Podejście graczy | Reakcja |
 |---|---|
-| Przyprowadzają Ansela | Krzesło dla gościa, uważne słuchanie, wzrok obok. Ansel cicho: „On mnie nie widzi. Pani profesor też w końcu przestała.” |
+| Przyprowadzają Ansela | Krzesło dla gościa, uważne słuchanie, wzrok obok. Ansel cicho: „On mnie nie widzi, prawda?” |
 | Proszą o zgodę na bibliotekę | Zgoda z jednym warunkiem: „Opowiecie mi potem, co znaleźliście”. |
 | Kłamstwo | Widzi je od razu, nie karze; mówi, że poczeka, aż będą gotowi. |
 

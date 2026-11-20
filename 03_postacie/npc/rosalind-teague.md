@@ -67,7 +67,7 @@ Przykładowe kwestie:
 | Podejście graczy | Reakcja |
 |---|---|
 | Uprzejmość | Podejrzliwa, ale docenia klasę. Szczera troska o Cassiana (a nie ciekawość) otwiera ją: daje informację o nocnych wyjściach. |
-| Groźba | Odpowiada chłodno i celnie, a potem mówi o wszystkim Cassianowi. Zegar kradzieży może przyspieszyć, bo Cassian się denerwuje (decyzja MG). |
+| Groźba | Odpowiada chłodno i celnie, a potem mówi o wszystkim Cassianowi. Zegar kradzieży może przyspieszyć, bo Cassian się denerwuje (według uznania MG). |
 | Przekupstwo | Obraza. Za to wymiana informacji („wy mi o Wrenie, ja wam o Vane'ie”) ją interesuje. |
 | Kłamstwo | Dobrze wyczuwa kłamstwo i bawi się kłamcą, zanim go zdemaskuje przy wszystkich. |
 | Magia | W ćwiczeniach u Wrena solidna, ale przewidywalna (nawyk z kciukiem). Poza lekcją rzucenie na nią zaklęcia to wojna domów. |

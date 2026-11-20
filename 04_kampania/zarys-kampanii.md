@@ -28,7 +28,7 @@ Hogwart, jesień 1969. Gracze zaczynają szósty rok nauki, tuż po wakacjach i 
 
 **Hollis Crake.** Zegarmistrz z Pokątnej, który konserwuje zegary zamku. Jego córka zginęła w wypadku, który nigdy nie został wyjaśniony, w czasie zamieszek przy marszach charłaków. Crake chce cofnąć jej śmierć i od tygodni rozluźnia pieczęć na Klepsydrze. Jest życzliwy, smutny i umie kłamać. To lustro graczy: stoi przed tym samym wyborem co oni, tylko po drugiej stronie.
 
-**Patron.** Jeden ze śmierciożerców Voldemorta. Na jego prośbę zdobywa informacje o Klepsydrze i o tym, jak ją odnaleźć, a Crake'owi obiecał pomoc w zamian za nią. Która to osoba, nie jest jeszcze ustalone i nikt w Sesji 1 tego nie wie.
+**Patron.** Jeden ze śmierciożerców Voldemorta. Na jego prośbę zdobywa informacje o Klepsydrze i o tym, jak ją odnaleźć, a Crake'owi obiecał pomoc w zamian za nią. To **Silas Wymark** (decyzja MG z 2026-11-20): w 1951 prefekt i asystent prof. Marrow, który widział Klepsydrę. W Sesji 1 nikt z graczy tego nie wie; nazwisko Nott pada tylko w plotce.
 
 **Albus Dumbledore.** Dyrektor czuje, że w zamku coś jest nie tak, ale zajmują go większe zagrożenia, więc odkłada sprawę. Magia czasu go nie dotyka, bo chroni go jego wiedza, dlatego nigdy nie widział Ansela. Może pomóc, ale nie będzie prowadził graczy za rękę.
 

@@ -22,7 +22,7 @@ aktualizacja: 2026-11-20
 
 Szóstoroczny gaduła, który wie wszystko o wszystkich i połowę zmyśla. Pierwszy rozmówca w Sesji 1: na nim gracze uczą się, że mówią w imieniu postaci, a MG odpowiada. Prowadzi notes plotek i drobne zakłady o knuty („kto zobaczy ducha Puchona do piątku”). Jest mugolakiem; szepty o „Czarnym Panu” zbywa wzruszeniem ramion, że to bajki, bo tak mu łatwiej.
 
-**Dom: elastyczny (DO DECYZJI MG przed sesją).** Tobias siedzi przy śniadaniu obok jednej z postaci graczy, więc musi być z jej domu. Propozycja: MG po obejrzeniu kart postaci przypisuje go do domu tej postaci, która ma najmniej znajomych w opisie (albo której gracz jest najbardziej nieśmiały: Tobias zagada pierwszy). Charakter nie zależy od domu; zmienia się tylko kolor krawata i jedno zdanie o własnym domu. Gdy grają postacie ze wszystkich czterech domów, Tobias jest z domu, którego nikt z graczy nie wybrał, i przysiada się „bo u nas nudno”.
+**Dom: elastyczny (DO DECYZJI MG przed sesją).** Tobias siedzi przy śniadaniu obok jednej z postaci graczy, więc musi być z jej domu. Propozycja: MG po obejrzeniu kart postaci przypisuje go do domu tej postaci, która ma najmniej znajomych w opisie (albo której gracz jest najbardziej nieśmiały: Tobias zagada pierwszy). Charakter nie zależy od domu; zmienia się tylko kolor krawata i jedno zdanie o własnym domu.
 
 **Rola w Sesji 1.** Scena 01: pierwszy dialog, plotka o „duchu Puchona” i szept o Voldemorcie przetłumaczony na „bajki”. Jeśli gracze ominą Obronę: relacja z pokazu Cassiana („był jak błyskawica, nikt go nie trafił”). Scena 06 i 12: jego notes plotek może być boczną drogą do dopasowania straconych godzin (`flaga.rejestr-godzin`).
 

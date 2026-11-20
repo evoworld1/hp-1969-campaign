@@ -57,7 +57,7 @@ Przykładowe kwestie:
 ## Sekret
 
 - Nie żyje od 1951 roku: spadł z Wieży Zegarowej. Nie pamięta upadku. Pamięta tylko, że było wysoko i że dzwon był bardzo blisko.
-- Jest „utkany” z wspólnej godziny postaci graczy (kotwica, decyzja MG z 2026-11-20). Dlatego nosi okruchy ich przeszłości, w tym wspólnego sekretu z 4. roku, i może je powtórzyć, nie wiedząc skąd.
+- Jest „utkany” ze wspólnej godziny postaci graczy (kotwica, decyzja MG z 2026-11-20). Dlatego nosi okruchy ich przeszłości, w tym wspólnego sekretu z 4. roku, i może je powtórzyć, nie wiedząc skąd.
 - **Gdy prawda wyjdzie (Sesja 2, dziennik):** Ansel nie rozpacza od razu. Pyta, czy „to znaczy, że mama już nie czeka”. Jeśli postacie powiedzą mu wprost, że umarł, blednie na resztę sceny; przy wysokiej Więzi potrafi to przyjąć i zaczyna zadawać własne pytania o Marrow. Sposób, w jaki postacie to powiedzą, waży więcej niż sam fakt.
 
 ## Sygnały
@@ -76,7 +76,7 @@ Przykładowe kwestie:
 | Groźba | Kuli się, przeprasza, choć nic nie zrobił, i znika przy pierwszej okazji. Wraca dopiero następnego dnia i pamięta tę postać jako „tego pana, który krzyczał”. |
 | Przekupstwo | Nie rozumie, po co. Słodycze i drobiazgi przyjmuje jak prezent, a nie zapłatę. Działa jak uprzejmość. |
 | Kłamstwo | Wierzy we wszystko. Dlatego kłamstwo jest okrutne: jeśli później je odkryje (np. „pani profesor zaraz przyjdzie”), traci zaufanie do tej postaci i jej Więź spada. |
-| Magia | Zaklęcia przez niego przechodzą albo niczego nie pokazują. Tempus się rozmywa. Zaklęcia ujawniające obecność, jeśli w ogóle są przy stole (Homonculous Charm tylko za zgodą MG), wskazują postać gracza, przy której Ansel stoi, a nie jego. Ansel jest ciekawy czarów i prosi o „jeszcze raz”. |
+| Magia | Zaklęcia przez niego przechodzą albo niczego nie pokazują. Tempus się rozmywa. Zaklęcia ujawniające obecność, jeśli w ogóle są przy stole (Homonculous Charm, czyli urok śledzący położenie osób na mapie, tylko za zgodą MG), wskazują postać gracza, przy której Ansel stoi, a nie jego. Ansel jest ciekawy czarów i prosi o „jeszcze raz”. |
 | Przemoc | Nie da się go zranić. Uderzenie przechodzi na wylot, a chłopiec znika przerażony na resztę wieczoru. Pozostali gracze widzą twarz, której nie zapomną. |
 | Ignorowanie | Idzie kawałek za postacią w milczeniu, raz jeszcze pyta o godzinę i wraca na schody. Postać, która go ignoruje, i tak dostaje później spotkanie wyrównujące (graf: siatka bezpieczeństwa kontaktu). |
 
@@ -91,7 +91,7 @@ statystyki:
     - nazwa: "Niezakotwiczony"
       opis: "Nie da się go zranić ani złapać. Widzą go i słyszą tylko postacie graczy (po straconej godzinie); inne ofiary Cassiana widzą go mignięciem, reszta zamku wcale. Przed sceną 03 pojawia się wyłącznie jako odbicie w szkle zegara. Przedmioty dotyka z trudem i nie zawsze. Mechanik: czy potrzebne są tu jakiekolwiek liczby, czy wystarczy decyzja MG."
     - nazwa: "Okruchy wspólnej godziny"
-      opis: "Raz na sesję może powiedzieć coś z wspólnego sekretu postaci z 4. roku (odpowiedzi na pytania startowe 3 i 5). Ustawia flaga.sekret-poruszony. Bez rzutu."
+      opis: "Raz na sesję może powiedzieć coś ze wspólnego sekretu postaci z 4. roku (odpowiedzi na pytania startowe 3 i 5). Ustawia flaga.sekret-poruszony. Bez rzutu."
     - nazwa: "Przewodnik"
       opis: "Postać z najwyższą Więzią może liczyć na jego pomoc przy jednej wskazówce (np. przechodzi przez ścianę i liczy trzynaście uderzeń). Szczegóły progu Więzi ustala mechanik razem z trackerem Więzi."
 ```

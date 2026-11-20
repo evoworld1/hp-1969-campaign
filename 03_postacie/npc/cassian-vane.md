@@ -22,7 +22,7 @@ aktualizacja: 2026-11-20
 ---
 ## W skrócie
 
-Szóstoroczny Ślizgon, przystojny, uprzejmy, z ambicją wielkości ojca, a nie własną. Trzy tygodnie temu trafił do pracowni Marrow i uciekł z jedną wyrwaną kartą (Kartą Pożyczającego). Przez zatrzymany zegarek kieszonkowy podbiera czas z wycieków Klepsydry; każde podebranie to czyjaś stracona godzina. Godzinę drużyny wziął w przerwie przed Obroną, żeby wygrać pokaz u Wrena. Nie jest okrutny. Jest przestraszony i znalazł skrót, z którego nie umie zejść.
+Szóstoroczny Ślizgon, przystojny, uprzejmy, z ambicją wielkości ojca, a nie własną. W pierwszym tygodniu szkoły trafił do pracowni Marrow i uciekł z jedną wyrwaną kartą (Kartą Pożyczającego). Przez zatrzymany zegarek kieszonkowy podbiera czas z wycieków Klepsydry; każde podebranie to czyjaś stracona godzina. Godzinę drużyny wziął w przerwie przed Obroną, żeby wygrać pokaz u Wrena. Nie jest okrutny. Jest przestraszony i znalazł skrót, z którego nie umie zejść.
 
 **Rola w Sesji 1.** Rano: zatrzymany zegarek przy śniadaniu (01). Ewentualnie wychodzi z Zaklęć wcześniej (02). Kradnie godzinę poza kadrem (03; świadek widzi „Ślizgona z zegarkiem”). Prowadzi rywalizującą grupę u Wrena i wygrywa pokaz (04). Podbiera dalej według zegara kradzieży, przychodzi do wieży o zmierzchu (07), konfrontacja i pierwszy pojedynek (08), przy zegarze 4 idzie sam do pracowni (09).
 
@@ -72,7 +72,7 @@ Przykładowe kwestie:
 
 | Podejście graczy | Reakcja |
 |---|---|
-| Uprzejmość | Podejrzliwy, ale miękknie. Szczera troska („wyglądasz, jakbyś nie spał od tygodnia”) trafia głębiej niż jakakolwiek groźba. Litość w scenie 08 może go złamać: mówi wszystko i proponuje pomoc później. |
+| Uprzejmość | Podejrzliwy, ale mięknie. Szczera troska („wyglądasz, jakbyś nie spał od tygodnia”) trafia głębiej niż jakakolwiek groźba. Litość w scenie 08 może go złamać: mówi wszystko i proponuje pomoc później. |
 | Groźba | Chłodny i uprzejmy na zewnątrz, w środku panika. Odpowiada kontrgroźbą, sięga po wspólny sekret z 4. roku („Ja wiem o waszym, wy o moim”). Proponuje formalny pojedynek, bo w pojedynku ma przewagę. |
 | Przekupstwo | Pieniądze go nie interesują. Interesuje go milczenie. Targ „milczenie za kartę i lokalizację” działa: zostaje dłużnikiem (`flaga.cassian-los` = dluznik). |
 | Kłamstwo | Dobrze czyta blef i sam dobrze blefuje. Kłamstwo o tym, co postacie wiedzą („Wren już wie”), może go przestraszyć i sprowokować do ucieczki albo do pośpiechu (szybszy ruch ku pracowni). |

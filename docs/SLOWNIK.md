@@ -74,6 +74,7 @@ Terminy mechaniczne zostają w oryginale angielskim (Walker 2e). Ten słownik ob
 | Zegar Północy | Kandydat na mechanikę fabularną: licznik nocnego zagrożenia | ocenione w `zasada.mechaniki-fabularne`, czeka na decyzję MG |
 | Pożyczona Chwila | Robocza polska nazwa archiwalnej sztuczki „Borrow a Moment”: dorzut 1D10 po nieudanym teście (jak Story Point), opłacony czasem innej osoby i zapisany w Rejestrze Danin | propozycja, czeka na decyzję MG |
 | Tempus | Zaklęcie pokazujące godzinę; brak w podręczniku, dodane jako zasada domowa ZD-21 (Charm, trudność 9), uczone na lekcji 6. roku w Sesji 1 | przyjęte przez MG 2026-11-20 |
+| Homonculous Charm | Urok śledzący położenie osób na mapie; w kampanii tylko za zgodą MG (może rozwiązać śledztwo jednym rzutem) | decyzja MG 2026-11-20 |
 | Archetyp (szybka ścieżka) | Gotowy pakiet cech, umiejętności, zaklęć i różdżki do tworzenia postaci w około 30 minut: odważny pojedynkowicz, bystry badacz, zręczny kombinator, empatyczny opiekun; zob. `zasada.tworzenie-postaci-6-rok` | nasze, szkic |
 
 ## Skróty

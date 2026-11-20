@@ -36,7 +36,7 @@ Serdeczny, konkretny: „Kochaneczko, jeśli to mój Puchon, to ja go znajdę. A
 
 ## Sekret
 
-Brak sekretu fabularnego w Sesji 1. Możliwe, że w 1951 sama była uczennicą (zob. Do weryfikacji); nie pamięta Ansela, jak nikt.
+Brak sekretu fabularnego w Sesji 1. Nie pamięta Ansela, jak nikt.
 
 ## Sygnały
 
@@ -62,4 +62,4 @@ statystyki:
 
 ## Do weryfikacji
 
-- Sprout jako nauczycielka i opiekunka Hufflepuffu w 1969: `niepewne` (zob. [[kanon.kadra-hogwartu-1969]]). Według tekstu Wizarding World jej lata nauki nakładały się z latami McGonagall (ok. 1947–1954), więc w 1951 mogła być uczennicą; Walker (s. 120) podaje 1955–1962. Do rozstrzygnięcia przez strażnika kanonu, jeśli wątek 1951 ma ją obejmować.
+- Sprout jako nauczycielka i opiekunka Hufflepuffu w 1969: `niepewne` (zob. [[kanon.kadra-hogwartu-1969]]). Według tekstu Wizarding World jej lata nauki nakładały się z latami McGonagall (ok. 1947–1954), co nie obejmuje roku szkolnego 1951/52 (nakładanie tylko o dwa lata); Walker (s. 120) podaje 1955–1962. Do rozstrzygnięcia przez strażnika kanonu, jeśli wątek 1951 ma ją obejmować.

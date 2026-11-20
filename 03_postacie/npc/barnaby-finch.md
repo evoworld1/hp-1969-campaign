@@ -27,7 +27,7 @@ Wysoki, barczysty, jasne kręcone włosy, szata trochę za krótka w rękawach. 
 
 ## Głos
 
-Szybki, przepraszający, zaczyna od „Ee…”: „Ee… sorry, nie chciałem cię trafić. To znaczy chciałem, ale nie tak mocno.”
+Szybki, przepraszający, zaczyna od „Ee…”: „Ee… przepraszam, nie chciałem cię trafić. To znaczy chciałem, ale nie tak mocno.”
 
 ## Czego chce
 
