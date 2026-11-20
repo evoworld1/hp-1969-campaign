@@ -27,7 +27,7 @@ Jedenastoletni Puchon w szacie sprzed osiemnastu lat. Zginął jesienią 1951 ro
 
 **Rola w Sesji 1.** Odbicie w szkle zegara (scena 01), mignięcie na schodach (03), pierwsza rozmowa przy schodach koło kuchni (05), towarzysz przy jednej wskazówce (06, 07, 12), budzik przy zegarze kradzieży 4, blednięcie przy trzynastym biciu (10). Każda postać gracza musi w tej sesji z nim porozmawiać (decyzja MG z 2026-11-19).
 
-**Teaser (wariant roboczy, pytanie do MG).** Część graczy mogła spotkać Ansela przed kampanią w escape roomie na szczycie małej wieży obserwacyjnej: dał im jedną radę i się nie przedstawił. Jeśli rozpoznają go w scenie 05 (albo już w odbiciu w 01), Ansel **nie pamięta tamtego spotkania, ale ma wrażenie, że ich zna**: przygląda się dłużej, przechyla głowę, uśmiecha się niepewnie. Nie potwierdza i nie zaprzecza. Do decyzji MG nie mówi niczego więcej.
+**Teaser (przyjęte przez MG 2026-11-20).** Część graczy mogła spotkać Ansela przed kampanią w escape roomie na szczycie małej wieży obserwacyjnej: dał im jedną radę i się nie przedstawił. Jeśli rozpoznają go w scenie 05 (albo już w odbiciu w 01), Ansel **nie pamięta tamtego spotkania, ale ma wrażenie, że ich zna**: przygląda się dłużej, przechyla głowę, uśmiecha się niepewnie. Nie potwierdza i nie zaprzecza. Nie mówi niczego więcej.
 
 **Dalej.** Sesja 2: notatnik Marrow daje pierwszy trop do kotwicy (pełniej razem z zaklętą księgą); Szara Dama opowiada pełną historię 1951 roku (Gruby Mnich w Sesji 1 ma tylko mgliste przeczucie; decyzja MG). Sesja 3: oddanie godziny może odebrać Anselowi kotwicę (wniosek architekta, **nie** decyzja MG).
 
@@ -49,7 +49,7 @@ Przykładowe kwestie:
 - „Przepraszam… czy pan wie, która jest godzina? Pani profesor Marrow kazała mi czekać przy schodach i chyba czekam już bardzo długo.”
 - „Widziałem panią w zegarze. Wszyscy w zegarach są tacy daleko.” (do postaci z odbicia, gdy `flaga.ansel-odbicie`)
 - „Wy też się wtedy baliście, prawda? Tak samo jak ja na wieży.” (okruch wspólnego sekretu z 4. roku; sam nie wie, skąd to wie)
-- „Chyba… chyba już kiedyś z panią rozmawiałem? Nie wiem kiedy. Ja dużo czekam, to dużo widzę.” (gdy gracz rozpozna go z teasera; wariant roboczy)
+- „Chyba… chyba już kiedyś z panią rozmawiałem? Nie wiem kiedy. Ja dużo czekam, to dużo widzę.” (gdy gracz rozpozna go z teasera)
 - „Pani profesor nigdy nic z szafki nie brała. Zawsze najpierw coś jej dawała. Mówiła, że szafka jest uczciwa: najpierw chce dostać.” (powiedzonko Marrow, droga W7.3 do gabloty; w scenie 05 lub 12, gdy ktoś pyta o panią profesor, albo w pracowni przy gablocie; ostateczne brzmienie da dialogista)
 - „Nie! Nie ruszajcie jej, proszę, ona się złości!” (przy drugim dotknięciu zaklętej księgi, W10.3)
 
@@ -107,6 +107,5 @@ statystyki:
 
 - Więź z Anselem to wciąż **kandydat** na tracker (`tracker.wiez-ansel`), nie przyjęta mechanika. Opisy reakcji zakładają, że MG ją prowadzi; bez niej wystarczy znacznik kontaktu z grafu.
 - Kwestie o „profesorze Dumbledorze od transmutacji” i „dyrektorze Dippecie” zakładają, że w 1951 Dumbledore jeszcze uczył, a dyrektorem był Dippet. Według [[kanon.kadra-hogwartu-1969]] to `niepewne` dla 1951 (pewne dla lat 40.). Jeśli strażnik kanonu tego nie potwierdzi, zastąpić neutralną kwestią („pan profesor od transmutacji”).
-- Reakcja na rozpoznanie z teasera („ma wrażenie, że ich zna”) to wariant roboczy architekta; pytanie do MG (graf Sesji 1, „Otwarte po fazie B2b”, pytanie 4).
-- Wspomnienia Ansela o pracowni (szafka, świecąca książka) to szczegół Twórcy NPC, potrzebny dla W7.3 i W10.3; zakłada, że Ansel bywał w pracowni w 1951. Do potwierdzenia przez MG.
+- Wspomnienia Ansela o pracowni (szafka, świecąca książka) to szczegół Twórcy NPC, potrzebny dla W7.3 i W10.3; Ansel bywał w pracowni w 1951 (przyjęte przez MG 2026-11-20).
 - Temat śmierci dziecka: przed grą MG ustala linie i zasłony. Upadek z wieży może zostać poza kadrem na zawsze.
