@@ -2,7 +2,7 @@
 id: kanon.zarys-kampanii
 typ: kanon
 tytul: "Zarys kampanii „Godzina, której nie było”"
-status: szkic
+status: recenzja
 kategoria: chronologia
 pewnosc: nasze
 tylko_mg: true

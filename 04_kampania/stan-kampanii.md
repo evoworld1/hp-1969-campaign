@@ -3,8 +3,9 @@
 Żywy plik: pamięć projektu między sesjami. Reżyser czyta go na początku każdej sesji i aktualizuje na końcu.
 
 ## Bieżąca faza
-- **Faza:** 1 (Fundamenty) w toku. Część A zakończona 2026-11-18 (zasady Walkera, ocena mechanik, kanon 1969). Część B w toku (2026-11-19): decyzje MG zapisane, powstaje krótki zarys kampanii.
-- **Następny krok:** MG akceptuje plan czasowy Sesji 1 (4–4,5 h). Potem Faza 2: graf scen Sesji 1 (architekt-fabuly), mniejsze kroki, scena po scenie.
+- **Faza:** 1 (Fundamenty) **zakończona 2026-11-20**. Pliki w `01_kanon/`, `02_zasady/` i `04_kampania/zarys-kampanii.md` mają status `recenzja`; MG zatwierdził zarys i kluczowe decyzje.
+- **Następny krok:** Faza 2 w nowej sesji (`/faza 2`). Plan: (1) mechanik pisze instrukcję tworzenia postaci 6. roku dla nowicjuszy (`03_postacie/instrukcja-tworzenia-postaci.md`, maks. 2 strony); (2) architekt-fabuly rozpisuje graf Sesji 1 (8–10 scen z czasem, sceny elastyczne: wędrówki po zamku i opcjonalna Pokątna, punkty pauzy, cliffhanger, flagi w `flagi.yaml`) i proponuje 2–3 kandydatów na Patrona; (3) tworca-npc: szkice kart NPC; (4) symulator-graczy: test grafu; (5) walidator, stan, commit, streszczenie dla MG do 2 stron.
+- **Odłożone do scen:** liczby dla wyniku 2× i 3× trudności (ZD-09), rok nauki Tempus (trudność 9, nie rok 1).
 
 ### Faza 1, część A: co powstało
 - `00_zrodla/walker-2e-draft-2026-04/tekst/`: wyciąg tekstu podręcznika (16 rozdziałów, znaczniki stron). Podręcznik jest jednym PDF (184 s.; numer drukowany = strona PDF − 5).
@@ -41,6 +42,9 @@
 | 2026-11-19 | Crake może pojawić się w Sesji 1 jako przelotna pogawędka. Dłuższa rozmowa tylko przy wyjątkowo wysokim wyniku testu spostrzegawczości (pomysł MG, szczegóły do ustalenia). | MG |
 | 2026-11-19 | Patron: jeden ze śmierciożerców Voldemorta, który na jego prośbę zdobywa informacje o Klepsydrze i o tym, jak ją odnaleźć. Konkretna osoba jeszcze nieustalona. | MG |
 | 2026-11-19 | Sesja 1 ma się zmieścić w 4–4,5 godziny (twardy limit czasu MG). | MG |
+| 2026-11-20 | Przy stole 2–3 graczy. Dla wszystkich poza MG to pierwsza sesja gry fabularnej. | MG |
+| 2026-11-20 | Gracze tworzą postacie sami, przed sesją; potrzebna prosta instrukcja krok po kroku. | MG |
+| 2026-11-20 | Limit 4–4,5 h nie jest sztywny: jeśli się nie zmieścimy, przerywamy i wznawiamy od tego miejsca. Swoboda graczy ważniejsza od ściskania narracji (wędrówki po Hogwarcie, wyprawa na Pokątną np. po nową różdżkę). Scenariusz potrzebuje punktów pauzy i scen elastycznych. | MG |
 
 ## Otwarte pytania
 Brak. Trzy pytania z zarysu rozstrzygnięte 2026-11-19 (patrz rejestr decyzji).
@@ -55,7 +59,7 @@ Brak. Trzy pytania z zarysu rozstrzygnięte 2026-11-19 (patrz rejestr decyzji).
 | Podręcznik Walkera w `00_zrodla/` | jest (PDF + wyciąg tekstu) |
 | Kanon 1969 | 8 plików, recenzja |
 | Zasady (Walker) | 15 plików + ocena mechanik fabularnych, recenzja |
-| Zarys kampanii 1969 | w toku (`04_kampania/zarys-kampanii.md`) |
+| Zarys kampanii 1969 | `04_kampania/zarys-kampanii.md`, recenzja (zatwierdzony przez MG) |
 | Scenariusz 1: graf | nie rozpoczęto |
 | Scenariusz 1: sceny | 0 / ? |
 
