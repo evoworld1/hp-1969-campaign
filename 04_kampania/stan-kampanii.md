@@ -103,6 +103,10 @@
 - Gablota w pracowni = zwykła magia, księga = magia czasu (ZD-24); plakietka „Crake i Córka” także na wielkim zegarze w Sali Wejściowej.
 - McGonagall jako opiekunka Gryffindoru i obecność pani Pince w 1969: `pewnosc: niepewne` (do strażnika kanonu). Nagłówek gazety „Charłacy maszerują pod Ministerstwem”: wymysł kampanii.
 - Kształt oparzenia Cassiana: cienkie pręgi jak od wskazówek zegara.
+- **Scena 01:** odbicie Ansela dostaje gracz, który najmniej mówił; Oko ma 3 cele po kolei (zegarek, plakietka „Crake i Córka”, bandaż); nieudana próba zabrania zegarka ustawia `flaga.cassian-czujny`.
+- **Scena 02:** Cassian i Rosalind chodzą z postaciami na Zaklęcia; przy trudności 9 Tempus prawie zawsze się udaje (rzut decyduje o pięknie zaklęcia); porażka kompromitująca daje „tykającą różdżkę” do wieczora; sukces imponujący pozwala w scenie 06 od razu rozpoznać odczyt „gładki/drżący”.
+- **Scena 03:** stracona godzina od razu daje stan Drained (+3 do trudności) do kolacji, napar w skrzydle szpitalnym zmniejsza go do Dazed (+2); zadry to „strzępy” wyrwanej godziny; mignięcie Ansela widzi jedna postać (najlepiej inna niż ta z odbicia); RETRORSUM przy stracie cofa najwyżej do dzwonu i zostawia rzucającemu gwizdaną melodię i zapach oleju (rozpoznanie Cassiana w 04/08); Irytek mówi o Cassianie „paniczyk Tik-Tak”; pielęgniarka bez imienia (Pomfrey w 1969 niepewna).
+- **Scena 05:** Więź z Anselem rośnie tu najwyżej do 1 na postać (+1 za jedzenie, słuchanie, imię albo uczciwą odpowiedź; −1 tylko za odkryte kłamstwo); nieuprzejmość płoszy Ansela dla wszystkich, ale inny gracz może go zatrzymać testem perswazji; na łagodne „czy nie żyjesz?” Ansel odpowiada, że przecież tu siedzi; rozmowa o mamie dopiero w Sesji 2; mama pisze mu, że cukierki są wciąż na kartki (fakt historyczny: reglamentacja słodyczy w Wielkiej Brytanii do 1953).
 
 ## Otwarte pytania
 - Brak pytań fabularnych. (Siatka 9 rozstrzygnięta 2026-11-20: wariant A.)
