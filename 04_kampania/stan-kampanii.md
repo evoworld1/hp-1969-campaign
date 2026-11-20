@@ -56,12 +56,13 @@
 | 2026-11-20 | Przyjęte: legalne wejście do biblioteki obok nocnego; Tempus uczony na lekcji 6. roku w Sesji 1 (nikt go nie zna na starcie); **Pokątna jako opcjonalny prolog** (MG: podoba się); godzinę traci cała drużyna naraz; data 22 września 1969; SUM zdany przy co najmniej 3 punktach; cechy rzadkie losowane z przerzutem przy 99–100; co najmniej 2 fakultety. | MG |
 | 2026-11-20 | **Odrzucone: wspólny dom.** Gracze wybierają dowolne domy. Trzeba wymyślić uzasadnienie, dlaczego zbierają się w drużynę (np. klub, wspólne zadanie od profesora). | MG |
 | 2026-11-20 | Jeśli tworzenie postaci według Walkera zajmie wszystkim graczom ponad godzinę, trzeba je uprościć (zadanie do wykonania). | MG |
+| 2026-11-20 | **Drużyna:** na co dzień postacie są w jednej mieszanej grupie ćwiczeniowej prof. Wrena na Obronie („wojna nie pyta o dom”); Cassian w rywalizującej grupie. Głębiej łączy je wspólny sekret z 4. roku, który ustalają gracze przy tworzeniu postaci. Odrzucone: zespół Flitwicka, Koło Astronomiczne, szlaban u Filcha. | MG |
+| 2026-11-20 | Przed straconą godziną Ansel może mignąć tylko jako odbicie w szkle zegara. | MG |
+| 2026-11-20 | Z Anselem rozmawiają tylko postacie graczy, bo ich wspólnie zabrana godzina stała się jego kotwicą (wyjaśni to dziennik w Sesji 2). | MG |
+| 2026-11-20 | Zaklęcia, które mogą rozwiązać śledztwo jednym rzutem (Homonculous Charm, Obliviate, Legilimens, Amortentia), w pełnej ścieżce tworzenia postaci tylko za zgodą MG; w szybkiej ścieżce ich nie ma. | MG |
 
-## Otwarte pytania (zadane MG 2026-11-20, część B1)
-1. **Dlaczego postacie z różnych domów tworzą drużynę?** A: stały zespół Flitwicka; B: Koło Astronomiczne założone przez Marrow (zdjęcie z 1951 z Wymarkiem); C: wspólny szlaban u Filcha przy zegarach. Rekomendacja: B.
-2. **Czy postać może mignięciem zobaczyć Ansela, zanim straci godzinę?** A: nie; B: tylko w odbiciu w szkle zegara; C: postacie straciły już po kilka minut przed sesją. Rekomendacja: B.
-3. **Dlaczego tylko postacie graczy rozmawiają z Anselem?** A: ich godzina, wzięta naraz, stała się jego kotwicą (wyjaśnienie w Sesji 2); B: Ansel sam ich wybrał; C: bez wyjaśnienia. Rekomendacja: A.
-4. **Zaklęcia „psujące śledztwo” w pełnej ścieżce tworzenia postaci** (Homonculous Charm, Obliviate, Legilimens, Amortentia): A: zakazane; B: tylko za zgodą MG; C: bez ograniczeń. Rekomendacja: B.
+## Otwarte pytania
+- Brak. Pytania 1–4 z części B1 rozstrzygnięte 2026-11-20 (zob. rejestr decyzji).
 
 ## Zadania do wykonania
 - Brak pilnych. Tworzenie postaci uproszczone (szybka ścieżka) 2026-11-20.
