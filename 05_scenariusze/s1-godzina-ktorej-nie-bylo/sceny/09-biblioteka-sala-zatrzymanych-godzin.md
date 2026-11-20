@@ -195,52 +195,85 @@ Różdżka na nocnej szafce leży nieruchomo. Kto jej dotknie, poczuje, że drew
 
 ### Rytm sceny
 
+*Oś sceny: przy każdym kroku stoi, co czytać, który dialog otworzyć, jaki test rzucić i jakie flagi zapisać. Kwestie otwierające dialogów to propozycje narratora; jeśli dialogista zmieni brzmienie w bloku, obowiązuje blok. Kroki 5 i 6 możesz zamienić miejscami albo przeplatać, zależnie od tego, dokąd gracze pójdą najpierw. Krok 7 grasz tylko wtedy, gdy gracze go wywołają.*
+
 **Krok 1. Przed wyprawą** (ok. 2 min)
-- Krótko: sprawdź `flaga.ansel-kontakt`. Jeśli jest mniejsza niż liczba graczy, najpierw spotkanie wyrównujące z modułu 12 dla każdej brakującej postaci. Przy zegarze kradzieży 4: siatka 6 (Ansel albo bicie budzi postacie, Cassian jest już w środku).
+- Czytaj: tekst 12 („Budzi was dźwięk, którego nie powinno być…”), tylko w siatce 6, gdy nikt nie ma Więzi z Anselem.
+- Krótko: sprawdź `flaga.ansel-kontakt`. Jeśli jest mniejsza niż liczba graczy, najpierw spotkanie wyrównujące z modułu 12 dla każdej brakującej postaci. Przy zegarze kradzieży 4: siatka 6 (Ansel budzi postać z najwyższą Więzią, siedzi na jej łóżku: „Ktoś poszedł do pani profesor. Tam, gdzie książki”; bez Więzi tekst 12). Daj graczom najwyżej 2 minuty na plan: kto idzie, co bierze, gdzie się spotykają.
+- Awaryjne: `awaryjne-za-dnia` (chcą wejść za dnia albo prosić o zgodę).
 
 **Krok 2. Nocna wyprawa** (ok. 6 min)
-- Czytaj: tekst 1 („TODO…”)
+- Czytaj: tekst 1 („Po ciszy nocnej zamek oddycha inaczej…”)
 - Test: `s1.scena.09.test.skradanie` (grupowy; przeciwnik: obchód Filcha; kandydat: Zegar Północy)
 - Flagi: `flaga.filch-zlapal` (siatka 9)
-- Krótko: Ansel może iść przodem jako zwiadowca. Porażka zmienia cenę (minuty, ślad dla pani Pince rano), złapanie: siatka 9.
+- Krótko: Ansel może iść przodem jako zwiadowca. Porażka zmienia cenę (minuty, ślad dla pani Pince rano), złapanie: siatka 9. Brzęk kluczy z tekstu 1 to Filch: jego latarnia chodzi zawsze tą samą trasą, więc gracze mogą ją przeczekać.
+- Awaryjne: `awaryjne-filch-w-drodze`.
 
 **Krok 3. Ostatni rząd i drzwi** (ok. 5 min)
-- Czytaj: tekst 2 („TODO…”), tekst 3 („TODO…”)
+- Czytaj: tekst 2 („Za wyświechtaną liną regały stoją ciaśniej…”); po otwarciu tekst 3 („Kamień nie skrzypi i nie odsuwa się…”)
 - Test: `s1.scena.09.test.drzwi` (opcjonalnie: nasłuchiwanie albo Tempus przy ścianie, W6)
-- Dialog: `s1.scena.09.dialog.ansel-schody-tykaja` — „TODO” (sens: „Schody tykają trzynaście razy”)
+- Dialog: `s1.scena.09.dialog.ansel-schody-tykaja` — „Proszę pana… tam za ścianą są schody. One tykają. Trzynaście razy, policzyłem.” (propozycja; sens z grafu: „Schody tykają trzynaście razy”)
 - Flagi: `flaga.pracownia-otwarta`
-- Krótko: przeszkoda obowiązkowa 1. Drogi: Tempus (tarcza z trzynastoma kreskami), margines karty („XIII”), Ansel, bicie zza ściany.
+- Krótko: przeszkoda obowiązkowa 1. Drogi: Tempus (tarcza z trzynastoma kreskami), margines karty („XIII. Zapukaj w godzinę, której nie ma”), Ansel, bicie zza ściany. Drzwi otwiera każde rozsądne „trzynaście” (ramka „Jak otworzyć drzwi” wyżej). Przy zegarze kradzieży 4 przycisk-klepsydra jest ciepły, a prześwit już otwarty: czytaj od razu tekst 3.
 
 **Krok 4. Galeria wahadeł** (ok. 4 min)
-- Czytaj: tekst 4 („TODO…”)
+- Czytaj: tekst 4 („U stóp schodów korytarz rozszerza się…”)
 - Test: `s1.scena.09.test.galeria-wahadel` (grupowy)
-- Krótko: cena, nie bramka: hałas, czas albo zadrapanie. Przy czasie goniącym pomiń.
+- Krótko: cena, nie bramka: hałas, czas albo zadrapanie. Ślady w kurzu idą zygzakiem w rytmie wahadeł: uważni gracze mogą iść po nich (dobry powód do premii, liczby da mechanik). Przy czasie goniącym pomiń test i powiedz jednym zdaniem, że przeszli.
 
 **Krok 5. Sala Zatrzymanych Godzin** (ok. 5 min)
-- Czytaj: tekst 5 („TODO…”)
+- Czytaj: tekst 5 („Za galerią sklepienie się podnosi…”); przy zegarze kradzieży 4 zaraz potem tekst 10 („W głębi sali pali się światło…”) i przejdź do kroku 8.
 - Test: `s1.scena.09.test.sciana-obliczen` (opcjonalna pokusa: zakazana lekcja pożyczania chwili)
 - Flagi: `flaga.wymark-slad` (inicjały „S.W.” obok kredowego podpisu Marrow), `flaga.pozyczona-chwila-poznana`
-- Krótko: zatrzymane zegary to chwile „zapłaty” z 1951.
+- Krótko: zatrzymane zegary to chwile „zapłaty” z 1951 (wiedza tylko dla MG). Podpis i inicjały pokazuj dopiero, gdy ktoś podejdzie do ściany i będzie czytał: na dole kredowych obliczeń, pochyłą ręką, „I. Marrow”, a tuż obok, mniejsze i ostrzejsze, „S.W.”. Nic więcej; nikt nie zna tych inicjałów. Karta Pożyczającego przyłożona do ściany: „XIII” pasuje do kredowych tarcz.
 
 **Krok 6. Zaklęta księga** (ok. 5 min)
-- Czytaj: tekst 6 („TODO…”)
+- Czytaj: tekst 6 („Z bliska to pulpit do czytania…”)
 - Test: `s1.scena.09.test.ksiega-porazenie` (poziom 2, kolejne dotknięcia)
 - Flagi: `flaga.ksiega-zabezpieczenia` (0–3)
-- Krótko: patrzenie bezpieczne. Pasek po wyrwanej karcie pasuje do karty. Osmalone kamienie i ślady w kurzu (W10.1). Przed poziomem 3 MG mówi wprost, poza fikcją, co się stanie.
+- Krótko: patrzenie bezpieczne. Pasek po wyrwanej karcie pasuje do karty. Osmalone kamienie i ślady w kurzu (W10.1). Przed poziomem 3 MG mówi wprost, poza fikcją, co się stanie: „To jest to, co zrobił Cassian. Jeśli spróbujecie wyrwać kartkę, pracownia się obudzi i jedynym wyjściem będzie ucieczka”.
+- Wstawki do odczytania przy dotknięciach:
+  - *Pierwsze dotknięcie (poziom 1):* „Mrowienie biegnie od palców aż do łokcia. Łuna ciemnieje, jak niebo przed burzą. I nagle wszystkie zegary w sali tykają. Raz, wszystkie naraz. Potem znowu cisza.”
+  - *Kolejne dotknięcie (poziom 2):* „Trzask jak z pękającej gałęzi i odrzut, który wybija powietrze z płuc. Z galerii dobiega brzęk: wahadła kołyszą się szerzej, coraz głośniej, mosiądz uderza o mosiądz.”
+  - *Karta przyłożona do paska (nie liczy się jako dotknięcie):* „Łuna jaśnieje, miękko, jakby ktoś podkręcił knot. Pergamin w dłoni robi się ciepły jak czyjaś ręka. Księga go nie bierze. Po chwili wszystko wraca do dawnego, powolnego oddechu.”
 
 **Krok 7. Ucieczka** (ok. 5–10 min, tylko przy poziomie 3)
-- Czytaj: tekst 7 („TODO…”)
+- Czytaj: tekst 7 („Księga nie puszcza…”)
 - Test: `s1.scena.09.test.ucieczka` (trzy odcinki, test grupowy na każdym)
 - Flagi: `flaga.ksiega-zlapani` (siatka 8), `flaga.filch-zlapal`
-- Krótko: w dłoni zostaje róg kartki z jednym znakiem. Droga otwarta do trzynastego uderzenia.
+- Krótko: w dłoni zostaje róg kartki z jednym znakiem. Droga otwarta do trzynastego uderzenia. Licz uderzenia na głos albo kośćmi na stole; między odcinkami opisuj jednym zdaniem (sala: zegarki sypią się jak grad; galeria: wahadła tną; schody: stopnie zapadają się od dołu, tyknięcie po tyknięciu). Po wyjściu: „Bicie milknie w pół uderzenia. Za waszymi plecami kamień znowu jest kamieniem.”
+- Awaryjne: `awaryjne-ksiega-lapie`.
 
 **Krok 8. Gablota** (ok. 8 min)
-- Czytaj: tekst 8 („TODO…”), tekst 9 („TODO…”)
-- Dialog: `s1.scena.09.dialog.ansel-szafka` — „TODO” (W7.3, gdy Ansel jest obecny)
-- Dialog: `s1.scena.09.dialog.cassian-gablota` — „TODO” (tylko przy zegarze kradzieży 4, Cassian w środku)
+- Czytaj: tekst 8 („Na końcu sali, pod ścianą, stoi gablota…”); po otwarciu tekst 9, wariant A („Pod dłonią szkło najpierw chłodnieje…”) albo B („Zegarek tyka pod palcami…”); przy wyłamaniu tekst 11 („Szkło pęka z dźwiękiem…”).
+- Dialog: `s1.scena.09.dialog.ansel-szafka` — „Pani profesor nigdy nic z szafki nie brała. Zawsze najpierw coś jej dawała.” (propozycja; W7.3, gdy Ansel jest obecny)
+- Dialog: `s1.scena.09.dialog.cassian-gablota` — „Nie podchodźcie. Ona nie daje się brać.” (propozycja; tylko przy zegarze kradzieży 4, Cassian w środku)
 - Test: `s1.scena.09.test.gablota-sila` (siłowe otwarcie, z ceną)
 - Flagi: `flaga.gablota-sposob`, `flaga.dziennik-u-graczy`, `flaga.dziennik-miejsce`
-- Krótko: przeszkoda obowiązkowa 2. Trzy drogi główne: tabliczka, dopisek na karcie, Ansel; zapasowe: szkic przez szkło, Tempus (luka 60 minut), ściana obliczeń. Handout `s1.handout.pierwsza-strona-dziennika` po otwarciu. Przejście do 10 przy progu.
+- Krótko: przeszkoda obowiązkowa 2. Trzy drogi główne: tabliczka, dopisek na karcie, Ansel; zapasowe: szkic przez szkło (rysunek na marginesie: dłoń wkłada coś do klepsydry, obok otwarta kłódka; postać z „Okiem, które dostrzega ukryte” widzi go od razu, inni po przyjrzeniu się z bliska), Tempus (luka 60 minut), ściana obliczeń. Handout `s1.handout.pierwsza-strona-dziennika` po otwarciu. Przejście do 10 przy progu: gdy notatnik zbliża się do wyjścia z sali, przerwij i czytaj scenę 10.
+- Rozgałęzienia: `gablota-oddana`, `gablota-zabrana`, `gablota-wylamana`, `gablota-nieotwarta`, `cassian-w-srodku`.
+
+### Czas i tempo
+
+- **Trzy rejestry.** Wyprawa (kroki 2–3) to napięcie: krótkie zdania, szept, pauzy na nasłuchiwanie. Sala (kroki 5–6) to zachwyt i niepokój: zwolnij, pozwól graczom chodzić, oglądać, pytać. Ucieczka (krok 7) to pośpiech: nie dawaj czasu na naradę, licz uderzenia.
+- **Cisza jako narzędzie.** Po tekście 5 nic nie dodawaj przez kilka sekund. Gracze sami zaczną pytać o zegary, ścianę i światło.
+- **Skróty.** Gdy czas goni: pomiń test galerii (jedno zdanie), ścianę obliczeń streść jednym zdaniem i od razu pokaż podpis z inicjałami, przy gablocie po 3 minutach bez pomysłu daj pierwszą podpowiedź z drabinki.
+- **Zamknięcie sceny.** Scena kończy się, gdy notatnik zbliża się do progu sali (z notatnikiem) albo gdy postacie wychodzą bez niego (wariant awaryjny cliffhangera). W obu przypadkach przechodzisz do sceny 10 bez przerwy.
+
+### Rady dla MG, który prowadzi początkujących
+
+- **Zapytaj o plan, ale krótko.** „Kto idzie pierwszy? Kto niesie światło?” Dwa pytania wystarczą. Nowi gracze lubią planować bez końca; po 2 minutach Filch już chodzi.
+- **Każdy ma swoją chwilę.** Przy 2–3 graczach rozdziel: jeden przy ścianie (drzwi), drugi przy księdze, trzeci przy gablocie. Pytaj po kolei: „Co robisz przy gablocie?”.
+- **Mów, co widać, nie co to znaczy.** Tarcze „o jedną kreskę za dużo”, ciepłe szkło, czysta klepsydra: opisz i poczekaj. Nie mów „to wskazówka”.
+- **Ostrzeżenie poza fikcją to nie kara.** Zanim ktoś spróbuje wyrwać kartkę, powiedz zdanie z kroku 6 zwykłym głosem, patrząc graczowi w oczy. Jeśli i tak chce, to jego wybór i dobra scena akcji.
+- **Ucieczka ma być straszna, ale do przejścia.** Bez porażek grupa wychodzi przy dziesiątym uderzeniu. Mów to sobie w głowie, nie graczom.
+
+### Linie i zasłony
+
+- **Ciasne miejsca i zamykanie.** Wąskie schody, zamykające się przejście, sala pod ziemią. Jeśli ktoś przy stole źle znosi takie obrazy, opisuj schody jako szersze, a zamykanie jako „ściana gęstnieje”, bez zgniatania.
+- **Obrażenia.** Porażenie, odrzut, wahadła. Przy zasłonie na krew opisuj skutki jako omdlenie, siniaki i zmęczenie; liczby zostają te same.
+- **Śmierć postaci** tylko po dwóch ostrzeżeniach poza fikcją i świadomym wyborze gracza (karta [[przedmiot.zakleta-ksiega]]). Przy linii na śmierć postaci graczy pomiń ten wariant: pracownia zawsze wypluwa postać (siatka 8).
+- **Moralny ciężar wariantu B.** Godzina zabrana komuś innemu to pierwszy krok ku zakończeniu „moc”. Nie moralizuj przy stole; tekst 9B robi to ciszą zegarów.
 
 ## Obecni
 
