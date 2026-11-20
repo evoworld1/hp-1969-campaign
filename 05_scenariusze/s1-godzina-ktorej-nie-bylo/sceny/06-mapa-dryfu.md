@@ -626,7 +626,7 @@ rozgalezienie:
   warunek: "Postacie nie robią pomiarów albo pomiary się nie udają."
   wymaga_flag: []
   wyklucza_flagi: []
-  efekt: "Flitwick na korytarzu, przeglądając pracę domową: „Wszystkie wasze błędy pochylają się w jedną stronę” (W3). Ansel czuje ciągnięcie ku wieży. Wren pyta grupę o gubienie czasu (W4)."
+  efekt: "Świat nie czeka na pomiary. Flitwick łapie ich na korytarzu przed salą Zaklęć, czytając w marszu prace całego roku, i sam wertuje cudze kartki: „Wszystkie błędy pochylają się w jedną stronę. Na zachód.” (dialog `s1.scena.06.dialog.flitwick-pochylone-bledy`, wariant „nie mają pomiarów”). To jest wskazówka W3 podana jako ciekawostka, nie polecenie; wniosek („wieża”) mają wyciągnąć gracze. Jeśli Ansel jest w pobliżu, wzdryga się przy bicie wieży i patrzy na zachód (dialog `ansel-towarzysz`). Po obiedzie Wren pyta grupę, kto gubi czas (krok 6). Postacie, które mimo to nie chcą nic mierzyć, dostają jedno proste zadanie zamiast kartki: „Która jest godzina u was, a która na wieży?”, czyli jeden pomiar zwykłym zegarkiem w drodze do wieży. Nie ma kary, nic nie przepada: brak pomiarów zmienia tylko to, kto odkrywa wzór (NPC zamiast graczy)."
   flagi_ustaw: [flaga.przyplyw-ku-wiezy]
   prowadzi_do: s1.scena.07
 ```
@@ -638,15 +638,123 @@ rozgalezienie:
   warunek: "Zegar kradzieży doszedł do 3, a postacie wciąż nie skonfrontowały Cassiana."
   wymaga_flag: [flaga.s1-zegar-kradziezy]
   wyklucza_flagi: [flaga.cassian-zdemaskowany]
-  efekt: "Cassian, zdenerwowany wścibstwem, sam znajduje postacie (w bazie grupy albo na korytarzu)."
+  efekt: "Cassian, zdenerwowany wścibstwem (pytania o zgubiony czas dotarły do niego plotką przy stole Slytherinu), sam znajduje postacie w bazie grupy w sali Obrony albo na korytarzu po obiedzie. Jest chłodny i uprzejmy, pyta, czemu grupa trzecia ostatnio „tyle mierzy”, i sprawdza, ile wiedzą. Nie grozi i nie ucieka: to początek sceny 08, a postacie mają przy sobie wszystko, co zebrały (mapa, daty). Jeśli nie mają jeszcze żadnej flagi śledztwa, wejście do 08 i tak jest otwarte, bo Cassian przychodzi sam; Tobias albo Maisie mogą dorzucić „mignięcie Ślizgona” w trakcie rozmowy."
   flagi_ustaw: []
   prowadzi_do: s1.scena.08
 ```
 
+```yaml
+rozgalezienie:
+  id: s1.scena.06.rozgalezienie.awaryjne-od-razu-do-cassiana
+  rodzaj: awaryjne
+  warunek: "Postacie od początku wiedzą swoje (np. z sygnału z kieszonki w scenie 04) i chcą iść prosto do Cassiana, pomijając pomiary i ofiary."
+  wymaga_flag: []
+  wyklucza_flagi: [flaga.cassian-zdemaskowany]
+  efekt: "Nie blokuj: scena 08 jest otwarta, ale Cassian musi mieć z kim rozmawiać na faktach, a nie na przeczuciu. Wejście do 08 wymaga co najmniej jednej flagi śledztwa, więc świat dostarcza ją po drodze, bez zatrzymywania: Tobias goni postacie z notesem („Wy też pytacie o ludzi, co gubią czas? Mam coś!”, dialog `quill-notes`), a Maisie podchodzi sama z kartką (dialog `maisie-kwadrans`). Wystarczy jedna z tych rozmów (3 minuty), by ustawić `flaga.rejestr-godzin`. Wren przy sali Obrony mówi tylko tyle, że to „jeszcze nie dowód”. Cassian jest czujny wobec postaci, które idą do niego z pustymi rękami (`flaga.cassian-czujny`), ale decyzja graczy nie jest unieważniona: konfrontacja następuje, tylko z mniejszą kartą w ręku."
+  flagi_ustaw: [flaga.rejestr-godzin, flaga.cassian-czujny]
+  prowadzi_do: s1.scena.08
+```
+
+```yaml
+rozgalezienie:
+  id: s1.scena.06.rozgalezienie.awaryjne-od-razu-wieza
+  rodzaj: awaryjne
+  warunek: "Postacie zaraz po śniadaniu idą do Wieży Zegarowej albo próbują wejść na wieżę przed pomiarami (np. mają błędny wniosek: „to wieża kradnie czas”)."
+  wymaga_flag: []
+  wyklucza_flagi: [flaga.wieza-zbadana]
+  efekt: "Nie wymagaj mapy. Droga do wieży to krużganek z tekstem 2 (odczyt −6, najwyższy w zamku): jeden pomiar z pominięciem tłumu wystarczy, by postacie same zobaczyły kierunek. Przy wejściu na most: Ansel staje na ostatniej kamiennej płycie (tekst 4, o ile jest z postacią), a drzwi wieży są zamknięte do popołudnia (klucze ma woźny i zegarmistrz). Filch przy okazji notuje nazwiska („Na wieżę? Kto pozwolił?”) i mówi, że zegarmistrz był w czwartek. To nie jest ślepy zaułek dla gry, tylko dla błędnego wniosku: wieża jest czysta, a scena 07 pokaże, co jest w jej cieniu. Wzór drżący wciąż czeka w lochach; wystarczy, że wieża wybije godzinę o minutę za późno, a Ansel spojrzy na zachód (zamknięcie sceny)."
+  flagi_ustaw: [flaga.przyplyw-ku-wiezy]
+  prowadzi_do: s1.scena.07
+```
+
+```yaml
+rozgalezienie:
+  id: s1.scena.06.rozgalezienie.awaryjne-oskarzenie-na-slepo
+  rodzaj: awaryjne
+  warunek: "Postacie oskarżają Cassiana publicznie albo idą z oskarżeniem do Wrena, nie mając daty ani odczytu (np. w Wielkiej Sali przy śniadaniu)."
+  wymaga_flag: []
+  wyklucza_flagi: [flaga.cassian-zdemaskowany]
+  efekt: "Świat reaguje, nie karze. Cassian w Sali wzrusza ramionami, ma wokół siebie Ślizgonów i pyta spokojnie o dowody; stół cichnie, Tobias blednie i znika. Wren wysłucha, ale odpowie: „Nie oskarżam ucznia za przeczucie. Przynieście mi coś, czego nie da się podważyć.” (dialog `wren-kto-gubi-czas`). Pozostaje tylko cena towarzyska: Cassian staje się czujny i unika postaci do wieczora, Ślizgoni patrzą wilkiem (kolor, nie bójka). Postacie dostają kierunek zamiast zakazu: dowód da mapa dryfu albo lista dat, więc wracają do kroków 2-5. Zegar kradzieży biegnie normalnie."
+  flagi_ustaw: [flaga.cassian-czujny, flaga.wren-podejrzewa]
+  prowadzi_do: s1.scena.06
+```
+
+```yaml
+rozgalezienie:
+  id: s1.scena.06.rozgalezienie.awaryjne-zegarek-u-graczy
+  rodzaj: awaryjne
+  warunek: "Zegarek Cassiana jest już u graczy (kradzież po scenie 04), więc zegar kradzieży stoi, a drżące odczyty słabną."
+  wymaga_flag: [flaga.zegarek-cassiana]
+  wyklucza_flagi: [flaga.cassian-zdemaskowany]
+  efekt: "Wzór drżący widać rano w lochach, po południu tylko ślad w notatkach (zob. zegar kradzieży w Dla MG); przypływ ku wieży nie słabnie, bo to inny wzór. Tempus przy zegarku tyka szybciej niż gdziekolwiek. Cassian, pozbawiony zegarka, szuka go: po obiedzie widzi postacie i sam do nich podchodzi, blady i cichy, bez maski (siatka bezpieczeństwa 1 w `graf-scen.md`). Nie unieważnia to kradzieży: zegarek zostaje u graczy, a MG tylko ustala, czy Cassian prosi, grozi, czy ucieka. Jeśli pomiary jeszcze trwają, przerwij je i przejdź do 08 z tym, co mają na mapie."
+  flagi_ustaw: []
+  prowadzi_do: s1.scena.08
+```
+
+```yaml
+rozgalezienie:
+  id: s1.scena.06.rozgalezienie.awaryjne-biblioteka-za-dnia
+  rodzaj: awaryjne
+  warunek: "Postacie, mając trop (lub tylko ciekawość), próbują za dnia wejść do Działu Ksiąg Zakazanych, prosić nauczycieli o przepustkę albo wypytać panią Pince o „ostatni rząd”."
+  wymaga_flag: []
+  wyklucza_flagi: []
+  efekt: "Zgodnie z decyzją MG z 2026-11-20 żaden nauczyciel nie podpisze zgody, a pani Pince nie wpuści nikogo za sznur. Odmowa ma być życzliwa i konkretna, nie ściana: Flitwick odpowiada, że z czasem się nie żartuje i kieruje do Wrena; Pince skarży się na „chłopca od Slughorna”, który trzy razy prosił o ten sam tom o zegarmistrzostwie (ziarno W5.2, rozwijane w scenie 12; w tej scenie tylko jedno zdanie). Dostaje się odpowiedź na inne pytanie, nie wejście: Pince nie rozwija ostatniego rzędu, a postacie zostają z pomysłem, że wejście wymaga nocy i ryzyka (scena 09, dalej). Odmowa nie kosztuje punktów. Prowadź je do rozmów z ludźmi (scena 12) albo wracaj do pomiarów."
+  flagi_ustaw: []
+  prowadzi_do: s1.scena.12
+```
+
+```yaml
+rozgalezienie:
+  id: s1.scena.06.rozgalezienie.awaryjne-ansel-sploszony
+  rodzaj: awaryjne
+  warunek: "Postać okłamuje Ansela, naciska na niego albo próbuje wciągnąć go na most lub chwycić za rękę; Ansel znika."
+  wymaga_flag: [flaga.ansel-spotkany]
+  wyklucza_flagi: []
+  efekt: "Ansel krzyczy krótko i znika (dialog `ansel-towarzysz`, wariant „nieprzewidziane”). Nie jest to kara na zawsze: wraca przy następnym pomiarze, cichszy, albo czeka przy schodach. Postać, która go zraniła, traci 1 Więzi (najwyżej do 0), ale inna postać może go zatrzymać życzliwą rozmową w ciągu sceny; spotkanie wyrównujące z modułu 12 jest zawsze możliwe (graf-scen, scena 05). Dzięki temu nikt nie zostaje bez Ansela do sceny 09."
+  flagi_ustaw: []
+  prowadzi_do: s1.scena.12
+```
+
+```yaml
+rozgalezienie:
+  id: s1.scena.06.rozgalezienie.awaryjne-postac-wypada
+  rodzaj: awaryjne
+  warunek: "Postać wypada ze sceny: trafia do skrzydła szpitalnego (Drained po scenie 03 i brak jedzenia), dostaje szlaban od Filcha albo gracz musi odejść od stołu."
+  wymaga_flag: []
+  wyklucza_flagi: []
+  efekt: "Scena toczy się dalej, a nieobecna postać nie traci nic poza tym, co sama zrobiła. Pomiary przejmują inni; mapa leży na środku stołu i każdy może wpisywać. Ansel (jeśli nie jest przy innej postaci) odwiedza chorą w skrzydle i podaje jej jedną liczbę z drugiej ręki; to wystarczy, by wróciła do rozmowy. Szlaban Filcha: wieczorem, przy sprzątaniu (kolor; rozmowa o zegarmistrzu może paść tam). Nieobecny gracz dostaje na początku kroku 6 jedno zdanie streszczenia i jedną decyzję, żeby nie stracić głosu. Śmierć postaci w tej scenie nie wchodzi w grę (pomiary i rozmowy nie niosą takiego ryzyka)."
+  flagi_ustaw: []
+  prowadzi_do: s1.scena.06
+```
+
 ## Drabinka podpowiedzi
 
-TODO.
+*Jedna kolejność dla całej sceny, od najlżejszej do najcięższej. Stosuj ją wtedy, gdy mija 20 minut gry, a drużyna nie ma żadnej z flag `flaga.przyplyw-ku-wiezy`, `flaga.slad-ukaszen`, `flaga.rejestr-godzin`. Każda wskazówka (W3 przypływ, W4 ślad, W4.3 daty) ma trzy niezależne drogi (zasada trzech dróg w `graf-scen.md`), więc zawsze jest druga. Nie podawaj wniosku („to wieża”, „to Cassian”): podawaj liczbę, zdanie albo człowieka.*
+
+**Przypływ ku wieży (W3).** Drogi: Tempus na mapie; zwykłe zegarki rozstawione po piętrach; Flitwick i Filch o „boczącej się” wieży; Ansel czujący ciągnięcie.
+
+**Ślad drżących odczytów (W4.4).** Drogi: drżenie w mapie; Pratt z korytarza Eliksirów; Ansel w lochach („ktoś tu ciągle stoi”).
+
+**Daty ofiar (W4.3).** Drogi: Maisie z kartką; Tobias z notesem; Pratt z kalendarzykiem.
+
+```yaml
+podpowiedzi:
+  id: s1.scena.06.podpowiedzi
+  szturchniecie: "Pozwól im popatrzeć na własną mapę i zapytaj: „Co jest wspólnego w liczbach, które zapisaliście?” Albo każ wybrzmieć biciu wieży o minutę za późno i zapytaj, kto to usłyszał. Albo niech Tobias poprosi o poradę przy stole: „Kto z was też ostatnio gubi czas?”"
+  wieksza: "Wieloznaczna wskazówka od człowieka, nie od narratora: Flitwick na korytarzu, przeglądając prace („Wszystkie błędy pochylają się w jedną stronę. Na zachód.”), Pratt z kalendarzykiem i wzmianką, że drżenie jest na jego korytarzu, albo Maisie, która sama podchodzi z kartką. Ansel wzdryga się przy biciu wieży i patrzy na zachód; w lochach szepcze: „Tu jest tak, jakby ktoś ciągle stał.” Zegar kradzieży 2: pierwszoroczniak mdleje na schodach, a Wren pyta „swoją” grupę, kto gubi czas."
+  bezposrednia: "Zegar kradzieży 3: Cassian sam przychodzi do postaci (scena 08). Jeśli to nie wchodzi w grę, wieża wybija godzinę o minutę za późno i Ansel patrzy na zachód. Gdy wciąż nic, MG mówi wprost poza fikcją: „Zegary spóźniają się tym bardziej, im bliżej wieży. Drugi wzór: ktoś szarpie zegary na trasie od korytarza straconej godziny do lochów. Dokąd idziecie?” Wtedy flagi ustawia się bez rzutu, a scena zamyka się wyborem kierunku."
+```
 
 ## Konsekwencje
 
-TODO. Zapisz: wpisy z mapy dryfu, `flaga.przyplyw-ku-wiezy`, `flaga.slad-ukaszen`, `flaga.rejestr-godzin`, wartość `flaga.s1-zegar-kradziezy`.
+*Zapisz po scenie, na kartce MG albo w panelu. Flagi tylko z `04_kampania/flagi.yaml`.*
+
+- **Mapa dryfu (wpisy graczy):** które miejsca zmierzyli, jakie liczby i słowa („gładko”/„drżąco”) wpisali. Zachowaj kartkę: wraca w scenach 07, 08 i 12 (Wren, Pratt, Flitwick).
+- **`flaga.przyplyw-ku-wiezy`:** ustawiona, jeśli gracze (albo NPC w ścieżce `awaryjne-bez-pomiarow` lub `awaryjne-od-razu-wieza`) wskazali kierunek ku Wieży Zegarowej. Zapisz też, czy wniosek padł z ust graczy, czy NPC (to ma znaczenie przy rozmowach w 07 i 08).
+- **`flaga.slad-ukaszen`:** ustawiona, jeśli drżące odczyty doprowadziły do przejścia Slytherinu albo zeznał Pratt/Ansel.
+- **`flaga.rejestr-godzin`:** ustawiona, jeśli gracze dopasowali daty ofiar do sukcesów Cassiana (kto z NPC i które daty podał; zapisz poprawki Pratta do notesu Tobiasa).
+- **`flaga.s1-zegar-kradziezy`:** zapisz wartość po scenie (zwykle 2; 3 oznacza, że scena 08 zaczyna się wizytą Cassiana; stoi, jeśli zegarek jest u graczy).
+- **`flaga.cassian-czujny`, `flaga.wren-podejrzewa`:** ustawione, gdy gracze oskarżali na ślepo albo szli do Cassiana bez dowodów (ścieżki `awaryjne-od-razu-do-cassiana` i `awaryjne-oskarzenie-na-slepo`). Mogą wejść do 08 jako czujność Cassiana i uwaga Wrena.
+- **Ansel:** kto z postaci szedł z nim, czy dotarł na most, czy się zląkł (tekst 4), czy ktoś go okłamał albo spłoszył; zmiany Więzi z Anselem zapisz przy postaci (nie więcej niż +1/−1 w tej scenie).
+- **Kolor towarzyski:** nazwiska zapisane przez Filcha, szlaban, uraza Pratta (od teraz na piśmie), wiara Tobiasa w grupę (życzliwość wobec jego strachu), plotka o „groźnym z szóstego roku”.
+- **Kierunek:** wieża (07), lochy albo lista dat (08), wędrówki (12). Przy punkcie pauzy: scena 08 kończy część rdzenia, a po niej Pauza 3.
