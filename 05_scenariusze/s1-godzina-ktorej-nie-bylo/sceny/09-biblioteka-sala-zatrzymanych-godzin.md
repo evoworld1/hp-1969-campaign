@@ -999,10 +999,176 @@ rozgalezienie:
   prowadzi_do: s1.scena.12
 ```
 
+*Zasada wszystkich ścieżek poniżej: świat odpowiada na to, co gracze zrobili, a decyzji nikt nie cofa. Zmienia się droga (kto przychodzi, gdzie leży wskazówka, ile zostało czasu), nigdy skutek wyboru. MG nie mówi „nie da się”; mówi, co się dzieje, i daje graczom nowy ruch.*
+
+```yaml
+rozgalezienie:
+  id: s1.scena.09.rozgalezienie.awaryjne-odkladaja-na-jutro
+  rodzaj: awaryjne
+  warunek: "Postacie rezygnują z wyprawy tej nocy (śpią, boją się, chcą się lepiej przygotować) albo po złapaniu przez Filcha nie chcą drugiej próby."
+  wymaga_flag: []
+  wyklucza_flagi: [flaga.pracownia-otwarta]
+  efekt: "Nic ich nie zmusza. Noc mija, a świat idzie naprzód: zegar kradzieży biegnie dalej (jeśli zegarek jest u Cassiana i Cassian nie jest zdemaskowany). Następnej nocy działa siatka 6: gdy zegar doszedł do 4, Ansel (albo bicie zegarów, tekst 12) budzi postacie, bo Cassian poszedł pierwszy i scena 09 idzie z Cassianem w środku; gdy zegar stoi, Ansel sam budzi postać z najwyższą Więzią i scena idzie bez Cassiana. Postacie, które sobie coś przygotowały (Tempus przy łóżku, karta pod poduszką), dostają to, co przygotowały: bez kary, bez nagrody za zwlekanie. Pani Pince nie ma tu nic do roboty."
+  flagi_ustaw: [flaga.s1-zegar-kradziezy]
+  prowadzi_do: s1.scena.09
+```
+
+```yaml
+rozgalezienie:
+  id: s1.scena.09.rozgalezienie.awaryjne-siatka-6-cassian-pierwszy
+  rodzaj: awaryjne
+  warunek: "Zegar kradzieży doszedł do 4, a postacie śpią albo siedzą w dormitorium (siatka 6)."
+  wymaga_flag: [flaga.s1-zegar-kradziezy]
+  wyklucza_flagi: [flaga.cassian-zdemaskowany]
+  efekt: "Pobudka przychodzi z zewnątrz: Ansel siada na łóżku postaci z najwyższą Więzią („Ktoś poszedł do pani profesor. Tam, gdzie książki”), a bez Więzi budzi bicie zegara o złej porze (tekst 12; różdżka drży w dłoni). Postać ze Slytherinu słyszy, że Cassian wychodzi z dormitorium. Gracze nie muszą wierzyć Anselowi: wystarczy, że ktoś sprawdzi łóżko Cassiana (puste). Droga do pracowni jest otwarta: przycisk-klepsydra jest ciepły, prześwit już stoi (krok 3). Zostaje test skradania (Filch nie śpi), ale z premią za to, że Ansel zna drogę. Postacie zastają Cassiana (rozgałęzienie cassian-w-srodku). Jeśli zdecydują się go nie gonić, Cassian i tak nie otworzy gabloty (nie umie oddawać), a luzująca się pieczęć sama wybije trzynasty raz o północy: gablota-nieotwarta i cliffhanger sceny 10 bez notatnika w ich rękach."
+  flagi_ustaw: [flaga.s1-zegar-kradziezy]
+  prowadzi_do: s1.scena.09
+```
+
+```yaml
+rozgalezienie:
+  id: s1.scena.09.rozgalezienie.awaryjne-ansel-bez-kontaktu
+  rodzaj: awaryjne
+  warunek: "Ansel nie idzie z drużyną: postać nie ma z nim kontaktu, Ansel uciekł przestraszony (krzyk, hałas, próba przeniesienia go do księgi) albo gracze nie chcą go w wyprawie."
+  wymaga_flag: []
+  wyklucza_flagi: []
+  efekt: "Wyprawa idzie dalej bez zwiadowcy: latarnię Filcha gracze muszą wyczytać sami (stała trasa: brzęk kluczy i stuknięcie w szybkę zawsze w tym samym miejscu), a test skradania traci premię od Ansela. Kwestie Ansela przejmują rzeczy: margines Karty („XIII”), Tempus, nasłuchiwanie, tabliczka na gablocie (drabinka podpowiedzi działa bez niego, bo każda wskazówka ma co najmniej dwie drogi bez Ansela). Ansel wraca sam, gdy bije trzynasty raz (scena 10), i wtedy jest blady i zawstydzony, że ich zostawił. Nie karz go ani gracza: Więź się nie zmienia."
+  flagi_ustaw: []
+  prowadzi_do: s1.scena.09
+```
+
+```yaml
+rozgalezienie:
+  id: s1.scena.09.rozgalezienie.awaryjne-drzwi-nie-puszczaja
+  rodzaj: awaryjne
+  warunek: "Postacie stoją przy gołej ścianie ostatniego rzędu dłużej niż 3 minuty bez pomysłu (W6), próbują wyważyć ścianę, wyjąć klepsydrę z półki albo stukają złą liczbę razy."
+  wymaga_flag: []
+  wyklucza_flagi: [flaga.pracownia-otwarta]
+  efekt: "Ściana nie reaguje na siłę ani na zaklęcia (kamień jest tylko chłodniejszy), ale reaguje na każde rozsądne „trzynaście”. Kolejne szturchnięcia przychodzą z fikcji, nie z MG: klepsydra na półce wyraźnie lśni (ktoś ją przecierał), Ansel wychodzi ze ściany i liczy (jeśli jest), Tempus pokazuje trzynaście kresek, a z głębi dobiega bicie, które po chwili słyszą wszyscy bez rzutu (ostateczność z grafu). Jeśli i to nie pomoże: za plecami postaci, w bibliotece, rozlega się brzęk kluczy (Filch zbliża się, licznik hałasu +1); presja czasu zamiast blokady. Wyjście ze ściany bez otwarcia jest dopuszczalne: wtedy działa awaryjne-odkladaja-na-jutro."
+  flagi_ustaw: []
+  prowadzi_do: s1.scena.09
+```
+
+```yaml
+rozgalezienie:
+  id: s1.scena.09.rozgalezienie.awaryjne-gablota-bez-pomyslu
+  rodzaj: awaryjne
+  warunek: "Postacie stoją przy gablocie dłużej niż 3 minuty i nie wiedzą, jak ją otworzyć (W7), albo odmawiają zapłaty (nikt nie chce oddać godziny, bo to Dazed)."
+  wymaga_flag: [flaga.pracownia-otwarta]
+  wyklucza_flagi: []
+  efekt: "Wskazówki leżą na gablocie, nie w MG: tabliczka („Co dane, można zatrzymać…”), dopisek z karty, Ansel („najpierw coś jej dawała”), a przy gablocie ciepło szkła, gdy położyć na nim zwykły przedmiot (jeden zegar tyka raz: „blisko”). Zapasowo szkic w notatniku (dłoń wkłada coś do klepsydry, otwarta kłódka; Oko widzi go od razu) i Tempus (luka równo 60 minut). Gdy ktoś protestuje przeciw kosztowi: dzielenie godziny jest tańsze (Rattled zamiast Dazed), a po otwarciu kara kończy się z tą sceną; MG nie wybiera ofiary za graczy. Gdy zostaje tylko siła: gablota-wylamana, z ceną (rozmyte kartki, hałas), i to jest uczciwa droga, nie porażka. Gdy gracze wolą wyjść bez notatnika: gablota-nieotwarta."
+  flagi_ustaw: [flaga.gablota-sposob]
+  prowadzi_do: s1.scena.10
+```
+
+```yaml
+rozgalezienie:
+  id: s1.scena.09.rozgalezienie.awaryjne-gablota-zabrac
+  rodzaj: awaryjne
+  warunek: "Postać próbuje gablotę okraść: zaklęcie przyciągające, ręka na szkle z zamiarem wzięcia, chwyt za notatnik przez szkło."
+  wymaga_flag: [flaga.pracownia-otwarta]
+  wyklucza_flagi: []
+  efekt: "Szkło matowieje i robi się zimne jak lód (tak jak u Cassiana); nie ma obrażeń ani alarmu. To nie odmowa, to odpowiedź: szafka nie daje się brać. Ansel (jeśli jest): „Nie tak! Ona jest uczciwa. Najpierw chce dostać.” Przy zegarze kradzieży 4 Cassian mówi to samo własnymi słowami. Gracze mogą od razu spróbować inaczej (oddanie, siła), bez straty czasu poza minutą."
+  flagi_ustaw: []
+  prowadzi_do: s1.scena.09
+```
+
+```yaml
+rozgalezienie:
+  id: s1.scena.09.rozgalezienie.awaryjne-ksiega-zabrac
+  rodzaj: awaryjne
+  warunek: "Postać chce wyrwać kartkę albo zabrać księgę mimo ostrzeżenia poza fikcją, albo próbuje włożyć do niej Ansela, zapytać ją o niego albo oddać jej Kartę Pożyczającego."
+  wymaga_flag: []
+  wyklucza_flagi: []
+  efekt: "Wyrwanie kartki: pelne-zabezpieczenia i ucieczka (jej tempo i cena są w testach; droga jest otwarta do trzynastego uderzenia). Oddanie karty: łuna jaśnieje, nic więcej (zasada Sesji 1; zagadka dopiero w Sesji 2). Włożenie Ansela albo pytanie o niego: Ansel blednie tak, że prawie znika, ucieka do galerii i wraca przy gablocie; księga nie odpowiada. Przenoszenie księgi poza salę nie daje się wykonać: lewituje i nie puszcza."
+  flagi_ustaw: [flaga.ksiega-zabezpieczenia]
+  prowadzi_do: s1.scena.09
+```
+
+```yaml
+rozgalezienie:
+  id: s1.scena.09.rozgalezienie.awaryjne-cala-druzyna-wyplunieta
+  rodzaj: awaryjne
+  warunek: "Wszystkie postacie nie zdążyły przed trzynastym uderzeniem (ucieczka przy pełnych zabezpieczeniach, siatka 8 dla całej drużyny)."
+  wymaga_flag: [flaga.ksiega-zabezpieczenia]
+  wyklucza_flagi: []
+  efekt: "Pracownia wypluwa wszystkich w ostatnim rzędzie, zaklęcie zapomnienia dotyka tylko ostatnich minut. Informacja nie ginie: Ansel („Byliście na dole. Wróciliście inni”), rzecz w dłoni (róg kartki, kreda, strzęp łuny na skórze), a zapis na kartce, którą MG przygotował wcześniej z graczem. Skrzydło szpitalne (stan Bloodied zdejmuje pani Pomfrey, do końca Sesji 1 zostaje Shaken), Filch ich znajduje (szlaban, zegar kradzieży +1). Jeśli notatnik był już w ręku, pracownia wypluwa go razem z postacią i trzynasty raz wybija (scena 10); jeśli nie, leży dalej w gablocie (wariant awaryjny cliffhangera). Scena 10 zaczyna się wtedy w skrzydle szpitalnym albo w dormitorium o świcie, z Anselem przy łóżku."
+  flagi_ustaw: [flaga.ksiega-zlapani, flaga.filch-zlapal, flaga.s1-zegar-kradziezy]
+  prowadzi_do: s1.scena.10
+```
+
+```yaml
+rozgalezienie:
+  id: s1.scena.09.rozgalezienie.awaryjne-postac-wypada
+  rodzaj: awaryjne
+  warunek: "Postać traci przytomność, zostaje w skrzydle szpitalnym albo gracz chce, żeby jego postać została przy księdze (ryzyko śmierci)."
+  wymaga_flag: [flaga.ksiega-zabezpieczenia]
+  wyklucza_flagi: []
+  efekt: "Nieprzytomna postać jest wynoszona przez resztę (pomagają jej, Working Together) albo wypluta w ostatnim rzędzie; gracz nie siedzi bezczynnie: do końca sceny gra relację z drugiej strony (co pamięta, co słyszy zza ściany), a w skrzydle szpitalnym budzi się razem z resztą w scenie 10. Skrzydło szpitalne: pomoc pielęgniarki zdejmuje kółka do rana, Ansel siedzi przy łóżku. Wyrzucenie ze szkoły w Sesji 1 nie następuje (Filch zapisuje nazwiska, szlaban, minus punkty; dyrektora nie ma). Śmierć tylko po dwóch ostrzeżeniach poza fikcją i jeszcze jednym pytaniu przy wyborze („Jeśli zostanie, może zginąć. Na pewno?”). Jeśli gracz mimo to tego chce, MG zatrzymuje scenę i czeka na decyzję użytkownika (co po śmierci postaci); do tego czasu pracownia wypluwa postać."
+  flagi_ustaw: [flaga.ksiega-zlapani, flaga.filch-zlapal]
+  prowadzi_do: s1.scena.10
+```
+
+```yaml
+rozgalezienie:
+  id: s1.scena.09.rozgalezienie.awaryjne-po-nauczyciela
+  rodzaj: awaryjne
+  warunek: "Postacie chcą po nocy obudzić nauczyciela, prefekta albo pójść do dyrektora zamiast do biblioteki."
+  wymaga_flag: []
+  wyklucza_flagi: [flaga.pracownia-otwarta]
+  efekt: "Nikt nie podpisze zgody ani nie otworzy biblioteki (decyzja MG z 2026-11-20). Dyżurny prefekt albo Filch odprowadza ich do dormitorium i zapisuje nazwiska; nauczyciel rano słucha uprzejmie i nic nie wie o pracowni (nie ma o czym wiedzieć). Nic z tego nie jest karą za pomysł: gracze dostają pretekst do rozmowy za dnia (scena 12: rejestr wypożyczeń, zdjęcie z 1951) i drugą okazję nocy (awaryjne-odkladaja-na-jutro). Dyrektor jest nieobecny."
+  flagi_ustaw: [flaga.filch-zlapal]
+  prowadzi_do: s1.scena.12
+```
+
+```yaml
+rozgalezienie:
+  id: s1.scena.09.rozgalezienie.awaryjne-notatnik-niszczony
+  rodzaj: awaryjne
+  warunek: "Postać chce zniszczyć notatnik, spalić go, podrzeć kartki albo zostawić go przy księdze i wyjść (zdecydowanie bez niego)."
+  wymaga_flag: [flaga.pracownia-otwarta]
+  wyklucza_flagi: []
+  efekt: "W Sesji 1 papier nie daje się zniszczyć (założenie robocze): kartki się marszczą, ogień gaśnie, litery wracają, a Ansel kuli się (notatnik jest jedną z jego kotwic). To nie blokada, to kolor. Zostawienie notatnika to gablota-nieotwarta: zegary i tak wybijają trzynasty raz (cliffhanger), a pytanie na Sesję 2 brzmi inaczej."
+  flagi_ustaw: []
+  prowadzi_do: s1.scena.10
+```
+
 ## Drabinka podpowiedzi
 
-TODO (drzwi W6 i gablota W7).
+*Dwie przeszkody obowiązkowe, dwie drabinki. Zasada dla MG: zaczynasz od świata (tekst, dźwięk, Ansel), nie od zdania „zróbcie to”. Czekaj minutę ciszy przed każdym szczeblem. Każda wskazówka ma co najmniej dwie drogi bez Tempus i bez Ansela; poniżej tylko to, co MG mówi, gdy gracze utkną.*
+
+**Drzwi (W6), przy ścianie ostatniego rzędu:**
+1. Szturchnięcie: klepsydra na półce lśni, choć wszystko wokół jest szare od pyłu. Ansel (jeśli jest) wraca ze ściany: „Tam schody tykają trzynaście razy.”
+2. Większa: spod kamienia dobiega daleki rytm, który ktoś przyłożony do ściany usłyszy sam. Margines karty: „XIII. Zapukaj w godzinę, której nie ma.” Tempus przy ścianie pokazuje trzynaście kresek.
+3. Bezpośrednia: bicie słyszą wszyscy bez rzutu; Ansel: „Pani profesor stukała w klepsydrę, a ja liczyłem.” Gdy nadal nic, MG mówi jedno zdanie poza fikcją: „Spróbujcie czegoś trzynaście razy.”
+
+**Gablota (W7), po tekście 8:**
+1. Szturchnięcie: tabliczka na ramie („Co dane, można zatrzymać; co zabrane, trzeba zwrócić.”) przy dłuższym patrzeniu; ciepłe szkło; Ansel: „Pani profesor nigdy nic z szafki nie brała. Zawsze najpierw coś jej dawała.”
+2. Większa: dopisek na marginesie karty („co da się wziąć, da się też oddać”), rysunek w notatniku (dłoń wkłada coś do klepsydry, obok otwarta kłódka; Oko widzi go od razu), moneta na szkle: jeden zegar tyka raz. Przy zegarze kradzieży 4: Cassian mówi, że gablota „nie daje się brać”.
+3. Bezpośrednia: Ansel na pytanie, co pani profesor dawała: „Jeden zegar tykał. I była zmęczona, jakby obiegła całe jezioro.” Tempus pokazuje lukę równo sześćdziesięciu minut. Gdy nadal nic po kilku minutach: MG mówi wprost poza fikcją: „Szafka chce czegoś, co macie, a czego nie widać. Spróbujcie to oddać.” Zawsze zostaje siła z ceną.
+
+```yaml
+podpowiedzi:
+  id: s1.scena.09.podpowiedzi
+  szturchniecie: "Drzwi: klepsydra na półce lśni, choć wszystko inne jest szare od pyłu; Ansel wraca ze ściany: tam schody tykają trzynaście razy. Gablota: tabliczka na ramie („Co dane, można zatrzymać; co zabrane, trzeba zwrócić”), ciepłe szkło i Ansel: pani profesor nigdy nic z szafki nie brała, zawsze najpierw coś jej dawała."
+  wieksza: "Drzwi: słychać rytm zza kamienia; margines karty „XIII. Zapukaj w godzinę, której nie ma”; Tempus pokazuje trzynaście kresek. Gablota: dopisek na marginesie karty (co da się wziąć, da się też oddać), szkic dłoni wkładającej coś do klepsydry w notatniku (Oko widzi go od razu), moneta na szkle i jeden zegar tyka raz; przy zegarze kradzieży 4 Cassian: „Ona nie daje się brać”."
+  bezposrednia: "Drzwi: bicie słyszą wszyscy bez rzutu, Ansel: pani profesor stukała w klepsydrę, a ja liczyłem; MG poza fikcją: spróbujcie czegoś trzynaście razy. Gablota: Ansel na pytanie: jeden zegar tykał, a pani profesor była zmęczona; Tempus pokazuje lukę sześćdziesięciu minut; MG poza fikcją: spróbujcie oddać coś, czego nie widać. Zawsze zostaje siłowe otwarcie z ceną."
+```
 
 ## Konsekwencje
 
-TODO. Zapisz: `flaga.pracownia-otwarta`, `flaga.ksiega-zabezpieczenia`, `flaga.ksiega-zlapani`, `flaga.pozyczona-chwila-poznana`, `flaga.gablota-sposob`, `flaga.dziennik-u-graczy`, `flaga.dziennik-miejsce`, `flaga.wymark-slad`, `flaga.filch-zlapal`; kto oddał godzinę; ślady dla pani Pince rano.
+*Po scenie MG zapisuje (flagi z `04_kampania/flagi.yaml`):*
+
+- `flaga.pracownia-otwarta`: czy drzwi się otworzyły (tak, gdy postacie zeszły po schodach).
+- `flaga.ksiega-zabezpieczenia`: najwyższy poziom 0–3. Po ucieczce następne dotknięcie w tej sesji zaczyna od 2. Róg kartki w dłoni: jeden znak na Sesję 2.
+- `flaga.ksiega-zlapani`: tylko gdy ktoś nie zdążył (siatka 8); zapisz, kto, i co zostało w dłoni.
+- `flaga.pozyczona-chwila-poznana`: tylko po sukcesie przy ścianie obliczeń; zapisz, która postać.
+- `flaga.wymark-slad`: czy gracze zobaczyli inicjały „S.W.” obok podpisu Marrow.
+- `flaga.gablota-sposob`: oddana-godzina, podzielona-godzina, zabrana-godzina, wylamana albo nieotwarta; zapisz, kto oddał godzinę i ile minut na osobę.
+- `flaga.dziennik-miejsce`: w-pracowni od otwarcia gabloty; u-graczy dopiero po wyniesieniu notatnika (wtedy też `flaga.dziennik-u-graczy` = prawda); u-cassiana, gdy poszedł z nim.
+- `flaga.dziennik-u-graczy`: tylko przy wyniesieniu notatnika razem z postacią (nie przy samym otwarciu gabloty).
+- `flaga.filch-zlapal` i `flaga.s1-zegar-kradziezy` (+1): po złapaniu przez Filcha (siatki 8 i 9); szlaban zapisz jako kolor.
+- Stan po oddaniu godziny: Dazed (jedna osoba) albo Rattled (kilka) trwa do końca sceny 09, nie dotyczy sceny 10.
+- Ślady dla pani Pince rano (zgaszona lampa, przestawiony sznur, kurz z ostatniego rzędu, odłamek szkła, kreda na rękawie): wypisz je na kartce; plotka i podejrzliwość, bez kary.
+- Wyłamana gablota: które kartki notatnika są rozmyte (cena stała).
+- `flaga.cassian-zdemaskowany` i `flaga.cassian-los`: tylko gdy Cassian był w środku.
