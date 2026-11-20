@@ -43,6 +43,7 @@ flowchart TD
     S05 -.-> S12
     S12 -.-> S08
     S12 -.-> S09
+    S08 -. "Cassian milczy" .-> S12
 ```
 
 ### Sceny: opis, wejście, wyjście, flagi
@@ -107,7 +108,7 @@ Jeden prosty test: zauważyć coś przy stole (Wits + Observation, czyli bystro�
 - Wejście: co najmniej jedna z flag `flaga.sygnal-cassiana-nazwany`, `flaga.slad-ukaszen`, `flaga.rejestr-godzin`, `flaga.wieza-zbadana` **albo** `flaga.s1-zegar-kradziezy` = 3 (Cassian przychodzi sam) **albo** zegarek jest u graczy po kradzieży po scenie 04 (Cassian przychodzi po niego).
 - Wyjście: lokalizacja pracowni z ust Cassiana albo jedna z dróg awaryjnych.
 - Ustawia: `flaga.cassian-zdemaskowany`, `flaga.cassian-los`, `flaga.zegarek-cassiana`, `flaga.karta-u-graczy`, `flaga.lokalizacja-pracowni`, opcjonalnie `flaga.sekret-poruszony`.
-- Następne: s1.scena.09. **Punkt pauzy 3** po tej scenie.
+- Następne: s1.scena.09; s1.scena.12, gdy Cassian milczy (drogi awaryjne do pracowni za dnia). **Punkt pauzy 3** po tej scenie.
 
 **s1.scena.09 Biblioteka: trzynaste drzwi i Sala Zatrzymanych Godzin (40 min).** **Wejście tylko nocą, bez zgody** (decyzja MG 2026-11-20). Żaden nauczyciel nie podpisze przepustki do Działu Ksiąg Zakazanych na ten temat, a pani Pince nie wpuszcza uczniów za sznur; złamanie regulaminu jest konieczne.
 - *Wyprawa:* po ciszy nocnej postacie wymykają się z dormitoriów (Ansel może iść przodem jako zwiadowca: jego nikt nie widzi). Jeden test skradania (przeciwnik: obchód Filcha; liczby ustali mechanik). Porażka nie blokuje wejścia, tylko zmienia cenę: obchód Filcha przychodzi wcześniej (kandydat: Zegar Północy, decyzja mechaniczna czeka), postacie muszą się chować i tracą minuty albo zostawiają ślad (zgaszona lampa, przestawiony sznur, okruchy), który pani Pince znajdzie rano (plotka i podejrzliwość, bez kary). Złapanie w drodze: siatka bezpieczeństwa 9.
@@ -254,6 +255,7 @@ Zegar zatrzymuje się, gdy `flaga.cassian-zdemaskowany` albo gdy zegarek trafia 
 | `flaga.godzina-stracona` | bool | 03 | 04, 05, 06, 12 |
 | `flaga.sygnal-cassiana-nazwany` | bool | 04 | 08 |
 | `flaga.wren-podejrzewa` | bool | 04 (wyrwany zegarek, uwaga o ocenach), 08 (donos) | 08, Sesja 2 |
+| `flaga.cassian-czujny` | bool | 02, 04 (próba zabrania zegarka przed 08; siatka 1) | 04, 08 (modyfikator kradzieży) |
 | `flaga.ansel-spotkany` | bool | 05, 12 | 06, 09, 10 |
 | `flaga.ansel-kontakt` | liczba | 05, 12 | kontrola przed 09 i 10 |
 | `flaga.ansel-poza-spisem` | bool | 05, 12 | 10, Sesja 2 |
@@ -377,7 +379,7 @@ Zniszczenie zegarka nie oddaje godziny drużyny: jest wpleciona w Ansela, wracaj
 
 ## Do weryfikacji
 
-- Pole `sceny` w nagłówku `przeglad.md` jest puste, dopóki nie powstaną pliki scen (lista docelowa w komentarzu, w numeracji z fazy 2B).
+- Pliki scen 02–12 istnieją jako szkielety (2026-11-20, tryb przyspieszony); pole `sceny` w `przeglad.md` uzupełnione. Scena 01 nie ustawia jeszcze `flaga.cassian-czujny` przy nieudanej próbie zabrania zegarka (do dopisania przy jej recenzji).
 - Mechanik: czy stracona godzina daje stan Drained już na Obronie (04); próg testu przy śniadaniu; liczby dla pogawędki z Crake'iem, wahadeł, gabloty, pojedynku; test skradania nocą i Zegar Północy w scenie 09 (jedyne wejście, decyzja MG 2026-11-20).
 - Plan lekcji: Zaklęcia przed południem i Obrona po przerwie obiadowej to założenie wykonawcze; kanon nie podaje godzin lekcji w 1969.
 - Dom Wymarka w 1951 (propozycja: Ravenclaw) i jego dokładny wiek ustali tworca-npc.

@@ -4,12 +4,20 @@ typ: scenariusz
 tytul: "Godzina, której nie było (Sesja 1)"
 status: szkic
 numer: 1
-# Lista scen w kolejności bazowej zostaje pusta, dopóki nie powstaną pliki scen
-# (walidator wymaga, żeby każdy identyfikator wskazywał istniejący plik).
-# Docelowo (numeracja od fazy 2B): [s1.scena.11, s1.scena.01, s1.scena.02, s1.scena.03,
-#   s1.scena.04, s1.scena.05, s1.scena.06, s1.scena.07, s1.scena.08, s1.scena.09,
-#   s1.scena.10, s1.scena.12]
-sceny: []
+# Kolejność bazowa (numeracja od fazy 2B): prolog 11 (opcjonalny), rdzeń 01–10, moduł 12.
+sceny:
+  - s1.scena.11
+  - s1.scena.01
+  - s1.scena.02
+  - s1.scena.03
+  - s1.scena.04
+  - s1.scena.05
+  - s1.scena.06
+  - s1.scena.07
+  - s1.scena.08
+  - s1.scena.09
+  - s1.scena.10
+  - s1.scena.12
 czas_min: 270
 gracze: "2-3"
 tylko_mg: true

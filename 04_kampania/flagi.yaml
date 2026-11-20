@@ -72,6 +72,11 @@ flagi:
     typ: bool
     wartosci: []
     sesja: s1
+  - id: flaga.cassian-czujny
+    opis: "Cassian zna twarz postaci, która próbowała zabrać albo obejrzeć jego zegarek przed sceną 08 (siatka bezpieczeństwa 1: śniadanie, Zaklęcia, pokaz u Wrena, kradzież w trakcie lekcji). Jest wobec niej czujny w s1.scena.04 i s1.scena.08 (modyfikator testu kradzieży „Cassian zna twarz”, liczby w karcie przedmiot.zegarek-cassiana). MG zapisuje, której postaci dotyczy."
+    typ: bool
+    wartosci: []
+    sesja: s1
 
   # --- Stracona godzina i Ansel ---
   - id: flaga.godzina-stracona
