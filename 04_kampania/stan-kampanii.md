@@ -80,20 +80,18 @@
 | 2026-11-20 | Zatrzymane zegary w pracowni to „zapłaty” z 1951 za trwanie Ansela. Zniszczenie zegarka Cassiana: Ansel migocze i wraca część skradzionych godzin. Klepsydra z lekcji Fairweather zostaje niejasna do Sesji 2. Zegary u Dumbledore'a chodzą idealnie równo; Marrow na zdjęciu z 1951 zerka poza kadr. | MG |
 | 2026-11-20 | **Teasery przed kampanią:** zwój z zaklęciem RETRORSUM (z małej wieży obserwacyjnej; ta sama rodzina magii co księga; pojawił się tam Ansel, nie przedstawił się) i zdolność „Oko, które dostrzega ukryte”. Gracz 1 ma oba, gracze 2 i 3 tylko Oko; ostateczny podział MG ustala w dniu sesji. | MG |
 | 2026-11-20 | **RETRORSUM:** raz na sesję pewny sukces w następnym rzucie; piętno na różdżce bez negatywnych skutków. Drugie użycie w tej samej sesji łamie pieczęć: trwała klątwa, która ujawnia się z czasem (wybór wariantu otwarty). | MG |
+| 2026-11-20 | Klątwa za drugie RETRORSUM w sesji: **„Ten drugi”** (przy ważnych wyborach głos własnej wersji z cofniętej chwili, raz pomaga, raz kłamie) + siwe pasmo włosów. Pozostałe warianty w archiwum pomysłów. | MG |
+| 2026-11-20 | **RETRORSUM to prawdziwe cofnięcie czasu:** rzucający cofa wszystko i wszystkich, nowa linia czasu zastępuje starą (rozgałęzienie jak w teorii wieloświata); pamięta tylko rzucający, inni niczego nie odczuwają; zaklęcie działa tylko na użytkownika. | MG |
+| 2026-11-20 | Oko niewykorzystane w Sesji 1 przechodzi na Sesję 2. Próba wyrwania kartki z księgi zostawia w dłoni róg z jednym znakiem (przyda się przy zagadkach w Sesji 2). Zwrot karty księdze: w Sesji 1 nic (łuna jaśnieje), w Sesji 2 odsłania pierwszą zagadkę. | MG |
+| 2026-11-20 | Przyjęte drobiazgi: Ansel rozpoznany z teasera ma wrażenie, że zna graczy; rysunek, „XIII” i dopisek na karcie to marginalia Marrow; Ansel bywał w pracowni w 1951. | MG |
 
 ## Otwarte pytania
-Z części B2b (2026-11-20), warianty robocze obowiązują do decyzji:
-1. Klątwa za drugie RETRORSUM: który z 8 kandydatów (`zasada.nagrody-z-teaserow`).
-2. Czy RETRORSUM działa na cudzy rzut (roboczo: także na test wspólny, w którym postać pomagała).
-3. Oko po Sesji 1 (roboczo: niewykorzystane przepada).
-4. Czy próba wyrwania kartki z księgi coś daje (roboczo: kartka nie puszcza).
-5. Czy kartę można zwrócić księdze (roboczo: nie w Sesji 1, łuna tylko jaśnieje).
-6. Reakcja Ansela na rozpoznanie z teasera (roboczo: ma wrażenie, że ich zna).
-7. Kto narysował regał na karcie (roboczo: rysunek, „XIII” i dopisek to marginalia Marrow).
-8. Czy Ansel bywał w pracowni w 1951 (roboczo: tak).
-9. Tytuł książki z przepustki Flitwicka: ten sam tom, o który pytał Cassian?
-- Kto ma RETRORSUM: MG rozstrzyga w dniu sesji.
-- Autor księgi i jej zagadki: Sesja 2 i później.
+Pytania 1–8 z B2b rozstrzygnięte 2026-11-20 (zob. rejestr decyzji). Zostały:
+1. Czy zniszczenie zegarka Cassiana oddaje też godzinę drużyny (roboczo: nie, bo jest wpleciona w Ansela; wracają tylko godziny innych ofiar).
+2. Trzecie i dalsze użycie RETRORSUM w jednej sesji (roboczo: możliwe, każde przesuwa klątwę o etap).
+3. Granice RETRORSUM proponowane przez mechanika: cofnięcie najdalej do początku sceny; Story Points wydane w cofniętym odcinku wracają.
+4. Tytuł książki z przepustki Flitwicka: ten sam tom, o który pytał Cassian?
+- Kto ma RETRORSUM: MG rozstrzyga w dniu sesji. Autor księgi i jej zagadki: Sesja 2 i później.
 
 ## Zadania do wykonania
 - Brak pilnych. Tworzenie postaci uproszczone (szybka ścieżka) 2026-11-20.

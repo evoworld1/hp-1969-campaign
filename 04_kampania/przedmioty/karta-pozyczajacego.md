@@ -51,7 +51,7 @@ Pełny tekst dla graczy: `s1.handout.karta-pozyczajacego`.
 - **Otworzyć gablotę.** Dopisek na odwrocie to jedna z trzech głównych dróg do W7: gablota otwiera się, gdy ktoś godzinę odda.
 - **Przyłożyć ją do ściany obliczeń** w [[miejsce.sala-zatrzymanych-godzin]]: znak „XIII” pasuje do kredowych tarcz z trzynastoma kreskami.
 - **Dopasować krawędź do księgi.** Poszarpany brzeg pasuje do paska po wyrwanej karcie w grzbiecie zaklętej księgi (bez rzutu).
-- **Spróbować zwrócić ją do księgi.** Wariant roboczy: w Sesji 1 księga jej nie przyjmuje; łuna jaśnieje, karta na chwilę robi się ciepła jak dłoń. Przyłożenie karty nie liczy się jako dotknięcie księgi i nie podnosi zabezpieczeń (wariant roboczy Twórcy NPC, do potwierdzenia).
+- **Spróbować zwrócić ją do księgi** (decyzja MG 2026-11-20). W Sesji 1 nic: księga jej nie przyjmuje, łuna tylko jaśnieje, karta na chwilę robi się ciepła jak dłoń. W Sesji 2 zwrot karty odsłania pierwszą zagadkę księgi (treść do ustalenia przed Sesją 2). Przyłożenie karty nie liczy się jako dotknięcie księgi i nie podnosi zabezpieczeń.
 - **Użyć jej.** Tylko razem z zegarkiem Cassiana. Postacie, które użyją obu, wchodzą w zakończenie „moc” z przeglądu scenariusza: pierwsze użycia wyglądają niewinnie, koszt wychodzi następnego ranka u kogoś z otoczenia (kandydat: Rejestr Danin).
 
 ## Mechanika
@@ -78,7 +78,7 @@ Objaśnienie: Knowledge (wiedza) to cecha, Magical Theory (teoria magii) to umie
 
 ## Dla MG
 
-**Dwie ręce na karcie (wariant roboczy Twórcy NPC).** Tekst główny pochodzi od nieznanego autora księgi; rysunek regału, „XIII” i dopisek o oddawaniu to uwagi Marrow na marginesach. To wyjaśnia, dlaczego na karcie z cudzej księgi jest jej pismo i rysunek jej regału. Kto zna nazwisko Marrow (`flaga.marrow-imie-znane`) i widział tabliczkę albo ścianę obliczeń, łączy dopiski z nią bez rzutu.
+**Dwie ręce na karcie (przyjęte przez MG 2026-11-20).** Tekst główny pochodzi od nieznanego autora księgi; rysunek regału, „XIII” i dopisek o oddawaniu to uwagi Marrow na marginesach. To wyjaśnia, dlaczego na karcie z cudzej księgi jest jej pismo i rysunek jej regału. Kto zna nazwisko Marrow (`flaga.marrow-imie-znane`) i widział tabliczkę albo ścianę obliczeń, łączy dopiski z nią bez rzutu.
 
 **Czego nie mówić graczom.** Kim był autor tekstu głównego. Jak dokładnie działa danina czasu. Treść karty nie może zawierać działającej „receptury” mechanicznej.
 
@@ -89,4 +89,4 @@ Objaśnienie: Knowledge (wiedza) to cecha, Magical Theory (teoria magii) to umie
 ### Do weryfikacji
 - Całość jest nasza (`pewnosc: nasze`).
 - Dwie ręce na karcie (autor księgi i Marrow), przypalony róg i słaba niebieska poświata to szczegóły Twórcy NPC; do potwierdzenia przez MG.
-- Zwrot karty do księgi: pytanie do MG (graf Sesji 1, „Otwarte po fazie B2b”, pytanie 3).
+- Zwrot karty do księgi: rozstrzygnięty przez MG 2026-11-20 (Sesja 1 nic, Sesja 2 pierwsza zagadka); treść zagadki do ustalenia przed Sesją 2.

@@ -39,7 +39,7 @@ Pod pulpitem kamienie posadzki są osmalone w nieregularną gwiazdę, a w kurzu 
 - Siła budzi **stopniowane zabezpieczenia** (`flaga.ksiega-zabezpieczenia`, 0–3). Za dotknięcie uznaje się: dotyk ręką, dotyk różdżką, zaklęcie przyciągające, próbę przewrócenia strony.
   - **Poziom 1, pierwsze dotknięcie.** Delikatne porażenie, mrowienie do łokcia. Łuna ciemnieje, a wszystkie zatrzymane zegary w sali tykają raz, naraz. Bez obrażeń: to sygnał.
   - **Poziom 2, każde kolejne dotknięcie.** Silniejsze porażenie: lekkie obrażenia, odrzut, upuszczona różdżka. Wahadła w galerii same zaczynają się kołysać, robi się głośno. Każde następne dotknięcie na tym poziomie boli mocniej. [[npc.ansel-dray]] (jeśli jest) krzyczy, żeby przestali. **Zanim ktoś spróbuje przejść na poziom 3, MG mówi wprost, poza fikcją:** „To jest to, co zrobił Cassian. Jeśli spróbujecie wyrwać kartkę, pracownia się obudzi i jedynym wyjściem będzie ucieczka”.
-  - **Poziom 3, próba wyrwania kartki albo siłowego zabrania księgi.** Pełne zabezpieczenia. Kartka nie puszcza (wariant roboczy, zob. „Dla MG”). Zatrzymane zegary ruszają wszystkie naraz, a sala zaczyna bić trzynaście uderzeń; po trzynastym schody się zamykają. Ucieczka przez galerię wahadeł, które teraz tną szybko, i po tykających schodach do drzwi w bibliotece. Droga jest otwarta, dopóki nie wybije trzynaste uderzenie. Hałas sięga biblioteki: pani Pince albo Filch zaczynają nasłuchiwać.
+  - **Poziom 3, próba wyrwania kartki albo siłowego zabrania księgi.** Pełne zabezpieczenia. Kartka nie puszcza, ale w dłoni zostaje **róg kartki z jednym znakiem** (decyzja MG 2026-11-20, zob. „Dla MG”). Zatrzymane zegary ruszają wszystkie naraz, a sala zaczyna bić trzynaście uderzeń; po trzynastym schody się zamykają. Ucieczka przez galerię wahadeł, które teraz tną szybko, i po tykających schodach do drzwi w bibliotece. Droga jest otwarta, dopóki nie wybije trzynaste uderzenie. Hałas sięga biblioteki: pani Pince albo Filch zaczynają nasłuchiwać.
   - **Kto nie zdąży** (`flaga.ksiega-zlapani`): budzi się na podłodze ostatniego rzędu Działu Ksiąg Zakazanych, ciężko ranny i z zaklęciem zapomnienia na ostatnie minuty w pracowni (siatka bezpieczeństwa 8 w grafie Sesji 1). Śmierć postaci wchodzi w grę tylko jako świadomy wybór gracza po drugim, wyraźnym pytaniu MG. Linie i zasłony ustalone przy stole mają pierwszeństwo.
   - **Po ucieczce** sala uspokaja się po kilku minutach i znów da się do niej wejść, ale księga „pamięta”: następne dotknięcie w tej sesji zaczyna od poziomu 2.
 - **Gablota to osobny mechanizm.** Wyłamanie gabloty z notatnikiem nie budzi zabezpieczeń księgi (ma własną cenę, zob. [[przedmiot.dziennik-marrow]]).
@@ -167,9 +167,9 @@ test:
 
 **Ostrzeżenia przed poziomem 3 (W10).** Osmalone kamienie i ślady pod pulpitem; opowieść i oparzona dłoń Cassiana; strach Ansela; notatnik (gdy gablota otwarta); samo porażenie na poziomach 1 i 2. W ostateczności MG mówi wprost poza fikcją, przed próbą wyrwania kartki.
 
-**Warianty robocze (pytania do MG zadaje Reżyser; do decyzji obowiązują warianty robocze z grafu).**
-- *Próba wyrwania kartki:* kartka nie puszcza, zostaje tylko ucieczka. Rekomendacja architekta: róg kartki z jednym znakiem w dłoni, ziarno zagadek Sesji 2.
-- *Zwrot Karty Pożyczającego do księgi:* w Sesji 1 księga jej nie przyjmuje, łuna tylko jaśnieje, a karta na chwilę robi się ciepła jak dłoń. Zahaczka na Sesję 2.
+**Decyzje MG (2026-11-20).**
+- *Próba wyrwania kartki:* kartka nie puszcza, ale zostaje w dłoni **róg kartki z jednym znakiem** (trójkątny strzęp wielkości paznokcia). Znak to jeden symbol z obcego pisma księgi, z drobną kreską przypominającą wskazówkę; w Sesji 1 nic nie znaczy i nie da się go odczytać żadnym testem. W Sesji 2 przyda się przy zagadkach księgi (którą i jak, ustala się przy pisaniu Sesji 2). Róg zostaje także wtedy, gdy postać nie zdąży uciec (pracownia wypluwa go razem z nią). Do śledzenia w notatkach MG: kto ma róg.
+- *Zwrot Karty Pożyczającego do księgi:* w **Sesji 1** nic się nie dzieje poza tym, że łuna jaśnieje, a karta na chwilę robi się ciepła jak dłoń; księga jej nie przyjmuje. W **Sesji 2** zwrot karty odsłania **pierwszą zagadkę** księgi (treść zagadki: do ustalenia przed Sesją 2). Przyłożenie karty nie liczy się jako dotknięcie i nie podnosi zabezpieczeń.
 
 **Teasery.** Gracze, którzy znaleźli przed kampanią zwój z zaklęciem RETRORSUM, mogą rozpoznać w rozkładówce podobne znaki: to ta sama rodzina magii czasu. MG potwierdza tylko podobieństwo („pismo wygląda znajomo”), niczego więcej.
 
@@ -181,7 +181,7 @@ test:
 
 ### Do weryfikacji
 - Całość jest nasza (`pewnosc: nasze`). Wygląd oprawy, rzeźby pulpitu i dopiski Marrow na marginesach to szczegóły wykonawcze.
-- Dopiski Marrow w księdze to wariant roboczy Twórcy NPC (wyjaśnia, skąd na wyrwanej karcie jej ręka; zob. [[przedmiot.karta-pozyczajacego]]). Do potwierdzenia przez MG.
+- Dopiski Marrow w księdze przyjęte przez MG 2026-11-20 (wyjaśniają, skąd na wyrwanej karcie jej ręka; zob. [[przedmiot.karta-pozyczajacego]]).
 - Autor księgi, treść zagadek, pochodzenie zabezpieczeń: do ustalenia przed Sesją 2.
 - Czy [[npc.silas-wymark]] wie o księdze (był asystentem Marrow w 1951): nieustalone.
 - Liczby (mechanik, 2026-11-20): do akceptacji MG; zwłaszcza trudność ucieczki Challenging (15) i stan Bloodied dla złapanych.
