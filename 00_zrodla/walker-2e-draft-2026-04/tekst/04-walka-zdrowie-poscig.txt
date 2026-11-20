@@ -1,0 +1,689 @@
+
+[s. 33]
+33
+33
+Combat
+Forms of Combat 
+There are two types of combat 
+in the wizarding world: 
+Duelling and Skirmishing. 
+Duelling occurs where two 
+wizards square off against 
+each other in a traditional 
+formal or less formal manner. 
+Skirmishing covers all other 
+combat. 
+Rounds 
+Combat is split into three–
+second rounds during which 
+all the participants get to carry 
+out any two of the following 
+actions: 
+• Move 
+• Cast a spell 
+• Initiate a duel 
+• Skirmishing Attack 
+• Take cover 
+• Ready or reload a weapon 
+• Any other quick action or 
+part of an action 
+Rolling Initiative 
+At the beginning of each 
+round the Narrator finds out 
+the players’ intentions and 
+then directs the order of play 
+from a logical and story telling 
+perspective. Whenever actions 
+are in opposition the Narrator 
+may call for an initiative roll to 
+see who acts first. Both parties 
+roll 1D+Speed+Skirmishing
+(or 1D+Speed+Duelling if 
+appropriate) with the highest 
+roll acting first. 
+Move 
+You can move a number of 
+metres equal to your Speed 
+plus one other action, or use 
+both actions to move and run 
+at twice your Speed. 
+Cast a spell 
+You can use an action to cast a 
+spell. Normally spell casting 
+rolls use Focus, but attack and 
+defence spells used in combat 
+are based on your Wits. 
+Spells aimed at an opponent 
+(Stupefy, etc.) are also subject 
+to ranged combat penalties. 
+The primary defence for 
+wizards is the Shield Charm, 
+Protego. To use it against an 
+attack you will need to have 
+fully mastered the spell (see 
+page 40). Even if the attacker 
+beats your defence, the charm 
+still reduces the magical or 
+physical damage (see page 56). 
+Initiate a duel 
+You can challenge another 
+witch or wizard to single 
+combat. See page 41 for 
+details about Wizard Duels. 
+Skirmishing attack 
+An armed, unarmed, or ranged 
+attack. Anybody you attack will 
+have a chance to defend by 
+blocking or dodging. 
+Take cover 
+You can duck behind cover, 
+summon or conjure an object 
+to block your opponent’s 
+attack, cast a protective charm, 
+or obscure yourself in some 
+other magical way. 
+Ready or reload a weapon 
+You can draw a sheathed 
+sword or any stowed weapon 
+with a single action, but a bow 
+or an unloaded crossbow will 
+normally require two actions 
+(one to draw and one to load). 
+Any other quick action or
+part of an action 
+Any other activity a character 
+might carry out. A simple 
+action like grabbing an object 
+or opening an unlocked door 
+will only take a single action, 
+but more involved tasks like 
+picking a lock or deciphering 
+an inscription might take 
+several actions per attempt to 
+roll successfully. 
+Free Actions 
+Free actions include anything 
+you can do without much 
+thought while focusing on 
+other actions; talking, quickly 
+looking around, grabbing a 
+small object, etc. Most wizards 
+carry their wands out of sight, 
+but still ready to be swiftly 
+drawn as a free action. 
+Physically defending yourself 
+from attack is also considered 
+to be a free action: Dodging 
+attacks and blocking armed 
+and unarmed attacks with a 
+weapon or shield. Only 
+unarmed attacks can be 
+blocked unarmed. Ranged 
+weapons can only be blocked 
+with a shield or similar. 
+Actions
+[s. 34]
+34
+34
+Combat
+Attack and 
+Defence Rolls 
+The combat quick reference 
+(see page 165) shows the rolls 
+made to attack and defend and 
+modifiers that add to the 
+attacker’s target. After a few 
+battles, these rolls will become 
+second nature.
+A B C D This is what the attacker rolls, 
+depending on the type of attack 
+(see lettered descriptions, top–right). 
+Read down the column for the 
+available defence options and any 
+modifiers that might apply.
+The defender can try to dodge 
+or block (either with an object or with 
+the Shield Charm, Protego). 
+The defender’s roll (plus the 
+modifiers below) is the attackers 
+target. The attacker must roll equal to
+or above the target to succeed.
+These are the modifiers that might 
+add to the target for each type of 
+attack. The tables for these modifiers 
+are shown below.
+Which column to use: 
+ Aimed spells. Any spell marked with a † or ‡ on the spell sheet. 
+ Duelling (see page 41). Can be formal with challenges and 
+ bowing, or just two wizards squaring off against each other 
+ in the heat of battle. 
+ Close combat with any kind of weapon or with fists, etc. 
+ Attacks at distance with a bow, gun, thrown weapon, etc.
+A
+B
+C
+These are the tables for modifiers 
+that often apply. The Narrator 
+is free to add or subtract from the 
+target at their discretion to suit the 
+circumstances. 
+The numbers shown are added to 
+the defender’s roll and form the 
+attacker’s target.
+D
+If the attack is successful then the 
+attacker rolls damage and the 
+defender rolls to resist. 
+See page 35–36 for the injury rules.
+[s. 35]
+35
+35
+The Health track at the 
+bottom of your 
+character sheet records 
+injuries affecting your mind 
+and body. There are six 
+physical states (from Shaken 
+to Lifeless) and six mental 
+states (from Rattled to 
+Mindless). These indicate your 
+condition after combat or 
+misadventure. 
+When you are physically or 
+mentally injured you mark off 
+one or more circles starting 
+from the leftmost circle and 
+working across. If you 
+continue to receive injuries 
+you continue to fill in circles 
+until you reach the sixth circle 
+which indicates potential 
+death or permanent catatonia. 
+For each state there is a 
+penalty from +1 to +7. Add 
+this penalty to the difficulty of 
+any tasks you roll. If you have 
+both a physical and mental 
+penalty these are combined. 
+For example, if you are bruised 
+(+2) and confused (+5), add +7
+to any targets you need to roll. 
+X indicates no actions 
+are possible. 
+Weapon Damage 
+For most witches and wizards 
+the wand will always be their 
+weapon of choice, but 
+occasionally other weapons 
+may come to hand. Students 
+at Hogwarts have even come 
+to physical blows from time to 
+time. For weapons damage roll 
+one or more dice plus a 
+modifier as shown below. 
+Resisting Damage 
+When an attack succeeds, the 
+attacker rolls damage based on 
+the spell or weapon used. 
+The target rolls 1D10+Vitality 
+plus any protection (see 
+armour below) to resist the 
+damage. Check the table 
+below for the outcome. This 
+will indicate the number of 
+circles to mark off and the 
+chance that the target is 
+knocked unconscious.
+Injury: Body & Mind
+Damage Roll
+< 
+Vitality Roll
+No Injury
+Damage Roll
+=> 
+Vitality Roll
+1 Circle
+Damage Roll
+=> 2x 
+Vitality Roll
+2 Circles 
+Roll 1D + Vitality to 
+avoid passing out.
+Target =
+3 + current mind/body 
+penalty
+Damage Roll
+=> 3x 
+Vitality Roll
+3 Circles 
+Roll 1D + Vitality to 
+avoid passing out.
+Target =
+6 + current mind/body 
+penalty
+Weapon Damage
+Fist/Kick ½D + Vitality
+Catapult 1D + Wits
+Staf 1D+2 + Vitality
+Knife 2D + Speed
+Sword Cane 2D+1 + Speed
+Sword 2D+2 + Vitality
+Trident 2D+3 + Vitality
+Axe 2D+5 + Vitality
+Crossbow 3D + Speed
+Bow 3D+2 + Speed
+Blunderbuss 3D+3 + Wits
+Cannon 5D + Wits
+Armour Physical Magical Speed
+Quidditch 
+Gear +2 – –
+Plate 
+Armour +3D – -2
+House–Elf 
+Armour +2D – -1
+Goblin 
+Armour +3D+2 +3D -2
+[s. 36]
+36
+36
+Healing 
+If the right witch or wizard 
+is on hand with spells like 
+Episkey (minor healing) or 
+Brackium Emendo (mends 
+broken bones), many injuries 
+can be dealt with almost 
+instantly, but you still might 
+find yourselves waking up 
+in the Hospital Wing or 
+St Mungo's Hospital. 
+The injured character may 
+take a long time to heal (or 
+even wake up). Use the table 
+below as a guide for recovery 
+from physical and mental 
+injuries: 
+One circle (shaken or rattled) 
+can be shrugged off in 
+seconds, so it will only be one 
+or two rounds before you 
+regain your composure. Two 
+circle injuries (bruised or 
+dazed) last for minutes (20
+rounds plus). Three or more 
+circles starts to get serious. 
+The Narrator shouldn’t 
+underplay serious injuries, 
+but also not let them get in 
+the way of the story. Death 
+or madness should rarely be 
+certain, but should be mildly 
+possible. Remember “To the 
+well–organised mind, death is but 
+the next great adventure.”
+Temporary 
+Mental States 
+Some spells and experiences 
+place your mind in a 
+temporary mental state. For 
+example, the spell Confundo 
+places the victim in a confused 
+state for one or more rounds, 
+and the fear caused by 
+witnessing certain magical 
+creatures can leave you rattled, 
+dazed, or worse (see page 89). 
+While in a particular mental 
+state the penalty for that state 
+adds to all targets rolled and 
+combines with any physical 
+penalty. For example, in a 
+Confused state add +5 to any 
+target. If you are also bruised 
+with a +2 penalty you face a 
+total of +7 added to any targets 
+you need to roll. 
+If no duration is specified for 
+a temporary mental state, or 
+the victim is unable to shrug 
+off the effect, then the spell 
+wears off by one circle each 
+round – confused becomes 
+drained, drained becomes 
+dazed, dazed becomes rattled, 
+and so on – until the victim is 
+entirely unaffected. The effects 
+of fear caused by witnessing 
+terrifying magical creatures 
+also wears off in this way. 
+If a spell is cast that changes 
+your mental state when you 
+are already in a worse one, 
+then the spell will have no 
+additional effect. Confundo, 
+for example, will make no 
+significant difference to 
+somebody who is already 
+raving or mindless. 
+Permanent 
+Mental States 
+Some ordeals can leave a 
+permanent mark. Misapplied 
+memory charms can be highly 
+debilitating, and prolonged 
+use of the Cruciatus Curse 
+(also known as the Torture 
+Curse) can have long term 
+psychological effects. 
+Here are some examples from 
+the Harry Potter books: 
+• Ministry employee Bertha 
+Jorkins was the victim of a 
+powerful memory charm 
+that left her hugely forgetful 
+(mental state Confused). 
+• Barty Crouch, Head of the 
+Department of International 
+Magical Cooperation, was 
+left incoherent (mental state 
+Raving) after fighting off the 
+effects of Lord Voldermort’s 
+Imperius Curse. 
+• Frank and Alice 
+Longbottom, the Auror 
+parents of Neville 
+Longbottom, were tortured 
+to insanity (mental state 
+Mindless) by a group of 
+Death Eaters. They remain 
+in St. Mungo’s Hospital to 
+this day. 
+Unlike physical injury, 
+recovery from permanent 
+emotional or mental injury is 
+as difficult in the wizarding 
+world as it is in the Muggle 
+one. Recovery is a long 
+process, if it is at all possible. 
+Permanent mental injury 
+should be used rarely and only 
+for strong story reasons. 
+1 Circle Seconds
+2 Circles Minutes
+3 Circles Hours
+4 Circles Days
+5 Circles Weeks
+6 Circles Months
+Injury: Body & Mind
+[s. 37]
+37
+37
+Pursuit 
+Chasing opponents on foot, 
+on beasts (magical or 
+mundane), or on brooms or 
+Muggle vehicles is a staple of 
+dramatic storytelling. Every 
+type of locomotion has a die 
+roll speed. 
+Running pursuers and their 
+target roll 1D + Vitality +
+Speed. Pursuers on foot 
+cannot chase a target on a 
+broomstick or other vehicle, 
+only a running target. 
+Broomstick speeds are listed 
+on page 166, and Muggle 
+vehicle speeds and flying 
+magical creatures are detailed 
+on page 167. 
+When a pursuer is chasing a 
+target, they both roll their 
+speed dice and compare their 
+scores using the table below. 
+Pursuit Results 
+Target Escapes 
+The pursuer is outpaced and 
+loses the target. 
+Target starts pulling away 
+The target begins to pull away 
+and can roll a bonus speed 
+dice next turn. 
+Pursuer stays on target’s tail 
+The pursuer starts to catch up 
+with the target and can roll a 
+bonus speed dice next turn. 
+Pursuer draws up alongside
+or overtakes the target 
+The pursuer can choose to 
+pull up alongside the target or 
+overtake them. If they are 
+alongside, they can perform an 
+attack or cast a spell at the 
+target. 
+Pursuer causes the target to
+crash–land or stumble. 
+The pursuer slams into the 
+target or manoeuvres in such a 
+way that the target loses 
+control. A target being 
+pursued on foot will be 
+knocked to the ground and 
+take damage equal to 1D + the 
+pursuer’s Vitality + Speed. 
+A target on a broom or other 
+vehicle will crash (see right). If 
+the target crashes, their 
+vehicle is wiped out and they 
+must resist damage equal to 
+the speed of their vehicle (see 
+page 167). 
+If the target is on a beast, both 
+the target and their animal 
+take damage equal to the 
+animal’s speed. 
+Falling 
+A character who falls more 
+than two metres suffers 
+damage equal to 1D per metre 
+fallen. 
+A house, like Harry Potter’s 
+childhood home on Privet 
+Drive, or most of the dwellings 
+in Hogsmeade, will be about 
+three metres tall per storey. 
+A commercial building, or a 
+large stone building like 
+Hogwarts, will be more like 
+four metres per storey. Most 
+broomstick flying takes place 
+at heights of 5 to 10 metres. 
+A Quidditch goal is about 
+fifteen metres off the ground, 
+but many Seekers will fly 
+much lower during a match. 
+A fall onto soft ground, like 
+deep snow, swampy earth, or 
+ground softened by the 
+Spongify Charm (see page 58), 
+reduces damage by 2D. Impact 
+with hard ground, like stone 
+floors or rocks, adds +1D 
+damage. The Molliare Charm 
+(see page 54) reduces any 
+damage by 3D. The Arresto 
+Momentum spell, also known 
+as the Slowing Charm (see 
+page 47), reduces any damage 
+to zero. Other spells that can 
+be used in a plummeting 
+emergency include; Descendo 
+(see page 50), the Flying 
+Charm (see page 52), Inflatus 
+(see page 53), Levicorpus (see 
+page 53), and Wingardium 
+Leviosa (see page 59). The 
+Summoning Charm, Accio 
+(see page 47), can be used to 
+bring your broomstick if it is 
+close enough to save you.
+Pursuit and Other Hazards
+Pursuer Roll
+< 
+½ Target’s Roll
+Target escapes.
+Pursuer Roll
+< 
+Target’s Roll
+Target starts 
+pulling away.
+Target rolls
++1D next turn.
+Pursuer Roll
+=> 
+Target’s Roll
+Pursuer stays
+on target’s tail. 
+Pursuer rolls
++1D next turn.
+Pursuer Roll
+=> 
+2x Target’s Roll
+Pursuer draws 
+up alongside or 
+overtakes the 
+target (pursuers 
+choice).
+Pursuer Roll
+=> 
+3x Target’s Roll
+Pursuer causes 
+the target to 
+crash–land or 
+stumble.
+[s. 38]
+38
+38
+Pursuit and Other Hazards
+Drowning 
+A character who is fully 
+submerged and unable to 
+breathe begins to drown. 
+With time to prepare, 
+a character can hold their 
+breath for a number of rounds 
+equal to their Vitality + 10. 
+Strenuous activity or panic 
+reduces this by up to half at 
+the Narrators’s discretion. A 
+character is panicking if they 
+roll 1D + Wits + Swimming
+and roll less than 10. 
+Unless they’re impeded in 
+some way, a character in 
+danger of drowning will 
+attempt to swim up to the air. 
+Their progress will depend on 
+their depth measured in 
+Fathoms. A six foot Depth. 
+For example, near the shore, 
+Hogwart’s Black Lake is one to 
+three Fathoms deep. At the 
+centre of the lake, in open 
+waters, it is ten to twenty 
+Fathoms deep. Each round the 
+submerged character attempts 
+to surface, they roll 1D +
+Vitality + Swimming. If they 
+roll 9+, they rise by one 
+fathom. 
+If a character is submerged 
+and can no longer hold their 
+breath, they must resist 1D 
+damage. Each subsequent 
+round the damage they must 
+resist increases by +1D. 
+Eating Gillyweed allows you to 
+breath underwater for an hour 
+or so (see page 69). 
+The Bubble Head Charm is 
+another useful survival 
+option (see page 48). 
+Venom and Poisons 
+Where attacks have a 
+poisonous effect, like a snake 
+bite, they continue to cause 
+damage to a character in 
+subsuquent rounds until they 
+become benign or are treated. 
+There are three levels of 
+lethality for venoms and 
+poisons. Each round following 
+a successful attack, the 
+character must roll 1D10 +
+Vitality versus the poison 
+damage (see page 35). If a 
+poisoned character stays 
+immobile and doesn’t take any 
+actions, they can add +5 to 
+their roll to resist damage. 
+Poison ratings are listed on 
+the table, below, and on 
+creature descriptions: 
+I. Irritating
+II. Toxic 
+III. Deadly 
+Irritating 
+Hazardous, but extremely 
+survivable. Poisonous effect 
+only lasts for three rounds 
+after which the poison 
+becomes benign. 
+The maximum injury is 
+“Broken” (see page 35). 
+Toxic 
+Dangerous without rapid 
+intervention. Normally 
+treatable with a bezoar (a 
+stone from the stomach of a 
+goat that acts as a powerful 
+antidote). The Bezoar is simply 
+placed in the victim’s mouth. 
+However, some toxins will 
+require specialist antidotes. 
+Every hour, the victim must 
+save against 2D damage or 
+mark off circles on their 
+Body track (see page 35). 
+An hourly draught of Blood 
+Replenishment potion (see 
+page 62) can keep the 
+poisoning at bay until an 
+antidote is found. 
+ 
+Deadly 
+Fatal Without Magical Aid. 
+Death is rapid and virtually 
+certain. If treatable, these 
+always require a very specialist 
+antidote. Basilisk venom, for 
+example, can only be treated 
+with Phoenix tears. Every 
+round, unless an antidote is 
+readily available, the victim 
+must save against 3D damage 
+or mark off circles on their 
+Body track (see page 35).
+Level Damage Examples
+Irritating 1D Irritant herbs (Bubotuber pus, Sneezewort, 
+Valerian root, Mimbulus mimbletonia secretion)
+Toxic 2D
+Acromantula venom (see page @@), Nagini’s 
+venom (see page 90), Snake venom (see page 
+99), and poisonous herbs (Aconite, Belladonna, 
+Helebore, Venomous Tentacula venom, 
+Mistletoe, etc.)
+Deadly 3D
+Basilisk venom (see page 90), Chimaera venom 
+(see page 92), and Manticore venom (see page 
+98)

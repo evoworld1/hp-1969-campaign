@@ -1,0 +1,680 @@
+
+[s. 71]
+71
+71
+Enchanted Objects
+“‘I solemnly swear that I am up 
+to no good,’ he said. A thin, ink 
+line traced itself across the map, 
+then, like a spider’s web, more 
+lines appeared, until a very 
+detailed map of Hogwarts spread 
+out in front of him.” 
+Enchanted or bewitched 
+objects are the closest 
+equivalent wizarding kind has 
+to Muggle technology. These 
+are a good starting point to see 
+how enchanted objects are 
+created and will hopefully 
+inspire you to create some 
+weird and wonderful devices. 
+They don’t cover some unique 
+items, like the deluminator 
+and other inventions of 
+Dumbledore, but they give less 
+legendary witches and wizards 
+plenty to play with. 
+Creating enchanted objects 
+requires a combination of 
+Transfiguration, Charms, and 
+if it’s not an existing object, 
+the Crafting skill, but first you 
+must decide what magical 
+qualities your object will 
+possess. 
+The table to the top–right
+lists all of the qualities an
+enchanted object can 
+possess. Each quality has 
+an associated difficulty. 
+The difficulty to enchant the
+item will be 10 plus the
+combined difficulty of all the
+qualities imbued. 
+You can see examples of 
+enchanted objects on pages 
+74–76 along with the qualities 
+they are imbued with and the 
+total difficulty to create each 
+item. 
+Example 
+Let’s say you want to recreate 
+the Marauder’s Map. The map 
+shows every inch of Hogwarts 
+(Broadcasting), inside and out, 
+including secret passages 
+(Penetrating), and the location 
+of every person in the 
+grounds. The map can 
+accurately identifying each 
+person, and is not fooled by 
+Animagi, Polyjuice Potions, or 
+Invisibility Cloaks. Even the 
+Hogwarts ghosts are not 
+exempt (Standard spell:
+Homonculous Charm). 
+The map hid its contents 
+(Disguising) and only revealed 
+itself when it heard the 
+command "I solemnly swear 
+that I am up to no good” and 
+reacted to the presence of 
+Severus Snape by displaying 
+insults (intelligent). 
+ 
+In summary, 10+ 
+Broadcasting (3) 
+Penetrating (5) 
+Standard spell (5) 
+Disguising (7) 
+Intelligent (5) 
+Total difficulty: 35. 
+A hefty target worthy of four 
+very talented wizards. 
+Quality Difficulty 10+
+Accelerated (per +1D speed) +5
+Animated (moves independently) +3
+Bestowing (conveys its powers to the holder/wearer) +3
+Broadcasting (displays/transmits information) +3
+Detecting (reacts to specific stimuli) +3
+Disguising (alters appearance) +7
+Dispensing (emits or delivers a specific substance) +3
+Enhanced spell (more powerful version of a spell) +7 per spell
+Intelligent (has knowledge and can act independently) +5
+Loyal (very protective and obedient towards its owner) +3
+Penetrating (can perceive through barriers) +5
+Slippery (moves seamlessly through small gaps) +5
+Standard spell (acts as a standard spell) +5 per spell
+Time twisting (can move through time) +30
+[s. 72]
+72
+72
+Qualities 
+Accelerated 
+Adds extra speed dice to a 
+vehicle or animated object. 
+An animated enchanted 
+object, like a broomstick, has a 
+base speed of 1D and the 
+speed of various motorised 
+Muggle vehicles are listed 
+below. Every+1D of additional 
+speed adds 5 points of 
+difficulty. 
+Animated 
+Moves independently at 1D 
+speed. Can hover or move 
+through the air at ground 
+level, but cannot fly at altitude 
+without the Flying Charm. 
+Can be dangerously random 
+without the Intelligent or 
+Loyal qualities. 
+Bestowing 
+Transfers the enchanted item’s 
+power to the wearer or holder 
+For example, without the 
+Bestowing quality, an 
+invisibility clock would be 
+transparent and the person 
+within it perfectly visible. 
+Broadcasting 
+Visually or audibly delivers 
+specific information. 
+Scoreboards at the Quidditch 
+World Cup and wizarding 
+wireless radios both employ 
+this quality. 
+Detecting 
+Locates defined targets and 
+can activate other qualities or 
+raise the alarm based on 
+specific stimuli. The alarm can 
+be audible, visual, or both. 
+Disguising 
+Alters or distorts the 
+appearance of the enchanted 
+object. Requires the 
+Bestowing quality to disguise 
+the user of the enchanted 
+object. A hidden door might 
+use this quality to resemble 
+the brickwork around it and 
+then use the Detecting quality 
+to hear a password and then 
+reveal itself. 
+Dispensing 
+Delivers a specific item or 
+substance. Can be dispensed 
+at a gentle pace or fired at 
+high speed when paired with 
+the Accelerated quality. 
+Enhanced spell 
+Embodies an enhanced 
+version of a spell effect. 
+Enhancements are at the 
+discretion of the Narrator and 
+should ideally add character 
+and functionality to an 
+enchanted item rather than 
+being used to power play. 
+Each enhanced spell add +10
+difficulty. 
+Intelligent 
+Knows information in a 
+specific area, can make simple 
+decisions, and can respond to 
+instructions. 
+Loyal 
+Paired to an individual and 
+always works to their 
+advantage. Can pair with a 
+new owner over time. 
+Penetrating 
+Can perceive through walls 
+and other barriers. 
+Slippery 
+Moves seamlessly through 
+gaps smaller than itself and 
+evades hazards in its path like 
+the Knight Bus. 
+Standard spell 
+Embodies a standard spell 
+effect. Each standard spell 
+effect adds +5 difficulty. 
+Time twisting 
+Can change the flow of time. 
+Returning one or two 
+individuals to an earlier point 
+in time, or like the Bell Jar of 
+Time (see page 74), warping 
+time in a limited area. Messing 
+with time is highly dangerous, 
+and both players and narrators 
+should tread warily. 
+Muggle Vehicle Speed
+Bicycle 1D+1
+Bus/Lorry 3D
+Car 3D+1
+Motorbike 3D+2
+Sports car 4D+2
+Helicopter 5D
+Light aircraft 5D+2
+Aeroplane 9D+2
+Enchanted Objects
+[s. 73]
+73
+73
+Enchanted Objects
+Crafting 
+You can enchant an existing 
+object, but crafting it yourself 
+gives you a relationship with 
+the object that will make 
+enchanting easier. Roll 
+1D+Knowledge+Crafting for 
+your Crafting Score. 
+You will also need to make a 
+Transfiguration roll to prime 
+your object for enchantment: 
+1D+Focus+Transfiguration. 
+The target for your 
+Transfiguration roll will 
+depend on your Crafting 
+Score (see below), or if you are 
+enchanting an existing object. 
+Up to three other witches or 
+wizards can assist you with the 
+crafting and transfiguration. 
+Add +1 to your roll for each 
+helper. 
+If the item is not of the quality 
+you were hoping for, you will 
+have to start again. If your 
+Transfiguration roll fails, the 
+item is destroyed and you will 
+also have to start from scratch. 
+Enchanting 
+Roll 1D+Focus+Charms. 
+Your target is the difficulty of 
+the enchanted item based on 
+the qualities you want to 
+bestow (see page 71). 
+You can add a bonus for any 
+assistance, as shown on the 
+table (bottom–right). 
+Research 
+For every six hours you spend 
+in the library and roll 12+ with 
+1D10+Knowledge+Archivist
+you gain the cumulative bonus 
+below. You can split this time 
+over multiple day. 
+ 
+Helping Hands 
+Up to three others can assist 
+with the enchanting, as per 
+the normal rules for working 
+together (see page 4), each 
+helper adds +1 to your roll. 
+Perseverance 
+If you fail to enchant the item, 
+you can spend more time 
+tinkering with it and try a 
+week later with a +1 bonus. 
+The Misuse of Muggle 
+Artefacts Office is a division of 
+the Department of Magical 
+Law Enforcement, based on 
+the second floor of the British 
+Ministry of Magic. 
+The Department regulates the 
+use of magic on Muggle 
+objects and tries to keep items 
+that have been bewitched 
+away from Muggles. 
+The law prohibits the 
+enchantment of Muggle items 
+with the intent to use them for 
+purposes other than they were 
+designed for (Arthur Weasley 
+claimed he was able to 
+bewitch a Ford Anglia to fly 
+legally because he did not 
+intend to fly the car). Beware 
+when enchanting objects that 
+are common in the Muggle 
+world that they don’t fall into 
+Muggle hands. 
+Crafting
+Score Quality Transfiguration
+Target
+1–5 Shoddy 16+
+6–11 Competent 14+
+12–17 Accomplished 12+
+18+ Masterpiece 10+
+– Existing object 18+
+Assistance Bonus
+Research +1 per six hours (max. +5)
+Helping Hands +1 per helper (max. +3)
+Perseverance +1 per week tinkering (max. +5)
+Accomplished 
+crafting +1
+Masterpiece 
+crafting +2
+[s. 74]
+74
+74
+Enchanted Objects
+Example Enchanted 
+Objects 
+Advertising blackboard 
+Board displaying messages 
+and advertisements at the 
+Quidditch World Cup. 
+Qualities: Broadcasting, 
+Intelligent (advertising and 
+quidditch scores). 
+Difficulty: 18
+Alastor Moody’s Eye 
+A glass eye that could rotate 
+360 degrees in Moody's head 
+and allowed him to see 
+through absolutely anything, 
+Qualities: Bestowing, 
+Enhanced spell (Homenum 
+Revelio that can see anything 
+invisible including House–
+Elves, etc.), Penetrating. 
+Difficulty: 25
+Anti–cheating quill 
+Issued to students sitting 
+O.W.L. and N.E.W.T. 
+examinations at Hogwarts, as 
+well at their end of year 
+examinations. 
+Qualities: Detecting (cheating). 
+Difficulty: 13
+Auto-Answer Quill 
+Quills that write the answer to 
+questions automatically. 
+Qualities: Animated, 
+Intelligent (General wizarding 
+knowledge and the Hogwarts 
+curriculum). 
+Difficulty: 18+ 
+Beater’s bat 
+Quidditch bats used by 
+Beaters to hit Bludgers away 
+from their own team members 
+and towards players on the 
+other team. 
+Qualities: Standard Spell 
+(Unbreakable Charm). 
+Difficulty: 15
+Beautifying robes 
+Enchanted garments that 
+enhance the appearance of the 
+wearer. They are sold at 
+Madam Malkin's Robes for All 
+Occasions in Diagon Alley (see 
+page @@). 
+Qualities: Bestowing. 
+Disguising (hides flaws). 
+Difficulty: 20
+Bell Jar of Time 
+A bell jar located in the 
+Ministry of Magic. A tiny egg 
+rises in the jar, cracks open, 
+and a small hummingbird 
+emerges. The bird flies to the 
+top of the jar, but as it falls, its 
+feathers became bedraggled. 
+By the time it reaches the 
+bottom, it is enclosed once 
+more in its egg. Repeating this 
+process over and over again. 
+During the Battle of the 
+Department of Mysteries in 
+1996, a Deatheater got his 
+head stuck in the jar. It did not 
+end well. 
+Qualities: Time twisting 
+(speeds up and loops time 
+within the jar) 
+Difficulty: 40
+Bewitched tea set 
+Owned by an old witch. When 
+she died, the set was 
+subsequently bought at a 
+Muggle antique shop. The 
+bewitched teapot went 
+berserk, squirting boiling tea 
+everywhere. One unfortunate 
+man ended up hospitalised 
+when the sugar tongs attacked 
+him. As an employee of the 
+Misuse of Muggle Artefacts 
+Office, Arthur Weasley had 
+quite a time sorting the whole 
+thing out, 
+Qualities: Animated, Loyal, 
+Standard spell (Refilling 
+Charm: Hot tea). 
+Difficulty: 21
+Bludger 
+An iron ball used in the sport 
+of Quidditch. The ball is 
+bewitched to fly around and 
+try to knock the players off of 
+their broomsticks. 
+Qualities: Animated, 
+Intelligent. 
+Difficulty: 18
+British Ministry of 
+Magic fleet car 
+A fleet of enchanted Muggle 
+cars used for the 
+transportation of “top–grade 
+security status” Individuals as 
+well as Ministry officials and 
+their luggage. 
+Qualities: Slippery, Standard 
+spells (Anti–intruder jinx, 
+Capacious Extremis to enlarge 
+interior dimensions, Flying 
+Charm, Protego Totalum to 
+protect from magical attacks, 
+Repello Muggletum to deter 
+nosey Muggles). 
+Difficulty: 30
+[s. 75]
+75
+75
+Enchanted Objects
+Broomstick 
+Broomsticks, also known as 
+brooms, are a means of 
+transportation employed by 
+wizards and witches. Nearly 
+every wizarding household in 
+Britain owns at least one 
+broomstick. Young wizards 
+begin their broomstick 
+practice with non–accelerated 
+broomsticks. Very speedy 
+sports brooms are used for 
+games like Quidditch. 
+Qualities: Accelerated (not 
+included for training brooms), 
+Animated, Loyal, Standard 
+spell (Flying Charm and the 
+Molliare cushioning charm to 
+make the broom more 
+comfortable for the rider) 
+Difficulty: 26 (+5 per extra 1D 
+of Acceleration) 
+Dumbledore's Army coin 
+Fake Galleons created by 
+Hermione Granger, in order to 
+call meetings of Dumbledore's 
+Army, a secret group of 
+students dedicated to teaching 
+fellow Hogwarts students 
+Defence Against the Dark 
+Arts. The numbers around the 
+edge of the coin, normally just 
+a serial number identifying the 
+goblin who cast the coin, 
+changed to indicate when the 
+next meeting would take place. 
+The coins came in handy 
+during the Second Wizarding 
+War, and after the war were 
+kept as badges of honour. 
+Qualities: Standard spell 
+(Protean charm). 
+Difficulty: 15
+ 
+Durmstrang bow staff
+A thick wooden staff used to 
+perform the Durmstrang 
+processional at the start of 
+every Triwizard Tournament. 
+They magically left scorch 
+marks every time they were 
+stamped on the floor. 
+Qualities: Dispensing (sparks). 
+Difficulty: 13
+Durmstrang ship 
+A ship that can travel above or 
+below the water that isused to 
+transport Durmstrang 
+students. 
+Qualities: Animated, 
+Intelligent (Navigation), 
+Enhanced spell (Bubble–head 
+Charm extending around the 
+entire ship). 
+Difficulty: 25
+Hogwarts enchanted 
+Great–hall ceiling 
+An Enchanted Ceiling, like the 
+one at Hogwarts, is a ceiling 
+that is bewitched to look like 
+the sky outside, and to mirror 
+the weather. 
+Qualities: Detecting (the sky 
+above Hogwarts), Broadcasting 
+(displaying the sky above the 
+castle). 
+Difficulty: 16
+Everlasting ink 
+A type of ink that 
+is bewitched to last 
+forever and never fade.
+Qualities: Standard Spell 
+(Unbreakable Charm). 
+Difficulty: 15
+Floo powder 
+Floo powder is a glittery 
+magical powder used by 
+witches and wizards to travel 
+by the Floo Network, which 
+connected the fireplaces of 
+nearly every wizarding 
+household and building. 
+Qualities: Intelligent (fireplace 
+navigation), Standard spell 
+(Apparition). 
+Difficulty: 20
+Flying Ford Anglia 
+A light blue Ford Anglia 105E 
+Deluxe that was enchanted by 
+Arthur Weasley to fly, as well 
+as to become invisible, with 
+the use of a specially installed 
+device called an Invisibility 
+Booster. It was also modified 
+so that it could fit ten people, 
+six trunks, two owls, and a rat 
+comfortably. See page @@. 
+Qualities: Animated, 
+Intelligent, Loyal, Standard 
+spells: Capacious Extremis to 
+enlarge interior dimensions, 
+and the Flying Charm). The car 
+is fitted with an Invisibility 
+Booster (see page 76). 
+Difficulty: 32
+[s. 76]
+76
+76
+Enchanted Objects
+Hermione Granger's 
+beaded handbag 
+Hermione Granger placed an 
+Undetectable Extension 
+Charm on her bag to hold 
+items she and her friends 
+would need during their hunt 
+for Voldemort's Horcruxes. 
+Qualities: Enhanced spell (an 
+undetectable version of the 
+Extension Charm, 
+Capacious 
+Extremis, to 
+enlarge the 
+carrying 
+capacity of the 
+bag. 
+Difficulty: 17
+Invisibility Booster 
+A magical device Arthur 
+Weasley installed on his 
+family's Ford Anglia. It was 
+activated by a small silver 
+button on the car's dashboard, 
+and would turn the car, its 
+passengers, and everything 
+else inside invisible. 
+Qualities: Bestowing, 
+Enhanced spell 
+(Disillusionment Charm to 
+render anything invisible 
+within the Booster’s field). 
+Difficulty: 17
+Invisibility cloak 
+A magical garment which 
+renders whoever or whatever 
+it covers virtually invisible. 
+True Invisibility Cloaks 
+are exceptionally rare and 
+valuable within the 
+wizarding world. 
+Qualities: Bestowing, 
+Enhanced spells 
+(Disillusionment Charm to 
+render the wearer invisible 
+and the Quietus Charm to 
+muffle their movements). 
+Difficulty: 27
+Knight Bus 
+A triple–decker, purple AEC 
+Regent III RT bus that 
+assisted stranded individuals 
+of the wizarding community 
+through public transportation. 
+It operated at a very fast speed 
+and obstacles would jump out 
+of its way, and it could also 
+deceptively fit through small 
+spaces. Witches or wizards can 
+hail the bus by raising their 
+wand hand in the air.. 
+Qualities: Accelerated (+4D), 
+Detecting (lost wizards), 
+Standard spell (Repello 
+Muggletum to avoid Muggle 
+attention), Slippery. 
+Difficulty: 42
+Leaky Cauldron's 
+floating teapot
+A teapot enchanted to serve 
+tea of its own volition. 
+Qualities: Animated, 
+Dispensing (hot tea, milk, 
+sugar), Intelligent. 
+Difficulty: 21
+Seamus Finnigan’s 
+explosive charge 
+A magical explosive perfected 
+by Seamus Finnigan. 
+Qualities: Detecting (Death 
+Eaters), Standard spell 
+(Bombarda Maxima). 
+Difficulty: 18
+Sirius Black's motorbike 
+Enchanted by Sirius Black, the 
+bike’s powerful engine flew 
+with a loud roar and was fast 
+enough to outpace 
+broomsticks (see page @@). 
+Qualities: Accelerated (+3D. 
+Max speed 6D+2), Animated, 
+Standard spells: Engorgio to fit 
+larger drivers or passengers, 
+and Flying Charm). 
+Difficulty: 38
+Sirius Black's penknife 
+A knife grifted to Harry by his 
+Sirius Black with attachments 
+designed to open any lock and 
+untie any knot. 
+Qualities: Enhanced spell 
+(Alohomora. Opens any lock 
+and unties any knot, even if 
+they had been protected 
+against the Unlocking Charm 
+or similar spells). 
+Difficulty: 17
+Time Turner 
+The ultimate desirable 
+enchanted object. 
+A Time Turner takes you back 
+in time by one or more hours, 
+where you can stay for a 
+maximum of five hours. 
+Qualities: Time Twisting. 
+Difficulty: 40

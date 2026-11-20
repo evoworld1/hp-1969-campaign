@@ -1,0 +1,640 @@
+
+[s. 77]
+77
+77
+Quidditch
+Overview 
+Quidditch is the most popular 
+and well-known game among 
+wizards and witches. 
+Quidditch is played by two 
+teams on broomsticks. The 
+object of the game is to score 
+more points than the opposing 
+team. Each team has seven 
+members; 
+• Three Chasers who 
+handle the Quaffle, a red 
+leather ball, twelve inches 
+in diameter. Chasers. earn 
+points by tossing it 
+through any one of a set 
+of three goalposts on the 
+opposing team’s end of 
+the field. Each goal is 
+worth 10 points. 
+• Two Beaters armed with 
+heavy wooden bats. Their 
+job is to redirect the 
+Bludgers, two black iron 
+balls bewitched to fly 
+around and try to knock 
+the players off of their 
+broomsticks. 
+• One Keeper whose job is 
+to guard their team’s 
+three goalposts and stop 
+the opposing team from 
+scoring with the Quaffle. 
+• One Seeker whose job is 
+to catch the Golden 
+Snitch, a walnut–sized 
+winged golden sphere. 
+The Snitch flies around 
+the field at high speed, 
+sometimes pausing and 
+hovering in place. The 
+game ends when one of 
+the Seekers catches the 
+Snitch which is worth 150
+points. This almost always 
+wins the match. 
+Quidditch pitches are oval–
+shaped, five–hundred feet long 
+and one–hundred and eighty 
+feet wide. At the centre of the 
+pitch is a small circle, two feet 
+in diameter, from where the 
+balls are released at the start 
+of the game. At each end of 
+the pitch there are three 
+hooped goal posts of different 
+heights, surrounded by a 
+scoring area. 
+ 
+The game starts with the 
+referee releasing all four balls 
+from the central circle on the 
+field. The Bludgers and Snitch 
+are bewitched to fly off of 
+their own accord, but the 
+Quaffle is thrown into the air 
+by the referee to signal the 
+start of play. 
+Quidditch Fandom 
+Quidditch is as popular as 
+football is in the Muggle world 
+and most witches and wizards 
+support a team. One–
+hundred–thousand fans 
+attended the Quidditch World 
+Cup in 1994. There are 
+fourteen teams in the British 
+and Irish League (see right), 
+over forty International teams, 
+and twenty–seven Regional 
+teams around the world. The 
+International Confederation of 
+Wizards' Quidditch 
+Committee is the sport’s 
+international regulatory body. 
+Quidditch is governed in 
+Britain by the Department of 
+Magical Games and Sports, 
+where the British and Irish 
+Quidditch League 
+Headquarters are based. 
+ 
+British fans keep up to date 
+with the latest Quidditch news 
+in the Daily Prophet and Seeker 
+Weekly magazine. Dedicated 
+fans can signal their support 
+through a wide range of 
+merchandis, including hats, 
+scarves, flags, jerseys, 
+enchanted badges, and moving 
+posters and figurines. 
+ 
+The Inter–House Quidditch 
+Cup at Hogwarts School is a 
+mainstay of rivalry between 
+the four houses who play each 
+other throughout the school 
+year. Three games for each 
+team, and six games of 
+Quidditch for the school to 
+enjoy overall. Each match is 
+eagerly anticipated and mostly 
+attended by the entire school, 
+including excited professors.
+[s. 78]
+78
+78
+Quidditch
+Holyhead Harpies. Appleby Arrows Ballycastle Bats
+Falmouth Falcons. Caerphilly Catapults
+Pride of Portree
+Puddlemere United
+Wimbourne Wasps Tutshill Tornados Montrose Magpies Chudley Cannons
+Wigtown Wanderers Kenmare Kestrals Banchory Bangers
+Banchory Quidditch World Cup
+[s. 79]
+79
+79
+Quidditch
+Preparation 
+At the beginning of the match 
+the narrator decides the 
+current weather, or rolls it 
+randomly (see below). Each 
+weather type has a rating 
+ranging from I (bright and 
+calm) to VIII (dark and 
+turbulent). Each level has 
+a modifier that affects the 
+Seekers’ chance to catch the 
+Golden Snitch. Weather 
+conditions can improve or 
+worsen during the course of 
+the game. 
+At the start of the match, each 
+of the three Chasers on both 
+teams starts with two Quaffle
+Tokens. You can use pennies 
+(Knuts), Bertie Bott's Every 
+Flavour Beans, paper chits, or 
+the cut–out tokens on page 
+@@. These tokens represent 
+control of the Quaffle. At the 
+beginning of the game, neither 
+side has control, so both teams 
+are matched. Successful plays 
+by a team’s Seekers grab 
+Quaffle tokens from the other 
+side. When a team has nine 
+tokens, they are in a position 
+to try and score. 
+At the start of play, team 
+captains toss to see who plays 
+North, Forbidden Forest end, 
+and who plays South, 
+Hogwarts Castle end (see 
+below). The winner of the toss 
+plays North. This doesn’t 
+directly effect play, but allows 
+the rules to generically refer to 
+the teams as North or South.
+Roll 1D10
+Spring/ Summer Autumn/Winter Weather (visibility penalty)
+1 – 4 1 – 2 I. Bright and calm: +1
+5 – 7 3 – 4 II. Cloudy: no modifier
+8 – 9 5 – 7 III. Dull and cloudy: -1
+10 8 – 9 IV. Drizzle: -2
+10 VI. Rain: -3
+VII. Heavy rain: -4
+VIII. Dark and turbulent: -5
+North (Forest) End
+South (Castle) End
+The Hogwarts Quidditch Pitch 
+See it on the Hogwarts map on page @@.
+[s. 80]
+80
+80
+Quidditch
+The Round 
+At the start of each round the 
+narrator rolls 1D10 for Match 
+Events (see below). The result 
+will decide which element of 
+the match is the focus of that 
+round; the Chasers, The 
+Beaters, or the Seekers. There 
+is also a Keeper Focus that 
+kicks in if one team gains 
+control of the Quaffle. Think 
+of this as the attention of the 
+crowd watching the match. 
+ 
+All eyes are focussed 
+on the Chasers as they 
+zig–zag across the pitch. 
+Suddenly the Seekers sight 
+the Golden Snitch and 
+zoom off in pursuit with all 
+eyes following their progress. 
+The roll can also indicate a 
+change in the weather, 
+improving or worsening 
+conditions. A weather result 
+also triggers the Chaser Focus.
+Match Events (Roll 1D10)
+1 – 2 Normal play. Chaser Focus. Page 81.
+3 – 4 Bludger attack. Beater Focus, page 83 (roll for Bludger Target below).
+5 – 7 Golden Snitch sighted. Seeker Focus. Page 83.
+8 Weather improves (reduce level by one point). Chaser Focus. Page 81.
+9 Weather deteriorates (increase level by one point). Chaser Focus. Page 81.
+10 Weather worsens (increase level by two points). Chaser Focus. Page 81.
+There’s a Quidditch reference 
+section on pages 169–170 with all 
+the tables used in the game and a 
+flowchart summarising 
+the Quidditch rules and rolls. 
+There is a Team Record sheet on 
+page 172, and tokens to print and 
+cut–out on page 171 to 
+streamline play.
+[s. 81]
+81
+81
+Quidditch
+Chaser Focus 
+1. The team Captains roll for 
+initiative: 1D+Wits+ 
+Strategy (re–roll ties). 
+The team with the highest 
+roll become the attackers 
+with the other side acting 
+as the defenders. 
+2. Both sides secretly select 
+an attack or defence 
+manoeuvre depending on 
+their current status 
+(attacker or defender). 
+The team captain decides 
+which Chaser is 
+attempting the manoeuvre. 
+Both sides then reveal 
+their manoeuvre 
+simultaneously. 
+3. Result depends on who 
+rolls higher (re–roll ties) 
+and the manoeuvre both 
+sides have chosen (see 
+right). Attacker/defender 
+may win Quaffle Tokens 
+from the opposing team, 
+gain a bonus to initiative 
+next round, gain penalty 
+points, pass Quaffle Tokens 
+between Chasers, or 
+potentially lose control of 
+their broom. 
+4. When a team has nine or 
+more Quaffle Tokens, or 
+five or more tokens are 
+held by a single Chaser, 
+that team can attempt to 
+score a goal (see page 84). 
+5. Repeat the round (starting. 
+from step 2, above) with 
+attacker becoming 
+defender and vice–versa. 
+When both sides have had 
+a turn as attacker, start a 
+New Round (page 80).
+There are four attacking manoeuvres (Tackle, Shadow, Feint, 
+or Foul) and four defensive manoeuvres (Evade, Pass, Feint, or 
+Reverse). 
+The manoeuvre can be secretly written on a piece of paper or 
+you can use the print and cut–out chits on page 171.
+Attack
+Tackle
+1D + Vitality +
+Broomstick 
+Flying
+Shadow
+1D + Wits +
+Broomstick 
+Flying
+Feint
+1D + Speed + 
+Strategy
+Foul
+1D + Vitality + 
+Cunning
+Defence
+Evade
+1D + Speed +
+Broomstick 
+Flying
+Pass
+1D + Wits + 
+Observation
+Feint
+1D + Speed + 
+Strategy
+Reverse
+1D + Speed + 
+Balance
+Attack Manoeuvre Defence Manoeuvre
+Tackle a Chaser. Dodge or Evade opponents.
+Closely Shadow a Chaser. Pass to a fellow Chaser.
+Attempt a deceptive Feint. Attempt a deceptive Feint.
+Attempt to Foul an opponent. Suddenly Reverse direction.
+When the manoeuvres are revealed, the Chasers selected by 
+the team Captain roll as shown below.
+Now that we know what the two Chasers chose for their 
+manoeuvre and who rolled higher, we can check the 
+resolution table to reveal the result (see page 82). 
+All the tables for playing Quidditch are collected together on 
+page 169, so you won’t need to flick between pages during 
+play.
+[s. 82]
+82
+82
+Quidditch
+Chaser Focus (Cont.) 
+Look on the resolution table 
+(right) that matches which 
+Chaser rolled higher; attacker 
+or defender. Read along the 
+row that matches the defence 
+manoeuvre (see below) to the 
+column corresponding with 
+the attack manoeuvre.
+D/A T S F FO
+E A1 A+5 – A1
+P A2 A+3 A1 A+5
+F A1 – – DB
+R A+3 – A+3 A+5
+D/A T S F FO
+E D1 – – AP1
+P DP1 DP2 DP3 A3
+F D1 D+3 – AB
+R D+3 – D+5 A3
+Attacker rolls higher Defender rolls higher
+Ax 
+Attacker wins x Quaffle Token 
+from the defender. 
+e.g. A1 indicates that the 
+attacker takes one Quaffle 
+Token from the defender. 
+D1 
+Defender wins one Quaffle 
+Token from the attacker. 
+A+x 
+Attacker gains x bonus to 
+initiative roll next round. 
+e.g. A+3 indicates that the 
+attacker adds a +3 bonus to 
+their initiative roll on their 
+next Chaser Focus round. 
+D+x 
+Defender gains x bonus to 
+initiative roll next round. 
+e.g. D+3 indicates that the 
+defender adds a +3 bonus to 
+their initiative roll on their 
+next Chaser Focus round. 
+AP1 
+Attacking Chaser gains one 
+Penalty Point. When a Chaser 
+has three penalty points, they 
+are sent off temporarily, but 
+further penalties will result in 
+ejection from the game. For 
+every two penalty points a 
+team earns between them, 
+their opponent is rewarded a 
+free shot (see page 84). 
+DPx 
+Defender passes. Transfer up 
+to x Quaffle Token/s from one 
+Chaser to another Chaser on 
+their team. This is a useful way 
+to give a Chaser the five 
+Quaffle Tokens they need to 
+make a goal attempt. 
+e.g. DP2 means that two 
+Quaffle Tokens can be moved 
+from one Chaser to another 
+Chaser on their team. 
+AB or DB 
+Attacker (AB) or Defender 
+(DB) makes a broomstick 
+flying check. See the 
+Quidditch Reference (page 
+169) for details.
+Attack Defence
+Tackle Evade
+Shadow Pass
+Feint Feint
+Foul Reverse
+Outcomes
+Example. 
+Slytherin are attacking and Gryffindor are defending. 
+The Slytherin Chaser tries a foul (FO) while the defending 
+Gryffindor Chaser tries to evade (E). Gryffindor roll higher, 
+resulting in an AP1 result. The Slytherin attacker earns a 
+Penalty Point for his dishonourable tactics.
+[s. 83]
+83
+83
+Quidditch
+Beater Focus 
+1. Narrator rolls 1D10 to 
+identify the target (see 
+below). 
+2. Beater rolls 1D+Vitality+
+Balance. Rolling 10+ 
+deflects the Bludger from 
+its target. Rolling 15+ 
+directs it towards a target 
+of the Beater’s choice. 
+3. The target of Bludger rolls 
+1D + Wits + 
+Broomstick Riding. 
+If the Bludger has been 
+diverted by a Beater, the 
+target must roll higher 
+than the Beater to Dodge. 
+If the Bludger has not 
+been redirected by a 
+Beater, the target must roll 
+10+ to dodge. 
+4. Both beaters can 
+simultaneously strike the 
+Bludger (the Dopplebeater 
+Defence). Both Beaters roll 
+and their target must roll 
+higher than the lower of 
+the two Beaters’ rolls. If 
+the Dopplebeater Defence 
+is successful, the Bludger 
+causes +1 Injury Point (two 
+points instead of three). 
+See page @@ to find out 
+about Injury Points. 
+5. After dealing with the 
+result of any injuries, start 
+a New Round (page 80). 
+Seeker Focus 
+Seekers have a pursuit track 
+that they mark off as they get 
+closer to catching the Golden 
+Snitch. When a seeker ticks 
+off the seventh circle, they 
+have caught the snitch. 
+1. Both Seekers roll 1D +
+Wits + Observation minus 
+the visibility penalty, 
+depending on the weather 
+(see page 79). A Seeker 
+who rolls 15+ has spotted 
+the fast moving Snitch. 
+2. If one Seeker fails to spot 
+the Snitch, their round 
+ends here. If both Seekers 
+fail to sight it, start a 
+New Round (page 80). 
+3. If both Seekers spot the 
+Snitch, they roll 1D +
+Speed + Broomstick
+Flying. If one Seeker has a 
+faster broom, they can add 
+a bonus equal to the 
+difference between the two 
+speed ratings (see below). 
+The Seeker who rolls 
+higher (re–roll ties) than 
+the other Seeker, crosses 
+off a circle on their Pursuit 
+track. 
+4. If only one of the Seekers
+spots the Snitch, they must 
+roll higher than the 
+Snitch’s speed (1D+10) to 
+cross off a circle. 
+5. When a Seeker marks off 
+the seventh circle on their 
+pursuit track, they have 
+caught the Golden Snitch. 
+They scores 150 points for 
+their team, and the Match
+Ends* 
+6. If neither Seeker has 
+completed their Pursuit 
+Track, start a New Round
+(page 80). 
+* When the match ends, the 
+team with the most points 
+wins. In the great majority of 
+Quidditch matches, the 150
+points scored by catching 
+the Snitch wins the game, 
+but not always.
+Bludger Target (Roll 1D10)
+North Team South Team
+(1) Seeker (2) Seeker
+(3 – 4) Chaser (5 – 6) Chaser
+(7) Beater (8) Beater
+(9) Keeper (10) Keeper
+Racing Brooms (Speed Rating)
+Silver Arrow (0) Nimbus 2000 (2)
+Shooting Star (0) Nimbus 2001 (3)
+Cleansweep (1) Firebolt (4)
+Comet Two Ninety (1) ThunderBolt VII (5)
+[s. 84]
+84
+84
+Quidditch
+Keeper Focus 
+The Keeper comes into play 
+when a team gains nine 
+Quaffle tokens, or one Chaser 
+on the team holds five or more 
+tokens (see page 81). 
+1. The Chaser with most 
+Quaffle Tokens rolls to 
+score (in the event of a tie, 
+the team Captain selects 
+the Chaser to make the 
+try). 
+2. The Chaser rolls 1D +
+Speed + Balance. 
+The Keeper rolls 1D +
+Wits + Observation. 
+3. If the Keeper rolls higher, 
+they avert the goal. 
+If the Chaser rolls higher, 
+they score the goal and 
+their team gains 10 points. 
+If both roll equally, the 
+Quaffle bounces off the 
+goalpost. 
+4. The Keeper takes one 
+Quaffle Token from a 
+Chaser on the opposing 
+team and hands it (throws 
+it out) to a Chaser on their 
+own team. 
+5. If the opposing team still 
+have enough Quaffle 
+Tokens to attempt to score, 
+then repeat the above 
+steps. Otherwise, start a 
+New Round (page 80). 
+Mishaps 
+All players can be injured 
+during the game. Either 
+because of Bludger attacks or 
+broom misadventures. In 
+addition, chasers can gain 
+Penalty Points when they try 
+to foul their opponents (see 
+page 81). 
+Injuries 
+For speed of play, the 
+Quidditch rules use a 
+simplified injury system. 
+A set numbers of injury points 
+apply to Bludger collisions 
+and broom accidents, 
+depending on the seriousness 
+of the misadventure. A near 
+scrape or a full crash: 
+The first two circles have a 
+penalty, +1,+2, or +3, which 
+corresponds with the injury 
+track on the player’s 
+character sheet. The 
+penalty is added to any 
+target they need to roll 
+during the match. 
+If a player fills in all three 
+circles on their injury track, 
+they are out of the game for 
+three rounds while being 
+magically healed. 
+Rub out an injury point at the 
+beginning of each round that 
+they are incapacitated. 
+Once their injury track is clear, 
+they can return to the match 
+at the start of the following 
+round. If a Keeper or a Seeker 
+is put out of action, a Beater or 
+Chaser is nominated by the 
+Captain to take their place 
+until they return to the match. 
+If a player finishes the game 
+with one or more points of 
+injury, they transfer to the 
+circles on the Body track on 
+the Health section of their 
+character sheet (see page 35). 
+Penalties 
+Chasers may earn a Penalty 
+Point when they attempt to 
+foul an opponent (see page 
+81). When a Chaser has three 
+Penalty Points, they are sent 
+off for one round, but any 
+further Penalty Points will 
+result in that Chaser’s ejection 
+for the remainder the match. 
+For every two Penalty Points 
+a team earns between them, 
+their opponent is rewarded a 
+free shot, triggering the 
+Keeper Focus for the other 
+team (see page 84).In the event 
+of a free shot, the Keeper does 
+not take a Quaffle Token to 
+pass to their team following 
+the goal attempt (see page 84).
+Injury points
+Scrape 1 Injury point
+Bludger 2 Injury points
+Crash 3 Injury points

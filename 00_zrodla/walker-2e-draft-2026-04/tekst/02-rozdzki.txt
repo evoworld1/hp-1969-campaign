@@ -1,0 +1,392 @@
+
+[s. 25]
+25
+25
+Wand Wood
+Roll 1D100 Wood Roll 1D100 Wood
+1–2 Acacia 53–54 Holly
+3–5 Alder 55–57 Hornbeam
+6–7 Apple 58–59 Larch
+8–10 Ash 60–62 Laurel
+11-13 Aspen 63–64 Mahogany
+14–15 Beech 65–66 Maple
+16–18 Blackthorn 67–69 Pear
+19–20 Black Walnut 69–71 Pine
+21–23 Cedar 72–74 Poplar
+24 Cherry 75–76 Red Oak
+25–27 Chestnut 77–78 Redwood
+28–30 Cypress 79–80 Rosewood
+31–33 Dogwood 81–83 Rowan
+34–36 Ebony 84–85 Silver Lime
+37 Elder 86–88 Spruce
+38–40 Elm 89–91 Sycamore
+41–43 English Oak 92–93 Vine
+44–46 Fir 94–96 Walnut
+47–49 Hawthorn 97–98 Willow
+50–52 Hazel 99–100 Yew 
+Roll 1D10 Additional length
+1–2 As rolled
+3–4 + ¼″
+5–6 + ½″
+7–8 + ¾″
+9–10 +1″
+Roll 1D10+7 for the base length of your wand in 
+inches (″) Use the table to the right to keep the length 
+as rolled, or add between a quarter and a full inch. 
+This gives you a range between 8 inches (the length of 
+Dolores Umbridge’s wand) and 18 inches (the length 
+of Lucius Malfoy’s wand).
+Wand Creation
+Wand Length
+Every wand wood and core has specific characteristics. See pages 27–30.
+[s. 26]
+26
+26
+Roll 2D10 Flex (Resiliance) Roll 2D10 Flex (Resiliance)
+2 Brittle (2D) 12 Nice and supple (2D+2)
+3 Unyielding (2D) 13 Fairly flexible (2D+2)
+4 Stiff (2D) 14 Flexible (2D+2)
+5 Inflexible (2D) 15 Nice and flexible (2D+3)
+6 Rigid (2D) 16 Very flexible (2D+4)
+7 Quite rigid (2D) 17 Slightly bendy (2D+4)
+8 Pliable (2D) 18 Bendy (2D+5)
+9 Reasonably springy (2D+2) 19 Quite whippy (2D+5)
+10 Springy (2D+2) 20 Swishy (2D+5)
+11 Supple (2D+2)
+Roll 1D10 Ollivander wand Gregorovitch wand Legacy wand
+1 Unicorn hair Unicorn hair Troll whisker
+2
+3 Dragon heartstring Kelpie hair
+4
+5 Dragon heartstring Phoenix feather Kneazle whisker
+6 Veela hair
+7 Dittany stalk
+8 Coral
+9 Phoenix feather Prickly Ash
+10 Thestral tail hair
+Most Hogwart’s students will have bought their wands from Ollivander’s in Diagon Alley. Ollivander is 
+the most famous Wandmaker in Western Europe and specialises in three Supreme Cores. In Eastern 
+Europe, Mykew Gregorovitch is considered the finest Wandmaker. His wands are also available in 
+Diagon Alley at the Carkitt Market Arcade. Older wands will have their own idiosyncratic cores.
+Wand Creation
+Wand Core
+Wand Flexibility
+[s. 27]
+27
+27
+Wand Wood Bonuses
+Acacia 
+Wand Loyalty +5
+Alder 
+Non–verbal Magic +2
+Apple 
+Communication +5
+Ash 
+Wand Loyalty +2
+(+4 with a Unicorn Hair core) 
+Aspen 
+Charms +1
+Duelling +1
+Beech 
+Divination +2
+Blackthorn 
+Offensive Magic +2
+Black Walnut 
+Charms +2
+Cedar 
+Offensive Magic +1
+Revealing Magic +1
+Cherry 
+Prestige +2
+Chestnut 
+Herbology +1
+Magical Creatures +1
+Cypress 
+Offensive Magic +1
+Dogwood 
+Fire Magic +1
+Wand Loyalty +3
+Ebony 
+Offensive Magic +1
+Transfiguation +1
+Elder 
+Curses +1
+Hexes +1
+Jinxes +1
+Elm 
+Prestige +1
+Charms +1
+English Oak 
+Herbology+1
+Magical Creatures +1
+Wand Loyalty +2
+Fir 
+Transfigurations +1
+Hawthorn 
+Healing Magic +1
+Curses +1
+Hazel 
+Water Magic +2
+Charms 
+Bonus when casting Charms. 
+Communication 
+Bonus when interacting with 
+magical creatures. 
+Curses 
+Bonus to all curses cast. 
+Divination 
+Bonus to Divination skill. 
+Duelling 
+Bonus when Duelling. 
+Fire Magic 
+Bonus when casting 
+fire magic (see page 30). 
+Healing Magic
+Bonus to healing 
+magic (see page 30). 
+Herbology 
+Bonus to Herbology skill. 
+Hexes 
+Bonus when casting hexes. 
+Jinxes 
+Bonus when casting jinxes. 
+Legiliamency 
+Bonus when casting 
+Legilimency. 
+Magical Creatures 
+Bonus when taming 
+magical creatures. 
+Bonuses 
+[s. 28]
+28
+28
+Wand Wood Bonuses
+Holly 
+Protective Magic +1
+Hornbeam 
+Wand Loyalty +5
+Larch 
+Duelling +1
+Wand Resilience +3
+Laurel 
+Wand Loyalty +3
+Mahogany 
+Transfiguration +2
+Maple 
+Transportation +2
+Pear 
+Wand Resilience +5
+Pine 
+Non–verbal Magic +1
+Poplar 
+Divination +2
+Red Oak 
+Duelling +2
+Redwood 
+Protective Magic +2
+Wand Resilience +3
+Rosewood 
+Healing Magic +2
+Rowan 
+Defensive Charms +1
+Duelling +1
+Silver Lime 
+Divination +1
+Legilimency +1
+Spruce 
+Wand Loyalty +5
+Sycamore 
+Fire Magic +2
+Vine 
+Revealing Magic +2
+Walnut 
+Hexes +1
+Curses +2
+Willow 
+Healing magic +1
+Charms +1
+Yew 
+Duelling +1
+Curses +1
+Non–verbal Magic 
+Bonus to initiative when 
+Duelling. 
+Offensive Magic 
+Bonus to offensive magic 
+spells (see page 30). 
+Prestige 
+Bonus to Prestige rolls. 
+Protective Magic 
+Bonus when casting 
+protective magic (see page 30). 
+Revealing Magic 
+Bonus to spells that reveal 
+hidden things (see page 30). 
+Transfiguration 
+Bonus to Transfiguration 
+spells. 
+Transportation Magic 
+Bonus to transportation 
+spells. 
+Wand Loyalty 
+Add this to the penalty for 
+another witch or wizard using 
+your wand (see page 41). 
+Wand Resilience 
+Add to the resilience of your 
+wand (see page 26).
+Bonuses 
+[s. 29]
+29
+29
+Wand Core Bonuses
+Coral 
+Water Magic +3
+Defensive Magic +1 (+2 if 
+paired with Apple, Ash, or 
+Willow wood) 
+Dittany Stalk 
+Herbology +2 (+3 if paired 
+with Elder, Hawthorn, 
+or Vine wood) 
+Dragon Heartstring 
+Fire Magic +2
+Offensive Magic +1 (+2 if 
+paired with Ebony, Oak, 
+or Rowan wood) 
+Kelpie Hair 
+Transfiguration +2
+Water Magic +1 (+2 if paired 
+with Ash, Silver Lime, 
+or Willow wood) 
+Kneazle Whisker 
+Revealing Magic +2
+Non–verbal Magic +1 (+2 if 
+paired with Acacia or 
+Rowan wood) 
+Phoenix Feather 
+Fire Magic +1
+Transfiguration +1
+Wand Loyalty +1 (+2 if paired 
+with Holly, Redwood, 
+or Yew wood) 
+ 
+Prickly Ash 
+Protective Magic +2
+Revealing Magic +1 (+2 if 
+paired with Blackthorn, 
+Hawthorn, or Hornbeam 
+wood) 
+Thestral Tail Hair 
+Hexes +1
+Jinxes +1
+Divination +1 (+2 if paired 
+with Blackthorn, Ebony, 
+or Elder wood) 
+Troll Whisker 
+Blasting Magic +2
+Wand Resiliance +1 (+2 if 
+paired with Ebony, Mahogany, 
+Oak wood, or Walnut) 
+Unicorn Hair 
+Healing Magic +2
+Protective Magic +1 (+2 if 
+paired with Chestnut 
+Hawthorn, or Willow wood) 
+Veela Hair 
+Mind Affecting Magic +2
+Influence +1 (+2 if paired with 
+Cherry, Holly, or Rosewood) 
+Bonuses 
+Blasting Magic 
+Bonus when casting blasting 
+spells (see page 30). 
+Influence 
+Bonus to Influence skill. 
+Mind Affecting Magic 
+Bonus when casting mind 
+affecting Charms (see page 30). 
+Water Magic 
+Bonus when casting water 
+related Charms (see page 30) 
+[s. 30]
+30
+30
+Wand Bonuses
+Spells Enhanced by 
+Wand Bonuses 
+Bonuses to particular skills, 
+like Divination or Herbology, 
+and particular types of magic, 
+like Charms or Hexes, are easy 
+to see where they apply, but 
+which spells count as Fire 
+Magic or Water Magic? 
+This page specifies which 
+spells are included in each 
+category. 
+If bonuses overlap, like a 
+bonus to all Charms paired 
+with a bonus to a specific 
+Charm, then both bonuses 
+apply. 
+Blasting Magic 
+• Bombarda 
+• Bombarda Maxima 
+• Confringo 
+• Deprimo 
+• Reducto 
+Fire Magic 
+• Extinguishing Charm 
+• Fiendfyre 
+• Flagrante 
+• Flagrate 
+• Flame Freezing Charm 
+• Hot Air Charm 
+• Incendio 
+Healing Magic 
+• Anapneo 
+• Brackium Emendo 
+• Episkey 
+• Ferula 
+• Rennervate 
+• Vulnera Sanentur 
+Mind Affecting Magic 
+• Cheering Charm 
+• Confundo 
+• False Memory Charm 
+• Muffliato 
+• Obliviate 
+Offensive Magic 
+• Alarte Ascendare 
+• Baubillious (page @@). 
+• Expulso 
+• Stupefy 
+• Verdimillious 
+• Vermillious 
+Protective Magic 
+• Fianto Duro 
+• Imperturbable Charm 
+• Impervius 
+• Protego 
+• Protego Horribilis 
+• Protego Totalum 
+• Repello Inimicum 
+• Repello Muggletum 
+• Salvio Hexia 
+Revealing Magic 
+• Aparecoum 
+• Homenum Revelio 
+• Revelio 
+• Specialist Revelio 
+Transportation Magic 
+• Anti–Apparition Charm 
+• Anti–Disapparition Jinx 
+• Apparition 
+• Portus 
+Water Magic 
+• Aguamenti (page @@) 
+• Atmospheric Charm 
+• Drought Charm 
+• Meteolojinx Recanto 
+• Tergeo

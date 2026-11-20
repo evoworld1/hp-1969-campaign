@@ -1,0 +1,1657 @@
+
+[s. 47]
+47
+47
+Spells
+Accio 
+Type: Charm 
+Difficulty: 12
+Summons an object to the 
+caster. They must be able to 
+visualise the object, but they 
+don’t need to know it’s exact 
+location. The object moves 
+towards the caster, so it may 
+take a while to arrive if it is 
+very distant. The spell cannot 
+summon objects protected by 
+an Anti-theft Charm. 
+Age Line 
+Type: Charm 
+Difficulty: 15
+Prevents people above or 
+below a certain age from 
+access to an area marked by a 
+line gouged into the ground. 
+Aguamenti 
+Type: Transfiguration 
+Difficulty: 18
+Produces a stream of 
+drinkable water from the 
+wand tip. Can produce 
+anything from a trickle to a 
+wave causing knock back. 
+Alarte Ascendare 
+Type: Charm 
+Difficulty: 12
+Shoots a target up to ten feet 
+into the air. Can be countered 
+with the Descendo Charm. If 
+the spell isn’t countered it can 
+lead to minor injury. A soft 
+landing may just leave you 
+Rattled or Dazed, a hard 
+landing may cause 2D or 3D 
+physical impact at the 
+Narrator’s discretion. 
+Alohomora 
+Type: Charm 
+Difficulty: 12
+Unlocks doors and other 
+objects. Can open all doors 
+secured with Muggle locks, 
+even ones they would consider 
+high–security. Counters the 
+Colloportus Locking Charm, 
+but stronger Anti–Alohomora 
+may be encountered. 
+Amato Animo 
+Animato Animagus 
+Type: Transfiguration 
+Needs: Animagus Potion 
+Difficulty: 21
+This spell is part of a month 
+long undertaking to achieve 
+the Animagus power. Gaining 
+the ability to transform into 
+one particular animal form at 
+will. See page 43 for details. 
+Anapneo 
+Type: Transfiguration 
+Difficulty: 15
+Healing magic that clears the 
+target’s airway by vanishing 
+the blockage. 
+Anti–Apparition 
+Charm 
+Type: Charm 
+Difficulty: 15
+Prevents apparition in an area 
+to prevent entry. 
+Anti–Disapparition 
+Jinx 
+Type: Jinx 
+Difficulty: 15
+Prevents disapparition in an 
+area to entrap an enemy. 
+Anti–intruder Jinx 
+Type: Jinx 
+Difficulty: 15
+Prevents intruders from 
+entering an area by any 
+physical means. 
+Aparecium 
+Type: Charm 
+Difficulty: 12
+Reveals secret messages 
+written with invisible invisible 
+ink or cloaked by Concealing 
+Charms. 
+Apparition 
+Type: Transportation 
+Difficulty: 18
+Transports you to another 
+location, accompanied by an 
+audible popping noise, as well 
+as anybody you are touching. 
+You must have previously seen 
+the target location, even if 
+indirectly. Pinpoint targeting 
+can be unreliable over long 
+distances and any lack of 
+concentration can be 
+dangerous. Apparition is 
+licensed by the Ministry of 
+Magic and requires a test. 
+Users must be at least 17, but 
+can begin training at 16. 
+Arresto Momentum 
+Type: Charm 
+Difficulty: 12
+Slows down a moving target or 
+targets. Can be used to slow 
+down opponents or cushion a 
+fall. When cast on a moving 
+person or creature they 
+immediately grind to a halt, 
+cancelling their current action 
+and losing their next action. 
+[s. 48]
+48
+48
+Spells
+Atmospheric Charm 
+Type: Charms 
+Difficulty: 12
+A localised Weather–
+Modifying Charm that can 
+create weather conditions 
+indoors (rain, breezes, etc.) 
+The Counter–Charm for this 
+is Meteolojinx Recanto. 
+Avada Kedavra 
+Type: Curse 
+Difficulty: 18
+Causes instantaneous death. 
+The spell is accompanied by a 
+flash of green light and a 
+rushing noise. There is no 
+known counter–curse, but it 
+can be dodged as with other 
+aimed spells. Objects can also 
+be used to block the spell, 
+either by ducking behind 
+cover or by magically moving 
+objects between you and the 
+caster. One of the three 
+Unforgivable Curses. 
+Avifors 
+Type: Transfiguration 
+Difficulty: 12
+Transforms small objects or 
+parts of an object into delicate 
+and inoffensive tiny birds. 
+ 
+Avis 
+Type: Transfiguration 
+Difficulty: 21
+Conjures a flock of birds from 
+the tip of your wand. Can be 
+used offensively when paired 
+with the Oppugno Jinx. 
+Although the birds will cause 
+next to no damage, they can be 
+an alarming distraction leaving 
+the victim Rattled or Dazed at 
+the Narrator’s discretion. 
+Baubillious 
+Type: Charm 
+Difficulty: 12
+Emits white sparks from the 
+wand tip. Can be used in 
+Duelling, Skirmishing, and for 
+signalling. The sparks cause 
+3D+Focus damage to anything 
+they touch. 
+Bluebell Flames 
+Type: Charm 
+Difficulty: 9
+Produces blue flames that can 
+light an area or be carried in a 
+jar. The flames can be touched 
+and held safely, but can singe 
+material and plant matter. 
+Bombarda 
+Type: Charm 
+Difficulty: 12
+Can blow a hole 
+in a physical structure 
+large enough for two or three 
+people to move through. 
+Causes 6D+Focus+30 blasting 
+damage (see page 42). 
+Bombarda Maxima 
+Type: Charm 
+Needs: Bombarda Charm 
+Difficulty: 15
+Blows a large hole in a 
+structure large enough for ten 
+or twenty people to move 
+through. Causes 9D+Focus+60
+blasting damage (see page 42). 
+Brackium Emendo 
+Type: Charm 
+Difficulty: 18
+Heals broken bones, but can 
+further damage (or even 
+remove) bones if badly 
+applied. 
+Broom Jinx 
+Type: Jinx 
+Difficulty: 12
+Makes a broomstick lurch and 
+lunge dangerously. The broom 
+rider will have to actively fight 
+to stay on. Constant eye 
+contact is required to maintain 
+the spell. 
+Bubble–head Charm 
+Type: Charm 
+Difficulty: 12
+A large bubble of air forms 
+around the head of the user. 
+The bubble provides a 
+constant source of air. The 
+casting requires Gillyweed to 
+be swallowed (see page 69). 
+Capacious Extremis 
+Type: Charm 
+Difficulty: 18
+Increases the internal 
+dimensions of a container 
+without affecting the external 
+dimensions. 
+Carpe Retractum 
+Type: Charm 
+Difficulty: 12
+Produces a rope of light that 
+the caster can use to pull an 
+object towards them, or climb 
+up. The physical exertion 
+required to pull heavy objects 
+or climb is the same as it 
+would be with a normal rope. 
+Caterwauling Charm 
+Type: Charm 
+Difficulty: 12
+Alerts entry to the area 
+protected by emitting a high–
+pitched shriek. 
+[s. 49]
+49
+49
+Spells
+Cave Inimicum 
+Type: Charm 
+Difficulty: 15
+Produces an invisible barrier 
+that keeps the caster hidden. 
+Anybody behind the barrier 
+cannot be seen or heard. 
+Magical creatures with an 
+enhanced sense of smell may 
+still be able to detect their 
+presence. The effect can be 
+countered with the Homenum 
+Revelio Charm. 
+Cheering Charm 
+Type: Charm 
+Difficulty: 9
+Makes the target feel happy. 
+Overuse may lead to hysteria. 
+Cistem Aperio 
+Type: Charm 
+Difficulty: 9
+Opens unlocked doors, 
+windows, chests, boxes, and 
+other containers. Locked items 
+must instead be opened with 
+the Alohomora Unlocking 
+Charm. 
+Colloportus 
+Type: Charm 
+Difficulty: 12
+The Locking Charm. 
+Magically seals doors and 
+any other object that can be 
+locked. Can be countered 
+with the Alohomora 
+Unlocking Charm. 
+Colovaria 
+Type: Charm 
+Difficulty: 12
+Changes the colour of 
+anything it is cast on. 
+Confringo 
+Type: Curse 
+Difficulty: 15
+The Blasting Curse. Destroys 
+inanimate objects with a blast 
+of heat. Causes 6D+Focus+30
+blasting damage (see page 42). 
+Can be used for duelling, but 
+is dangerous as an overly 
+powerful blast can be fatal. 
+Confundo 
+Type: Charm 
+Difficulty: 15
+Causes the victim to become 
+confused and befuddled. The 
+target is immediately placed in 
+a confused state for one 
+round. Each following round 
+they can roll 1D+Wits with a 
+target of 12 to shrug off the 
+effect. A powerful Confundo 
+Charm can leave the target 
+highly impressionable and 
+open to suggestion. 
+Conjunctivitis Curse 
+Type: Curse 
+Difficulty: 15
+Irritates an opponents eyes so 
+that they swell shut, causing 
+reduced vision. Adds a 10
+point penalty to all attack and 
+defensive rolls by the victim. 
+Useful against Dragons and 
+other creatures with magic 
+resistant hides. 
+Crinis Muto 
+Type: Transfiguration 
+Difficulty: 12
+Used to recolour and restyle 
+your hair. Mistaken casting can 
+be embarrassing. 
+Crucio 
+Type: Curse 
+Difficulty: 18
+The Cruciatus Curse, also 
+known as the Torture Curse. 
+Inflicts agonising pain on the 
+target like white–hot knives 
+piercing every inch of their 
+skin. Doesn’t cause actual 
+physical harm, but prolonged 
+use can leave permanent 
+emotional damage and even 
+leave the victim raving or 
+mindless. Prolonged use 
+causes mental damage at the 
+Narrator’s discretion. Crucio is 
+one of the three Unforgivable 
+Curses. 
+Defodio 
+Type: Charm 
+Difficulty: 15
+The Gouging Charm. Used to 
+dig out channels in any 
+material that can be dug into 
+or carved. Can be used to form 
+tunnels and passageways, and 
+with delicate application, carve 
+inscriptions and decoration. 
+Deletrius 
+Type: Charm 
+Difficulty: 12
+The Eradication Spell. Can 
+disintegrate the intangible 
+effects of certain spells like the 
+Homonculus Charm and the 
+Revealing Charm. In this way 
+it acts as a counter–charm to 
+the Prior Incantato Charm. 
+Where Prior Incantato shows 
+an echo of the last spell cast 
+by a wand, Deletrius 
+eradicates that echo. 
+[s. 50]
+50
+50
+Spells
+Densaugeo 
+Type: Hex 
+Difficulty: 12
+Causes the target’s teeth to 
+grow rapidly. Can be used to 
+grow the victim’s teeth to 
+monstrous size, or applied 
+delicately to repair broken 
+teeth. 
+Deprimo 
+Type: Charm 
+Needs: Defodio Charm 
+Difficulty: 15
+Blasts large holes in the 
+ground. Causes 6D+Focus+40
+blasting damage to the ground 
+(see page 42). A more powerful 
+form of the Defodio Charm. 
+Depulso 
+Type: Charm 
+Difficulty: 12
+The Banishing Charm. Sends 
+an object or being flying away 
+from the caster without injury. 
+Counters the Accio Charm, 
+repelling the summoned 
+object. 
+Descendo 
+Type: Charm 
+Difficulty: 12
+Causes object to fall or move 
+downwards. Can be used to 
+bring an object down gently, 
+or quickly topple objects onto 
+somebody below as an attack 
+or to form an obstacle. 
+Diffindo 
+Type: Charm 
+Difficulty: 9
+The Severing Charm. Used to 
+precisely cut or tear objects. 
+Diminuendo 
+Type: Charm 
+Difficulty: 15
+Shrinks objects. Not to be 
+confused with the Reducio 
+Charm that returns enlarged 
+objects to their original size. 
+Disillusionment 
+Charm 
+Type: Charm 
+Difficulty: 15
+Makes the caster or target 
+effectively invisible by 
+camouflaging them to perfectly 
+match their background. 
+Hippogriffs and Winged 
+Horses may only be owned by 
+wizards if the owner performs 
+this charm daily. 
+Draconifors 
+Type: Transfiguration 
+Difficulty: 12
+Transforms small objects or 
+parts of an object into 
+harmless infant Dragons. 
+Drought Charm 
+Type: Charm 
+Difficulty: 12
+Dries up small bodies of water 
+like puddles and ponds. 
+Duro 
+Type: Charm 
+Difficulty: 12
+The Hardening Charm. Turns 
+an object into stone (50 point 
+resilience). The charm is not 
+delicate enough to be targeted 
+at an opponent during combat, 
+but can be used on the 
+environment to strengthen 
+cover and create obstacles. 
+Engorgio 
+Type: Charm 
+Difficulty: 12
+The Engorgement Charm or 
+Growing Charm. Causes a 
+target to swell rather than 
+grow. 
+Episkey 
+Type: Charm 
+Difficulty: 12
+Heals relatively minor injuries 
+like a broken nose, fingers, 
+toes, and split lips. The spell 
+creates sudden temperature 
+changes in the body parts 
+being healed. 
+Erecto 
+Type: Charm 
+Difficulty: 12
+Straightens and sets up a tent 
+or similar structure. 
+Evanesco 
+Type: Transfiguration 
+Difficulty: 18
+The Vanishing Spell. 
+Transfigures a small object 
+into non–being. Certain 
+objects can be enchanted to 
+resist vanishment. 
+Everte Statum 
+Type: Charm 
+Difficulty: 12
+Causes an opponent to be 
+thrown backwards at speed. 
+Although the effect is 
+shocking, the impact does not 
+cause any lasting damage 
+(although it may hurl you into 
+danger). The target loses their 
+next two actions while they 
+right themselves and regain 
+their composure. 
+[s. 51]
+51
+51
+Spells
+Expecto Patronum 
+Type: Charm 
+Difficulty: 21
+The challenging Patronus 
+Charm. A powerful defensive 
+magic that is the only 
+true protection against 
+Dementors (see page 93). 
+The charm focuses a happy 
+memory that is inimical to 
+Dementors. Few manage to 
+fully master the Patronus spell 
+and can only conjure the 
+incorporeal form. An 
+incorporeal Patronus can only 
+hold a Dementor at bay, 
+but advanced users of the 
+spell can conjure a corporeal 
+Patronus that can fully banish 
+attacking Dementors. 
+A guardian in animal form 
+which can fully banish 
+Dementors. See page 45 for 
+full details. 
+Expelliarmus 
+Type: Charm 
+Difficulty: 12
+The Disarming Charm. Causes 
+whatever an opponent is 
+holding to fly out of their 
+hand. Popular with duellists to 
+make an opponent lose their 
+wand. Powerful Expelliarmus 
+blasts can also send an 
+opponent flying in a similar 
+way to Everte Statum. 
+Expulso 
+Type: Curse 
+Difficulty: 15
+Explodes an object with an 
+immense burst of blue light. 
+Causes 5D+Focus+20 blasting 
+damage to the object (see page 
+42). Anybody nearby will be 
+thrown back with great force. 
+Extinguishing Charm 
+Type: Charm 
+Difficulty: 9
+Extinguishes fires and acts as 
+the Counter–Spell to the 
+Incendio Charm. 
+False Memory 
+Charm 
+Type: Charm 
+Difficulty: 21
+Adds a memory to the victim’s 
+mind. Also known as the 
+Memory Modifying Charm, it 
+differs from the Memory 
+Charm in that it adds false 
+memories, but leaves current 
+memories intact. 
+Feather–light Charm 
+Type: Charm 
+Difficulty: 12
+Makes an object as light as a 
+feather. Can be cancelled with 
+Finite Inantatem, the General 
+Counter–charm. 
+Fera Verto 
+Type: 
+Transfiguration 
+Difficulty: 12
+Transforms a small 
+animal into a 
+drinking goblet. 
+Ferula 
+Type: Charm 
+Difficulty: 21
+The Bandaging Charm. 
+Conjures bandages and wraps 
+them around a wound as well 
+as splinting broken bones and 
+easing pain. 
+Fianto Duri 
+Type: Charm 
+Difficulty: 18
+A Charm that combines with 
+protective spells like Protego 
+Maxima to double their 
+effectivenesss. For example, 
+Protego Maxima. Fianto Duri. 
+Repello Inimicum. 
+Fidelius Charm 
+Type: Charm 
+Difficulty: 18
+An ancient, difficult, and 
+potent Charm that conceals a 
+secret inside an individuals’s 
+soul. The person becomes a 
+Secret Keeper and the secret 
+becomes impossible to 
+discover unless the Secret 
+Keeper divulges it. A dwelling 
+whose location is protected by 
+the spell becomes invisible, 
+intangible, unplottable, and 
+soundproof. The Fidelius 
+Charm cannot be broken by 
+use of the Imperius or 
+Cruciatus Curses. 
+Fiendfyre 
+Type: Curse 
+Difficulty: 18
+Advanced Dark Magic that 
+produces enchanted flames of 
+immense size and heat 
+pouring from the caster’s 
+wand. The flames cause 12D 
+damage, but are difficult to 
+control and the user must roll 
+1D+Focus+Dark Magic each 
+round to maintain control. If 
+they fail to roll a target of 15
+or above, the flames break 
+away and form a sentient 
+creature that consumes 
+anything in its path. See page 
+94 for details. 
+[s. 52]
+52
+52
+Spells
+Finite Incantatem 
+Type: Charm 
+Difficulty: 15
+The General Counter–spell. 
+Useful for duelling or for 
+quickly removing all 
+enchantments from an area 
+should Muggles visit. 
+Ineffective against powerful 
+Dark Charms. 
+Flagrante 
+Type: Curse 
+Difficulty: 15
+Causes objects to emit searing 
+heat when touched. The 
+Impervius Charm offers some 
+degree of protection from this 
+Curse. The Impervius Charm 
+protects the holder from being 
+burned as long as they 
+immediately let go of the 
+object. 
+Flagrate 
+Type: Charm 
+Difficulty: 9
+Draws with fiery text that 
+emanates from the tip of your 
+wand. The text stays in the air 
+for a while and can be moved 
+around. If the flaming text is 
+conjured against a flammable 
+surface it can be used to singe 
+a permanent mark. 
+Flame Freezing 
+Charm 
+Type: Charm 
+Difficulty: 12
+Alters flame so that instead of 
+burning, they give off a gentle 
+tickling sensation or a 
+sensation like a warm summer 
+breeze. 
+Flipendo 
+Type: Jinx 
+Difficulty: 12
+The Knockback Jinx. 
+Prominently used for 
+upending opponents when 
+duelling, but can also be used 
+to push heavy objects. Pushes 
+the target back and robs them 
+of their next two actions. 
+Flying Charm 
+Type: Charm 
+Difficulty: 15
+A spell to make objects fly. 
+Can be cast on broomsticks, 
+flying carpets, Ford Anglias, 
+and so on. 
+Furnunculus 
+Type: Jinx 
+Difficulty: 12
+The Pimple Jinx. Causes the 
+victim’s face to break out in 
+boils. One odd side–effect is 
+that combined with the Jelly–
+Legs Curse, it causes little 
+tentacles to sprout instead of 
+boils. Can be remedied with 
+the Boil Cure 
+Potion. 
+Geminio 
+Type: Charm 
+Difficulty: 15
+The Doubling Charm. 
+Duplicates an object any 
+number of times. Duplicates 
+are not considered to have the 
+same value as the original as 
+they rot or tarnish far more 
+quickly. Can be cast so that 
+unauthorised contact with the 
+object causes it to multiply 
+madly, trapping or crushing 
+the trespasser. This is known 
+as the Gemino Curse. 
+Glisseo 
+Type: Charm 
+Difficulty: 15
+Transforms a staircase into a 
+smooth slide. Can be cast to 
+speed up a downward journey 
+or as a security measure. 
+Homenum Revelio 
+Type: Charm 
+Difficulty: 15
+The Human Presence 
+Revealing Charm. Detects 
+hidden humans even if 
+concealed by invisibility 
+magic. Cannot detect creatures 
+with innate hiding abilities 
+like House–Elves and Goblins. 
+Homonculous Charm 
+Type: Charm 
+Difficulty: 15
+When cast onto a map it adds 
+labelled moving dots showing 
+the location of every person in 
+the mapped area. The map is 
+not fooled by methods of 
+concealment including 
+invisibility cloaks, Polyjuice 
+Potion, and Animagi. 
+Homorphus Charm 
+Type: Charm 
+Difficulty: 18
+Temporarily changes a 
+Werewolf back into their 
+human form. 
+Hot Air Charm 
+Type: Charm 
+Difficulty: 9
+Produces a jet of warm air 
+from the wand. Useful for 
+drying damp robes, melting 
+snow, warming cold hands. 
+and other similar tasks. 
+[s. 53]
+53
+53
+Spells
+Immobulus 
+Type: Charm 
+Difficulty: 15
+The Freezing Charm. 
+Immobilises and stops the 
+movement of living or 
+animated targets, and 
+mechanical devices with 
+moving parts. Freezes living 
+targets for one round. At the 
+start of each subsequent 
+round the victim rolls 
+1D+Focus. If they roll 11 or 
+more they break free. 
+Impedimenta 
+Type: Jinx 
+Difficulty: 15
+The Impediment Jinx. Slows 
+down an opponent for a few 
+seconds. The victim loses their 
+next two actions. The spell is 
+ineffective against armoured 
+opponents, such as Dragons 
+and Blast-Ended Skrewts. 
+Unless it happens to hit them 
+on an unprotected area, like 
+the soft belly of a Skrewt. 
+Imperio 
+Type: Curse 
+Difficulty: 18
+The Imperius Curse. Places 
+the subject completely under 
+the caster’s control. The victim 
+can often display skills or 
+abilities they wouldn’t 
+normally possess in order to 
+carry out the caster’s orders. 
+The Curse can be resisted by 
+rolling an opposed test. 
+The victim rolls 1D+Focus+ 
+D.A.D.A. versus the Caster’s 
+1D+Focus+Dark Arts. If the 
+victim rolls higher they resist 
+the spell. Imperio is one of the 
+three Unforgivable Curses. 
+Imperturbable 
+Charm 
+Type: Charm 
+Difficulty: 15
+Creates an invisible magical 
+barrier around an object. A 
+door or container, for example. 
+Objects bounce off the barrier 
+and sound is muffled. 
+Impervius 
+Type: Charm 
+Difficulty: 9
+Makes an object repel water 
+and mist. Ideal for making 
+clothes, glasses, paper, etc. 
+entirely waterproof. 
+Incarcerous 
+Type: Transfiguration 
+Difficulty: 21
+Binding spell that restrains 
+the victim by conjuring cord, 
+rope, or chain from thin air. 
+Can also gag the target. 
+Incendio 
+Type: Transfiguration 
+Difficulty: 12
+The Fire–making Charm. 
+Conjures a jet of flame to set 
+things alight. Can be used in 
+Duelling (3D+Focus damage), 
+but can equally be used for 
+domestic tasks. 
+Inflatus 
+Type: Charm 
+Difficulty: 12
+Inflates a creature like a 
+balloon so that they float 
+off the ground. 
+Intruder Charm 
+Type: Charm 
+Difficulty: 9
+The equivalent of a magical 
+burglar alarm. Sounds the 
+alarm when intruders enter 
+the alarmed space. Similar to 
+the Caterwauling Charm, but 
+half the volume. 
+Legilimens 
+Type: Charm 
+Difficulty: 18
+The Legilimency Spell that 
+delves into the mind of the 
+victim. The caster can see 
+memories, emotions, and 
+thoughts. Highly skilled 
+casters can create realistic 
+visions. The spell can be 
+resisted by rolling an opposed 
+test – the victim rolls 1D+ 
+Focus+Occlumency. versus the 
+Caster’s 1D+Focus+Charms. 
+Levicorpus 
+Type: Jinx 
+Difficulty: 15
+Causes the victim to be 
+hoisted into the air by their 
+ankle. The Counter–Jinx for 
+this spell is Liberacorpus. 
+Liberacorpus 
+Type: Counter–Jinx 
+Difficulty: 12
+Counters the Levicorpus Jinx. 
+Locomotor 
+Type: Charm 
+Difficulty: 9
+The Locomotion Charm. 
+Allows an object to be 
+levitated and moved in any 
+direction. Considered a very 
+basic spell. 
+[s. 54]
+54
+54
+Spells
+Locomotor Mortis 
+Type: Curse 
+Difficulty: 15
+The Leg–Locker Curse. 
+Magically glues the victim’s 
+legs together. The victim can 
+still move by hopping. Can be 
+reversed with the General 
+Counter–charm, Finite 
+Incantatem. 
+Locomotor Wibbly 
+Type: Jinx 
+Difficulty: 15
+The Jelly–Legs Curse. Causes 
+the victim’s legs to collapse. 
+Similar in effect to Locomotor 
+Mortis, but the target will find 
+movement almost impossible. 
+Can be reversed with the 
+General Counter–charm, 
+Finite Incantatem. 
+Lumos 
+Type: Charm 
+Difficulty: 9
+The Wand Lighting Charm. 
+Causes a torch like light to 
+shine from the tip of the 
+caster’s wand. The caster does 
+not need to be holding the 
+wand. Can be extinguished by 
+Nox, the Wand Extinguishing 
+Charm. 
+Meteolojinx Recanto 
+Type: Charm 
+Difficulty: 12
+Cancels Weather–Modifying 
+Charms like the Atmospheric 
+Charm. 
+Mimblewimble 
+Type: Curse 
+Difficulty: 12
+The Tongue–Tying Curse. 
+Causes the victim’s tongue to 
+curl backwards, preventing 
+them from producing 
+coherent speech. Like the 
+Silencing Charm, it is popular 
+for stopping an opponent’s 
+incantations when Duelling. 
+The spell lasts for up to an 
+hour or until reversed with the 
+General Counter–charm, 
+Finite Incantatem. As the 
+victim can still use their 
+wand they can cast magic 
+non–verbally with a +6 penalty. 
+Mobiliarbus 
+Type: Charm 
+Difficulty: 9
+Moves a wooden object a short 
+distance. Useful for moving a 
+small object (a wand, for 
+example) to quickly place it 
+out of reach, or a larger object 
+to provide cover where the 
+fine control of the Locomotor 
+Charm is unnecessary. 
+Mobilicorpus 
+Type: Charm 
+Difficulty: 15
+Used to move a body as 
+though suspended by strings a 
+few inches above the ground. 
+The limbs can even be 
+controlled like a string puppet. 
+If the victim is conscious, they 
+may try to fight it by rolling an 
+opposed test – the victim rolls 
+1D+Focus+D.A.D.A. versus 
+the Caster rolling 1D+Focus+ 
+Charms. 
+Molliare 
+Type: Charm 
+Difficulty: 12
+The Cushioning Charm. 
+Creates a cushioning effect to 
+soften a landing. Originally 
+invented to make brooms 
+more comfortable. 
+Morsmordre 
+Type: Curse 
+Difficulty: 12
+An incantation used 
+to create a sky borne 
+image of the Dark Mark, 
+the skull and serpent 
+symbol of Lord Voldemort. 
+Death Eaters have a 
+similar, but more intricate, 
+version of the Dark Mark 
+tattooed on their arms, and 
+cast the Dark Mark above 
+the homes of their victims. 
+The appearance of the Dark 
+Mark fills the wizarding 
+community with terror. 
+Mucus Ad Nauseam 
+Type: Curse 
+Difficulty: 12
+The Curse of the Bogies. Gives 
+the victim a nasty cold with 
+constant sneezing and a 
+ridiculously runny nose. Can 
+be countered by the Pepperup 
+Potion (see page 63). 
+Muffliato 
+Type: Charm 
+Difficulty: 12
+Fills the ears of anybody in the 
+vicinity with an unidentifiable 
+buzzing sound so that your 
+conversation cannot be 
+overheard. 
+[s. 55]
+55
+55
+Spells
+Nox 
+Type: Charm 
+Difficulty: 12
+The Wand–Extinguishing 
+Charm. The Counter–Charm 
+to Lumos, the Wand–Lighting 
+Charm. 
+Obliteration Charm 
+Type: Charm 
+Difficulty: 9
+Removes any signs of passage 
+including footprints, other 
+imprints, stains, and marks. 
+Obliviate 
+Type: Charm 
+Difficulty: 18
+The Memory Charm. Erases 
+specific memories from an 
+individual’s mind. Ministry of 
+Magic Obliviators us the 
+Memory Charm to modify 
+Muggle memories where 
+magic has been witnessed. 
+Mishandled, the charm can be 
+very dangerous. Negative 
+results can range from 
+forgetfulness to a complete 
+brain wipe. At the Narrator’s 
+discretion, a character can be 
+placed in a Confused, Raving, 
+or Mindless state. 
+Obscuro 
+Type: Transfiguration 
+Difficulty: 21
+Conjures a blindfold over the 
+eyes of the target. Can be used 
+on any living target, including 
+living portraits. Can be 
+countered with a Vanishment 
+Transfiguration like Evanesco, 
+or the General Counter–Spell 
+Finite Incantatem. 
+Oppugno 
+Type: Jinx 
+Difficulty: 15
+Directs objects or creatures to 
+attack a victim. Very effective 
+in conjunction with a 
+Transfiguration like the Bird 
+Conjuring Charm, Avis. 
+Producing birds from thin air 
+and then directing them 
+violently at the target. 
+Although the birds will cause 
+next to no damage, they can be 
+an alarming distraction leaving 
+the victim Rattled or Dazed at 
+the Narrator’s discretion. 
+Orchideous 
+Type: Transfiguration 
+Difficulty: 21
+Conjures a bouquet 
+of flowers from the tip 
+of the caster’s wand. 
+Packing Charm 
+Type: Charm 
+Difficulty: 9
+Packs your belongings neatly 
+into your suitcases and trunks. 
+Permanent Sticking 
+Charm 
+Type: Charm 
+Difficulty: 12
+Magically adheres one object 
+to another indefinitely. There 
+is currently no generally 
+known Counter–Charm to this 
+spell, so it should be used with 
+great caution. Unlike some 
+spells, the effect of a 
+Permanent Sticking Charm 
+does not seem to expire after 
+its caster dies. 
+Petrificus Totalus 
+Type: Charm 
+Difficulty: 15
+The Full Body–Bind Curse. 
+Completely freezes living 
+beings and objects. The arms 
+and legs of a living victim snap 
+together and they fall down as 
+stiff as a board. Their ability to 
+see, hear, and think are 
+unaffected. The effects can be 
+reversed by the General 
+Counter–Spell Finite 
+Incantatem and it is possible 
+to unfreeze yourself with a 
+combination of silent and 
+wandless magic. See page 33
+for the modifiers to your spell 
+target when you cast silently 
+and wandlessly. 
+Piertotum Locomotor 
+Type: Charm 
+Difficulty: 18
+Brings to life an inanimate 
+object as a loyal protector. The 
+martial abilities of the 
+animated object will depend 
+on its form. A large stone 
+statue of a warrior will 
+probably be more use in a 
+fight than a hatstand, for 
+example. 
+Piscifors 
+Type: Transfiguration 
+Difficulty: 12
+Transforms an inanimate 
+object into a fish. The effect is 
+generally more beautiful than 
+practical as the fish will only 
+contain the same nutritional 
+value as the object it was 
+transformed from. 
+[s. 56]
+56
+56
+Spells
+Portus 
+Type: Charm 
+Difficulty: 21
+The incantation used to create 
+a Portkey, an object enchanted 
+to instantly bring anyone 
+touching it to a specific 
+location. Most Portkeys are 
+everyday object that will not 
+draw the attention of a 
+Muggle. Creation of Portkeys is 
+restricted to the Ministry of 
+Magic. 
+Prior Incantato 
+Type: Charm 
+Difficulty: 15
+The Reverse Spell which 
+forces a wand to show an echo
+of the last spell it performed. 
+The Counter–Charm is 
+Deletrius, the Eradication 
+Spell. An especially rare 
+manifestation of this spell is 
+Priori Incantatem which occurs 
+when two wands with cores 
+from the same animal attempt 
+to duel each other. The 
+winner's wand forces the 
+loser's wand to produce echoes
+of the most recent spells 
+performed in reverse order 
+Protean Charm 
+Type: Charm 
+Difficulty: 18
+The Protean Charm allows 
+several objects to change 
+simultaneously to create a 
+signal or pass information. 
+Coins have been enchanted in 
+this way as a covert signalling 
+device, and the tattoos of 
+Death Eater’s would burn 
+when Lord Voldemort wished 
+to summon them. 
+Protego 
+Type: Charm 
+Difficulty: 15
+The Shield Charm. Protects 
+the caster with an invisible 
+barrier that blocks all physical 
+attacks and all but the most 
+powerful jinxes, hexes, and 
+curses (it does nothing to stop 
+the Unforgivable Curses). 
+Damage rolled for any attack 
+that hits the barrier is reduced 
+by 30 points. If multiple spells 
+hit you at the same time, the 
+protection is shared. e.g. three 
+simultaneous blasts will be 
+reduced by 10 points each. 
+Protego Horribilis 
+Type: Charm 
+Needs: Protego Totalum 
+Difficulty: 21
+The most powerful version of 
+the Shield Charm. As with 
+Protego Totalum, it protects an 
+area but is much stronger. 
+Damage rolled for any attack 
+that hits the barrier is reduced 
+by 90 points. If multiple spells 
+hit you at the same time, the 
+protection is shared. e.g. three 
+simultaneous blasts will be 
+reduced by 30 points each. 
+Protego Totalum 
+Type: Charm 
+Needs: Protego 
+Difficulty: 18
+A version of the shield charm 
+that protects an area. Damage 
+rolled for any attack that hits 
+the barrier is reduced by 60
+points. If multiple spells hit 
+you at the same time, the 
+protection is shared. e.g. three 
+simultaneous blasts will be 
+reduced by 20 points each. 
+Quietus 
+Type: Charm 
+Difficulty: 12
+A charm used to dampen 
+sounds. Counter–Charm to the 
+Sonorus, the Amplifying 
+Charm. 
+Reducio 
+Type: Charm 
+Difficulty: 12
+The Shrinking Charm. Not to 
+be confused with 
+Diminuendo, the charm that 
+shrinks a normal sized object 
+to a miniature version of itself. 
+Reducio is the Counter–
+Charm to Engorgio, and 
+reduces an enlarged object to 
+its natural size. This spell is 
+also used when creating a 
+Shrinking Solution. 
+Reducto 
+Type: Curse 
+Difficulty: 15
+The Reductor Curse blasts 
+solid objects to dust. 
+Causes 4D+Focus+20 blasting 
+damage (see page 34). 
+Refilling Charm 
+Type: Charm 
+Difficulty: 15
+Refills a container with 
+whatever drink that it 
+originally contained. 
+Relashio 
+Type: Jinx 
+Difficulty: 12
+The Revulsion Jinx. Forces a 
+being or object (manacles, for 
+example) to relinquish their 
+hold on whoever or whatever 
+they are restraining. 
+[s. 57]
+57
+57
+Spells
+Rennervate 
+Type: Charm 
+Difficulty: 12
+The Reviving Charm. Awakens 
+whoever it is cast on. The 
+Counter–Charm to Stupefy, 
+the Stunning Spell. Can only 
+counteract a single Stunning 
+Spell blast and is ineffective 
+against multiple blasts. 
+Ineffective against Dark Magic 
+and the effect of Potions. 
+Reparo 
+Type: Charm 
+Difficulty: 12
+The Mending Charm. 
+Seamlessly repairs a broken 
+object. The incantation often 
+makes clear the item to be 
+repaired (e.g. Occulus Reparo 
+to repair glasses). Damage 
+caused by powerful curses like 
+FiendFyre is impossible to fix. 
+A successful casting will not 
+only repair the object, but also 
+return water to containers, 
+place books back on shelves, 
+and so on. The charm does not 
+work on very powerful or 
+complex magical items like 
+vanishing cabinets and wands. 
+While it may repair the fabric 
+of the item, the magical 
+function will remain broken. 
+Repello Inimicum 
+Type: Charm 
+Difficulty: 18
+Combined with Protego 
+Horribilis and Fianto Duri, it 
+forms an incredibly strong 
+protective trinity. Bodies 
+attempting to cross the barrier 
+will be disintegrated and 
+almost no spell can pierce the 
+barrier. 
+Repello Muggletum 
+Type: Charm 
+Difficulty: 15
+The Muggle Repelling Charm. 
+Muggles wandering too near 
+an object or place protected 
+by this enchantment suddenly 
+spots something interesting in 
+the opposite direction, or 
+remember an urgent errand 
+and have to rush away. 
+Revelio 
+Type: Charm 
+Difficulty: 15
+Reveals concealed objects, 
+invisible messages, and hidden 
+passages. May also reveal the 
+true appearance of someone 
+who is magically disguised. 
+Rictustempra 
+Type: Charm 
+Difficulty: 12
+The Tickling Charm. 
+Causes the victim to buckle 
+with laughter and be 
+distracted for one round. 
+Riddikulus 
+Type: Charm 
+Difficulty: 15
+The Boggart Banishing spell. 
+Defeats the Boggart by forcing 
+it to assume a humorous form, 
+taking away their ability to 
+terrorise. Once the Boggart 
+has been defeated with 
+laughter it is immediately 
+banished and disappears. 
+Salvio Hexia 
+Type: Charm 
+Difficulty: 15
+A protective spell that deflects 
+hexes from an area. 
+Scourgify 
+Type: Charm 
+Difficulty: 12
+The Scouring Charm that 
+cleans objects to a sparkling 
+finish. When cast on a person 
+it fills their mouths with soap 
+(a common punishment for 
+uncouth wizarding children). 
+Sectumsempra 
+Type: Curse 
+Difficulty: 18
+Slashes the victim with an 
+invisible sword that copies the 
+movements of the caster’s 
+wand. The injury is rolled in 
+the same way as any other 
+weapon attack (page 35). The 
+damage roll for the spectral 
+sword is 3D+Focus+20. 
+The wounds can be stabilised 
+with the healing spell Vulnera 
+Sanentur but the wounds will 
+still require medical treatment. 
+As the spell is Dark Magic, 
+severed body parts cannot be 
+regrown. Because of the 
+inaccuracy of slashing freely 
+with a wand at distance, 
+missing with the spell can 
+often lead to somebody in the 
+vicinity of the intended victim 
+being injured instead at the 
+Narrator’s discretion. 
+Serpensortia 
+Type: Charm 
+Difficulty: 21
+The Snake Summoning Spell. 
+The snake that appears acts 
+like a normal snake and won’t 
+attack unless it feels 
+threatened, but it can be 
+directed at an opponent by 
+using the Oppugno Charm. 
+See page 63 for snake stats. 
+[s. 58]
+58
+58
+Spells
+Silencio 
+Type: Charm 
+Difficulty: 15
+Renders a subject temporarily 
+mute. The Counter–Charm to 
+Silencio is Sonorus, the 
+Amplifying Charm, or the 
+General Counter–Spell, Finite 
+Incantatem. Both can be self 
+administered using non–
+verbal spell casting (see page 
+@@). Without magical 
+intervention the mutism can 
+last up to a month. 
+Slugulus Eructo 
+Type: Curse 
+Difficulty: 12
+The Slug–vomiting Curse. 
+Causes the victim to belch 
+slugs for up to an hour. Treacle 
+Fudge is a quick and easy cure 
+for this Curse. 
+Sonorus 
+Type: Charm 
+Difficulty: 12
+The Amplifying Charm. Makes 
+a living being or an object 
+louder. Ideal for amplifying 
+the voice, although prolonged 
+use can lead to hoarseness. 
+Specialis Revelio 
+Type: Charm 
+Difficulty: 15
+Reveals the presence and 
+nature of any spell cast on an 
+object or potion. 
+Spongify 
+Type: Charm 
+Difficulty: 12
+The Softening Charm. Softens 
+an object making it rubbery 
+and bouncy. 
+Stinging Jinx 
+Type: Jinx 
+Difficulty: 15
+The Stinging Jinx causes an 
+incredibly painful, but 
+generally harmless, red welt 
+on the flesh. Multiple castings 
+can cause disfiguring swelling 
+temporarily. Like an 
+excruciatingly painful and 
+violent allergic reaction. 
+Useful for Duelling or for a 
+quick but painful disguise. 
+Stupefy 
+Type: Charm 
+Difficulty: 15
+The Stunning Spell. Also 
+known as the Stupefying 
+Charm, or Stunner for short. 
+Much favoured for Duelling as 
+it renders the victim 
+unconscious without lasting 
+damage, although multiple 
+stuns can be injurious and 
+even deadly. When you are hit 
+by a stunner, roll 1D10+ 
+Vitality. You need to roll 12+ to 
+stay conscious. When multiple 
+Stunners are fired at the same 
+time, the target rises by +2 for 
+each additional Stunner. In 
+addition the victim has to roll 
+to resist physical damage 
+equal to one dice per 
+additional Stunner (rolled as 
+per the rules for resisting 
+physical damage on page 35). 
+For example, if you are hit by 
+three Stunners, you need to 
+roll 16+ to stay conscious and 
+will have to resist 2D physical 
+damage. The counter-Charm 
+for Stupefy is Rennervate, the 
+Reviving Charm (see page 57). 
+Switching Spell 
+Type: Transfiguration 
+Difficulty: 15
+Swaps any two objects. Want 
+to swap a Dragon’s teeth for 
+wine gums, or just want to 
+swap the clothes you’re 
+wearing with the smartest 
+outfit in your wardrobe? Then 
+this is this is the spell for you. 
+Taboo Curse 
+Type: Curse 
+Difficulty: 18
+Designates a word as a signal 
+revealing the speaker’s 
+location. During the Second 
+Wizarding War, Voldemort’s 
+name was made Taboo to 
+locate his enemies as they 
+were believed to be the only 
+ones who would dare to speak 
+his name. This spell pierces 
+all protective and cloaking 
+magic apart from the 
+Fidelius Charm (see page 51). 
+Tarantallegra 
+Type: Jinx 
+Difficulty: 15
+The Dancing Feet Jinx. Causes 
+the victim’s legs to spasm 
+uncontrollably giving the 
+appearance of dancing wildly. 
+Works on anything with legs, 
+both living and inanimate. 
+Tergeo 
+Type: Charm 
+Difficulty: 12
+A cleaning spell that removes 
+liquids like blood and grease 
+from an objects. Also works 
+with dust. 
+[s. 59]
+59
+59
+Spells
+Trip Jinx 
+Type: Jinx 
+Difficulty: 12
+Catches the victim’s ankle and 
+causes them to fall over. 
+Unbreakable Charm 
+Type: Charm 
+Difficulty: 15
+Makes an object unbreakable. 
+Unbreakable Vow 
+Type: Charm 
+Difficulty: 18
+A binding magical contract 
+cast between two parties that 
+if broken by either party will 
+result in the death of the oath 
+breaker. Requires three people 
+to cast. The two oath takers 
+face each other clasping their 
+right hands, while the third 
+participant acts as bonding 
+agent and casts the spell with 
+their wand tip touching the 
+clasped hands. 
+Verdimillious 
+Type: Charm 
+Difficulty: 12
+Emits green sparks from the 
+wand tip. Can be used in 
+Duelling, Skirmishing, and for 
+signalling. The sparks cause 
+3D+Focus damage to anything 
+they touch. 
+Vermillious 
+Type: Charm 
+Difficulty: 12
+Emits red sparks from the 
+wand tip. Can be used in 
+Duelling, Skirmishing, and for 
+signalling. The sparks cause 
+3D+Focus damage to anything 
+they touch. 
+Vipera Evanesca 
+Type: Transfiguration 
+Difficulty: 12
+The Snake–Vanishing Spell. 
+The Counter–Transfiguration 
+to the Snake–Summoning 
+Spell, but also works on most 
+other enchanted or naturally 
+occurring snakes. 
+Vulnera Sanentur 
+Type: Charm 
+Difficulty: 18
+Heals serious wounds. For 
+maximum effect the spell is 
+cast three times. Firstly to slow 
+the flow of blood, secondly to 
+clear residue and begin the 
+healing, and thirdly to knit the 
+wounds. Each casting takes 
+one action and reduces 
+damage by one circle (see 
+pages 35–36 for details on 
+injury and healing). 
+Waddiwasi 
+Type: Charm 
+Difficulty: 12
+Causes a small blob or wad of 
+any matter to fly at high speed 
+towards the target. Not in any 
+way harmful, but can be 
+annoying and distracting. 
+Wingardium Leviosa 
+Type: Charm 
+Difficulty: 9
+The Levitation Charm. One of 
+the first Charms taught to any 
+young witch or wizard. Makes 
+an inanimate object fly or 
+levitate. The lighter the object, 
+the longer it can be held aloft. 
+Although it cannot be cast on 
+living beings, it can be cast on 
+a person’s clothing (or similar) 
+to raise them off the ground.
