@@ -172,6 +172,7 @@ aktualizacja: 2026-11-20
 - Czytaj: tekst 6 („Kroki na korytarzu…”); po ucieczce tekst 7 („W pokoju wspólnym nikt nie śpi…”); przy konfiskacie, jeśli wybierasz McGonagall, tekst 8 („Na końcu korytarza stukają obcasy…”)
 - Test: `s1.scena.10.test.ucieczka-przed-filchem`
 - Dialog: `s1.scena.10.dialog.filch-konfiskata` — „Po ciszy nocnej? Nazwiska. Domy. I co to jest, to pod pachą?” (propozycja)
+- Dialog: `s1.scena.10.dialog.mcgonagall-konfiskata` — „Dziękuję, panie Filch. Dalej ja. Proszę mi to dać.” (tylko gdy notatnik idzie do McGonagall; propozycja)
 - Flagi: `flaga.filch-zlapal`, `flaga.dziennik-miejsce` (= `skonfiskowany`; siatka 4)
 - Krótko: trzynasty raz już wybił; zmienia się tylko pytanie końcowe. Przebudzony zamek pomaga uciekającym: w pokojach wspólnych pełno uczniów w piżamach, łatwo się wmieszać. Gdzie trafia notatnik: do McGonagall, gdy jest na korytarzu albo gdy Filch prowadzi postacie do opiekunów domów (zalecane, bo w Sesji 2 da się z nią rozmawiać); do szuflady Filcha, gdy postacie go okłamały albo zakpiły z niego (chowa „dowód” dla siebie).
 
@@ -326,7 +327,86 @@ dialog:
 
 ## Testy
 
-TODO (mechanik): `s1.scena.10.test.ucieczka-przed-filchem`.
+*Terminy Walkera (przy pierwszym użyciu): Speed (szybkość), Stealth (skradanie), Wits (bystrość), Observation (spostrzegawczość), Quick Test (szybki test, s. 4: rzut 1D10, sukces, gdy wynik jest równy lub niższy od umiejętności), Working Together (współpraca, s. 4), Story Point (punkt fabuły, s. 4). Poziomy wyniku: Walker s. 3–4.*
+
+**Ile tu rzucania.** Dwa testy, oba opcjonalne, i **żaden nie rozstrzyga wyboru z pytania końcowego** (Ansel, notatnik, komu powiedzieć). Testy decydują tylko o tym, czy Filch złapie postacie. Bez Filcha (wariant bez notatnika, postacie dawno w łóżkach, albo gdy czas goni) nie rzucasz nic. Rozmowa z Anselem to czysta fikcja: żadnego testu na jego blednięcie, na „pomoc” ani na przekonanie go. Stopień 4 kontaktu jest ustalony i nie zależy od kości.
+
+**Kara za oddanie godziny w scenie 09 nie przechodzi tutaj.** Stany Dazed albo Rattled z oddania godziny kończą się razem ze sceną 09, więc w scenie 10 nie dodajesz z nich kar do trudności. Wyjątek: stan ciała lub umysłu, który postać zdobyła w scenie 10 (obecnie żaden test tego nie zadaje).
+
+**Filch w liczbach (jak w scenie 09, założenie robocze).** Rzuca `1D10 + 9` (Wits 4 + Observation 5). W scenie 10 jest zdyszany i biegnie, ale ma cały zamek po swojej stronie jako świadków, więc nie zmieniamy jego liczb; zmieniamy tylko modyfikatory po stronie postaci (tłum uczniów).
+
+**Zauważenie latarni (krok 4, opcjonalnie, przed ucieczką).** Szybki, tani test dla tej postaci, która stoi najbliżej drzwi czytelni. Zamiast długiego opisu: „Co robisz, gdy słyszysz kroki?”. Kto powie, że wygląda na korytarz albo nasłuchuje, rzuca Quick Test. Daje przewagę w ucieczce, nie jest jej warunkiem.
+
+```yaml
+test:
+  id: s1.scena.10.test.zauwazenie-latarni
+  opis: "Po biciu na korytarzu słychać kroki i klucze; jedna postać próbuje ocenić z którego skrzydła idzie Filch i którędy się wymknąć, zanim latarnia wejdzie do czytelni."
+  kto: jeden
+  rzut: "Quick Test: Observation"
+  trudnosc: "Quick Test"
+  modyfikatory:
+    - warunek: "Gracz zadeklarował, że zgasił różdżki i nasłuchuje przy drzwiach (nie świeci, nie rozmawia)"
+      wartosc: "+2 do rzutu"
+    - warunek: "Cisza przerwana hałasem: Irytek trzaska drzwiami nad głową (tekst 2), kłótnia postaci"
+      wartosc: "+2 do trudności"
+  wyniki:
+    - wynik: sukces
+      efekt: "Postać wie, z której strony idzie latarnia i którędy da się wyjść. Test ucieczki dostaje +2 do rzutu. Powiedz wprost, co usłyszała."
+      flagi_ustaw: []
+    - wynik: porazka
+      efekt: "Szum zamku zagłusza kroki. Latarnia wchodzi do czytelni z zaskoczenia, a w teście ucieczki nie ma premii. Bez kary do rzutu, bez śladu."
+      flagi_ustaw: []
+```
+
+*Szansa (Quick Test, wynik ≤ wartość): Observation to zwykle 1–3 punkty u uczniów, więc ≈10–30% (z nasłuchiwaniem 30–50%). To tylko bonus; nie licz na niego w planowaniu.*
+
+**Ucieczka przed Filchem (krok 4).** Rzucasz **tylko wtedy**, gdy postacie nie przyjęły złapania od razu: biegną, chowają się, mieszają z uczniami. Postacie, które stoją i grzecznie czekają na latarnię, nie rzucają: Filch ich ma, dialog filch-konfiskata. Prowadzi jedna postać (najwyższe Speed i Stealth albo Balance zamiast Stealth, jeśli ucieczka to bieg po schodach), reszta za nią (+1 za osobę, Working Together s. 4). Test jest jeden dla całej grupy; kto ucieka z notatnikiem osobno, rzuca osobno (zob. dialog filch-konfiskata).
+
+```yaml
+test:
+  id: s1.scena.10.test.ucieczka-przed-filchem
+  opis: "Po trzynastym uderzeniu postacie uciekają z czytelni przed latarnią Filcha, w stronę dormitoriów, i próbują wmieszać się w uczniów wyrwanych ze snu. Test przeciwny: Speed + Stealth przeciw Wits + Observation woźnego. Wygrana to ucieczka; przegrana otwiera krok 4 (dialog konfiskata). Wynik rozstrzyga tylko, czy Filch złapie postacie, nie los notatnika ani Ansela."
+  kto: grupa
+  rzut: "1D10 + Speed + Stealth"
+  trudnosc: "przeciwny: 1D10 + Wits + Observation (npc.argus-filch; założenie: 1D10 + 9)"
+  modyfikatory:
+    - warunek: "Każda inna postać, która biegnie za prowadzącą (Working Together, s. 4)"
+      wartosc: "+1 do rzutu"
+    - warunek: "Przebudzony zamek: pokoje wspólne i korytarze pełne uczniów w piżamach, łatwo się wmieszać (działa tylko, gdy postacie dobiegły do zamieszkanych pięter albo schodów)"
+      wartosc: "+3 do rzutu"
+    - warunek: "Sukces w teście zauważenie-latarni (znają trasę Filcha)"
+      wartosc: "+2 do rzutu"
+    - warunek: "Ansel (jeśli jest przy drużynie) idzie przodem i mówi, gdzie jest latarnia; woźny go nie widzi"
+      wartosc: "+1 do rzutu"
+    - warunek: "Ktoś świeci światłem różdżki albo biegnie z notatnikiem w ręku, błyskając mosiężną tarczą"
+      wartosc: "+2 do trudności"
+    - warunek: "Postać jest w stanie Shaken, Bruised albo Rattled (s. 35) z tej sceny; stany z sceny 09 nie liczą się"
+      wartosc: "+1 do trudności"
+  wyniki:
+    - wynik: wygrana
+      efekt: "Wymykają się. Tekst 7 (pokój wspólny): nikt nie pyta, skąd wracają. Filch nie ma nazwisk. Notatnik zostaje przy postaciach (flaga.dziennik-miejsce bez zmian, zwykle u-graczy). Rozgałęzienie z-notatnikiem. Bez śladów, bez szlabanu."
+      flagi_ustaw: []
+    - wynik: remis
+      efekt: "Filch widzi sylwetki i kawałek tarczy w światłach, ale nie twarze; woła za nimi, a tłum go zasłania. Nie ma szlabanu ani konfiskaty. Rano plotka, że woźny szukał kogoś z biblioteki, a Filch będzie przyglądał się tym postaciom uważniej (zapisz w notatce, bez flagi). Narrator rozstrzyga w ich stronę, jeśli ruch był rozsądny."
+      flagi_ustaw: []
+    - wynik: przegrana
+      efekt: "Latarnia łapie postacie na schodach albo w progu pokoju wspólnego. Dialog filch-konfiskata; notatnik trafia do McGonagall (uczciwość, milczenie) albo do szuflady Filcha (kłamstwo, kpina). Szlaban. Rozgałęzienie skonfiskowany."
+      flagi_ustaw: [flaga.filch-zlapal, flaga.dziennik-miejsce]
+```
+
+*Wartość `flaga.dziennik-miejsce` ustawiasz na `skonfiskowany`. Gdy Filch złapał postacie wcześniej tej nocy (`flaga.filch-zlapal` już ustawiona, siatka 9), przegrana nie dodaje szlabanu, tylko list do domu (zob. Dla MG); dokładnie ten sam test i liczby.*
+
+*Szansa dla archetypów (jak w scenie 09, ale z bonusem tłumu +3 i bez kary za stan Dazed): pojedynkowicz i kombinator jako prowadzący ≈70–80%, opiekun ≈40–50%, badacz ≈30–40% (z pomocnikami i zauważeniem latarni 20–30 punktów procentowych więcej). To test do przejścia: przewaga tłumu jest w tej scenie celowo duża, bo scena ma kończyć się pytaniem, nie rzutem.*
+
+**Story Point i RETRORSUM.** Po nieudanym teście ucieczki gracz może wydać Story Point na dorzut 1D10 (s. 4; najwyżej jeden dorzut do rzutu). RETRORSUM ([[zasada.nagrody-z-teaserow]]) cofa najwyżej ostatni test ucieczki albo złapanie przez Filcha, jak w scenie 09. Nie cofa trzynastu uderzeń ani blednięcia Ansela; ani nie zmienia tego, kto trzyma notatnik, jeśli gracze świadomie go oddali.
+
+**Nieprzewidziane rzuty (rozstrzygaj tak).** Bez nowych testów, bo scena ma kończyć się pytaniem:
+- *Postać próbuje przekupić, zagadać albo okłamać Filcha:* bez rzutu, rozstrzyga dialog (uczciwość: notatnik do McGonagall; kłamstwo i kpina: do szuflady Filcha). Kłamstwo nie jest testem na przekonanie; Filch i tak zabiera notatnik.
+- *Ktoś rzuca zaklęcie w Filcha albo McGonagall:* McGonagall rozbraja bez rzutu (jeden ruch różdżką, zob. dialog). Zaklęcie w Filcha przegrywa tak samo; nie rozpisuj walki ani pojedynku w tej scenie.
+- *Ktoś próbuje wymknąć się osobno z notatnikiem:* osobny test ucieczki tej postaci przeciwko Filchowi (te same liczby, bez premii za pomocników).
+- *Ktoś próbuje zaklęciem wyleczyć albo „naprawić” Ansela, oddać mu godzinę, zaklęciem go rozświetlić:* bez rzutu i bez efektu (dialog ansel-ciszej: „Ładnie świeciło. Ale chyba nic.”). Nie dawaj graczom przełącznika; skutki dla kotwicy rozstrzyga Sesja 2.
+- *Ktoś chce czytać notatnik na miejscu:* strony są nieczytelne, a bicie i Filch przerywają; bez testu (czytanie to materiał Sesji 2).
+- *Ktoś zakłada, że zniszczy notatnik:* bez rzutu na zniszczenie, bo to decyzja o wyborze, nie test. Jeśli gracz uparty: zapisz `flaga.dziennik-miejsce` = `zniszczony`, MG pyta „na pewno?” i opisuje, że kartki trzymają się ciepłym, a zamek nie reaguje. Nie rób z tego kary; jeśli MG chce, jest to sygnał do Sesji 2.
 
 ## Rozgałęzienia
 
