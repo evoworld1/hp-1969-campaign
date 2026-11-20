@@ -47,7 +47,7 @@ Hogwart, jesień 1969. Gracze zaczynają szósty rok nauki, tuż po wakacjach i 
 
 ### Sesje 2 i 3
 
-Sesja 2 zabiera graczy na Pokątną, do sklepu Crake'a, gdzie wszystko wskazuje na niego, ale może go ocalić ich przekonanie o jego niewinności. W zamku Szara Dama, jedyna, która pamięta Ansela, opowiada o 1951 roku, a gracze składają obraz w całość i otwierają mechanizm wieży. W Sesji 3 zamek zamiera: uczniowie w pół kroku, płomienie bez ruchu. W komnacie czeka Ansel, Klepsydra i rozpaczliwy Crake, a walka toczy się w czasie, który sam się przewija. Na końcu Klepsydra jest wolna i postacie mają cztery drogi: użyć jej, oddać Dumbledore'owi, zniszczyć albo oddać Patronowi. Żadna nie jest czysta, każda kosztuje.
+Sesja 2 zabiera graczy na Pokątną, do sklepu Crake'a, gdzie wszystko wskazuje na niego, ale może go ocalić ich przekonanie o jego niewinności. W zamku Szara Dama, która pamięta Ansela wyraźniej niż ktokolwiek (Gruby Mnich ma tylko mgliste przeczucie), opowiada o 1951 roku, a gracze składają obraz w całość i otwierają mechanizm wieży. W Sesji 3 zamek zamiera: uczniowie w pół kroku, płomienie bez ruchu. W komnacie czeka Ansel, Klepsydra i rozpaczliwy Crake, a walka toczy się w czasie, który sam się przewija. Na końcu Klepsydra jest wolna i postacie mają cztery drogi: użyć jej, oddać Dumbledore'owi, zniszczyć albo oddać Patronowi. Żadna nie jest czysta, każda kosztuje.
 
 ## Źródła
 
@@ -55,6 +55,6 @@ Szkic kierunkowy z wcześniejszej wersji, dostosowany do roku 1969 i do decyzji 
 
 ## Do weryfikacji
 
-Rozstrzygnięte przez MG 2026-11-19: wszystkie postacie graczy widzą Ansela; Dumbledore reaguje dopiero w Sesji 2, a Sesja 1 kończy się cliffhangerem przy wyborze; Crake może się pojawić w Sesji 1 jako przelotna pogawędka (dłuższa rozmowa przy bardzo wysokim wyniku spostrzegawczości, do dopracowania).
+Rozstrzygnięte przez MG 2026-11-19: wszystkie postacie graczy widzą Ansela; Dumbledore działa dopiero w Sesji 2 (w Sesji 1 pojawia się tylko, jeśli gracze sami do niego pójdą: nie widzi Ansela i prosi o obserwację), a Sesja 1 kończy się cliffhangerem przy wyborze; Crake może się pojawić w Sesji 1 jako przelotna pogawędka (dłuższa rozmowa przy bardzo wysokim wyniku spostrzegawczości, do dopracowania).
 
 Otwarte: brak.

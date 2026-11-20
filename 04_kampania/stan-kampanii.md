@@ -10,7 +10,7 @@
 - **Odpowiedzi MG na pytania B1 wprowadzone (2026-11-20):** grupa Wrena i wspólny sekret z 4. roku (graf, przegląd, instrukcja tworzenia postaci z 5 pytaniami startowymi), odbicie Ansela w scenie 01, kotwica w „Prawdzie dla MG”, zaklęcia za zgodą MG. Nowe flagi: `ansel-odbicie`, `sekret-poruszony`.
 - **Do potwierdzenia przed Sesją 3:** architekt zapisał w przeglądzie wniosek, że oddanie godziny **może** odebrać Anselowi kotwicę. To nie jest decyzja MG.
 - **Część B2a (zrobione 2026-11-20):** tworca-npc utworzył 19 szkiców kart NPC w `03_postacie/npc/` (8 pełnych, 11 krótkich); redaktor-ciaglosci sprawdził; Reżyser naprawił drobne błędy (polszczyzna, kominek McGonagall, kwestia Ansela u Dumbledore'a, Sprout w 1951, objaśnienia terminów); w zarysie wpisany Patron Wymark. Walidator czysty (ostrzeżenia o nieużywanych flagach są oczekiwane do czasu scen).
-- **Czeka na odpowiedzi MG:** 5 pytań z B2a (zob. „Otwarte pytania”). Po odpowiedziach tworca-npc poprawia karty.
+- **Odpowiedzi MG na pytania B2a wprowadzone (2026-11-20):** tworca-npc ujednolicił karty (zob. rejestr decyzji).
 - **Następny krok: część B2b** (nowa sesja): szkice 14 miejsc i 7 przedmiotów, nagłówki 4 handoutów (lista w `graf-scen.md`, „Potrzebne obiekty”); redaktor-ciaglosci; akceptacja grafu przez MG, co kończy Fazę 2.
 - **Dla mechanika (Faza 3):** zdolności Cassiana (Skradzione Chwile, zegarek jako słaby punkt), premie za nazwanie nawyków Rosalind i Barnaby'ego, obchód Filcha jako przeciwnik, próg pogawędki z Crake'iem, czy Ansel potrzebuje liczb.
 - **Dla mechanika przy scenach:** czy stan Drained działa już na lekcji Obrony; rdzeń ze smoczego serca a drewno „Oak” (s. 29, niejasność podręcznika).
@@ -65,16 +65,15 @@
 | 2026-11-20 | Przed straconą godziną Ansel może mignąć tylko jako odbicie w szkle zegara. | MG |
 | 2026-11-20 | Z Anselem rozmawiają tylko postacie graczy, bo ich wspólnie zabrana godzina stała się jego kotwicą (wyjaśni to dziennik w Sesji 2). | MG |
 | 2026-11-20 | Zaklęcia, które mogą rozwiązać śledztwo jednym rzutem (Homonculous Charm, Obliviate, Legilimens, Amortentia), w pełnej ścieżce tworzenia postaci tylko za zgodą MG; w szybkiej ścieżce ich nie ma. | MG |
+| 2026-11-20 | Astronomii uczy **prof. Ada Fairweather** (ok. 30 lat), w 1951 pierwszoroczna z rocznika Ansela; nie pamięta go, ale na zdjęciu klasy jest puste miejsce. | MG |
+| 2026-11-20 | Tobias Quill: MG przed sesją przypisuje go do domu postaci z najmniejszą liczbą znajomych (lub najbardziej nieśmiałego gracza). | MG |
+| 2026-11-20 | Wymark w Sesji 1 tylko jako ślad: Fairweather wspomina „wysokiego prefekta, którego wołaliśmy Bocian” (`flaga.wymark-slad`). | MG |
+| 2026-11-20 | Ansela pamiętają oboje: Gruby Mnich w Sesji 1 tylko mgliście, Szara Dama w Sesji 2 opowiada o 1951. | MG |
+| 2026-11-20 | Ansel zginął **jesienią 1951** (rok szkolny 1951/52); Wymark był wtedy prefektem 7. roku. | MG |
+| 2026-11-20 | Przyjęte wersje robocze kart: Wymark z Ravenclawu (ok. 35 lat), córka Crake'a Nora, zegarek Cassiana po dziadku, Wren odszedł z biura aurorów po oskarżeniu niewinnego, Barnaby Finch z Gryffindoru. | MG |
 
 ## Otwarte pytania
-Z części B2a (2026-11-20):
-1. Kto uczy Astronomii (roboczo: prof. Ada Fairweather, w 1951 pierwszoroczna z rocznika Ansela).
-2. Dom Tobiasa Quilla (roboczo: MG przypisuje przed sesją do domu postaci z najmniejszą liczbą znajomych).
-3. Czy Wymark pojawia się w Sesji 1 (roboczo: tylko ślad, przezwisko „Bocian” z ust nauczycielki Astronomii).
-4. Kto pamięta Ansela: Szara Dama (zarys) czy Gruby Mnich (graf).
-5. Rok szkolny śmierci Ansela: 1950/51 czy 1951/52 (karty liczą różnie).
-- Wersje robocze do potwierdzenia: Wymark z Ravenclawu (ok. 35 lat), córka Crake'a Nora, zegarek Cassiana po dziadku, Wren odszedł z biura aurorów po oskarżeniu niewinnego, Barnaby Finch z Gryffindoru.
-- Zarys mówi „Dumbledore reaguje dopiero w Sesji 2”, graf pozwala graczom pójść do niego w Sesji 1 (nie działa, prosi o obserwację). Do ujednolicenia słów po decyzjach.
+- Brak. Pytania 1–5 z części B2a rozstrzygnięte 2026-11-20 (zob. rejestr decyzji).
 
 ## Zadania do wykonania
 - Brak pilnych. Tworzenie postaci uproszczone (szybka ścieżka) 2026-11-20.
@@ -92,7 +91,7 @@ Z części B2a (2026-11-20):
 | Zarys kampanii 1969 | `04_kampania/zarys-kampanii.md`, recenzja (zatwierdzony przez MG) |
 | Instrukcja tworzenia postaci | szkic (pełna i szybka ścieżka) |
 | Scenariusz 1: graf | szkic (`przeglad.md` + `graf-scen.md`), decyzje MG wprowadzone, czeka na karty miejsc i przedmiotów (B2b) |
-| Scenariusz 1: NPC | 19 szkiców w `03_postacie/npc/`, czeka na 5 odpowiedzi MG |
+| Scenariusz 1: NPC | 19 szkiców w `03_postacie/npc/`, decyzje MG wprowadzone |
 | Scenariusz 1: sceny | 0 / ? |
 
 ## Stan gry (wypełnia kronikarz po rozegranych sesjach)
