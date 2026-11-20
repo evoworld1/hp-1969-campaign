@@ -19,7 +19,7 @@
 - **Dla mechanika (Faza 3):** zdolności Cassiana (Skradzione Chwile, zegarek jako słaby punkt), premie za nazwanie nawyków Rosalind i Barnaby'ego, obchód Filcha jako przeciwnik, próg pogawędki z Crake'iem, czy Ansel potrzebuje liczb.
 - **Dla mechanika przy scenach:** czy stan Drained działa już na lekcji Obrony; rdzeń ze smoczego serca a drewno „Oak” (s. 29, niejasność podręcznika).
 - **Odłożone do scen:** liczby dla wyniku 2× i 3× trudności (ZD-09).
-- **Ostatnie podsumowanie rozmowy:** `99_robocze/summary-session#2.md` (2026-11-20). Następną sesję zacznij od `/scena` (scena 01).
+- **Ostatnie podsumowanie rozmowy:** `99_robocze/summary-session#3.md` (2026-11-20). Następną sesję zacznij od `/scena` (scena 01).
 
 ### Faza 1, część A: co powstało
 - `00_zrodla/walker-2e-draft-2026-04/tekst/`: wyciąg tekstu podręcznika (16 rozdziałów, znaczniki stron). Podręcznik jest jednym PDF (184 s.; numer drukowany = strona PDF − 5).
@@ -90,9 +90,10 @@
 | 2026-11-20 | **Granica cofnięcia RETRORSUM:** gracz mówi, jak daleko się cofa; MG potwierdza albo sam wybiera chwilę (najlepiej tuż przed błędem); gracz odzyskuje wszystkie punkty i akcje i dostaje pewny sukces. | MG |
 | 2026-11-20 | **Do Działu Ksiąg Zakazanych i pracowni tylko nocą, bez zgody.** Nie ma przepustki Flitwicka ani innego legalnego wejścia (odwołuje wcześniejszą decyzję). | MG |
 | 2026-11-20 | **Graf Scenariusza 1 zaakceptowany** (z powyższą poprawką). Faza 2 zamknięta. | MG |
+| 2026-11-20 | Gdy Filch złapie całą drużynę w drodze do biblioteki (siatka 9): szlaban, a po północy Ansel ich budzi i próbują drugi raz tej samej nocy, ostrożniej. | MG |
 
 ## Otwarte pytania
-1. Gdy Filch złapie całą drużynę w drodze do biblioteki (siatka 9): roboczo Ansel budzi ich po północy i próbują drugi raz tej samej nocy; inne warianty: wyprawa następnej nocy albo Cassian idzie sam i drużyna trafia za nim.
+- Brak pytań fabularnych. (Siatka 9 rozstrzygnięta 2026-11-20: wariant A.)
 - Kto ma RETRORSUM: MG rozstrzyga w dniu sesji. Autor księgi i jej zagadki: Sesja 2 i później.
 - Zasada pracy: przy każdej prośbie o akceptację podawać MG link do krótkiego streszczenia albo pliku.
 
