@@ -39,7 +39,7 @@ Premię z pochodzenia dodajesz do liczb z archetypu.
 
 **S3. Cecha rzadka, czyli Rare Trait (s. 10).** Rzuć 1D100 (dwiema kośćmi D10: dziesiątki i jedności). Wynik 1–95: brak cechy rzadkiej. Wynik 96–98: przeczytaj s. 10 albo zapytaj MG. Wynik 99 lub 100: rzuć jeszcze raz.
 
-**S4. Dom (s. 11).** Wybierz dowolny dom. Postacie przy stole mogą być w różnych domach. Powód, dla którego działacie razem, poda MG.
+**S4. Dom (s. 11).** Wybierz dowolny dom. Postacie przy stole mogą być w różnych domach. Wszystkie wasze postacie są w tej samej mieszanej grupie ćwiczeniowej profesora Wrena na Obronie przed Czarną Magią: Wren podzielił rok na grupy z różnych domów, bo „wojna nie pyta o dom”. Łączy was też wspólny sekret z 4. roku (zob. „Wspólny sekret z 4. roku” niżej).
 
 **S5. Archetyp: cechy i umiejętności (s. 12–13, 16).** Wybierz archetyp i przepisz liczby. Cechy (Attributes) to: **Vitality** (żywotność), **Speed** (szybkość), **Wits** (bystrość, też celowanie zaklęciem w walce), **Knowledge** (wiedza, eliksiry), **Focus** (skupienie, rzucanie zaklęć). Umiejętności (Skills), których nie ma na liście, mają 0.
 
@@ -116,7 +116,7 @@ Premia z różdżki dochodzi do rzutu, gdy zaklęcie należy do danej grupy (lis
 
 3. **Cecha rzadka, czyli Rare Trait (s. 10).** Rzuć 1D100 (dwiema kośćmi D10: dziesiątki i jedności). Wynik 1–95 to brak cechy rzadkiej i tak będzie najczęściej. Wyniki 96–98 opisuje s. 10. Przy wyniku 99 (Parseltongue, mowa węży) albo 100 (Lycanthropy, wilkołactwo) rzucasz jeszcze raz (decyzja MG z 2026-11-20).
 
-4. **Dom (s. 11).** Wybierz dowolny dom. Postacie mogą być w różnych domach. Powód, dla którego działacie razem, poda MG.
+4. **Dom (s. 11).** Wybierz dowolny dom. Postacie mogą być w różnych domach. Wszystkie wasze postacie są w tej samej mieszanej grupie ćwiczeniowej profesora Wrena na Obronie przed Czarną Magią: Wren podzielił rok na grupy z różnych domów, bo „wojna nie pyta o dom”. Łączy was też wspólny sekret z 4. roku (zob. „Wspólny sekret z 4. roku” niżej).
 
 5. **Cechy, czyli Attributes (s. 12, 16).** Masz pięć cech: **Vitality** (żywotność, odporność na rany), **Speed** (szybkość, uniki), **Wits** (bystrość, spostrzegawczość, celowanie zaklęciem w walce), **Knowledge** (wiedza, eliksiry), **Focus** (skupienie, rzucanie zaklęć). Rozdziel **22 punkty** (11 na start i 11 z tabeli na s. 16). Każda cecha ma co najmniej 1, normalny zakres to 1–10. Punkty za urodziny są już w tym wliczone.
 
@@ -150,12 +150,24 @@ Premia z różdżki dochodzi do rzutu, gdy zaklęcie należy do danej grupy (lis
 
 12. **Ostatnie szlify.** Dopisz wygląd, jedną rzecz, którą postać ukrywa, jedną osobę, na której jej zależy, i to, jak spędziła wakacje 1969 roku. Pole Patronus wypełniasz tylko wtedy, gdy postać ma zaznaczone kratki Expecto Patronum.
 
+### Wspólny sekret z 4. roku (obie ścieżki, około 10 minut, razem)
+
+Dwa lata temu, na 4. roku, wasze postacie razem coś odkryły albo przeskrobały. Od tego czasu trzymają się razem. Co to było, wymyślacie wspólnie: scenariusz tego nie narzuca. Najlepiej zróbcie to razem z MG, gdy wszystkie postacie są już gotowe. Każdy gracz odpowiada przynajmniej na jedno pytanie, a pierwsze pytanie omawiacie razem:
+
+1. Co się wtedy stało? Opowiedzcie to razem w dwóch, trzech zdaniach.
+2. Co wtedy zrobiłeś, czego inni ci nie zapomną (na dobre albo na złe)?
+3. Czego wtedy się baliście? Czy to wciąż czasem wraca?
+4. Kto o tym wie poza wami? I kto nie może się dowiedzieć?
+5. Jaka mała rzecz z tamtego dnia została u ciebie (przedmiot, blizna, słowo)?
+
+Odpowiedzi zapiszcie krótko na odwrocie kart postaci. MG wykorzysta je w grze.
+
 ## Jak używać przy stole
 
 - **Dla MG, przy sprawdzaniu karty:** cechy sumują się do 22; umiejętności do 53 plus premia z pochodzenia; kratki do 50 (lata 1–5), 30 (lata 6–7 albo eliksiry zaawansowane) i do 3 z kroku 6b. Według tabeli poziomów (s. 102) to cechy jak u najlepszych w klasie, a umiejętności jak u ucznia zdolnego. Archetypy z szybkiej ścieżki spełniają te sumy (cechy 22, umiejętności 53, kratki 50 + 30) i mają co najmniej 1 punkt w dwóch fakultetach.
 - Gracze mogą wziąć ten sam archetyp. Wtedy niech różnią się pochodzeniem, specjalizacją, wyborem 6 kratek i różdżką.
 - Jeśli gracz z pełnej ścieżki utknie przy zaklęciach, niech najpierw opanuje 6–8 zaklęć, które pasują do postaci. Resztę kratek może rozdzielić po pierwszej sesji, zanim padnie pierwszy rzut na nieznane zaklęcie.
-- **Przyjęte decyzje MG (2026-11-20):** zdany SUM przy co najmniej 3 punktach; cecha rzadka losowana z przerzutem przy 99–100; co najmniej 2 fakultety; Tempus uczony na lekcji 6. roku (trudność 9, nikt go nie zna na starcie); domy dowolne.
+- **Przyjęte decyzje MG (2026-11-20):** zdany SUM przy co najmniej 3 punktach; cecha rzadka losowana z przerzutem przy 99–100; co najmniej 2 fakultety; Tempus uczony na lekcji 6. roku (trudność 9, nikt go nie zna na starcie); domy dowolne; drużyna to grupa ćwiczeniowa prof. Wrena i wspólny sekret z 4. roku; zaklęcia z listy „czego nie ma w szybkiej ścieżce” w pełnej ścieżce tylko za zgodą MG.
 
 ## Przykład
 
@@ -167,7 +179,7 @@ Premia z różdżki dochodzi do rzutu, gdy zaklęcie należy do danej grupy (lis
 
 - **Szacunek czasu dla nowicjusza (mechanik, 2026-11-20).** Pełna ścieżka: pomysł i imię 10 min, pochodzenie 5, cecha rzadka 2, dom 2, cechy 10, umiejętności 35–45 (pięć pul, ponad 40 umiejętności do zrozumienia), SUM-y 5, zaklęcia i eliksiry 45–60 (80 kratek, około 100 pozycji z opisami na kilkunastu stronach), różdżka 10–15, zwierzę 2, zdrowie i Story Points 3, szlify 10. Razem **około 140–170 minut** na gracza. Szybka ścieżka: pomysł 5, pochodzenie 3, cecha rzadka 2, dom 1, przepisanie archetypu 7, SUM-y 2, zaklęcia 8, różdżka 2, zwierzę i Story Points 2, szlify 5. Razem **około 30–35 minut**; mniej, jeśli MG wydrukuje gotowe karty archetypów.
 - **Skąd liczby archetypów.** Każdy archetyp rozkłada punkty dokładnie według wiersza „1–5” (s. 16): 12 punktów z dzieciństwa na dozwolone umiejętności, 3 dowolne, po 1 w ośmiu przedmiotach podstawowych, 15 na przedmioty i fakultety (w tym co najmniej dwa fakultety inne niż Duelling) oraz 15 dowolnych. Kratki: trudności z s. 47–64, koszt kratek z s. 165. Eliksiry zaawansowane mają trudność 15 (s. 61–64), więc po 3 kratki. Premie różdżek z s. 27–29.
-- **Czego nie ma w liście szybkiej ścieżki i dlaczego (decyzja wykonawcza mechanika):** Homonculous Charm (mapa z kropkami osób) mógłby rozwiązać śledztwo jednym rzutem; Obliviate, Legilimens i Amortentia wpływają na umysł lub wolę innych postaci; Apparition wymaga licencji od 17 lat; Bubble-head Charm (2 kratki) psuje rachunek po 3 kratki. W pełnej ścieżce MG może na nie pozwolić.
+- **Czego nie ma w liście szybkiej ścieżki i dlaczego (decyzja wykonawcza mechanika):** Homonculous Charm (mapa z kropkami osób) mógłby rozwiązać śledztwo jednym rzutem; Obliviate, Legilimens i Amortentia wpływają na umysł lub wolę innych postaci; Apparition wymaga licencji od 17 lat; Bubble-head Charm (2 kratki) psuje rachunek po 3 kratki. W pełnej ścieżce tylko za zgodą MG (decyzja MG 2026-11-20). Homonculous Charm to zaklęcie, a nie mapa Huncwotów: tej mapy w 1969 roku jeszcze nie ma, bo jej twórcy przyjadą do Hogwartu dopiero w 1971 roku (pewnosc: niepewne co do dokładnej daty powstania mapy; zob. „Do weryfikacji”).
 - **Niejasne, s. 29:** rdzeń Dragon Heartstring daje Offensive Magic +2 w parze z drewnem „Oak”, a na liście drewna są English Oak i Red Oak (s. 27–28). W archetypie A przyjęto bez dodatkowej premii (+1).
 - Liczby w krokach 5, 6 i 8 pochodzą z wiersza „1–5” tabel na s. 16 i 17. Podręcznik w dwóch miejscach odsyła do „pages 17–18” (s. 12–13), a tabela cech i umiejętności jest na s. 16.
 - Pula 30 kratek na zaklęcia 6.–7. roku dla kogoś, kto dopiero zaczyna 6. rok, wynika z podręcznika (s. 17): to samodzielna nauka wykraczająca poza program.
@@ -186,3 +198,4 @@ Premia z różdżki dochodzi do rzutu, gdy zaklęcie należy do danej grupy (lis
 - [ ] Story Points (3 dla półkrwi, 0 dla pozostałych)
 - [ ] Puste kółka zdrowia (Body i Mind)
 - [ ] Jedno zdanie o sekrecie postaci i jedno o osobie, na której jej zależy
+- [ ] Odpowiedzi na pytania o wspólny sekret z 4. roku (na odwrocie karty)

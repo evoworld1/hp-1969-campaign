@@ -7,7 +7,9 @@
 - **Część B1 (zrobione):**
   - mechanik: szybka ścieżka tworzenia postaci (4 archetypy, około 30–35 minut zamiast 140–170); usunięta rada o wspólnym domu; decyzje MG wpisane do instrukcji; 4 nowe terminy w słowniku.
   - architekt-fabuly: graf podzielony na `przeglad.md` (id `s1`) i pomocniczy `graf-scen.md` bez nagłówka. Wprowadzone decyzje MG: Patron Wymark (`npc.silas-wymark`), stracona godzina między lekcjami (scena 03 to teraz stracona godzina, 04 to Obrona), mignięcia Ansela, legalna biblioteka, data 22.09.1969. Dodane wczesne sygnały dziwności w scenach 01–02, 7 siatek bezpieczeństwa i 37 flag. Rdzeń trwa około 4 h 20 min.
-- **Następny krok: część B2** (nowa sesja): wprowadzić odpowiedzi MG na pytania 1–4 niżej; tworca-npc (szkice kart NPC, miejsc i przedmiotów, lista w `graf-scen.md`, sekcja „Potrzebne obiekty”); redaktor-ciaglosci; akceptacja grafu przez MG, co kończy Fazę 2.
+- **Odpowiedzi MG na pytania B1 wprowadzone (2026-11-20):** grupa Wrena i wspólny sekret z 4. roku (graf, przegląd, instrukcja tworzenia postaci z 5 pytaniami startowymi), odbicie Ansela w scenie 01, kotwica w „Prawdzie dla MG”, zaklęcia za zgodą MG. Nowe flagi: `ansel-odbicie`, `sekret-poruszony`.
+- **Do potwierdzenia przed Sesją 3:** architekt zapisał w przeglądzie wniosek, że oddanie godziny **może** odebrać Anselowi kotwicę. To nie jest decyzja MG.
+- **Następny krok: część B2** (nowa sesja): tworca-npc (szkice kart NPC, miejsc i przedmiotów, lista w `graf-scen.md`, sekcja „Potrzebne obiekty”); redaktor-ciaglosci; akceptacja grafu przez MG, co kończy Fazę 2.
 - **Dla mechanika przy scenach:** czy stan Drained działa już na lekcji Obrony; rdzeń ze smoczego serca a drewno „Oak” (s. 29, niejasność podręcznika).
 - **Odłożone do scen:** liczby dla wyniku 2× i 3× trudności (ZD-09).
 - **Ostatnie podsumowanie rozmowy:** `99_robocze/summary-session#1.md` (2026-11-20).
