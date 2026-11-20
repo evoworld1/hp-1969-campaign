@@ -48,6 +48,16 @@ Terminy mechaniczne zostają w oryginale angielskim (Walker 2e). Ten słownik ob
 | Beast / Being / Spirit | Klasyfikacja stworzeń Ministerstwa: zwierzę / istota rozumna / duch | 89 |
 | Move / Combat | Kości stworzenia: ruch (inicjatywa, pościg) / atak i obrona | 89 |
 | Notable Spells | W statystykach NPC: zaklęcia, z których postać słynie | 102 |
+| Sacred Twenty-Eight | „Uświęcona Dwudziestka Ósemka”: lista rodów czystej krwi; każdy ród daje 3 punkty w dwóch umiejętnościach | 7 |
+| Childhood Skills | Umiejętności z dzieciństwa: 12 punktów na 13 umiejętności z listy (plus Broomstick Flying albo Prestige zależnie od pochodzenia) i 3 punkty dowolne | 13 |
+| Years completed | Ukończone lata nauki: wiersz tabeli, z którego starszy uczeń bierze dodatkowe punkty cech, umiejętności i kratek zaklęć (6. rok = wiersz 1–5) | 15–17 |
+| Elective Subjects | Fakultety: przedmioty do wyboru (2. rok, 3.–5. rok, 6.–7. rok) | 15–16 |
+| Examination Subjects | Przedmioty egzaminacyjne (SUM i OWUTEM), na których opiera się nauka na 6. i 7. roku | 16 |
+| O.W.L. / N.E.W.T. | Egzaminy po 5. roku (SUM, Standardowe Umiejętności Magiczne) i po 7. roku (OWUTEM, Okropnie Wyczerpujące Testy Magiczne) | 15 |
+| Spell & Potion Sheet | Arkusz zaklęć i eliksirów z kratkami nauki, osobny od karty postaci | 13, 17, 176–178 |
+| Beginner / Intermediate / Advanced / Expert | Poziomy eliksirów: początkowe, średnie, zaawansowane, eksperckie | 17 |
+| Wood / Length / Core / Flex | Budowa różdżki: drewno, długość, rdzeń, giętkość (giętkość wyznacza wytrzymałość, Resilience) | 24–26 |
+| Pet | Zwierzę ucznia; pierwszoroczni tylko kot, sowa albo ropucha | 12 |
 
 ## Terminy kampanii
 
@@ -69,3 +79,5 @@ Terminy mechaniczne zostają w oryginale angielskim (Walker 2e). Ten słownik ob
 | MG | Mistrz Gry |
 | NPC | Non-Player Character, bohater niezależny prowadzony przez MG |
 | OPCM | Obrona przed Czarną Magią |
+| SUM | Standardowe Umiejętności Magiczne (O.W.L.), egzaminy po 5. roku |
+| OWUTEM | Okropnie Wyczerpujące Testy Magiczne (N.E.W.T.), egzaminy po 7. roku |

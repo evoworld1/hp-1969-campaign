@@ -8,5 +8,180 @@
 #     typ: bool          # bool | liczba | wybor
 #     wartosci: []       # tylko dla typu „wybor”
 #     sesja: s1
+#
+# Uwaga: liczniki Więź z Anselem, Zegar Północy i Rejestr Danin to kandydaci na pliki `tracker`
+# (tracker.wiez-ansel, tracker.zegar-polnocy, tracker.rejestr-danin). Powstaną po decyzji MG,
+# nie są flagami. Poniżej tylko flagi i jeden zegar świata Sesji 1 (flaga.s1-zegar-kradziezy).
 
-flagi: []
+flagi:
+  # --- Sesja 1: start i tło ---
+  - id: flaga.s1-prolog-pokatna
+    opis: "Rozegrano opcjonalny prolog na ulicy Pokątnej (scena s1.scena.11)."
+    typ: bool
+    wartosci: []
+    sesja: s1
+  - id: flaga.plotka-o-voldemorcie
+    opis: "Postacie usłyszały plotkę o kimś, kogo nazywają Voldemortem, i o jego zwolennikach zwanych śmierciożercami. Tylko plotka, bez potwierdzenia."
+    typ: bool
+    wartosci: []
+    sesja: s1
+  - id: flaga.crake-poznany
+    opis: "Postacie zamieniły kilka zdań z zegarmistrzem Hollisem Crake'iem (przelotna pogawędka)."
+    typ: bool
+    wartosci: []
+    sesja: s1
+  - id: flaga.crake-dluga-rozmowa
+    opis: "Dzięki bardzo wysokiemu wynikowi testu spostrzegawczości postać wciągnęła Crake'a w dłuższą rozmowę i zauważyła szczegół o jego córce."
+    typ: bool
+    wartosci: []
+    sesja: s1
+
+  # --- Lekcje ---
+  - id: flaga.tempus-opanowane
+    opis: "Co najmniej jedna postać umie rzucić Tempus (zależne od decyzji MG o nauce Tempus na 6. roku)."
+    typ: bool
+    wartosci: []
+    sesja: s1
+  - id: flaga.przepustka-flitwicka
+    opis: "Postacie mają podpisaną przez Flitwicka przepustkę do jednej książki w Dziale Ksiąg Zakazanych."
+    typ: bool
+    wartosci: []
+    sesja: s1
+  - id: flaga.praca-domowa-dryf
+    opis: "Flitwick zadał pracę domową: zmierzyć przesunięcie (dryf) trzech zegarów na różnych piętrach. Daje pretekst do wędrówek po zamku."
+    typ: bool
+    wartosci: []
+    sesja: s1
+  - id: flaga.sygnal-cassiana-nazwany
+    opis: "Postać zauważyła i nazwała na głos sygnał Cassiana: dotknięcie kieszonki kamizelki z zegarkiem przed nienaturalnie szybkim ruchem."
+    typ: bool
+    wartosci: []
+    sesja: s1
+  - id: flaga.wren-podejrzewa
+    opis: "Profesor Wren podzielił się z postaciami podejrzeniem wobec Cassiana (oceny skoczyły w dwa tygodnie)."
+    typ: bool
+    wartosci: []
+    sesja: s1
+
+  # --- Stracona godzina i Ansel ---
+  - id: flaga.godzina-stracona
+    opis: "Postacie straciły godzinę, której nie pamiętają; od tej chwili mogą widzieć Ansela."
+    typ: bool
+    wartosci: []
+    sesja: s1
+  - id: flaga.ansel-spotkany
+    opis: "Postacie rozmawiały z Anselem (scena s1.scena.05 albo spotkanie wyrównujące)."
+    typ: bool
+    wartosci: []
+    sesja: s1
+  - id: flaga.ansel-kontakt
+    opis: "Ile postaci graczy miało już bezpośredni kontakt z Anselem (rozmowa, nie tylko mignięcie). Przed sceną s1.scena.10 musi się równać liczbie graczy."
+    typ: liczba
+    wartosci: []
+    sesja: s1
+  - id: flaga.ansel-poza-spisem
+    opis: "Postacie wiedzą, że Ansela nie ma w żadnym spisie (rejestr Hufflepuffu, biblioteka, inni go nie widzą)."
+    typ: bool
+    wartosci: []
+    sesja: s1
+  - id: flaga.marrow-imie-znane
+    opis: "Postacie wiedzą, że profesor Marrow istniała, uczyła astronomii i odeszła wiele lat temu."
+    typ: bool
+    wartosci: []
+    sesja: s1
+
+  # --- Śledztwo ---
+  - id: flaga.przyplyw-ku-wiezy
+    opis: "Postacie ustaliły, że zegary spóźniają się tym bardziej, im bliżej Wieży Zegarowej (przypływ czasu)."
+    typ: bool
+    wartosci: []
+    sesja: s1
+  - id: flaga.slad-ukaszen
+    opis: "Postacie odkryły drugi wzór: miejsca, w których ktoś podbiera czas, układają się w trasę do lochów i przejścia Slytherinu."
+    typ: bool
+    wartosci: []
+    sesja: s1
+  - id: flaga.rejestr-godzin
+    opis: "Postacie dopasowały godziny stracone przez innych uczniów do nagłych sukcesów Cassiana."
+    typ: bool
+    wartosci: []
+    sesja: s1
+  - id: flaga.wieza-zbadana
+    opis: "Postacie były w Wieży Zegarowej i wiedzą, że sama wieża jest czysta (to nie tu leży odpowiedź)."
+    typ: bool
+    wartosci: []
+    sesja: s1
+  - id: flaga.plakietka-crake
+    opis: "Postacie znalazły w wieży plakietkę „Crake i Córka, ulica Pokątna” i świeży olej (ziarno na Sesję 2)."
+    typ: bool
+    wartosci: []
+    sesja: s1
+  - id: flaga.s1-zegar-kradziezy
+    opis: "Zegar świata Sesji 1, 0–4: ile razy Cassian podebrał czas od chwili straconej godziny, a postacie go nie powstrzymały. +1 za każde pół dnia w fikcji. Progi w graf-scen Sesji 1."
+    typ: liczba
+    wartosci: []
+    sesja: s1
+
+  # --- Cassian ---
+  - id: flaga.cassian-zdemaskowany
+    opis: "Postacie wiedzą, że Cassian kradnie czas, i powiedziały mu to w twarz."
+    typ: bool
+    wartosci: []
+    sesja: s1
+  - id: flaga.cassian-los
+    opis: "Jak Cassian wychodzi z konfrontacji w Sesji 1."
+    typ: wybor
+    wartosci: [nie-skonfrontowany, sojusznik, dluznik, rywal, ranny, uciekl, martwy]
+    sesja: s1
+  - id: flaga.zegarek-cassiana
+    opis: "Gdzie jest zatrzymany zegarek kieszonkowy Cassiana, przez który działa magia karty."
+    typ: wybor
+    wartosci: [u-cassiana, u-graczy, zniszczony, skonfiskowany]
+    sesja: s1
+  - id: flaga.karta-u-graczy
+    opis: "Postacie mają Kartę Pożyczającego, wyrwaną z dziennika Marrow."
+    typ: bool
+    wartosci: []
+    sesja: s1
+  - id: flaga.lokalizacja-pracowni
+    opis: "Postacie wiedzą, że wejście do pracowni jest w ostatnim rzędzie Działu Ksiąg Zakazanych."
+    typ: bool
+    wartosci: []
+    sesja: s1
+
+  # --- Pracownia i finał ---
+  - id: flaga.pracownia-otwarta
+    opis: "Postacie otworzyły ukryte drzwi i weszły do Sali Zatrzymanych Godzin."
+    typ: bool
+    wartosci: []
+    sesja: s1
+  - id: flaga.pozyczona-chwila-poznana
+    opis: "Postać nauczyła się ze ściany w pracowni sztuczki pożyczania chwili (mechanika kandydat: Pożyczona Chwila)."
+    typ: bool
+    wartosci: []
+    sesja: s1
+  - id: flaga.gablota-sposob
+    opis: "Jak otwarto gablotę z dziennikiem Marrow."
+    typ: wybor
+    wartosci: [oddana-godzina, podzielona-godzina, zabrana-godzina, wylamana, nieotwarta]
+    sesja: s1
+  - id: flaga.dziennik-u-graczy
+    opis: "Postacie wyniosły dziennik Marrow z pracowni."
+    typ: bool
+    wartosci: []
+    sesja: s1
+  - id: flaga.filch-zlapal
+    opis: "Filch (albo pani Pince) przyłapał postacie w nocy w bibliotece."
+    typ: bool
+    wartosci: []
+    sesja: s1
+  - id: flaga.trzynasta-wybila
+    opis: "Wszystkie zegary w zamku wybiły trzynastą, a Ansel zaczął blednąć. Crake w Londynie to usłyszał."
+    typ: bool
+    wartosci: []
+    sesja: s1
+  - id: flaga.s1-wybor
+    opis: "Co postacie postanawiają zrobić z dziennikiem i z Anselem (cliffhanger Sesji 1, ustawia Sesję 2)."
+    typ: wybor
+    wartosci: [dumbledore, sekret, moc, najpierw-chlopiec, podzieleni, nierozstrzygniety]
+    sesja: s1
