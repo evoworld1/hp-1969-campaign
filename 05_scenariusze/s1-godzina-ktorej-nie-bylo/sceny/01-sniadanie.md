@@ -188,8 +188,67 @@ Plotka o „Czarnym Panu” i „panu Notcie” to jedyny moment polityki w tej 
 
 ## Obecni
 
-<!-- Dla tworcy-npc: przy każdej osobie jedno-dwa zdania „czego chce w tej scenie” i jeden sygnał zachowania. Minimum:
-Tobias Quill (rozmówca, plotki), prof. Wren (zbiera grupę trzecią), Maisie Lock (S2), Cassian Vane (S4, rywal, lider grupy), Rosalind Teague (szept o „panu Notcie” od stołu Slytherinu), Filch (nowy woźny, przegania kogoś z sali), Hollis Crake (tylko bez prologu), Gruby Mnich (urażony plotką, kolor), Ansel (wyłącznie odbicie w szkle, bez głosu). -->
+*Przy każdej osobie: gdzie jest i co robi, czego chce w tej scenie, jeden sygnał do pokazania gestem albo głosem i krótka reakcja, gdy postacie ją zaczepią. Pełne karty są pod identyfikatorami. Nikt w tej scenie niczego nie wyjaśnia i nikt nie czeka na graczy: każdy robi swoje, nawet gdy nikt do niego nie podejdzie.*
+
+**Zawsze obecni (oba warianty)**
+
+**[[npc.tobias-quill]], szóstoroczny gaduła** (dom przypisany przez MG przed sesją: dom postaci z najmniejszą liczbą znajomych albo najbardziej nieśmiałego gracza)
+- *Co robi:* siedzi obok tej postaci, je i mówi jednocześnie, macha widelcem. Przyjmuje zakłady o knuty, „kto zobaczy ducha Puchona do piątku”.
+- *Czego chce w tej scenie:* mieć słuchaczy. Chce być pierwszym, który opowie o duchu Puchona, i znaleźć kogoś, kto postawi knuta. Przy plotce ze stołu Slytherinu chce jak najszybciej zmienić temat.
+- *Sygnał:* gdy ktoś wspomni, że ktoś „zasnął z otwartymi oczami” albo „zgubił kawałek dnia”, wyciąga notes z gumką i coś zapisuje, nie przerywając gadania. Na słowo „śmierciożercy” pierwszy mówi „bajki” i prosi o dżem.
+- *Gdy postacie go zaczepią:* zagaduje pierwszy, zadaje pytania i cieszy się z każdej odpowiedzi, nawet z „nie wiem”. Zapytany o notes: pokazuje go tylko przy prawdziwym zainteresowaniu, a w tej scenie najwyżej „to tylko głupoty, kto kiedy przysnął”. Odsunięty: gada do sąsiada, a plotka i tak dociera. W wariancie skróconym zajmuje najwyżej minutę.
+
+**[[npc.thaddeus-wren]], nowy profesor Obrony przed Czarną Magią**
+- *Co robi:* schodzi z podwyższenia, idzie wzdłuż stołów i zaczepia postacie po kolei, każdą przy jej stole domu (tekst 3). Potem wraca na swoje miejsce, skąd widzi drzwi.
+- *Czego chce w tej scenie:* jawnie: żeby grupa trzecia była dziesięć minut przed lekcją pod salą. Po cichu: zobaczyć, kto z kim siedzi, kto zerka na kogo przez salę i kto przy stole Slytherinu słucha szeptów o „panu Notcie”. Grupy mieszane to dla niego także sposób obserwacji.
+- *Sygnał:* nie odwraca głowy na prychnięcie od stołu Slytherinu. Co kilka kroków zerka na drzwi. Lewa dłoń z dwoma brakującymi palcami spoczywa na pasie.
+- *Gdy postacie go zaczepią:* odpowiada krótko jak w meldunku, zwraca się „panie…”, „panno…”. Pytania o grupy zbywa zdaniem „wojna nie pyta o dom”. Pytania o Cassiana: „Pan Vane podniósł oceny. Gratuluję mu”, i nic więcej. Na skargę o dziwny zegar: „Jeszcze nie wiem. Proszę mi powiedzieć, jeśli to się powtórzy”. Nikogo o nic nie oskarża.
+
+**[[npc.cassian-vane]], Ślizgon, lider rywalizującej grupy** (sygnał S4)
+- *Co robi:* siedzi wyprostowany przy stole Slytherinu, je mało, otwiera i zamyka zegarek. Rano, przed śniadaniem, nakręcił zegarek na dzisiejszą kradzież (prawda dla MG; scena 03 przyjdzie niezależnie od tego, co tu się stanie).
+- *Czego chce w tej scenie:* wyglądać zwyczajnie i przetrwać śniadanie bez pytań. Pod spodem: upewnić się, że zegarek „działa”, i nie myśleć o pokazie u Wrena, który musi wygrać. Nie chce rozmawiać z grupą trzecią dłużej niż jedno uprzejme zdanie.
+- *Sygnał:* srebrny zegarek ze stojącymi wskazówkami, na który i tak patrzy, jakby sprawdzał godzinę. Lewą dłoń trzyma w rękawie. Gdy Wren przechodzi obok, Cassian nie prycha razem z resztą stołu, tylko zamyka kopertę i wsuwa zegarek do kieszonki.
+- *Gdy postacie go zaczepią:* chłodna uprzejmość i drobna szpila o grupie trzeciej („nie bierzcie tego do siebie”). Pytanie o zegarek: zamyka go, zanim ktoś zdąży zajrzeć na tarczę, i ucina temat zdaniem o rodzinnej pamiątce. Szczera troska („wyglądasz, jakbyś nie spał”) trafia, ale tu kończy się tylko zawahaniem, nie zwierzeniem. Próba zabrania zegarka: rozgałęzienie `kradziez-zegarka`.
+
+**[[npc.rosalind-teague]], Ślizgonka z grupy Cassiana** (szept, tekst 5)
+- *Co robi:* siedzi na końcu stołu Slytherinu z kilkoma starszymi Ślizgonami, mówi cicho, żeby trzeba się było nachylić, i powtarza to, co słyszała w domu o „Czarnym Panu” i „panu Notcie”.
+- *Czego chce w tej scenie:* być „tą, która wie”, bo to oswaja jej strach. Kątem oka pilnuje Cassiana i martwi się jego twarzą.
+- *Sygnał:* obraca w palcach srebrną spinkę w kształcie węża, gdy szepcze o Nocie. Gdy Cassian otwiera zegarek, Rosalind na chwilę milknie i na niego patrzy.
+- *Gdy postacie ją zaczepią:* uniesiona brew, ironia, „mówię tylko, co słyszałam”. Ciekawość postaci z innego domu bawi ją, ale szczegółów przy obcych nie podaje. Pytanie o Cassiana ucina: jest zmęczony, zajmijcie się swoją grupą. Jeśli przy stole ustalono zasłonę na tematy czystości krwi, Rosalind po prostu milknie, gdy postacie podchodzą.
+
+**[[npc.argus-filch]], nowy woźny** (kolor)
+- *Co robi:* stoi w drzwiach między Wielką Salą a Salą Wejściową z zeszytem w ręku. W trakcie śniadania przegania z sali drugorocznego, który wszedł prosto z błoni w zabłoconych butach: każe mu wyjść, wytrzeć buty i zapisuje nazwisko. Wariant dla MG, który chce wzmocnić sygnał S1: przegania od wielkiego zegara ucznia, który próbował przestawić wskazówki, „żeby się zgadzał”.
+- *Czego chce w tej scenie:* żeby było widać, że jest tu kimś i pilnuje porządku. Jest nowy, uczniowie go jeszcze nie słuchają i on to wie.
+- *Sygnał:* przechodząc obok wielkiego zegara w Sali Wejściowej, stuka palcem w szybkę, jakby to pomagało. Wszystko zapisuje i sprawdza dwa razy.
+- *Gdy postacie go zaczepią:* podejrzliwość, pytanie o nazwisko i dom. Uprzejme pytanie o spóźniony zegar daje burknięcie, że „wieża się boczy, a dzwony za nią” (bez nazwiska zegarmistrza; wizyty Crake'a zostają na scenę 12). Kpina z niego zostaje zapamiętana na cały rok.
+
+**Tylko w wybranych sygnałach**
+
+**[[npc.maisie-lock]], trzecioroczna Puchonka** (sygnał S2; bez S2 siedzi w tle i nic się nie dzieje)
+- *Co robi:* siedzi przy stole Hufflepuffu w otoczeniu koleżanek, które udają, że „zasnęła z otwartymi oczami” na sprawdzianie.
+- *Czego chce w tej scenie:* żeby koleżanki przestały i żeby ktoś jej uwierzył. Na razie chce przede wszystkim przetrwać śmiech.
+- *Sygnał:* przyciska podręcznik do piersi jak tarczę. Co kilka minut zerka na zegarek na nadgarstku.
+- *Gdy postacie ją zaczepią:* przy koleżankach wstydzi się i zaprzecza albo powtarza tylko, że „tego kawałka nie ma”. Szóstoroczna postać, która stanie w jej obronie, ucisza stolik; Maisie nic nie mówi przy wszystkich, ale po dzwonku czeka chwilę przy drzwiach. Żart z niej: zamyka się na długo.
+
+**[[npc.gruby-mnich]], duch Hufflepuffu** (sygnał S3; bez S3 może przepłynąć w tle bez słowa)
+- *Co robi:* przepływa przez stół, dzbanek i czyjś talerz, mija szepczących pierwszorocznych i odpływa w ścianę.
+- *Czego chce w tej scenie:* dowiedzieć się, kto rozpuszcza bzdury o „duchu Puchona”, skoro duchem Puchonów jest on, i to od wieków. Dopytuje pierwszorocznych, co dokładnie widzieli.
+- *Sygnał:* zwykle pogodny, dziś ma obrażoną minę i nie macha do nikogo.
+- *Gdy postacie go zaczepią:* uprzejmość: rozwlekłe narzekanie, że żadnego innego ducha Puchona nie ma i nie było, a chłopca w żółtym krawacie on nie widział. Na „żółty krawat” na moment się zamyśla, ale bez imienia nic mu nie świta (wskazówka o Anselu dopiero w scenie 12, gdy postacie znają imię). Żarty z „ducha Puchona”: obraża się i odpływa przez ścianę.
+
+**[[npc.hollis-crake]], zegarmistrz z Pokątnej** (dodatek do S1; tylko bez `flaga.crake-poznany`, w przeciwnym razie nieobecny)
+- *Co robi:* stoi na drabinie przy wielkim zegarze w Sali Wejściowej, z głową w otwartej skrzynce, i reguluje mechanizm przed pierwszym dzwonem. Po śniadaniu idzie na Wieżę Zegarową (prawda dla MG: tam luzuje pieczęć, ale w tej scenie nic o tym nie mówi).
+- *Czego chce w tej scenie:* zrobić swoje szybko i porządnie, porozmawiać miło z młodymi, nie rozmawiać o wieży dłużej niż jedno zdanie.
+- *Sygnał:* mówi do zegara jak do starego psa. Spóźnienie zegara go nie dziwi, tylko martwi.
+- *Gdy postacie go zaczepią:* rozpromienia się i opowiada o zegarach. Co dalej, zależy od testu pogawędki (sekcja „Testy”). Pytania o wieżę i jej mechanizm zbywa żartem o starości. Groźba albo niegrzeczność: uprzejmie się wycofuje, „bo pan woźny czeka”, i zapamiętuje twarze.
+
+**[[npc.ansel-dray]]** (sygnał S5; wyłącznie odbicie w szkle zegara)
+- *Co robi:* stoi w szybie zegara tuż za ramieniem jednej postaci, nieruchomy, w krawacie w żółte i czarne pasy, i patrzy w jej odbicie (tekst 6). Nie ma go nigdzie poza szkłem.
+- *Czego chce w tej scenie:* nic, co da się pokazać. To nie wizyta, tylko echo w kanale Klepsydry (zegary to jej kanały). Przed straconą godziną Ansel nie mówi, nie rusza się, nie reaguje na wołanie ani dotyk szyby i nie da się go zatrzymać.
+- *Sygnał:* jedyny, jaki jest, to sam obraz: chłopiec, który się nie rusza, choć tłum za nim płynie.
+- *Gdy postacie go zaczepią:* nie da się. Odwrócenie się, wołanie i dotknięcie szyby kończą się tak, jak w tekście 6. Gracz znający Ansela z escape roomu może go rozpoznać, ale odbicie niczego nie potwierdza; rozpoznanie wraca w scenie 05. Kontakt z Anselem nie rośnie.
+
+**Tło bez kart:** prefekci sprawdzający zegarki, siódmoroczni z gazetą składaną na pół, koleżanki Maisie, szepczący pierwszoroczni, ktoś z grupy Cassiana, kto głośno prycha na Wrena. MG nadaje im głos według potrzeby; żadna z tych osób nie wie nic ważnego.
 
 ## Dialogi
 
