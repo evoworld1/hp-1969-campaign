@@ -533,7 +533,347 @@ dialog:
 
 ## Testy
 
-TODO (mechanik): `s1.scena.09.test.skradanie`, `s1.scena.09.test.drzwi`, `s1.scena.09.test.galeria-wahadel`, `s1.scena.09.test.sciana-obliczen`, `s1.scena.09.test.ksiega-porazenie`, `s1.scena.09.test.ucieczka`, `s1.scena.09.test.gablota-sila` (liczby w kartach księgi i biblioteki).
+*Terminy Walkera w tej scenie (przy pierwszym użyciu): Speed (szybkość), Stealth (skradanie), Wits (bystrość), Observation (spostrzegawczość), Balance (zręczność ciała), Focus (skupienie), Vitality (żywotność), Knowledge (wiedza), Charms (zaklęcia, „uroki”), D.A.D.A. (obrona przed czarną magią), stany ciała Shaken, Bruised, Bloodied (kolejno 1, 2, 3 kółka: wstrząśnięty, posiniaczony, zakrwawiony) i stany umysłu Rattled, Dazed, Drained (1, 2, 3 kółka: rozbity, oszołomiony, wyczerpany). Każde kółko stanu to +1 do trudności testów (Walker s. 35). Poziomy wyniku: Walker s. 3 i 4.*
+
+**Co jest rzutem, a co nie.** Obowiązkowe są tylko drzwi (W6) i gablota (W7), ale **żadne z nich nie wymaga rzutu**: drzwi otwiera każde rozsądne „trzynaście”, gablotę oddana godzina. Rzuty to cena (skradanie, galeria), pokusa (ściana), siła (księga, gablota wyłamana) i ucieczka. Gdy czas goni, pomiń galerię i ścianę jednym zdaniem (zob. „Czas i tempo”).
+
+**Szanse dla archetypów** (z `03_postacie/instrukcja-tworzenia-postaci.md`: A pojedynkowicz, B badacz, C kombinator, D opiekun), w procentach szansy na sukces, bez premii pomocników i kar stanów: *skradanie* prowadzi C ≈64%, A ≈28%, B ≈10%, D ≈6% (z Anselem i jednym pomocnikiem: C ≈85%, A ≈55%, B ≈28%, D ≈21%); *drzwi* (nasłuchiwanie) A, C, D ≈80%, B ≈90%; *galeria* bez śladów A ≈90%, C ≈80%, D ≈40%, B ≈20% (z premią za ślady: A i C pewnie, D ≈60%, B ≈40%); *ściana obliczeń* A i B ≈60%, C ≈50%, D ≈40%; *ucieczka* bez pomocy A ≈60%, C ≈50%, D ≈10%, B 0% (z dwoma pomocnikami i światłem, +3: A ≈90%, C ≈80%, D ≈40%, B ≈20%). Wniosek dla MG: **w skradaniu i ucieczce niech prowadzi ten, kto ma najwyższe Speed i Stealth albo Balance**; reszta pomaga (+1 za osobę). Przy trzech graczach grupa zwykle ma kogoś w roli prowadzącego.
+
+**Filch w liczbach (założenie robocze; karta Filcha ma puste `wartosci`).** W teście przeciwnym Filch rzuca `1D10 + 9` (Wits 4 + Observation 5). Nie rzuca w ciemno: pokazuj to graczom jako „jego latarnia”, nie liczby.
+
+**Licznik hałasu (założenie robocze, zamiast Zegara Północy).** Na kartce prowadzisz kreski. +1 za każdą porażkę w galerii z ceną „hałas”, +1 za każdą porażkę w teście porażenia księgi, +2 za wyłamanie gabloty, +1 za samo bicie trzynastu uderzeń. Przy **2 kreskach** Filch zaczyna nasłuchiwać pod biblioteką i wyjście z Działu Ksiąg Zakazanych wymaga testu `wyjscie-przed-filchem`. Gracze nie widzą licznika; zauważają tylko, że „na górze coś brzęknęło”. Każda porażka dodaje też jeden ślad dla pani Pince (zapisz go, zob. „Ślady dla pani Pince rano”).
+
+**Story Points i RETRORSUM.** Po nieudanym rzucie gracz może wydać Story Point na dorzut 1D10 (s. 4; najwyżej jeden dorzut do rzutu). RETRORSUM ([[zasada.nagrody-z-teaserow]]) cofa najwyżej ostatni test ucieczki albo złapanie przez Filcha; nie cofa oddanej godziny ani porażenia z poziomu 3 (tego nie da się „odtykać”).
+
+### Nocna wyprawa: skradanie (krok 2)
+
+Jeden test przeciwny na całą drogę z dormitorium do biblioteki. Prowadzi najlepszy w Stealth, reszta idzie jego śladem. Filch chodzi zawsze tą samą trasą (jego sygnał z „Obecnych”): kto to zauważy, może go przeczekać. Ansel jest wiernym zwiadowcą, bo woźny go nie widzi.
+
+```yaml
+test:
+  id: s1.scena.09.test.skradanie
+  opis: "Grupa idzie nocą do biblioteki, a latarnia Filcha obchodzi korytarze. Prowadzi jedna postać (najlepsza w skradaniu), pozostałe idą za nią. Test przeciwny: Speed + Stealth przeciw Wits + Observation woźnego. Przegrana to złapanie (siatka bezpieczeństwa 9), ale nie koniec wyprawy."
+  kto: grupa
+  rzut: "1D10 + Speed + Stealth"
+  trudnosc: "przeciwny: 1D10 + Wits + Observation (npc.argus-filch; założenie: 1D10 + 9)"
+  modyfikatory:
+    - warunek: "Każda inna postać, która idzie za prowadzącą i pomaga (Working Together, s. 4)"
+      wartosc: "+1 do rzutu"
+    - warunek: "Ansel idzie przodem i melduje, gdzie jest latarnia (ma kontakt z drużyną; woźny go nie widzi)"
+      wartosc: "+2 do rzutu"
+    - warunek: "Gracze zauważyli stałą trasę Filcha i przeczekują latarnię za rogiem"
+      wartosc: "+2 do rzutu"
+    - warunek: "Ktoś świeci światłem różdżki w korytarzu"
+      wartosc: "+2 do trudności"
+    - warunek: "Stan umysłu albo ciała prowadzącej (Rattled +1, Dazed +2, Drained +3; s. 35)"
+      wartosc: "+1 do trudności"
+  wyniki:
+    - wynik: wygrana
+      efekt: "Przechodzą cicho. Jedno zdanie opisu: latarnia mija róg, klucze brzęczą daleko. Bez śladu."
+      flagi_ustaw: []
+    - wynik: remis
+      efekt: "Filch staje, stuka w szybkę najbliższego zegara i nasłuchuje. Gracze mają chwilę na decyzję (cisza, cofnięcie się, odwrócenie uwagi); Narrator rozstrzyga w ich stronę, jeśli ruch jest rozsądny. Jeden ślad dla pani Pince."
+      flagi_ustaw: []
+    - wynik: przegrana
+      efekt: "Latarnia łapie prowadzącą (dialog filch-obchod). Reszta chowa się za zbroją albo gobelinem i może odciągnąć Filcha (rozgałęzienie awaryjne-filch-w-drodze). Gdy prowadząca przegrała o 5 lub więcej (albo gdy wszyscy dali się złapać): złapani są wszyscy, szlaban, zegar kradzieży +1 (jeśli biegnie). Po północy Ansel budzi postać z najwyższą Więzią i druga próba idzie bez rzutu, z mniejszą ilością czasu. Dorzut Story Point wolno."
+      flagi_ustaw: [flaga.filch-zlapal, flaga.s1-zegar-kradziezy]
+```
+
+### Wyjście przed Filchem (krok 7 albo po hałasie)
+
+Gdy licznik hałasu doszedł do 2 albo bije trzynaście uderzeń, Filch staje w drzwiach biblioteki (dialog filch-obchod: „Kto tam stuka?”). To ten sam test co przy skradaniu, tylko trudniejszy, bo słychać hałas.
+
+```yaml
+test:
+  id: s1.scena.09.test.wyjscie-przed-filchem
+  opis: "Postacie wychodzą z Działu Ksiąg Zakazanych, a Filch stoi w drzwiach biblioteki i nasłuchuje. Przeciwny test skradania, jak przy drodze tam, z karą za hałas. Siatka bezpieczeństwa 9 po drugiej stronie nocy."
+  kto: grupa
+  rzut: "1D10 + Speed + Stealth"
+  trudnosc: "przeciwny: 1D10 + Wits + Observation (npc.argus-filch; założenie: 1D10 + 9)"
+  modyfikatory:
+    - warunek: "Każda inna postać, która pomaga prowadzącej (Working Together, s. 4)"
+      wartosc: "+1 do rzutu"
+    - warunek: "Ansel wychodzi pierwszy i melduje, gdzie stoi woźny"
+      wartosc: "+2 do rzutu"
+    - warunek: "Hałas (licznik 2 lub więcej, albo ucieczka przed trzynastym uderzeniem)"
+      wartosc: "+2 do trudności"
+    - warunek: "Stan umysłu albo ciała prowadzącej (s. 35)"
+      wartosc: "+1 do trudności"
+  wyniki:
+    - wynik: wygrana
+      efekt: "Wymykają się bokiem, za regałami, a Filch po chwili odchodzi mruczeniem. Rano znajdzie ślady (wraca z panią Pince)."
+      flagi_ustaw: []
+    - wynik: remis
+      efekt: "Filch chwilę stoi i słucha, potem odchodzi niezadowolony. Postacie czekają bez ruchu; scena idzie dalej, jeden ślad więcej dla pani Pince."
+      flagi_ustaw: []
+    - wynik: przegrana
+      efekt: "Latarnia łapie tych, którzy wyszli pierwsi: szlaban, spisane nazwiska, odprowadzenie do dormitoriów. Przedmioty z pracowni zostają przy postaciach (Filch ich nie przeszukuje, chyba że MG zdecyduje inaczej w scenie 10). Zegar kradzieży +1, jeśli złapani zostali wszyscy."
+      flagi_ustaw: [flaga.filch-zlapal, flaga.s1-zegar-kradziezy]
+```
+
+### Drzwi (krok 3)
+
+Drzwi nie są rzutem. Ten test służy tylko do **znalezienia** odpowiedzi, gdy gracze utkną; zdają go też łatwo, bo odpowiedź i tak leży na stole (Ansel, margines karty, Tempus).
+
+```yaml
+test:
+  id: s1.scena.09.test.drzwi
+  opis: "Opcjonalne nasłuchiwanie przy ścianie ostatniego rzędu, gdy gracze nie wiedzą, co zrobić. Nie otwiera drzwi: daje wskazówkę, że za kamieniem coś bije trzynaście razy. Same drzwi otwiera każde rozsądne „trzynaście” (zob. „Jak otworzyć drzwi”)."
+  kto: jeden
+  rzut: "1D10 + Wits + Observation"
+  trudnosc: "Tricky (12)"
+  modyfikatory:
+    - warunek: "Postać przyłożyła ucho do ściany i milczy cała drużyna (cisza)"
+      wartosc: "+2 do rzutu"
+    - warunek: "Postać ma opanowane Tempus (wszystkie kratki; ZD-21) i kieruje dym przy ścianie: pokazuje trzynaście kresek (ZD-24: nie ujawnia mechanizmu)"
+      wartosc: "bez rzutu"
+    - warunek: "Karta Pożyczającego z marginesem „XIII” przyłożona do ściany albo słowa Ansela („trzynaście razy”)"
+      wartosc: "bez rzutu"
+  wyniki:
+    - wynik: porazka
+      efekt: "Nic nie słychać oprócz własnego oddechu. Bez ceny: po kilku minutach MG daje szturchnięcie z drabinki podpowiedzi albo Ansel wraca ze ściany."
+      flagi_ustaw: []
+    - wynik: sukces
+      efekt: "Zza kamienia dobiega daleki rytm: tyk, tyk, tyk, i tak trzynaście razy, potem cisza. Gracze wiedzą, że „trzynaście” to klucz. Zapowiedź tekstu 3."
+      flagi_ustaw: []
+    - wynik: sukces-imponujacy
+      efekt: "Jak sukces, a do tego słychać, że trzynaste tyknięcie jest inne od pozostałych (głębsze, jakby ktoś zapukał od środka). Kto odpowie na nie jednym stuknięciem, ma od razu przejście: drzwi otwierają się bez żadnego innego trzynastu."
+      flagi_ustaw: []
+```
+
+### Galeria wahadeł (krok 4)
+
+Cena, nie bramka: przejście jest zawsze. Na posadzce są ślady dawnej drogi (zygzak: krótki krok, długi, krótki), a Ansel pokazuje, jak chodziła pani profesor. Kto idzie po śladach, ma premię. Powrót przez galerię jest bez testu, **chyba że księga doszła do poziomu 2** (wahadła kołyszą się wtedy szerzej i głośniej): wtedy rzuć jeszcze raz z karą niżej. Poziom 3 to ucieczka (wahadła tną).
+
+```yaml
+test:
+  id: s1.scena.09.test.galeria-wahadel
+  opis: "Grupa przechodzi galerię wahadeł: jedna postać prowadzi i rzuca, pozostałe idą jej śladem. Cena, nie bramka: przejście jest zawsze, rozstrzyga się tylko, ile to kosztuje."
+  kto: grupa
+  rzut: "1D10 + Speed + Balance"
+  trudnosc: "Tricky (12)"
+  modyfikatory:
+    - warunek: "Idą po śladach z kurzu (krótki krok, długi sus, krótki) albo Ansel pokazuje rytm pani profesor"
+      wartosc: "+2 do rzutu"
+    - warunek: "Każda inna postać, która pomaga prowadzącej (Working Together, s. 4)"
+      wartosc: "+1 do rzutu"
+    - warunek: "Ktoś liczy rytm wahadeł na głos (raz na test)"
+      wartosc: "+1 do rzutu"
+    - warunek: "Ponowne przejście przy poziomie zabezpieczeń księgi 2 (wahadła szerzej i głośniej)"
+      wartosc: "+3 do trudności"
+    - warunek: "Stan ciała prowadzącej (Shaken +1, Bruised +2, Bloodied +3; s. 35)"
+      wartosc: "+1 do trudności"
+  wyniki:
+    - wynik: porazka
+      efekt: "MG wybiera jedną cenę (może oddać wybór graczom): hałas (licznik hałasu +1, ślad dla pani Pince); albo stracone minuty (przy wyjściu Filch jest bliżej: test wyjscie-przed-filchem z +1 do trudności więcej); albo zadrapanie dla jednej postaci: obrażenia 2D przeciw 1D10 + Vitality (rana nie przekracza Shaken, mija po kilku minutach). Przejście dalej jest otwarte."
+      flagi_ustaw: []
+    - wynik: sukces
+      efekt: "Przechodzą w rytmie wahadeł, cicho i bez strat."
+      flagi_ustaw: []
+    - wynik: sukces-imponujacy
+      efekt: "Jak sukces, a do tego grupa łapie rytm tak dobrze, że przy ucieczce (jeśli będzie) na odcinku galerii ma +1 do rzutu."
+      flagi_ustaw: []
+```
+
+### Ściana obliczeń (krok 5, opcjonalna pokusa)
+
+Ściana jest pokusą, nie bramką. Podpis „I. Marrow” i inicjały „S.W.” (`flaga.wymark-slad`) pokazujesz każdemu, kto podejdzie i będzie czytał: **bez rzutu**. Rzut dotyczy tylko zakazanej lekcji pożyczania chwili. To liczby z oceny mechanik fabularnych (`02_zasady/mechaniki-fabularne.md`), którą MG jeszcze zatwierdza; w Sesji 1 daje tylko wiedzę, bez użycia. Ansel ostrzega cicho („potem była bardzo zmęczona”).
+
+```yaml
+test:
+  id: s1.scena.09.test.sciana-obliczen
+  opis: "Postać czyta zakazaną lekcję pożyczania chwili ze ściany obliczeń. To wiedza, nie zaklęcie z kratkami (nie wpisujemy jej do arkusza). Rzut jak przy rzucaniu zaklęcia: skupienie i zaklęcia. W Sesji 1 nic z tego nie można użyć."
+  kto: jeden
+  rzut: "1D10 + Focus + Charms"
+  trudnosc: "Challenging (15)"
+  modyfikatory:
+    - warunek: "Karta Pożyczającego przyłożona do ściany („XIII” pasuje do kredowych tarcz)"
+      wartosc: "+2 do rzutu"
+    - warunek: "Postać zna Arithmancy (wartość 3 lub więcej)"
+      wartosc: "+1 do rzutu"
+    - warunek: "Stan umysłu postaci (Rattled +1, Dazed +2, Drained +3; s. 35)"
+      wartosc: "+1 do trudności"
+  wyniki:
+    - wynik: porazka-kompromitujaca
+      efekt: "Kreda na ścianie robi się ciepła, a postać czuje, jak coś jej ucieka. Traci godzinę: stan Drained (+3 do trudności) do pierwszego posiłku po nocy. Bez rzutu obronnego."
+      flagi_ustaw: []
+    - wynik: porazka
+      efekt: "Diagramy nie składają się w sens. Postać jest pewna, że to coś ważnego, ale nic z tego nie pamięta. Bez ceny mechanicznej; jeden ślad (kreda na rękawie) dla pani Pince."
+      flagi_ustaw: []
+    - wynik: sukces
+      efekt: "Postać zna Pożyczoną Chwilę (sztuczkę przeniesienia godziny; działa dopiero z zatrzymanym zegarem, w Sesji 1 nie da się jej użyć)."
+      flagi_ustaw: [flaga.pozyczona-chwila-poznana]
+    - wynik: sukces-imponujacy
+      efekt: "Jak sukces, a do tego rozumie zasadę „co dane, można zatrzymać; co zabrane, trzeba zwrócić”. Mechanicznie: przy oddawaniu godziny gablocie ta postać ma koszt o jedno kółko mniejszy (najmniej Rattled)."
+      flagi_ustaw: [flaga.pozyczona-chwila-poznana]
+```
+
+### Zaklęta księga: porażenie (krok 6, poziom 2)
+
+Poziom 1 to bez rzutu: mrowienie do łokcia, zegary tykają raz, `flaga.ksiega-zabezpieczenia` = 1. Poziom 2 to test niżej; liczby z karty [[przedmiot.zakleta-ksiega]]. Przy poziomie 2 wahadła w galerii **kołyszą się szerzej i głośniej** (nie „same zaczynają”), poziom 3 tnie. Poziom 2 nigdy nie przekracza Bruised.
+
+```yaml
+test:
+  id: s1.scena.09.test.ksiega-porazenie
+  opis: "Poziom 2 zabezpieczeń: postać dotyka księgi (ręką, różdżką, zaklęciem przyciągającym, próbą przewrócenia strony). Rzut odporności na porażenie. Obrażenia: 2D przy pierwszym dotknięciu na poziomie 2, 3D przy drugim, 4D przy każdym następnym."
+  kto: jeden
+  rzut: "1D10 + Vitality"
+  trudnosc: "obrażenia: 2D przy pierwszym dotknięciu na poziomie 2, 3D przy drugim, 4D przy każdym następnym"
+  modyfikatory:
+    - warunek: "Postać dotyka przez rękawicę, szatę albo przedmiot (nie różdżką)"
+      wartosc: "+2 do rzutu"
+  wyniki:
+    - wynik: sukces
+      efekt: "Rzut odporności jest wyższy od obrażeń: brak rany. Odrzut o krok, łuna ciemnieje, wahadła w galerii kołyszą się szerzej i głośniej (następne przejście przez galerię: kara z testu galerii)."
+      flagi_ustaw: [flaga.ksiega-zabezpieczenia]
+    - wynik: porazka
+      efekt: "Obrażenia równe rzutowi albo wyższe: 1 kółko (Shaken, +1 do trudności, mija po kilku sekundach). Odrzut o metr, różdżka wylatuje z dłoni (podniesienie to akcja darmowa, s. 33). Licznik hałasu +1."
+      flagi_ustaw: [flaga.ksiega-zabezpieczenia]
+    - wynik: porazka-kompromitujaca
+      efekt: "Obrażenia co najmniej dwa razy wyższe od rzutu: 2 kółka (Bruised, +2 do trudności, mija po kilku minutach) i test 1D10 + Vitality przeciw 5 (3 + obecna kara, ZD-10), by nie stracić przytomności; nieprzytomny budzi się po Rennervate albo po kilku minutach (ZD-14). Licznik hałasu +1."
+      flagi_ustaw: [flaga.ksiega-zabezpieczenia]
+```
+
+**Karta przyłożona do paska** to nie dotknięcie i nie jest rzutem: łuna jaśnieje, karta robi się ciepła, bez zmiany poziomu (karta księgi). **Próba wyrwania kartki albo zabrania księgi** (poziom 3) to też bez rzutu: róg kartki zostaje w dłoni, `flaga.ksiega-zabezpieczenia` = 3, zaczyna się ucieczka. Pamiętaj o ostrzeżeniu poza fikcją z kroku 6.
+
+### Ucieczka (krok 7, poziom 3)
+
+Licznik uderzeń prowadzisz na kartce albo kośćmi na stole. Start: 1 (pierwsze uderzenie). Trzy odcinki (sala, galeria, schody), każdy to jeden test grupowy i +3 do licznika. Bez porażek grupa wychodzi przy 10, z jedną porażką z ceną „uderzenia” przy 12; przy 13 przed ukończeniem trzeciego odcinka każda postać w środku robi **ostatni skok**. Liczby z karty księgi; uwaga: ucieczka z Dazed albo Drained (po oddaniu godziny) jest trudniejsza (kara +2 albo +3 dla prowadzącej).
+
+```yaml
+test:
+  id: s1.scena.09.test.ucieczka
+  opis: "Pełne zabezpieczenia (poziom 3). Jeden test grupowy na każdy z trzech odcinków: sala, galeria wahadeł (teraz tną), tykające schody (stopnie zapadają się od dołu). Ten sam rzut na każdym odcinku. Każdy odcinek dodaje +3 do licznika uderzeń (start: 1; sukces imponujący: +2). Przy 13 przed końcem trzeciego odcinka: ostatni skok."
+  kto: grupa
+  rzut: "1D10 + Speed + Balance"
+  trudnosc: "Challenging (15)"
+  modyfikatory:
+    - warunek: "Każda inna postać, która pomaga prowadzącej (Working Together, s. 4)"
+      wartosc: "+1 do rzutu"
+    - warunek: "Ktoś oświetla drogę albo na galerii liczy rytm wahadeł na głos (raz na odcinek)"
+      wartosc: "+1 do rzutu"
+    - warunek: "Sukces imponujący w teście galerii wahadeł (łapią rytm), tylko odcinek galerii"
+      wartosc: "+1 do rzutu"
+    - warunek: "Rany i stany prowadzącej (s. 35), np. Shaken po porażeniu albo Dazed po oddaniu godziny"
+      wartosc: "+1 do trudności"
+  wyniki:
+    - wynik: sukces-imponujacy
+      efekt: "Odcinek dodaje tylko 2 uderzenia zamiast 3."
+      flagi_ustaw: []
+    - wynik: sukces
+      efekt: "Odcinek bez strat (+3 uderzenia). Po trzecim odcinku drzwi w bibliotece zatrzaskują się za nimi, bicie milknie. Licznik hałasu +1 za całe bicie; sprawdź test wyjscie-przed-filchem."
+      flagi_ustaw: []
+    - wynik: porazka
+      efekt: "+3 uderzenia i jedna cena (MG wybiera albo oddaje wybór graczom): +2 uderzenia; albo obrażenia 2D dla jednej postaci (wahadło, spadający zegar, zapadający się stopień) przeciw 1D10 + Vitality; albo upuszczona rzecz (różdżka zostaje w sali do końca sceny, notatnik zostaje w środku, karta upada na posadzkę). Droga dalej jest otwarta."
+      flagi_ustaw: []
+    - wynik: porazka-kompromitujaca
+      efekt: "+3 uderzenia i dwie różne ceny z listy przy porażce (MG wybiera)."
+      flagi_ustaw: []
+```
+
+```yaml
+test:
+  id: s1.scena.09.test.ostatni-skok
+  opis: "Licznik doszedł do 13, a grupa nie skończyła trzeciego odcinka. Schody się zamykają. Każda postać, która jest jeszcze w środku, rzuca osobno (jak w pościgu pieszym, s. 37). Kolejność dowolna; kto zdążył, podaje rękę następnym."
+  kto: kazdy
+  rzut: "1D10 + Vitality + Speed"
+  trudnosc: "Tricky (12)"
+  modyfikatory:
+    - warunek: "Każda postać, która już zdała ostatni skok i podaje rękę (Working Together, s. 4)"
+      wartosc: "+1 do rzutu"
+    - warunek: "Rany i stany skaczącej postaci (s. 35)"
+      wartosc: "+1 do trudności"
+  wyniki:
+    - wynik: sukces
+      efekt: "Postać przeciska się przez zamykające się drzwi w ostatniej chwili, z naderwaną szatą."
+      flagi_ustaw: []
+    - wynik: porazka
+      efekt: "Drzwi zamykają się przed nią: siatka bezpieczeństwa 8 (test zlapani niżej). Przed ogłoszeniem skutku gracz może jeszcze wydać Story Point (dorzut 1D10, s. 4) albo użyć RETRORSUM."
+      flagi_ustaw: [flaga.ksiega-zlapani]
+```
+
+```yaml
+test:
+  id: s1.scena.09.test.zlapani
+  opis: "Siatka bezpieczeństwa 8: postać nie zdążyła przed trzynastym uderzeniem. Bez rzutu: skutek stały, żeby porażka kosztowała, ale nie zatrzymywała gry. Pracownia wypluwa ją w ostatnim rzędzie."
+  kto: jeden
+  rzut: "bez rzutu"
+  trudnosc: "brak"
+  modyfikatory: []
+  wyniki:
+    - wynik: zawsze
+      efekt: "Ciało: Bloodied (3 kółka, +3 do trudności; jeśli ma gorszy stan, zostaje gorszy). Umysł: Dazed (+2) do końca sceny przebudzenia. Pamięć: brak ostatnich minut w pracowni (skutek magii pracowni, nie Obliviate; bez rzutu obronnego). Skrzydło szpitalne do rana: pani Pomfrey zdejmuje kółka (Vulnera Sanentur, s. 59); do końca Sesji 1 zostaje Shaken (+1). Cena: Filch ją znajduje, zegar kradzieży +1 (jeśli biegnie), pytania nauczycieli. Informacja nie ginie: inni pamiętają, Ansel, rzecz w dłoni. Śmierć tylko po dwóch ostrzeżeniach i świadomym wyborze gracza (karta księgi)."
+      flagi_ustaw: [flaga.ksiega-zlapani, flaga.filch-zlapal, flaga.s1-zegar-kradziezy]
+```
+
+### Gablota: oddanie godziny (krok 8)
+
+Oddanie godziny to **dar, nie koszt do wykupienia**, dlatego jest lżejsze niż godzina zabrana (scena 03: Drained, +3). Godzina to 60 minut. Cena w stanie umysłu zależy od tego, na ile osób ją podzielono: **jedna osoba (60 minut): Dazed (+2); dwie (po 30): Rattled (+1); trzy lub więcej (po 20 albo mniej): Rattled (+1)**. Stan trwa do pierwszego posiłku po nocy, nie zdejmuje go ani Story Point, ani RETRORSUM (nie ma rzutu). To oznacza, że kara dotyczy też sceny 10; MG może ją skrócić do końca sceny 09, jeśli scena 10 ma rzuty. Ansel nie może oddać godziny (nie ma własnego czasu). Nie stawiaj graczom wyboru „kto się poświęci”: pokaż, że dzielenie jest tańsze.
+
+```yaml
+test:
+  id: s1.scena.09.test.gablota-oddanie
+  opis: "Postać (albo kilka postaci razem) kładzie dłoń na szkle albo ramie gabloty i oddaje godzinę z zamiarem wypowiedzianym przez gracza. Efekt stały, bez rzutu; ustala sposób i koszt. Zwykły przedmiot (moneta, cukierek, pióro) nie otwiera gabloty: szkło ciepleje, jeden zegar tyka raz."
+  kto: grupa
+  rzut: "bez rzutu"
+  trudnosc: "brak"
+  modyfikatory:
+    - warunek: "Postać zrozumiała zasadę ze ściany obliczeń (sukces imponujący)"
+      wartosc: "bez rzutu: koszt o jedno kółko mniejszy (najmniej Rattled)"
+  wyniki:
+    - wynik: zawsze
+      efekt: "Gablota otwiera się czysto. Koszt na każdą oddającą: jedna osoba Dazed (+2); dwie lub więcej Rattled (+1), do pierwszego posiłku po nocy. Wartość flagi: oddana-godzina (jedna osoba) albo podzielona-godzina (kilka). Tekst 9, wariant A. Pierwsza strona notatnika czytelna; Ansel: „Tak samo jak u pani profesor”."
+      flagi_ustaw: [flaga.gablota-sposob]
+```
+
+### Gablota: godzina zabrana (krok 8, wariant B)
+
+Postacie mają Kartę Pożyczającego i zegarek Cassiana. Gablota przyjmuje i to, ale koszt płaci ktoś nieobecny. Postacie nie tracą nic mechanicznie, za to zegary milczą (tekst 9B). Ofiarę ustala MG (założenie: ktoś bliski postaciom albo Cassian); rano ma Drained do obiadu, bez wyjaśnienia (wpis na kartce MG; kandydat: Rejestr Danin).
+
+```yaml
+test:
+  id: s1.scena.09.test.gablota-zabrana
+  opis: "Postacie podają gablocie godzinę zabraną komuś innemu (karta i zegarek Cassiana). Bez rzutu. Gablota przyjmuje, ale rachunek spada na ofiarę."
+  kto: grupa
+  rzut: "bez rzutu"
+  trudnosc: "brak"
+  modyfikatory: []
+  wyniki:
+    - wynik: zawsze
+      efekt: "Gablota otwiera się, żaden zegar w sali nie tyka. Postacie bez kosztu w liczbach. MG zapisuje ofiarę, która rano ma stan Drained (+3) do obiadu, bez wyjaśnienia dla graczy. Wartość flagi: zabrana-godzina. Pierwszy krok ku zakończeniu „moc”; nie moralizuj."
+      flagi_ustaw: [flaga.gablota-sposob]
+```
+
+### Gablota: siłowe otwarcie (krok 8)
+
+Gablota ma własną cenę i **nie budzi zabezpieczeń księgi**. Działa tylko zaklęcie rozbijające (np. Reducto, start 15, D.A.D.A. według ZD-17; Bombarda, start 12, jeśli postać ją ma); cios ciężkim przedmiotem nie działa (szkło tylko matowieje i robi się zimne). Zaklęcia ujawniające i Accio nic nie dają (ZD-24, zasada „zabrania”).
+
+```yaml
+test:
+  id: s1.scena.09.test.gablota-sila
+  opis: "Postać rozbija szkło gabloty zaklęciem (Reducto albo Bombarda). Działa, ale z ceną: huk i rozmyte kartki notatnika. Nie budzi zabezpieczeń księgi."
+  kto: jeden
+  rzut: "1D10 + Focus + D.A.D.A. (zaklęcie: Reducto)"
+  trudnosc: "aktualna trudność: Reducto (start 15)"
+  modyfikatory:
+    - warunek: "Postać rzuca Bombardę zamiast Reducto (Focus + Charms; aktualna trudność: Bombarda, start 12)"
+      wartosc: "-3 do trudności"
+    - warunek: "Stan umysłu albo ciała rzucającej (s. 35), np. Dazed po oddaniu godziny"
+      wartosc: "+1 do trudności"
+  wyniki:
+    - wynik: porazka-kompromitujaca
+      efekt: "Spell fumble: zaklęcie odbija się od szkła, które pokrywa szron. Rzucający: obrażenia 2D przeciw 1D10 + Vitality (rana nie przekracza Shaken). Huk w całej sali: licznik hałasu +2. Gablota dalej zamknięta; można oddać godzinę."
+      flagi_ustaw: []
+    - wynik: porazka
+      efekt: "Spell near miss: szkło pęka pajęczyną, ale nie wypuszcza notatnika. Licznik hałasu +1, ślad dla pani Pince (odłamek). Można spróbować jeszcze raz albo oddać godzinę."
+      flagi_ustaw: []
+    - wynik: sukces
+      efekt: "Szkło pęka z hukiem (tekst 11). Licznik hałasu +2, ślad (odłamek szkła). Pierwsza strona czytelna, kolejne rozmyte (cena stała). Wartość flagi: wylamana."
+      flagi_ustaw: [flaga.gablota-sposob]
+    - wynik: sukces-imponujacy
+      efekt: "Jak sukces, a do tego fala siły jest tak równa, że szkło siada na aksamit płatami, bez huku (licznik hałasu +1 zamiast +2) i tylko ostatnie strony notatnika są rozmyte. Wartość flagi: wylamana."
+      flagi_ustaw: [flaga.gablota-sposob]
+```
 
 ## Rozgałęzienia
 
