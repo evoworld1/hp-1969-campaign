@@ -10,7 +10,8 @@ rocznik_1969: "dorosły (ok. 60 lat)"
 kanon: false
 pewnosc: nasze
 # Pogawędka ruchoma: s1.scena.11 (witryna) albo s1.scena.01 (drabina) albo s1.scena.07 (schodzi z wieży); epilog w s1.scena.10
-sceny: []
+# Pliki scen 07, 10 i 11 jeszcze nie istnieją; dopisać je tu, gdy powstaną.
+sceny: [s1.scena.01]
 tylko_mg: true
 tagi: [s1, s2, crake, pokatna, zegarmistrz, lustro-graczy]
 zrodla:

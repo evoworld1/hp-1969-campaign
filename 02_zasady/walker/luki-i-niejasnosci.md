@@ -5,10 +5,10 @@ tytul: "Luki, niejasności i sprzeczności szkicu Walker 2e (2026-04) z propozyc
 status: recenzja
 kategoria: rdzen
 pochodzenie: walker
-strony: "Walker 2e s. 3-4, 6, 16-18, 20, 22, 24, 28-32, 33-36, 39-41, 50-61, 81, 165-168, 176-178"
+strony: "Walker 2e s. 3-4, 6, 16-20, 22, 24, 28-32, 33-36, 39-41, 47, 50-61, 71-72, 81, 165-168, 176-178"
 tagi: [luki, niejasnosci, sprzecznosci, propozycje-zasad-domowych, erraty]
 zrodla: ["Walker 2e, szkic 2026-04 (EN)"]
-aktualizacja: 2026-11-18
+aktualizacja: 2026-11-20
 ---
 ## Streszczenie
 
@@ -67,9 +67,34 @@ Rejestr problemów znalezionych przy streszczaniu szkicu. Każda pozycja ma nume
 | D8 | Brak nazwanego progu trudności między 6 a 12 | 3, 40 | **ZD-23**: używać liczby `9` bez nazwy (bez zmian w skali) |
 | D9 | Zaklęcia znane z kanonu jako wynalazki Snape'a z lat 70. (Levicorpus, Liberacorpus, Sectumsempra, Muffliato) są w podręczniku dostępne | 18, 53–54, 57 | decyzja kanonu: w 1969 nieznane (do weryfikacji przez strażnika kanonu) |
 | D10 | Postacie z podręcznika mają więcej punktów niż zasady tworzenia | 16, 104 | dla NPC-uczniów używać tabeli poziomów (s. 102), nie przykładów książkowych |
+| D11 | Brak zasad wykrywania magii czasu zaklęciami ujawniającymi | 30, 47, 52, 56–58, 71–72 | **ZD-24** (przyjęta przez MG 2026-11-20): nie wykrywają; szczegóły w części F |
 
 ### E. Błędy redakcyjne bez wpływu na zasady
 Odesłania „page @@” (s. 30, 38, 42, 58), „Working Together on page 6” (s. 31; jest na s. 4), „see page 30” przy strachu (s. 89; powinno być 36), „page 34” przy Reducto (s. 56; powinno być 42), „page 49” przy jakości eliksiru (s. 60; powinno być 61), literówki nazw zaklęć (s. 18, 30). Dla Muggle-born tabela pochodzenia daje tylko 5% (s. 6).
+
+### F. Zasady kampanii przyjęte przez MG (uzupełniają luki podręcznika)
+
+#### ZD-24. Zaklęcia ujawniające nie wykrywają magii czasu (przyjęta: decyzja MG 2026-11-20, cała kampania)
+
+**Luka w podręczniku.** Walker nie mówi, co pokazują zaklęcia ujawniające rzucone na przedmiot z właściwością Time twisting (zmienianie biegu czasu, s. 71–72) ani na skutki takiej magii. Brak w podręczniku. Bez tej zasady jeden udany Specialis Revelio na zegarek Cassiana rozwiązałby pół śledztwa w scenie 01 albo 02.
+
+**Co zmienia względem Walkera.** Zaklęcia z grupy Revealing Magic (magia ujawniająca, s. 30) działają normalnie na zwykłą magię, ale **magii czasu i jej śladów nie widzą**. Rzut wykonuje się zwykle (kratki, trudność, premia różdżki za Revealing Magic, s. 27–30, 40–41); udany rzut daje taki obraz, jakby magii czasu w ogóle nie było. Najwyżej zostaje drobny ślad fizyczny, który nie jest wynikiem zaklęcia i nie jest dowodem (np. szkło zegarka dziwnie zimne pod palcem, choć koperta jest ciepła).
+
+**Przykłady z podręcznika (strony Walker 2e):**
+
+| Zaklęcie | Co robi według Walkera | Co pokazuje w kampanii |
+|---|---|---|
+| Specialis Revelio (s. 58) | ujawnia obecność i rodzaj zaklęć na przedmiocie lub eliksirze | na zegarku Cassiana, Karcie Pożyczającego albo zatrzymanych zegarach: nic; zwykła rzecz, ewentualnie zepsuta |
+| Revelio (s. 57) | ujawnia ukryte przedmioty, niewidzialne wiadomości, ukryte przejścia i prawdziwy wygląd przebranej osoby | nie odsłania śladów straconej godziny ani niczego, co ukrywa magia czasu; zwykłe kryjówki odsłania normalnie |
+| Homenum Revelio (s. 52) | wykrywa ukrytych ludzi, także pod niewidzialnością | nie wykrywa Ansela (jego istnienie trzyma magia czasu; zob. karta [[npc.ansel-dray]]); zwykłych ukrytych ludzi wykrywa |
+| Aparecium (s. 47) | ujawnia niewidzialny atrament i wiadomości ukryte zaklęciem | zwykły niewidzialny atrament: tak; zapis ukryty magią czasu: nie |
+| Prior Incantato (s. 56) | pokazuje echo ostatniego zaklęcia różdżki | zwykłe zaklęcia pokazuje normalnie; w miejscu zaklęcia czasu (np. RETRORSUM) tylko mgiełkę bez kształtu i nazwy, czyli „coś tu było”, nie „co” (zgodnie z [[zasada.nagrody-z-teaserow]]) |
+
+**Granica zasady.** Zasada dotyczy wyłącznie magii czasu: Klepsydry, jej wycieków, Karty Pożyczającego, zegarka Cassiana, RETRORSUM i Ansela. Inne zaklęcia na tych samych rzeczach (np. zwykłe zaklęcia ochronne, zamki) zaklęcia ujawniające widzą normalnie. Czy zabezpieczenia zaklętej księgi i gabloty w pracowni Marrow to magia czasu, czy zwykła: **do decyzji MG** (rekomendacja: gablota zwykła, więc Specialis Revelio pokazuje „zamek, który otwiera się za cenę”, ale nie mówi jaką; księga to magia czasu, więc nic nie pokazuje).
+
+**Propozycja rozszerzenia (do akceptacji MG, ZD-24a).** Wykrywacze z listy przedmiotów (s. 19): Sneakoscope (fałszoskop), Foe Glass (lustro wrogów) i Secrecy Sensor (wykrywacz tajemnic) reagują na ludzi i ich zamiary, nie na magię czasu. Rekomendacja: działają normalnie na Cassiana jako osobę (Sneakoscope może zawirować, gdy kłamie), ale nie na zegarek ani Kartę.
+
+**Dlaczego tak (uzasadnienie fabularne).** Magia czasu działa „obok” chwili, w której rzuca się zaklęcie: zaklęcie ujawniające patrzy na teraz, a ślad magii czasu jest w chwili, której już nie ma. To spójne z tym, że Dumbledore'a magia czasu nie dotknęła i nigdy nie widział Ansela (rejestr decyzji 2026-11-19).
 
 ## Jak używać przy stole
 

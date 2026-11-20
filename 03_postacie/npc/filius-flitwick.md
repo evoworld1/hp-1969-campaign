@@ -10,7 +10,7 @@ rocznik_1969: "nauczyciel"
 kanon: true
 pewnosc: niepewne
 # Docelowo: s1.scena.02, s1.scena.12 (korepetycje z Tempus)
-sceny: []
+sceny: [s1.scena.01, s1.scena.02, s1.scena.03]
 tylko_mg: true
 tagi: [s1, nauczyciel, zaklecia, tempus, kanon]
 zrodla:

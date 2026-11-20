@@ -9,8 +9,8 @@ dom: Hufflepuff
 rocznik_1969: "3 rok"
 kanon: false
 pewnosc: nasze
-# Docelowo: s1.scena.01 (sygnał dziwności), s1.scena.05 (mignięcie Ansela), s1.scena.06, s1.scena.12
-sceny: []
+# Docelowo także: s1.scena.05 (mignięcie Ansela), s1.scena.06, s1.scena.12
+sceny: [s1.scena.01, s1.scena.05]
 tylko_mg: true
 tagi: [s1, uczen, hufflepuff, ofiara-cassiana, duch-puchona]
 zrodla:
@@ -45,9 +45,10 @@ Odruchowo sprawdza zegarek co kilka minut, jakby pilnowała, czy znowu nic nie z
 
 | Podejście graczy | Reakcja |
 |---|---|
-| Wysłuchanie, potraktowanie poważnie | Ogromna ulga; podaje dokładny dzień i godzinę straty oraz opis „ducha” (żółty krawat, znikł, gdy się odwróciła). |
+| Wysłuchanie, potraktowanie poważnie | Ogromna ulga. **W scenie 01** pamięta tylko tyle: „Trzecie pytanie, a potem od razu dzwonek”, plus opis „ducha” (żółty krawat, znikł, gdy się odwróciła). **Dokładny dzień i godzinę straty** podaje dopiero w scenie 06 (albo 12): poszła sprawdzić w planie lekcji i u profesor Sprout, który to był sprawdzian, i przynosi kartkę z datą. |
 | Żart albo zbycie | Zamyka się, odchodzi z płaczem; koleżanki patrzą na postacie krzywo. |
 | Pytanie przy innych | Wstydzi się i zaprzecza; mówi wszystko dopiero na osobności. |
+| Obrona przed koleżankami (scena 01) | Starsza postać, która ucisza dokuczających, dostaje wdzięczne spojrzenie, ale przy wszystkich ani słowa. Po dzwonku Maisie czeka chwilę przy drzwiach Wielkiej Sali, jakby chciała coś powiedzieć. |
 
 ## Mechanika
 
@@ -61,4 +62,4 @@ statystyki:
 
 ## Do weryfikacji
 
-- Dokładna data i godzina jej straty: do ustalenia razem ze sceną 06 (musi pasować do sprawdzianu Cassiana w ciągu ostatnich trzech tygodni).
+- Dokładna data i godzina jej straty (ujawnia je dopiero w scenie 06 albo 12; w 01 tylko „trzecie pytanie, potem dzwonek”): do ustalenia razem ze sceną 06 (musi pasować do sprawdzianu Cassiana w ciągu ostatnich trzech tygodni).

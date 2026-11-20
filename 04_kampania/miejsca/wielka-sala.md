@@ -5,9 +5,9 @@ tytul: "Wielka Sala"
 status: szkic
 lokalizacja: "Hogwart, parter, za Salą Wejściową"
 pewnosc: niepewne
-# Pliki scen jeszcze nie istnieją (walidator wymaga istniejących identyfikatorów).
-# Docelowo: s1.scena.01 (śniadanie), s1.scena.03 (obiad, który przepada), s1.scena.12
-sceny: []
+# Pozostałe pliki scen jeszcze nie istnieją (walidator wymaga istniejących identyfikatorów).
+# Docelowo także: s1.scena.03 (obiad, który przepada), s1.scena.12
+sceny: [s1.scena.01]
 tylko_mg: true
 tagi: [s1, hogwart, sniadanie, plotki, sowy, sygnaly-dziwnosci]
 zrodla:
@@ -18,7 +18,7 @@ aktualizacja: 2026-11-20
 ---
 ## Do odczytania
 
-Pod sklepieniem płyną nisko szare, wrześniowe chmury; gdzieś wysoko pada deszcz, który nigdy tu nie dolatuje. Pachnie smażonym boczkiem, owsianką i mokrymi piórami, bo sowy właśnie zrzucają listy prosto w dżem. Nad stołem nauczycieli wisi okrągły zegar w mosiężnej oprawie. Jego wskazówka minutowa drga, jakby się wahała, czy iść dalej.
+Pod sklepieniem płyną nisko szare, wrześniowe chmury; gdzieś wysoko pada deszcz, który nigdy tu nie dolatuje. Pachnie smażonym boczkiem, owsianką i mokrymi piórami, bo sowy właśnie zrzucają listy prosto w dżem. Nad stołem nauczycieli wisi okrągły zegar w mosiężnej oprawie. Wskazuje kilka minut mniej, niż powinien, i nikt tego nie zauważa.
 
 ## Dla MG
 
@@ -62,7 +62,7 @@ test:
   trudnosc: "DO-USTALENIA"
   wyniki:
     - wynik: sukces
-      efekt: "MG wskazuje jeden z sygnałów: drgającą wskazówkę zegara, Maisie Lock, stojący zegarek Cassiana albo szept przy stole Slytherinu. Plotka o „duchu Puchona” i tak krąży."
+      efekt: "MG wskazuje jeden z sygnałów: spóźniony zegar, Maisie Lock, stojący zegarek Cassiana albo szept przy stole Slytherinu. Plotka o „duchu Puchona” i tak krąży."
       flagi_ustaw: [flaga.plotka-duch-puchona]
     - wynik: porazka
       efekt: "Nic szczególnego, ale o „duchu Puchona” i tak gada cały stół."

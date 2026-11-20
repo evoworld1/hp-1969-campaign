@@ -9,9 +9,9 @@ dom: Slytherin
 rocznik_1969: "6 rok"
 kanon: false
 pewnosc: nasze
-# Docelowo: s1.scena.01, s1.scena.02, s1.scena.03 (poza kadrem), s1.scena.04,
+# Docelowo także: s1.scena.02, s1.scena.03 (poza kadrem), s1.scena.04,
 #   s1.scena.07, s1.scena.08, s1.scena.09 (przy zegarze kradzieży 4), s1.scena.12
-sceny: []
+sceny: [s1.scena.01, s1.scena.02, s1.scena.03, s1.scena.04]
 tylko_mg: true
 tagi: [s1, cassian, slytherin, przeciwnik, grupa-wrena, karta-pozyczajacego]
 zrodla:
@@ -24,13 +24,13 @@ aktualizacja: 2026-11-20
 
 Szóstoroczny Ślizgon, przystojny, uprzejmy, z ambicją wielkości ojca, a nie własną. W pierwszym tygodniu szkoły trafił do pracowni Marrow, nie umiał rozwiązać zagadek zaklętej księgi, więc wyrwał z niej kartę (Kartę Pożyczającego); obudził zabezpieczenia pracowni i ledwo uciekł. Przez zatrzymany zegarek kieszonkowy podbiera czas z wycieków Klepsydry; każde podebranie to czyjaś stracona godzina. Godzinę drużyny wziął w przerwie przed Obroną, żeby wygrać pokaz u Wrena. Nie jest okrutny. Jest przestraszony i znalazł skrót, z którego nie umie zejść.
 
-**Rola w Sesji 1.** Rano: zatrzymany zegarek przy śniadaniu (01). Ewentualnie wychodzi z Zaklęć wcześniej (02). Kradnie godzinę poza kadrem (03; świadek widzi „Ślizgona z zegarkiem”). Prowadzi rywalizującą grupę u Wrena i wygrywa pokaz (04). Podbiera dalej według zegara kradzieży, przychodzi do wieży o zmierzchu (07), konfrontacja i pierwszy pojedynek (08), przy zegarze 4 idzie sam do pracowni (09).
+**Rola w Sesji 1.** Rano: zatrzymany zegarek przy śniadaniu (01). Ewentualnie wychodzi z Zaklęć wcześniej (02). Kradnie godzinę poza kadrem (03; świadek widzi „Ślizgona z zegarkiem”). Prowadzi rywalizującą grupę u Wrena i wygrywa pokaz (04). **Zegarek ma przy sobie zawsze, aż do końca sceny 04** (decyzja MG 2026-11-20): w 01–02 to tylko sygnał, w 04 można go najwyżej wyrwać na chwilę, a Wren go oddaje. Stracić go może dopiero od wieczoru po 04 (kradzież) albo w scenie 08 (pojedynek, targ, litość). Podbiera dalej według zegara kradzieży, przychodzi do wieży o zmierzchu (07), konfrontacja i pierwszy pojedynek (08), przy zegarze 4 idzie sam do pracowni (09).
 
 **Dalej.** Los zależy od `flaga.cassian-los` (sojusznik, dłużnik, rywal, ranny, uciekł…). Rywalizacja grup trwa cały rok. Ojciec Cassiana to zahaczka na później (szczegóły odłożone do sceny 08, decyzja MG).
 
 ## Wygląd i sposób bycia
 
-- Wysoki, ciemne włosy zaczesane do tyłu, kamizelka pod szatą zawsze zapięta, z kieszonki zwisa srebrny łańcuszek. Ręce czyste i spokojne, dopóki nie dotknie kieszonki. Lewą dłoń trzyma często wsuniętą w rękaw: pod nim gojące się oparzenie z pracowni.
+- Wysoki, ciemne włosy zaczesane do tyłu, kamizelka pod szatą zawsze zapięta, z kieszonki zwisa srebrny łańcuszek. Ręce czyste i spokojne, dopóki nie dotknie kieszonki. Lewą dłoń trzyma często wsuniętą w rękaw: pod nim bandaż na gojącym się oparzeniu z pracowni. Zapytany o bandaż, mówi lekko: „Kociołek. Slughorn każe nam pracować za blisko ognia”.
 - Rano szary na twarzy, z podkrążonymi oczami, po kradzieży nagle promienny i „wypoczęty”. Ta zmiana w ciągu jednego dnia jest widoczna dla uważnych.
 - Gwiżdże pod nosem tę samą krótką melodię, gdy jest zdenerwowany. (Świadek straconej godziny słyszał, że „gwizdał”.)
 - **Do gry przy stole:** MG mówi spokojnie, uprzejmie, odrobinę za wolno, z uśmiechem w głosie; pod presją skraca zdania i zaczyna je powtarzać.
@@ -54,9 +54,9 @@ Przykładowe kwestie:
 
 ## Sekret
 
-- Ma Kartę Pożyczającego (w podszewce kufra) i zatrzymany zegarek kieszonkowy (w kieszonce kamizelki, nocą pod poduszką). Zegarek był dziadka; wskazówki stanęły w godzinie jego śmierci, a ojciec dał go Cassianowi po SUM-ach ze słowami, że „Vane'owie się nie spóźniają”.
+- Ma Kartę Pożyczającego (w podszewce kufra) i zatrzymany zegarek kieszonkowy (w kieszonce kamizelki, nocą pod poduszką; do końca sceny 04 nie rozstaje się z nim ani na chwilę). Zaklęcia ujawniające nie wykrywają magii czasu (decyzja MG 2026-11-20), więc dla każdego, kto sprawdzi zegarek różdżką, to zwykła zepsuta pamiątka, najwyżej z dziwnie zimnym szkłem. Zegarek był dziadka; wskazówki stanęły w godzinie jego śmierci, a ojciec dał go Cassianowi po SUM-ach ze słowami, że „Vane'owie się nie spóźniają”.
 - Wie, gdzie jest pracownia (ostatni rząd Działu Ksiąg Zakazanych), ale nie wie, jak otworzyły się drzwi: „One mnie znalazły”.
-- **Noc w pracowni, trzy tygodnie temu.** Nad pulpitem wisiała księga w niebieskawym świetle. Próbował ją czytać, nie umiał rozwiązać jej zagadek, a nie dało się przewrócić strony. Dotknął jej raz, potem drugi (porażenie, które pamięta do dziś), w końcu chwycił kartę i szarpnął. „Wszystko się obudziło”: zegary ruszyły naraz, wahadła cięły, schody tykały i liczyły uderzenia. Zdążył na ostatnim. Oparzona lewa dłoń, którą chowa w rękawie, to dowód bez słów (W10.2). Pani Pomfrey powiedział, że oparzył się przy kociołku.
+- **Noc w pracowni, trzy tygodnie temu.** Nad pulpitem wisiała księga w niebieskawym świetle. Próbował ją czytać, nie umiał rozwiązać jej zagadek, a nie dało się przewrócić strony. Dotknął jej raz, potem drugi (porażenie, które pamięta do dziś), w końcu chwycił kartę i szarpnął. „Wszystko się obudziło”: zegary ruszyły naraz, wahadła cięły, schody tykały i liczyły uderzenia. Zdążył na ostatnim. Oparzona, zabandażowana lewa dłoń, którą chowa w rękawie, to dowód bez słów (W10.2). Pani Pomfrey i każdemu, kto zapyta, mówi, że oparzył się przy kociołku. Pod bandażem oparzenie ma dziwny kształt: cienkie, równoległe pręgi jak od wskazówek zegara, nie plama jak od wrzątku.
 - **Co wie o pracowni (gdy mówi, scena 08):** księga wisi nad pulpitem i nie daje się zabrać; zagadek nie umiał rozwiązać, więc wyrwał kartę; „wszystko się obudziło” i ledwo zdążył. O gablocie: „Próbowałem ją okraść. Szkło zmatowiało pod ręką. Ona nie daje się brać”. To ostrzeżenie przed księgą (W10) i odwrotna podpowiedź do gabloty (zapasowa droga do W7). Dopisku na odwrocie karty („co da się wziąć, da się też oddać”) nie połączył z gablotą; jeśli postacie mu go pokażą, blednie: „Myślałem, że to ozdobnik”.
 - **Czego nie wie:** kto napisał księgę, kim jest Ansel, czym są zatrzymane zegary. Nie zna nazwiska Marrow, chyba że postacie mu je podadzą.
 - Może znać wspólny sekret postaci z 4. roku albo tylko blefować, że zna (zależnie od odpowiedzi graczy na pytanie startowe 4). Blef ujawnia test przeciwny czytania przeciwnika, jak na lekcji Wrena.
@@ -68,7 +68,7 @@ Przykładowe kwestie:
 - Zegarek, który wyjmuje przy śniadaniu, ma stojące wskazówki; Cassian i tak na niego patrzy, jakby sprawdzał godzinę.
 - Tempus rzucony przy Cassianie „tyka” szybciej niż gdziekolwiek indziej.
 - Gwiżdże tę samą melodię, gdy się denerwuje.
-- Chowa lewą dłoń w rękawie; przy wzmiance o bibliotece albo o „książce, która świeci” zaciska ją w pięść.
+- Chowa zabandażowaną lewą dłoń w rękawie („kociołek”); przy wzmiance o bibliotece albo o „książce, która świeci” zaciska ją w pięść.
 - Jego nagłe sukcesy (sprawdziany, pokazy) pokrywają się z godzinami, które gubią inni uczniowie (`flaga.rejestr-godzin`).
 - Pani Pince zna go jako „chłopca od Slughorna”, który trzy razy prosił o ten sam tom o zegarmistrzostwie.
 
@@ -80,7 +80,9 @@ Przykładowe kwestie:
 | Groźba | Chłodny i uprzejmy na zewnątrz, w środku panika. Odpowiada kontrgroźbą, sięga po wspólny sekret z 4. roku („Ja wiem o waszym, wy o moim”). Proponuje formalny pojedynek, bo w pojedynku ma przewagę. |
 | Przekupstwo | Pieniądze go nie interesują. Interesuje go milczenie. Targ „milczenie za kartę i lokalizację” działa: zostaje dłużnikiem (`flaga.cassian-los` = dluznik). |
 | Kłamstwo | Dobrze czyta blef i sam dobrze blefuje. Kłamstwo o tym, co postacie wiedzą („Wren już wie”), może go przestraszyć i sprowokować do ucieczki albo do pośpiechu (szybszy ruch ku pracowni). |
-| Magia | W pojedynku działa dwa razy, zanim przeciwnik skończy jeden ruch, póki ma zegarek. Wytrącony albo odebrany zegarek (Expelliarmus albo Accio na kieszonkę) gasi jego przewagę i wstrząsa nim. Zniszczony zegarek: koniec podbierania, część skradzionych godzin wraca do ofiar, Ansel na chwilę migocze (decyzja MG 2026-11-20). Cassian najpierw czuje ulgę, potem strach przed ojcem. |
+| Magia | W pojedynku działa dwa razy, zanim przeciwnik skończy jeden ruch, póki ma zegarek. Wytrącony albo odebrany zegarek (Expelliarmus albo Accio na kieszonkę) gasi jego przewagę i wstrząsa nim. W pokazie u Wrena (04) to tylko chwila: Wren oddaje mu zegarek, a Cassian chowa go drżącą ręką i od tej pory pilnuje kieszonki przy tej postaci. Prawdziwa strata zegarka to dopiero scena 08 albo kradzież po 04. Zaklęcie ujawniające na zegarku: Cassian wstrzymuje oddech, a gdy nic nie wychodzi, wraca mu pewność siebie („Mówiłem: pamiątka”). |
+| Wcześniejsza próba zabrania zegarka (01–02) | Łapie rękę, mówi spokojnie „rodzinna pamiątka, nie chodzi” i zapina kieszonkę. Zapamiętuje twarz: w 04 i 08 jest wobec tej postaci czujny. Nie robi sceny, bo scena to pytania. |
+| Magia, zniszczenie | Zniszczony zegarek: koniec podbierania, część skradzionych godzin wraca do ofiar, Ansel na chwilę migocze (decyzja MG 2026-11-20). Cassian najpierw czuje ulgę, potem strach przed ojcem. |
 | Przemoc | Bójka bez różdżek go przeraża, bo nie umie się bić. Ciężka rana Cassiana ściąga Wrena, panią Pomfrey i pytania; karta zostaje skonfiskowana, jeśli nikt jej nie przejmie. |
 | Ignorowanie | Podbiera dalej według zegara kradzieży. Przy 3 sam przychodzi do postaci, przy 4 idzie do pracowni. Świat nie czeka. |
 
@@ -90,7 +92,24 @@ Przykładowe kwestie:
 statystyki:
   id: npc.cassian-vane.statystyki
   system: walker-2e-draft-2026-04
-  wartosci: {}
+  wartosci:
+    # Uzupełnione minimalnie 2026-11-20 (czytanie blefu w 01; obrona przed kradzieżą zegarka, która obowiązuje dopiero od wieczoru po 04).
+    # Pozostałe umiejętności, zaklęcia, różdżka i pochodzenie: do uzupełnienia przy scenach 04 i 08.
+    rodzaj: czarodziej
+    poziom: "Gifted student"      # s. 102; jak postacie graczy: cechy 22 (zakres Top of the class), umiejętności w zakresie Gifted student
+    school: "Hogwarts (1964)"
+    year: 6
+    house: Slytherin
+    cechy:
+      Vitality: 3
+      Speed: 4
+      Wits: 6
+      Knowledge: 4
+      Focus: 5
+    umiejetnosci:                 # tylko te, których już potrzebuje scena 01
+      Observation: 4
+      Chicanery: 5
+      Balance: 2
   zdolnosci_specjalne:
     - nazwa: "Skradzione Chwile"
       opis: "Póki ma zegarek, kilka razy w czasie pojedynku działa poza kolejnością (dodatkowe akcje ponad dwie akcje w rundzie według Walkera, Round/Actions s. 33). Za każdym razem dotyka kieszonki i się wzdryga (sygnał). Postać, która nazwała sygnał na głos, może go uprzedzić. Liczbę użyć i dokładny efekt ustala mechanik."
@@ -99,7 +118,7 @@ statystyki:
     - nazwa: "Zabranie godziny"
       opis: "Po wygranym pojedynku zabiera przegranemu godzinę na oczach wszystkich. Przegrany przegapia coś małego i ważnego następnego dnia. Czy daje to stan Drained (wyczerpanie umysłu, +3 do trudności), ustala mechanik razem z regułą straconej godziny."
     - nazwa: "Czytanie przeciwnika"
-      opis: "Dobry w teście przeciwnym (Opposed Test, s. 4) na wykrywanie blefu; tak samo dobrze blefuje. Para cecha i umiejętność do ustalenia przez mechanika (kandydaci: Wits + Chicanery, czyli bystrość i podstęp; Wits + Observation, czyli bystrość i spostrzegawczość)."
+      opis: "Dobry w teście przeciwnym (Opposed Test, s. 4) na wykrywanie blefu; tak samo dobrze blefuje. Para: Wits + Chicanery (1D10 + 11), bo Chicanery obejmuje też wyczucie oszustwa i dwulicowości (s. 21). Na kradzież i fizyczne podejście do kieszonki reaguje czujnością: Wits + Observation (1D10 + 10, s. 4); test kradzieży rzuca się dopiero od wieczoru po scenie 04, wcześniej próba zawsze się nie udaje (decyzja MG 2026-11-20). To nie zdolność spoza zasad, tylko wysoka Chicanery."
 ```
 
 ## Do weryfikacji
@@ -107,6 +126,7 @@ statystyki:
 - Ojciec Cassiana (kim jest, jakie ma poglądy) jest odłożony do sceny 08 decyzją MG. Karta mówi tylko: urzędnik Ministerstwa, wymagający.
 - Pochodzenie zegarka (zegarek dziadka, prezent od ojca po SUM-ach): przyjęte przez MG.
 - Niezdobyta odznaka prefekta to szczegół wykonawczy; nie zmienia fabuły.
-- Oparzona lewa dłoń i wymówka „kociołek” u pani Pomfrey: szczegóły wykonawcze Twórcy NPC (graf mówi tylko o oparzonej dłoni). Pani Pomfrey jako uzdrowicielka w 1969: do sprawdzenia u strażnika kanonu.
+- Oparzona, zabandażowana lewa dłoń i wymówka „kociołek”: szczegóły wykonawcze Twórcy NPC (graf mówi tylko o oparzonej dłoni). Kształt oparzenia (pręgi jak od wskazówek) to propozycja; MG może ją pominąć. Pani Pomfrey jako uzdrowicielka w 1969: do sprawdzenia u strażnika kanonu.
 - Karta Pożyczającego działa tylko razem z jego zegarkiem (decyzja MG 2026-11-20).
-- Mechanik: liczby pojedynku, Skradzione Chwile, efekt zabranej godziny.
+- Mechanik: liczby pojedynku, Skradzione Chwile, efekt zabranej godziny. Cechy i trzy umiejętności uzupełnione 2026-11-20 (czytanie blefu w 01, obrona przed kradzieżą po 04); reszta przy scenach 04 i 08.
+- Pochodzenie (Lineage) Cassiana nie jest ustalone; nazwisko Vane nie należy do „Sacred Twenty-Eight” (s. 7). Decyzja dla MG albo twórcy NPC.

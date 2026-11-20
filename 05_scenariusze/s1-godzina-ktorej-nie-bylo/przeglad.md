@@ -4,13 +4,21 @@ typ: scenariusz
 tytul: "Godzina, której nie było (Sesja 1)"
 status: szkic
 numer: 1
-# Lista scen w kolejności bazowej zostaje pusta, dopóki nie powstaną pliki scen
-# (walidator wymaga, żeby każdy identyfikator wskazywał istniejący plik).
-# Docelowo (numeracja od fazy 2B): [s1.scena.11, s1.scena.01, s1.scena.02, s1.scena.03,
-#   s1.scena.04, s1.scena.05, s1.scena.06, s1.scena.07, s1.scena.08, s1.scena.09,
-#   s1.scena.10, s1.scena.12]
-sceny: []
-czas_min: 260
+# Kolejność bazowa (numeracja od fazy 2B): prolog 11 (opcjonalny), rdzeń 01–10, moduł 12.
+sceny:
+  - s1.scena.11
+  - s1.scena.01
+  - s1.scena.02
+  - s1.scena.03
+  - s1.scena.04
+  - s1.scena.05
+  - s1.scena.06
+  - s1.scena.07
+  - s1.scena.08
+  - s1.scena.09
+  - s1.scena.10
+  - s1.scena.12
+czas_min: 270
 gracze: "2-3"
 tylko_mg: true
 tagi: [s1, przeglad, patron, ansel, cassian]
@@ -29,7 +37,7 @@ Przez kolejne półtora dnia w fikcji postacie mierzą, skąd ucieka czas, trafi
 
 **Dla kogo.** 2–3 graczy, dla wszystkich (poza MG) to pierwsza sesja gry fabularnej. Zasady przychodzą po jednej: scena 01 (albo prolog 11) to rozmowa i jeden prosty test, scena 02 to pierwsze zaklęcie, scena 04 to pierwszy test przeciwny, scena 08 to pierwszy pojedynek.
 
-**Czas.** Rdzeń (sceny 01–10) to około **4 h 20 min**, z prologiem około 4 h 50 min. Trzy punkty pauzy pozwalają przerwać i wrócić od tego samego miejsca (decyzja MG z 2026-11-20). Mapa scen, flagi, trzy drogi do wskazówek i pauzy są w pliku pomocniczym `graf-scen.md` w tym samym folderze.
+**Czas.** Rdzeń (sceny 01–10) to około **4 h 30 min**, z prologiem (scena 01 skraca się wtedy do 10 minut) około 4 h 40 min. Trzy punkty pauzy pozwalają przerwać i wrócić od tego samego miejsca (decyzja MG z 2026-11-20). Mapa scen, flagi, trzy drogi do wskazówek i pauzy są w pliku pomocniczym `graf-scen.md` w tym samym folderze.
 
 ## Co sesja musi zapewnić
 
@@ -53,7 +61,7 @@ Przez kolejne półtora dnia w fikcji postacie mierzą, skąd ucieka czas, trafi
 - **Wycieki.** Klepsydra w wieży przecieka, bo **Hollis Crake** [nasze], zegarmistrz konserwujący zamkowe zegary, od tygodni rozluźnia jej pieczęć na zlecenie Patrona. Sama wieża niczego nie pokazuje (jest tylko kotwicą). W Sesji 1 Crake jest tłem: życzliwy pan na drabinie.
 - **Cassian Vane** [nasze], szósty rok, Slytherin, około trzech tygodni temu trafił do pracowni, nie umiał rozwiązać zagadek zaklętej księgi, więc wyrwał z niej kartę (Kartę Pożyczającego), uruchomił pełne zabezpieczenia i ledwo uciekł. Karta uczy podbierać czas z wycieków przez zatrzymany zegarek kieszonkowy. Każde podebranie to czyjaś stracona godzina. **Godzinę postaci graczy wziął w przerwie przed Obroną, żeby wygrać pokaz u Wrena:** jego nienaturalna szybkość na tej lekcji to dosłownie ich czas.
 - **Notatnik Marrow** (`przedmiot.dziennik-marrow`; identyfikator bez zmian) [decyzja MG 2026-11-20] leży w gablocie: jej przemyślenia i niezrozumiałe szkice wynalazku, Klepsydry, oparte na zapiskach z księgi i pełne odsyłaczy do niej. Notatnik i księga są sobie nawzajem potrzebne do rozszyfrowania; bez księgi notatnik zostawia więcej pytań niż odpowiedzi. Notatnik ostrzega przed siłowym korzystaniem z księgi. Gablota otwiera się, gdy godzinę ktoś **odda**, a nie zabierze; postacie muszą zostać na to naprowadzone (trzy drogi: `graf-scen.md`, W7). Gdy notatnik przekracza próg pracowni, zegary wybijają trzynasty raz, a Ansel traci jedną z kotwic.
-- **Zegarek Cassiana i karta** [decyzja MG 2026-11-20]. Karta działa tylko razem z zegarkiem Cassiana; postacie, które użyją obu, wchodzą w zakończenie „moc”. Zniszczenie zegarka sprawia, że Ansel na chwilę migocze, a część skradzionych godzin wraca do ofiar (zakres: pytanie do MG w raporcie fazy B2b).
+- **Zegarek Cassiana i karta** [decyzja MG 2026-11-20]. Karta działa tylko razem z zegarkiem Cassiana; postacie, które użyją obu, wchodzą w zakończenie „moc”. Zniszczenie zegarka sprawia, że Ansel na chwilę migocze, a część skradzionych godzin wraca do ofiar; godzina drużyny nie wraca, bo jest kotwicą Ansela (decyzja MG 2026-11-20). **Zegarka nie da się zdobyć przed sceną 04** (decyzja MG 2026-11-20): przy śniadaniu i na Zaklęciach to tylko sygnał; w pokazie u Wrena test spostrzegawczości ujawnia, że Cassian z niego korzysta, a postać, która go pokona, może zegarek wyrwać, ale Wren oddaje go Cassianowi („pamiątka, nie dowód”) i zaczyna podejrzewać. Prawdziwe przejęcie (pojedynek, kradzież, targ, litość) następuje po scenie 04, zwykle w konfrontacji (08).
 - **Klepsydra na lekcji Fairweather** [decyzja MG 2026-11-20]. Marrow pokazała Klepsydrę na lekcji, na której była pierwszoroczna Ada Fairweather. W Sesji 1 to niejasne wspomnienie; wyjaśnienie w Sesji 2.
 - **Teasery przed kampanią** (fakt pozafabularny, tylko dla MG) [decyzja MG 2026-11-20]. Część graczy w interaktywnym escape roomie znalazła na szczycie jednej z mniejszych wież obserwacji astronomicznych antyczny zwój z zaklęciem **RETRORSUM** [nasze]: magia czasu z tej samej rodziny co zaklęta księga. Padły tam nawiązania do Marrow, a Ansel dał graczom jedną radę, nie zdradzając, kim jest. Inny teaser dał postaciom zdolność pasywną „Oko, które dostrzega ukryte”. Skutki dla Sesji 1: gracze mogą **rozpoznać Ansela** z teasera (scena 05 albo już odbicie w 01), a RETRORSUM może im się skojarzyć z księgą. Scenariusz niczego więcej tu nie rozstrzyga; mechanikę zaklęcia i zdolności opisuje [[zasada.nagrody-z-teaserow]].
 - **Patron: Silas Wymark** [nasze, decyzja MG 2026-11-20]. W 1951 prefekt i asystent profesor Marrow w obserwatorium; widział Klepsydrę na własne oczy. Dziś, po trzydziestce, zwerbowany śmierciożerca: powiedział o Klepsydrze Voldemortowi i znalazł Crake'a, któremu obiecał pomoc w zamian. W Sesji 1 to **tylko ślad**: inicjały „S.W.” obok podpisu Marrow na ścianie pracowni i zdjęcie z 1951 roku (Marrow przy teleskopie, wysoki prefekt obok) w gablocie przy bibliotece. Nikt w Sesji 1 nie wymawia jego nazwiska. Szept o „panu Notcie”, który „bywał w wakacje u ojca”, to plotka przy stole Slytherinu, nic więcej.
@@ -64,7 +72,8 @@ Przez kolejne półtora dnia w fikcji postacie mierzą, skąd ucieka czas, trafi
 ## Stałe i elastyczne
 
 **Stałe (nie zmieniają się bez względu na decyzje graczy):**
-- Cała drużyna traci godzinę naraz, w przerwie między Zaklęciami a Obroną (także gdy postacie odebrały wcześniej Cassianowi zegarek; zob. `graf-scen.md`).
+- Cała drużyna traci godzinę naraz, w przerwie między Zaklęciami a Obroną.
+- Zegarek Cassiana jest u niego co najmniej do końca sceny 04: przed pokazem nie da się go zdobyć, a wyrwany w pokazie wraca przez Wrena do Cassiana (siatka 1 w `graf-scen.md`).
 - Ansel istnieje i każda postać gracza rozmawia z nim w tej sesji. Inni widzą go najwyżej mignięciem.
 - Cassian ma kartę i zegarek; to on kradnie godziny.
 - Pracownia jest za ostatnim rzędem Działu Ksiąg Zakazanych, a notatnik w gablocie.
@@ -81,7 +90,8 @@ Przez kolejne półtora dnia w fikcji postacie mierzą, skąd ucieka czas, trafi
 **Elastyczne:**
 - Kolejność scen 06, 07, 08 i 12; która postać co znajdzie i jak.
 - Czy rozegrany będzie prolog na Pokątnej (11).
-- Czy i jak dojdzie do pojedynku z Cassianem (pojedynek, targ, kradzież zegarka, donos).
+- Czy i jak dojdzie do pojedynku z Cassianem i czy postacie przejmą zegarek (pojedynek, kradzież po scenie 04, targ, litość, donos).
+- Czy Wren zacznie podejrzewać Cassiana już w scenie 04 (wyrwany zegarek) czy później.
 - Jak zakradną się nocą do biblioteki (skradanie, kryjówki, Ansel jako zwiadowca) i czy Filch złapie kogoś w drodze albo z notatnikiem.
 - Jak otworzą gablotę i czy w ogóle.
 - Czy dotkną księgi i jak daleko się posuną (od porażenia do ucieczki przed pełnymi zabezpieczeniami).
@@ -94,7 +104,7 @@ Przez kolejne półtora dnia w fikcji postacie mierzą, skąd ucieka czas, trafi
 | Id | Tytuł roboczy | Czas | Kiedy w fikcji | Rodzaj |
 |---|---|---|---|---|
 | s1.scena.11 | Prolog: ulica Pokątna (opcjonalny) | 30 min | sobota 30 sierpnia 1969 | elastyczna |
-| s1.scena.01 | Śniadanie w Wielkiej Sali | 20 min | pon. 22.09, rano | rdzeń, nauka gry, pierwsze sygnały |
+| s1.scena.01 | Śniadanie w Wielkiej Sali | 30 min | pon. 22.09, rano | rdzeń, nauka gry, pierwsze sygnały |
 | s1.scena.02 | Zaklęcia: Tempus | 30 min | pon., przed południem | rdzeń, lekcja |
 | s1.scena.03 | Stracona godzina | 15 min | pon., przerwa obiadowa | rdzeń |
 | s1.scena.04 | Obrona: czytanie przeciwnika | 30 min | pon., po południu | rdzeń, lekcja, pierwszy test przeciwny |
@@ -106,7 +116,7 @@ Przez kolejne półtora dnia w fikcji postacie mierzą, skąd ucieka czas, trafi
 | s1.scena.10 | Trzynasty raz (cliffhanger) | 15 min | zaraz po 09 | rdzeń, finał |
 | s1.scena.12 | Wędrówki po zamku (moduł spotkań) | 5–30 min | dowolnie | elastyczna |
 
-**Rdzeń 01–10: 260 min (4 h 20 min).** Do tego 10–15 minut przed grą na linie i zasłony (tematy wykluczone i poza kadrem) oraz objaśnienie kości. Pauzy: po scenie 03 (stracona godzina), po 05 (Ansel), po 08 (Cassian). Opis scen, warunki wejścia i wyjścia, flagi, zegar kradzieży i siatki bezpieczeństwa: `graf-scen.md`.
+**Rdzeń 01–10: 270 min (4 h 30 min).** Do tego 10–15 minut przed grą na linie i zasłony (tematy wykluczone i poza kadrem) oraz objaśnienie kości. Pauzy: po scenie 03 (stracona godzina), po 05 (Ansel), po 08 (Cassian). Opis scen, warunki wejścia i wyjścia, flagi, zegar kradzieży i siatki bezpieczeństwa: `graf-scen.md`.
 
 ## Rozwidlenie końcowe
 
@@ -150,7 +160,7 @@ rozgalezienie:
 rozgalezienie:
   id: s1.rozgalezienie.moc
   rodzaj: glowne
-  warunek: "Postacie używają Karty Pożyczającego razem z zegarkiem Cassiana (flaga.zegarek-cassiana = u-graczy); sama karta albo sama ściana nie wystarczą (decyzja MG 2026-11-20)."
+  warunek: "Postacie używają Karty Pożyczającego razem z zegarkiem Cassiana (flaga.zegarek-cassiana = u-graczy); sama karta albo sama ściana nie wystarczą (decyzja MG 2026-11-20). Zegarek trafia do graczy najwcześniej po scenie 04, zwykle w 08."
   wymaga_flag: [flaga.karta-u-graczy]
   wyklucza_flagi: []
   efekt: "Pierwsze użycia wyglądają niewinnie, koszt wychodzi następnego ranka u kogoś z otoczenia (kandydat: Rejestr Danin). Postacie stają się nowym Cassianem i ktoś to zauważa. Sesja 2: rozliczenie i rosnąca pokusa."
