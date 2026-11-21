@@ -97,6 +97,7 @@
 | 2026-11-20 | Dumbledore jest nieobecny przy śniadaniu 22 września (wyjazd do Londynu). | MG |
 | 2026-11-20 | **Zaklęcia ujawniające nie wykrywają magii czasu** (cała kampania); najwyżej dziwnie zimne szkło. | MG |
 | 2026-11-20 | **Tryb przyspieszony** do końca Scenariusza 1 (sesja 2026-11-21): bez pytań w trakcie pracy, założenia robocze do skreślenia po lekturze (`docs/TRYB-PRZYSPIESZONY.md`). Proza i dialogi (narrator-scen, dialogista, tworca-npc) na Opusie, pozostali agenci na Sonnecie, wysiłek medium. Webowy interfejs MG osobno, po scenach. | MG |
+| 2026-11-21 | **Skład drużyny:** dwie Gryfonki (znają się, bo są w jednym domu) i Vox ze Slytherinu. Do ustalenia: co łączy Vox z Gryfonkami (wspólny sekret z 4. roku). Z decyzji o Tobiasie Quillu wynika, że trafia do Slytherinu. | MG |
 
 ## Założenia robocze (do skreślenia przez MG po lekturze scen)
 - Dumbledore wraca z Londynu przed wieczorem 22 września. Zegarek oddany nauczycielowi po scenie 08 sam nic nie podbiera. Szlaban za przemoc w Sali: wtorek 23 września, tylko kolor.
