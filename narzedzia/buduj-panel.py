@@ -537,6 +537,9 @@ def main():
     WYJSCIE.mkdir(parents=True)
     for p in SZABLON.iterdir():
         shutil.copy(p, WYJSCIE / p.name)
+    pdf = KORZEN / "panel" / "pdf"
+    if pdf.exists():
+        shutil.copytree(pdf, WYJSCIE / "pdf")
     (WYJSCIE / "dane.js").write_text("window.DANE = " + json.dumps(dane, ensure_ascii=False) + ";\n", encoding="utf-8")
 
     rozm = sum(f.stat().st_size for f in WYJSCIE.iterdir()) / 1e6

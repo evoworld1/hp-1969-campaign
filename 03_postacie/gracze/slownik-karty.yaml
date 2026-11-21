@@ -17,7 +17,7 @@ umiejetnosci:
   Authority: Autorytet
   Balance: Równowaga
   Broomstick Flying: Latanie na miotle
-  Charms: Uroki
+  Charms: Zaklęcia
   Chicanery: Podstęp
   Concealment: Ukrywanie
   Crafting: Rzemiosło
@@ -29,7 +29,7 @@ umiejetnosci:
   Herbology: Zielarstwo
   History of Magic: Historia Magii
   Law: Prawo
-  Magical Creatures: Magiczne stworzenia
+  Magical Creatures: Opieka nad Magicznymi Stworzeniami
   Magical Theory: Teoria Magii
   Muggle Studies: Mugoloznawstwo
   Music: Muzyka
@@ -52,21 +52,21 @@ przedmioty_6_roku:
   Astronomy: Astronomia
   Potions: Eliksiry
   Herbology: Zielarstwo
-  Charms: Uroki
+  Charms: Zaklęcia
   D.A.D.A.: Obrona przed Czarną Magią
   Arithmancy: Numerologia
   Transfiguration: Transmutacja
-  Magical Creatures: Magiczne stworzenia
+  Magical Creatures: Opieka nad Magicznymi Stworzeniami
   Ancient Runes: Starożytne Runy
 grupy_premii_rozdzki:
-  Charms: Uroki
+  Charms: Zaklęcia
   Curses: Klątwy
   Hexes: Złe uroki (hexy)
   Jinxes: Psikusy (jinxy)
   Duelling: Pojedynki
   Transfiguration: Transmutacja
   Herbology: Zielarstwo
-  Magical Creatures: Magiczne stworzenia
+  Magical Creatures: Opieka nad Magicznymi Stworzeniami
   Fire Magic: Magia ognia
   Healing Magic: Magia lecznicza
   Protective Magic: Magia ochronna
@@ -127,7 +127,7 @@ zaklecia:
   Disillusionment Charm: {opis: "Barwi rzucającego jak otoczenie, prawie niewidzialność."}
   Episkey: {opis: "Leczy drobne urazy."}
   Expelliarmus: {opis: "Wytrąca cel z dłoni trzymany przedmiot."}
-  Extinguishing Charm: {opis: "Gasi ogień."}
+  Demitto Ignem: {opis: "Gasi ogień."}
   Finite Incantatem: {opis: "Ogólne przeciwzaklęcie kończące trwające zaklęcie."}
   Flagrate: {opis: "Ognisty znak lub pismo wiszące w powietrzu."}
   Homenum Revelio: {opis: "Wykrywa ukryte w pobliżu osoby."}

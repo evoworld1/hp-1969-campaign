@@ -44,7 +44,7 @@ Kratki: trudność 9 → [9]; 12 → [12, 9]; 15 → [15, 12, 9]; 18 → [18, 15
 | Aparecium | Charm | 12 | ujawnia niewidzialny atrament | 47 |
 | Engorgio | Charm | 12 | powiększa (rozdyma) | 50 |
 | Expelliarmus | Charm | 12 | rozbrojenie | 51 |
-| Extinguishing Charm | Charm | 9 | gasi ogień | 51 |
+| Demitto Ignem | Charm | 9 | gasi ogień | 51 |
 | Immobulus | Charm | 15 | zamraża ruch na rundę | 53 |
 | Impervius | Charm | 9 | wodoodporność | 53 |
 | Locomotor Wibbly | Jinx | 15 | nogi jak z galarety | 54 |

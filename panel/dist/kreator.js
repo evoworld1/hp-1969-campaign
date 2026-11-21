@@ -18,7 +18,7 @@ var ARCH = {
     rozdzka: { drewno: "Black Walnut", rdzen: "Phoenix Feather", premie: ["Charms +2", "Fire Magic +1", "Transfiguration +1", "Wand Loyalty +1"] } },
   D: { nazwa: "Empatyczny opiekun", opis: "Leczy, uspokaja, dogaduje się z ludźmi i zwierzętami.", cechy: [5, 3, 4, 5, 5],
     um: { "Charms": 3, "D.A.D.A.": 3, "Transfiguration": 3, "Potions": 4, "Herbology": 5, "Astronomy": 1, "History of Magic": 1, "Magical Theory": 1, "Magical Creatures": 5, "Divination": 1, "Persuasion": 4, "Observation": 5, "Riding": 3, "Music": 3, "Swimming": 2, "Balance": 2, "Tracking": 2, "Authority": 2, "Trivia": 2, "Crafting": 1 },
-    pakiet: [S("Salvio Hexia", 3), S("Stupefy", 3), S("Immobulus", 3), S("Rennervate", 2), S("Arresto Momentum", 2), S("Carpe Retractum", 2), S("Cheering Charm", 1), S("Impervius", 1), S("Extinguishing Charm", 1)],
+    pakiet: [S("Salvio Hexia", 3), S("Stupefy", 3), S("Immobulus", 3), S("Rennervate", 2), S("Arresto Momentum", 2), S("Carpe Retractum", 2), S("Cheering Charm", 1), S("Impervius", 1), S("Demitto Ignem", 1)],
     rozdzka: { drewno: "Chestnut", rdzen: "Unicorn Hair", premie: ["Herbology +1", "Magical Creatures +1", "Healing Magic +2", "Protective Magic +2"] } }
 };
 var WYBOR = [S("Stupefy", 3), S("Impedimenta", 3), S("Petrificus Totalus", 3), S("Confundo", 3), S("Silencio", 3), S("Disillusionment Charm", 3), S("Homenum Revelio", 3), S("Specialis Revelio", 3), S("Salvio Hexia", 3), S("Riddikulus", 3), S("Rennervate", 2), S("Colloportus", 2), S("Quietus", 2), S("Sonorus", 2), S("Depulso", 2), S("Engorgio", 2), S("Arresto Momentum", 2), S("Carpe Retractum", 2), S("Incendio", 2), S("Flagrate", 1), S("Cheering Charm", 1), S("Impervius", 1), S("Intruder Charm", 1), S("Cistem Aperio", 1), S("Obliteration Charm", 1)];
@@ -39,7 +39,7 @@ function sekcjaKoniec() {
   return '<div class="krok"><h3>Różdżka, zwierzę i ostatnie szlify</h3><p><label>Drewno <input type="text" id="k-drewno"></label> <label>Rdzeń <input type="text" id="k-rdzen"></label> <label>Długość (cale) <input type="number" id="k-dl" value="11" min="8" max="18" style="width:4rem"></label> <label>Giętkość <input type="text" id="k-giet" value="Springy"></label> <label>Wytrzymałość <input type="text" id="k-wyt" value="2D+2" size="6"></label></p>' +
     '<p><label>Premie różdżki <input type="text" id="k-premie" size="60"></label></p>' +
     '<p><label>Zwierzę <select id="k-zw"><option>sowa</option><option>kot</option><option>ropucha</option></select></label> <label>imię <input type="text" id="k-zwimie"></label></p>' +
-    '<p><label>Wygląd <input type="text" id="k-wyglad" size="60"></label></p><p><label>Osoba, na której zależy <input type="text" id="k-osoba" size="50"></label></p><p><label>Jak minęły wakacje 1969 <input type="text" id="k-wakacje" size="50"></label></p></div>' +
+    '<p><label>Osoba, na której zależy <input type="text" id="k-osoba" size="50"></label></p><p><label>Jak minęły wakacje 1969 <input type="text" id="k-wakacje" size="50"></label></p></div>' +
     '<p><button class="glowny" id="k-zapisz">Zapisz postać i pokaż kartę</button> <span id="k-bledy" class="blad"></span></p>';
 }
 function val(id) { var e = document.getElementById(id); return e ? e.value.trim() : ""; }
@@ -62,7 +62,7 @@ function wspolne(p) {
   p.sekret = val("k-boi");
   p.rozdzka = { drewno: val("k-drewno"), dlugosc_cali: parseInt(val("k-dl"), 10) || 11, rdzen: val("k-rdzen"), gietkosc: val("k-giet"), wytrzymalosc: val("k-wyt"), premie: val("k-premie") ? val("k-premie").split(/[;,]\s*/) : [], opis: "" };
   p.zwierze = { rodzaj: val("k-zw"), imie: val("k-zwimie") };
-  p.wyglad = val("k-wyglad"); p.osoba_bliska = val("k-osoba"); p.wakacje_1969 = val("k-wakacje");
+  p.osoba_bliska = val("k-osoba"); p.wakacje_1969 = val("k-wakacje");
   p.zdrowie = { body_kolka: 0, mind_kolka: 0 }; p.pewnosc = "nasze";
   return p;
 }

@@ -75,7 +75,7 @@ Krótko, co znaczą rzadsze umiejętności: Chicanery (podstęp, kłamstwo), Con
    - A: Stupefy (3), Impedimenta (3), Petrificus Totalus (3), Stinging Jinx (3), Flipendo (2), Trip Jinx (2), Rennervate (2).
    - B: Specialis Revelio (3), Homenum Revelio (3), Prior Incantato (3), Colloportus (2), Quietus (2), Flagrate (1), Intruder Charm (1), Cistem Aperio (1), Bluebell Flames (1), Obliteration Charm (1).
    - C: Disillusionment Charm (3), Confundo (3), Silencio (3), Quietus (2), Colloportus (2), Spongify (2), Rictustempra (2), Obliteration Charm (1).
-   - D: Salvio Hexia (3), Stupefy (3), Immobulus (3), Rennervate (2), Arresto Momentum (2), Carpe Retractum (2), Cheering Charm (1), Impervius (1), Extinguishing Charm (1).
+   - D: Salvio Hexia (3), Stupefy (3), Immobulus (3), Rennervate (2), Arresto Momentum (2), Carpe Retractum (2), Cheering Charm (1), Impervius (1), Demitto Ignem (1).
 3. **Twój wybór (6 kratek)** z listy, bez powtórek z pakietów: Stupefy (3), Impedimenta (3), Petrificus Totalus (3), Confundo (3), Silencio (3), Disillusionment Charm (3), Homenum Revelio (3), Specialis Revelio (3), Salvio Hexia (3), Riddikulus (3), Rennervate (2), Colloportus (2), Quietus (2), Sonorus (2), Depulso (2), Engorgio (2), Arresto Momentum (2), Carpe Retractum (2), Incendio (2), Flagrate (1), Cheering Charm (1), Impervius (1), Intruder Charm (1), Cistem Aperio (1), Obliteration Charm (1).
 4. **Magia zaawansowana (30 kratek).** Z tej listy 13 pozycji, każda po 3 kratki, **skreśl 3**, a resztę wpisz:
    - zaklęcia 6.–7. roku: Aguamenti (strumień wody, s. 47), Cave Inimicum (ukrywa za niewidzialną barierą, s. 49), Incarcerous (więzy, s. 53), Protean Charm (powiązane przedmioty zmieniają się razem, s. 56);

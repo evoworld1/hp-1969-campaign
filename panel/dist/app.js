@@ -89,6 +89,7 @@ function trasa() {
   if (cz === "postacie") return postacie();
   if (cz === "postac") return karta(h[1]);
   if (cz === "zasady") return zasady();
+  if (cz === "sciaga") return window.renderSciaga(app);
   if (cz === "kreator") return window.kreator ? window.kreator(app, D) : (app.innerHTML = "<p>Kreator niedostępny.</p>");
   if (cz === "dok") { ekranStart(); return dokument(h[1]); }
   ekranStart();
@@ -109,7 +110,7 @@ function ekranStart() {
     '<div class="rzad"><button id="rozpocznij" class="glowny">ROZPOCZNIJ SESJĘ</button>' + wznow + "</div>" +
     '<label><input type="checkbox" id="bez-prologu"> Zacznij od sceny 01 (bez prologu na Pokątnej)</label>' +
     '<div class="rzad"><a class="kafel" href="#/postacie"><strong>Postacie graczy</strong><small>karty do wydruku</small></a>' +
-    '<a class="kafel" href="#/kreator"><strong>Tworzenie postaci</strong><small>szybka i pełna ścieżka</small></a>' +
+    '<a class="kafel" href="#/sciaga"><strong>Ściąga dla graczy</strong><small>jak czytać kartę, do PDF</small></a><a class="kafel" href="#/kreator"><strong>Tworzenie postaci</strong><small>szybka i pełna ścieżka</small></a>' +
     '<a class="kafel" href="#/zasady"><strong>Zasady i kanon</strong><small>przeglądanie i szukanie</small></a>' +
     '<a class="kafel" href="#/wedrowki"><strong>Wędrówki po zamku</strong><small>spotkania A–P</small></a></div>' +
     '<h3 style="text-align:left;margin-top:2rem">Wszystkie sceny</h3><div class="siatka">' + kafle + "</div></div>";
@@ -340,7 +341,7 @@ function postacie() {
   var lista = Object.keys(D.postacie).filter(function (k) { return k !== "_slownik"; }).map(function (k) { return D.postacie[k]; });
   app.innerHTML = '<div class="start" style="margin-top:2vh"><h1>Postacie graczy</h1><div class="podtytul">Karta do wydruku po polsku (Ctrl+P w przeglądarce).</div><div class="siatka">' +
     (lista.length ? lista.map(function (p) { return '<a class="kafel" href="#/postac/' + esc(p.id) + '"><strong>' + esc(p.imie) + "</strong>" + esc(p.dom) + ", " + esc(p.rok) + ". rok<small>" + esc(p.archetyp || "") + "</small></a>"; }).join("") : "<p class='puste'>Brak zapisanych postaci. Użyj kreatora.</p>") +
-    '</div><p><a href="#/kreator"><button class="glowny">Stwórz nową postać</button></a></p>' + (S.wlasne && S.wlasne.length ? "<h3>Utworzone w przeglądarce</h3><div class='siatka'>" + S.wlasne.map(function (p, i) { return '<a class="kafel" href="#/postac/wlasna-' + i + '"><strong>' + esc(p.imie || "bez imienia") + "</strong>" + esc(p.archetyp || "") + "</a>"; }).join("") + "</div>" : "") + "</div>";
+    '</div><p><a href="#/kreator"><button class="glowny">Stwórz nową postać</button></a> <a href="#/sciaga"><button>Ściąga dla graczy (PDF)</button></a></p><p class="puste">PDF-y do pobrania: <a href="pdf/sciaga-dla-graczy.pdf" download>ściąga</a>, ' + lista.map(function (p) { return '<a href="pdf/karta-' + esc(p.id.replace("gracz.", "")) + '.pdf" download>' + esc(p.imie) + "</a>"; }).join(", ") + ".</p>" + (S.wlasne && S.wlasne.length ? "<h3>Utworzone w przeglądarce</h3><div class='siatka'>" + S.wlasne.map(function (p, i) { return '<a class="kafel" href="#/postac/wlasna-' + i + '"><strong>' + esc(p.imie || "bez imienia") + "</strong>" + esc(p.archetyp || "") + "</a>"; }).join("") + "</div>" : "") + "</div>";
 }
 var SL = null;
 function tlum(nazwa) {

@@ -1,0 +1,52 @@
+(function () {
+"use strict";
+function esc(s) { return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
+function tabelaSlownika(o, naglowki) {
+  var k = Object.keys(o || {});
+  var h = "<table style='width:100%'><thead><tr><th>" + naglowki[0] + "</th><th>" + naglowki[1] + "</th></tr></thead><tbody>";
+  k.forEach(function (x) { h += "<tr><td>" + esc(x) + "</td><td>" + esc(o[x]) + "</td></tr>"; });
+  return h + "</tbody></table>";
+}
+window.renderSciaga = function (app) {
+  var sl = window.DANE.postacie._slownik || {};
+  var kb = [
+    ["1", "Wstrząśnięty", "Roztrzęsiony", "+1", "sekundy"], ["2", "Posiniaczony", "Oszołomiony", "+2", "minuty"],
+    ["3", "Zakrwawiony", "Wyczerpany", "+3", "godziny"], ["4", "Złamany", "Zdezorientowany", "+5", "dni"],
+    ["5", "Gasnący", "Majaczący", "+7", "tygodnie"], ["6", "Bez życia", "Bez świadomości", "brak akcji", "miesiące"]
+  ];
+  var strona1 = '<div class="strona"><h1>Ściąga dla graczy: jak czytać kartę postaci i jak się gra</h1>' +
+    '<p>Kartę czytasz od góry. Nie musisz pamiętać liczb: MG powie, <b>czego użyć</b>. Terminy z podręcznika (Walker, <i>Harry Potter The Roleplaying Game</i>, 2. edycja) zostały po angielsku w nawiasach, bo tak je zapisano w zasadach. Szkolne przedmioty i zaklęcia mają nazwy z polskich wydań książek.</p>' +
+    '<div class="kol">' +
+    '<h2>1. Jak się gra</h2><p>MG opisuje, co widzisz. Ty mówisz, <b>co twoja postać robi lub mówi</b>, jak w teatrze: nie ma złych odpowiedzi. Gdy wynik jest niepewny, MG prosi o rzut. Większość scen rozwiązuje się rozmową, bez kości.</p>' +
+    '<h2>2. Rzut kością (test)</h2><p>Potrzebujesz <b>jednej kości dziesięciościennej (1D10)</b>. Rzucasz i dodajesz <b>jedną cechę</b> oraz <b>jedną umiejętność</b>, które wskazał MG (np. Bystrość + Spostrzegawczość). Jeśli wynik jest <b>równy trudności lub wyższy</b>, udaje się.</p>' +
+    '<table style="width:100%"><thead><tr><th>Trudność</th><th>Próg</th><th>Przykład</th></tr></thead><tbody><tr><td>Elementarna</td><td>3</td><td>prawie zawsze się udaje</td></tr><tr><td>Prosta</td><td>6</td><td>zwykła czynność</td></tr><tr><td>Podstawowe zaklęcie</td><td>9</td><td>np. Lumos</td></tr><tr><td>Podchwytliwa</td><td>12</td><td>wymaga uwagi</td></tr><tr><td>Wymagająca</td><td>15</td><td>trudne</td></tr><tr><td>Ambitna</td><td>18</td><td>bardzo trudne</td></tr><tr><td>Potężne wyzwanie</td><td>21</td><td>dla najlepszych</td></tr><tr><td>Prawie niemożliwa</td><td>25</td><td>cud</td></tr></tbody></table>' +
+    '<p><b>Jak dobrze poszło?</b> Wynik poniżej połowy trudności: porażka kompromitująca. Poniżej trudności: porażka. Co najmniej trudność: sukces. <b>Co najmniej 2×</b> trudność: sukces imponujący. <b>3×</b>: niewiarygodny. Mocny wynik daje lepszy skutek, np. dłuższe działanie zaklęcia albo dodatkowy cel (w walce zob. punkt 10).</p>' +
+    '<p><b>Pomoc:</b> każda osoba, która aktywnie ci pomaga, daje +1 do rzutu (najwyżej dwie osoby).</p>' +
+    '<h2>3. Punkty fabularne (Story Points)</h2><p>Dostajesz je za ważne chwile: pierwsze razy, osobiste zwycięstwa, ukończoną przygodę, naukę na lekcji. <b>Po nieudanym rzucie</b> możesz wydać 1 punkt i <b>dorzucić jeszcze 1D10</b> do wyniku. Do jednego rzutu tylko raz. Na start półkrwi mają 3, reszta 0. Punkty służą też do trwałego rozwoju postaci (poproś MG).</p>' +
+    '<h2>4. Górna część karty</h2><ul><li><b>Pochodzenie:</b> mugolskiego (rodzice bez magii; bonus +5 do Mugoloznawstwa), półkrwi (3 Story Points) albo czystej krwi (rodzina czarodziejów, ród daje 3 punkty w wybranych umiejętnościach).</li><li><b>Cecha rzadka (Rare Trait):</b> wyjątkowy dar. Zwykle brak; losuje MG.</li><li><b>Dom, rok, wiek:</b> szósty rok, 16 lat. Domy: Gryffindor, Slytherin, Ravenclaw, Hufflepuff.</li></ul>' +
+    '<h2>5. Cechy (Attributes)</h2><p>Pięć wrodzonych zdolności, zwykle od 1 do 10. Wyższa liczba to lepiej.</p><ul><li><b>Żywotność (Vitality):</b> odporność na rany.</li><li><b>Szybkość (Speed):</b> zwinność, uniki, bieg.</li><li><b>Bystrość (Wits):</b> spostrzegawczość, refleks, celowanie zaklęciem w walce.</li><li><b>Wiedza (Knowledge):</b> teoria, pamięć, eliksiry.</li><li><b>Skupienie (Focus):</b> rzucanie zaklęć, koncentracja.</li></ul>' +
+    '<h2>6. Umiejętności (Skills)</h2><p>Wyuczone biegłości: liczba, którą dodajesz do rzutu. Umiejętności, których nie ma na karcie, to <b>0</b> (możesz próbować, ale bez dodatku). Osiem <b>przedmiotów podstawowych</b> (Zaklęcia, Obrona przed Czarną Magią, Transmutacja, Eliksiry, Zielarstwo, Astronomia, Historia Magii, Teoria Magii) uczą wszyscy. Reszta to fakultety i talenty (Skradanie się, Podstęp, Spostrzegawczość…).</p>' +
+    '<p><b>Specjalizacja (Specialism):</b> przy umiejętności 5 lub więcej, +1 do rzutu w wąskim zakresie wpisanym w nawiasie (np. Zaklęcia (Naprawianie)).</p>' +
+    '<p><b>Przedmioty 6. roku:</b> to przedmioty zdane na SUM-ach (Standardowych Umiejętnościach Magicznych; wymagane co najmniej 3 punkty), na które nadal chodzisz na lekcje.</p>' +
+    '<h2>7. Różdżka</h2><ul><li><b>Drewno i rdzeń:</b> dają <b>premie do rzutu</b>, gdy rzucane zaklęcie należy do wymienionej grupy (np. „Magia lecznicza +2” przy Episkey). Premie sumujesz z rzutem zaklęcia.</li><li><b>Długość, giętkość, wytrzymałość:</b> opis różdżki; wytrzymałość (zapis w kościach, np. 2D+2) mówi, ile zniesie uszkodzeń.</li><li><b>Lojalność różdżki (Wand Loyalty):</b> utrudnia innym czarowanie twoją różdżką.</li><li><b>Cudza różdżka:</b> +5 do trudności zaklęć plus jej lojalność. <b>Uszkodzona:</b> +5.</li></ul>' +
+    '<h2>8. Zwierzę i zdrowie</h2><p><b>Zwierzę:</b> towarzysz (sowa, kot, ropucha). Nosi listy, pomaga fabule, nie ma liczb.</p>' +
+    '<p><b>Zdrowie:</b> dwa tory: <b>Ciało (Body)</b> i <b>Umysł (Mind)</b>. Zaznaczasz kółka od lewej ołówkiem. <b>Każde zaznaczone kółko to kara do trudności wszystkich twoich rzutów</b> (kary ciała i umysłu się sumują).</p>' +
+    '<table style="width:100%"><thead><tr><th>Kółko</th><th>Ciało</th><th>Umysł</th><th>Kara</th><th>Powrót do zdrowia</th></tr></thead><tbody>' + kb.map(function (r) { return "<tr>" + r.map(function (c) { return "<td>" + c + "</td>"; }).join("") + "</tr>"; }).join("") + '</tbody></table>' +
+    '<p><b>Jak dostajesz rany:</b> po trafieniu rzucasz 1D10 + Żywotność. Obrażenia mniejsze: brak rany. Równe lub większe: 1 kółko. Co najmniej 2× więcej: 2 kółka i test przytomności. Co najmniej 3×: 3 kółka i trudniejszy test. Rany ciała leczą się odpoczynkiem, drobne także zaklęciami, np. Episkey.</p>' +
+    '</div></div>';
+
+  var strona2 = '<div class="strona"><h1>Ściąga, strona 2: zaklęcia, walka i słowniczek</h1><div class="kol">' +
+    '<h2>9. Arkusz zaklęć i eliksirów</h2><ul><li>Każde zaklęcie ma <b>kratki</b>. Liczba kratek to koszt nauki: 1 kratka to zaklęcie podstawowe (trudność 9), 2 kratki to trudność 12, 3 kratki to trudność 15 lub więcej.</li><li><b>Pierwsza pusta kratka</b> od lewej pokazuje <b>aktualną trudność</b> zaklęcia. Gdy zaznaczysz wszystkie, zaklęcie jest <b>opanowane (Mastered)</b>.</li><li>W tej kampanii wszystkie zaklęcia na twojej karcie są <b>już opanowane</b>: zaznaczone do końca. Poza walką zwykle nie musisz rzucać kością, wystarczy powiedzieć, że czarujesz. W walce rzut jest potrzebny.</li><li>Nowe zaklęcia poznasz na lekcjach i z książek. Kratkę daje nauka, a nie każdy udany rzut. <b>Zaklęcie Tempus</b> poznacie w trakcie gry, nie ma go na kartach.</li></ul>' +
+    '<h2>10. Rzucanie zaklęcia i pojedynek</h2><ul><li><b>Zaklęcie:</b> 1D10 + Skupienie + umiejętność zaklęcia: <b>Zaklęcia</b> (urok, np. Alohomora), <b>Obrona przed Czarną Magią</b> (jinxy i hexy, np. Flipendo, Impedimenta), <b>Transmutacja</b> (np. Incendio). MG powie, którą. Do rzutu dodaj premię różdżki, jeśli pasuje grupa.</li><li><b>Eliksir:</b> 1D10 + Wiedza + Eliksiry, rzucasz raz po zakończeniu warzenia.</li><li><b>Pojedynek:</b> w rundzie masz <b>dwie akcje</b>. Inicjatywa: 1D10 + Szybkość + Pojedynkowanie. Atak: 1D10 + Bystrość + Pojedynkowanie (albo umiejętność zaklęcia, jeśli wyższa; przypomni MG). Obrona: <b>unik</b> (1D10 + Szybkość + Bystrość, darmowy) albo tarcza <b>Protego</b> (1D10 + Bystrość + Zaklęcia, zużywa akcję, tylko gdy opanowane).</li><li>W walce <b>trafiają tylko zaklęcia opanowane</b>. Atak trafia, gdy wynik jest równy celowi lub wyższy.</li><li><b>Mocny rzut:</b> wynik co najmniej 2× celu wzmacnia zaklęcie (np. Flipendo zabiera wrogowi więcej akcji, iskry zadają więcej obrażeń), 3× jeszcze mocniej. W <b>pojedynkach szkolnych i pokazach</b> to tylko efektowny opis, bez ran.</li></ul>' +
+    '<h2>11. Co powiedzieć, gdy nie wiesz, co robić</h2><p>Powiedz MG: „Chcę spróbować…” i opisz, co postać robi. Zapytaj: „Czego tu użyję?”. MG wskaże cechę i umiejętność. Możesz zawsze zagrać rozmową, ukryciem, pomysłem lub poprosić o pomoc kolegów z drużyny. Porażka kosztuje czas, komfort albo reputację, rzadko coś więcej.</p>' +
+    '<h2>12. Słowniczek</h2><ul><li><b>MG:</b> Mistrz Gry (w podręczniku Narrator).</li><li><b>D10 / 1D10:</b> kość dziesięciościenna. <b>2D+2</b> to dwie kości plus 2.</li><li><b>SUM:</b> egzamin na koniec 5. roku.</li><li><b>Test:</b> rzut kością, by sprawdzić, czy się udaje.</li><li><b>Kółko:</b> pole na rany ciała lub umysłu.</li><li><b>Kratka:</b> pole na arkuszu zaklęć.</li></ul>' +
+    '<h2>Cechy i umiejętności: angielski → polski</h2>' + tabelaSlownika(sl.umiejetnosci, ["Termin na karcie", "Po polsku"]) +
+    '<h2>Grupy premii różdżki: angielski → polski</h2>' + tabelaSlownika(sl.grupy_premii_rozdzki, ["Termin na karcie", "Po polsku"]) +
+    '<p class="malo" style="font-size:6.6pt">Nazwy przedmiotów szkolnych i zaklęć pochodzą z polskich wydań książek. Grupy premii różdżki nie mają oficjalnego polskiego przekładu systemu, więc to tłumaczenia robocze.</p>' +
+    '<h2>Drewna, rdzenie, giętkość</h2><p>' + (function () { var o = Object.assign({}, sl.rdzenie_i_drewna, sl.gietkosc); return Object.keys(o).map(function (k) { return esc(k) + " = " + esc(o[k]); }).join("; "); })() + '.</p>' +
+    '</div></div>';
+
+  app.innerHTML = '<div class="karta-nawig"><a href="#/postacie"><button>← Postacie</button></a><a href="pdf/sciaga-dla-graczy.pdf" download><button>Pobierz PDF (2 strony A4)</button></a><button id="druk">Drukuj / zapisz jako PDF</button></div><div class="sciaga">' + strona1 + strona2 + "</div>";
+  document.getElementById("druk").onclick = function () { window.print(); };
+};
+})();
