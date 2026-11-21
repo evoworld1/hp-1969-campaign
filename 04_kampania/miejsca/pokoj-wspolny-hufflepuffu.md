@@ -54,7 +54,14 @@ test:
   opis: "Postać spoza Hufflepuffu próbuje sama otworzyć wejście, podglądając rytm stukania."
   kto: jeden
   rzut: "1D10 + Wits + Observation"
-  trudnosc: "DO-USTALENIA"
+  trudnosc: "Challenging (15)"
+  modyfikatory:
+    - warunek: "Postać zapyta Ansela (jeśli jest przy niej), jak stuka; rytm jest „prawie dobry”"
+      wartosc: "+2 do rzutu"
+    - warunek: "Postać podgląda rytm co najmniej dwa razy (wejście i wyjście Puchona)"
+      wartosc: "+2 do rzutu"
+    - warunek: "Postać ma stan Drained (+3; po scenie 03 albo po przegranym pojedynku w 08), s. 35; Dazed to +2, Rattled +1"
+      wartosc: "+3 do trudności"
   wyniki:
     - wynik: sukces
       efekt: "Pokrywa się odchyla. W środku robi się cicho, a ktoś z szóstego roku Hufflepuffu pyta uprzejmie, ale twardo, czego tu szukasz."

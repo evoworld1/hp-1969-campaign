@@ -43,7 +43,7 @@ Schody schodzą w dół, wąskie i strome, a każdy stopień odzywa się cichym 
 - Jeśli `flaga.karta-u-graczy`: krawędź Karty Pożyczającego pasuje do paska w grzbiecie księgi; margines „XIII” pasuje do kredowych tarcz na ścianie obliczeń (W6); dopisek na odwrocie karty prowadzi do gabloty (W7.2).
 - `flaga.ksiega-zabezpieczenia` (szczegóły w [[przedmiot.zakleta-ksiega]]):
   - *1:* zatrzymane zegary tykają raz, wszystkie naraz; łuna ciemnieje.
-  - *2:* wahadła w galerii same zaczynają się kołysać; hałas.
+  - *2:* wahadła w galerii kołyszą się szerzej i głośniej (+3 do trudności przy ponownym przejściu); hałas.
   - *3:* zegary ruszają wszystkie naraz, sala bije trzynaście uderzeń, po trzynastym schody się zamykają. Ucieczka przez galerię wahadeł (teraz tną szybko) i po tykających schodach. Kto nie zdąży: siatka bezpieczeństwa 8 (`flaga.ksiega-zlapani`).
   - *Po ucieczce:* po kilku minutach wszystko wraca do bezruchu; zegary znów stoją, każdy na swojej dawnej godzinie.
 - Gdy `flaga.s1-zegar-kradziezy` = 4: Cassian jest w środku i próbuje **zabrać** godzinę gablocie. Szkło matowieje, a on nie umie jej otworzyć (siatka bezpieczeństwa 6). Od księgi trzyma się z daleka.
@@ -54,13 +54,13 @@ Schody schodzą w dół, wąskie i strome, a każdy stopień odzywa się cichym 
 **Odczyt do mapy dryfu.** Nie dotyczy: tu czas stoi. Tempus formuje cyfry powoli, jakby przez wodę; przy gablocie pokazuje lukę sześćdziesięciu minut.
 
 **Zagrożenia i kryjówki.**
-- Galeria wahadeł: uderzenie wahadłem (zadrapanie, siniak; liczby ustala mechanik). Nie zabija.
+- Galeria wahadeł: uderzenie wahadłem to zadrapanie: obrażenia 2D przeciw 1D10 + Vitality, rana najwyżej Shaken (Walker 2e s. 35; liczby sceny 09). Nie zabija.
 - Zaklęta księga: porażenie przy dotyku, przy próbie wyrwania kartki pełne zabezpieczenia i ucieczka. Ciężkie obrażenia i zaklęcie zapomnienia tylko dla tych, którzy nie zdążą; śmierć wyłącznie jako świadomy wybór gracza po dwóch ostrzeżeniach poza fikcją (zob. [[przedmiot.zakleta-ksiega]]; siatka bezpieczeństwa 8).
 - Pokusa ściany: nauczenie się pożyczania chwili to ryzyko moralne, nie fizyczne.
 - Kryjówki: za wielkim zegarem jak drzwi, w niszy pod schodami. Filch tu nie zejdzie (nie widzi drzwi). Zagrożenie z góry przychodzi dopiero po trzynastym biciu albo po hałasie zabezpieczeń księgi.
 
 ### Do weryfikacji
-- Całe miejsce jest nasze. Liczby zabezpieczeń i ucieczki są w karcie [[przedmiot.zakleta-ksiega]]; trudność galerii wahadeł do ustalenia (propozycja mechanika: Tricky, 12).
+- Całe miejsce jest nasze. Liczby zabezpieczeń i ucieczki są w karcie [[przedmiot.zakleta-ksiega]]; galeria wahadeł: Tricky (12), poziom 2 księgi +3 do trudności, poziom 3 to ucieczka (Challenging, 15) w karcie księgi i scenie 09.
 
 ## Ukryte
 
@@ -80,10 +80,24 @@ test:
   opis: "Grupa przechodzi przez galerię wahadeł. Cena, nie bramka: przejście jest zawsze."
   kto: grupa
   rzut: "1D10 + Speed + Balance"
-  trudnosc: "DO-USTALENIA"
+  trudnosc: "Tricky (12)"
+  modyfikatory:
+    - warunek: "Idą po śladach z kurzu (krótki krok, długi, krótki) albo Ansel pokazuje rytm pani profesor"
+      wartosc: "+2 do rzutu"
+    - warunek: "Każda inna postać, która pomaga prowadzącej (Working Together, s. 4)"
+      wartosc: "+1 do rzutu"
+    - warunek: "Ktoś liczy rytm wahadeł na głos (raz na test)"
+      wartosc: "+1 do rzutu"
+    - warunek: "Poziom zabezpieczeń księgi 2 (wahadła szerzej i głośniej), ponowne przejście"
+      wartosc: "+3 do trudności"
+    - warunek: "Stan ciała prowadzącej (Shaken +1, Bruised +2, Bloodied +3; s. 35)"
+      wartosc: "+1 do trudności"
   wyniki:
     - wynik: sukces
       efekt: "Przechodzą w rytmie wahadeł, cicho i bez strat."
+      flagi_ustaw: []
+    - wynik: sukces-imponujacy
+      efekt: "Jak sukces, a grupa łapie rytm tak dobrze, że przy ucieczce (poziom 3) na odcinku galerii ma +1 do rzutu."
       flagi_ustaw: []
     - wynik: porazka
       efekt: "MG wybiera jedną cenę: hałas (Filch na górze zaczyna nasłuchiwać), stracone minuty (bliżej kolejnego przejścia Filcha) albo zadrapanie dla jednej postaci."

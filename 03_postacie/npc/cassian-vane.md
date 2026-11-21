@@ -93,10 +93,10 @@ statystyki:
   id: npc.cassian-vane.statystyki
   system: walker-2e-draft-2026-04
   wartosci:
-    # Uzupełnione minimalnie 2026-11-20 (czytanie blefu w 01; obrona przed kradzieżą zegarka, która obowiązuje dopiero od wieczoru po 04).
-    # Pozostałe umiejętności, zaklęcia, różdżka i pochodzenie: do uzupełnienia przy scenach 04 i 08.
+    # Uzupełnione 2026-11-21 (mechanik, tryb przyspieszony). Liczby zgodne ze scenami 04 i 08: atak 1D10 + 12, unik 1D10 + 10, czytanie blefu 1D10 + 11, czujność 1D10 + 10.
     rodzaj: czarodziej
-    poziom: "Gifted student"      # s. 102; jak postacie graczy: cechy 22 (zakres Top of the class), umiejętności w zakresie Gifted student
+    poziom: "Gifted student"      # s. 102; cechy 22 (zakres Top of the class, jak postacie graczy), umiejętności 42 (zakres Gifted student 41-60)
+    lineage: Pure-blood           # założenie robocze (nazwisko Vane spoza Sacred Twenty-Eight, s. 7); do decyzji MG
     school: "Hogwarts (1964)"
     year: 6
     house: Slytherin
@@ -106,17 +106,38 @@ statystyki:
       Wits: 6
       Knowledge: 4
       Focus: 5
-    umiejetnosci:                 # tylko te, których już potrzebuje scena 01
-      Observation: 4
+    umiejetnosci:
+      Duelling: 5
       Chicanery: 5
+      Charms: 5
+      D.A.D.A.: 5
+      Observation: 4
+      Potions: 4
+      Persuasion: 4
+      Transfiguration: 3
+      Magical Theory: 3
       Balance: 2
+      Stealth: 2
+    zaklecia:                     # nazwa: aktualna trudność (0 = opanowane); tylko opanowane trafiają w pojedynku (ZD-06 a)
+      Flipendo: 0
+      Trip Jinx: 0
+      Rictusempra: 0
+      Expelliarmus: 0
+      Impedimenta: 0
+      Protego: 0
+      Tempus: 0
+      Accio: 0
+      Stupefy: 15
+    patronus: brak
+    rozdzka: "Modrzew (Larch), Duelling +1 i Wand Resilience +3 (Walker 2e s. 28); rdzeń bez premii do tej sceny. Atak w pojedynku: Wits 6 + Duelling 5 + 1 = 12"
+    zdrowie: {body: 0, mind: 0}
   zdolnosci_specjalne:
     - nazwa: "Skradzione Chwile"
-      opis: "Póki ma zegarek, kilka razy w czasie pojedynku działa poza kolejnością (dodatkowe akcje ponad dwie akcje w rundzie według Walkera, Round/Actions s. 33). Za każdym razem dotyka kieszonki i się wzdryga (sygnał). Postać, która nazwała sygnał na głos, może go uprzedzić. Liczbę użyć i dokładny efekt ustala mechanik."
+      opis: "Zdolność nasza (zasada domowa), możliwa tylko póki ma przy sobie zegarek. Pula: 2 Chwile na całą walkę w pojedynku ze sceny 08, wydawane w rundach 1 i 2 (po jednej); w pokazie u Wrena (scena 04) pula wynosi 3 i jedna Chwila idzie na każdą rundę. Chwila daje dwie akcje jedną po drugiej, zanim przeciwnik wykona pierwszą (ponad zwykłe dwie akcje na rundę, Walker 2e s. 33; kolejność akcji jak ZD-08). W pojedynku uproszczonym ze sceny 08 oznacza to dwa ataki Cassiana przed jednym atakiem postaci. Przed każdą Chwilą: dwa palce w kieszonce, zegarek wysunięty do połowy, po niej wzdrygnięcie (sygnał, flaga.sygnal-cassiana-nazwany). Kto zna sygnał, działa przed Chwilą, a drugi atak Cassiana z tej Chwili ma -2 do rzutu. Wariant na później (propozycja, nie decyzja): pula 2 + flaga.s1-zegar-kradziezy, najwyżej 5."
     - nazwa: "Zegarek jako słaby punkt"
-      opis: "Wytrącenie albo odebranie zegarka odbiera Skradzione Chwile do końca sceny i obniża jego skuteczność w walce. Mechanik ustala trudność celowania w kieszonkę."
+      opis: "Wytrącenie albo odebranie zegarka kończy Chwile do końca sceny i daje Cassianowi -2 do wszystkich rzutów (jest niewyspany i patrzy na zegarek, nie na przeciwnika); w pojedynku liczy się jako trafienie postaci. Expelliarmus (s. 51) po uprzedzeniu sygnału, gdy zegarek jest w jego palcach: bez kary do trudności. Accio (s. 47) na kieszonkę: zaklęcie celowane w mały osłonięty cel, cel ataku to jego unik 1D10 + 10 plus 4 (osłona około 40%, s. 165). Wytrzymałość samego zegarka przy niszczeniu: 15 (zob. przedmiot.zegarek-cassiana). W pokazie u Wrena skutek jest chwilowy: Wren odbiera zegarek i oddaje go Cassianowi."
     - nazwa: "Zabranie godziny"
-      opis: "Po wygranym pojedynku zabiera przegranemu godzinę na oczach wszystkich. Przegrany przegapia coś małego i ważnego następnego dnia. Czy daje to stan Drained (wyczerpanie umysłu, +3 do trudności), ustala mechanik razem z regułą straconej godziny."
+      opis: "Po wygranym pojedynku (3 trafienia Cassiana) zabiera przegranemu godzinę na oczach wszystkich, bez rzutu. Przegrany ma stan Drained (+3 do trudności) do pierwszego posiłku następnego dnia (reguła jednolita z graf-scen.md) i przegapia coś małego i ważnego. Druga godzina nie zmienia kotwicy Ansela."
     - nazwa: "Czytanie przeciwnika"
       opis: "Dobry w teście przeciwnym (Opposed Test, s. 4) na wykrywanie blefu; tak samo dobrze blefuje. Para: Wits + Chicanery (1D10 + 11), bo Chicanery obejmuje też wyczucie oszustwa i dwulicowości (s. 21). Na kradzież i fizyczne podejście do kieszonki reaguje czujnością: Wits + Observation (1D10 + 10, s. 4); test kradzieży rzuca się dopiero od wieczoru po scenie 04, wcześniej próba zawsze się nie udaje (decyzja MG 2026-11-20). To nie zdolność spoza zasad, tylko wysoka Chicanery."
 ```
@@ -128,5 +149,5 @@ statystyki:
 - Niezdobyta odznaka prefekta to szczegół wykonawczy; nie zmienia fabuły.
 - Oparzona, zabandażowana lewa dłoń i wymówka „kociołek”: szczegóły wykonawcze Twórcy NPC (graf mówi tylko o oparzonej dłoni). Kształt oparzenia (pręgi jak od wskazówek) to propozycja; MG może ją pominąć. Pani Pomfrey jako uzdrowicielka w 1969: do sprawdzenia u strażnika kanonu.
 - Karta Pożyczającego działa tylko razem z jego zegarkiem (decyzja MG 2026-11-20).
-- Mechanik: liczby pojedynku, Skradzione Chwile, efekt zabranej godziny. Cechy i trzy umiejętności uzupełnione 2026-11-20 (czytanie blefu w 01, obrona przed kradzieżą po 04); reszta przy scenach 04 i 08.
+- Mechanik (2026-11-21): statystyki uzupełnione (Duelling 5, pula 2 Chwil w pojedynku, zegarek jako słaby punkt, zaklęcia, różdżka z modrzewia). Do decyzji MG: pochodzenie Pure-blood (założenie robocze).
 - Pochodzenie (Lineage) Cassiana nie jest ustalone; nazwisko Vane nie należy do „Sacred Twenty-Eight” (s. 7). Decyzja dla MG albo twórcy NPC.

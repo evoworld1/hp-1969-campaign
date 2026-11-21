@@ -45,7 +45,7 @@ Gruby notatnik w miękkiej, ciemnej skórze, wytartej na rogach od dłoni, któr
 
 ## Mechanika
 
-Przedmiot bez statystyk. Liczby dla otwarcia gabloty, wyłamania i ewentualnego niszczenia ustala mechanik w pliku sceny 09. Poniższy test to opcjonalny kolor: pozwala postaci z wiedzą o teorii magii zrozumieć, że notatnik jest „przywiązany”, zanim ktoś spróbuje go wynieść.
+Przedmiot bez statystyk. Otwarcie gabloty i wybór sposobu (bez rzutu, cena godziny) są w pliku sceny 09; wyłamanie gabloty siłą: zaklęcie rozbijające, Reducto (start 15), blok `s1.scena.09.test.gablota-sila`. Niszczenie notatnika: bez testu, opisane wyżej (notatnik się opiera, zostaje osmalony). Poniższy test to opcjonalny kolor: pozwala postaci z wiedzą o teorii magii zrozumieć, że notatnik jest „przywiązany”, zanim ktoś spróbuje go wynieść.
 
 ```yaml
 test:
@@ -53,7 +53,14 @@ test:
   opis: "Postać przygląda się gablocie i notatnikowi i próbuje zrozumieć, co je łączy, zanim ktoś go dotknie."
   kto: jeden
   rzut: "1D10 + Knowledge + Magical Theory"
-  trudnosc: "DO-USTALENIA"
+  trudnosc: "Challenging (15)"
+  modyfikatory:
+    - warunek: "Postać zna nazwisko Marrow (flaga.marrow-imie-znane) albo widziała ścianę obliczeń"
+      wartosc: "+2 do rzutu"
+    - warunek: "Postać dotyka kredy albo stoi na progu pracowni, gdzie coś ciągnie (zegary milkną)"
+      wartosc: "+1 do rzutu"
+    - warunek: "Postać ma stan Drained (+3; po scenie 03 albo po przegranym pojedynku w 08), s. 35; Dazed to +2, Rattled +1"
+      wartosc: "+3 do trudności"
   wyniki:
     - wynik: sukces
       efekt: "Postać czuje, że notatnik jest z czymś związany, jak łódka przycumowana liną: wyniesienie go poza próg pracowni coś pociągnie. Nie wie co."

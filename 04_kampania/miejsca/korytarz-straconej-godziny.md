@@ -57,7 +57,14 @@ test:
   opis: "Postacie wypytują portret (albo Irytka), co widział podczas straconej godziny."
   kto: jeden
   rzut: "1D10 + Wits + Persuasion"
-  trudnosc: "DO-USTALENIA"
+  trudnosc: 9
+  modyfikatory:
+    - warunek: "Postać ma stan Drained po straconej godzinie (s. 35); 9 + 3 = 12, tak jak w scenie 03"
+      wartosc: "+3 do trudności"
+    - warunek: "Uprzejmość albo pochlebstwo dobrane do świadka (portret: dama dla pani Hask; Irytek: podziw dla jego sprytu)"
+      wartosc: "+2 do rzutu"
+    - warunek: "Każda inna postać, która pomaga w rozmowie (Working Together, s. 4)"
+      wartosc: "+1 do rzutu"
   wyniki:
     - wynik: sukces
       efekt: "Świadek opisuje Ślizgona z zegarkiem: wysoki, ciemne włosy, łańcuszek u kamizelki, gwizdał krótką melodię (W4)."
