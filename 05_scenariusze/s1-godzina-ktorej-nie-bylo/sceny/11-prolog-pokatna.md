@@ -7,7 +7,7 @@ sesja: s1
 akt: "prolog"
 kolejnosc: 0
 czas_min: 40
-cel: "Opcjonalny prolog trzy tygodnie przed szkołą. Przejmuje rolę sceny nauczającej (rozmowa i jeden prosty test), daje pierwszą plotkę o Czarnym Panu i przelotne spotkanie z Crake'iem przy jego witrynie."
+cel: "Opcjonalny prolog w sobotę 30 sierpnia 1969, dwa dni przed początkiem roku szkolnego (około trzech tygodni przed sceną 01, 22 września). Przejmuje rolę sceny nauczającej (rozmowa i jeden prosty test), daje pierwszą plotkę o Czarnym Panu i przelotne spotkanie z Crake'iem przy jego witrynie."
 npc:
   - npc.garrick-ollivander
   - npc.hollis-crake

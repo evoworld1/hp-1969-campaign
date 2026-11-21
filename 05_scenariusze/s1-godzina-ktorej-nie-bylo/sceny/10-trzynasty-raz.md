@@ -28,6 +28,8 @@ flagi_wejscie:
   - flaga.ansel-kontakt
   - flaga.zegarek-cassiana
   - flaga.karta-u-graczy
+  - flaga.zegarek-u-graczy
+  - flaga.sekret-poruszony
 flagi_wyjscie:
   - flaga.trzynasta-wybila
   - flaga.s1-wybor

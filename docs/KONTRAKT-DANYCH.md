@@ -193,6 +193,8 @@ flagi:
     sesja: s1
 ```
 
+Flaga typu `wybor` ma zawsze jakąś wartość, więc warunek `wymaga_flag` na niej jest zawsze spełniony; gdy trzeba rozróżnić stan, używa się pomocniczej flagi `bool`, a MG zdejmuje ją ręcznie, gdy stan się zmienia (efekt bloku `flagi_ustaw` tylko ustawia flagi na prawdę).
+
 ## 7. Indeks dla panelu
 
 `python3 narzedzia/walidator.py --indeks` generuje `indeks.json` w katalogu głównym. Plik zawiera wszystkie obiekty z nagłówkami, ścieżkami, listą bloków danych i flagami. Panel może czytać albo indeks, albo bezpośrednio pliki `.md`.

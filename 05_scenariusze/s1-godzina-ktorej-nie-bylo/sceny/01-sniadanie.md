@@ -30,6 +30,7 @@ flagi_wejscie:
   - flaga.s1-prolog-pokatna
   - flaga.crake-poznany
   - flaga.plotka-o-voldemorcie
+  - flaga.crake-urazony
 flagi_wyjscie:
   - flaga.plotka-o-voldemorcie
   - flaga.plotka-duch-puchona
@@ -37,6 +38,7 @@ flagi_wyjscie:
   - flaga.crake-poznany
   - flaga.crake-dluga-rozmowa
   - flaga.cassian-czujny
+  - flaga.crake-urazony
 nastepne: [s1.scena.02]
 tagi: [s1, nauka-gry, sygnaly-dziwnosci, grupa-wrena, ansel-odbicie, crake, plotka]
 zrodla:
@@ -488,6 +490,18 @@ dialog:
 ```
 
 Wariant `flaga.crake-urazony` (postać była niegrzeczna wobec Crake'a w prologu): wobec niej jedno chłodno uprzejme zdanie („Przepraszam, pan woźny na mnie czeka.”) i brak testu; pozostałe postacie rozmawiają z nim normalnie.
+
+```yaml
+rozgalezienie:
+  id: s1.scena.01.rozgalezienie.niegrzecznosc-wobec-crakea
+  rodzaj: awaryjne
+  warunek: "Postać jest niegrzeczna, szydzi albo grozi Crake'owi w Wielkiej Sali."
+  wymaga_flag: []
+  wyklucza_flagi: []
+  efekt: "Crake uprzejmie się wycofuje (zob. dialog z wariantem flaga.crake-urazony), zapamiętuje twarz i wobec tej postaci nie wchodzi już w test pogawędki. Nie karzemy zaklęcia ani żartu mechanicznie, a nic z drogi do wskazówek nie jest zablokowane (inne postacie rozmawiają z nim normalnie)."
+  flagi_ustaw: [flaga.crake-urazony]
+  prowadzi_do: s1.scena.01
+```
 
 ### Argus Filch w drzwiach
 

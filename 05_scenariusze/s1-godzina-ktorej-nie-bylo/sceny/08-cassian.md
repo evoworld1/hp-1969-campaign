@@ -41,6 +41,9 @@ flagi_wyjscie:
   - flaga.sekret-poruszony
   - flaga.wren-podejrzewa
   - flaga.cassian-czujny
+  - flaga.zegarek-zniszczony
+  - flaga.zegarek-skonfiskowany
+  - flaga.dumbledore-powiadomiony
 nastepne:
   - s1.scena.09
   - s1.scena.12
@@ -747,7 +750,7 @@ test:
       wartosc: "+3 do trudności"
   wyniki:
     - wynik: sukces
-      efekt: "Szkiełko pęka (tekst 6). Zegarek zniszczony: koniec Skradzionych Chwil, część godzin ofiar wraca (np. Maisie nagle pamięta swój kwadrans), Ansel migocze do końca sceny. Reparo składa obudowę, ale nie przywraca magii. Zakończenie „moc” przepada: `flaga.zegarek-cassiana` = zniszczony, `flaga.zegarek-u-graczy` fałsz."
+      efekt: "Szkiełko pęka (tekst 6). Zegarek zniszczony: koniec Skradzionych Chwil, część godzin ofiar wraca (np. Maisie nagle pamięta swój kwadrans), Ansel migocze do końca sceny. Reparo składa obudowę, ale nie przywraca magii. Zakończenie „moc” przepada: `flaga.zegarek-cassiana` = zniszczony, `flaga.zegarek-u-graczy` fałsz. Zegarek-u-graczy: fałsz (MG zdejmuje flagę ręcznie; stan wynika z zegarek-cassiana)."
       flagi_ustaw: [flaga.zegarek-cassiana, flaga.zegarek-zniszczony, flaga.cassian-zdemaskowany]
     - wynik: porazka
       efekt: "Zegarek odskakuje, rysa na szkiełku się wydłuża, w środku tyka głośniej. Cassian czuje ukłucie w piersi i wie, że ktoś próbował. Można spróbować znowu."
@@ -830,7 +833,7 @@ rozgalezienie:
   warunek: "Postacie niszczą zegarek Cassiana."
   wymaga_flag: []
   wyklucza_flagi: []
-  efekt: "Ansel na chwilę migocze, gdziekolwiek jest; część skradzionych godzin wraca do ofiar (Maisie nagle pamięta swój kwadrans), ale godzina drużyny nie wraca (kotwica Ansela). Zegar kradzieży staje. Zakończenie „moc” przepada: `flaga.zegarek-cassiana` = zniszczony, `flaga.zegarek-u-graczy` fałsz (zegarek zniszczony nie otwiera „mocy”)."
+  efekt: "Ansel na chwilę migocze, gdziekolwiek jest; część skradzionych godzin wraca do ofiar (Maisie nagle pamięta swój kwadrans), ale godzina drużyny nie wraca (kotwica Ansela). Zegar kradzieży staje. Zakończenie „moc” przepada: `flaga.zegarek-cassiana` = zniszczony, `flaga.zegarek-u-graczy` fałsz (zegarek zniszczony nie otwiera „mocy”). Zegarek-u-graczy: fałsz (MG zdejmuje flagę ręcznie; stan wynika z zegarek-cassiana)."
   flagi_ustaw: [flaga.zegarek-cassiana, flaga.zegarek-zniszczony, flaga.cassian-zdemaskowany]
   prowadzi_do: s1.scena.09
 ```
@@ -904,7 +907,7 @@ rozgalezienie:
   warunek: "Zegarek jest u postaci (kradzież, pojedynek, targ, litość) i postacie niosą go Wrenowi, McGonagall albo Filchowi."
   wymaga_flag: []
   wyklucza_flagi: []
-  efekt: "Nauczyciel bierze zegarek, waży go w dłoni, nie otwiera („Zostanie u mnie”). Zegarek u nauczyciela sam nic nie podbiera, więc zegar kradzieży staje, a magia karty bez niego nie działa (decyzja MG). Wren wezwie Cassiana po lekcjach i nie ujawni, kto przyniósł zegarek. Jeśli w targu obiecano Cassianowi milczenie wobec Wrena, jest to złamana umowa: Cassian staje się rywalem, nie dłużnikiem, i nie przynosi karty (ale lokalizacja, jeśli padła, pozostaje). W przeciwnym razie Cassian ma ulgę, strach i brak sił na wrogość. Droga do pracowni zostaje otwarta. Zakończenie „moc” (karta plus zegarek) przepada do czasu, aż ktoś zegarek odzyska."
+  efekt: "Nauczyciel bierze zegarek, waży go w dłoni, nie otwiera („Zostanie u mnie”). Zegarek u nauczyciela sam nic nie podbiera, więc zegar kradzieży staje, a magia karty bez niego nie działa (decyzja MG). Wren wezwie Cassiana po lekcjach i nie ujawni, kto przyniósł zegarek. Jeśli w targu obiecano Cassianowi milczenie wobec Wrena, jest to złamana umowa: Cassian staje się rywalem, nie dłużnikiem, i nie przynosi karty (ale lokalizacja, jeśli padła, pozostaje). W przeciwnym razie Cassian ma ulgę, strach i brak sił na wrogość. Droga do pracowni zostaje otwarta. Zakończenie „moc” (karta plus zegarek) przepada do czasu, aż ktoś zegarek odzyska. Zegarek-u-graczy: fałsz (MG zdejmuje flagę ręcznie; stan wynika z zegarek-cassiana)."
   flagi_ustaw: [flaga.zegarek-cassiana, flaga.zegarek-skonfiskowany, flaga.wren-podejrzewa, flaga.cassian-los]
   prowadzi_do: s1.scena.09
 ```
@@ -952,7 +955,7 @@ rozgalezienie:
   warunek: "Postacie niszczą zegarek od razu, zanim Cassian cokolwiek powie o pracowni."
   wymaga_flag: []
   wyklucza_flagi: []
-  efekt: "Nie karzemy decyzji. Czytaj tekst 6, a zaraz potem tekst 5: Cassian, który nie ma już nic do ukrycia ani do obrony, siada i mówi sam, trzema zdaniami: „Biblioteka. Ostatni rząd.”, księga, „wszystko się obudziło”. Gablotę dopowiada tylko, jeśli ktoś zapyta („Ona nie daje się brać”). Prosi o jedno: „Nie mówcie Wrenowi. Nie mówcie ojcu.” Zegarek jest zniszczony, a zakończenie „moc” przepada; karta zostaje w kufrze Cassiana jako wskazówka z dopiskiem na odwrocie (jeśli ją przyniesie, W7.2 pozostaje tylko wskazówką, bo karta bez zegarka nie działa). Ansel migocze, część godzin ofiar wraca, godzina drużyny nie wraca (kotwica Ansela). Cassian jest wolny od Chwil, wyczerpany, z ulgą mieszającą się ze strachem. Jeśli postacie okażą mu troskę, zostaje sojusznikiem; jeśli triumfują, rywalem."
+  efekt: "Nie karzemy decyzji. Czytaj tekst 6, a zaraz potem tekst 5: Cassian, który nie ma już nic do ukrycia ani do obrony, siada i mówi sam, trzema zdaniami: „Biblioteka. Ostatni rząd.”, księga, „wszystko się obudziło”. Gablotę dopowiada tylko, jeśli ktoś zapyta („Ona nie daje się brać”). Prosi o jedno: „Nie mówcie Wrenowi. Nie mówcie ojcu.” Zegarek jest zniszczony, a zakończenie „moc” przepada; karta zostaje w kufrze Cassiana jako wskazówka z dopiskiem na odwrocie (jeśli ją przyniesie, W7.2 pozostaje tylko wskazówką, bo karta bez zegarka nie działa). Ansel migocze, część godzin ofiar wraca, godzina drużyny nie wraca (kotwica Ansela). Cassian jest wolny od Chwil, wyczerpany, z ulgą mieszającą się ze strachem. Jeśli postacie okażą mu troskę, zostaje sojusznikiem; jeśli triumfują, rywalem. Zegarek-u-graczy: fałsz (MG zdejmuje flagę ręcznie; stan wynika z zegarek-cassiana)."
   flagi_ustaw: [flaga.zegarek-cassiana, flaga.zegarek-zniszczony, flaga.cassian-zdemaskowany, flaga.lokalizacja-pracowni, flaga.cassian-los]
   prowadzi_do: s1.scena.09
 ```

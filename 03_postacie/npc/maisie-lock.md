@@ -62,4 +62,4 @@ statystyki:
 
 ## Do weryfikacji
 
-- Dokładna data i godzina jej straty (ujawnia je dopiero w scenie 06 albo 12; w 01 tylko „trzecie pytanie, potem dzwonek”): do ustalenia razem ze sceną 06 (musi pasować do sprawdzianu Cassiana w ciągu ostatnich trzech tygodni).
+- Ustalone (s1.scena.06): strata w czwartek 18 września, ok. 11:00, kwadrans (sprawdzian z Transmutacji, trzecie pytanie, potem dzwonek). Ujawnia ją na osobności (kartka) albo Tobias z rejestru godzin. Do zatwierdzenia przez MG; pasuje do sprawdzianu Cassiana w ciągu ostatnich trzech tygodni.

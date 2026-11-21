@@ -254,13 +254,13 @@ Zadry dotykają domu, rodziny i wspólnego sekretu. Jeśli przy stole ustalono, 
 
 Pierwsza kwestia świadka pada **zawsze i bez testu**, zaraz po dzwonie albo gdy postacie rozejrzą się po korytarzu. Dalsze szczegóły daje test świadka. Oba warianty mówią to samo: postacie stały godzinę jak posągi, a obok przeszedł Ślizgon z zegarkiem, który gwizdał.
 
-**Uwaga dla Reżysera:** portret nie ma karty NPC, więc jego blok jest zapisany poniżej w formacie bloku `dialog`, ale w ogrodzeniu `text` (walidator wymaga istniejącego identyfikatora `npc.*`). Po utworzeniu kart wystarczy zmienić ogrodzenie na `yaml` i wpisać identyfikator w polu `npc`.
+**Uwaga dla Reżysera:** portret nie ma karty NPC, więc jego blok jest zapisany poniżej w formacie bloku `dialog` z pustym polem `npc` (walidator wymaga istniejącego identyfikatora `npc.*`, więc nazwa postaci stoi w polu `wyzwalacz`). Po utworzeniu karty wystarczy wpisać identyfikator w polu `npc`.
 
-```text
+```yaml
 dialog:
   id: s1.scena.03.dialog.swiadek-portret
-  npc: npc.ermentruda-hask   # karta do utworzenia (nasze)
-  wyzwalacz: "Zaraz po dzwonie (tekst 3), gdy postacie rozglądają się po korytarzu albo patrzą na zegarki. Wariant łagodniejszy, dla nieśmiałego stołu."
+  npc: ""
+  wyzwalacz: "Mówi: Ermentruda Hask, portret świadka (nasze, bez karty NPC). Zaraz po dzwonie (tekst 3), gdy postacie rozglądają się po korytarzu albo patrzą na zegarki. Wariant łagodniejszy, dla nieśmiałego stołu."
   ton: "staroświecka uprzejmość, oburzenie, plotkarska przyjemność; mówi do uczniów „kochaneczki”"
   kwestie:
     - "Otwarcie (zawsze, bez testu): „No, nareszcie. Staliście jak posągi, kochaneczki, cała wasza gromadka, i ani mru-mru. A jakiś Ślizgon z zegarkiem przeszedł sobie obok i gwizdał.”"

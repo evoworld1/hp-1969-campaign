@@ -53,6 +53,8 @@ flagi_wejscie:
   - flaga.ansel-spotkany
   - flaga.wren-podejrzewa
   - flaga.zegarek-u-graczy
+  - flaga.pracownia-otwarta
+  - flaga.crake-urazony
 flagi_wyjscie:
   - flaga.tempus-opanowane
   - flaga.plotka-duch-puchona
@@ -441,13 +443,13 @@ aktualizacja: 2026-11-20
 
 **Spotkanie A. Kuchnia i skrzaty** (ok. 5 min)
 - Czytaj: tekst A („Wystarczy połaskotać gruszkę…”); wstawka „Ansel nachyla się nad bułeczką…”, gdy postacie zaniosą mu jedzenie.
-- Dialog: `s1.scena.12.dialog.skrzat-kuchnia` — „Panicz głodny? Panienka głodna? Skrzaty dadzą! Ile porcji, proszę? Dwie? Dla kolegi? Skrzaty dadzą dwie!” (bez karty NPC; blok w ogrodzeniu `text`)
+- Dialog: `s1.scena.12.dialog.skrzat-kuchnia` — „Panicz głodny? Panienka głodna? Skrzaty dadzą! Ile porcji, proszę? Dwie? Dla kolegi? Skrzaty dadzą dwie!” (bez karty NPC; blok z pustym polem `npc`)
 - Dialog: `s1.scena.12.dialog.ansel-towarzysz` — „Mogę iść z panem? Będę cicho. Ja umiem być cicho.” (tu tylko kwestie „A”, przy schodach, gdy postacie przyniosą jedzenie)
 - Krótko: kolor i Więź. Skrzaty karmią każdego i nie pytają po co; porcję „dla kolegi” pakują w serwetkę. Kto przyjdzie drugi raz, usłyszy od najmniejszego skrzata zmartwione: „Panicz bierze dwie porcje, a je jedną” (nikt w kuchni Ansela nie widzi). Jedzenie zaniesione Anselowi to +1 do Więzi dla postaci, która je przyniosła (raz w module). Ansel nie je, tylko wdycha zapach; jeśli ktoś poda mu bułeczkę do ręki, ręka przejdzie przez ciasto: pokaż to, nie nazywaj. Zdanie o „czwartkach z cynamonem” to okruch jego czasów, nie wskazówka; nie rozwijaj go. Pytania o Ansela, Marrow albo dawne lata: skrzaty niczego nie pamiętają i trapią się tym tak bardzo, że lepiej zmienić temat. Kuchnia jest też kryjówką: skrzaty nikogo nie wydają (karta [[miejsce.schody-przy-kuchni]]). Zamknięcie: postacie wychodzą z naręczem jedzenia, a skrzaty kłaniają się, dopóki drzwi się nie zamkną.
 
 **Spotkanie C. Portret przy schodach** (ok. 5 min)
 - Czytaj: tekst C („Wśród martwych natur przy schodach…”); wstawka „Kobieta przestaje ugniatać…”, gdy postacie spytają o chłopca, który czeka przy schodach.
-- Dialog: `s1.scena.12.dialog.portret-schody` — „Szukacie kogoś, młodzi? Tu się tylko czeka. Jedni na kolację, drudzy na kogoś, kto nie przychodzi.” (bez karty NPC; blok w ogrodzeniu `text`)
+- Dialog: `s1.scena.12.dialog.portret-schody` — „Szukacie kogoś, młodzi? Tu się tylko czeka. Jedni na kolację, drudzy na kogoś, kto nie przychodzi.” (bez karty NPC; blok z pustym polem `npc`)
 - Flagi: `flaga.marrow-imie-znane`
 - Krótko: portret kucharki (nasza postać, bez karty) Ansela nie widzi, choć chłopiec zwykle siedzi kilka kroków dalej i macha do niej, i nie dziwi się temu. Pamięta strzępy: „dawno temu, jesienią” mały Puchon siadał na najniższym stopniu i czekał na „panią profesor od gwiazd i klepsydr”, a potem przestał przychodzić (założenie robocze). Nazwisko podaje dopiero na uprzejme dopytanie i z trudem: „Marrow. Tak na nią mówili. Zawsze się spieszyła” (rezerwa W2, `flaga.marrow-imie-znane`). Roku nie zna („portrety liczą kolacje, nie lata”), imienia chłopca też nie. Dlaczego pamięta, skoro reszta zamku zapomniała, nie wyjaśniaj; jeśli gracze zapytają, portret sam się dziwi i wraca do ciasta. Ansel, jeśli słyszy, pyta postać szeptem: „Ona mnie pamięta?”. Uczciwa odpowiedź to +1 do Więzi. Zamknięcie: kucharka znowu nuci i fałszuje w tym samym miejscu.
 
@@ -473,7 +475,7 @@ aktualizacja: 2026-11-20
 
 **Spotkanie I. Pierwszoroczniak na schodach** (ok. 5 min, przy zegarze kradzieży 2)
 - Czytaj: tekst I („Na ruchomych schodach jest tłok…”); wstawka „Chłopiec, wciąż na stopniu…”, gdy Ansel jest przy postaci; wstawka „Przez tłum przepycha się prefekt…” na zamknięcie albo wtedy, gdy postacie nic nie robią.
-- Dialog: `s1.scena.12.dialog.pierwszoroczniak` — „Ja nie spałem. Szedłem na Zielarstwo. Która jest godzina? Proszę, która jest godzina?” (bez karty NPC; blok w ogrodzeniu `text`; zawiera też kwestię prefekta)
+- Dialog: `s1.scena.12.dialog.pierwszoroczniak` — „Ja nie spałem. Szedłem na Zielarstwo. Która jest godzina? Proszę, która jest godzina?” (bez karty NPC; blok z pustym polem `npc`; zawiera też kwestię prefekta)
 - Dialog: `s1.scena.12.dialog.ansel-towarzysz` — „Mogę iść z panem? Będę cicho. Ja umiem być cicho.” (tylko gdy Ansel jest przy postaci; kwestie „I”)
 - Flagi: `flaga.rejestr-godzin`
 - Krótko: samo przychodzi, gdy zegar kradzieży doszedł do 2 (zwykle wtorek 23 września po obiedzie, scena 06), a postacie są na schodach albo idą przez zamek. Chłopiec nie jest ranny, tylko oszołomiony i przestraszony. Ostatnie, co pamięta, to wyjście z Wielkiej Sali po obiedzie; gdy postacie podadzą mu godzinę, wychodzi, że brakuje mu około czterdziestu minut (założenie robocze). Zanim się ocknął, widział „ducha” w żółtym krawacie: „Mignął i zniknął”. To nowy wpis do rejestru godzin (W4.3): dzień, godzina, miejsce. Co Cassian zrobił z tym czasem, gracze mogą sprawdzić sami: tego popołudnia znowu zbiera pochwały (założenie robocze: na Eliksirach u Slughorna; przy kolacji ktoś o tym mówi). Postać, która usiądzie przy chłopcu i go uspokoi, zanim przyjdzie prefekt, dostaje od niego wdzięczne spojrzenie i jego imię (nadaj je sam). Prefekt zabiera chłopca do skrzydła szpitalnego; torba zostaje na schodach, a chwilę później obok przechodzi Wren (wstawka przed tekstem P). Jeśli I zagrało, a postacie idą potem do Wrena, z tamtej wstawki przeczytaj tylko ostatnie zdanie (Wren wchodzi do sali), bo schody już widzieli.
@@ -649,17 +651,17 @@ Moduł zamyka się na trzy sposoby: (1) gracze mają to, po co szli, i wracają 
 
 ## Dialogi
 
-*Bloki dla wszystkich szesnastu spotkań, w kolejności liter. Kwestie są krótkie, żeby dało się je przeczytać z kartki albo powiedzieć po swojemu. Postacie bez karty NPC (skrzaty, portret kucharki, pierwszoroczniak) mają bloki w formacie `dialog`, ale w ogrodzeniu `text`, jak w scenie 03; po utworzeniu karty wystarczy zmienić ogrodzenie na `yaml`. Spotkanie G nie ma własnego rozmówcy: jego kwestie są w bloku Ansela-towarzysza.*
+*Bloki dla wszystkich szesnastu spotkań, w kolejności liter. Kwestie są krótkie, żeby dało się je przeczytać z kartki albo powiedzieć po swojemu. Postacie bez karty NPC (skrzaty, portret kucharki, pierwszoroczniak) mają bloki w formacie `dialog` z pustym polem `npc` (nazwa postaci w polu `wyzwalacz`), jak w scenie 03; po utworzeniu karty wystarczy wpisać jej identyfikator. Spotkanie G nie ma własnego rozmówcy: jego kwestie są w bloku Ansela-towarzysza.*
 
 ### A. Skrzaty w kuchni: „Skrzaty dadzą dwie!”
 
 Skrzaty to czysty kolor i Więź. Karmią każdego, nie pytają po co i nikogo nie wydają. Najmniejszy skrzat jest jedynym, który coś zauważa: przy drugiej wizycie martwi się, że „panicz bierze dwie porcje, a je jedną”. Pytania o dawne lata zasmucają skrzaty, bo nic nie pamiętają; wtedy lepiej zmienić temat. Skrzaty w kuchni Hogwartu to kanon, kwestie są nasze.
 
-```text
+```yaml
 dialog:
   id: s1.scena.12.dialog.skrzat-kuchnia
-  npc: npc.skrzaty-kuchenne   # bez karty (pewnosc: nasze); blok w ogrodzeniu text
-  wyzwalacz: "Tekst A, gdy postacie wchodzą do kuchni; mówi zwykle najmniejszy skrzat, reszta mu wtóruje."
+  npc: ""
+  wyzwalacz: "Mówi: Skrzaty kuchenne (nasze, bez karty NPC). Tekst A, gdy postacie wchodzą do kuchni; mówi zwykle najmniejszy skrzat, reszta mu wtóruje."
   ton: "piskliwy, szybki, uniżony i szczerze uradowany; o sobie w trzeciej osobie"
   kwestie:
     - "Otwarcie: „Panicz głodny? Panienka głodna? Skrzaty dadzą! Ile porcji, proszę? Dwie? Dla kolegi? Skrzaty dadzą dwie!”"
@@ -730,13 +732,13 @@ dialog:
 
 ### C. Portret kucharki: „Tu się tylko czeka”
 
-Kucharka z obrazu jest najcichszą drogą do nazwiska Marrow (rezerwa W2). Pamięta strzępy, nie historię: małego chłopca na najniższym stopniu, „dawno temu, jesienią”, i panią profesor, na którą czekał. Nazwisko podaje dopiero na uprzejme dopytanie i z trudem. Dlaczego pamięta, skoro reszta zamku zapomniała, nie wyjaśniaj: portret sam się temu dziwi. Postać nie ma karty NPC, więc blok jest w ogrodzeniu `text`.
+Kucharka z obrazu jest najcichszą drogą do nazwiska Marrow (rezerwa W2). Pamięta strzępy, nie historię: małego chłopca na najniższym stopniu, „dawno temu, jesienią”, i panią profesor, na którą czekał. Nazwisko podaje dopiero na uprzejme dopytanie i z trudem. Dlaczego pamięta, skoro reszta zamku zapomniała, nie wyjaśniaj: portret sam się temu dziwi. Postać nie ma karty NPC, więc blok ma puste pole `npc`.
 
-```text
+```yaml
 dialog:
   id: s1.scena.12.dialog.portret-schody
-  npc: npc.portret-kucharki   # bez karty (pewnosc: nasze); blok w ogrodzeniu text
-  wyzwalacz: "Tekst C, gdy postacie zatrzymają się przy obrazie albo do niego zagadają."
+  npc: ""
+  wyzwalacz: "Mówi: portret kucharki (nasze, bez karty NPC). Tekst C, gdy postacie zatrzymają się przy obrazie albo do niego zagadają."
   ton: "ciepły, gospodarski, trochę gderliwy; przy wspomnieniu zwalnia i gubi słowa"
   kwestie:
     - "Otwarcie: „Szukacie kogoś, młodzi? Tu się tylko czeka. Jedni na kolację, drudzy na kogoś, kto nie przychodzi.”"
@@ -955,15 +957,27 @@ dialog:
 
 Wariant `flaga.crake-urazony` (postać była niegrzeczna wobec Crake'a w prologu albo w scenie 01 lub 07): wobec tej postaci Crake jest chłodno uprzejmy, jedno zdanie („Pan woźny czeka, młodzi państwo.”), i nie wchodzi w test pogawędki z nią; pozostałe postacie mogą z nim rozmawiać normalnie.
 
+```yaml
+rozgalezienie:
+  id: s1.scena.12.rozgalezienie.niegrzecznosc-wobec-crakea
+  rodzaj: awaryjne
+  warunek: "Postać jest niegrzeczna, szydzi albo grozi Crake'owi w wędrówkach (spotkanie z Crakiem przy wielkim zegarze)."
+  wymaga_flag: []
+  wyklucza_flagi: []
+  efekt: "Crake uprzejmie się wycofuje (zob. dialog z wariantem flaga.crake-urazony), zapamiętuje twarz i wobec tej postaci nie wchodzi już w test pogawędki. Nie karzemy zaklęcia ani żartu mechanicznie, a nic z drogi do wskazówek nie jest zablokowane (inne postacie rozmawiają z nim normalnie)."
+  flagi_ustaw: [flaga.crake-urazony]
+  prowadzi_do: s1.scena.12
+```
+
 ### I. Pierwszoroczniak na schodach
 
-Chłopiec jest oszołomiony i przestraszony, nie ranny. Strach jest w pytaniu o godzinę, nie w upadku. Kto poda mu godzinę, ten zobaczy, że brakuje mu około czterdziestu minut; kto usiądzie przy nim przed przyjściem prefekta, dostaje jego imię (nadaje MG). To nowy wpis do rejestru godzin (W4.3): dzień, godzina, miejsce. Dopasowanie do sukcesu Cassiana robią gracze. Postać nie ma karty NPC, więc blok jest w ogrodzeniu `text`.
+Chłopiec jest oszołomiony i przestraszony, nie ranny. Strach jest w pytaniu o godzinę, nie w upadku. Kto poda mu godzinę, ten zobaczy, że brakuje mu około czterdziestu minut; kto usiądzie przy nim przed przyjściem prefekta, dostaje jego imię (nadaje MG). To nowy wpis do rejestru godzin (W4.3): dzień, godzina, miejsce. Dopasowanie do sukcesu Cassiana robią gracze. Postać nie ma karty NPC, więc blok ma puste pole `npc`.
 
-```text
+```yaml
 dialog:
   id: s1.scena.12.dialog.pierwszoroczniak
-  npc: npc.pierwszoroczniak-schody   # bez karty (pewnosc: nasze); blok w ogrodzeniu text
-  wyzwalacz: "Tekst I, gdy chłopiec się ocknie, a postacie podejdą albo coś do niego powiedzą (zegar kradzieży właśnie doszedł do 2)."
+  npc: ""
+  wyzwalacz: "Mówi: pierwszoroczniak na schodach (nasze, bez karty NPC). Tekst I, gdy chłopiec się ocknie, a postacie podejdą albo coś do niego powiedzą (zegar kradzieży właśnie doszedł do 2)."
   ton: "drżący, za szybki, z powtórzeniami; uspokojony robi się cichy i grzeczny"
   kwestie:
     - "Otwarcie: „Ja nie spałem. Szedłem na Zielarstwo. Która jest godzina? Proszę, która jest godzina?”"
@@ -1718,7 +1732,7 @@ rozgalezienie:
   warunek: "Postać niszczy zegarek Cassiana w wędrówkach (po scenie 04), np. Reducto albo Confringo, młotek, rzucenie o kamień, poza sceną 08."
   wymaga_flag: [flaga.godzina-stracona]
   wyklucza_flagi: []
-  efekt: "Rzut: `przedmiot.zegarek-cassiana.test.zniszczenie` (karta zegarka; wytrzymałość 15, Reducto, Confringo i Bombarda niszczą zawsze, o ile zaklęcie się uda; Incendio go nie rusza). Po udanym zniszczeniu: z koperty wychodzi ciche, długie westchnienie, Ansel migocze (gdziekolwiek jest), część skradzionych godzin wraca do ofiar, godzina drużyny nie wraca (kotwica Ansela). Zegar kradzieży staje na stałe, a zakończenie „moc” przepada. Cassian czuje to jak cios w pierś i przybiega przerażony (najpóźniej w ciągu godziny); wejście do sceny 08 jak w `awaryjne-zniszczenie-wczesne`: ulga mieszana ze strachem przed ojcem, rozmowa zamiast pojedynku. Flagi: `flaga.zegarek-cassiana` = zniszczony oraz pomocnicza `flaga.zegarek-zniszczony` (prawda); `flaga.zegarek-u-graczy` zdejmij (fałsz), żeby zakończenie „moc” nie otwierało się bez zegarka. Porażka testu: zegarek odskakuje, rysa się wydłuża, a Cassian czuje ukłucie i wie, że ktoś próbował (kolejna próba możliwa; hałas może ściągnąć Filcha, blok awaryjne-filch-lapie)."
+  efekt: "Rzut: `przedmiot.zegarek-cassiana.test.zniszczenie` (karta zegarka; wytrzymałość 15, Reducto, Confringo i Bombarda niszczą zawsze, o ile zaklęcie się uda; Incendio go nie rusza). Po udanym zniszczeniu: z koperty wychodzi ciche, długie westchnienie, Ansel migocze (gdziekolwiek jest), część skradzionych godzin wraca do ofiar, godzina drużyny nie wraca (kotwica Ansela). Zegar kradzieży staje na stałe, a zakończenie „moc” przepada. Cassian czuje to jak cios w pierś i przybiega przerażony (najpóźniej w ciągu godziny); wejście do sceny 08 jak w `awaryjne-zniszczenie-wczesne`: ulga mieszana ze strachem przed ojcem, rozmowa zamiast pojedynku. Flagi: `flaga.zegarek-cassiana` = zniszczony oraz pomocnicza `flaga.zegarek-zniszczony` (prawda); `flaga.zegarek-u-graczy` zdejmij (fałsz), żeby zakończenie „moc” nie otwierało się bez zegarka. Porażka testu: zegarek odskakuje, rysa się wydłuża, a Cassian czuje ukłucie i wie, że ktoś próbował (kolejna próba możliwa; hałas może ściągnąć Filcha, blok awaryjne-filch-lapie). Zegarek-u-graczy: fałsz (MG zdejmuje flagę ręcznie; stan wynika z zegarek-cassiana)."
   flagi_ustaw: [flaga.zegarek-cassiana, flaga.zegarek-zniszczony]
   prowadzi_do: s1.scena.08
 ```
@@ -1778,7 +1792,7 @@ rozgalezienie:
   warunek: "Po kradzieży (F albo siatka 1) postacie chowają zegarek, oddają go od razu bez rozmowy albo odnoszą go nauczycielowi albo Filchowi, zanim Cassian ich znajdzie."
   wymaga_flag: [flaga.zegarek-u-graczy]
   wyklucza_flagi: [flaga.cassian-zdemaskowany]
-  efekt: "Chowanie: Cassian znajduje je najpóźniej przy następnym posiłku (zegarek grzeje i tyka), zegar kradzieży stoi, wejście 1c do 08. Oddanie od razu: Cassian bierze zegarek bez słowa, flaga.zegarek-cassiana wraca do u-cassiana, flaga.zegarek-u-graczy staje się fałszem, a zegar kradzieży rusza od nowa (tylko przy zegarku u Cassiana). Chce wiedzieć, kto to zrobił, i w 08 przychodzi jako ktoś, kto jest coś winny. Odniesienie do Filcha, McGonagall albo Flitwicka: zegarek skonfiskowany (flaga.zegarek-cassiana: skonfiskowany; flaga.zegarek-skonfiskowany prawda; flaga.zegarek-u-graczy fałsz), zegar kradzieży stoi, a Cassian przychodzi do postaci wściekły i przestraszony. Wren zegarka nie odbiera: daje czas do jutra (konfiskata dopiero w scenie 08, po konfrontacji). Zniszczenie zegarka: blok awaryjne-zegarek-zniszczony i scena 08 (zakończenie „zniszczony”). Nikt nie unieważnia decyzji graczy: zmienia się tylko, kto i kiedy ich szuka. Flagi: `flaga.zegarek-skonfiskowany` ustawiaj tylko przy konfiskacie; przy oddaniu Cassianowi zdejmij `flaga.zegarek-u-graczy` (fałsz) bez ustawiania innych."
+  efekt: "Chowanie: Cassian znajduje je najpóźniej przy następnym posiłku (zegarek grzeje i tyka), zegar kradzieży stoi, wejście 1c do 08. Oddanie od razu: Cassian bierze zegarek bez słowa, flaga.zegarek-cassiana wraca do u-cassiana, flaga.zegarek-u-graczy staje się fałszem, a zegar kradzieży rusza od nowa (tylko przy zegarku u Cassiana). Chce wiedzieć, kto to zrobił, i w 08 przychodzi jako ktoś, kto jest coś winny. Odniesienie do Filcha, McGonagall albo Flitwicka: zegarek skonfiskowany (flaga.zegarek-cassiana: skonfiskowany; flaga.zegarek-skonfiskowany prawda; flaga.zegarek-u-graczy fałsz), zegar kradzieży stoi, a Cassian przychodzi do postaci wściekły i przestraszony. Wren zegarka nie odbiera: daje czas do jutra (konfiskata dopiero w scenie 08, po konfrontacji). Zniszczenie zegarka: blok awaryjne-zegarek-zniszczony i scena 08 (zakończenie „zniszczony”). Nikt nie unieważnia decyzji graczy: zmienia się tylko, kto i kiedy ich szuka. Flagi: `flaga.zegarek-skonfiskowany` ustawiaj tylko przy konfiskacie; przy oddaniu Cassianowi zdejmij `flaga.zegarek-u-graczy` (fałsz) bez ustawiania innych. Zegarek-u-graczy: fałsz (MG zdejmuje flagę ręcznie; stan wynika z zegarek-cassiana)."
   flagi_ustaw: [flaga.zegarek-skonfiskowany]
   prowadzi_do: s1.scena.08
 ```

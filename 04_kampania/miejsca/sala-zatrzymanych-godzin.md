@@ -104,4 +104,4 @@ test:
       flagi_ustaw: []
 ```
 
-Test ucieczki przed pełnymi zabezpieczeniami księgi (szkielet): [[przedmiot.zakleta-ksiega]]. Test otwarcia gabloty i wybór sposobu (`flaga.gablota-sposob`) należą do pliku sceny 09.
+Test ucieczki przed pełnymi zabezpieczeniami księgi: [[przedmiot.zakleta-ksiega]]. Test otwarcia gabloty i wybór sposobu (`flaga.gablota-sposob`) należą do pliku sceny 09.

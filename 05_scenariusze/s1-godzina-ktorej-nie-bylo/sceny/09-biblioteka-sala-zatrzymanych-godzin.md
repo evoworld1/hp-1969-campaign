@@ -36,6 +36,7 @@ flagi_wejscie:
   - flaga.marrow-imie-znane
   - flaga.tempus-opanowane
   - flaga.filch-zlapal
+  - flaga.zegarek-u-graczy
 flagi_wyjscie:
   - flaga.pracownia-otwarta
   - flaga.ksiega-zabezpieczenia
@@ -47,6 +48,9 @@ flagi_wyjscie:
   - flaga.wymark-slad
   - flaga.filch-zlapal
   - flaga.s1-zegar-kradziezy
+  - flaga.cassian-los
+  - flaga.cassian-zdemaskowany
+  - flaga.cassian-czujny
 nastepne:
   - s1.scena.10
 tagi: [s1, kulminacja, noc, biblioteka, pracownia, zakleta-ksiega, gablota]
@@ -896,7 +900,7 @@ rozgalezienie:
   id: s1.scena.09.rozgalezienie.gablota-zabrana
   rodzaj: glowne
   warunek: "Postacie oddają gablocie godzinę zabraną komuś innemu (przez kartę i zegarek)."
-  wymaga_flag: [flaga.pracownia-otwarta, flaga.karta-u-graczy]
+  wymaga_flag: [flaga.pracownia-otwarta, flaga.karta-u-graczy, flaga.zegarek-u-graczy]
   wyklucza_flagi: []
   efekt: "Gablota się otwiera, ale ktoś w zamku traci godzinę (kandydat: Rejestr Danin). Pierwszy krok ku zakończeniu „moc”. Wartość flagi: zabrana-godzina. Notatnik leży jeszcze w gablocie (flaga.dziennik-miejsce = w-pracowni); u graczy dopiero po wyniesieniu."
   flagi_ustaw: [flaga.gablota-sposob, flaga.dziennik-miejsce]
