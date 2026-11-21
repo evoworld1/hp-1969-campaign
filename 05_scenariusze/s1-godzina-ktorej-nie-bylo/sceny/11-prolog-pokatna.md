@@ -283,7 +283,36 @@ dialog:
 
 ## Testy
 
-TODO (mechanik): `s1.scena.11.test.crake-pogawedka` (ten sam próg co w 01).
+Jedyny rzut prologu to pogawędka z Crake'iem, a jej celem jest nauczyć graczy rzucać. Liczby są **identyczne** jak w `s1.scena.01.test.crake-pogawedka`, `s1.scena.07.test.crake-pogawedka` i `s1.scena.12.test.crake-pogawedka`. Test gra się najwyżej raz w całej sesji: kto go zagrał w prologu, ma `flaga.crake-poznany` i w zamku nie rzuca ponownie (zob. scena 01).
+
+```yaml
+test:
+  id: s1.scena.11.test.crake-pogawedka
+  opis: "Pogawędka z Crake'iem przy witrynie na Pokątnej (test nauczający, jedyny rzut prologu). Test standardowy (Walker 2e s. 3), rzuca jedna postać: ta, która prowadzi rozmowę. Próg 9 (próg bez nazwy, zasada domowa ZD-23; Walker podaje 9 jako trudność prostych uroków, s. 40), jak w scenach 01, 07 i 12. Dłuższa rozmowa wymaga sukcesu imponującego (Impressive success, co najmniej 2 × trudność, s. 3), czyli wyniku 18 lub więcej. Przy Wits + Observation 9–10 zwykły sukces jest pewny, a imponujący wypada w około 20–30% rzutów (z jednym pomocnikiem 30–40%, z dwoma 40–50%). Porażka zdarza się tylko postaciom z Wits + Observation 7 lub mniej. Porażka kompromitująca (wynik poniżej połowy trudności, czyli 4 lub mniej) praktycznie nie wypada z rzutu; kwestia Crake'a o gapieniu się w szybę to wybór MG, gdy gracz sam odgrywa nieuwagę, bez liczb. Story Points dorzuca się dopiero po porażce (s. 4); przy pierwszym rzucie w życiu MG może przypomnieć, że taki punkt istnieje. Gdy postać była niegrzeczna albo groziła, testu nie ma: Crake wycofuje się do sklepu według dialogu crake-witryna. Modyfikatory za stany Drained i Dazed nie obowiązują, bo prolog dzieje się przed szkołą."
+  kto: jeden
+  rzut: "1D10 + Wits + Observation"
+  trudnosc: 9
+  modyfikatory:
+    - warunek: "Każda inna postać, która aktywnie podtrzymuje rozmowę (pyta o zegary, chwali robotę, podaje narzędzie); najwyżej dwie (Working Together, współpraca, s. 4)"
+      wartosc: "+1 do rzutu"
+    - warunek: "Postać ma specjalizację Observation pasującą do sytuacji (np. Observation (Twarze); Specialism, s. 13)"
+      wartosc: "+1 do rzutu"
+  wyniki:
+    - wynik: porazka-kompromitujaca
+      efekt: "Tylko gdy gracz sam odgrywa nieuwagę (gapi się w szybę, nie słucha). Crake śmieje się bez urazy i wraca do pracy (kwestia „Po teście, porażka kompromitująca”). Crake jest poznany, nic więcej."
+      flagi_ustaw: [flaga.crake-poznany]
+    - wynik: porazka
+      efekt: "Kilka uprzejmych zdań o upale i tłoku w księgarni (kwestia „Po teście, porażka”). Crake jest poznany, nic więcej."
+      flagi_ustaw: [flaga.crake-poznany]
+    - wynik: sukces
+      efekt: "Miły starszy pan, pachnie olejem i miętą: „Wieża w Hogwarcie ostatnio wymaga więcej uwagi” (kwestia „Po teście, sukces”)."
+      flagi_ustaw: [flaga.crake-poznany]
+    - wynik: sukces-imponujacy
+      efekt: "Jak sukces, a do tego postać zauważa zdjęcie dziewczyny w kopercie zegarka (wstawka „koperta zegarka”); Crake mówi chwilę dłużej o Norze, która „pomagała w sklepie”, zawsze w czasie przeszłym, i urywa w pół zdania. Niczego nie zdradza o Klepsydrze, pieczęci ani kliencie z Londynu."
+      flagi_ustaw: [flaga.crake-poznany, flaga.crake-dluga-rozmowa]
+```
+
+**Dobór różdżki u Ollivandera.** Bez rzutu i bez liczb: to zabawa opisowa (rdzenie Ollivandera: Walker 2e s. 26). Najwyżej trzy próby: dwie nieudane, trzecia właściwa; MG może przerwać wcześniej, jeśli czas goni (wtedy różdżka „wybiera” przy pierwszej próbie). Różdżka nie daje tu żadnego modyfikatora do późniejszych testów.
 
 ## Rozgałęzienia
 
