@@ -2,7 +2,7 @@
 id: s1.scena.05
 typ: scena
 tytul: "Chłopiec przy schodach"
-status: szkic
+status: recenzja
 sesja: s1
 akt: "II"
 kolejnosc: 5

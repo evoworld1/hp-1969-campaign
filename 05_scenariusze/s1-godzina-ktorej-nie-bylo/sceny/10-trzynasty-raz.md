@@ -2,7 +2,7 @@
 id: s1.scena.10
 typ: scena
 tytul: "Trzynasty raz"
-status: szkic
+status: recenzja
 sesja: s1
 akt: "III"
 kolejnosc: 10

@@ -2,7 +2,7 @@
 id: s1.scena.03
 typ: scena
 tytul: "Stracona godzina"
-status: szkic
+status: recenzja
 sesja: s1
 akt: "I"
 kolejnosc: 3

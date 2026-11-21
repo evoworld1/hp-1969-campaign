@@ -2,7 +2,7 @@
 id: s1.scena.09
 typ: scena
 tytul: "Biblioteka: trzynaste drzwi i Sala Zatrzymanych Godzin"
-status: szkic
+status: recenzja
 sesja: s1
 akt: "III"
 kolejnosc: 9

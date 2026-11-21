@@ -2,7 +2,7 @@
 id: s1.scena.07
 typ: scena
 tytul: "Wieża Zegarowa"
-status: szkic
+status: recenzja
 sesja: s1
 akt: "II"
 kolejnosc: 7

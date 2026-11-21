@@ -2,7 +2,7 @@
 id: s1.scena.04
 typ: scena
 tytul: "Obrona przed Czarną Magią: pokaz Cassiana"
-status: szkic
+status: recenzja
 sesja: s1
 akt: "II"
 kolejnosc: 4

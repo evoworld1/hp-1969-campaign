@@ -2,7 +2,7 @@
 id: s1.scena.08
 typ: scena
 tytul: "Cassian"
-status: szkic
+status: recenzja
 sesja: s1
 akt: "II"
 kolejnosc: 8

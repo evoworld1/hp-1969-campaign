@@ -2,7 +2,7 @@
 id: s1.scena.06
 typ: scena
 tytul: "Mapa dryfu"
-status: szkic
+status: recenzja
 sesja: s1
 akt: "II"
 kolejnosc: 6
