@@ -170,6 +170,7 @@ function tKalk(t) {
     '<label>Wynik twojej kości (1D10) <input id="k-kosc" type="number" inputmode="numeric"></label>' +
     '<label>Premia różdżki i inne modyfikatory (+/−) <input id="k-mod" type="number" inputmode="numeric" value="0"></label>' +
     '<label><span id="k-trl">Trudność lub cel (od MG)</span> <input id="k-tr" type="number" inputmode="numeric" value="' + (info && tryb === "rzut" ? 0 : "") + '"></label>' +
+    '<label id="k-atrw" hidden>Aktualna trudność zaklęcia (opanowane: 0; nieopanowane: liczba z pierwszej pustej kratki) <input id="k-atr" type="number" inputmode="numeric" value="0"></label>' +
     '<div class="pudg">' + NIEKORZYSCI.map(function (n) { return '<label><input type="checkbox" class="k-nk" data-v="' + n[2] + '" style="width:auto"> ' + n[1] + " (+" + n[2] + " do trudności)</label>"; }).join("") + "</div>" +
     '<label><input type="checkbox" id="k-kara" checked style="width:auto"> dodaj karę zdrowia do trudności (teraz: ' + (kara() === 0 ? "brak" : (kara() === "X" ? "brak akcji" : "+" + kara())) + ')</label><div id="k-wyn" class="wynikk">Wpisz wynik kości.</div></div>' +
     '<div class="sekg kalk"><h3>Obrażenia, które zadaję</h3><p class="puste">Rzuć kośćmi obrażeń (np. 3D dla iskier), wpisz sumę. Panel doda cechę.</p>' +
@@ -193,12 +194,14 @@ function tKalk(t) {
       cechy = "Wits";
       if (sumaD >= sumaZ) { umi = "Duelling"; el("k-mod").value = pd.suma; opis = "Atak: Bystrość + Pojedynkowanie " + wydl + (pd.suma ? " + różdżka (" + pd.opis + ")" : "") + " (wyższe niż " + (tlum(info.um) || info.um) + " " + wzakl + (pr.suma ? " + " + pr.suma : "") + ")."; }
       else { el("k-mod").value = pr.suma; opis = "Atak: Bystrość + " + (tlum(info.um) || info.um) + " " + wzakl + (pr.suma ? " + różdżka (" + pr.opis + ")" : "") + " (wyższe niż Pojedynkowanie " + wydl + (pd.suma ? " + " + pd.suma : "") + ")."; }
-      el("k-trl").textContent = "Cel ataku: rzut obrony przeciwnika (unik lub Protego) od MG";
+      el("k-trl").textContent = "Rzut obrony przeciwnika (jego suma: kość + cechy, unik lub Protego; podaje MG)";
+      el("k-atrw").hidden = false;
       el("k-tr").value = el("k-tr").value === "0" ? "" : el("k-tr").value;
     } else {
       el("k-mod").value = pr.suma;
       opis = "Rzut zaklęcia: " + (cechy === "Knowledge" ? "Wiedza" : "Skupienie") + " + " + (tlum(umi) || umi) + (pr.suma ? " + różdżka (" + pr.opis + ")" : "") + ". Trudność aktualna = 0 (opanowane).";
       el("k-trl").textContent = "Trudność (opanowane: 0, MG dodaje swoje utrudnienia)";
+      el("k-atrw").hidden = true;
       if (el("k-tr").value === "") el("k-tr").value = 0;
     }
     el("k-cecha").value = cechy; el("k-um").value = umi;
@@ -212,12 +215,13 @@ function tKalk(t) {
     var duel = info && (document.querySelector("input[name=tryb]:checked") || {}).value === "pojedynek";
     if (kosc == null) { wy.textContent = (info && tr === 0 && !nk && !kv && !duel) ? "Zaklęcie opanowane i nic go nie utrudnia: udaje się bez rzutu." : "Wpisz wynik kości."; }
     else {
-      var sum = kosc + c + u + mod, trk = tr == null ? null : tr + kv + nk;
+      var atr = (duel ? (num("k-atr") || 0) : 0);
+      var sum = kosc + c + u + mod, trk = tr == null ? null : tr + atr + kv + nk;
       var skladnik = "(kość " + kosc + " + cecha " + c + " + umiejętność " + u + (mod ? " + modyfikatory " + mod : "") + ")";
       var txt = "<b>Suma: " + sum + "</b> " + skladnik;
       if (trk == null) txt += "<br>Wpisz trudność lub cel, żeby zobaczyć wynik.";
       else {
-        txt += "<br>" + (duel ? "Cel" : "Trudność") + ": " + tr + (nk ? " + niekorzyści " + nk : "") + (kv ? " + kara zdrowia " + kv : "") + " = <b>" + trk + "</b><br>";
+        txt += "<br>" + (duel ? "Cel ataku = obrona przeciwnika " : "Trudność: ") + tr + (duel ? " + aktualna trudność zaklęcia " + atr : "") + (nk ? " + niekorzyści " + nk : "") + (kv ? " + kara zdrowia " + kv : "") + " = <b>" + trk + "</b><br>";
         if (duel) txt += "<b>" + (sum >= trk ? "Atak trafia" : "Atak chybia") + "</b> (" + (sum >= trk ? "zapas +" + (sum - trk) : "brakuje " + (trk - sum)) + ")" + (sum >= 3 * trk ? "<br>Wynik co najmniej 3× celu: zaklęcie wzmocnione o dwa stopnie (zob. tabela ZD-09)." : sum >= 2 * trk ? "<br>Wynik co najmniej 2× celu: zaklęcie wzmocnione o jeden stopień (zob. tabela ZD-09). W pojedynkach szkolnych tylko opis." : "");
         else txt += "<b>" + poziom(sum, trk) + "</b> (" + (sum >= trk ? "zapas +" + (sum - trk) : "brakuje " + (trk - sum)) + ")";
         if (sum < trk && ST.sp > 0) txt += "<br><span class='puste'>Możesz wydać Story Point: dorzuć jeszcze 1D10 do sumy.</span>";
