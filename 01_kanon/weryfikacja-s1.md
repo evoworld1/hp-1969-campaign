@@ -5,7 +5,7 @@ tytul: "Weryfikacja kanonu dla Scenariusza 1 (12 pytań z jesieni 1969)"
 status: szkic
 kategoria: osoby
 pewnosc: niepewne
-tagi: [s1, weryfikacja, kadra, hogwart, pokatna, 1969, 1951]
+tagi: [s1, weryfikacja, kadra, hogwart, pokatna, "1969", "1951"]
 zrodla:
   - "Wizarding World / Pottermore: Professor McGonagall (writing by J.K. Rowling); Mr Ollivander; Hogwarts, Slytherin common room (fact file)"
   - "Harry Potter Lexicon (hp-lexicon.org): Armando Dippet, Fawkes, timeline Dumbledore, house point counters, McGonagall"
