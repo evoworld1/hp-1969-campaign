@@ -35,10 +35,12 @@ flagi_wyjscie:
   - flaga.cassian-zdemaskowany
   - flaga.cassian-los
   - flaga.zegarek-cassiana
+  - flaga.zegarek-u-graczy
   - flaga.karta-u-graczy
   - flaga.lokalizacja-pracowni
   - flaga.sekret-poruszony
   - flaga.wren-podejrzewa
+  - flaga.cassian-czujny
 nastepne:
   - s1.scena.09
   - s1.scena.12
@@ -507,7 +509,7 @@ dialog:
     - "Donos: postacie mówią o zegarku: „Zepsuty zegarek to nie przestępstwo. Proszę mi przynieść coś, co jest.”"
     - "Donos z flaga.wren-podejrzewa (już podejrzewa): (słucha do końca, stuka raz kostką w blat) „Zatrzymam pana Vane'a po lekcjach. Wy nic nie robicie. Rozumiemy się?”"
     - "Gdy postać kłamie: „Wróćcie, gdy będziecie gotowi powiedzieć mi prawdę.”"
-    - "Gdy postać grozi albo jest bezczelna: (długie spojrzenie) „Szlaban. Jutro wieczorem.”"
+    - "Gdy postać grozi albo jest bezczelna: (długie spojrzenie) „Szlaban. W środę.”"
     - "Gdy postacie przynoszą mu zegarek: (bierze, waży w dłoni, nie otwiera) „Zostanie u mnie.” (flaga.zegarek-cassiana = skonfiskowany; zegarek u nauczyciela sam nic nie podbiera)"
     - "Nieprzewidziane (ktoś jest ranny albo nie wstaje): (klęka, sprawdza oddech) „Skrzydło szpitalne. Ty i ty, pod ramiona. Już.”"
     - "Może zdradzić: że patrzy na Cassiana i że potrzebuje dowodu. Swój konkret o ocenach."
@@ -551,7 +553,7 @@ Pojedynek z Cassianem opiera się na zasadach Walkera (Duelling, s. 33, 41, 165)
 - **Skradzione Chwile w pojedynku (zdolność Cassiana).** Pula **2 Chwile na całą walkę**, wydawane w rundach 1 i 2 (po jednej, tylko póki zegarek jest przy nim). W rundzie z Chwilą Cassian atakuje **dwa razy, zanim postać zaatakuje raz**. Przed każdą Chwilą: dwa palce w kieszonce i wzdrygnięcie (sygnał). Po wypadnięciu zegarka Chwil nie ma, a Cassian jest zwyczajnie niewyspany: **-2 do jego rzutów** do końca sceny.
 - **Nazwany sygnał.** Postać, która zna sygnał (nazwała go na głos w 04 albo wygrała `pierwsze-spojrzenie`), (a) atakuje **przed** Chwilą Cassiana i (b) Cassian dostaje -2 do rzutu drugiego ataku z Chwili (wzdrygnięcie). Jeśli nikt nie nazwał sygnału wcześniej, ten pojedynek jest drugą szansą: po pierwszej Chwili obserwator rzuca `pierwsze-spojrzenie` ze zmniejszoną trudnością.
 - **Sekundant.** Sekundant nie walczy. Jeśli woła ostrzeżenie na głos (np. „Ręka na kieszonce!”), walcząca postać dostaje **+1 do uniku** (Working Together, s. 4; jeden sekundant, jeden bonus). Rosalind sekunduje Cassianowi tylko rytualnie: nie pomaga mu mechanicznie.
-- **Wygrana Cassiana (zabrana godzina).** Bez rzutu. Przegrany dostaje **stan Drained (+3 do trudności)** do pierwszego posiłku następnego dnia, czyli także na noc (sceny 09 i 12) i do śniadania. Zgodnie z decyzją MG z 2026-11-19 zabrane godziny kosztują Drained. Dodatkowo postać „przegapi coś małego i ważnego” (efekt fabularny w rozgałęzieniu `pojedynek-przegrany`). Po zabraniu godziny staje w drzwiach Wren (granica pojedynku, dialog `wren-dosyc`).
+- **Wygrana Cassiana (zabrana godzina).** Bez rzutu. Przegrany dostaje **stan Drained (+3 do trudności)** do pierwszego posiłku następnego dnia, czyli także na noc (sceny 09 i 12) i do śniadania. Zgodnie z decyzją MG z 2026-11-19 zabrane godziny kosztują Drained. Dodatkowo postać „przegapi coś małego i ważnego” (efekt fabularny w rozgałęzieniu `pojedynek-przegrany`). **Druga godzina nie zmienia kotwicy Ansela** (jego kotwicą jest wspólna godzina drużyny ze sceny 03): koszt to wyłącznie Drained, według jednolitej reguły z `graf-scen.md`. Po zabraniu godziny staje w drzwiach Wren (granica pojedynku, dialog `wren-dosyc`).
 - **Story Points.** Po nieudanym rzucie ataku albo uniku gracz może wydać 1 Story Point i dorzucić 1D10 (s. 4); jeden punkt na rzut. Za pierwszy pojedynek 1 Story Point, jeśli postać nie dostała go w scenie 04 (s. 4: ważne „pierwsze razy”). RETRORSUM po przegranej rundzie albo po zabranej godzinie: cofa do wskazanej chwili (najwyżej do początku pojedynku), następny rzut to pewne trafienie albo pewny unik ([[zasada.nagrody-z-teaserow]]).
 
 **Szanse (bez Story Points, bez Drained).** Cassian: atak 1D10 + 12 (Wits 6 + Duelling 5 + różdżka 1), unik 1D10 + 10 (Speed 4 + Wits 6).
@@ -693,7 +695,7 @@ test:
   wyniki:
     - wynik: wygrana
       efekt: "Zegarek wylatuje z kieszonki albo palców Cassiana (tekst 3): Chwile się kończą, Cassian jest wolniejszy (-2) i patrzy na zegarek, nie na postacie. Liczy się jako trafienie postaci. Postać wygrywa pojedynek przy drugim trafieniu albo gdy zegarek zostanie przy niej: zegarek u graczy, zegar kradzieży staje (rozgałęzienie pojedynek-wygrany)."
-      flagi_ustaw: [flaga.zegarek-cassiana]
+      flagi_ustaw: [flaga.zegarek-cassiana, flaga.zegarek-u-graczy]
     - wynik: przegrana
       efekt: "Zaklęcie mija kieszonkę o włos. Cassian przyciska dłoń do kamizelki: „W różdżkę się celuje”. Chwile pozostają. Postać może próbować jeszcze raz w następnej rundzie."
       flagi_ustaw: [flaga.cassian-czujny]
@@ -722,7 +724,7 @@ test:
   wyniki:
     - wynik: wygrana
       efekt: "Zegarek jest u postaci. Zegar kradzieży staje. Cassian zauważa stratę po jednej wymianie zdań albo przy pożegnaniu i w następnej chwili stoi w progu (dialog cassian-oddajcie: rozbity, bez Chwil, prosi, targuje się, w końcu pęka)."
-      flagi_ustaw: [flaga.zegarek-cassiana]
+      flagi_ustaw: [flaga.zegarek-cassiana, flaga.zegarek-u-graczy]
     - wynik: przegrana
       efekt: "Cassian łapie rękę albo budzi się. Mówi spokojnie: „Rodzinna pamiątka. Nie chodzi.” Od tej chwili nosi zegarek nawet nocą i kolejnej kradzieży nie ma; zostają pojedynek, targ albo litość (wejście na jego warunkach, zob. cassian-wyzwanie)."
       flagi_ustaw: [flaga.cassian-czujny]
@@ -746,7 +748,7 @@ test:
   wyniki:
     - wynik: sukces
       efekt: "Szkiełko pęka (tekst 6). Zegarek zniszczony: koniec Skradzionych Chwil, część godzin ofiar wraca (np. Maisie nagle pamięta swój kwadrans), Ansel migocze do końca sceny. Reparo składa obudowę, ale nie przywraca magii. Zakończenie „moc” przepada."
-      flagi_ustaw: [flaga.zegarek-cassiana, flaga.cassian-zdemaskowany]
+      flagi_ustaw: [flaga.zegarek-cassiana, flaga.zegarek-u-graczy, flaga.cassian-zdemaskowany]
     - wynik: porazka
       efekt: "Zegarek odskakuje, rysa na szkiełku się wydłuża, w środku tyka głośniej. Cassian czuje ukłucie w piersi i wie, że ktoś próbował. Można spróbować znowu."
       flagi_ustaw: []
@@ -769,7 +771,7 @@ rozgalezienie:
   wymaga_flag: []
   wyklucza_flagi: []
   efekt: "Cassian dotrzymuje słowa: mówi o pracowni i oddaje kartę. Zegarek trafia do graczy, jeśli był stawką albo wypadł mu z ręki. Zegar kradzieży staje."
-  flagi_ustaw: [flaga.cassian-zdemaskowany, flaga.cassian-los, flaga.zegarek-cassiana, flaga.karta-u-graczy, flaga.lokalizacja-pracowni]
+  flagi_ustaw: [flaga.cassian-zdemaskowany, flaga.cassian-los, flaga.zegarek-cassiana, flaga.zegarek-u-graczy, flaga.karta-u-graczy, flaga.lokalizacja-pracowni]
   prowadzi_do: s1.scena.09
 ```
 
@@ -793,7 +795,7 @@ rozgalezienie:
   wymaga_flag: []
   wyklucza_flagi: []
   efekt: "Cassian oddaje to, o co się umówiono, i mówi o pracowni. Zostaje dłużnikiem albo rywalem, zależnie od warunków."
-  flagi_ustaw: [flaga.cassian-zdemaskowany, flaga.cassian-los, flaga.zegarek-cassiana, flaga.karta-u-graczy, flaga.lokalizacja-pracowni, flaga.sekret-poruszony]
+  flagi_ustaw: [flaga.cassian-zdemaskowany, flaga.cassian-los, flaga.zegarek-cassiana, flaga.zegarek-u-graczy, flaga.karta-u-graczy, flaga.lokalizacja-pracowni, flaga.sekret-poruszony]
   prowadzi_do: s1.scena.09
 ```
 
@@ -805,7 +807,7 @@ rozgalezienie:
   wymaga_flag: []
   wyklucza_flagi: []
   efekt: "Cassian sam oddaje zegarek i kartę i opowiada o pracowni, oparzonej dłoni i gablocie, która „nie daje się brać”. Może zostać sojusznikiem."
-  flagi_ustaw: [flaga.cassian-zdemaskowany, flaga.cassian-los, flaga.zegarek-cassiana, flaga.karta-u-graczy, flaga.lokalizacja-pracowni]
+  flagi_ustaw: [flaga.cassian-zdemaskowany, flaga.cassian-los, flaga.zegarek-cassiana, flaga.zegarek-u-graczy, flaga.karta-u-graczy, flaga.lokalizacja-pracowni]
   prowadzi_do: s1.scena.09
 ```
 
@@ -829,7 +831,7 @@ rozgalezienie:
   wymaga_flag: []
   wyklucza_flagi: []
   efekt: "Ansel na chwilę migocze, gdziekolwiek jest; część skradzionych godzin wraca do ofiar (Maisie nagle pamięta swój kwadrans), ale godzina drużyny nie wraca (kotwica Ansela). Zegar kradzieży staje. Zakończenie „moc” przepada."
-  flagi_ustaw: [flaga.zegarek-cassiana, flaga.cassian-zdemaskowany]
+  flagi_ustaw: [flaga.zegarek-cassiana, flaga.zegarek-u-graczy, flaga.cassian-zdemaskowany]
   prowadzi_do: s1.scena.09
 ```
 
@@ -854,7 +856,7 @@ rozgalezienie:
   warunek: "Postacie atakują Cassiana bez pojedynku, przy świadkach."
   wymaga_flag: []
   wyklucza_flagi: []
-  efekt: "Przychodzi prefekt albo Wren (w sali Obrony i w pobliżu gabinetu zawsze Wren): rozbrojenie, punkty ujemne, szlaban jako kolor (założenie robocze: wtorek wieczorem, tylko wzmianka). Cassian zostaje zdemaskowany przed postaciami, ale rozmowa o pracowni przesuwa się na później, z ceną czasu: ktoś musi być przy Cassianie, gdy ten wyjdzie. Cassian, wzdrygnięty i zawstydzony (nie bije się „jak w porcie”), pęka szybciej w drugiej rozmowie, o ile nikt go nie poniżył. Jeśli bójkę zaczęły postacie, Rosalind zapamiętuje, kto pierwszy wyciągnął różdżkę (dialog rosalind-sekundantka), i to wraca w scenie 12 jako chłód Ślizgonów, nie kara. Postacie mogą dokończyć scenę kolejnym krokiem (targ, litość) po odejściu nauczyciela."
+  efekt: "Przychodzi prefekt albo Wren (w sali Obrony i w pobliżu gabinetu zawsze Wren): rozbrojenie, punkty ujemne, szlaban jako kolor (środa po Sesji 1 albo rozmowa w kantorku Filcha; tylko kolor, nie koliduje z wtorkowym wieczorem). Cassian zostaje zdemaskowany przed postaciami, ale rozmowa o pracowni przesuwa się na później, z ceną czasu: ktoś musi być przy Cassianie, gdy ten wyjdzie. Cassian, wzdrygnięty i zawstydzony (nie bije się „jak w porcie”), pęka szybciej w drugiej rozmowie, o ile nikt go nie poniżył. Jeśli bójkę zaczęły postacie, Rosalind zapamiętuje, kto pierwszy wyciągnął różdżkę (dialog rosalind-sekundantka), i to wraca w scenie 12 jako chłód Ślizgonów, nie kara. Postacie mogą dokończyć scenę kolejnym krokiem (targ, litość) po odejściu nauczyciela."
   flagi_ustaw: [flaga.cassian-zdemaskowany]
   prowadzi_do: s1.scena.12
 ```
@@ -903,7 +905,7 @@ rozgalezienie:
   wymaga_flag: []
   wyklucza_flagi: []
   efekt: "Nauczyciel bierze zegarek, waży go w dłoni, nie otwiera („Zostanie u mnie”). Zegarek u nauczyciela sam nic nie podbiera, więc zegar kradzieży staje, a magia karty bez niego nie działa (decyzja MG). Wren wezwie Cassiana po lekcjach i nie ujawni, kto przyniósł zegarek. Jeśli w targu obiecano Cassianowi milczenie wobec Wrena, jest to złamana umowa: Cassian staje się rywalem, nie dłużnikiem, i nie przynosi karty (ale lokalizacja, jeśli padła, pozostaje). W przeciwnym razie Cassian ma ulgę, strach i brak sił na wrogość. Droga do pracowni zostaje otwarta. Zakończenie „moc” (karta plus zegarek) przepada do czasu, aż ktoś zegarek odzyska."
-  flagi_ustaw: [flaga.zegarek-cassiana, flaga.wren-podejrzewa, flaga.cassian-los]
+  flagi_ustaw: [flaga.zegarek-cassiana, flaga.zegarek-u-graczy, flaga.wren-podejrzewa, flaga.cassian-los]
   prowadzi_do: s1.scena.09
 ```
 
@@ -951,7 +953,7 @@ rozgalezienie:
   wymaga_flag: []
   wyklucza_flagi: []
   efekt: "Nie karzemy decyzji. Czytaj tekst 6, a zaraz potem tekst 5: Cassian, który nie ma już nic do ukrycia ani do obrony, siada i mówi sam, trzema zdaniami: „Biblioteka. Ostatni rząd.”, księga, „wszystko się obudziło”. Gablotę dopowiada tylko, jeśli ktoś zapyta („Ona nie daje się brać”). Prosi o jedno: „Nie mówcie Wrenowi. Nie mówcie ojcu.” Zegarek jest zniszczony, a zakończenie „moc” przepada; karta zostaje w kufrze Cassiana jako wskazówka z dopiskiem na odwrocie (jeśli ją przyniesie, W7.2 pozostaje tylko wskazówką, bo karta bez zegarka nie działa). Ansel migocze, część godzin ofiar wraca, godzina drużyny nie wraca (kotwica Ansela). Cassian jest wolny od Chwil, wyczerpany, z ulgą mieszającą się ze strachem. Jeśli postacie okażą mu troskę, zostaje sojusznikiem; jeśli triumfują, rywalem."
-  flagi_ustaw: [flaga.zegarek-cassiana, flaga.cassian-zdemaskowany, flaga.lokalizacja-pracowni, flaga.cassian-los]
+  flagi_ustaw: [flaga.zegarek-cassiana, flaga.zegarek-u-graczy, flaga.cassian-zdemaskowany, flaga.lokalizacja-pracowni, flaga.cassian-los]
   prowadzi_do: s1.scena.09
 ```
 
@@ -1001,5 +1003,5 @@ Zapisz po scenie (przed Punktem pauzy 3):
 - `flaga.cassian-zdemaskowany` (czy powiedziano mu w twarz), `flaga.sekret-poruszony` (czy sięgnął po sekret z 4. roku i czy to blef), `flaga.wren-podejrzewa` (donos, szlaban, skrzydło szpitalne), `flaga.dumbledore-powiadomiony`.
 - `flaga.s1-zegar-kradziezy`: czy stanął i na ilu (kradzież, pojedynek wygrany, zniszczenie, skonfiskowanie zatrzymują zegar; Cassian z zegarkiem i bez rozmowy go nie zatrzymuje).
 - Pojedynek: kto z postaci wygrał albo przegrał, komu Cassian zabrał godzinę (Drained do śniadania, +3 do trudności w scenach 09 i 12), kto był sekundantem, wydane Story Points (nie dubluj punktu z sceny 04), kto jest ranny (Shaken) albo spędził wieczór w skrzydle szpitalnym.
-- Szlaban za przemoc (tylko kolor, wtorek wieczorem), uwaga Wrena o ocenach Vane'a (czy padła), słowa Cassiana na pożegnanie („Biblioteka. Ostatni rząd.” albo cisza).
+- Szlaban za przemoc (tylko kolor, środa po Sesji 1 albo rozmowa w kantorku), uwaga Wrena o ocenach Vane'a (czy padła), słowa Cassiana na pożegnanie („Biblioteka. Ostatni rząd.” albo cisza).
 - Do sceny 09: czy postacie mają zegarek i kartę razem (zakończenie „moc”), a w scenie 12: kto widział zabranie godziny i czy Rosalind pamięta, kto pierwszy wyciągnął różdżkę.

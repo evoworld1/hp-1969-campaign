@@ -37,6 +37,7 @@ flagi_wyjscie:
   - flaga.slad-ukaszen
   - flaga.rejestr-godzin
   - flaga.s1-zegar-kradziezy
+  - flaga.cassian-czujny
 nastepne:
   - s1.scena.07
   - s1.scena.08
@@ -168,7 +169,7 @@ Notes [[npc.tobias-quill]] myli się w szczegółach (przy Pratcie ma „przed o
 - Czytaj: tekst 2 („Im dalej na zachód, tym ciszej…”), gdy ktoś mierzy w krużganku u stóp wieży; tekst 4 („Chłopiec szedł obok całą drogę…”), gdy Ansel idzie z postacią ku wieży.
 - Test: `s1.scena.06.test.pomiar` (Tempus albo porównanie zwykłych zegarków, bez magii, W3.2)
 - Dialog: `s1.scena.06.dialog.filch-wieza` — „Ręce od szybki. Zegar jak zegar. To wieża się boczy, a dzwony za nią.” (gdy postacie mierzą przy wielkim zegarze; W3.3; „Zegarmistrz był w czwartek. Znowu.” (W8.3) pada dopiero, gdy ktoś go wysłucha)
-- Krótko: każdy pomiar to jeden wpis na mapie: liczba i słowo „gładko” albo „drżąco” (tabela odczytów wyżej). Gdy drużyna się rozdzieliła, przeskakuj między postaciami co jeden pomiar. Ansel (stopień 3, towarzyszenie) może iść z postacią o najwyższej Więzi: przy wieży czuje ciągnięcie i nie wchodzi na most (W3.4, tekst 4).
+- Krótko: każdy pomiar to jeden wpis na mapie: liczba i słowo „gładko” albo „drżąco” (tabela odczytów wyżej). Gdy drużyna się rozdzieliła, przeskakuj między postaciami co jeden pomiar. Ansel (stopień 3, towarzyszenie) może iść z postacią, która pierwsza zwróciła się do Ansela po imieniu: przy wieży czuje ciągnięcie i nie wchodzi na most (W3.4, tekst 4).
 
 **Krok 4. Dwa wzory** (ok. 5 min)
 - Czytaj: tekst 2 („Im dalej na zachód…”; nad mapą tylko akapity trzeci i czwarty), tekst 3 („Drżące odczyty nie rozlewają się szeroko…”), gdy postacie idą za ścieżką w dół.
@@ -197,7 +198,7 @@ Notes [[npc.tobias-quill]] myli się w szczegółach (przy Pratcie ma „przed o
 
 ### Ansel w tej scenie
 
-Ansel szuka postaci z najwyższą Więzią i idzie z nią przy jednym pomiarze (stopień 3, towarzyszenie). Gada, liczy stopnie, pyta o godzinę. Przy wieży czuje ciągnięcie: zatrzymuje się na początku mostu i nie wejdzie dalej (tekst 4). Nie wie dlaczego i nie mów graczom dlaczego. W lochach jest mu zimno i cicho; trzyma się blisko postaci. Postać, która przy pożegnaniu w 05 dostała obietnicę śniadania, widzi go w Wielkiej Sali (tekst 5). Jeśli któraś postać nie ma jeszcze znacznika „rozmowa”, to dobra scena na spotkanie wyrównujące z modułu 12.
+Ansel szuka postaci, która pierwsza zwróciła się do Ansela po imieniu (jak w remisie ze sceny 05) i idzie z nią przy jednym pomiarze (stopień 3, towarzyszenie). Gada, liczy stopnie, pyta o godzinę. Przy wieży czuje ciągnięcie: zatrzymuje się na początku mostu i nie wejdzie dalej (tekst 4). Nie wie dlaczego i nie mów graczom dlaczego. W lochach jest mu zimno i cicho; trzyma się blisko postaci. Postać, która przy pożegnaniu w 05 dostała obietnicę śniadania, widzi go w Wielkiej Sali (tekst 5). Jeśli któraś postać nie ma jeszcze znacznika „rozmowa”, to dobra scena na spotkanie wyrównujące z modułu 12.
 
 ### Rady dla MG, który prowadzi początkujących
 
@@ -255,8 +256,8 @@ Scena kończy się, gdy drużyna ma przynajmniej jedną z trzech flag (`flaga.pr
 - *Sygnał:* przy każdym biciu wieży staje w pół kroku i zerka w okno.
 - *Gdy postacie go zaczepią:* entuzjazm, póki mowa o pomiarach. Poważnieje przy drżących odczytach i zgubionych godzinach i kieruje do Wrena. Wspomina skargę Pratta (droga do niego). Przepustki do Działu Ksiąg Zakazanych nie podpisze.
 
-**[[npc.ansel-dray]], chłopiec przy schodach** (przy jednym pomiarze, z postacią o najwyższej Więzi; opcjonalnie przy śniadaniu, tekst 5)
-- *Gdzie jest i co robi:* pojawia się obok postaci z najwyższą Więzią, zanim ta się obejrzy, i idzie z nią na jeden pomiar. Po drodze liczy stopnie na głos.
+**[[npc.ansel-dray]], chłopiec przy schodach** (przy jednym pomiarze, z postacią, która pierwsza zwróciła się do Ansela po imieniu; opcjonalnie przy śniadaniu, tekst 5)
+- *Gdzie jest i co robi:* pojawia się obok postaci, która pierwsza zwróciła się do Ansela po imieniu (jak w remisie ze sceny 05), zanim ta się obejrzy, i idzie z nią na jeden pomiar. Po drodze liczy stopnie na głos.
 - *Czego chce dziś:* być z kimś, kto go widzi, i wiedzieć, która jest godzina. Sam tego nie wie, ale każda chwila uwagi trzyma go w świecie mocniej.
 - *Sygnał:* przy Tempus dym rozmywa się koło niego w nic. Przy każdym biciu wieży wzdryga się i patrzy na zachód. Na początku krytego mostu staje i dalej nie idzie (tekst 4).
 - *Gdy postacie go zaczepią:* gada chętnie, o drobiazgach. O wieży nie chce mówić, w lochach trzyma się blisko. Nie wie, czemu go ciągnie ku wieży, i MG też tego graczom nie mówi.
@@ -413,13 +414,13 @@ dialog:
 
 ### Ansel: towarzysz pomiaru
 
-Ansel idzie z postacią o najwyższej Więzi na jeden pomiar (stopień 3, towarzyszenie). Gada o drobiazgach i liczy stopnie, a dwie jego kwestie są wskazówkami: przy wieży czuje ciągnięcie (W3.4), w lochach czuje, że „ktoś tu ciągle stoi” (wzmocnienie śladu do lochów). Nie tłumacz graczom ani jednego, ani drugiego.
+Ansel idzie z postacią, która pierwsza zwróciła się do Ansela po imieniu na jeden pomiar (stopień 3, towarzyszenie). Gada o drobiazgach i liczy stopnie, a dwie jego kwestie są wskazówkami: przy wieży czuje ciągnięcie (W3.4), w lochach czuje, że „ktoś tu ciągle stoi” (wzmocnienie śladu do lochów). Nie tłumacz graczom ani jednego, ani drugiego.
 
 ```yaml
 dialog:
   id: s1.scena.06.dialog.ansel-towarzysz
   npc: npc.ansel-dray
-  wyzwalacz: "Postać z najwyższą Więzią idzie zmierzyć czas; Ansel pojawia się obok, zanim się obejrzy. Także przy śniadaniu (tekst 5), jeśli obiecał przyjść."
+  wyzwalacz: "Postać, która pierwsza zwróciła się do Ansela po imieniu (jak w remisie ze sceny 05) idzie zmierzyć czas; Ansel pojawia się obok, zanim się obejrzy. Także przy śniadaniu (tekst 5), jeśli obiecał przyjść."
   ton: "szybki, jednym tchem, ciepły; cichnie przy wieży i w lochach"
   kwestie:
     - "Otwarcie: „Przepraszam… pan coś mierzy? Mogę iść z panem? Ja umiem liczyć stopnie.”"
@@ -722,7 +723,7 @@ rozgalezienie:
   warunek: "Postać wypada ze sceny: trafia do skrzydła szpitalnego (Drained po scenie 03, bez posiłku i snu), dostaje szlaban od Filcha albo gracz musi odejść od stołu."
   wymaga_flag: []
   wyklucza_flagi: []
-  efekt: "Scena toczy się dalej, a nieobecna postać nie traci nic poza tym, co sama zrobiła. Pomiary przejmują inni; mapa leży na środku stołu i każdy może wpisywać. Ansel (jeśli nie jest przy innej postaci) odwiedza chorą w skrzydle i podaje jej jedną liczbę z drugiej ręki; to wystarczy, by wróciła do rozmowy. Szlaban Filcha: wieczorem, przy sprzątaniu (kolor; rozmowa o zegarmistrzu może paść tam). Nieobecny gracz dostaje na początku kroku 6 jedno zdanie streszczenia i jedną decyzję, żeby nie stracić głosu. Śmierć postaci w tej scenie nie wchodzi w grę (pomiary i rozmowy nie niosą takiego ryzyka)."
+  efekt: "Scena toczy się dalej, a nieobecna postać nie traci nic poza tym, co sama zrobiła. Pomiary przejmują inni; mapa leży na środku stołu i każdy może wpisywać. Ansel (jeśli nie jest przy innej postaci) odwiedza chorą w skrzydle i podaje jej jedną liczbę z drugiej ręki; to wystarczy, by wróciła do rozmowy. Szlaban Filcha: w środę po Sesji 1 albo rozmowa w kantorku (kolor, wtorkowy wieczór zostaje wolny; rozmowa o zegarmistrzu może paść tam). Nieobecny gracz dostaje na początku kroku 6 jedno zdanie streszczenia i jedną decyzję, żeby nie stracić głosu. Śmierć postaci w tej scenie nie wchodzi w grę (pomiary i rozmowy nie niosą takiego ryzyka)."
   flagi_ustaw: []
   prowadzi_do: s1.scena.06
 ```

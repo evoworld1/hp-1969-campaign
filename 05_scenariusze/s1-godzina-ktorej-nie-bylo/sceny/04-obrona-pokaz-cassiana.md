@@ -715,7 +715,7 @@ rozgalezienie:
   warunek: "Postać atakuje Cassiana na serio: zaklęcie raniące albo ogłuszające (Stupefy, iskry, Stinging Jinx), atak poza kolejką, po komendzie „Stop” albo poza kołem; także bójka na pięści."
   wymaga_flag: []
   wyklucza_flagi: []
-  efekt: "Wren rozbraja postać, zanim zaklęcie doleci, bez rzutu („Różdżka. Teraz.”); były auror nie potrzebuje kości przeciw uczniowi. Pokaz kończy się walkowerem dla Cassiana. Punkty ujemne dla domu (kolor, bez liczenia) i szlaban u Filcha jutro wieczorem (wtorek 23 września; jak w scenie 01, tylko kolor, bez skutków liczbowych w 09). Postać zostaje w grupie i w sali: kara kosztuje reputację, nie grę. Cassian blednie, przyciska dłoń do kamizelki i od tej chwili jest czujny wobec postaci. Jeśli atak celował w kieszonkę, Wren to widzi i po lekcji pyta „Czemu w kieszeń?” (dialog wren-po-lekcji). Zegarek zostaje u Cassiana. Grupa Vane'a i tak wygrywa pokaz."
+  efekt: "Wren rozbraja postać, zanim zaklęcie doleci, bez rzutu („Różdżka. Teraz.”); były auror nie potrzebuje kości przeciw uczniowi. Pokaz kończy się walkowerem dla Cassiana. Punkty ujemne dla domu (kolor, bez liczenia) i szlaban u Filcha w środę po Sesji 1 (jak w scenie 01, tylko kolor, bez skutków liczbowych w 09). Postać zostaje w grupie i w sali: kara kosztuje reputację, nie grę. Cassian blednie, przyciska dłoń do kamizelki i od tej chwili jest czujny wobec postaci. Jeśli atak celował w kieszonkę, Wren to widzi i po lekcji pyta „Czemu w kieszeń?” (dialog wren-po-lekcji). Zegarek zostaje u Cassiana. Grupa Vane'a i tak wygrywa pokaz."
   flagi_ustaw: [flaga.cassian-czujny]
   prowadzi_do: brak
 ```

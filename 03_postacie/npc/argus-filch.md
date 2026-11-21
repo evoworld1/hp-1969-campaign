@@ -10,7 +10,7 @@ rocznik_1969: "dorosły, woźny (nowy)"
 kanon: true
 pewnosc: niepewne
 # Docelowo także: s1.scena.09 (nocny obchód), s1.scena.10, s1.scena.12
-sceny: [s1.scena.01]
+sceny: [s1.scena.01, s1.scena.06, s1.scena.07, s1.scena.09, s1.scena.10, s1.scena.12]
 tylko_mg: true
 tagi: [s1, wozny, noc, kanon]
 zrodla:

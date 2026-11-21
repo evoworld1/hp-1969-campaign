@@ -7,7 +7,7 @@ lokalizacja: "Hogwart, lochy; korytarz od sali Eliksirów do gładkiej kamiennej
 pewnosc: niepewne
 # Pliki scen jeszcze nie istnieją (walidator wymaga istniejących identyfikatorów).
 # Docelowo: s1.scena.06 (koniec śladu drżących odczytów), s1.scena.08 (konfrontacja, siatka bezpieczeństwa 5), s1.scena.12 (Gideon Pratt, dormitorium)
-sceny: []
+sceny: [s1.scena.06, s1.scena.08, s1.scena.12]
 tylko_mg: true
 tagi: [s1, hogwart, lochy, slytherin, cassian, slad-ukaszen, dormitorium, mapa-dryfu]
 zrodla:

@@ -8,7 +8,7 @@ wlasciciel_start: brak
 pewnosc: nasze
 # Pliki scen jeszcze nie istnieją (walidator wymaga istniejących identyfikatorów).
 # Docelowo: s1.scena.09 (w drodze do biblioteki), s1.scena.12 (wizyta w bibliotece)
-sceny: []
+sceny: [s1.scena.09, s1.scena.12]
 tylko_mg: true
 tagi: [s1, s2, wymark-slad, marrow, "1951", biblioteka, patron, w9]
 zrodla:

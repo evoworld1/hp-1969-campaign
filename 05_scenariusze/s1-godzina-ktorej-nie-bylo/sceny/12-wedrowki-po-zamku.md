@@ -71,6 +71,7 @@ flagi_wyjscie:
   - flaga.karta-u-graczy
   - flaga.s1-zegar-kradziezy
   - flaga.cassian-czujny
+  - flaga.zegarek-u-graczy
 nastepne:
   - s1.scena.04
   - s1.scena.05
@@ -270,7 +271,7 @@ aktualizacja: 2026-11-20
 - Dialog: `s1.scena.12.dialog.pince-rejestr` — „Trzy razy. Trzy razy ten sam tom, jakby był jego własnością. Czego szukacie? I proszę nie opierać się o rejestr.”
 - Test: `miejsce.biblioteka.test.zdjecie-w-gablocie` (karta miejsca)
 - Flagi: `flaga.lokalizacja-pracowni`, `flaga.wymark-slad`, `flaga.marrow-imie-znane` (gdy postacie rozpoznają Marrow na zdjęciu dzięki Anselowi albo Fairweather)
-- Krótko: na szczerą ciekawość pani Pince narzeka na „chłopca od Slughorna”, Vane'a, który trzy razy prosił o ten sam tom o zegarmistrzostwie. Za trzecim razem znalazła ten tom nie na półce, tylko za liną, na końcu ostatniego regału działu, „a przecież nikogo tam nie wpuszczam” (W5.2; to rozmowa, nie zgoda na wejście; sam tom stoi w zwykłej części biblioteki). O Dział Ksiąg Zakazanych: „Z podpisem nauczyciela. A podpisu na takie tematy nie dostaniecie”. Ansel przy Więzi 2 dorzuca szeptem: „Pani profesor nosiła książki do najdalszego regału” (W5.5). Gablota ze zdjęciem z 1951 jest na korytarzu przed wejściem (W9.2); Ansel, jeśli jest, przykłada dłoń do szkła: „To pani profesor”.
+- Krótko: na szczerą ciekawość pani Pince narzeka na „chłopca od Slughorna”, Vane'a, który trzy razy prosił o ten sam tom o zegarmistrzostwie. Za trzecim razem znalazła ten tom nie na półce, tylko za liną, na końcu ostatniego regału działu, „a przecież nikogo tam nie wpuszczam” (W5.2; to rozmowa, nie zgoda na wejście; sam tom stoi w zwykłej części biblioteki). O Dział Ksiąg Zakazanych: „Z podpisem nauczyciela. A podpisu na takie tematy nie dostaniecie”. Ansel przy postaci, która zwróciła się do niego po imieniu, dorzuca szeptem: „Pani profesor nosiła książki do najdalszego regału” (W5.5). Gablota ze zdjęciem z 1951 jest na korytarzu przed wejściem (W9.2); Ansel, jeśli jest, przykłada dłoń do szkła: „To pani profesor”.
 - *Czwarta droga do W6 (wzór w rejestrze):* gdy postać zerka do rejestru (szczera ciekawość), widzi, że przy wszystkich trzech wpisach Vane'a w rubryce „godzina zwrotu” pani Pince przekreślała ten sam zapis: rzymską XIII. „Pisał to uparcie. Nie ma takiej godziny.” To podpowiada, że do drzwi w ostatnim rzędzie trzeba „trzynastu”, bez karty, bez Tempus i bez Ansela (scena 09).
 - Awaryjne: `awaryjne-za-dlugo` (gdy gracze siedzą w bibliotece do wieczora)
 
@@ -342,7 +343,7 @@ aktualizacja: 2026-11-20
 
 ### Ansel w wędrówkach
 
-Ansel nie jest osobnym spotkaniem, tylko cieniem, który chodzi z drużyną. Po scenie 05 może towarzyszyć postaci z najwyższą Więzią w **jednym** spotkaniu (stopień 3, towarzyszenie): najlepiej w K (biblioteka, gablota) albo w B (Mnich go nie widzi, ale czuje chłód „jak przy kimś bardzo smutnym”). Nie wchodzi do gabinetu dyrektora sam, tylko gdy go zaprowadzą. Nie idzie na wieżę astronomiczną ani do Sali Wejściowej, gdy bije wielki zegar: wzdryga się i zostaje na schodach. **Więź w module:** +1 za życzliwość (jedzenie z kuchni, imię, wysłuchanie, uczciwa odpowiedź), −1 tylko za odkryte kłamstwo; w spotkaniu N najwyżej do 1, bo to wyrównanie, nie wyścig.
+Ansel nie jest osobnym spotkaniem, tylko cieniem, który chodzi z drużyną. Po scenie 05 może towarzyszyć postaci, która pierwsza zwróciła się do Ansela po imieniu (jak w remisie ze sceny 05) w **jednym** spotkaniu (stopień 3, towarzyszenie): najlepiej w K (biblioteka, gablota) albo w B (Mnich go nie widzi, ale czuje chłód „jak przy kimś bardzo smutnym”). Nie wchodzi do gabinetu dyrektora sam, tylko gdy go zaprowadzą. Nie idzie na wieżę astronomiczną ani do Sali Wejściowej, gdy bije wielki zegar: wzdryga się i zostaje na schodach. **Więź w module:** +1 za życzliwość (jedzenie z kuchni, imię, wysłuchanie, uczciwa odpowiedź), −1 tylko za odkryte kłamstwo; w spotkaniu N najwyżej do 1, bo to wyrównanie, nie wyścig.
 
 ### Rady dla MG, który prowadzi początkujących
 
@@ -350,7 +351,7 @@ Ansel nie jest osobnym spotkaniem, tylko cieniem, który chodzi z drużyną. Po 
 - **Jedno spotkanie, jedna rzecz.** Każde spotkanie kończy się czymś do zapisania: nazwiskiem, liczbą, zdaniem. Jeśli gracz po pięciu minutach nic nie ma, daj mu kwestię z „Krótko” wprost.
 - **Rozdzielona drużyna.** Gdy postacie idą w różne miejsca, przeskakuj co jedno spotkanie i nie zostawiaj nikogo bez głosu dłużej niż pięć minut. To też dobry moment na N dla postaci, która jeszcze nie rozmawiała z Anselem.
 - **Nauczyciele odmawiają, ale nie karzą.** Prośba o Dział Ksiąg Zakazanych zawsze kończy się „nie”, za każdym razem innym. Nie rób z tego ściany: każdy nauczyciel daje przy odmowie jedną rzecz (Wren konkret o Vanie, Flitwick wzmiankę o książkach, pani Pince rejestr). Gracze sami dojdą do tego, że trzeba iść nocą.
-- **Pilnuj zegara kradzieży.** Gdy gracze chodzą po zamku pół dnia w fikcji, przesuń zegar o 1 i pokaż skutek (tabela w grafie). Świat nie czeka.
+- **Pilnuj zegara kradzieży.** Gdy gracze chodzą po zamku pół dnia w fikcji, przesuń zegar o 1 i pokaż skutek (tabela w grafie). **Reguła zegara kradzieży:** +1 tylko gdy `flaga.zegarek-cassiana` = `u-cassiana` i Cassian nie jest zdemaskowany (`flaga.cassian-zdemaskowany`); siatka 6 wymaga tych samych warunków. Świat nie czeka.
 
 ### Linie i zasłony
 
@@ -419,7 +420,7 @@ Moduł zamyka się na trzy sposoby: (1) gracze mają to, po co szli, i wracają 
 - *Gdy postacie ją zaczepią:* uczciwa, krótka opowieść otwiera gargulca (założenie robocze). Kluczenie: odsyła do dormitoriów i patrzy na postacie przez tydzień.
 
 **[[npc.ansel-dray]]** (spotkanie N; jako towarzysz najwyżej w jednym spotkaniu, najlepiej B albo K; w M, gdy go przyprowadzą)
-- *Co robi:* w N czeka na jedną postać, która jeszcze z nim nie rozmawiała: na jej łóżku o świcie, przy jej ławce albo idzie za jej krokami. W innych spotkaniach stoi obok postaci z najwyższą Więzią i mówi tylko do niej.
+- *Co robi:* w N czeka na jedną postać, która jeszcze z nim nie rozmawiała: na jej łóżku o świcie, przy jej ławce albo idzie za jej krokami. W innych spotkaniach stoi obok postaci, która pierwsza zwróciła się do Ansela po imieniu (jak w remisie ze sceny 05) i mówi tylko do niej.
 - *Czego chce:* wiedzieć, która jest godzina, doczekać się pani profesor i, choć sam tego nie wie, żeby ktoś zapamiętał jego imię.
 - *Sygnał:* pauza przed każdym pytaniem, „proszę pana”, „proszę pani”. Wzdryga się przy biciu zegara. Ręce przechodzą przez rzeczy.
 - *Gdy postacie go zaczepią:* krzyk albo chwyt: przeprasza i znika. Kłamstwo przyjmuje z ufnością (odkryte: Więź −1). Nigdy nie mówi „umarłem” ani „duch”; o mamie w Sesji 1 nie rozmawia dłużej niż jednym zdaniem.
@@ -537,7 +538,7 @@ dialog:
     - "Gdy postać kłamie albo się wykręca: „Tak, tak. A ja jestem minister magii.” (zapisuje nazwisko drugi raz i podkreśla)"
     - "Gdy postać jest bezczelna albo grozi: (krzyk) „Do opiekuna domu! Natychmiast!” (za dnia bez szlabanu, ale Filch zapamiętuje)"
     - "Gdy ktoś kpi z charłaków albo z ludzi bez magii: (cichnie zupełnie) „Powtórz.” (nie krzyczy; zapisuje nazwisko osobno, na ostatniej stronie, i pamięta je cały rok)"
-    - "Gdy postać ma u niego szlaban za bójkę w Wielkiej Sali: „A, ty. Wtorek wieczorem, u mnie. Nie spóźnij się. Zegary tu kłamią, ja nie.”"
+    - "Gdy postać ma u niego szlaban za bójkę w Wielkiej Sali: „A, ty. W środę, u mnie. Nie spóźnij się. Zegary tu kłamią, ja nie.”"
     - "Kolor, opcjonalnie (tylko gdy wspólny sekret z 4. roku wiązał się z przyłapaniem i gracze zgodzili się to ujawnić): (otwiera księgę szlabanów, wodzi palcem) „O, proszę. Czwarty rok. [nazwiska]. Pan Pringle ładnie to zapisał.”"
     - "Nieprzewidziane (postać chce sama poprawić zegar różdżką albo go nakręcić): „Ręce precz! Jeszcze tego brakuje, żeby uczeń mi zegar różdżką naprawiał.” (ale zerka z nadzieją; zegar i tak spóźnia się dalej)"
     - "Może zdradzić bez warunku: że „wieża się boczy” (W3.3)."
@@ -592,7 +593,7 @@ dialog:
     - "Gdy pytają o zdjęcia, gablotę albo profesor Marrow: „Gablota stoi na korytarzu. Ja pilnuję książek, nie pucharów.” (wskazuje drzwi; wstawka „Za szybą gabloty…”)"
     - "Gdy postać pochlebia albo kłamie: „Nie.” (wraca do rejestru; do zamknięcia czytelni patrzy na postacie znad okularów)"
     - "Gdy postać hałasuje, je albo zagina róg: „Wyjście jest tam. Opiekun waszego domu dowie się o tym jeszcze dziś.”"
-    - "Ansel przy postaci z Więzią 2, szeptem, tylko do niej: „Pani profesor nosiła książki do najdalszego regału.” (W5.5; pani Pince nic nie słyszy)"
+    - "Ansel przy postaci, która pierwsza zwróciła się do niego po imieniu, szeptem, tylko do niej: „Pani profesor nosiła książki do najdalszego regału.” (W5.5; pani Pince nic nie słyszy)"
     - "Ansel przy gablocie: (przykłada dłoń do szkła; dłoń trochę w nie wchodzi) „To pani profesor.”"
     - "Nieprzewidziane (postać odkłada książki na miejsce, naprawia grzbiet albo naprawdę czyta przy biurku): (patrzy długo) „Grzbietem na zewnątrz. Nie tak. O, tak.” (prawie się uśmiecha; na następne pytanie odpowiada pełniej, jak przy szczerej ciekawości)"
     - "Może zdradzić przy szczerej ciekawości: nazwisko Vane, trzy wypożyczenia tego samego tomu, tom znaleziony za liną na końcu ostatniego regału (W5.2)."
@@ -836,7 +837,7 @@ rozgalezienie:
   wymaga_flag: [flaga.godzina-stracona]
   wyklucza_flagi: []
   efekt: "Zegarek u graczy, zegar kradzieży staje. Cassian przychodzi po niego jeszcze tego wieczoru albo nazajutrz (spotkanie O, wejście do 08). Karta zostaje u niego, chyba że postać zabrała też ją."
-  flagi_ustaw: [flaga.zegarek-cassiana]
+  flagi_ustaw: [flaga.zegarek-cassiana, flaga.zegarek-u-graczy]
   prowadzi_do: s1.scena.08
 ```
 
@@ -847,7 +848,7 @@ rozgalezienie:
   warunek: "Postacie zdobywają lokalizację pracowni bez Cassiana (pani Pince, Ansel z Więzią, śledzenie drżących odczytów do biblioteki)."
   wymaga_flag: []
   wyklucza_flagi: []
-  efekt: "W5 drogami awaryjnymi. Wyprawa nocą do sceny 09."
+  efekt: "W5 drogami awaryjnymi. Wyprawa nocą do sceny 09. Zanim zacznie się 09, MG sprawdza `flaga.lokalizacja-pracowni` oraz `flaga.ansel-kontakt` (równą liczbie graczy); jeśli któraś brakuje, wymusza przed 09 spotkanie N (Ansel) albo K (Pince, rejestr)."
   flagi_ustaw: [flaga.lokalizacja-pracowni]
   prowadzi_do: s1.scena.09
 ```
@@ -871,7 +872,7 @@ rozgalezienie:
   warunek: "Przed sceną 09 liczba postaci po rozmowie z Anselem jest mniejsza niż liczba graczy."
   wymaga_flag: [flaga.godzina-stracona]
   wyklucza_flagi: []
-  efekt: "Spotkanie N dla każdej brakującej postaci. Potem scena 09."
+  efekt: "Spotkanie N dla każdej brakującej postaci. Potem scena 09. Zanim zacznie się 09, MG sprawdza `flaga.lokalizacja-pracowni` oraz `flaga.ansel-kontakt` (równą liczbie graczy); jeśli któraś brakuje, wymusza przed 09 spotkanie N (Ansel) albo K (Pince, rejestr)."
   flagi_ustaw: [flaga.ansel-spotkany, flaga.ansel-kontakt]
   prowadzi_do: s1.scena.09
 ```
@@ -897,7 +898,7 @@ rozgalezienie:
   warunek: "Wędrówki trwają dłużej niż 30 minut przy stole."
   wymaga_flag: []
   wyklucza_flagi: []
-  efekt: "Świat działa sam: zegar kradzieży rośnie i przy 3 Cassian przychodzi do postaci (scena 08), przy 4 idzie do pracowni pierwszy (siatka 6, scena 09)."
+  efekt: "Świat działa sam: zegar kradzieży rośnie i przy 3 Cassian przychodzi do postaci (scena 08), przy 4 idzie do pracowni pierwszy (siatka 6, scena 09), ale tylko gdy zegarek jest u Cassiana, a on nie jest zdemaskowany; inaczej zegar stoi."
   flagi_ustaw: [flaga.s1-zegar-kradziezy]
   prowadzi_do: s1.scena.08
 ```
@@ -935,7 +936,7 @@ Objaw: nie mają lokalizacji pracowni, nie wiedzą, kto kradnie godziny, i nie w
 | **W3.3** czas płynie ku wieży | H (Filch), L (Flitwick) | „Co mówią o wielkim zegarze ci, którzy go pilnują?” | Filch: „wieża się boczy”; Flitwick: „boczy się od dwóch tygodni” |
 | **W4.6** oceny Vane'a | P (Wren) | „Komu ze starszych ufacie na tyle, żeby o tym powiedzieć?” | Wren: „Podniósł oceny w dwa tygodnie. Ze wszystkiego naraz” |
 | **W5.2** rejestr wypożyczeń | K (Pince) | „Gdzie w zamku zostaje po kimś ślad, że czytał?” | Pince: trzy razy ten sam tom; znaleziony za liną |
-| **W5.5** „do najdalszego regału” | K albo N (Ansel z Więzią 2) | „O co Ansel pytał panią profesor, gdy ją widział ostatni raz?” | Ansel: „Pani profesor nosiła książki do najdalszego regału” |
+| **W5.5** „do najdalszego regału” | K albo N (Ansel (rozmowa po imieniu)) | „O co Ansel pytał panią profesor, gdy ją widział ostatni raz?” | Ansel: „Pani profesor nosiła książki do najdalszego regału” |
 | **W6.4** wzór w rejestrze (trzynaście) | K (Pince) | „Co jeszcze dziwnego jest w wpisach Vane'a?” | Pince: „Godzina zwrotu, zawsze rzymskie trzynaście. Przekreślałam” |
 | **W7.3** „szafka najpierw chce dostać” | N, 05, M (Ansel) | „Czy ktoś zapytał Ansela, co mówiła pani profesor?” | Ansel: „Szafka jest uczciwa: najpierw chce dostać” |
 | **W8.3** Crake i zegar | H (Filch) | „Kto jeszcze pilnuje wieży poza woźnym?” | Filch: „Zegarmistrz był w czwartek. Znowu” |
@@ -950,7 +951,7 @@ rozgalezienie:
   warunek: "Drużyna jest po scenie 05 (albo po 08 bez rozmowy z Cassianem) i nie ma flaga.lokalizacja-pracowni; nie wiedzą, dokąd iść nocą."
   wymaga_flag: [flaga.godzina-stracona]
   wyklucza_flagi: [flaga.lokalizacja-pracowni]
-  efekt: "MG zadaje pytanie z tabeli wskazówek i prowadzi spotkanie K (Pince, W5.2) albo N (Ansel, W5.5) jako pierwsze. Jeśli nie wyjdzie, szczebel drugi i trzeci drabinki. Jako ostatnie koło ratunkowe działa zegar kradzieży (3: Cassian sam przychodzi, 4: Cassian idzie do pracowni pierwszy; siatka 6). Lokalizację pracowni gracze dostają zawsze, ale zawsze za coś: za rozmowę, za uprzejmość, za czas."
+  efekt: "MG zadaje pytanie z tabeli wskazówek i prowadzi spotkanie K (Pince, W5.2) albo N (Ansel, W5.5) jako pierwsze. Jeśli nie wyjdzie, szczebel drugi i trzeci drabinki. Jako ostatnie koło ratunkowe działa zegar kradzieży (3: Cassian sam przychodzi, 4: Cassian idzie do pracowni pierwszy; siatka 6). Lokalizację pracowni gracze dostają zawsze, ale zawsze za coś: za rozmowę, za uprzejmość, za czas. Zanim zacznie się 09, MG sprawdza `flaga.lokalizacja-pracowni` oraz `flaga.ansel-kontakt` (równą liczbie graczy); jeśli któraś brakuje, wymusza przed 09 spotkanie N (Ansel) albo K (Pince, rejestr)."
   flagi_ustaw: [flaga.lokalizacja-pracowni]
   prowadzi_do: s1.scena.09
 ```
@@ -1003,7 +1004,7 @@ rozgalezienie:
   warunek: "Gracze proszą nauczyciela o zgodę na wejście do Działu Ksiąg Zakazanych albo próbują wejść za dnia, podrabiając podpis lub kłamiąc."
   wymaga_flag: [flaga.godzina-stracona]
   wyklucza_flagi: [flaga.pracownia-otwarta]
-  efekt: "Odmowa zawsze, za każdym razem innymi słowami i bez kary (próba oszustwa: szlaban u opiekuna domu, kolor). Przy odmowie nauczyciel daje jeden konkret (tabela odmów). Po trzeciej odmowie wskaż wprost drogę nocną: biblioteka po ciszy nocnej, bez zgody. Gracze mają własną decyzję: kiedy i jak pójdą."
+  efekt: "Odmowa zawsze, za każdym razem innymi słowami i bez kary (próba oszustwa: szlaban u opiekuna domu, kolor). Przy odmowie nauczyciel daje jeden konkret (tabela odmów). Po trzeciej odmowie wskaż wprost drogę nocną: biblioteka po ciszy nocnej, bez zgody. Gracze mają własną decyzję: kiedy i jak pójdą. Zanim zacznie się 09, MG sprawdza `flaga.lokalizacja-pracowni` oraz `flaga.ansel-kontakt` (równą liczbie graczy); jeśli któraś brakuje, wymusza przed 09 spotkanie N (Ansel) albo K (Pince, rejestr)."
   flagi_ustaw: []
   prowadzi_do: s1.scena.09
 ```
@@ -1014,7 +1015,7 @@ Filch łapie postacie, gdy łamią zasady poza nocną wyprawą: chodzą po koryt
 
 - **Za dnia:** nazwisko i dom do zeszytu, uwaga i opiekun domu. Bez szlabanu, ale Filch pamięta twarz. Tylko kolor.
 - **Wieczorem przed ciszą nocną:** rozmowa w jego kantorku (7 minut): narzeka, pyta, co robiły postacie, i zapisuje. Daje W8.3 („Zegarmistrz był w czwartek”), jeśli go wysłuchają.
-- **Po ciszy nocnej (poza wyprawą do biblioteki):** szlaban na następny wieczór (wtorek wieczór u niego); zegar kradzieży +1 (ucieka czas). Nie blokuje to nocnej wyprawy: Filch jest zadowolony z połowu, a Ansel budzi postać z najwyższą Więzią.
+- **Po ciszy nocnej (poza wyprawą do biblioteki):** szlaban „tylko kolor” w środę po Sesji 1 albo rozmowa w kantorku Filcha (nie koliduje z wtorkowym wieczorem); zegar kradzieży +1 (ucieka czas). Nie blokuje to nocnej wyprawy: Filch jest zadowolony z połowu, a Ansel budzi postać, która pierwsza zwróciła się do Ansela po imieniu (jak w remisie ze sceny 05).
 - **Złapana część drużyny:** reszta zostaje wolna; postać może „wziąć na siebie” (jak w siatce 9).
 - **Kpina z charłaków:** Filch nie krzyczy, zapisuje nazwisko na ostatniej stronie. Pamięta cały rok. To jego rana, nie żart (zob. „Linie i zasłony”).
 
@@ -1025,7 +1026,7 @@ rozgalezienie:
   warunek: "Filch przyłapuje postacie na korytarzu (po ciszy nocnej, w miejscu zakazanym albo po kpinie), poza nocną wyprawą do biblioteki."
   wymaga_flag: [flaga.godzina-stracona]
   wyklucza_flagi: [flaga.pracownia-otwarta]
-  efekt: "Szlaban na następny wieczór (kolor), nazwiska w zeszycie, zegar kradzieży +1 (czas ucieka, gdy ktoś stoi w kantorku). Rozmowa z Filchem daje W8.3. Nocna wyprawa do biblioteki nie jest zamknięta: Filch kończy obchód, Ansel budzi postać z najwyższą Więzią i wyprawa idzie dalej. Jeśli złapani zostali wszyscy, działa siatka 9 z grafu."
+  efekt: "Szlaban w środę po Sesji 1 albo rozmowa w kantorku (kolor), nazwiska w zeszycie, zegar kradzieży +1 (czas ucieka, gdy ktoś stoi w kantorku). Rozmowa z Filchem daje W8.3. Nocna wyprawa do biblioteki nie jest zamknięta: Filch kończy obchód, Ansel budzi postać, która pierwsza zwróciła się do Ansela po imieniu (jak w remisie ze sceny 05) i wyprawa idzie dalej. Jeśli złapani zostali wszyscy, działa siatka 9 z grafu. Zanim zacznie się 09, MG sprawdza `flaga.lokalizacja-pracowni` oraz `flaga.ansel-kontakt` (równą liczbie graczy); jeśli któraś brakuje, wymusza przed 09 spotkanie N (Ansel) albo K (Pince, rejestr)."
   flagi_ustaw: [flaga.s1-zegar-kradziezy]
   prowadzi_do: s1.scena.09
 ```
@@ -1045,7 +1046,7 @@ rozgalezienie:
   warunek: "Gracz dołącza do stołu po scenie 03 albo jego postać ma niższy kontakt z Anselem niż reszta (siatka 2)."
   wymaga_flag: [flaga.godzina-stracona]
   wyklucza_flagi: []
-  efekt: "Spotkanie N dla tej postaci (wariant do wyboru gracza), 5 minut, bez reszty drużyny. Dostaje jedną zadrę i wraca do grupy. Ansel nie zapomina o nikim: wraca później przy całej drużynie."
+  efekt: "Spotkanie N dla tej postaci (wariant do wyboru gracza), 5 minut, bez reszty drużyny. Dostaje jedną zadrę i wraca do grupy. Ansel nie zapomina o nikim: wraca później przy całej drużynie. Zanim zacznie się 09, MG sprawdza `flaga.lokalizacja-pracowni` oraz `flaga.ansel-kontakt` (równą liczbie graczy); jeśli któraś brakuje, wymusza przed 09 spotkanie N (Ansel) albo K (Pince, rejestr)."
   flagi_ustaw: [flaga.ansel-spotkany, flaga.ansel-kontakt]
   prowadzi_do: s1.scena.09
 ```
@@ -1093,7 +1094,7 @@ rozgalezienie:
   warunek: "Postać trafia do skrzydła szpitalnego, dostaje szlaban albo gracz chce odejść od stołu na kilka minut."
   wymaga_flag: [flaga.godzina-stracona]
   wyklucza_flagi: []
-  efekt: "Gra toczy się dalej. Postać jest poza kadrem najwyżej jedno spotkanie (5 minut), a gdy wraca, ma kontakt z Anselem (N) i informację od pozostałych. Kara jest odroczona albo kolorowa, nigdy nie zatrzymuje wątku. Śmierć tylko za świadomą zgodą gracza."
+  efekt: "Gra toczy się dalej. Postać jest poza kadrem najwyżej jedno spotkanie (5 minut), a gdy wraca, ma kontakt z Anselem (N) i informację od pozostałych. Kara jest odroczona albo kolorowa, nigdy nie zatrzymuje wątku. Śmierć tylko za świadomą zgodą gracza. Nowa postać wprowadzona po odpadnięciu albo śmierci postaci gracza traci godzinę razem z drużyną (wspólny wyciek, zadra i mignięcie jak w scenie 03) albo dostaje wprowadzenie od Ansela (spotkanie N): kotwica obejmuje ją i rozmawia z nią tak jak z pozostałymi (liczy się do `flaga.ansel-kontakt`). Zanim zacznie się 09, MG sprawdza `flaga.lokalizacja-pracowni` oraz `flaga.ansel-kontakt` (równą liczbie graczy); jeśli któraś brakuje, wymusza przed 09 spotkanie N (Ansel) albo K (Pince, rejestr)."
   flagi_ustaw: [flaga.ansel-kontakt]
   prowadzi_do: s1.scena.09
 ```

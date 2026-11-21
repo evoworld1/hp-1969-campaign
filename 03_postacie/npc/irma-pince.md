@@ -10,7 +10,7 @@ rocznik_1969: "dorosła, bibliotekarka"
 kanon: true
 pewnosc: niepewne
 # Docelowo: s1.scena.12 (rejestr wypożyczeń), s1.scena.09 (tylko jako poranny skutek wyprawy)
-sceny: []
+sceny: [s1.scena.09, s1.scena.12]
 tylko_mg: true
 tagi: [s1, biblioteka, dzial-ksiag-zakazanych, kanon]
 zrodla:

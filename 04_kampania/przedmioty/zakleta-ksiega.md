@@ -9,7 +9,7 @@ pewnosc: nasze
 # Pliki scen jeszcze nie istnieją (walidator wymaga istniejących identyfikatorów).
 # Docelowo: s1.scena.09 (pracownia: oglądanie, dotknięcia, ewentualna ucieczka), s1.scena.10 (pośrednio),
 #   s1.scena.08 (tylko w opowieści Cassiana)
-sceny: []
+sceny: [s1.scena.09]
 tylko_mg: true
 tagi: [s1, s2, ksiega, pracownia, marrow, zabezpieczenia, zagadki, magia-czasu, w10, karta-pozyczajacego]
 zrodla:

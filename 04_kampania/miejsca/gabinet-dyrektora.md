@@ -7,7 +7,7 @@ lokalizacja: "Hogwart, okrągły gabinet na szczycie ruchomych spiralnych schod�
 pewnosc: niepewne
 # Pliki scen jeszcze nie istnieją (walidator wymaga istniejących identyfikatorów).
 # Docelowo: s1.scena.05 (jeśli gracze od razu prowadzą Ansela do dyrektora), s1.scena.12 (siatka bezpieczeństwa 3)
-sceny: [s1.scena.05]
+sceny: [s1.scena.05, s1.scena.12]
 tylko_mg: true
 tagi: [s1, hogwart, dumbledore, ansel, siatka-bezpieczenstwa]
 zrodla:

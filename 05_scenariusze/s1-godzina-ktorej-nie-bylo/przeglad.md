@@ -37,7 +37,7 @@ Przez kolejne półtora dnia w fikcji postacie mierzą, skąd ucieka czas, trafi
 
 **Dla kogo.** 2–3 graczy, dla wszystkich (poza MG) to pierwsza sesja gry fabularnej. Zasady przychodzą po jednej: scena 01 (albo prolog 11) to rozmowa i jeden prosty test, scena 02 to pierwsze zaklęcie, scena 04 to pierwszy test przeciwny, scena 08 to pierwszy pojedynek.
 
-**Czas.** Rdzeń (sceny 01–10) to około **4 h 30 min**, z prologiem (scena 01 skraca się wtedy do 10 minut) około 4 h 40 min. Trzy punkty pauzy pozwalają przerwać i wrócić od tego samego miejsca (decyzja MG z 2026-11-20). Mapa scen, flagi, trzy drogi do wskazówek i pauzy są w pliku pomocniczym `graf-scen.md` w tym samym folderze.
+**Czas.** Rdzeń (sceny 01–10) to około **4 h 45 min** przy stole (270 min rdzenia plus około 15 min wprowadzenia), do tego scena 12 (5–30 min) i ewentualna ucieczka z pracowni (5–10 min); z prologiem (scena 01 skraca się wtedy do 10 minut) o kilkanaście minut więcej. Cztery punkty pauzy pozwalają przerwać i wrócić od tego samego miejsca (decyzja MG z 2026-11-20). Mapa scen, flagi, trzy drogi do wskazówek i pauzy są w pliku pomocniczym `graf-scen.md` w tym samym folderze.
 
 ## Co sesja musi zapewnić
 
@@ -65,7 +65,7 @@ Przez kolejne półtora dnia w fikcji postacie mierzą, skąd ucieka czas, trafi
 - **Klepsydra na lekcji Fairweather** [decyzja MG 2026-11-20]. Marrow pokazała Klepsydrę na lekcji, na której była pierwszoroczna Ada Fairweather. W Sesji 1 to niejasne wspomnienie; wyjaśnienie w Sesji 2.
 - **Teasery przed kampanią** (fakt pozafabularny, tylko dla MG) [decyzja MG 2026-11-20]. Część graczy w interaktywnym escape roomie znalazła na szczycie jednej z mniejszych wież obserwacji astronomicznych antyczny zwój z zaklęciem **RETRORSUM** [nasze]: magia czasu z tej samej rodziny co zaklęta księga. Padły tam nawiązania do Marrow, a Ansel dał graczom jedną radę, nie zdradzając, kim jest. Inny teaser dał postaciom zdolność pasywną „Oko, które dostrzega ukryte”. Skutki dla Sesji 1: gracze mogą **rozpoznać Ansela** z teasera (scena 05 albo już odbicie w 01), a RETRORSUM może im się skojarzyć z księgą. Scenariusz niczego więcej tu nie rozstrzyga; mechanikę zaklęcia i zdolności opisuje [[zasada.nagrody-z-teaserow]].
 - **Patron: Silas Wymark** [nasze, decyzja MG 2026-11-20]. W 1951 prefekt i asystent profesor Marrow w obserwatorium; widział Klepsydrę na własne oczy. Dziś, po trzydziestce, zwerbowany śmierciożerca: powiedział o Klepsydrze Voldemortowi i znalazł Crake'a, któremu obiecał pomoc w zamian. W Sesji 1 to **tylko ślad**: inicjały „S.W.” obok podpisu Marrow na ścianie pracowni i zdjęcie z 1951 roku (Marrow przy teleskopie, wysoki prefekt obok) w gablocie przy bibliotece. Nikt w Sesji 1 nie wymawia jego nazwiska. Szept o „panu Notcie”, który „bywał w wakacje u ojca”, to plotka przy stole Slytherinu, nic więcej.
-- **Dumbledore** czuje, że coś jest nie tak, ale odkłada sprawę. Jeśli postacie przyjdą do niego z Anselem, rozmawia z nimi uprzejmie i patrzy na puste krzesło.
+- **Dumbledore** wrócił z Londynu w poniedziałek wieczorem (założenie robocze po teście obciążeniowym); w nocy z wtorku na środę nikt nie otworzy jego gabinetu, rano go przyjmie. Czuje, że coś jest nie tak, ale odkłada sprawę. Jeśli postacie przyjdą do niego z Anselem, rozmawia z nimi uprzejmie i patrzy na puste krzesło.
 
 **Zmiany względem archiwum:** „Foliał” rozdzielony na dwa obiekty: **zaklętą księgę** nieznanego autora i **notatnik Marrow**; Karta Pożyczającego pochodzi z księgi; rok 1969 zamiast 1976; mechanika z archiwum (Drabina Wyników, progi k20, Dziennik Lekcji, punkty domów) wypada, testy ustali mechanik według Walkera. **Zmiany względem grafu z fazy 2A:** stracona godzina przesunięta między lekcje, numeracja scen 03 i 04 zamieniona (03 to teraz stracona godzina, 04 to Obrona), Patron ustalony, wejście do biblioteki wyłącznie nocą bez zgody (decyzja MG 2026-11-20; odwraca wcześniejszą decyzję o wejściu legalnym), wczesne sygnały dziwności (w tym odbicie Ansela w szkle zegara), drużyna jako grupa ćwiczeniowa Wrena ze wspólnym sekretem z 4. roku, kotwica jako powód, dla którego tylko postacie graczy rozmawiają z Anselem.
 
@@ -116,7 +116,7 @@ Przez kolejne półtora dnia w fikcji postacie mierzą, skąd ucieka czas, trafi
 | s1.scena.10 | Trzynasty raz (cliffhanger) | 15 min | zaraz po 09 | rdzeń, finał |
 | s1.scena.12 | Wędrówki po zamku (moduł spotkań) | 5–30 min | dowolnie | elastyczna |
 
-**Rdzeń 01–10: 270 min (4 h 30 min).** Do tego 10–15 minut przed grą na linie i zasłony (tematy wykluczone i poza kadrem) oraz objaśnienie kości. Pauzy: po scenie 03 (stracona godzina), po 05 (Ansel), po 08 (Cassian). Opis scen, warunki wejścia i wyjścia, flagi, zegar kradzieży i siatki bezpieczeństwa: `graf-scen.md`.
+**Rdzeń 01–10: 270 min (4 h 30 min).** Do tego 10–15 minut przed grą na linie i zasłony (tematy wykluczone i poza kadrem) oraz objaśnienie kości. Pauzy: po scenie 03 (stracona godzina), po 05 (Ansel), po 08 (Cassian) i w środku 09 (po otwarciu drzwi). Opis scen, warunki wejścia i wyjścia, flagi, zegar kradzieży i siatki bezpieczeństwa: `graf-scen.md`.
 
 ## Rozwidlenie końcowe
 
@@ -136,9 +136,9 @@ Sesja kończy się pytaniem MG: **„Co robicie z notatnikiem i z Anselem?”**.
 rozgalezienie:
   id: s1.rozgalezienie.dumbledore
   rodzaj: glowne
-  warunek: "Postacie zanoszą notatnik do dyrektora i mówią o Anselu."
-  wymaga_flag: [flaga.trzynasta-wybila]
-  wyklucza_flagi: []
+  warunek: "Postacie zanoszą notatnik do dyrektora i mówią o Anselu. Warunek: flaga.dziennik-miejsce w {u-graczy, u-dumbledorea}, czyli notatnik nie został skonfiskowany."
+  wymaga_flag: [flaga.trzynasta-wybila, flaga.dziennik-u-graczy]
+  wyklucza_flagi: [flaga.dziennik-skonfiskowany]
   efekt: "Dumbledore przyjmuje notatnik i zamyka go, obiecuje zbadać sprawę chłopca, którego sam nie widzi, i prosi o dalszą obserwację. Sesja 2: nadzorowane śledztwo i wyprawa na Pokątną z błogosławieństwem McGonagall; postacie tracą dostęp do notatnika."
   flagi_ustaw: [flaga.s1-wybor, flaga.dumbledore-powiadomiony]
   prowadzi_do: brak
@@ -148,9 +148,9 @@ rozgalezienie:
 rozgalezienie:
   id: s1.rozgalezienie.sekret
   rodzaj: glowne
-  warunek: "Postacie zatrzymują notatnik i działają same."
+  warunek: "Postacie zatrzymują notatnik i działają same. Warunek: flaga.dziennik-miejsce = u-graczy."
   wymaga_flag: [flaga.dziennik-u-graczy]
-  wyklucza_flagi: []
+  wyklucza_flagi: [flaga.dziennik-skonfiskowany]
   efekt: "Kolejne rozdziały notatnika otwierają się za cenę (oddana godzina, przysługa, powiedziana prawda). Filch podejrzliwy, plotki rosną. Sesja 2: tajna wyprawa na Pokątną, Ansel całkowicie na odpowiedzialności postaci."
   flagi_ustaw: [flaga.s1-wybor]
   prowadzi_do: brak
@@ -160,8 +160,8 @@ rozgalezienie:
 rozgalezienie:
   id: s1.rozgalezienie.moc
   rodzaj: glowne
-  warunek: "Postacie używają Karty Pożyczającego razem z zegarkiem Cassiana (flaga.zegarek-cassiana = u-graczy); sama karta albo sama ściana nie wystarczą (decyzja MG 2026-11-20). Zegarek trafia do graczy najwcześniej po scenie 04, zwykle w 08."
-  wymaga_flag: [flaga.karta-u-graczy]
+  warunek: "Postacie używają Karty Pożyczającego razem z zegarkiem Cassiana (flaga.zegarek-cassiana = u-graczy); sama karta albo sama ściana nie wystarczą (decyzja MG 2026-11-20). Zegarek trafia do graczy najwcześniej po scenie 04, zwykle w 08. Warunek w danych: karta-u-graczy ORAZ zegarek-cassiana = u-graczy (flaga pomocnicza zegarek-u-graczy)."
+  wymaga_flag: [flaga.karta-u-graczy, flaga.zegarek-u-graczy]
   wyklucza_flagi: []
   efekt: "Pierwsze użycia wyglądają niewinnie, koszt wychodzi następnego ranka u kogoś z otoczenia (kandydat: Rejestr Danin). Postacie stają się nowym Cassianem i ktoś to zauważa. Sesja 2: rozliczenie i rosnąca pokusa."
   flagi_ustaw: [flaga.s1-wybor]
@@ -184,11 +184,11 @@ rozgalezienie:
 rozgalezienie:
   id: s1.rozgalezienie.skonfiskowany
   rodzaj: awaryjne
-  warunek: "Filch odebrał postaciom notatnik po wyjściu z pracowni."
-  wymaga_flag: [flaga.trzynasta-wybila, flaga.filch-zlapal]
+  warunek: "Filch odebrał postaciom notatnik po wyjściu z pracowni (flaga.dziennik-miejsce = skonfiskowany)."
+  wymaga_flag: [flaga.trzynasta-wybila, flaga.dziennik-skonfiskowany]
   wyklucza_flagi: []
   efekt: "Notatnik leży u McGonagall albo w szufladzie Filcha. Szlaban daje pretekst, by być blisko niego. Sesja 2 zaczyna się od pytania, czy go odzyskać (podstępem, prośbą, przez Dumbledore'a), czy zostawić; Ansel blednie dalej."
-  flagi_ustaw: [flaga.s1-wybor, flaga.dziennik-miejsce]
+  flagi_ustaw: [flaga.s1-wybor, flaga.dziennik-miejsce, flaga.dziennik-skonfiskowany]
   prowadzi_do: brak
 ```
 

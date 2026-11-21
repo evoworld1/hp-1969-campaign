@@ -29,6 +29,7 @@ flagi_wyjscie:
   - flaga.plakietka-crake
   - flaga.crake-poznany
   - flaga.crake-dluga-rozmowa
+  - flaga.cassian-czujny
 nastepne:
   - s1.scena.08
   - s1.scena.06
@@ -557,7 +558,7 @@ rozgalezienie:
   warunek: "O zmierzchu postacie chowają się w krużganku albo w oknie nad schodami i tylko patrzą (wygrana w s1.scena.07.test.sledzenie-kruzganek albo po prostu milczą), a Cassian nakręca zegarek i odchodzi bez słowa (dialog cassian-zmierzch, linia „Gdy postacie się chowają i tylko patrzą”)."
   wymaga_flag: []
   wyklucza_flagi: [flaga.cassian-zdemaskowany]
-  efekt: "Cassian nie zauważył nikogo: tyka, nakręca, po kilku minutach chowa zegarek i odchodzi mostem. Postacie widziały wszystko (W4.5), ale niczego jeszcze nie nazwały na głos i nic go nie zdemaskowało; scena 07 się kończy. Konfrontacja przychodzi innym wejściem do sceny 08, a MG wybiera jedno z trzech (świat reaguje na to, co postacie zrobią, nikt ich nie prowadzi). (a) Postacie same idą do Cassiana jeszcze tego wieczoru albo następnego dnia: wystarcza `flaga.wieza-zbadana`, a scena 08 zaczyna się tekstem 1a (krużganek, wnęka w lochach albo pusta sala Obrony, zależnie od miejsca). (b) Zegar kradzieży stoi na 3 lub więcej (to zwykle powód, dla którego Cassian tu w ogóle przyszedł): zegarek nadal jest u niego i nic go nie zatrzymało, więc następnego dnia po lekcjach Cassian sam znajduje postacie, zdenerwowany wścibstwem. Scena 08, tekst 1b; krużganek i dziedziniec to otwarta przestrzeń, więc pomiń pierwszy akapit tekstu (drzwi i klamka) i zacznij od tego, że Cassian staje przed nimi i zastawia im drogę. (c) Zegar stoi na 2 lub mniej, a postacie nie ruszają: nie przyspieszaj go na siłę. Zegar rośnie o 1 za każde pół dnia, więc po jednym półdniu bezczynności Cassian sam dojdzie do progu 3 i wejdzie przez 1b. Ślad do podrzucenia: wydeptany do gołego kamienia mech pod filarem (wariant 4b) i melodia pięciu nut, którą ktoś nuci na korytarzu w poniedziałek rano. Niczego nie unieważniamy: nikt nie dostaje zegarka za darmo, a przejęcie zostaje w scenie 08."
+  efekt: "Cassian nie zauważył nikogo: tyka, nakręca, po kilku minutach chowa zegarek i odchodzi mostem. Postacie widziały wszystko (W4.5), ale niczego jeszcze nie nazwały na głos i nic go nie zdemaskowało; scena 07 się kończy. Konfrontacja przychodzi innym wejściem do sceny 08, a MG wybiera jedno z trzech (świat reaguje na to, co postacie zrobią, nikt ich nie prowadzi). (a) Postacie same idą do Cassiana jeszcze tego wieczoru albo następnego dnia: wystarcza `flaga.wieza-zbadana`, a scena 08 zaczyna się tekstem 1a (krużganek, wnęka w lochach albo pusta sala Obrony, zależnie od miejsca). (b) Zegar kradzieży wynosi 3 lub więcej (to zwykle powód, dla którego Cassian tu w ogóle przyszedł): zegarek nadal jest u niego i nic go nie zatrzymało, więc następnego dnia po lekcjach Cassian sam znajduje postacie, zdenerwowany wścibstwem. Scena 08, tekst 1b; krużganek i dziedziniec to otwarta przestrzeń, więc pomiń pierwszy akapit tekstu (drzwi i klamka) i zacznij od tego, że Cassian staje przed nimi i zastawia im drogę. (c) Zegar kradzieży wynosi 2 lub mniej, a postacie nie ruszają: nie przyspieszaj go na siłę. Zegar rośnie o 1 za każde pół dnia, więc po jednym półdniu bezczynności Cassian sam dojdzie do progu 3 i wejdzie przez 1b. Ślad do podrzucenia: wydeptany do gołego kamienia mech pod filarem (wariant 4b) i melodia pięciu nut, którą ktoś nuci na korytarzu we wtorek rano. Niczego nie unieważniamy: nikt nie dostaje zegarka za darmo, a przejęcie zostaje w scenie 08."
   flagi_ustaw: [flaga.wieza-zbadana]
   prowadzi_do: s1.scena.08
 ```
@@ -594,7 +595,7 @@ rozgalezienie:
   wymaga_flag: []
   wyklucza_flagi: []
   efekt: "Jest wtorek, środek tygodnia szkolnego, a Crake wsiada do dorożki przy bramie albo znika w drodze do Hogsmeade, zanim postacie go dogonią; w zamku nikt nie wypuści uczniów po południu. Świat nie mówi „nie”, tylko „jeszcze nie”: Crake grzecznie się z nimi żegna (dialog crake-schodzi: „Pan woźny czeka”), a na stopniu zostaje szmatka pachnąca miętą. Zapiszcie nazwę „Crake i Córka, ulica Pokątna” i wracajcie do zamku. Pokątna to sprawa Sesji 2 (lub weekendu w fikcji). Cena: stracony kwadrans, a przy wyjściu bramą Filch zapisuje nazwiska. Powrót: w drodze wracają przez krużganek, więc zmierzch i Cassian (krok 5) mogą nadal się wydarzyć."
-  flagi_ustaw: [flaga.crake-poznany, flaga.plakietka-crake]
+  flagi_ustaw: [flaga.crake-poznany]
   prowadzi_do: s1.scena.12
 ```
 

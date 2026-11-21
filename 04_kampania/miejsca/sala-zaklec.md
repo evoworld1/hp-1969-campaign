@@ -7,7 +7,7 @@ lokalizacja: "Hogwart, skrzydło lekcyjne; okna od strony Wieży Zegarowej (pię
 pewnosc: niepewne
 # Pliki scen jeszcze nie istnieją (walidator wymaga istniejących identyfikatorów).
 # Docelowo: s1.scena.02 (lekcja Tempus), s1.scena.12 (korepetycje u Flitwicka)
-sceny: [s1.scena.02]
+sceny: [s1.scena.02, s1.scena.12]
 tylko_mg: true
 tagi: [s1, hogwart, lekcja, tempus, flitwick, mapa-dryfu]
 zrodla:

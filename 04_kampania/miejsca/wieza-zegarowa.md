@@ -7,7 +7,7 @@ lokalizacja: "Hogwart, zachodnia strona zamku; drewniany kryty most prowadzi na 
 pewnosc: nasze
 # Pliki scen jeszcze nie istnieją (walidator wymaga istniejących identyfikatorów).
 # Docelowo: s1.scena.06 (cel przypływu), s1.scena.07 (ślepy zaułek z ziarnem), s1.scena.08 (Cassian o zmierzchu), s1.scena.12
-sceny: []
+sceny: [s1.scena.06, s1.scena.07, s1.scena.08]
 tylko_mg: true
 tagi: [s1, hogwart, wieza-zegarowa, crake, plakietka, klepsydra, slepy-zaulek, cassian]
 zrodla:

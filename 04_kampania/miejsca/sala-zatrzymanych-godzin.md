@@ -7,7 +7,7 @@ lokalizacja: "Hogwart, pod biblioteką; schody w dół za ścianą ostatniego rz
 pewnosc: nasze
 # Pliki scen jeszcze nie istnieją (walidator wymaga istniejących identyfikatorów).
 # Docelowo: s1.scena.09 (pracownia, księga, gablota), s1.scena.10 (próg, trzynasty raz)
-sceny: []
+sceny: [s1.scena.09]
 tylko_mg: true
 tagi: [s1, hogwart, pracownia, marrow, ksiega, gablota, notatnik, wahadla, wymark-slad, kulminacja, w10]
 zrodla:

@@ -7,7 +7,7 @@ lokalizacja: "Hogwart, zejście z Sali Wejściowej do jasnego korytarza w podzie
 pewnosc: nasze
 # Pliki scen jeszcze nie istnieją (walidator wymaga istniejących identyfikatorów).
 # Docelowo: s1.scena.05 (chłopiec przy schodach), s1.scena.06, s1.scena.10 (Ansel czeka), s1.scena.12 (kuchnia, spotkania wyrównujące)
-sceny: [s1.scena.05]
+sceny: [s1.scena.05, s1.scena.12]
 tylko_mg: true
 tagi: [s1, hogwart, ansel, kuchnia, hufflepuff, wiez]
 zrodla:

@@ -183,6 +183,8 @@ Różdżka na nocnej szafce leży nieruchomo. Kto jej dotknie, poczuje, że drew
 
 **Co się naprawdę dzieje.** Pod biblioteką, za ścianą ostatniego rzędu Działu Ksiąg Zakazanych, leży dawna pracownia profesor Marrow ([[miejsce.sala-zatrzymanych-godzin]]). Tu w 1951 roku studiowała zaklętą księgę i budowała Klepsydrę Daniny. Drzwi otwiera „godzina, której nie ma”: trzynasta. Zatrzymane zegary na ścianach to rachunki z 1951 roku, chwile, w których Klepsydra pobrała z zamku „zapłatę” za trwanie Ansela; **w tej sesji nikt graczom tego nie wyjaśnia**, zegary tylko stoją i tykają przy zabezpieczeniach księgi. Trzy tygodnie temu był tu Cassian: nie rozwiązał zagadek księgi, wyrwał z niej kartę ([[przedmiot.karta-pozyczajacego]]), obudził pełne zabezpieczenia i ledwo uciekł. Osmalone kamienie i biegnące ślady w kurzu to pamiątka tamtej nocy. Notatnik Marrow w gablocie jest cały i jest jedną z kotwic Ansela: gdy przekroczy próg sali, w całym zamku wybije trzynasty raz (scena 10).
 
+**Punkt pauzy 4 (w środku sceny, po otwarciu drzwi).** Gdy drzwi w ostatnim rzędzie się otwierają, a postacie stoją na progu schodów w dół, MG może zatrzymać sesję: „Schody tykają. Trzynaście stopni, a pod nimi niebieskawe światło.” Przy wznowieniu: przypomnij, kto jest w drużynie, kto ma Drained (reguła w `graf-scen.md`), gdzie jest Ansel, i zacznij od pierwszego stopnia (krok 5). Przed przerwą zapisz flagi (`flaga.pracownia-otwarta`, `flaga.filch-zlapal`, `flaga.s1-zegar-kradziezy`).
+
 **Co jest obowiązkowe, a co nie.** Obowiązkowe są tylko dwie przeszkody: **drzwi** (W6) i **gablota** (W7). Galeria wahadeł to **cena, nie bramka**: przejście jest zawsze. Ściana obliczeń z zakazaną lekcją to pokusa. Zaklęta księga **nie jest przeszkodą**: to obraz, ostrzeżenie i ziarno na Sesję 2. Siłowe otwarcie gabloty **nie** budzi zabezpieczeń księgi; to dwa osobne mechanizmy.
 
 **Jak otworzyć drzwi (założenie robocze).** Przyjmij każde rozsądne „trzynaście” skierowane do ściany albo przycisku-klepsydry: trzynaście stuknięć w kamień, trzynaście obrotów klepsydry, przesunięcie wskazówki w dymnej tarczy Tempus na trzynastą kreskę, wystukanie rytmu bicia, które słychać zza ściany. Drzwi otwierają się wtedy bez rzutu (tekst 3). Test `s1.scena.09.test.drzwi` służy tylko do **znalezienia** odpowiedzi (nasłuchiwanie, Tempus), nie do samego otwarcia. Prześwit zostaje otwarty, dopóki postacie są w środku; zamyka się dopiero po trzynastym uderzeniu przy pełnych zabezpieczeniach albo po wyjściu ostatniej osoby.
@@ -198,9 +200,9 @@ Różdżka na nocnej szafce leży nieruchomo. Kto jej dotknie, poczuje, że drew
 *Oś sceny: przy każdym kroku stoi, co czytać, który dialog otworzyć, jaki test rzucić i jakie flagi zapisać. Kwestie otwierające dialogów to propozycje narratora; jeśli dialogista zmieni brzmienie w bloku, obowiązuje blok. Kroki 5 i 6 możesz zamienić miejscami albo przeplatać, zależnie od tego, dokąd gracze pójdą najpierw. Krok 7 grasz tylko wtedy, gdy gracze go wywołają.*
 
 **Krok 1. Przed wyprawą** (ok. 2 min)
-- Czytaj: tekst 12 („Budzi was dźwięk, którego nie powinno być…”), tylko w siatce 6, gdy nikt nie ma Więzi z Anselem.
+- Czytaj: tekst 12 („Budzi was dźwięk, którego nie powinno być…”), tylko w siatce 6, gdy żadna postać nie zwróciła się do Ansela po imieniu.
 - Dialog: `s1.scena.09.dialog.ansel-nocna-wyprawa` — „Proszę pana, ja pójdę pierwszy. Mnie nikt nie widzi, to na mnie nikt nie krzyczy.” (przy zegarze kradzieży 4: „Ktoś poszedł do pani profesor. Tam, gdzie książki.”)
-- Krótko: sprawdź `flaga.ansel-kontakt`. Jeśli jest mniejsza niż liczba graczy, najpierw spotkanie wyrównujące z modułu 12 dla każdej brakującej postaci. Przy zegarze kradzieży 4: siatka 6 (Ansel budzi postać z najwyższą Więzią, siedzi na jej łóżku: „Ktoś poszedł do pani profesor. Tam, gdzie książki”; bez Więzi tekst 12). Daj graczom najwyżej 2 minuty na plan: kto idzie, co bierze, gdzie się spotykają.
+- Krótko: sprawdź `flaga.ansel-kontakt`. Jeśli jest mniejsza niż liczba graczy, najpierw spotkanie wyrównujące z modułu 12 dla każdej brakującej postaci. Przy zegarze kradzieży 4 (liczy się tylko, gdy `flaga.zegarek-cassiana` = `u-cassiana` i Cassian nie jest zdemaskowany): siatka 6 (Ansel budzi postać, która pierwsza zwróciła się do Ansela po imieniu (jak w remisie ze sceny 05), siedzi na jej łóżku: „Ktoś poszedł do pani profesor. Tam, gdzie książki”; gdy nikt nie zwrócił się do niego po imieniu, tekst 12). Daj graczom najwyżej 2 minuty na plan: kto idzie, co bierze, gdzie się spotykają.
 - Awaryjne: `awaryjne-za-dnia` (chcą wejść za dnia albo prosić o zgodę).
 
 **Krok 2. Nocna wyprawa** (ok. 6 min)
@@ -324,7 +326,7 @@ Ansel jest najlepszym zwiadowcą w zamku i bardzo się z tego cieszy. Mówi o Fi
 dialog:
   id: s1.scena.09.dialog.ansel-nocna-wyprawa
   npc: npc.ansel-dray
-  wyzwalacz: "Po ciszy nocnej, gdy postacie wstają z łóżek (krok 1), i w drodze do biblioteki (krok 2). Przy zegarze kradzieży 4 Ansel sam budzi postać z najwyższą Więzią."
+  wyzwalacz: "Po ciszy nocnej, gdy postacie wstają z łóżek (krok 1), i w drodze do biblioteki (krok 2). Przy zegarze kradzieży 4 Ansel sam budzi postać, która pierwsza zwróciła się do Ansela po imieniu (jak w remisie ze sceny 05)."
   ton: "szept, szybki i podekscytowany, jak dziecko w zabawie w chowanego; przy zegarze kradzieży 4 przestraszony"
   kwestie:
     - "Otwarcie (zwykła noc, postacie wstają): „Proszę pana, ja pójdę pierwszy. Mnie nikt nie widzi, to na mnie nikt nie krzyczy.”"
@@ -358,7 +360,7 @@ dialog:
     - "Gdy postać grozi różdżką albo się wywyższa: (nie cofa się ani o krok) „Machaj tym patykiem, ile chcesz. Jutro rano dyrektor dostanie wszystko na piśmie.”"
     - "Gdy postać kpi z ludzi bez magii albo z jego kursu korespondencyjnego: (cichnie zupełnie, na długo) „Zapamiętam cię, [nazwisko]. Do końca roku.” (od tej chwili ta postać jest jego ulubionym celem)"
     - "Gdy jedna postać daje się złapać, żeby odciągnąć go od reszty: „A ty dokąd? Stój!” (rusza za nią, latarnia odpływa) „Sam? Taki odważny sam?”"
-    - "Gdy złapał całą drużynę (szlaban, zegar kradzieży +1): „Szlaban. Jutro wieczorem, u mnie. A teraz do łóżek, i ja idę za wami.”"
+    - "Gdy złapał całą drużynę (szlaban, zegar kradzieży +1): „Szlaban. W środę, u mnie. A teraz do łóżek, i ja idę za wami.”"
     - "Ucieczka, hałas z ostatniego rzędu (Filch staje w drzwiach biblioteki): „Kto tam stuka?” (długa cisza) „Ja słyszę. Ja wszystko słyszę.” (jeśli nikt nie wyjdzie, odchodzi po chwili mruczeniem; wraca rano)"
     - "Gdy postać pyta o zegary albo o zegarmistrza: „Po północy nie ma pytań. Są nazwiska.” (o zegarmistrzu mówi dopiero za dnia, w scenie 12)"
     - "Nieprzewidziane (ktoś chowa się w zbroi, za gobelinem, udaje portret): (staje tuż obok, stuka w szybkę najbliższego zegara) „Znowu się spieszysz. Wszystko się w tym zamku spieszy.” (odchodzi; daj graczom ten oddech)"
@@ -575,7 +577,7 @@ test:
       efekt: "Filch staje, stuka w szybkę najbliższego zegara i nasłuchuje. Gracze mają chwilę na decyzję (cisza, cofnięcie się, odwrócenie uwagi); Narrator rozstrzyga w ich stronę, jeśli ruch jest rozsądny. Jeden ślad dla pani Pince."
       flagi_ustaw: []
     - wynik: przegrana
-      efekt: "Latarnia łapie prowadzącą (dialog filch-obchod). Reszta chowa się za zbroją albo gobelinem i może odciągnąć Filcha (rozgałęzienie awaryjne-filch-w-drodze). Gdy prowadząca przegrała o 5 lub więcej (albo gdy wszyscy dali się złapać): złapani są wszyscy, szlaban, zegar kradzieży +1 (jeśli biegnie). Po północy Ansel budzi postać z najwyższą Więzią i druga próba idzie bez rzutu, z mniejszą ilością czasu. Dorzut Story Point wolno."
+      efekt: "Latarnia łapie prowadzącą (dialog filch-obchod). Reszta chowa się za zbroją albo gobelinem i może odciągnąć Filcha (rozgałęzienie awaryjne-filch-w-drodze). Gdy prowadząca przegrała o 5 lub więcej (albo gdy wszyscy dali się złapać): złapani są wszyscy, szlaban, zegar kradzieży +1 (jeśli biegnie). Po północy Ansel budzi postać, która pierwsza zwróciła się do Ansela po imieniu (jak w remisie ze sceny 05) i druga próba idzie bez rzutu, z mniejszą ilością czasu. Dorzut Story Point wolno."
       flagi_ustaw: [flaga.filch-zlapal, flaga.s1-zegar-kradziezy]
 ```
 
@@ -970,7 +972,7 @@ rozgalezienie:
   warunek: "Filch łapie część albo całą drużynę w drodze do pracowni (siatka 9)."
   wymaga_flag: []
   wyklucza_flagi: []
-  efekt: "Część złapana: reszta chowa się, złapana postać może odciągnąć Filcha. Wszyscy złapani: szlaban, zegar kradzieży +1; po północy Ansel budzi postać z najwyższą Więzią i druga próba idzie bez testu skradania, z mniejszą ilością czasu."
+  efekt: "Część złapana: reszta chowa się, złapana postać może odciągnąć Filcha. Wszyscy złapani: szlaban, zegar kradzieży +1; po północy Ansel budzi postać, która pierwsza zwróciła się do Ansela po imieniu (jak w remisie ze sceny 05) i druga próba idzie bez testu skradania, z mniejszą ilością czasu."
   flagi_ustaw: [flaga.filch-zlapal, flaga.s1-zegar-kradziezy]
   prowadzi_do: s1.scena.09
 ```
@@ -1008,7 +1010,7 @@ rozgalezienie:
   warunek: "Postacie rezygnują z wyprawy tej nocy (śpią, boją się, chcą się lepiej przygotować) albo po złapaniu przez Filcha nie chcą drugiej próby."
   wymaga_flag: []
   wyklucza_flagi: [flaga.pracownia-otwarta]
-  efekt: "Nic ich nie zmusza. Noc mija, a świat idzie naprzód: zegar kradzieży biegnie dalej (jeśli zegarek jest u Cassiana i Cassian nie jest zdemaskowany). Następnej nocy działa siatka 6: gdy zegar doszedł do 4, Ansel (albo bicie zegarów, tekst 12) budzi postacie, bo Cassian poszedł pierwszy i scena 09 idzie z Cassianem w środku; gdy zegar stoi, Ansel sam budzi postać z najwyższą Więzią i scena idzie bez Cassiana. Postacie, które sobie coś przygotowały (Tempus przy łóżku, karta pod poduszką), dostają to, co przygotowały: bez kary, bez nagrody za zwlekanie. Pani Pince nie ma tu nic do roboty."
+  efekt: "Nic ich nie zmusza. Noc mija, a świat idzie naprzód: zegar kradzieży biegnie dalej (jeśli zegarek jest u Cassiana i Cassian nie jest zdemaskowany). Następnej nocy działa siatka 6: gdy zegar doszedł do 4, Ansel (albo bicie zegarów, tekst 12) budzi postacie, bo Cassian poszedł pierwszy i scena 09 idzie z Cassianem w środku; gdy zegar stoi, Ansel sam budzi postać, która pierwsza zwróciła się do Ansela po imieniu (jak w remisie ze sceny 05) i scena idzie bez Cassiana. Postacie, które sobie coś przygotowały (Tempus przy łóżku, karta pod poduszką), dostają to, co przygotowały: bez kary, bez nagrody za zwlekanie. Pani Pince nie ma tu nic do roboty."
   flagi_ustaw: [flaga.s1-zegar-kradziezy]
   prowadzi_do: s1.scena.09
 ```
@@ -1020,7 +1022,7 @@ rozgalezienie:
   warunek: "Zegar kradzieży doszedł do 4, a postacie śpią albo siedzą w dormitorium (siatka 6)."
   wymaga_flag: [flaga.s1-zegar-kradziezy]
   wyklucza_flagi: [flaga.cassian-zdemaskowany]
-  efekt: "Pobudka przychodzi z zewnątrz: Ansel siada na łóżku postaci z najwyższą Więzią („Ktoś poszedł do pani profesor. Tam, gdzie książki”), a bez Więzi budzi bicie zegara o złej porze (tekst 12; różdżka drży w dłoni). Postać ze Slytherinu słyszy, że Cassian wychodzi z dormitorium. Gracze nie muszą wierzyć Anselowi: wystarczy, że ktoś sprawdzi łóżko Cassiana (puste). Droga do pracowni jest otwarta: przycisk-klepsydra jest ciepły, prześwit już stoi (krok 3). Zostaje test skradania (Filch nie śpi), ale z premią za to, że Ansel zna drogę. Postacie zastają Cassiana (rozgałęzienie cassian-w-srodku). Jeśli zdecydują się go nie gonić, Cassian i tak nie otworzy gabloty (nie umie oddawać), a luzująca się pieczęć sama wybije trzynasty raz o północy: gablota-nieotwarta i cliffhanger sceny 10 bez notatnika w ich rękach."
+  efekt: "Pobudka przychodzi z zewnątrz: Ansel siada na łóżku postaci, która pierwsza zwróciła się do Ansela po imieniu (jak w remisie ze sceny 05) („Ktoś poszedł do pani profesor. Tam, gdzie książki”), a gdy nikt nie zwrócił się do niego po imieniu, budzi bicie zegara o złej porze (tekst 12; różdżka drży w dłoni). Postać ze Slytherinu słyszy, że Cassian wychodzi z dormitorium. Gracze nie muszą wierzyć Anselowi: wystarczy, że ktoś sprawdzi łóżko Cassiana (puste). Droga do pracowni jest otwarta: przycisk-klepsydra jest ciepły, prześwit już stoi (krok 3). Zostaje test skradania (Filch nie śpi), ale z premią za to, że Ansel zna drogę. Postacie zastają Cassiana (rozgałęzienie cassian-w-srodku). Jeśli zdecydują się go nie gonić, Cassian i tak nie otworzy gabloty (nie umie oddawać), a luzująca się pieczęć sama wybije trzynasty raz o północy: gablota-nieotwarta i cliffhanger sceny 10 bez notatnika w ich rękach."
   flagi_ustaw: [flaga.s1-zegar-kradziezy]
   prowadzi_do: s1.scena.09
 ```

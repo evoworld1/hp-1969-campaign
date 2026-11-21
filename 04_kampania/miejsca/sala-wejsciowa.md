@@ -7,7 +7,7 @@ lokalizacja: "Hogwart, parter, za głównymi drzwiami; łączy Wielką Salę, ma
 pewnosc: niepewne
 # Pozostałe pliki scen jeszcze nie istnieją (walidator wymaga istniejących identyfikatorów).
 # Docelowo także: s1.scena.03 (przejście), s1.scena.06, s1.scena.12
-sceny: [s1.scena.01]
+sceny: [s1.scena.01, s1.scena.06, s1.scena.12]
 tylko_mg: true
 tagi: [s1, hogwart, zegar, crake, ansel-odbicie, sygnaly-dziwnosci, mapa-dryfu]
 zrodla:

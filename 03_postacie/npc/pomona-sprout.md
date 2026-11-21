@@ -10,7 +10,7 @@ rocznik_1969: "nauczyciel"
 kanon: true
 pewnosc: niepewne
 # Docelowo: s1.scena.12 (rejestr Hufflepuffu, wskazówka W2)
-sceny: [s1.scena.05]
+sceny: [s1.scena.05, s1.scena.12]
 tylko_mg: true
 tagi: [s1, nauczyciel, hufflepuff, zielarstwo, kanon]
 zrodla:

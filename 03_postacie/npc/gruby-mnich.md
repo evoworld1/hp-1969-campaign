@@ -10,7 +10,7 @@ rocznik_1969: "duch"
 kanon: true
 pewnosc: kanon
 # Docelowo także: s1.scena.12 (spotkanie, wskazówka W2)
-sceny: [s1.scena.01]
+sceny: [s1.scena.01, s1.scena.12]
 tylko_mg: true
 tagi: [s1, duch, hufflepuff, kanon]
 zrodla:
