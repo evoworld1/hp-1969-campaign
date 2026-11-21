@@ -86,7 +86,19 @@ aktualizacja: 2026-11-20
 ---
 ## Do odczytania
 
-*Teksty mają litery spotkań z tabeli w „Dla MG”. Rozpisane jest osiem spotkań: B, D, H, K, L, M, N i P. Pozostałe (A, C, E, F, G, I, J, O) mają na razie tylko zarys w „Rytmie sceny”: MG opowiada je własnymi słowami. Każdy tekst czytaj na wejście do spotkania, a wstawki tylko wtedy, gdy zdarzy się to, co opisują. Imion NPC w tekstach nie ma, bo postacie nie zawsze je znają. Jeśli znają, wstaw je sam.*
+*Teksty mają litery spotkań z tabeli w „Dla MG”. Tekst do odczytania ma wszystkie szesnaście spotkań (A–P). Każdy tekst czytaj na wejście do spotkania, a wstawki tylko wtedy, gdy zdarzy się to, co opisują. Wstawki z Anselem czytaj tylko wtedy, gdy chłopiec naprawdę jest przy postaciach (zob. „Ansel w wędrówkach”). Imion NPC w tekstach nie ma, bo postacie nie zawsze je znają. Jeśli znają, wstaw je sam.*
+
+### A. Kuchnia i skrzaty (każda pora; jedzenie „dla kolegi”)
+
+> Wystarczy połaskotać gruszkę na obrazie z misą owoców. Gruszka chichocze, wierci się i zamienia w zieloną klamkę. Kiedy otwieracie drzwi, uderza w was gorąco jak z otwartego pieca.
+>
+> Kuchnia jest ogromna i niska, sklepiona jak piwnica, a pod sklepieniem wisi para z kotłów. Pachnie pieczenią, skórką pomarańczy i przypalonym cukrem. Na ścianach błyszczą miedziane rondle, wypucowane tak, że widzicie w nich własne wykrzywione twarze. Przez środek biegną cztery długie stoły, ustawione dokładnie tak jak te piętro wyżej, w Wielkiej Sali, tylko puste.
+>
+> Ze wszystkich kątów naraz wybiegają skrzaty domowe: szpiczaste uszy, oczy jak spodki, ścierki z herbem szkoły zawiązane na ramieniu jak togi. Jeden już niesie tacę z bułeczkami, choć nikt jeszcze o nic nie poprosił. Najmniejszy kłania się tak nisko, że czubkami uszu zamiata posadzkę.
+
+**Wstawka: gdy postacie zaniosą jedzenie Anselowi** (przy schodach albo tam, gdzie z nimi idzie).
+
+> Ansel nachyla się nad bułeczką, nie dotykając jej, i wciąga powietrze powoli, z zamkniętymi oczami, jak ktoś, kto wącha list z domu. Para z ciasta przechodzi mu przez brodę i nie zostawia śladu. Kiedy otwiera oczy, uśmiecha się od ucha do ucha. „Z cynamonem” – szepcze. – „U nas w czwartki też były z cynamonem”.
 
 ### B. Gruby Mnich i Irytek (korytarz przy kuchni, koło beczek Hufflepuffu; po straconej godzinie)
 
@@ -103,6 +115,18 @@ aktualizacja: 2026-11-20
 **Wstawka: gdy któraś postać wymówi imię Ansela.**
 
 > Mnich otwiera usta, żeby odpowiedzieć od razu, i zamyka je. Przez jego twarz przechodzi coś jak zmarszczka na wodzie. Przez chwilę jest tak przejrzysty, że widać przez niego obręcze beczek. „Ansel…” – powtarza powoli, jakby to słowo leżało u niego bardzo długo na dnie kieszeni.
+
+### C. Portret przy schodach (korytarz przy kuchni, każda pora)
+
+> Wśród martwych natur przy schodach wisi jeden obraz, na którym ktoś mieszka. W ciężkiej, poczerniałej ramie, nad stołem zawalonym rzepą i bochnami, siedzi tęga kobieta w czepku i fartuchu, z rękami po łokcie w mące. Ugniata ciasto, które nigdy nie wyrośnie, i nuci pod nosem, fałszując zawsze w tym samym miejscu.
+>
+> Farba na jej policzkach popękała w drobną siateczkę, jak glazura na starym dzbanku. Od ściany ciągnie ciepłem chleba, choć to pewnie tylko piece za murem.
+>
+> Kobieta zerka na was spod czepka, potem na najniższy stopień schodów, potem znowu na was. Otrzepuje dłonie, aż mąka sypie się na namalowaną podłogę, i przechyla głowę jak kura, która usłyszała coś w trawie.
+
+**Wstawka: gdy postacie spytają o chłopca, który czeka przy schodach.**
+
+> Kobieta przestaje ugniatać. Mąka powoli opada jej z palców. Patrzy na najniższy stopień długo, tak jak patrzy się na miejsce przy stole, przy którym ktoś kiedyś zawsze siadał. „Mały taki” – mówi w końcu. – „Krawat zawsze prosto”. I marszczy brwi, jakby sama nie wiedziała, skąd to wie.
 
 ### D. Profesor z lunetą (zmierzch, najwyższe piętro, pod schodami do wieży astronomicznej)
 
