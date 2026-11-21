@@ -342,11 +342,11 @@ aktualizacja: 2026-11-20
 
 **Jak wpiąć.** Jedno spotkanie = jedna wskazówka albo jeden moment z Anselem albo czysty kolor, ok. 5 minut. Po spotkaniu powrót do sceny, z której gracze wyszli, albo do następnej w grafie. Zegar kradzieży rośnie o 1 za każde pół dnia w fikcji, więc długie wędrówki nie zatrzymują świata. Prośba do nauczyciela o wejście do Działu Ksiąg Zakazanych zawsze kończy się odmową (bez kary).
 
-**Konwencja w module.** Kroki to tutaj spotkania (A–P), w dowolnej kolejności; każde ma ten sam układ co krok sceny. Wszystkie spotkania mają tekst do odczytania, kwestię otwierającą i rady. Osiem z nich (**B, D, H, K, L, M, N, P**) ma też pełne bloki dialogów i testów; pozostałe osiem (**A, C, E, F, G, I, J, O**) ma już bloki dialogów, a test kradzieży w F czeka na kolejny etap. Spotkanie P (Wren) jest nowe w module, a spotkanie H obejmuje teraz także zegarmistrza Crake'a.
+**Konwencja w module.** Kroki to tutaj spotkania (A–P), w dowolnej kolejności; każde ma ten sam układ co krok sceny. Wszystkie spotkania mają tekst do odczytania, kwestię otwierającą i rady. Osiem z nich (**B, D, H, K, L, M, N, P**) ma też pełne bloki dialogów i testów (rzut jest tylko w H, K i L); pozostałe osiem (**A, C, E, F, G, I, J, O**) ma bloki dialogów, a jedyny ich test to kradzież w F (`s1.scena.12.test.kradziez-dormitorium`). A, C, E, G, I, J i O są bez rzutu. Spotkanie P (Wren) jest nowe w module, a spotkanie H obejmuje teraz także zegarmistrza Crake'a.
 
 ### Tabela spotkań
 
-*Kolumna „Pierwszeństwo” mówi, co podsunąć najpierw, gdy gracze pytają „to co robimy?”, i czego nie wolno pominąć. Dopisek w nawiasie mówi, czy spotkanie ma już bloki dialogów i testów (tak), czy na razie tylko tekst i rady (nie).*
+*Kolumna „Pierwszeństwo” mówi, co podsunąć najpierw, gdy gracze pytają „to co robimy?”, i czego nie wolno pominąć. Dopisek w nawiasie „(tak)” znaczy, że spotkanie ma gotowe bloki dialogów i, jeśli ich potrzebuje, testów. Spotkania bez bloku `test` (wszystkie poza F, H, K i L) rozstrzyga rozmowa, bez rzutu; F ma test kradzieży.*
 
 | Spotkanie | Kiedy | Gdzie | Wyzwalacz | Daje | Pierwszeństwo |
 |---|---|---|---|---|---|
@@ -358,20 +358,20 @@ aktualizacja: 2026-11-20
 | **L. Flitwick po lekcjach** (tak) | Po lekcjach | [[miejsce.sala-zaklec]] | Postać prosi o pomoc z Tempus; ktoś pyta o zgubione godziny | Druga szansa na Tempus (`flaga.tempus-opanowane`), W3.3 | Średnie; **wysokie**, gdy nikt z drużyny nie opanował Tempus |
 | **D. Profesor z lunetą** (tak) | Zmierzch albo wczesny wieczór, przed ciszą nocną | Najwyższe piętro, pod wieżą astronomiczną | Postacie pytają, kim była pani Marrow; szukają „kogoś, kto pamięta” | W2 rezerwa (`flaga.marrow-imie-znane`), W9 (`flaga.wymark-slad`) | Średnie; po scenie 05, gdy padło nazwisko Marrow |
 | **M. Gabinet dyrektora** (tak) | Od wieczoru 22 września | [[miejsce.gabinet-dyrektora]] | Postacie prowadzą Ansela do dyrektora (siatka 3) | `flaga.dumbledore-powiadomiony`, odmowa Działu | Tylko gdy gracze sami chcą; nie podsuwaj |
-| A. Kuchnia i skrzaty (nie) | Każda pora | Kuchnia | Gracze chcą jedzenia dla Ansela | Więź (kolor) | Niskie |
-| C. Portret przy schodach (nie) | Każda pora | [[miejsce.schody-przy-kuchni]] | Pytania o chłopca przy schodach | `flaga.marrow-imie-znane` (rezerwa) | Niskie |
-| E. Sprout i rejestr (nie) | Za dnia | Cieplarnie albo wejście do Hufflepuffu | Pytanie o ucznia Ansela Draya | W2.2 (`flaga.ansel-poza-spisem`) | Średnie, gdy B nie zagrało |
-| F. Dormitorium Slytherinu (nie) | Noc albo późny wieczór, **dopiero po scenie 04** | [[miejsce.lochy-przejscie-slytherinu]] | Postać ze Slytherinu (siatka 5) | W4.7, kradzież zegarka i karty | Tylko przy postaci ze Slytherinu |
-| G. Sowiarnia (nie) | Każda pora | Sowiarnia | List do domu | Kolor | Niskie |
-| I. Pierwszoroczniak na schodach (nie) | Gdy zegar kradzieży doszedł do 2 | Schody | Zdarzenie świata | `flaga.rejestr-godzin` (W4.3) | Samo przychodzi |
-| J. Maisie i Pratt (nie) | Za dnia | Korytarze, Wielka Sala | Gracze szukają innych ofiar | `flaga.rejestr-godzin`, `flaga.plotka-duch-puchona` | Średnie, gdy krok 5 sceny 06 nie zagrał |
-| O. Cassian po zegarek (nie) | Ten sam wieczór albo nazajutrz po kradzieży | Gdziekolwiek są postacie | Zegarek u graczy | Wejście do 08 | Samo przychodzi |
+| A. Kuchnia i skrzaty (tak) | Każda pora | Kuchnia | Gracze chcą jedzenia dla Ansela | Więź (kolor) | Niskie |
+| C. Portret przy schodach (tak) | Każda pora | [[miejsce.schody-przy-kuchni]] | Pytania o chłopca przy schodach | `flaga.marrow-imie-znane` (rezerwa) | Niskie |
+| E. Sprout i rejestr (tak) | Za dnia | Cieplarnie albo wejście do Hufflepuffu | Pytanie o ucznia Ansela Draya | W2.2 (`flaga.ansel-poza-spisem`) | Średnie, gdy B nie zagrało |
+| F. Dormitorium Slytherinu (tak, z testem kradzieży) | Noc albo późny wieczór, **dopiero po scenie 04** | [[miejsce.lochy-przejscie-slytherinu]] | Postać ze Slytherinu (siatka 5) | W4.7, kradzież zegarka i karty | Tylko przy postaci ze Slytherinu |
+| G. Sowiarnia (tak) | Każda pora | Sowiarnia | List do domu | Kolor | Niskie |
+| I. Pierwszoroczniak na schodach (tak) | Gdy zegar kradzieży doszedł do 2 | Schody | Zdarzenie świata | `flaga.rejestr-godzin` (W4.3) | Samo przychodzi |
+| J. Maisie i Pratt (tak) | Za dnia | Korytarze, Wielka Sala | Gracze szukają innych ofiar | `flaga.rejestr-godzin`, `flaga.plotka-duch-puchona` | Średnie, gdy krok 5 sceny 06 nie zagrał |
+| O. Cassian po zegarek (tak) | Ten sam wieczór albo nazajutrz po kradzieży | Gdziekolwiek są postacie | Zegarek u graczy | Wejście do 08 | Samo przychodzi |
 
 **Kolejność, gdy gracze nie mają pomysłu.** Najpierw to, co pcha śledztwo: P (Wren), potem K (biblioteka) albo H (Sala Wejściowa), zależnie od tego, czy brakuje im Cassiana, czy pracowni. Ansel (N) wchodzi sam, gdy któraś postać jeszcze z nim nie rozmawiała. Spotkania B, D i L to odpowiedź na pytania graczy, nie propozycje MG. Gabinet dyrektora (M) tylko z inicjatywy graczy.
 
 ### Rytm sceny
 
-*Kwestie otwierające są dosłownie z bloków w „Dialogach”. Wszystkie spotkania mają już bloki dialogów; w spotkaniach A, C, E, F, G, I, J i O czeka jeszcze test kradzieży w F (mechanik).*
+*Kwestie otwierające są dosłownie z bloków w „Dialogach”. Wszystkie spotkania mają już bloki dialogów; z spotkań A, C, E, F, G, I, J i O test ma tylko F (kradzież), reszta jest bez rzutu (sekcja „Testy”).*
 
 #### Spotkania rozpisane
 
@@ -433,7 +433,7 @@ aktualizacja: 2026-11-20
 - Krótko: Wren słucha bez przerywania. Na opowieść o straconej godzinie pyta od razu: „Czy Vane był w pobliżu?”. Oskarżenia nie przyjmie bez dowodu, ale od sceny 04 dorzuca konkret: „Pan Vane podniósł oceny w dwa tygodnie. Ze wszystkiego naraz. Tak się nie da, chyba że ktoś przestał spać” (W4.6). Prośbę o Dział Ksiąg Zakazanych odrzuca: „Przeciwnik zawsze mówi, co zrobi. Wy właśnie mi powiedzieliście”, i od tej chwili uważniej patrzy, kto z grupy nie śpi w nocy (tylko kolor). Przy zegarze kradzieży 2 to tu pada pytanie z kroku 6 sceny 06, jeśli tam nie padło. Wynik: kierunek do 08 (Cassian) albo z powrotem do 06.
 - Awaryjne: `awaryjne-za-dlugo`
 
-#### Spotkania z tekstem, radami i dialogami (test w F w kolejnym etapie)
+#### Spotkania z tekstem, radami i dialogami (test tylko w F)
 
 **Spotkanie A. Kuchnia i skrzaty** (ok. 5 min)
 - Czytaj: tekst A („Wystarczy połaskotać gruszkę…”); wstawka „Ansel nachyla się nad bułeczką…”, gdy postacie zaniosą mu jedzenie.
@@ -458,9 +458,9 @@ aktualizacja: 2026-11-20
 - Czytaj: tekst F, wariant 1 („Dormitorium leży pod jeziorem…”, chłopiec) albo 2 („Pokój wspólny po północy…”, dziewczyna); wstawka „Zegarek jest cięższy…” po udanej kradzieży; wstawka „Oddech urywa się w pół…” po porażce; wstawka „Podszewka wieka…”, gdy postać zagląda do kufra (tylko wariant 1).
 - Dialog: `s1.scena.12.dialog.cassian-dormitorium` — „Śpij. Niczego nie widziałeś.” (do dziewczyny: „Śpij, panno [nazwisko]. Niczego nie widziałaś.”; tylko gdy postać się odezwie albo kradzież się nie uda)
 - Dialog: `s1.scena.12.dialog.rosalind-pokoj-wspolny` — „Kochanie. Nie budź go. On i tak prawie nie śpi.” (opcjonalnie: wariant 2 bez kradzieży albo rano po F)
-- Test: `s1.scena.12.test.kradziez-dormitorium` (liczby: mechanik; podstawa to test kradzieży w karcie [[przedmiot.zegarek-cassiana]])
+- Test: `s1.scena.12.test.kradziez-dormitorium` (test przeciwny Speed + Concealment; wariant testu z karty [[przedmiot.zegarek-cassiana]]; wyjęcie karty z kufra to część tego samego rzutu, zob. „Testy”)
 - Flagi: `flaga.zegarek-cassiana`, `flaga.zegarek-u-graczy`, `flaga.karta-u-graczy`, `flaga.cassian-czujny` (po porażce)
-- Krótko: tylko dla postaci ze Slytherinu i dopiero od wieczoru po scenie 04 (siatka 5). Najpierw zwykłe życie: postać widzi i słyszy, jak Cassian nocą nakręca stojący zegarek i liczy szeptem (W4.7). Niczego nie tłumacz; liczby to minuty, które już „pożyczył” (założenie robocze), ale gracze mają to zgadywać sami. Nie wypychaj gracza do kradzieży: może tylko patrzeć i rano opowiedzieć drużynie, to też pełne spotkanie. Gdy kradnie: jeden test na zegarek. Karta leży w podszewce kufra u stóp łóżka (wstawka „Podszewka wieka…”); po jej wyjęciu daj handout `s1.handout.karta-pozyczajacego` (dopisek o oddawaniu, W7.2). Czy kufer to osobny test, ustala mechanik. Po wygranej zegar kradzieży staje, a Cassian odkrywa stratę w ciągu godziny (rano, jeśli spał) i sam przychodzi: spotkanie O, potem scena 08. Po porażce Cassian nie robi hałasu i nie budzi dormitorium: mówi „Nie”, chowa zegarek pod koszulę i od tej nocy nosi go przy sobie; rano przy śniadaniu patrzy na postać i milczy. Kolejnej próby kradzieży nie ma. Jeśli postać zamiast kraść odezwie się szeptem, Cassian odpowiada krótko i zimno („Śpij. Niczego nie widziałeś”) i to jest wejście do sceny 08 nazajutrz. Zamknięcie: zielona poświata, cisza, oddech za kotarą.
+- Krótko: tylko dla postaci ze Slytherinu i dopiero od wieczoru po scenie 04 (siatka 5). Najpierw zwykłe życie: postać widzi i słyszy, jak Cassian nocą nakręca stojący zegarek i liczy szeptem (W4.7). Niczego nie tłumacz; liczby to minuty, które już „pożyczył” (założenie robocze), ale gracze mają to zgadywać sami. Nie wypychaj gracza do kradzieży: może tylko patrzeć i rano opowiedzieć drużynie, to też pełne spotkanie. Gdy kradnie: jeden test na całe spotkanie. Karta leży w podszewce kufra u stóp łóżka (wstawka „Podszewka wieka…”); po jej wyjęciu daj handout `s1.handout.karta-pozyczajacego` (dopisek o oddawaniu, W7.2). Kufer nie ma osobnego rzutu: gracz deklaruje przed rzutem, że sięga też po kartę, i płaci za to wyższą trudnością tego samego testu (zob. „Testy”). Karty w wariancie 2 (pokój wspólny) nie ma przy postaci; zostaje u Cassiana do sceny 08. Po wygranej zegar kradzieży staje, a Cassian odkrywa stratę w ciągu godziny (rano, jeśli spał) i sam przychodzi: spotkanie O, potem scena 08. Po porażce Cassian nie robi hałasu i nie budzi dormitorium: mówi „Nie”, chowa zegarek pod koszulę i od tej nocy nosi go przy sobie; rano przy śniadaniu patrzy na postać i milczy. Kolejnej próby kradzieży nie ma. Jeśli postać zamiast kraść odezwie się szeptem, Cassian odpowiada krótko i zimno („Śpij. Niczego nie widziałeś”) i to jest wejście do sceny 08 nazajutrz. Zamknięcie: zielona poświata, cisza, oddech za kotarą.
 
 **Spotkanie G. Sowiarnia** (ok. 5 min)
 - Czytaj: tekst G („Schody na sowiarnię kręcą się…”); wstawka „Sowa, która usiadła ci już…”, gdy Ansel jest przy postaci.
@@ -1218,10 +1218,17 @@ dialog:
 
 ## Testy
 
-*Zasada modułu: rzut jest wyjątkiem, nie rytuałem. W ośmiu rozpisanych spotkaniach są tylko dwa testy: pogawędka z Crake'iem (H) i Tempus u Flitwicka (L). Resztę rozstrzyga rozmowa i dobre pytanie. Test z gablotą w spotkaniu K (`miejsce.biblioteka.test.zdjecie-w-gablocie`) ma liczby w karcie miejsca, a test kradzieży w spotkaniu F (zarys) dostanie liczby w kolejnym etapie (TODO: `s1.scena.12.test.kradziez-dormitorium`, liczby w karcie zegarka).*
+*Zasada modułu: rzut jest wyjątkiem, nie rytuałem. Z szesnastu spotkań rzut mają tylko cztery: pogawędka z Crake'iem (H), Tempus u Flitwicka (L), kradzież zegarka w dormitorium (F) i gablota w bibliotece (K; `miejsce.biblioteka.test.zdjecie-w-gablocie`, liczby w karcie miejsca). Resztę rozstrzyga rozmowa i dobre pytanie.*
 
 ### Spotkania bez rzutu (decyzja mechanika)
 
+- **A (kuchnia):** bez rzutu. Skrzaty dają jedzenie każdemu; Więź za jedzenie zanoszone Anselowi nie zależy od kości.
+- **C (portret):** bez rzutu. Nazwisko Marrow pada za uprzejme dopytanie, nie za wynik.
+- **E (Sprout):** bez rzutu. Rejestr sprawdza ona sama; wynik (W2.2) jest zawsze ten sam.
+- **G (sowiarnia):** bez rzutu. To kolor i tło postaci.
+- **I (pierwszoroczniak):** bez rzutu. Uspokojenie chłopca to rozmowa; godzina i wpis do rejestru (W4.3) wychodzą z samego zdarzenia.
+- **J (Maisie i Pratt):** bez rzutu. Kartka z datą jest nagrodą za postawę wobec Maisie, nie za wynik.
+- **O (Cassian szuka zegarka):** bez rzutu. To zapowiedź wejścia 1c sceny 08; Cassian znajduje postacie bez testu.
 - **B (Mnich i Irytek):** bez rzutu. Imię Ansela otwiera Mnicha samo; melodię Irytka rozpoznaje bez testu postać, która słyszała ją w scenie 03.
 - **D (Fairweather):** bez rzutu. Nazwisko Marrow daje życzliwość albo obietnica zapisu na Astronomię; „Bociana” dostaje się za dłuższą rozmowę, nie za wynik na kościach.
 - **H, część Filcha:** bez rzutu. Kto wysłucha narzekań, dostaje zdanie o zegarmistrzu (W8.3).
@@ -1300,6 +1307,41 @@ test:
 ```
 
 **RETRORSUM: rada dla MG** (zasada nasza, [[zasada.nagrody-z-teaserow]]). Archetyp z pewnym sukcesem nie potrzebuje korepetycji: nie każ mu rzucać, tylko pokaż wstawkę i daj Flitwickowi pochwalić nadgarstek. Rzut jest dla tych, którym naprawdę nie wyszło.
+
+### F. Kradzież zegarka w dormitorium (noc, tylko po scenie 04)
+
+Jeden test na całe spotkanie. Wyjęcie karty z kufra (wariant 1) **nie jest osobnym rzutem**: to opcja deklarowana przed rzutem, która podnosi trudność tego samego testu. Mniej rzutów, a gracz sam wybiera ryzyko. Liczby jak w karcie [[przedmiot.zegarek-cassiana]] (`przedmiot.zegarek-cassiana.test.kradziez`); tu tylko z podziałem na wariant 1 (śpi) i wariant 2 (drzemka) oraz z opcją karty.
+
+```yaml
+test:
+  id: s1.scena.12.test.kradziez-dormitorium
+  opis: "Nocna kradzież zegarka Cassiana przez postać ze Slytherinu, dopiero od wieczoru po scenie 04 (wcześniej próba zawsze się nie udaje i nie ma rzutu). Test przeciwny (Opposed Test, s. 4): postać rzuca 1D10 + Speed + Concealment (Concealment obejmuje niepostrzeżone chowanie drobnych rzeczy w dłoni, s. 21; osobnej umiejętności kieszonkowca brak), Cassian 1D10 + Wits + Observation (1D10 + 10, wartości z karty npc.cassian-vane). Wyższy wynik wygrywa; remis wg zasady domowej z karty zegarka. Brak w podręczniku zasad dla śpiącego przeciwnika: kary −4 (sen) i −2 (drzemka) to zasady domowe z karty zegarka, a +2 za znajomość twarzy i +2 za kartę z kufra to założenia robocze. Szanse przy Speed + Concealment 6–9: wariant 1 (śpi), sam zegarek 45–72%; wariant 1 z kartą 28–55%; wariant 2 (drzemka), sam zegarek 28–55%; po porażkach w 01–04 (Cassian zna twarz) o 20 punktów procentowych mniej (w skrajnym przypadku z kartą 15–36%). Rzuca jedna postać, nikt jej nie pomaga (pomocnik nie działa przy śpiącym; Rosalind przy próbie nie ma). Po porażce Story Point daje dorzut (s. 4) od razu po rzucie, zanim Cassian się obudzi; to nie jest druga próba. RETRORSUM po przegranej wg karty zegarka."
+  kto: jeden
+  rzut: "1D10 + Speed + Concealment"
+  trudnosc: "przeciwny: 1D10 + Wits + Observation (npc.cassian-vane)"
+  modyfikatory:
+    - warunek: "Wariant 1: Cassian śpi w dormitorium, zegarek pod poduszką (zasada domowa z karty zegarka)"
+      wartosc: "−4 do rzutu Cassiana"
+    - warunek: "Wariant 2: Cassian drzemie w fotelu z zegarkiem w dłoni (zasada domowa z karty zegarka)"
+      wartosc: "−2 do rzutu Cassiana"
+    - warunek: "Cassian zna twarz postaci: w scenach 01–04 próbowała zabrać zegarek albo celowała w niego różdżką (założenie robocze, zgodne z kartą zegarka)"
+      wartosc: "+2 do rzutu Cassiana"
+    - warunek: "Cena karty: postać deklaruje przed rzutem, że sięga też po kartę z podszewki kufra (tylko wariant 1; wieko skrzypi, szew trzeba rozpruć w ciemności; założenie robocze)"
+      wartosc: "+2 do rzutu Cassiana"
+  wyniki:
+    - wynik: wygrana
+      efekt: "Zegarek jest u postaci (wstawka „Zegarek jest cięższy…”). Jeśli zadeklarowała kartę, ma też kartę i handout `s1.handout.karta-pozyczajacego`. Zegar kradzieży staje. Cassian śpi dalej, a stratę odkrywa w ciągu godziny (rano, jeśli spał) i przychodzi sam: spotkanie O, potem scena 08. Dialog cassian-dormitorium milczy."
+      flagi_ustaw: [flaga.zegarek-cassiana, flaga.zegarek-u-graczy]
+    - wynik: remis
+      efekt: "Cassian mruczy przez sen i przekręca się (zasada domowa z karty zegarka): postać cofa rękę bez skutków albo rzuca jeszcze raz; przy drugim remisie przegrywa. Przy remisie z kartą zostaje tylko wybór zegarek albo nic."
+      flagi_ustaw: []
+    - wynik: przegrana
+      efekt: "Wstawka „Oddech urywa się w pół…” i dialog cassian-dormitorium („Nie.”). Zegarek zostaje pod koszulą Cassiana, od tej nocy nosi go przy sobie, a kolejnej próby kradzieży nie ma. Jeśli postać sięgała po kartę, budzi go wieko kufra: „Tam są skarpetki. Chcesz skarpetki?”, a karta zostaje w podszewce. Rano przy śniadaniu patrzy na postać i milczy."
+      flagi_ustaw: [flaga.cassian-czujny]
+    - wynik: zawsze
+      efekt: "Cena rozpruwania szwu: kto wyjął kartę, zostawia rozprutą podszewkę, więc Cassian po odkryciu straty wie, że to ktoś z dormitorium (przy wygranej z kartą jego czujność w scenie 08 rośnie; MG nie robi z tego dodatkowego rzutu). Bez karty ten wynik nie działa."
+      flagi_ustaw: []
+```
 
 ## Rozgałęzienia
 
