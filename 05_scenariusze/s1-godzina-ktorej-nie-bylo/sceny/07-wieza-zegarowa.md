@@ -491,7 +491,7 @@ test:
   wyniki:
     - wynik: wygrana
       efekt: "Zegarek jest u postaci. Cassian odkrywa stratę w ciągu godziny i sam przychodzi po zegarek (wejście do sceny 08), a zegar kradzieży staje (zob. karta przedmiotu). Tu: gwizd urywa się w pół nuty, Cassian sięga po pustą kieszonkę i dopiero wtedy odwraca głowę."
-      flagi_ustaw: [flaga.zegarek-cassiana]
+      flagi_ustaw: [flaga.zegarek-cassiana, flaga.zegarek-u-graczy]
     - wynik: przegrana
       efekt: "Cassian łapie rękę postaci przy kieszonce. Konfrontacja zaczyna się od razu na jego warunkach (scena 08, dialog cassian-oskarzony). Zegarek nosi odtąd przy sobie nawet nocą; kolejnej kradzieży nie ma."
       flagi_ustaw: [flaga.cassian-czujny]

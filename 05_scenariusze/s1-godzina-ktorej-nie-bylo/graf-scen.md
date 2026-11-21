@@ -16,7 +16,7 @@ Stan: szkic po fazie 2B (2026-11-20), wszystkie pytania do MG z tej fazy rozstrz
 
 Decyzje robocze Reżysera (tryb przyspieszony, bez pytań do MG; do potwierdzenia przy recenzji):
 
-1. **Dumbledore** wrócił z Londynu w poniedziałek wieczorem (rano i w południe go nie ma: sceny 01–03). W nocy z wtorku na środę (scena 09) nikt nie otworzy jego gabinetu, rano go przyjmie. W scenie 10 jest w zamku.
+1. **Dumbledore** wrócił z Londynu w poniedziałek wieczorem (rano i w południe go nie ma: sceny 01–03). W nocy z wtorku na środę (scena 09) nikt nie otworzy jego gabinetu, rano go przyjmie. W scenie 10 jest w zamku; po biciu trzynastu uderzeń, gdy zamek jest przebudzony, McGonagall może zaprowadzić postacie do niego od razu i dyrektor przyjmuje je krótko (ścieżka awaryjna w 10), ale gabinetu nie otwiera się dla nocnej wyprawy do biblioteki (scena 09).
 2. **Mroczne decyzje.** W Sesji 1 postać nie może zabić postaci niezależnej. Niewybaczalne na uczniu, Cassianie albo Anselu „nie wychodzą” (brak mocy, przerażenie, natychmiastowa interwencja Wrena lub Filcha, zawieszenie i list do domu tylko jako kolor). Podpalenie: ogień gaśnie, księgi się nie palą (jak notatnik). Imperius nie działa na Ansela („nieobecnego”). Bloki `awaryjne-mroczna-decyzja` w scenach 04, 08, 09 i 12; w 12 także „poza murami” (wyjście z zamku, Hogsmeade, Las, list do rodziców: odmowa bez kary, kolor).
 3. **Więź z Anselem to kandydat.** Siatki 6 i 9 oraz W5.5 nie zależą od progu Więzi; zamiast „postaci z najwyższą Więzią” działa reguła: postać, która pierwsza zwróciła się do Ansela po imieniu (jak w remisie ze sceny 05).
 4. **Druga godzina** zabrana jednej postaci w pojedynku (08) nie zmienia kotwicy Ansela; koszt to tylko Drained.

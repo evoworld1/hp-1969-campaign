@@ -12,14 +12,14 @@
 - **Część B2a (zrobione 2026-11-20):** tworca-npc utworzył 19 szkiców kart NPC w `03_postacie/npc/` (8 pełnych, 11 krótkich); redaktor-ciaglosci sprawdził; Reżyser naprawił drobne błędy (polszczyzna, kominek McGonagall, kwestia Ansela u Dumbledore'a, Sprout w 1951, objaśnienia terminów); w zarysie wpisany Patron Wymark. Walidator czysty (ostrzeżenia o nieużywanych flagach są oczekiwane do czasu scen).
 - **Odpowiedzi MG na pytania B2a wprowadzone (2026-11-20):** tworca-npc ujednolicił karty (zob. rejestr decyzji).
 - **Część B2b (zrobione 2026-11-20):** narrator-scen: 14 kart miejsc (`04_kampania/miejsca/`); tworca-npc: 7 przedmiotów (`04_kampania/przedmioty/`) i nagłówki 4 handoutów (`handouty/`). Po decyzjach MG: architekt-fabuly wprowadził zaklętą księgę do grafu (scena 09, trzy poziomy zabezpieczeń, ucieczka na 13 uderzeń, siatka bezpieczeństwa 8, trzy drogi do wskazówki o gablocie W7, nowe flagi `ksiega-zabezpieczenia` i `ksiega-zlapani`); tworca-npc: nowa karta `przedmiot.zakleta-ksiega`, notatnik Marrow, karta z księgi, Cassian, Ansel; mechanik: `02_zasady/nagrody-z-teaserow.md` (RETRORSUM, Oko, 8 kandydatów na klątwę), liczby zabezpieczeń, ucieczki i zniszczenia zegarka. Dwa przeglądy redaktora, poprawki wprowadzone. Walidator czysty.
-- **Sceny gotowe jako szkice (0 TODO, walidator czysty):** 01 (MG zaakceptował treść), 02, 03, 04, 05. **Zostają: 06, 07, 08, 09, 10, 11, 12** (szkielety z planowanymi id, bez treści). Plan wznowienia: `docs/TRYB-PRZYSPIESZONY.md` (podział na etapy A i B, modele, kolejność 08 → 09 → 06 → 10 → 07 → 12 → 11). Ściąga formatu: `docs/WZORZEC-SCENY.md`. Limit 5-godzinny przerwał falę 2; wznowić od nowej sesji.
+- **Sceny gotowe jako szkice (walidator czysty), sesja 2026-11-21:** 01 (MG zaakceptował treść), 02–10 i 12 (w 12 rozpisanych 8 spotkań: B, D, H, K, L, M, N, P; zarysy A, C, E, F, G, I, J, O zostają z TODO). **Zostaje scena 11 (prolog Pokątna, opcjonalny, sam szkielet).** Test obciążeniowy całości zrobiony, poprawki wprowadzone, redaktor ciągłości sprawdził; po nim poprawiono flagę `zegarek-u-graczy` w 07 i 09, imię pielęgniarki w kartach, regułę „po imieniu” zamiast „najwyższej Więzi”. Ściąga formatu: `docs/WZORZEC-SCENY.md`.
 - **Ostatnia poprawka Fazy 2 (2026-11-20):** architekt-fabuly usunął legalne wejście do biblioteki (przepustka Flitwicka, flagi `biblioteka-legalnie` i `przepustka-flitwicka`, karta przepustki); scena 09 tylko nocą, nowa siatka bezpieczeństwa 9 (Filch łapie w drodze).
 - **Dla mechanika (Faza 3), dodatkowo:** zasady domowe niszczenia rzeczy zwykłym uderzeniem i celowania w mały przedmiot (propozycje w `zegarek-cassiana.md`); trudność galerii wahadeł (propozycja Tricky 12).
 - **Dla strażnika kanonu:** czy pani Pomfrey pracuje w Hogwarcie w 1969; Slughorn w 1969; Fawkes w gabinecie w 1969; klepsydry punktów domów w kanonie.
 - **Dla mechanika (Faza 3):** zdolności Cassiana (Skradzione Chwile, zegarek jako słaby punkt), premie za nazwanie nawyków Rosalind i Barnaby'ego, obchód Filcha jako przeciwnik, próg pogawędki z Crake'iem, czy Ansel potrzebuje liczb.
 - **Dla mechanika przy scenach:** czy stan Drained działa już na lekcji Obrony; rdzeń ze smoczego serca a drewno „Oak” (s. 29, niejasność podręcznika).
 - **Odłożone do scen:** liczby dla wyniku 2× i 3× trudności (ZD-09).
-- **Ostatnie podsumowanie rozmowy:** `99_robocze/summary-session#4.md` (2026-11-20). Następną sesję zacznij od: „Przeczytaj CLAUDE.md, 04_kampania/stan-kampanii.md i 99_robocze/summary-session#4.md, a potem wykonaj plan wznowienia z docs/TRYB-PRZYSPIESZONY.md. Pracuj bez pytań.”
+- **Ostatnie podsumowanie rozmowy:** `99_robocze/summary-session#4.md` (2026-11-20). Następne kroki: scena 11 (jeśli MG chce prolog), zarysy spotkań w 12, przegląd założeń roboczych przez MG, zadania dla mechanika (liczby „DO-USTALENIA” w kartach), pytania dla strażnika kanonu.
 
 ### Faza 1, część A: co powstało
 - `00_zrodla/walker-2e-draft-2026-04/tekst/`: wyciąg tekstu podręcznika (16 rozdziałów, znaczniki stron). Podręcznik jest jednym PDF (184 s.; numer drukowany = strona PDF − 5).
@@ -110,6 +110,19 @@
 - **Scena 04 (przegląd Reżysera, bez raportu agenta):** treść zgodna z rejestrem (zegarek wyrwany → Wren oddaje Cassianowi, „pamiątka, nie dowód”; `flaga.wren-podejrzewa`, `flaga.cassian-czujny`). Drained trwa na Obronie (w teście przeciwnym −3 do rzutu); znosi go pierwszy posiłek. Do wyjaśnienia na końcu: scena 03 wspomina napar zmniejszający Drained do Dazed, scena 04 mówi o posiłku (spójność).
 - **Scena 05:** Więź z Anselem rośnie tu najwyżej do 1 na postać (+1 za jedzenie, słuchanie, imię albo uczciwą odpowiedź; −1 tylko za odkryte kłamstwo); nieuprzejmość płoszy Ansela dla wszystkich, ale inny gracz może go zatrzymać testem perswazji; na łagodne „czy nie żyjesz?” Ansel odpowiada, że przecież tu siedzi; rozmowa o mamie dopiero w Sesji 2; mama pisze mu, że cukierki są wciąż na kartki (fakt historyczny: reglamentacja słodyczy w Wielkiej Brytanii do 1953).
 
+## Założenia robocze z sesji 2026-11-21 (do skreślenia przez MG po lekturze)
+Szczegóły każdej sceny są w raportach niżej; tu najważniejsze decyzje Reżysera:
+- **Test obciążeniowy (graf-scen.md, „Założenia robocze po teście obciążeniowym”):** Dumbledore wrócił w poniedziałek wieczorem; po biciu w scenie 10 przyjmuje postacie krótko od razu, ale nocnej wyprawy do biblioteki nie obejmuje; mroczne decyzje graczy (Niewybaczalne, zabicie NPC, podpalenie) w Sesji 1 nie wychodzą, dostają interwencję Wrena lub Filcha, tylko kolor; reguła „postać, która pierwsza zwróciła się do Ansela po imieniu” zamiast progu Więzi; druga zabrana godzina nie zmienia kotwicy Ansela; nowa postać po odpadnięciu dostaje wprowadzenie od Ansela lub traci godzinę z drużyną; szlaban w środę po sesji albo rozmowa w kantorku; jedna reguła stanu Drained (do pierwszego posiłku albo snu; napar zmniejsza do Dazed; Dazed/Rattled z oddania godziny kończy się z sceną 09, bez sumowania).
+- **Scena 06:** daty strat godzin: Pratt wtorek 16.09 14:12–15:11, Maisie czwartek 18.09 ok. 11:00 (kwadrans); „wysoki z Gryffindoru 2x” to bezimienny uczeń (nie Barnaby); pomiary zegarkami nastawionymi razem; przy 3 pomiarach wzór bez rzutu.
+- **Scena 07:** plakietka bez rzutu; „i Córka” wycięte płycej (test Tricky 12); Cassian o zmierzchu w krużganku u stóp wieży, gwiżdże pięć nut.
+- **Scena 08:** pojedynek z sekundantami (limit 4 rund, Cassian ma pulę 2 Skradzionych Chwil, 2 trafienia wygrywają postać, 3 Cassiana); zabrana godzina to Drained do pierwszego posiłku następnego dnia; karta Pożyczającego leży w kufrze Cassiana i przychodzi przed ciszą nocną lub przez Rosalind; oddanie karty nie osłabia Cassiana (źródłem jest zegarek).
+- **Scena 09:** drzwi otwiera każde rozsądne „trzynaście” (bez rzutu); oddanie godziny: jedna osoba Dazed, kilka osób po Rattled; wahadła zwykle wolno, poziom 2 szerzej, poziom 3 tną (karty księgi i sali do poprawienia); licznik hałasu zamiast Zegara Północy; gablota przyjmuje tylko zaklęcia rozbijające; Filch rzuca 1D10+9; czwarty punkt pauzy po otwarciu drzwi.
+- **Scena 10:** wybór notatnik/Ansel zostaje graczom; notatnik do McGonagall (uprzejmość) lub do szuflady Filcha (kłamstwo/kpina); Filch ma „pływające strony” (ukryty charłak); zniszczenie notatnika możliwe po pytaniu „na pewno?” (do rozstrzygnięcia w Sesji 2).
+- **Scena 12:** Wren przy prośbie o Dział Ksiąg Zakazanych tylko kolor; Crake we wtorek; Pince za trzecim razem znajduje tom o zegarmistrzostwie za liną na końcu ostatniego regału.
+- **Do zrobienia przez mechanika:** liczby „DO-USTALENIA” w kartach miejsc i przedmiotów (galeria wahadeł Tricky 12 itd.), liczby Cassiana w jego karcie (Duelling 5, pula 2), Filch 1D10+9 w jego karcie.
+- **Do strażnika kanonu:** Pomfrey i Pince w 1969, McGonagall jako opiekunka Gryffindoru, Dumbledore uczył Transmutacji w 1951 (Ansel w scenie 12 „pan profesor od transmutacji”).
+- **Do zrobienia:** karta Irytka (występuje w scenach 01, 03, 10, 12; bloki dialogów w ogrodzeniu `text` do zmiany na `yaml`).
+
 ## Otwarte pytania
 - Brak pytań fabularnych. (Siatka 9 rozstrzygnięta 2026-11-20: wariant A.)
 - Kto ma RETRORSUM: MG rozstrzyga w dniu sesji. Autor księgi i jej zagadki: Sesja 2 i później.
@@ -132,7 +145,7 @@
 | Instrukcja tworzenia postaci | szkic (pełna i szybka ścieżka) |
 | Scenariusz 1: graf | szkic (`przeglad.md` + `graf-scen.md`), decyzje MG wprowadzone, miejsca, przedmioty i handouty jako szkice; **zaakceptowany przez MG 2026-11-20** (streszczenie: `99_robocze/streszczenie-grafu-s1.md`) |
 | Scenariusz 1: NPC | 19 szkiców w `03_postacie/npc/`, decyzje MG wprowadzone |
-| Scenariusz 1: sceny | 5 / 12 gotowych jako szkice (01–05); 06–12 szkielety bez treści (2026-11-20) |
+| Scenariusz 1: sceny | 11 / 12 jako szkice (01–10, 12 z 8 rozpisanymi spotkaniami); 11 (prolog) szkielet (2026-11-21) |
 
 ## Stan gry (wypełnia kronikarz po rozegranych sesjach)
 - **Rozegrane sesje:** brak

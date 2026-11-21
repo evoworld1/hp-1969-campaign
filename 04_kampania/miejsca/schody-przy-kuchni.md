@@ -36,7 +36,7 @@ Kamienne schody schodzą z gwaru Sali Wejściowej w ciszę. Na dole korytarz jes
 - Jeśli `flaga.ansel-odbicie`: Ansel rozpoznaje postać z odbicia: „Widziałem panią/pana w zegarze”.
 - Jeśli `flaga.plotka-duch-puchona`: gracze mogą sami połączyć chłopca z plotką; nie poprawiaj ich ani nie potwierdzaj.
 - Po `flaga.ansel-spotkany`: Ansel czeka tu zawsze, gdy postacie go szukają, chyba że idzie za nimi (towarzyszenie) albo został spłoszony nieuprzejmością (wraca następnego dnia).
-- Gdy `flaga.s1-zegar-kradziezy` = 4: schody są puste; Ansel poszedł budzić postać z najwyższą Więzią (siatka bezpieczeństwa 6).
+- Gdy `flaga.s1-zegar-kradziezy` = 4: schody są puste; Ansel poszedł budzić postać, która pierwsza zwróciła się do niego po imieniu (siatka bezpieczeństwa 6).
 - Po `flaga.trzynasta-wybila`: jeśli Ansel czekał tutaj, jego brzegi „strzępią się”, a głos dochodzi jak zza ściany.
 
 **Odczyt do mapy dryfu (propozycja robocza):** −1 minuta, gładko. Przy Anselu Tempus rozmywa się w dym. Liczby zatwierdza architekt-fabuly.

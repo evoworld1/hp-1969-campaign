@@ -495,7 +495,7 @@ dialog:
     - "Gdy postać kłamie, że Wren albo Filch już tu idą: (blednie, zerka na wyjście) „Wren… wie?” (ściska zegarek tak, że łańcuszek dzwoni; jeśli nikt go nie zatrzyma, rusza do galerii: cassian-los = uciekl)"
     - "Gdy postać mówi wprost, że kradnie godziny (także ich godzinę): „Wy macie godzinę mniej, ja więcej. To się nazywa wymiana.” (głos mu się łamie przy ostatnim słowie)"
     - "Gdy postacie dalej spokojnie naciskają albo mu współczują (łamie się): „Nie wiem, jak to zatrzymać. Rozumiecie? Ja nie wiem, jak to zatrzymać.” (siada na posadzce pod gablotą)"
-    - "Złamany, gdy postać wyciąga rękę po zegarek: (patrzy na niego długo) „Weź. Weź, zanim się rozmyślę.” (flaga.zegarek-cassiana = u-graczy; cassian-los zwykle sojusznik albo dluznik)"
+    - "Złamany, gdy postać wyciąga rękę po zegarek: (patrzy na niego długo) „Weź. Weź, zanim się rozmyślę.” (flaga.zegarek-cassiana = u-graczy, flaga.zegarek-u-graczy = prawda; cassian-los zwykle sojusznik albo dluznik)"
     - "Gdy postać pyta o drzwi i o księgę: „Drzwi? One mnie znalazły.” (zaciska dłoń w pięść) „Książki nie ruszajcie. Szarpnąłem raz i wszystko się obudziło. Zdążyłem na ostatnim uderzeniu.”"
     - "Gdy postać pokazuje dopisek z karty („co da się wziąć, da się też oddać”) albo mówi, że gablota chce dostać: (blednie) „Myślałem, że to ozdobnik.” (cicho, prawie do siebie) „Mój ojciec mawia, że kto daje pierwszy, ten przegrywa.”"
     - "Gdy postać podaje nazwisko Marrow: „Marrow.” (powtarza, jakby smakował) „Więc to miało nazwisko. Myślałem, że to tylko… pokój.”"

@@ -151,7 +151,7 @@ test:
   trudnosc: "brak"
   wyniki:
     - wynik: zawsze
-      efekt: "Postać budzi się na podłodze ostatniego rzędu Działu Ksiąg Zakazanych. Ciało: stan Bloodied (3 kółka, +3 do trudności; jeśli ma już gorszy stan, zostaje gorszy). Umysł: Dazed (+2) do końca sceny przebudzenia. Pamięć: brak ostatnich minut w pracowni (od chwili, gdy zaczęło się bicie); to skutek magii pracowni, nie zaklęcie Obliviate, więc nie ma rzutu obronnego ani stanu trwałego (s. 36). Noc i dzień w skrzydle szpitalnym: pani Pomfrey zdejmuje kółka zaklęciami (Vulnera Sanentur, s. 59); do końca Sesji 1 zostaje Shaken (+1). Cena: zegar kradzieży +1 (jeśli jeszcze biegnie), znalezienie przez Filcha na obchodzie, pytania nauczycieli. Grę zapomnienia MG uzgadnia z graczem na kartce."
+      efekt: "Postać budzi się na podłodze ostatniego rzędu Działu Ksiąg Zakazanych. Ciało: stan Bloodied (3 kółka, +3 do trudności; jeśli ma już gorszy stan, zostaje gorszy). Umysł: Dazed (+2) do końca sceny przebudzenia. Pamięć: brak ostatnich minut w pracowni (od chwili, gdy zaczęło się bicie); to skutek magii pracowni, nie zaklęcie Obliviate, więc nie ma rzutu obronnego ani stanu trwałego (s. 36). Noc i dzień w skrzydle szpitalnym: pielęgniarka zdejmuje kółka zaklęciami (Vulnera Sanentur, s. 59); do końca Sesji 1 zostaje Shaken (+1). Cena: zegar kradzieży +1 (jeśli jeszcze biegnie), znalezienie przez Filcha na obchodzie, pytania nauczycieli. Grę zapomnienia MG uzgadnia z graczem na kartce."
       flagi_ustaw: [flaga.ksiega-zlapani, flaga.filch-zlapal, flaga.s1-zegar-kradziezy]
 ```
 
