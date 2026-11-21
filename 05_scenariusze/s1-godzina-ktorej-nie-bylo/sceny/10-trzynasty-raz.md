@@ -9,6 +9,7 @@ kolejnosc: 10
 czas_min: 15
 cel: "Cliffhanger: każdy zegar w zamku bije trzynaście razy, Ansel zaczyna blednąć, a sesja kończy się pytaniem, co postacie zrobią z notatnikiem i z Anselem."
 npc:
+  - npc.irytek
   - npc.ansel-dray
   - npc.argus-filch
   - npc.minerva-mcgonagall

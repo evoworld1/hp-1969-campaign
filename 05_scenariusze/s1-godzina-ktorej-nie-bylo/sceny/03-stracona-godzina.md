@@ -9,6 +9,7 @@ kolejnosc: 3
 czas_min: 15
 cel: "Cała drużyna naraz traci godzinę w przerwie obiadowej. Każda postać dostaje osobistą zadrę, świadek wskazuje Ślizgona z zegarkiem, a jedna postać widzi pierwsze mignięcie Ansela."
 npc:
+  - npc.irytek
   - npc.ansel-dray
   - npc.cassian-vane
   - npc.filius-flitwick
@@ -172,7 +173,7 @@ To pierwsza chwila sesji, w której coś naprawdę dzieje się z postaciami grac
 
 - **Jak zagrać mrugnięcie.** Najpierw pozwól graczom spokojnie rozmawiać w krokach 1 i zapytaj o drobiazgi (co niosą, o czym gadają). Gdy rozmowa się rozkręci, przerwij ją w pół zdania tekstem 2. Czytaj go wolno i cicho. Po „Mrugacie.” zrób jedną sekundę ciszy, a potem tekst 3 zacznij głośno i szybko, jakby dzwon naprawdę bił. Jeśli masz pod ręką łyżeczkę i szklankę, uderz nią raz przy słowie „Dzwon.”. Między tekstem 2 a 3 nie pytaj „Co robicie?”: nie ma żadnej chwili, w której postacie mogłyby coś zrobić.
 - **Gdy gracz protestuje** („Ale ja bym coś zrobił w tym świetle!”), powiedz spokojnie poza fikcją: „Twoja postać nie zdążyła nawet pomyśleć. Tak to działa i to jest straszne. Za chwilę zobaczysz, co z tego wynikło.” Strata nie jest karą za błąd gracza; nikt nie mógł jej uniknąć.
-- **Jak powiedzieć o stanie Drained.** Najpierw świat, potem liczby (tak jak przy pierwszym rzucie w scenie 01). Przeczytaj w tekście 3 zdanie o ciężarze w ciele. Potem powiedz: „Na karcie jest tor Mind, sześć kółek. Zaznaczcie trzy pierwsze. To stan Drained, wyczerpanie. Każdy wasz test jest o 3 trudniejszy, dopóki nie zjecie czegoś porządnego albo się nie wyśpicie.”
+- **Jak powiedzieć o stanie Drained.** Najpierw świat, potem liczby (tak jak przy pierwszym rzucie w scenie 01). Przeczytaj w tekście 3 zdanie o ciężarze w ciele. Potem powiedz: „Na karcie jest tor Mind, sześć kółek. Zaznaczcie trzy pierwsze. To stan Drained, wyczerpanie. Każdy wasz test jest o 3 trudniejszy, dopóki nie zjecie czegoś porządnego albo się nie wyśpicie. Napar z pielęgniarki zmniejsza go tylko do Dazed.”
 - **Jak prosić graczy o zadry.** Zadry przygotuj **przed sesją**, z kart postaci i z odpowiedzi na pięć pytań o wspólny sekret: przy każdej postaci zapisz literę (A–F) i wpisz szczegóły w nawiasy. W grze zwracaj się do jednego gracza naraz: przeczytaj zdanie otwierające i zapytaj „Co robisz?”. Gracz prawie zawsze odpowie „sięgam do kieszeni” albo „patrzę na dłonie”; wtedy czytaj zadrę. Jeśli gracz zapyta „skąd to się wzięło?”, odpowiedz: „Nie wiesz. Wiesz tylko, gdzie to było rano.” Nie dopytuj, co postać czuje; jeśli gracz sam zacznie mówić, słuchaj.
 - **Zadra o wspólnym sekrecie** (E) idzie do gracza, którego odpowiedź na pytanie 5 („jaka mała rzecz z tamtego dnia została u ciebie?”) była najbardziej konkretna. Najlepiej przeczytaj ją jako ostatnią. Jeśli gracze zaczną o tym rozmawiać w postaciach, daj im minutę: to dobry moment. Jeśli przy stole ustalono, że temat sekretu jest delikatny, wybierz zadrę A–D albo F.
 - **Każdy gracz ma mieć coś swojego.** Każda postać dostaje zadrę. Mignięcie dostaje jedna postać: najlepiej **nie** ta, która widziała odbicie w szkle zegara w scenie 01, żeby rozłożyć dziwności. Przy dwóch graczach mignięcie dostaje ten, kto nie widział odbicia. Jeśli kilka osób mówi, że się ogląda: chłopca widzi tylko pierwsza osoba, która to powiedziała (albo najcichszy gracz); reszta odwraca się sekundę później i widzi puste schody.
@@ -196,8 +197,8 @@ Zadry dotykają domu, rodziny i wspólnego sekretu. Jeśli przy stole ustalono, 
 
 ### Do weryfikacji
 
-- Irytek w Hogwarcie w 1969: kanon (poltergeist obecny w zamku od dawna; kanon w ogólnym zarysie, pewnosc: kanon dla postaci, kwestie nasze). Brak karty NPC.
-- Portret pani Ermentrudy Hask: nasz wymysł z karty miejsca. Brak karty NPC.
+- Irytek w Hogwarcie w 1969: kanon (poltergeist obecny w zamku od dawna; kanon w ogólnym zarysie, pewnosc: kanon dla postaci, kwestie nasze). Karta: [[npc.irytek]].
+- Portret pani Ermentrudy Hask: nasz wymysł z karty miejsca. Karta: [[npc.irytek]].
 - Pielęgniarka w skrzydle szpitalnym w 1969 (czy to już pani Pomfrey): niepewne, do strażnika kanonu; w tej scenie bez imienia.
 - Pory lekcji (Zaklęcia rano, Obrona o wpół do drugiej): założenie wykonawcze.
 
@@ -213,7 +214,7 @@ Zadry dotykają domu, rodziny i wspólnego sekretu. Jeśli przy stole ustalono, 
 - *Sygnał:* liczy oczka na drutach; liczyła je przez całą godzinę, „żeby nie zwariować”.
 - *Gdy postacie ją zaczepią:* uprzejmość: chętnie opowiada szczegóły (test świadka). Pośpiech albo groźba: obraża się i odwraca do ściany, ale pierwsze zdanie już padło. Nazwiska Ślizgona nie zna.
 
-**Irytek, poltergeist** (kanon jako postać; bez karty NPC)
+**Irytek, poltergeist** ([[npc.irytek]])
 - *Co robi:* wisi głową w dół pod sufitem, kiedy bije dzwon. Przez godzinę krążył wokół „posążków” i próbował je rozśmieszyć; jedna postać ma pióro zatknięte za ucho (kolor, nie zadra).
 - *Czego chce:* zabawy i publiczności. Wie więcej niż mówi i lubi to pokazywać.
 - *Sygnał:* rymuje, przekręca słowa, gwiżdże przedrzeźniająco tę samą krótką melodię, którą gwizdał Ślizgon.
@@ -253,7 +254,7 @@ Zadry dotykają domu, rodziny i wspólnego sekretu. Jeśli przy stole ustalono, 
 
 Pierwsza kwestia świadka pada **zawsze i bez testu**, zaraz po dzwonie albo gdy postacie rozejrzą się po korytarzu. Dalsze szczegóły daje test świadka. Oba warianty mówią to samo: postacie stały godzinę jak posągi, a obok przeszedł Ślizgon z zegarkiem, który gwizdał.
 
-**Uwaga dla Reżysera:** portret i Irytek nie mają kart NPC, więc ich bloki są zapisane poniżej w formacie bloku `dialog`, ale w ogrodzeniu `text` (walidator wymaga istniejącego identyfikatora `npc.*`). Po utworzeniu kart wystarczy zmienić ogrodzenie na `yaml` i wpisać identyfikator w polu `npc`.
+**Uwaga dla Reżysera:** portret nie ma karty NPC, więc jego blok jest zapisany poniżej w formacie bloku `dialog`, ale w ogrodzeniu `text` (walidator wymaga istniejącego identyfikatora `npc.*`). Po utworzeniu kart wystarczy zmienić ogrodzenie na `yaml` i wpisać identyfikator w polu `npc`.
 
 ```text
 dialog:
@@ -276,10 +277,10 @@ dialog:
   wariant_od: []
 ```
 
-```text
+```yaml
 dialog:
   id: s1.scena.03.dialog.swiadek-irytek
-  npc: npc.irytek   # karta do utworzenia (kanon jako postać, kwestie nasze)
+  npc: npc.irytek
   wyzwalacz: "Zaraz po dzwonie, zamiast portretu. Wariant głośniejszy, dla stołu, który lubi się śmiać."
   ton: "wrzaskliwy, złośliwy, rozbawiony; rymuje i przekręca słowa"
   kwestie:

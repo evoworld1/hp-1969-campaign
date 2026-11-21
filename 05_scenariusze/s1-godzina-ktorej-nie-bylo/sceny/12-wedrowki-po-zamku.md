@@ -9,6 +9,7 @@ kolejnosc: 12
 czas_min: 30
 cel: "Zestaw krótkich spotkań (po ok. 5 minut) do wpięcia, gdy gracze chodzą po zamku. Każde spotkanie daje jedną drogę do wskazówki z tabeli trzech dróg, moment z Anselem albo czysty kolor. Tu działają siatki bezpieczeństwa 3 i 5 oraz spotkania wyrównujące."
 npc:
+  - npc.irytek
   - npc.ansel-dray
   - npc.gruby-mnich
   - npc.nauczyciel-astronomii
@@ -378,7 +379,7 @@ aktualizacja: 2026-11-20
 **Spotkanie B. Gruby Mnich i Irytek** (ok. 5 min)
 - Czytaj: tekst B („Korytarz przy kuchni pachnie ciastem drożdżowym…”); wstawka „Ansel…” („Mnich otwiera usta…”), gdy postać wymówi imię chłopca.
 - Dialog: `s1.scena.12.dialog.gruby-mnich-imie` — „Duch Puchona! Doprawdy! Tyle wieków służby i takie plotki! Wy przynajmniej w to nie wierzycie, prawda?”
-- Dialog: `s1.scena.12.dialog.irytek-mnich` — „Grubasek się obraził! Grubasek ma rywala! Uuu, duszek w żółtym krawaciku!” (Irytek nie ma karty NPC; blok w ogrodzeniu `text`, jak w scenie 03)
+- Dialog: `s1.scena.12.dialog.irytek-mnich` — „Grubasek się obraził! Grubasek ma rywala! Uuu, duszek w żółtym krawaciku!”
 - Flagi: `flaga.ansel-poza-spisem`, `flaga.plotka-duch-puchona`
 - Krótko: Mnich jest urażony plotką i chętnie się wygada. Bez imienia Ansela tylko narzeka; z imieniem blednie i mówi: „Znałem chłopca o tym imieniu… nie, to niemożliwe” (W2.4). Na uprzejmość radzi zapytać Szarą Damę (zapowiedź Sesji 2, nic więcej). Irytek gwiżdże melodyjkę, którą gwizdał Ślizgon w korytarzu straconej godziny (scena 03): postać, która ją wtedy słyszała, może ją rozpoznać bez testu (echo W4.2). Zapytany o „Ślizgona z zegarkiem” Irytek przedrzeźnia „paniczyka Tik-Taka” i ucieka; nazwiska nie poda.
 
@@ -517,7 +518,7 @@ Moduł zamyka się na trzy sposoby: (1) gracze mają to, po co szli, i wracają 
 - *Sygnał:* przy imieniu „Ansel” blednie, gubi wątek i na chwilę prześwituje (wstawka). Gdy Ansel stoi obok, wzdryga się od chłodu „jak przy kimś bardzo smutnym”, ale go nie widzi.
 - *Gdy postacie go zaczepią:* uprzejmość go rozgaduje. Żart z „ducha Puchona” obraża go na resztę dnia: odpływa przez ścianę.
 
-**Irytek, poltergeist (bez karty NPC)** (spotkanie B)
+**Irytek, poltergeist ([[npc.irytek]])** (spotkanie B)
 - *Co robi:* dokucza Mnichowi, bębni ukradzionymi łyżkami w rurę, gwiżdże krótką melodyjkę i nurkuje w kratkę wentylacyjną. Wraca, jeśli ktoś go zawoła albo zagwiżdże.
 - *Czego chce:* widowni, bałaganu i cudzej złości.
 - *Sygnał:* melodyjka to ta sama, którą gwizdał Ślizgon w korytarzu straconej godziny (scena 03). Cassiana nazywa „paniczykiem Tik-Takiem”.
@@ -645,7 +646,7 @@ Moduł zamyka się na trzy sposoby: (1) gracze mają to, po co szli, i wracają 
 
 ## Dialogi
 
-*Bloki dla wszystkich szesnastu spotkań, w kolejności liter. Kwestie są krótkie, żeby dało się je przeczytać z kartki albo powiedzieć po swojemu. Postacie bez karty NPC (Irytek, skrzaty, portret kucharki, pierwszoroczniak) mają bloki w formacie `dialog`, ale w ogrodzeniu `text`, jak w scenie 03; po utworzeniu karty wystarczy zmienić ogrodzenie na `yaml`. Spotkanie G nie ma własnego rozmówcy: jego kwestie są w bloku Ansela-towarzysza.*
+*Bloki dla wszystkich szesnastu spotkań, w kolejności liter. Kwestie są krótkie, żeby dało się je przeczytać z kartki albo powiedzieć po swojemu. Postacie bez karty NPC (skrzaty, portret kucharki, pierwszoroczniak) mają bloki w formacie `dialog`, ale w ogrodzeniu `text`, jak w scenie 03; po utworzeniu karty wystarczy zmienić ogrodzenie na `yaml`. Spotkanie G nie ma własnego rozmówcy: jego kwestie są w bloku Ansela-towarzysza.*
 
 ### A. Skrzaty w kuchni: „Skrzaty dadzą dwie!”
 
@@ -702,12 +703,12 @@ dialog:
 
 ### B. Irytek: „Grubasek ma rywala!”
 
-Irytek nie ma karty NPC, więc blok jest zapisany w formacie `dialog`, ale w ogrodzeniu `text`, tak jak w scenie 03. Po utworzeniu karty wystarczy zmienić ogrodzenie na `yaml`. Ważna rzecz w tym bloku to melodia: postać, która słyszała gwizd Ślizgona w korytarzu straconej godziny, rozpoznaje ją bez testu (echo W4.2).
+Irytek ma kartę ([[npc.irytek]]). Ważna rzecz w tym bloku to melodia: postać, która słyszała gwizd Ślizgona w korytarzu straconej godziny, rozpoznaje ją bez testu (echo W4.2).
 
-```text
+```yaml
 dialog:
   id: s1.scena.12.dialog.irytek-mnich
-  npc: npc.irytek   # karta do utworzenia (kanon jako postać, kwestie nasze)
+  npc: npc.irytek
   wyzwalacz: "Tekst B, zanim Irytek zanurkuje w kratkę; także gdy postacie go zawołają albo zagwiżdżą jego melodię."
   ton: "wrzaskliwy, złośliwy, rozbawiony; rymuje i przekręca słowa"
   kwestie:

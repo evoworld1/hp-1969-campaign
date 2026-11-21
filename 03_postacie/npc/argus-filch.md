@@ -64,7 +64,7 @@ statystyki:
     poziom: "Average student"     # s. 102 (cechy 17, umiejętności 21); Filch nie jest czarodziejem, poziom służy tylko jako skala
     lineage: Squib
     school: "brak (kurs korespondencyjny magii)"
-    profession: "Woźnica Hogwartu (woźny)"
+    profession: "Woźny Hogwartu"
     cechy:
       Vitality: 3
       Speed: 4
