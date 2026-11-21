@@ -1,0 +1,39 @@
+body.gracze .karta-nawig{display:none}
+body.gracze main{max-width:980px}
+.login{max-width:440px;margin:8vh auto;text-align:center}
+.login h1{margin-bottom:.2rem}
+.login input{padding:.7rem;font-size:1.2rem;width:100%;text-align:center;letter-spacing:.2em;border:1px solid var(--linia);border-radius:8px;background:var(--panel)}
+.login .wybor{display:grid;gap:.6rem;margin:1.2rem 0}
+.login .wybor button{padding:.9rem;font-size:1.1rem;text-align:left}
+.gpasek{display:flex;justify-content:space-between;align-items:center;gap:.6rem;margin-bottom:.6rem;flex-wrap:wrap}
+.gpasek h1{margin:0;font-size:1.5rem}
+.gz{display:flex;gap:.3rem;flex-wrap:wrap;margin:.5rem 0 1rem}
+.gz button{padding:.4rem .8rem}
+.gz button.aktywna{background:var(--akcent);color:var(--akcent-t);border-color:var(--akcent)}
+.karty{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:.6rem}
+.cechag{background:var(--panel);border:2px solid var(--tekst);border-radius:10px;text-align:center;padding:.4rem}
+.cechag b{display:block;font-size:2rem;line-height:1.1}
+.cechag small{color:var(--cichy);text-transform:uppercase;letter-spacing:.06em}
+.umg{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:.3rem .8rem}
+.um{display:flex;justify-content:space-between;gap:.5rem;padding:.35rem .6rem;border:1px solid var(--linia);border-radius:8px;background:var(--panel);cursor:pointer;text-align:left}
+.um:hover{border-color:var(--akcent)}
+.um b{font-size:1.1rem}
+.sekg{background:var(--panel);border:1px solid var(--linia);border-radius:10px;padding:.7rem 1rem;margin:.8rem 0}
+.sekg h3{margin:.1rem 0 .4rem}
+.kolka-g{display:flex;gap:.4rem;margin:.4rem 0}
+.kolka-g button{width:2.4rem;height:2.4rem;border-radius:50%;padding:0;font-weight:700}
+.kolka-g button.on{background:var(--akcent);color:var(--akcent-t);border-color:var(--akcent)}
+.duzy{font-size:1.6rem;font-weight:800}
+.kalk label{display:block;margin:.4rem 0}
+.kalk input,.kalk select{padding:.4rem;border:1px solid var(--linia);border-radius:6px;background:var(--bg);width:9rem}
+.kalk select{width:auto;max-width:100%}
+.wynikk{background:var(--czytaj-bg);border-left:5px solid var(--czytaj-linia);border-radius:0 10px 10px 0;padding:.6rem 1rem;margin:.6rem 0;font-size:1.05rem}
+.zklg{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:.5rem}
+.zk{background:var(--panel);border:1px solid var(--linia);border-radius:10px;padding:.5rem .8rem;cursor:pointer}
+.zk:hover{border-color:var(--akcent)}
+.zk b{font-size:1.05rem}
+.zk .kr span{display:inline-block;width:10px;height:10px;background:var(--tekst);margin-right:2px}
+.zk small{display:block;color:var(--cichy)}
+textarea.n{width:100%;min-height:9rem;padding:.6rem;border:1px solid var(--linia);border-radius:8px;background:var(--panel);font:inherit}
+.pudg label{display:block;padding:.25rem 0}
+@media (max-width:600px){html{font-size:16px}}

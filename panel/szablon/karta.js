@@ -68,7 +68,7 @@ window.renderKarta = function (app, p, tlum) {
       l.map(function (x) { var o = (sl[x.nazwa] || {}).opis || ""; return "<tr><td style='width:36%'><b>" + esc(ZAKL_PL[x.nazwa] || x.nazwa) + "</b></td><td style='width:13%'>" + kratki(x.kratki || 0) + "</td><td class='malo'>" + esc(o) + "</td></tr>"; }).join("") + "</tbody></table>";
   });
   var mg = (p.haczyki_mg || p.notatki_mg) ? '<div class="mgnotatki" hidden><h2>Notatki MG (nie do druku dla gracza)</h2>' + (p.haczyki_mg ? "<b>Haczyki:</b><ul>" + p.haczyki_mg.map(function (x) { return "<li>" + esc(x) + "</li>"; }).join("") + "</ul>" : "") + (p.notatki_mg ? "<b>Do potwierdzenia:</b><ul>" + p.notatki_mg.map(function (x) { return "<li>" + esc(x) + "</li>"; }).join("") + "</ul>" : "") + "</div>" : "";
-  var pdf = p.id && /^gracz\./.test(p.id) ? '<a href="pdf/karta-' + esc(p.id.replace("gracz.", "")) + '.pdf" download><button>Pobierz PDF (3 strony A4)</button></a> ' : "";
+  var pdf = !window.BEZ_PDF && p.id && /^gracz\./.test(p.id) ? '<a href="pdf/karta-' + esc(p.id.replace("gracz.", "")) + '.pdf" download><button>Pobierz PDF (3 strony A4)</button></a> ' : "";
 
   app.innerHTML = '<div class="karta-nawig"><a href="#/postacie"><button>← Postacie</button></a>' + pdf + '<button id="druk">Drukuj / zapisz jako PDF</button><a href="#/sciaga"><button>Ściąga dla graczy</button></a>' + (mg ? '<button id="pokaz-mg">Pokaż/ukryj notatki MG</button>' : "") + '</div>' +
     '<div class="karta"><div class="strona">' +
