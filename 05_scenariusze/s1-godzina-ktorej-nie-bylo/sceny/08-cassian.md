@@ -967,6 +967,18 @@ rozgalezienie:
   prowadzi_do: s1.scena.09
 ```
 
+```yaml
+rozgalezienie:
+  id: s1.scena.08.rozgalezienie.awaryjne-mroczna-decyzja
+  rodzaj: awaryjne
+  warunek: "Postać w konfrontacji sięga po mroczny środek: Niewybaczalne na Cassianie, uczniu albo Anselu, próbuje go zabić albo podpalić lochy."
+  wymaga_flag: []
+  wyklucza_flagi: []
+  efekt: "Nie wychodzi. W Sesji 1 postać nie może zabić Cassiana ani nikogo innego, a Niewybaczalne na Cassianie, uczniu albo Anselu „nie wychodzą”: brak mocy, przerażenie, pustka w różdżce. Imperius nie działa na Ansela: on jest „nieobecny”, zaklęcie przechodzi przez niego jak ręka przez beczkę. Natychmiastowa interwencja Wrena (jeśli jest w pobliżu) albo Filcha, który usłyszał krzyk, zbija różdżkę i prowadzi winowajcę do opiekuna domu. Podpalenie (lochy, zegarek, karta, szata Cassiana): ogień gaśnie, karta i kartki się nie palą, tak jak notatnik. Cassian, wstrząśnięty, może sam przerwać konfrontację i zacząć mówić (litość). Konsekwencje wybrzmiewają tylko jako kolor: zawieszenie i list do domu są zapowiedziane, nie wykonane w Sesji 1; szlaban „tylko kolor” odbywa się w środę po Sesji 1 (zapowiedź Sesji 2) albo skraca się do rozmowy w kantorku Filcha, więc nie koliduje z wtorkowym wieczorem. MG rozmawia z graczem poza fikcją i pyta, czy ta scena mieści się w liniach i zasłonach. Wszystkie drogi z 08 dalej prowadzą do 09."
+  flagi_ustaw: []
+  prowadzi_do: s1.scena.09
+```
+
 ## Drabinka podpowiedzi
 
 *Dotyczy głównego zadania sceny: skąd postacie wiedzą, że źródłem jest zegarek (W4), i jak dojdą do pracowni (W5). Używaj stopni po kolei, tylko gdy stół naprawdę stoi; każdy stopień to świat, który coś robi, a nie MG, który prowadzi za rękę. Zasada trzech dróg: do lokalizacji pracowni są cztery niezależne drogi (Cassian, rejestr pani Pince, śledzenie odczytów, Ansel), a zegar kradzieży = 4 jest siatką, gdy żadna nie zadziała.*

@@ -344,7 +344,7 @@ test:
       wartosc: "+1 do rzutu"
     - warunek: "Postać ma specjalizację Observation pasującą do sytuacji (np. Observation (Twarze); Specialism, s. 13)"
       wartosc: "+1 do rzutu"
-    - warunek: "Postać nadal jest w stanie Drained (+3) albo Dazed (+2) po scenie 03 (s. 35)"
+    - warunek: "Postać nadal jest w stanie Drained (+3) albo Dazed (+2) po scenie 03, jeśli go jeszcze nie zdjął pierwszy posiłek ani sen (s. 35; reguła w `graf-scen.md`)"
       wartosc: "+3 do trudności"
   wyniki:
     - wynik: porazka
@@ -376,7 +376,7 @@ test:
       wartosc: "+1 do rzutu"
     - warunek: "Postać wcześniej w sesji zauważyła plakietkę „Crake i Córka” na wielkim zegarze w Sali Wejściowej (założenie robocze ze sceny 01) i porównuje oba napisy"
       wartosc: "-3 do trudności"
-    - warunek: "Postać nadal jest w stanie Drained (+3) albo Dazed (+2) po scenie 03 (s. 35)"
+    - warunek: "Postać nadal jest w stanie Drained (+3) albo Dazed (+2) po scenie 03, jeśli go jeszcze nie zdjął pierwszy posiłek ani sen (s. 35; reguła w `graf-scen.md`)"
       wartosc: "+3 do trudności"
   wyniki:
     - wynik: porazka
@@ -403,7 +403,7 @@ test:
       wartosc: "bez rzutu: zawsze pełny sukces"
     - warunek: "Przy kracie dzwonnicy wybija pełna godzina i hałas zagłusza skupienie (zasada domowa, patrz niżej, awaryjne-dzwon)"
       wartosc: "+2 do trudności"
-    - warunek: "Postać nadal jest w stanie Drained (+3) albo Dazed (+2) po scenie 03 (s. 35)"
+    - warunek: "Postać nadal jest w stanie Drained (+3) albo Dazed (+2) po scenie 03, jeśli go jeszcze nie zdjął pierwszy posiłek ani sen (s. 35; reguła w `graf-scen.md`)"
       wartosc: "+3 do trudności"
   wyniki:
     - wynik: porazka-kompromitujaca
@@ -429,7 +429,7 @@ test:
   modyfikatory:
     - warunek: "Premia różdżki do Revealing Magic (s. 30), jeśli postać ją ma"
       wartosc: "+N do rzutu (wartość z karty postaci)"
-    - warunek: "Postać nadal jest w stanie Drained (+3) albo Dazed (+2) po scenie 03 (s. 35)"
+    - warunek: "Postać nadal jest w stanie Drained (+3) albo Dazed (+2) po scenie 03, jeśli go jeszcze nie zdjął pierwszy posiłek ani sen (s. 35; reguła w `graf-scen.md`)"
       wartosc: "+3 do trudności"
   wyniki:
     - wynik: porazka
@@ -614,10 +614,10 @@ rozgalezienie:
 rozgalezienie:
   id: s1.scena.07.rozgalezienie.awaryjne-wyjscie-postaci
   rodzaj: awaryjne
-  warunek: "Postać nie może albo nie powinna dalej uczestniczyć w scenie: zasłabła w stanie Drained po scenie 03, skręciła kostkę na wyślizganych stopniach, została odprowadzona przez Filcha do opiekuna domu albo gracz po prostu chce zrobić przerwę."
+  warunek: "Postać nie może albo nie powinna dalej uczestniczyć w scenie: zasłabła w stanie Drained po scenie 03 (jeśli nie zdjął go posiłek ani sen), skręciła kostkę na wyślizganych stopniach, została odprowadzona przez Filcha do opiekuna domu albo gracz po prostu chce zrobić przerwę."
   wymaga_flag: []
   wyklucza_flagi: []
-  efekt: "Śmierć w tej scenie nie wchodzi w grę (upadek z wieży nie jest tu realnym zagrożeniem, zob. Linie i zasłony), a wydalenie ze szkoły to nie skutek tej sceny: kara za hałas to szlaban i zapis w zeszycie Filcha, nic więcej. Postać odprowadza do skrzydła szpitalnego Filch albo ktoś z postaci, a tam dostaje napar i krótko odpoczywa (znika stan Drained, jeśli jeszcze trwał). Pozostali grają dalej i mogą odpowiedzieć na to, co postać w skrzydle usłyszy: plotkę o drugoroczniaku, który „nie wie, kiedy zasnął” (kolor, bez skutków w liczbach). Postać wraca na kolację, a o zmierzchu może dołączyć do reszty, jeśli ta czeka przy wieży. Jej gracz nie traci niczego ponad czas i komfort; zegar kradzieży biegnie dalej zwykłym trybem."
+  efekt: "Śmierć w tej scenie nie wchodzi w grę (upadek z wieży nie jest tu realnym zagrożeniem, zob. Linie i zasłony), a wydalenie ze szkoły to nie skutek tej sceny: kara za hałas to szlaban i zapis w zeszycie Filcha, nic więcej. Postać odprowadza do skrzydła szpitalnego Filch albo ktoś z postaci, a tam dostaje napar i krótko odpoczywa (Drained zmniejsza się do Dazed, jeśli jeszcze trwał; potem posiłek lub sen). Pozostali grają dalej i mogą odpowiedzieć na to, co postać w skrzydle usłyszy: plotkę o drugoroczniaku, który „nie wie, kiedy zasnął” (kolor, bez skutków w liczbach). Postać wraca na kolację, a o zmierzchu może dołączyć do reszty, jeśli ta czeka przy wieży. Jej gracz nie traci niczego ponad czas i komfort; zegar kradzieży biegnie dalej zwykłym trybem."
   flagi_ustaw: []
   prowadzi_do: s1.scena.12
 ```

@@ -97,7 +97,7 @@ Grupa pana Vane'a wychodzi pierwsza, ze śmiechem. Cassian idzie na końcu. W dr
 
 **Co się naprawdę dzieje.** W przerwie (scena 03) Cassian zabrał drużynie godzinę i teraz ją wydaje. Każda „Skradziona Chwila” w pokazie to dosłownie kawałek tej godziny: postacie są głodne, zmęczone i wybite z rytmu, a on jest wypoczęty. Zegarek zostaje `u-cassiana` do końca sceny bez względu na wynik (decyzja MG z 2026-11-20). Wyrwany w pokazie wraca przez Wrena do Cassiana („pamiątka, nie dowód”). Kradzież, targ i litość są możliwe dopiero od wieczoru po tej scenie (siatka 1, karta [[przedmiot.zegarek-cassiana]]).
 
-**Stan Drained (decyzja mechanika): tak, już tutaj.** Rejestr decyzji (2026-11-19) mówi: zabrane godziny kosztują stan Drained. Każda postać, która straciła godzinę w scenie 03, wchodzi na Obronę z trzema kółkami toru umysłu (Mind) zaznaczonymi do stanu Drained (wyczerpany): **+3 do trudności wszystkich testów** (Walker 2e s. 35). Stan trwa „godziny” (s. 36): do pierwszego posiłku i chwili odpoczynku po lekcji, czyli zwykle do początku sceny 05 albo 12, gdy postacie coś zjedzą; najpóźniej do snu. Testy w tej scenie mają już tę karę wliczoną tak, żeby najważniejsze rzeczy (test kieszonki, czytanie Barnaby'ego) dalej wychodziły zwykle; przegrany pokaz jest wpisany w scenę. Jak przeliczać karę w teście przeciwnym i w pokazie: sekcja „Testy”.
+**Stan Drained (decyzja mechanika): tak, już tutaj.** Rejestr decyzji (2026-11-19) mówi: zabrane godziny kosztują stan Drained. Każda postać, która straciła godzinę w scenie 03, wchodzi na Obronę z trzema kółkami toru umysłu (Mind) zaznaczonymi do stanu Drained (wyczerpany): **+3 do trudności wszystkich testów** (Walker 2e s. 35). Stan trwa „godziny” (s. 36): do pierwszego posiłku albo snu (reguła jednolita: `graf-scen.md`, „Reguła stanu Drained”), czyli zwykle do początku sceny 05 albo 12, gdy postacie coś zjedzą; napar z pielęgniarki zmniejsza go do Dazed. Testy w tej scenie mają już tę karę wliczoną tak, żeby najważniejsze rzeczy (test kieszonki, czytanie Barnaby'ego) dalej wychodziły zwykle; przegrany pokaz jest wpisany w scenę. Jak przeliczać karę w teście przeciwnym i w pokazie: sekcja „Testy”.
 
 **Nastrój.** Lekcja jest uczciwa, a świat niesprawiedliwy. Wren nie robi niczego złego: przyjmuje spóźnionych chłodno, uczy dobrze i nagradza tych, którzy wygrali. Gracze mają poczuć, że coś im ukradziono, i zobaczyć złodzieja, który zbiera za to brawa. Nie dramatyzuj straty: opisuj burczenie w brzuchu, ciężkie powieki, słońce w oczy. Wypoczęty Cassian zrobi resztę.
 
@@ -778,6 +778,18 @@ rozgalezienie:
   efekt: "Tnij w tej kolejności: Rosalind (zostaje tylko Barnaby), druga i trzecia runda pokazu (Cassian kończy jedną rundą, test kieszonki raz), rozmowa z Cassianem po lekcji. Nigdy nie tnij: pytania „Gdzie byliście?”, pierwszej podwójnej akcji z dotykiem kieszonki, testu kieszonki i uwagi Wrena o ocenach (można ją powiedzieć jednym zdaniem w drzwiach)."
   flagi_ustaw: []
   prowadzi_do: s1.scena.05
+```
+
+```yaml
+rozgalezienie:
+  id: s1.scena.04.rozgalezienie.awaryjne-mroczna-decyzja
+  rodzaj: awaryjne
+  warunek: "Postać sięga po mroczny środek: Niewybaczalne (Cruciatus, Imperius, Avada Kedavra) na uczniu, Cassianie albo Wrenie, próbuje kogoś zabić albo podpalić salę."
+  wymaga_flag: ['flaga.godzina-stracona']
+  wyklucza_flagi: []
+  efekt: "Nie wychodzi. W Sesji 1 postać nie może zabić postaci niezależnej, a Niewybaczalne na uczniu, na Cassianie albo na Wrenie „nie wychodzą”: brak mocy, głos zawodzi, ręka drży, postać jest przerażona własnym zamiarem (gracz może to opisać). Wren, który stoi o krok, natychmiast zbija różdżkę z jej ręki i odsyła ją od koła. Podpalenie (Incendio na manekinie, ławkach, szacie): ogień gaśnie w pół iskry, nic się nie pali. Konsekwencje wybrzmiewają tylko jako kolor: zawieszenie i list do domu są zapowiedziane, nie wykonane w Sesji 1; szlaban „tylko kolor” odbywa się w środę po Sesji 1 (zapowiedź Sesji 2) albo skraca się do rozmowy w kantorku Filcha, więc nie koliduje z wtorkowym wieczorem. MG rozmawia z graczem poza fikcją i pyta, czy ta scena mieści się w liniach i zasłonach. Scena toczy się dalej, postać wraca do ćwiczenia."
+  flagi_ustaw: []
+  prowadzi_do: brak
 ```
 
 ## Drabinka podpowiedzi

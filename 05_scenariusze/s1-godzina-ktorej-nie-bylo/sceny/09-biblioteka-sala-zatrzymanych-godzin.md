@@ -695,7 +695,7 @@ test:
       wartosc: "+1 do trudności"
   wyniki:
     - wynik: porazka-kompromitujaca
-      efekt: "Kreda na ścianie robi się ciepła, a postać czuje, jak coś jej ucieka. Traci godzinę: stan Drained (+3 do trudności) do pierwszego posiłku po nocy. Bez rzutu obronnego."
+      efekt: "Kreda na ścianie robi się ciepła, a postać czuje, jak coś jej ucieka. Traci godzinę: stan Drained (+3 do trudności) do pierwszego posiłku albo snu (reguła jednolita, `graf-scen.md`). Bez rzutu obronnego."
       flagi_ustaw: []
     - wynik: porazka
       efekt: "Diagramy nie składają się w sens. Postać jest pewna, że to coś ważnego, ale nic z tego nie pamięta. Bez ceny mechanicznej; jeden ślad (kreda na rękawie) dla pani Pince."
@@ -802,7 +802,7 @@ test:
   modyfikatory: []
   wyniki:
     - wynik: zawsze
-      efekt: "Ciało: Bloodied (3 kółka, +3 do trudności; jeśli ma gorszy stan, zostaje gorszy). Umysł: Dazed (+2) do końca sceny przebudzenia. Pamięć: brak ostatnich minut w pracowni (skutek magii pracowni, nie Obliviate; bez rzutu obronnego). Skrzydło szpitalne do rana: pani Pomfrey zdejmuje kółka (Vulnera Sanentur, s. 59); do końca Sesji 1 zostaje Shaken (+1). Cena: Filch ją znajduje, zegar kradzieży +1 (jeśli biegnie), pytania nauczycieli. Informacja nie ginie: inni pamiętają, Ansel, rzecz w dłoni. Śmierć tylko po dwóch ostrzeżeniach i świadomym wyborze gracza (karta księgi)."
+      efekt: "Ciało: Bloodied (3 kółka, +3 do trudności; jeśli ma gorszy stan, zostaje gorszy). Umysł: Dazed (+2) do końca sceny przebudzenia. Pamięć: brak ostatnich minut w pracowni (skutek magii pracowni, nie Obliviate; bez rzutu obronnego). Skrzydło szpitalne do rana: pielęgniarka (bez imienia) zdejmuje kółka (Vulnera Sanentur, s. 59); do końca Sesji 1 zostaje Shaken (+1). Cena: Filch ją znajduje, zegar kradzieży +1 (jeśli biegnie), pytania nauczycieli. Informacja nie ginie: inni pamiętają, Ansel, rzecz w dłoni. Śmierć tylko po dwóch ostrzeżeniach i świadomym wyborze gracza (karta księgi)."
       flagi_ustaw: [flaga.ksiega-zlapani, flaga.filch-zlapal, flaga.s1-zegar-kradziezy]
 ```
 
@@ -822,7 +822,7 @@ test:
       wartosc: "bez rzutu: koszt o jedno kółko mniejszy (najmniej Rattled)"
   wyniki:
     - wynik: zawsze
-      efekt: "Gablota otwiera się czysto. Koszt na każdą oddającą: jedna osoba Dazed (+2); dwie lub więcej Rattled (+1), do końca sceny 09 (nie przechodzi na scenę 10). Wartość flagi: oddana-godzina (jedna osoba) albo podzielona-godzina (kilka). Tekst 9, wariant A. Pierwsza strona notatnika czytelna; Ansel: „Tak samo jak u pani profesor”. Notatnik leży jeszcze w gablocie: flaga.dziennik-u-graczy dopiero przy wyniesieniu (rozgałęzienie notatnik-wyniesiony)."
+      efekt: "Gablota otwiera się czysto. Koszt na każdą oddającą: jedna osoba Dazed (+2); dwie lub więcej Rattled (+1), do końca sceny 09 (nie przechodzi na scenę 10; nie kumuluje się z Drained: obowiązuje większa kara, nie suma). Wartość flagi: oddana-godzina (jedna osoba) albo podzielona-godzina (kilka). Tekst 9, wariant A. Pierwsza strona notatnika czytelna; Ansel: „Tak samo jak u pani profesor”. Notatnik leży jeszcze w gablocie: flaga.dziennik-u-graczy dopiero przy wyniesieniu (rozgałęzienie notatnik-wyniesiony)."
       flagi_ustaw: [flaga.gablota-sposob]
 ```
 
@@ -840,7 +840,7 @@ test:
   modyfikatory: []
   wyniki:
     - wynik: zawsze
-      efekt: "Gablota otwiera się, żaden zegar w sali nie tyka. Postacie bez kosztu w liczbach. MG zapisuje ofiarę, która rano ma stan Drained (+3) do obiadu, bez wyjaśnienia dla graczy. Wartość flagi: zabrana-godzina. Pierwszy krok ku zakończeniu „moc”; nie moralizuj."
+      efekt: "Gablota otwiera się, żaden zegar w sali nie tyka. Postacie bez kosztu w liczbach. MG zapisuje ofiarę, która rano ma stan Drained (+3) do pierwszego posiłku, bez wyjaśnienia dla graczy. Wartość flagi: zabrana-godzina. Pierwszy krok ku zakończeniu „moc”; nie moralizuj."
       flagi_ustaw: [flaga.gablota-sposob]
 ```
 
@@ -932,7 +932,7 @@ rozgalezienie:
   warunek: "Postacie wychodzą bez notatnika."
   wymaga_flag: []
   wyklucza_flagi: [flaga.dziennik-u-graczy]
-  efekt: "Wariant awaryjny cliffhangera: zegary i tak wybijają trzynasty raz o północy (zegar kradzieży albo luzująca się pieczęć). Wartość flagi: nieotwarta."
+  efekt: "Wariant awaryjny cliffhangera: zegary i tak wybijają trzynasty raz o północy, gdy drużyna jest jeszcze w bibliotece (wyprawa zaczyna się po ciszy nocnej; MG pilnuje, żeby północ zastała ją w czytelni, Dziale Ksiąg Zakazanych albo pracowni; zegar kradzieży albo luzująca się pieczęć). Wartość flagi: nieotwarta."
   flagi_ustaw: [flaga.gablota-sposob, flaga.dziennik-miejsce]
   prowadzi_do: s1.scena.10
 ```
@@ -1092,7 +1092,7 @@ rozgalezienie:
   warunek: "Wszystkie postacie nie zdążyły przed trzynastym uderzeniem (ucieczka przy pełnych zabezpieczeniach, siatka 8 dla całej drużyny)."
   wymaga_flag: [flaga.ksiega-zabezpieczenia]
   wyklucza_flagi: []
-  efekt: "Pracownia wypluwa wszystkich w ostatnim rzędzie, zaklęcie zapomnienia dotyka tylko ostatnich minut. Informacja nie ginie: Ansel („Byliście na dole. Wróciliście inni”), rzecz w dłoni (róg kartki, kreda, strzęp łuny na skórze), a zapis na kartce, którą MG przygotował wcześniej z graczem. Skrzydło szpitalne (stan Bloodied zdejmuje pani Pomfrey, do końca Sesji 1 zostaje Shaken), Filch ich znajduje (szlaban, zegar kradzieży +1). Jeśli notatnik był już w ręku, pracownia wypluwa go razem z postacią i trzynasty raz wybija (scena 10); jeśli nie, leży dalej w gablocie (wariant awaryjny cliffhangera). Scena 10 zaczyna się wtedy w skrzydle szpitalnym albo w dormitorium o świcie, z Anselem przy łóżku."
+  efekt: "Pracownia wypluwa wszystkich w ostatnim rzędzie, zaklęcie zapomnienia dotyka tylko ostatnich minut. Informacja nie ginie: Ansel („Byliście na dole. Wróciliście inni”), rzecz w dłoni (róg kartki, kreda, strzęp łuny na skórze), a zapis na kartce, którą MG przygotował wcześniej z graczem. Skrzydło szpitalne (stan Bloodied zdejmuje pielęgniarka (bez imienia), do końca Sesji 1 zostaje Shaken), Filch ich znajduje (szlaban, zegar kradzieży +1). Jeśli notatnik był już w ręku, pracownia wypluwa go razem z postacią i trzynasty raz wybija (scena 10); jeśli nie, leży dalej w gablocie (wariant awaryjny cliffhangera). Scena 10 zaczyna się wtedy w skrzydle szpitalnym albo w dormitorium o świcie, z Anselem przy łóżku."
   flagi_ustaw: [flaga.ksiega-zlapani, flaga.filch-zlapal, flaga.s1-zegar-kradziezy]
   prowadzi_do: s1.scena.10
 ```
@@ -1104,7 +1104,7 @@ rozgalezienie:
   warunek: "Postać traci przytomność, zostaje w skrzydle szpitalnym albo gracz chce, żeby jego postać została przy księdze (ryzyko śmierci)."
   wymaga_flag: [flaga.ksiega-zabezpieczenia]
   wyklucza_flagi: []
-  efekt: "Nieprzytomna postać jest wynoszona przez resztę (pomagają jej, Working Together) albo wypluta w ostatnim rzędzie; gracz nie siedzi bezczynnie: do końca sceny gra relację z drugiej strony (co pamięta, co słyszy zza ściany), a w skrzydle szpitalnym budzi się razem z resztą w scenie 10. Skrzydło szpitalne: pomoc pielęgniarki zdejmuje kółka do rana, Ansel siedzi przy łóżku. Wyrzucenie ze szkoły w Sesji 1 nie następuje (Filch zapisuje nazwiska, szlaban, minus punkty; dyrektora nie ma). Śmierć tylko po dwóch ostrzeżeniach poza fikcją i jeszcze jednym pytaniu przy wyborze („Jeśli zostanie, może zginąć. Na pewno?”). Jeśli gracz mimo to tego chce, MG zatrzymuje scenę i czeka na decyzję użytkownika (co po śmierci postaci); do tego czasu pracownia wypluwa postać."
+  efekt: "Nieprzytomna postać jest wynoszona przez resztę (pomagają jej, Working Together) albo wypluta w ostatnim rzędzie; gracz nie siedzi bezczynnie: do końca sceny gra relację z drugiej strony (co pamięta, co słyszy zza ściany), a w skrzydle szpitalnym budzi się razem z resztą w scenie 10. Skrzydło szpitalne: pomoc pielęgniarki zdejmuje kółka do rana, Ansel siedzi przy łóżku. Wyrzucenie ze szkoły w Sesji 1 nie następuje (Filch zapisuje nazwiska, szlaban, minus punkty; dyrektor wrócił w poniedziałek wieczorem, ale po nocy nikt nie otworzy jego gabinetu, rano go przyjmie). Śmierć tylko po dwóch ostrzeżeniach poza fikcją i jeszcze jednym pytaniu przy wyborze („Jeśli zostanie, może zginąć. Na pewno?”). Jeśli gracz mimo to tego chce, MG zatrzymuje scenę i czeka na decyzję użytkownika (co po śmierci postaci); do tego czasu pracownia wypluwa postać."
   flagi_ustaw: [flaga.ksiega-zlapani, flaga.filch-zlapal]
   prowadzi_do: s1.scena.10
 ```
@@ -1116,7 +1116,7 @@ rozgalezienie:
   warunek: "Postacie chcą po nocy obudzić nauczyciela, prefekta albo pójść do dyrektora zamiast do biblioteki."
   wymaga_flag: []
   wyklucza_flagi: [flaga.pracownia-otwarta]
-  efekt: "Nikt nie podpisze zgody ani nie otworzy biblioteki (decyzja MG z 2026-11-20). Dyżurny prefekt albo Filch odprowadza ich do dormitorium i zapisuje nazwiska; nauczyciel rano słucha uprzejmie i nic nie wie o pracowni (nie ma o czym wiedzieć). Nic z tego nie jest karą za pomysł: gracze dostają pretekst do rozmowy za dnia (scena 12: rejestr wypożyczeń, zdjęcie z 1951) i drugą okazję nocy (awaryjne-odkladaja-na-jutro). Dyrektor jest nieobecny."
+  efekt: "Nikt nie podpisze zgody ani nie otworzy biblioteki (decyzja MG z 2026-11-20). Dyżurny prefekt albo Filch odprowadza ich do dormitorium i zapisuje nazwiska; nauczyciel rano słucha uprzejmie i nic nie wie o pracowni (nie ma o czym wiedzieć). Nic z tego nie jest karą za pomysł: gracze dostają pretekst do rozmowy za dnia (scena 12: rejestr wypożyczeń, zdjęcie z 1951) i drugą okazję nocy (awaryjne-odkladaja-na-jutro). Dyrektor jest w zamku (wrócił z Londynu w poniedziałek wieczorem), ale po nocy nikt nie otworzy jego gabinetu; rano go przyjmie."
   flagi_ustaw: [flaga.filch-zlapal]
   prowadzi_do: s1.scena.12
 ```
@@ -1133,6 +1133,18 @@ rozgalezienie:
   prowadzi_do: s1.scena.10
 ```
 
+```yaml
+rozgalezienie:
+  id: s1.scena.09.rozgalezienie.awaryjne-mroczna-decyzja
+  rodzaj: awaryjne
+  warunek: "Postać nocą w bibliotece albo w pracowni sięga po mroczny środek: Niewybaczalne, zabicie kogoś, podpalenie regałów, księgi albo notatnika."
+  wymaga_flag: []
+  wyklucza_flagi: []
+  efekt: "Nie wychodzi. W Sesji 1 postać nie może zabić nikogo (Filcha, Cassiana, Ansela), a Niewybaczalne „nie wychodzą”: brak mocy, przerażenie, różdżka głucha. Imperius nie działa na Ansela („nieobecnego”). Natychmiastowa interwencja: Filch, zwabiony hałasem, wypada zza regału i zbija różdżkę (siatka bezpieczeństwa 9: szlaban, `flaga.filch-zlapal` ustawia MG, jeśli złapał postacie), a pracownia gasi to, co się pali. Podpalenie (regały, księga, notatnik, gablota, karta): ogień gaśnie, księgi się nie palą, jak notatnik; zaklęta księga tylko ciemnieje łuną. Sala nie pozwala zniszczyć niczego, co jest potrzebne do Sesji 2. Konsekwencje wybrzmiewają tylko jako kolor: zawieszenie i list do domu są zapowiedziane, nie wykonane w Sesji 1; szlaban „tylko kolor” odbywa się w środę po Sesji 1 (zapowiedź Sesji 2) albo skraca się do rozmowy w kantorku Filcha, więc nie koliduje z wtorkowym wieczorem. MG rozmawia z graczem poza fikcją i pyta, czy ta scena mieści się w liniach i zasłonach. Noc trwa: po wyjaśnieniach postacie wracają do drogi albo do 10."
+  flagi_ustaw: []
+  prowadzi_do: brak
+```
+
 ## Drabinka podpowiedzi
 
 *Dwie przeszkody obowiązkowe, dwie drabinki. Zasada dla MG: zaczynasz od świata (tekst, dźwięk, Ansel), nie od zdania „zróbcie to”. Czekaj minutę ciszy przed każdym szczeblem. Każda wskazówka ma co najmniej dwie drogi bez Tempus i bez Ansela; poniżej tylko to, co MG mówi, gdy gracze utkną.*
@@ -1140,7 +1152,8 @@ rozgalezienie:
 **Drzwi (W6), przy ścianie ostatniego rzędu:**
 1. Szturchnięcie: klepsydra na półce lśni, choć wszystko wokół jest szare od pyłu. Ansel (jeśli jest) wraca ze ściany: „Tam schody tykają trzynaście razy.”
 2. Większa: spod kamienia dobiega daleki rytm, który ktoś przyłożony do ściany usłyszy sam. Margines karty: „XIII. Zapukaj w godzinę, której nie ma.” Tempus przy ścianie pokazuje trzynaście kresek.
-3. Bezpośrednia: bicie słyszą wszyscy bez rzutu; Ansel: „Pani profesor stukała w klepsydrę, a ja liczyłem.” Gdy nadal nic, MG mówi jedno zdanie poza fikcją: „Spróbujcie czegoś trzynaście razy.”
+3. Wzór w rejestrze (zdobyty za dnia w scenie 12, spotkanie K): Vane przy każdym wypożyczeniu pisał godzinę zwrotu „XIII”; ktoś, kto to pamięta, sam wystuka „trzynaście”.
+4. Bezpośrednia: bicie słyszą wszyscy bez rzutu; Ansel: „Pani profesor stukała w klepsydrę, a ja liczyłem.” Gdy nadal nic, MG mówi jedno zdanie poza fikcją: „Spróbujcie czegoś trzynaście razy.”
 
 **Gablota (W7), po tekście 8:**
 1. Szturchnięcie: tabliczka na ramie („Co dane, można zatrzymać; co zabrane, trzeba zwrócić.”) przy dłuższym patrzeniu; ciepłe szkło; Ansel: „Pani profesor nigdy nic z szafki nie brała. Zawsze najpierw coś jej dawała.”
@@ -1168,7 +1181,7 @@ podpowiedzi:
 - `flaga.dziennik-miejsce`: w-pracowni od otwarcia gabloty; u-graczy dopiero po wyniesieniu notatnika (wtedy też `flaga.dziennik-u-graczy` = prawda); u-cassiana, gdy poszedł z nim.
 - `flaga.dziennik-u-graczy`: tylko przy wyniesieniu notatnika razem z postacią (nie przy samym otwarciu gabloty).
 - `flaga.filch-zlapal` i `flaga.s1-zegar-kradziezy` (+1): po złapaniu przez Filcha (siatki 8 i 9); szlaban zapisz jako kolor.
-- Stan po oddaniu godziny: Dazed (jedna osoba) albo Rattled (kilka) trwa do końca sceny 09, nie dotyczy sceny 10.
+- Stan po oddaniu godziny: Dazed (jedna osoba) albo Rattled (kilka) trwa do końca sceny 09, nie dotyczy sceny 10 i nie kumuluje się z Drained (bierze się większą karę).
 - Ślady dla pani Pince rano (zgaszona lampa, przestawiony sznur, kurz z ostatniego rzędu, odłamek szkła, kreda na rękawie): wypisz je na kartce; plotka i podejrzliwość, bez kary.
 - Wyłamana gablota: które kartki notatnika są rozmyte (cena stała).
 - `flaga.cassian-zdemaskowany` i `flaga.cassian-los`: tylko gdy Cassian był w środku.

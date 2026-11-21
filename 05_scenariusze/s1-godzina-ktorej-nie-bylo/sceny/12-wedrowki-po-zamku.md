@@ -271,6 +271,7 @@ aktualizacja: 2026-11-20
 - Test: `miejsce.biblioteka.test.zdjecie-w-gablocie` (karta miejsca)
 - Flagi: `flaga.lokalizacja-pracowni`, `flaga.wymark-slad`, `flaga.marrow-imie-znane` (gdy postacie rozpoznają Marrow na zdjęciu dzięki Anselowi albo Fairweather)
 - Krótko: na szczerą ciekawość pani Pince narzeka na „chłopca od Slughorna”, Vane'a, który trzy razy prosił o ten sam tom o zegarmistrzostwie. Za trzecim razem znalazła ten tom nie na półce, tylko za liną, na końcu ostatniego regału działu, „a przecież nikogo tam nie wpuszczam” (W5.2; to rozmowa, nie zgoda na wejście; sam tom stoi w zwykłej części biblioteki). O Dział Ksiąg Zakazanych: „Z podpisem nauczyciela. A podpisu na takie tematy nie dostaniecie”. Ansel przy Więzi 2 dorzuca szeptem: „Pani profesor nosiła książki do najdalszego regału” (W5.5). Gablota ze zdjęciem z 1951 jest na korytarzu przed wejściem (W9.2); Ansel, jeśli jest, przykłada dłoń do szkła: „To pani profesor”.
+- *Czwarta droga do W6 (wzór w rejestrze):* gdy postać zerka do rejestru (szczera ciekawość), widzi, że przy wszystkich trzech wpisach Vane'a w rubryce „godzina zwrotu” pani Pince przekreślała ten sam zapis: rzymską XIII. „Pisał to uparcie. Nie ma takiej godziny.” To podpowiada, że do drzwi w ostatnim rzędzie trzeba „trzynastu”, bez karty, bez Tempus i bez Ansela (scena 09).
 - Awaryjne: `awaryjne-za-dlugo` (gdy gracze siedzą w bibliotece do wieczora)
 
 **Spotkanie L. Korepetycje z Tempus u Flitwicka** (ok. 5 min)
@@ -586,6 +587,7 @@ dialog:
     - "Gdy postać szczerze pyta, kto to taki: „Chłopiec od Slughorna. Vane, szósty rok. Trzy razy ten sam tom o zegarmistrzostwie, a oddaje z zagiętymi rogami.” (W5.2, część pierwsza)"
     - "Gdy dopytują o ten tom albo o to, gdzie stoi: (szept jeszcze ciszej) „Stoi na zwykłej półce. Ale za trzecim razem znalazłam go za liną, na samym końcu ostatniego regału. A przecież nikogo tam nie wpuszczam.” (flaga.lokalizacja-pracowni)"
     - "Gdy pytają o ostatni regał: (krótka cisza) „Tam jest zimno. Nikt tam nie siedzi.” (sama nie wie, czemu przy nim przyspiesza kroku)"
+    - "Gdy zerkają do rejestru (szczera ciekawość): (stuka w rubrykę) „Godzina zwrotu. Za każdym razem to samo: rzymskie trzynaście. Przekreślałam. Nie ma takiej godziny, a on pisał, jakby była.” (W6, czwarta droga: wzór w rejestrze; bez zgody na wejście)"
     - "Gdy proszą o wejście do Działu Ksiąg Zakazanych: „Z podpisem nauczyciela. A podpisu na takie tematy nie dostaniecie.”"
     - "Gdy pytają o zdjęcia, gablotę albo profesor Marrow: „Gablota stoi na korytarzu. Ja pilnuję książek, nie pucharów.” (wskazuje drzwi; wstawka „Za szybą gabloty…”)"
     - "Gdy postać pochlebia albo kłamie: „Nie.” (wraca do rejestru; do zamknięcia czytelni patrzy na postacie znad okularów)"
@@ -769,7 +771,7 @@ test:
       wartosc: "+1 do rzutu"
     - warunek: "Postać ma specjalizację Observation pasującą do sytuacji (np. Observation (Twarze); Specialism, s. 13)"
       wartosc: "+1 do rzutu"
-    - warunek: "Postać nadal jest w stanie Drained (+3) albo Dazed (+2) po scenie 03 (s. 35)"
+    - warunek: "Postać nadal jest w stanie Drained (+3) albo Dazed (+2) po scenie 03, jeśli go jeszcze nie zdjął pierwszy posiłek ani sen (s. 35; reguła w `graf-scen.md`)"
       wartosc: "+3 do trudności"
   wyniki:
     - wynik: porazka
@@ -805,7 +807,7 @@ test:
       wartosc: "+6 do trudności"
     - warunek: "Postać rzuca bez różdżki (s. 41)"
       wartosc: "+9 do trudności"
-    - warunek: "Postać nadal jest w stanie Drained (+3) albo Dazed (+2) po scenie 03 (s. 35)"
+    - warunek: "Postać nadal jest w stanie Drained (+3) albo Dazed (+2) po scenie 03, jeśli go jeszcze nie zdjął pierwszy posiłek ani sen (s. 35; reguła w `graf-scen.md`)"
       wartosc: "+3 do trudności"
   wyniki:
     - wynik: porazka-kompromitujaca
@@ -934,6 +936,7 @@ Objaw: nie mają lokalizacji pracowni, nie wiedzą, kto kradnie godziny, i nie w
 | **W4.6** oceny Vane'a | P (Wren) | „Komu ze starszych ufacie na tyle, żeby o tym powiedzieć?” | Wren: „Podniósł oceny w dwa tygodnie. Ze wszystkiego naraz” |
 | **W5.2** rejestr wypożyczeń | K (Pince) | „Gdzie w zamku zostaje po kimś ślad, że czytał?” | Pince: trzy razy ten sam tom; znaleziony za liną |
 | **W5.5** „do najdalszego regału” | K albo N (Ansel z Więzią 2) | „O co Ansel pytał panią profesor, gdy ją widział ostatni raz?” | Ansel: „Pani profesor nosiła książki do najdalszego regału” |
+| **W6.4** wzór w rejestrze (trzynaście) | K (Pince) | „Co jeszcze dziwnego jest w wpisach Vane'a?” | Pince: „Godzina zwrotu, zawsze rzymskie trzynaście. Przekreślałam” |
 | **W7.3** „szafka najpierw chce dostać” | N, 05, M (Ansel) | „Czy ktoś zapytał Ansela, co mówiła pani profesor?” | Ansel: „Szafka jest uczciwa: najpierw chce dostać” |
 | **W8.3** Crake i zegar | H (Filch) | „Kto jeszcze pilnuje wieży poza woźnym?” | Filch: „Zegarmistrz był w czwartek. Znowu” |
 | **W9.2** zdjęcie z 1951 | K (gablota), D (Fairweather) | „Czy w zamku wisi coś z czasów pani profesor?” | gablota; Fairweather: „wysoki prefekt, wołaliśmy go Bocian” |
@@ -1130,6 +1133,18 @@ Każda jest gotowa na 5 minut. Wstawiaj, gdy w miejscu, w którym drużyna stoi,
 | **J. Maisie i Pratt** | Drużyna szuka innych ofiar | Rejestr godzin, plotka o duchu | Gdy krok 5 sceny 06 nie zagrał |
 | **B. Mnich i Irytek** | Zaraz po 05 | W2.4, echo W4.2 | Odpowiedź na pytanie graczy |
 | **A, G. Kuchnia, sowiarnia** | Kolor, odpoczynek od śledztwa | Więź albo nic | Tylko za dnia |
+
+```yaml
+rozgalezienie:
+  id: s1.scena.12.rozgalezienie.awaryjne-mroczna-decyzja
+  rodzaj: awaryjne
+  warunek: "Postać w wędrówkach po zamku sięga po mroczny środek (Niewybaczalne, zabicie kogoś, podpalenie) albo gracze chcą wyjść poza mury: z zamku, do Hogsmeade, do Lasu, albo wysłać list do rodziców."
+  wymaga_flag: ['flaga.godzina-stracona']
+  wyklucza_flagi: []
+  efekt: "Nie wychodzi. W Sesji 1 postać nie może zabić postaci niezależnej, a Niewybaczalne na uczniu, na Cassianie, na Anselu albo na Filchu „nie wychodzą”: brak mocy, przerażenie, natychmiastowa interwencja Filcha albo Wrena. Imperius nie działa na Ansela („nieobecnego”). Podpalenie (sowiarnia, dormitorium, regał, portret): ogień gaśnie, księgi się nie palą. **Poza murami:** gdy gracze chcą wyjść z zamku, do Hogsmeade, do Lasu albo wysłać list do rodziców, MG odmawia bez kary i bez kazania: brama zamknięta o tej porze i woźny przy niej, mgła, droga do wsi „nie dziś”, w Lesie ścieżka sama zawraca do murów, sowa wraca z listem, bo opiekun domu „sam się tym zajmie”. Wszystko to tylko kolor, bez testów i bez kar; wtorkowy wieczór i noc zostają dla śledztwa. Konsekwencje wybrzmiewają tylko jako kolor: zawieszenie i list do domu są zapowiedziane, nie wykonane w Sesji 1; szlaban „tylko kolor” odbywa się w środę po Sesji 1 (zapowiedź Sesji 2) albo skraca się do rozmowy w kantorku Filcha, więc nie koliduje z wtorkowym wieczorem. MG rozmawia z graczem poza fikcją i pyta, czy ta scena mieści się w liniach i zasłonach."
+  flagi_ustaw: []
+  prowadzi_do: brak
+```
 
 ## Drabinka podpowiedzi
 

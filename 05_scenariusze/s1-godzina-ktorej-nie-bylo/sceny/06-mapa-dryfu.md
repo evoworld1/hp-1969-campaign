@@ -501,7 +501,7 @@ test:
       wartosc: "+3 do trudności"
     - warunek: "Każdy pomagający (jeden trzyma zegarek, drugi liczy; najwyżej dwóch pomocników, Narrator ustala, s. 4)"
       wartosc: "+1 do rzutu"
-    - warunek: "Postać w stanie Drained (+3) albo Dazed (+2) po scenie 03, jeśli jeszcze go nie zdjął posiłek albo napar (s. 35)"
+    - warunek: "Postać w stanie Drained (+3) albo Dazed (+2) po scenie 03, jeśli jeszcze go nie zdjął pierwszy posiłek ani sen (napar zmniejsza do Dazed; reguła w `graf-scen.md`; s. 35)"
       wartosc: "+3 do trudności"
   wyniki:
     - wynik: porazka-kompromitujaca
@@ -549,7 +549,7 @@ test:
       wartosc: "+1 do rzutu"
     - warunek: "Do wzoru dołożono dane z rozmowy (Pratt: korytarz Eliksirów, drżenie; rejestr godzin Maisie lub Tobiasa; Filch o dwóch tygodniach spóźnienia)"
       wartosc: "+2 do rzutu"
-    - warunek: "Prowadząca postać jest w stanie Drained (+3) albo Dazed (+2) i jeszcze nie jadła ani nie piła naparu (s. 35)"
+    - warunek: "Prowadząca postać jest w stanie Drained (+3) albo Dazed (+2) i jeszcze nie jadła ani nie spała po stracie (napar zmniejsza do Dazed; reguła w `graf-scen.md`; s. 35)"
       wartosc: "+3 do trudności"
   wyniki:
     - wynik: porazka
@@ -719,7 +719,7 @@ rozgalezienie:
 rozgalezienie:
   id: s1.scena.06.rozgalezienie.awaryjne-postac-wypada
   rodzaj: awaryjne
-  warunek: "Postać wypada ze sceny: trafia do skrzydła szpitalnego (Drained po scenie 03 i brak jedzenia), dostaje szlaban od Filcha albo gracz musi odejść od stołu."
+  warunek: "Postać wypada ze sceny: trafia do skrzydła szpitalnego (Drained po scenie 03, bez posiłku i snu), dostaje szlaban od Filcha albo gracz musi odejść od stołu."
   wymaga_flag: []
   wyklucza_flagi: []
   efekt: "Scena toczy się dalej, a nieobecna postać nie traci nic poza tym, co sama zrobiła. Pomiary przejmują inni; mapa leży na środku stołu i każdy może wpisywać. Ansel (jeśli nie jest przy innej postaci) odwiedza chorą w skrzydle i podaje jej jedną liczbę z drugiej ręki; to wystarczy, by wróciła do rozmowy. Szlaban Filcha: wieczorem, przy sprzątaniu (kolor; rozmowa o zegarmistrzu może paść tam). Nieobecny gracz dostaje na początku kroku 6 jedno zdanie streszczenia i jedną decyzję, żeby nie stracić głosu. Śmierć postaci w tej scenie nie wchodzi w grę (pomiary i rozmowy nie niosą takiego ryzyka)."

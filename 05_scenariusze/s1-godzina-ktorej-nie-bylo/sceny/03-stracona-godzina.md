@@ -123,7 +123,7 @@ Gdzieś w tym zamku jest godzina, która należała do was.
 
 **Zadry (założenie robocze, wyjaśnienie dla MG).** Godzina wyrwana w całości nie wychodzi czysto: jej brzegi się strzępią, a drobiazgi z innych chwil życia postaci przesuwają się o kawałek. Rzecz z kufra ląduje w kieszeni, list sprzed miesiąca wraca z domu, ręka „dokończyła” esej. To ten sam mechanizm, przez który Ansel będzie nosił okruchy ich wspólnej przeszłości. Nikt w Sesji 1 tego nie wyjaśnia; zadra nie ustawia flagi i niczego nie otwiera. Gracze mają poczuć dreszcz, nie dostać zagadkę.
 
-**Stan Drained (decyzja mechaniczna tej sceny).** Zabrane godziny kosztują stan Drained (decyzja MG z 2026-11-19). Wchodzi **od razu, przy dzwonie**, u każdej postaci, która straciła godzinę. Szczegóły w sekcji „Testy” (blok `s1.scena.03.test.drained`). W skrócie: trzy kółka na torze Mind (umysł), kara +3 do trudności wszystkich testów, trwa przez całą lekcję Obrony (scena 04) i mija wieczorem po kolacji, przed sceną 05.
+**Stan Drained (decyzja mechaniczna tej sceny).** Zabrane godziny kosztują stan Drained (decyzja MG z 2026-11-19). Wchodzi **od razu, przy dzwonie**, u każdej postaci, która straciła godzinę. Szczegóły w sekcji „Testy” (blok `s1.scena.03.test.drained`). W skrócie: trzy kółka na torze Mind (umysł), kara +3 do trudności wszystkich testów, trwa przez lekcję Obrony (scena 04), a zdejmuje go pierwszy posiłek albo sen (reguła jednolita dla całej sesji: `graf-scen.md`, „Reguła stanu Drained”); napar pielęgniarki zmniejsza go do Dazed.
 
 **Nastrój.** Pierwsza połowa sceny ma być leniwa i ciepła: słońce, jedzenie, rozmowa o niczym. Druga połowa jest cicha i zimna. Cały efekt opiera się na kontraście, więc nie zapowiadaj niczego i nie zmieniaj głosu przed tekstem 2.
 
@@ -172,7 +172,7 @@ To pierwsza chwila sesji, w której coś naprawdę dzieje się z postaciami grac
 
 - **Jak zagrać mrugnięcie.** Najpierw pozwól graczom spokojnie rozmawiać w krokach 1 i zapytaj o drobiazgi (co niosą, o czym gadają). Gdy rozmowa się rozkręci, przerwij ją w pół zdania tekstem 2. Czytaj go wolno i cicho. Po „Mrugacie.” zrób jedną sekundę ciszy, a potem tekst 3 zacznij głośno i szybko, jakby dzwon naprawdę bił. Jeśli masz pod ręką łyżeczkę i szklankę, uderz nią raz przy słowie „Dzwon.”. Między tekstem 2 a 3 nie pytaj „Co robicie?”: nie ma żadnej chwili, w której postacie mogłyby coś zrobić.
 - **Gdy gracz protestuje** („Ale ja bym coś zrobił w tym świetle!”), powiedz spokojnie poza fikcją: „Twoja postać nie zdążyła nawet pomyśleć. Tak to działa i to jest straszne. Za chwilę zobaczysz, co z tego wynikło.” Strata nie jest karą za błąd gracza; nikt nie mógł jej uniknąć.
-- **Jak powiedzieć o stanie Drained.** Najpierw świat, potem liczby (tak jak przy pierwszym rzucie w scenie 01). Przeczytaj w tekście 3 zdanie o ciężarze w ciele. Potem powiedz: „Na karcie jest tor Mind, sześć kółek. Zaznaczcie trzy pierwsze. To stan Drained, wyczerpanie. Do wieczora każdy wasz test jest o 3 trudniejszy. Minie po kolacji.”
+- **Jak powiedzieć o stanie Drained.** Najpierw świat, potem liczby (tak jak przy pierwszym rzucie w scenie 01). Przeczytaj w tekście 3 zdanie o ciężarze w ciele. Potem powiedz: „Na karcie jest tor Mind, sześć kółek. Zaznaczcie trzy pierwsze. To stan Drained, wyczerpanie. Każdy wasz test jest o 3 trudniejszy, dopóki nie zjecie czegoś porządnego albo się nie wyśpicie.”
 - **Jak prosić graczy o zadry.** Zadry przygotuj **przed sesją**, z kart postaci i z odpowiedzi na pięć pytań o wspólny sekret: przy każdej postaci zapisz literę (A–F) i wpisz szczegóły w nawiasy. W grze zwracaj się do jednego gracza naraz: przeczytaj zdanie otwierające i zapytaj „Co robisz?”. Gracz prawie zawsze odpowie „sięgam do kieszeni” albo „patrzę na dłonie”; wtedy czytaj zadrę. Jeśli gracz zapyta „skąd to się wzięło?”, odpowiedz: „Nie wiesz. Wiesz tylko, gdzie to było rano.” Nie dopytuj, co postać czuje; jeśli gracz sam zacznie mówić, słuchaj.
 - **Zadra o wspólnym sekrecie** (E) idzie do gracza, którego odpowiedź na pytanie 5 („jaka mała rzecz z tamtego dnia została u ciebie?”) była najbardziej konkretna. Najlepiej przeczytaj ją jako ostatnią. Jeśli gracze zaczną o tym rozmawiać w postaciach, daj im minutę: to dobry moment. Jeśli przy stole ustalono, że temat sekretu jest delikatny, wybierz zadrę A–D albo F.
 - **Każdy gracz ma mieć coś swojego.** Każda postać dostaje zadrę. Mignięcie dostaje jedna postać: najlepiej **nie** ta, która widziała odbicie w szkle zegara w scenie 01, żeby rozłożyć dziwności. Przy dwóch graczach mignięcie dostaje ten, kto nie widział odbicia. Jeśli kilka osób mówi, że się ogląda: chłopca widzi tylko pierwsza osoba, która to powiedziała (albo najcichszy gracz); reszta odwraca się sekundę później i widzi puste schody.
@@ -344,7 +344,7 @@ dialog:
 
 **Kiedy wchodzi.** Od razu, przy dzwonie. Decyzja MG z 2026-11-19 mówi: zabrane godziny kosztują stan Drained (+3 do trudności). Ponieważ strata jest stała i nie ma testu na uniknięcie, nie ma też testu na odporność: każda postać, która straciła godzinę, zaznacza trzy kółka na torze Mind (Rattled, Dazed, Drained; Walker 2e s. 35). Stan Drained to trzecie kółko toru umysłu: kara +3 do trudności **wszystkich** testów, także społecznych i magicznych.
 
-**Jak długo.** Walker podaje dla trzeciego kółka czas powrotu „godziny” i traktuje tabelę jako wskazówkę (s. 36). W tej scenie: stan trwa przez całą lekcję Obrony (scena 04) i mija wieczorem po kolacji, przed sceną 05 albo przed pierwszym spotkaniem z modułu 12 po kolacji. Zimne jedzenie zjedzone w korytarzu nie pomaga: to nie głód, tylko godzina, której ciało nie przeżyło.
+**Jak długo.** Walker podaje dla trzeciego kółka czas powrotu „godziny” i traktuje tabelę jako wskazówkę (s. 36). W tej scenie: stan zaczyna się po straconej godzinie i trwa, dopóki postać nie zje pierwszego posiłku (zwykle kolacji, początek sceny 05 albo spotkania z modułu 12) albo nie prześpi się; reguła jednolita dla sesji (`graf-scen.md`, „Reguła stanu Drained”). Kostka czekolady i napar z pielęgniarki zmniejszają go tylko do Dazed (+2); okruchy z korytarza go nie zdejmują, bo to nie głód, tylko godzina, której ciało nie przeżyło.
 
 **Co to znaczy dla sceny 04.** Pokaz u Wrena i test spostrzegawczości przy zegarku Cassiana idą z karą +3. To zamierzone: postacie, zmęczone i wybite z rytmu, patrzą na kogoś, kto ma godzinę za dużo. Droga do W4 ma jeszcze inne wejścia (świadek tutaj, scena 06, scena 08).
 
@@ -353,14 +353,14 @@ dialog:
 ```yaml
 test:
   id: s1.scena.03.test.drained
-  opis: "Efekt stały, bez rzutu. Każda postać, która straciła godzinę, zaznacza przy dzwonie trzy kółka na torze Mind: stan Drained (wyczerpany), kara +3 do trudności wszystkich testów (Walker 2e s. 35). Decyzja MG z 2026-11-19: zabrane godziny kosztują Drained. Czas trwania: przez lekcję Obrony (s1.scena.04), mija wieczorem po kolacji (czas powrotu „godziny”, s. 36). Dotyczy też postaci odłączonej od grupy i postaci spóźnionego gracza (jeśli dołącza przed kolacją). Story Points ani RETRORSUM go nie zdejmują, bo nie ma rzutu. Pielęgniarka w skrzydle szpitalnym może zmniejszyć stan do Dazed, +2 (rozgałęzienie awaryjne-do-nauczyciela)."
+  opis: "Efekt stały, bez rzutu. Każda postać, która straciła godzinę, zaznacza przy dzwonie trzy kółka na torze Mind: stan Drained (wyczerpany), kara +3 do trudności wszystkich testów (Walker 2e s. 35). Decyzja MG z 2026-11-19: zabrane godziny kosztują Drained. Czas trwania: przez lekcję Obrony (s1.scena.04), zdejmuje go pierwszy posiłek albo sen (czas powrotu „godziny”, s. 36; reguła jednolita: `graf-scen.md`). Dotyczy też postaci odłączonej od grupy i postaci spóźnionego gracza (jeśli dołącza przed kolacją). Story Points ani RETRORSUM go nie zdejmują, bo nie ma rzutu. Pielęgniarka w skrzydle szpitalnym może zmniejszyć stan do Dazed, +2 (rozgałęzienie awaryjne-do-nauczyciela)."
   kto: kazdy
   rzut: "bez rzutu"
   trudnosc: "brak"
   modyfikatory: []
   wyniki:
     - wynik: zawsze
-      efekt: "Trzy kółka Mind, stan Drained (+3 do trudności) do wieczornego posiłku. MG mówi najpierw o ciężarze w ciele (tekst 3), potem o liczbach."
+      efekt: "Trzy kółka Mind, stan Drained (+3 do trudności) do pierwszego posiłku albo snu. MG mówi najpierw o ciężarze w ciele (tekst 3), potem o liczbach."
       flagi_ustaw: []
 ```
 
@@ -551,8 +551,8 @@ rozgalezienie:
   warunek: "Postacie od razu szukają Ślizgona z zegarkiem, zamiast iść na lekcję (biegną korytarzem, sprawdzają sąsiednie sale, idą do lochów Slytherinu)."
   wymaga_flag: [flaga.godzina-stracona]
   wyklucza_flagi: []
-  efekt: "Korytarze są puste: wszyscy już siedzą na lekcjach. Kto biegnie w stronę sali Obrony, wpada na lekcję i od progu widzi Cassiana przy najlepszym stanowisku, wypoczętego, z dłonią przy kieszonce kamizelki (W4, bez dowodu). Kto biegnie gdzie indziej (lochy, inne sale), nie znajduje nikogo; po kilku minutach zjawia się Barnaby Finch (dialog finch-poslaniec) i prowadzi na Obronę. Cena: postacie wpadają na lekcję jeszcze później (dłuższe milczenie Wrena, gorsze stanowisko w scenie 04). Konfrontacja z Cassianem przed scenami 04 i 08 nic nie daje: przy klasie i Wrenie chłodna uprzejmość („Nie bierz tego do siebie”), zegarek zostaje u niego. Próba zabrania zegarka przy lekcji: jak siatka 1, ustaw flaga.cassian-czujny (tylko wtedy)."
-  flagi_ustaw: [flaga.cassian-czujny]
+  efekt: "Korytarze są puste: wszyscy już siedzą na lekcjach. Kto biegnie w stronę sali Obrony, wpada na lekcję i od progu widzi Cassiana przy najlepszym stanowisku, wypoczętego, z dłonią przy kieszonce kamizelki (W4, bez dowodu). Kto biegnie gdzie indziej (lochy, inne sale), nie znajduje nikogo; po kilku minutach zjawia się Barnaby Finch (dialog finch-poslaniec) i prowadzi na Obronę. Cena: postacie wpadają na lekcję jeszcze później (dłuższe milczenie Wrena, gorsze stanowisko w scenie 04). Konfrontacja z Cassianem przed scenami 04 i 08 nic nie daje: przy klasie i Wrenie chłodna uprzejmość („Nie bierz tego do siebie”), zegarek zostaje u niego. Próba zabrania zegarka przy lekcji: jak siatka 1; **tylko wtedy** MG ustawia flaga.cassian-czujny (zapisując, której postaci dotyczy); sam bieg za Ślizgonem nie ustawia nic."
+  flagi_ustaw: []
   prowadzi_do: s1.scena.04
 ```
 
@@ -619,11 +619,11 @@ podpowiedzi:
 Po scenie MG zapisuje (w notatkach sesji, potem w `04_kampania/stan-kampanii.md`):
 - `flaga.godzina-stracona` = `true` (zawsze, także dla postaci odłączonej i spóźnionego gracza).
 - `flaga.s1-zegar-kradziezy` = 0 (start zegara kradzieży). Wieczór po scenie 04 to pierwsze pół dnia: +1, jeśli nikt nie skonfrontował Cassiana.
-- **Stan Drained** na torze Mind każdej postaci (trzy kółka, +3), do kolacji. U postaci, która przyjęła napar w skrzydle szpitalnym: Dazed (+2). To nie jest flaga, tylko zapis na karcie.
+- **Stan Drained** na torze Mind każdej postaci (trzy kółka, +3), do pierwszego posiłku albo snu. U postaci, która przyjęła napar w skrzydle szpitalnym: Dazed (+2). To nie jest flaga, tylko zapis na karcie.
 - **Która postać widziała mignięcie** (znacznik kontaktu z Anselem: „mignięcie”). `flaga.ansel-kontakt` się nie zmienia.
 - **Zadry:** jaka zadra trafiła do której postaci (litera A–F i szczegół), oraz czy zadra E (rzecz z tamtego dnia na 4. roku) padła. To tekst przy karcie postaci, nie flaga; `flaga.sekret-poruszony` się nie zmienia.
 - Kto ma Tempus opanowane i kto rzucał je po stracie (przyda się w scenach 05 i 06).
 - Które postacie znają melodię Ślizgona (sukces testu świadka albo RETRORSUM): rozpoznają ją u Cassiana w scenie 04 albo 08.
 - RETRORSUM: liczba użyć w sesji, jeśli ktoś go użył. Oko: czy zostało zużyte.
 - Jak bardzo grupa się spóźniła (zwykłe spóźnienie, pogoń, skrzydło szpitalne, unikanie lekcji): scena 04 zaczyna się od tej ceny. Jeśli postacie ominęły lekcję: siatka 7.
-- `flaga.cassian-czujny`, jeśli ktoś próbował zabrać zegarek przy lekcji (blok `awaryjne-pogon`); zanotuj, kto.
+- `flaga.cassian-czujny`, tylko jeśli ktoś próbował zabrać zegarek przy lekcji (blok `awaryjne-pogon`; sam pościg jej nie ustawia); zanotuj, kto.

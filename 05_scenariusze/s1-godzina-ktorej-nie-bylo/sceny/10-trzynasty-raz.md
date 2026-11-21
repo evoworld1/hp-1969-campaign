@@ -33,6 +33,7 @@ flagi_wyjscie:
   - flaga.filch-zlapal
   - flaga.dziennik-miejsce
   - flaga.dumbledore-powiadomiony
+  - flaga.dziennik-skonfiskowany
 nastepne: []
 tagi: [s1, final, cliffhanger, ansel, trzynasta]
 zrodla:
@@ -100,11 +101,11 @@ aktualizacja: 2026-11-20
 >
 > I sięga po papier listowy.
 
-### 5. Trzynasta o północy (wariant: postacie wyszły z pracowni bez notatnika)
+### 5. Trzynasta o północy (wariant: postacie wyszły z pracowni bez notatnika; wybija w bibliotece)
 
-> Ciepło kołdry, ciemność za kotarą, czyjś równy oddech z sąsiedniego łóżka.
+> Ciemność między regałami, zimny kamień pod dłonią, własny oddech za głośny w Dziale Ksiąg Zakazanych. Zaczyna się północ.
 >
-> Budzi was zegar. Najpierw jeden, gdzieś daleko w korytarzach, potem wszystkie naraz, duże i małe, każdy swoim głosem, uderzenie w uderzenie. Trudno nie liczyć. Dziesięć. Jedenaście. Dwanaście.
+> Odzywa się zegar. Najpierw jeden, gdzieś daleko w korytarzach, potem wszystkie naraz, duże i małe, każdy swoim głosem, uderzenie w uderzenie. Trudno nie liczyć. Dziesięć. Jedenaście. Dwanaście.
 >
 > Cisza.
 >
@@ -112,7 +113,7 @@ aktualizacja: 2026-11-20
 >
 > Za oknem nikt nie krzyczy. Zamek wstrzymuje oddech, a potem, powoli, znowu zasypia.
 >
-> Rano niebo jest szare jak mleko rozcieńczone wodą. W nogach łóżka ktoś siedzi, ale materac się nie ugina. Ansel trzyma kolana pod brodą, jak na swoich schodach. Jest blady. Nie trochę: przez jego ramię widać fałdy kotary i jej frędzle. Krawat wyblakł mu do koloru słomy.
+> Przy najbliższym regale stoi Ansel i trzyma kolana pod brodą, choć stoi prosto, jak na swoich schodach. Jest blady. Nie trochę: przez jego ramię widać grzbiety książek i sznur przy regale. Krawat wyblakł mu do koloru słomy.
 >
 > — Ktoś tam był — szepcze. — U pani profesor. Zrobiło się ciszej.
 
@@ -134,7 +135,7 @@ aktualizacja: 2026-11-20
 
 ## Dla MG
 
-**Kiedy w fikcji:** zaraz po scenie 09, noc z wtorku na środę (23/24 września); w wariancie bez notatnika bicie o północy (albo o najbliższej pełnej godzinie, jeśli północ już minęła), Ansel o świcie.
+**Kiedy w fikcji:** zaraz po scenie 09, noc z wtorku na środę (23/24 września); w wariancie bez notatnika trzynaste uderzenie wybija **zawsze o północy, gdy drużyna jest jeszcze w bibliotece** (wyprawa zaczyna się po ciszy nocnej, więc północ zastaje ją w czytelni, w Dziale Ksiąg Zakazanych albo na dole w pracowni; jeśli wyszła wcześniej, Ansel prosi o jeszcze chwilę przy regałach albo Filch zmusza do ukrycia się do północy), a Ansel jest przy nich od razu, blady.
 
 **Wejście:** wyjście ze sceny 09 bez przerwy. Z notatnikiem: przerwij scenę 09 w chwili, gdy notatnik zbliża się do progu sali, i czytaj tekst 1. Bez notatnika: postacie wracają do łóżek (skróć drogę do jednego zdania) i czytaj tekst 5.
 
@@ -155,7 +156,7 @@ aktualizacja: 2026-11-20
 *Oś sceny: przy każdym kroku stoi, co czytać, który dialog otworzyć, jaki test rzucić i jakie flagi zapisać. Kwestie otwierające dialogów to propozycje narratora; jeśli dialogista zmieni brzmienie w bloku, obowiązuje blok. W wariancie bez notatnika grasz kroki 1, 3 (już w tekście 5), 5 i 6, a krok 2 i krok 4 pomijasz.*
 
 **Krok 1. Próg** (ok. 2 min)
-- Czytaj: tekst 1 („Notatnik mija próg sali…”) albo, bez notatnika, tekst 5 („Ciepło kołdry, ciemność za kotarą…”)
+- Czytaj: tekst 1 („Notatnik mija próg sali…”) albo, bez notatnika, tekst 5 („Ciemność między regałami…”)
 - Flagi: `flaga.trzynasta-wybila`
 - Krótko: każdy zegar w zamku bije trzynaście razy; trzynaste uderzenie nie powinno istnieć. Licz uderzenia knykciem w stół (od „Trzy” do „Dziewięć” wystarczy szybkie stukanie bez słów), a przed trzynastym zrób pauzę na dwa oddechy.
 - Awaryjne: `awaryjne-brak-czasu` (tylko tekst 1 i pytanie końcowe).
@@ -212,7 +213,7 @@ Koniec Sesji 1. Po pytaniu końcowym MG może zamknąć sesję w dowolnej chwili
 
 *Przy każdej osobie: gdzie jest i co robi, czego chce w tej scenie, jeden sygnał do pokazania gestem albo głosem i krótka reakcja, gdy postacie ją zaczepią. Pewny jest tylko Ansel. Filch przychodzi, gdy postacie nie uciekły od razu albo przegrały test ucieczki. McGonagall pojawia się tylko przy konfiskacie, i to wtedy, gdy wybierzesz ją zamiast szuflady Filcha. Crake jest wyłącznie w epilogu i nie mówi ani słowa.*
 
-**[[npc.ansel-dray]], chłopiec przy schodach** (krok 3; w wariancie bez notatnika o świcie, w tekście 5)
+**[[npc.ansel-dray]], chłopiec przy schodach** (krok 3; w wariancie bez notatnika przy nich od razu po północy, w tekście 5)
 - *Gdzie jest i co robi:* stoi między regałami Działu Ksiąg Zakazanych, na skraju światła różdżek, i ogląda swoje dłonie. Jeśli szedł z drużyną, wyszedł za nią przez ścianę; jeśli nie, przyciągnęło go bicie. W wariancie bez notatnika siedzi rano w nogach łóżka postaci z najwyższą Więzią (bez Więzi: postaci, która najdłużej z nim rozmawiała).
 - *Czego chce w tej scenie:* jawnie: żeby ktoś mu powiedział, czemu zrobiło się ciszej, i żeby nie zostać samemu. Ukrycie (sam tego nie wie): żeby ktoś go zapamiętał teraz, kiedy trochę mniej go widać.
 - *Sygnał:* co chwilę zaciska i rozprostowuje palce, jakby sprawdzał, czy jeszcze są. Jego wzrok wraca do notatnika, ale ani razu nie wyciąga po niego ręki.
@@ -392,7 +393,7 @@ test:
       flagi_ustaw: []
     - wynik: przegrana
       efekt: "Latarnia łapie postacie na schodach albo w progu pokoju wspólnego. Dialog filch-konfiskata; notatnik trafia do McGonagall (uczciwość, milczenie) albo do szuflady Filcha (kłamstwo, kpina). Szlaban. Rozgałęzienie skonfiskowany."
-      flagi_ustaw: [flaga.filch-zlapal, flaga.dziennik-miejsce]
+      flagi_ustaw: [flaga.filch-zlapal, flaga.dziennik-miejsce, flaga.dziennik-skonfiskowany]
 ```
 
 *Wartość `flaga.dziennik-miejsce` ustawiasz na `skonfiskowany`. Gdy Filch złapał postacie wcześniej tej nocy (`flaga.filch-zlapal` już ustawiona, siatka 9), przegrana nie dodaje szlabanu, tylko list do domu (zob. Dla MG); dokładnie ten sam test i liczby.*
@@ -417,8 +418,8 @@ rozgalezienie:
   rodzaj: glowne
   warunek: "Postacie wynoszą notatnik z pracowni i nikt ich nie łapie."
   wymaga_flag: [flaga.dziennik-u-graczy]
-  wyklucza_flagi: [flaga.filch-zlapal]
-  efekt: "Pełny cliffhanger. Pytanie końcowe; wybór zapisuje się w rozwidleniu końcowym przeglądu (dumbledore, sekret, moc, najpierw-chlopiec, inne, podzieleni, nierozstrzygniety)."
+  wyklucza_flagi: [flaga.dziennik-skonfiskowany]
+  efekt: "Pełny cliffhanger. Warunek `sekret`: `flaga.dziennik-miejsce` = u-graczy. Pytanie końcowe; wybór zapisuje się w rozwidleniu końcowym przeglądu (dumbledore, sekret, moc, najpierw-chlopiec, inne, podzieleni, nierozstrzygniety)."
   flagi_ustaw: [flaga.trzynasta-wybila, flaga.s1-wybor]
   prowadzi_do: brak
 ```
@@ -431,7 +432,7 @@ rozgalezienie:
   wymaga_flag: [flaga.dziennik-u-graczy]
   wyklucza_flagi: []
   efekt: "Notatnik trafia do McGonagall albo do szuflady Filcha, szlaban. Pytanie końcowe: jak go odzyskać i komu powiedzieć o Anselu."
-  flagi_ustaw: [flaga.trzynasta-wybila, flaga.filch-zlapal, flaga.dziennik-miejsce, flaga.s1-wybor]
+  flagi_ustaw: [flaga.trzynasta-wybila, flaga.filch-zlapal, flaga.dziennik-miejsce, flaga.dziennik-skonfiskowany, flaga.s1-wybor]
   prowadzi_do: brak
 ```
 
@@ -442,7 +443,7 @@ rozgalezienie:
   warunek: "Postacie wyszły z pracowni bez notatnika (gablota nieotwarta albo notatnik zostawiony)."
   wymaga_flag: []
   wyklucza_flagi: [flaga.dziennik-u-graczy]
-  efekt: "Zegary wybijają trzynasty raz o północy (zegar kradzieży albo luzująca się pieczęć). Ansel znajduje postacie o świcie, blady: „Ktoś tam był. Zrobiło się ciszej”. Pytanie dotyczy notatnika w cudzych rękach albo wciąż w pracowni."
+  efekt: "Zegary wybijają trzynasty raz o północy, gdy postacie są jeszcze w bibliotece (zegar kradzieży albo luzująca się pieczęć). Ansel jest przy nich, blady: „Ktoś tam był. Zrobiło się ciszej”. Pytanie dotyczy notatnika w cudzych rękach albo wciąż w pracowni."
   flagi_ustaw: [flaga.trzynasta-wybila, flaga.dziennik-miejsce, flaga.s1-wybor]
   prowadzi_do: brak
 ```
@@ -500,8 +501,8 @@ rozgalezienie:
   rodzaj: awaryjne
   warunek: "Po biciu postacie deklarują, że idą od razu do Dumbledore'a (z notatnikiem i opowieścią o Anselu) zamiast czekać do rana."
   wymaga_flag: [flaga.dziennik-u-graczy, flaga.trzynasta-wybila]
-  wyklucza_flagi: [flaga.filch-zlapal]
-  efekt: "Po drodze natykają się na przebudzoną McGonagall, która prowadzi ich do dyrektora. Dumbledore przyjmuje notatnik i zamyka go, nie widzi Ansela, prosi o dalszą obserwację; nic nie mówi o tym, czy notatnik pomoże chłopcu. Zapisz flaga.dziennik-miejsce = u-dumbledorea, flaga.s1-wybor = dumbledore, flaga.dumbledore-powiadomiony. Pytanie końcowe: „Notatnik jest u dyrektora. Co robicie z Anselem?”. Gdy postacie z notatnikiem zostały już złapane przez Filcha, ta ścieżka jest zamknięta: obowiązuje rozgałęzienie skonfiskowany."
+  wyklucza_flagi: [flaga.dziennik-skonfiskowany]
+  efekt: "Po drodze natykają się na przebudzoną McGonagall, która prowadzi ich do dyrektora. Dumbledore przyjmuje notatnik i zamyka go, nie widzi Ansela, prosi o dalszą obserwację; nic nie mówi o tym, czy notatnik pomoże chłopcu. Zapisz flaga.dziennik-miejsce = u-dumbledorea, flaga.s1-wybor = dumbledore, flaga.dumbledore-powiadomiony. Pytanie końcowe: „Notatnik jest u dyrektora. Co robicie z Anselem?”. Gdy Filch odebrał już notatnik (`flaga.dziennik-skonfiskowany`), ta ścieżka jest zamknięta: obowiązuje rozgałęzienie skonfiskowany. Samo złapanie przez Filcha w drodze do pracowni (siatka 9), bez konfiskaty notatnika, jej nie zamyka."
   flagi_ustaw: [flaga.trzynasta-wybila, flaga.dziennik-miejsce, flaga.s1-wybor, flaga.dumbledore-powiadomiony]
   prowadzi_do: brak
 ```
@@ -540,7 +541,21 @@ rozgalezienie:
 
 ### Gracze chcą oddać notatnik Cassianowi
 
-Cassian ucieka pierwszy (zob. „Wariant: Cassian w pracowni”) i tej nocy nie da się go dogonić. Jeśli gracz uparcie chce mu go oddać, odłóż to na rano: „Jutro go znajdziecie”. Nie rozstrzygaj tego teraz; zapisz zamiar w notatce, `flaga.s1-wybor` = `inne`, `flaga.dziennik-miejsce` zostaje `u-graczy` do spotkania w Sesji 2. Bez nowego bloku: wystarczy notatka MG.
+**Gdy Cassian był w pracowni (zegar kradzieży 4):** ucieka pierwszy (zob. „Wariant: Cassian w pracowni”) i tej nocy nie da się go dogonić. Jeśli gracz uparcie chce mu go oddać, odłóż to na rano: „Jutro go znajdziecie”. Zapisz zamiar w notatce, `flaga.s1-wybor` = `inne`, `flaga.dziennik-miejsce` zostaje `u-graczy` do spotkania w Sesji 2.
+
+**Gdy Cassiana w pracowni nie było** (zegarek u graczy, Cassian zdemaskowany albo zegar kradzieży stoi poniżej 4; to zwykły przypadek): nie ma komu oddać notatnika tej nocy. Cassian śpi w dormitorium Slytherinu, w skrzydle szpitalnym albo ukrył się, zależnie od `flaga.cassian-los`. Gracze mogą go budzić, ale w środku nocy nikt z nim nie rozmawia (prefekt, Filch, współlokatorzy). Odłóż spotkanie na rano: „Rano znajdziecie go przy śniadaniu / w lochach”. Reakcja zgodnie z losem Cassiana: sojusznik chce przeczytać i boi się, dłużnik wycofuje się, rywal kpi i donosi, uciekł: nie ma go. Zapisz zamiar, `flaga.s1-wybor` = `inne`, notatnik zostaje `u-graczy` do rozmowy w Sesji 2.
+
+```yaml
+rozgalezienie:
+  id: s1.scena.10.rozgalezienie.awaryjne-oddac-cassianowi
+  rodzaj: awaryjne
+  warunek: "Po trzynastym uderzeniu postacie chcą oddać notatnik Cassianowi, ale Cassiana nie było w pracowni i nie ma go przy nich."
+  wymaga_flag: [flaga.dziennik-u-graczy, flaga.trzynasta-wybila]
+  wyklucza_flagi: [flaga.dziennik-skonfiskowany]
+  efekt: "Nie rozstrzygaj tej nocy: Cassian jest gdzie indziej (dormitorium, skrzydło szpitalne albo uciekł), spotkanie rano w Sesji 2. Zapisz zamiar, flaga.s1-wybor = inne, notatnik zostaje u graczy."
+  flagi_ustaw: [flaga.s1-wybor]
+  prowadzi_do: brak
+```
 
 ## Drabinka podpowiedzi
 
