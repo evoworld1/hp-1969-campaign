@@ -10,7 +10,7 @@ rocznik_1969: "dyrektor"
 kanon: true
 pewnosc: kanon
 # Docelowo: s1.scena.12 (gabinet dyrektora, siatka bezpieczeństwa 3), rozgałęzienie „dumbledore”
-sceny: [s1.scena.05]
+sceny: [s1.scena.05, s1.scena.12]
 tylko_mg: true
 tagi: [s1, dyrektor, kanon, siatka-bezpieczenstwa]
 zrodla:

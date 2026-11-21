@@ -8,7 +8,7 @@ wlasciciel_start: brak
 pewnosc: nasze
 # Pliki scen jeszcze nie istnieją (walidator wymaga istniejących identyfikatorów).
 # Docelowo: s1.scena.07 (mechanizm wieży); ziarno na Sesję 2
-sceny: []
+sceny: [s1.scena.07]
 tylko_mg: true
 tagi: [s1, s2, crake, wieza-zegarowa, ziarno, w8]
 zrodla:

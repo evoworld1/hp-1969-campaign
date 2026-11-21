@@ -10,7 +10,7 @@ rocznik_1969: "nauczyciel"
 kanon: true
 pewnosc: niepewne
 # Docelowo: s1.scena.12, rozgałęzienie „skonfiskowany”
-sceny: [s1.scena.01]
+sceny: [s1.scena.01, s1.scena.10, s1.scena.12]
 tylko_mg: true
 tagi: [s1, nauczyciel, transmutacja, gryffindor, kanon]
 zrodla:

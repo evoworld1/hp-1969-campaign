@@ -2,7 +2,7 @@
 id: s1.scena.02
 typ: scena
 tytul: "Zaklęcia: Tempus"
-status: szkic
+status: recenzja
 sesja: s1
 akt: "I"
 kolejnosc: 2

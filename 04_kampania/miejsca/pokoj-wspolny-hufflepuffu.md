@@ -7,7 +7,7 @@ lokalizacja: "Hogwart, podziemia, korytarz przy kuchni; wejście za stosem becze
 pewnosc: niepewne
 # Pliki scen jeszcze nie istnieją (walidator wymaga istniejących identyfikatorów).
 # Docelowo: s1.scena.05 (ręka przez beczkę), s1.scena.12 (pokój wspólny, dormitorium, rejestr Sprout, Gruby Mnich)
-sceny: [s1.scena.05]
+sceny: [s1.scena.05, s1.scena.12]
 tylko_mg: true
 tagi: [s1, hogwart, hufflepuff, ansel, pokoj-wspolny, gruby-mnich]
 zrodla:

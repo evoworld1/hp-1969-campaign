@@ -7,7 +7,7 @@ lokalizacja: "Hogwart, biblioteka: czytelnia, regały, odgrodzony Dział Ksiąg 
 pewnosc: niepewne
 # Pliki scen jeszcze nie istnieją (walidator wymaga istniejących identyfikatorów).
 # Docelowo: s1.scena.02 (Flitwick wspomina o Dziale Ksiąg Zakazanych), s1.scena.09 (trzynaste drzwi), s1.scena.10 (trzynasty raz), s1.scena.12 (pani Pince, rejestr wypożyczeń, gablota ze zdjęciem)
-sceny: []
+sceny: [s1.scena.09, s1.scena.10, s1.scena.12]
 tylko_mg: true
 tagi: [s1, hogwart, biblioteka, dzial-ksiag-zakazanych, pince, filch, wymark-slad, kulminacja]
 zrodla:

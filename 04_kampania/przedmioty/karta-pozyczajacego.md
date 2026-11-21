@@ -9,7 +9,7 @@ pewnosc: nasze
 # Pliki scen jeszcze nie istnieją (walidator wymaga istniejących identyfikatorów).
 # Docelowo: s1.scena.08 (Cassian oddaje albo traci kartę), s1.scena.09 (margines XIII, dopisek, księga, ściana obliczeń),
 #   s1.scena.12 (dormitorium Slytherinu, siatka bezpieczeństwa 5)
-sceny: []
+sceny: [s1.scena.08, s1.scena.09, s1.scena.12]
 tylko_mg: true
 tagi: [s1, cassian, karta, ksiega, marrow, pracownia, pokusa, w5, w6, w7]
 zrodla:

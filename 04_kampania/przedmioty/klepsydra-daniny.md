@@ -8,7 +8,7 @@ wlasciciel_start: brak
 pewnosc: nasze
 # W Sesji 1 nie pojawia się fizycznie: tylko szkice i wzmianka w notatniku Marrow (s1.scena.09).
 # Fizycznie w Sesji 3.
-sceny: []
+sceny: [s1.scena.09]
 tylko_mg: true
 tagi: [kampania, klepsydra, danina, marrow, wymark, crake, wieza-zegarowa, "1951", s3]
 zrodla:

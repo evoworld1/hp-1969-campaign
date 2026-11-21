@@ -73,7 +73,7 @@ flagi:
     wartosci: []
     sesja: s1
   - id: flaga.cassian-czujny
-    opis: "Cassian zna twarz postaci, która próbowała zabrać albo obejrzeć jego zegarek przed sceną 08 (siatka bezpieczeństwa 1: śniadanie, Zaklęcia, pokaz u Wrena, kradzież w trakcie lekcji). Jest wobec niej czujny w s1.scena.04 i s1.scena.08 (modyfikator testu kradzieży „Cassian zna twarz”, liczby w karcie przedmiot.zegarek-cassiana). MG zapisuje, której postaci dotyczy."
+    opis: "Cassian zna twarz postaci, która próbowała zabrać albo obejrzeć jego zegarek przed sceną 08 (siatka bezpieczeństwa 1: śniadanie, Zaklęcia, pokaz u Wrena, kradzież w trakcie lekcji). Jest wobec niej czujny w s1.scena.04 i s1.scena.08 (modyfikator testu kradzieży „Cassian zna twarz”, liczby w karcie przedmiot.zegarek-cassiana). MG zapisuje, której postaci dotyczy. Ustawiana w scenach 01, 02, 04, 06, 07, 08 i 12 (przy próbie zabrania zegarka, oskarżeniu na ślepo albo ataku na Cassiana), w s1.scena.03 tylko przy próbie zabrania zegarka, nie przy samym pościgu."
     typ: bool
     wartosci: []
     sesja: s1
@@ -138,7 +138,7 @@ flagi:
     wartosci: []
     sesja: s1
   - id: flaga.s1-zegar-kradziezy
-    opis: "Zegar świata Sesji 1, 0–4: ile razy Cassian podebrał czas od chwili straconej godziny (s1.scena.03), a postacie go nie powstrzymały. +1 za każde pół dnia w fikcji; nie rośnie, gdy zegarek nie jest u Cassiana. Progi w graf-scen.md Sesji 1."
+    opis: "Zegar świata Sesji 1, 0–4: ile razy Cassian podebrał czas od chwili straconej godziny (s1.scena.03), a postacie go nie powstrzymały. +1 za każde pół dnia w fikcji; rośnie tylko wtedy, gdy flaga.zegarek-cassiana = u-cassiana i Cassian nie jest zdemaskowany (flaga.cassian-zdemaskowany); ta sama reguła warunkuje siatkę 6 (Cassian idzie do pracowni pierwszy). Progi w graf-scen.md Sesji 1."
     typ: liczba
     wartosci: []
     sesja: s1
@@ -158,6 +158,11 @@ flagi:
     opis: "Gdzie jest zatrzymany zegarek kieszonkowy Cassiana, przez który działa magia karty. Do końca s1.scena.04 zawsze u-cassiana (decyzja MG 2026-11-20: przed pokazem nie da się go zdobyć, a wyrwany w pokazie Wren oddaje Cassianowi). Zmienia się najwcześniej po scenie 04: u-graczy (pojedynek, kradzież, targ, litość, zwykle w s1.scena.08), zniszczony (postacie go niszczą), skonfiskowany (nauczyciel albo Filch odbiera go postaciom, np. złapanym nocą)."
     typ: wybor
     wartosci: [u-cassiana, u-graczy, zniszczony, skonfiskowany]
+    sesja: s1
+  - id: flaga.zegarek-u-graczy
+    opis: "Pomocnicza flaga bool: prawda, gdy flaga.zegarek-cassiana = u-graczy (kontrakt nie pozwala na warunek wartości w wymaga_flag). Warunek zakończenia „moc” (razem z flaga.karta-u-graczy). Fałsz po zniszczeniu, konfiskacie albo gdy zegarek wrócił do Cassiana."
+    typ: bool
+    wartosci: []
     sesja: s1
   - id: flaga.karta-u-graczy
     opis: "Postacie mają Kartę Pożyczającego, wyrwaną przez Cassiana z zaklętej księgi w pracowni Marrow. Działa tylko razem z zegarkiem Cassiana."
@@ -205,6 +210,11 @@ flagi:
     opis: "Gdzie jest notatnik Marrow (przedmiot.dziennik-marrow) po Sesji 1."
     typ: wybor
     wartosci: [w-pracowni, u-graczy, skonfiskowany, u-cassiana, u-dumbledorea, zniszczony]
+    sesja: s1
+  - id: flaga.dziennik-skonfiskowany
+    opis: "Pomocnicza flaga bool: prawda, gdy flaga.dziennik-miejsce = skonfiskowany (Filch albo nauczyciel odebrał notatnik). Używana w warunkach rozgałęzień finału (wyklucza_flagi), bo kontrakt nie pozwala na warunek wartości."
+    typ: bool
+    wartosci: []
     sesja: s1
   - id: flaga.wymark-slad
     opis: "Postacie zauważyły ślad Patrona (inicjały „S.W.” obok podpisu Marrow albo zdjęcie z 1951 z wysokim prefektem). Nazwiska jeszcze nie znają."

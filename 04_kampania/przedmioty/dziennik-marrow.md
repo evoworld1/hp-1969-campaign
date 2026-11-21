@@ -9,7 +9,7 @@ pewnosc: nasze
 # Identyfikator bez zmian (decyzja MG 2026-11-20): przedmiot nazywa się teraz „notatnik”.
 # Pliki scen jeszcze nie istnieją (walidator wymaga istniejących identyfikatorów).
 # Docelowo: s1.scena.09 (gablota), s1.scena.10 (próg, trzynasty raz, ewentualna konfiskata)
-sceny: []
+sceny: [s1.scena.09, s1.scena.10]
 tylko_mg: true
 tagi: [s1, s2, marrow, notatnik, gablota, pracownia, ksiega, klepsydra, cliffhanger, "1951"]
 zrodla:

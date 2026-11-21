@@ -7,7 +7,7 @@ lokalizacja: "Hogwart, skrzydło lekcyjne, na końcu bocznego korytarza od sali 
 pewnosc: nasze
 # Pliki scen jeszcze nie istnieją (walidator wymaga istniejących identyfikatorów).
 # Docelowo: s1.scena.04 (pokaz Cassiana), s1.scena.06 (baza grupy, pomiar), s1.scena.08 (możliwa konfrontacja po lekcji), s1.scena.12
-sceny: [s1.scena.04]
+sceny: [s1.scena.04, s1.scena.06, s1.scena.08, s1.scena.12]
 tylko_mg: true
 tagi: [s1, hogwart, lekcja, wren, grupa-trzecia, cassian, pojedynek, baza-druzyny]
 zrodla:

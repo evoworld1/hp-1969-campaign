@@ -10,7 +10,7 @@ rocznik_1969: "5 rok"
 kanon: false
 pewnosc: nasze
 # Docelowo: s1.scena.06, s1.scena.12
-sceny: []
+sceny: [s1.scena.06, s1.scena.12]
 tylko_mg: true
 tagi: [s1, uczen, ravenclaw, ofiara-cassiana]
 zrodla:

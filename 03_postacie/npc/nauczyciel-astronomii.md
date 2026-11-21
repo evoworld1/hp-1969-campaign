@@ -10,7 +10,7 @@ rocznik_1969: "nauczyciel (ok. 29 lat; w roku szkolnym 1951/52 pierwszoroczna)"
 kanon: false
 pewnosc: nasze
 # Docelowo: s1.scena.12 (spotkanie z lunetą); droga awaryjna do wskazówki W2
-sceny: []
+sceny: [s1.scena.12]
 tylko_mg: true
 tagi: [s1, astronomia, nauczyciel, marrow, "1951", fairweather]
 zrodla:

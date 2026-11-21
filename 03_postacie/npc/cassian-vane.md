@@ -11,7 +11,7 @@ kanon: false
 pewnosc: nasze
 # Docelowo także: s1.scena.02, s1.scena.03 (poza kadrem), s1.scena.04,
 #   s1.scena.07, s1.scena.08, s1.scena.09 (przy zegarze kradzieży 4), s1.scena.12
-sceny: [s1.scena.01, s1.scena.02, s1.scena.03, s1.scena.04]
+sceny: [s1.scena.01, s1.scena.02, s1.scena.03, s1.scena.04, s1.scena.07, s1.scena.08, s1.scena.09, s1.scena.12]
 tylko_mg: true
 tagi: [s1, cassian, slytherin, przeciwnik, grupa-wrena, karta-pozyczajacego]
 zrodla:
@@ -83,7 +83,7 @@ Przykładowe kwestie:
 | Magia | W pojedynku działa dwa razy, zanim przeciwnik skończy jeden ruch, póki ma zegarek. Wytrącony albo odebrany zegarek (Expelliarmus albo Accio na kieszonkę) gasi jego przewagę i wstrząsa nim. W pokazie u Wrena (04) to tylko chwila: Wren oddaje mu zegarek, a Cassian chowa go drżącą ręką i od tej pory pilnuje kieszonki przy tej postaci. Prawdziwa strata zegarka to dopiero scena 08 albo kradzież po 04. Zaklęcie ujawniające na zegarku: Cassian wstrzymuje oddech, a gdy nic nie wychodzi, wraca mu pewność siebie („Mówiłem: pamiątka”). |
 | Wcześniejsza próba zabrania zegarka (01–02) | Łapie rękę, mówi spokojnie „rodzinna pamiątka, nie chodzi” i zapina kieszonkę. Zapamiętuje twarz: w 04 i 08 jest wobec tej postaci czujny. Nie robi sceny, bo scena to pytania. |
 | Magia, zniszczenie | Zniszczony zegarek: koniec podbierania, część skradzionych godzin wraca do ofiar, Ansel na chwilę migocze (decyzja MG 2026-11-20). Cassian najpierw czuje ulgę, potem strach przed ojcem. |
-| Przemoc | Bójka bez różdżek go przeraża, bo nie umie się bić. Ciężka rana Cassiana ściąga Wrena, panią Pomfrey i pytania; karta zostaje skonfiskowana, jeśli nikt jej nie przejmie. |
+| Przemoc | Bójka bez różdżek go przeraża, bo nie umie się bić. Ciężka rana Cassiana ściąga Wrena, pielęgniarkę i pytania; karta zostaje skonfiskowana, jeśli nikt jej nie przejmie. |
 | Ignorowanie | Podbiera dalej według zegara kradzieży. Przy 3 sam przychodzi do postaci, przy 4 idzie do pracowni. Świat nie czeka. |
 
 ## Mechanika

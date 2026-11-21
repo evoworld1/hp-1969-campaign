@@ -12,7 +12,7 @@ pewnosc: nasze
 # Pozostałe pliki scen jeszcze nie istnieją (walidator wymaga istniejących identyfikatorów).
 # Docelowo także: s1.scena.03 (mignięcie), s1.scena.05, s1.scena.06,
 #   s1.scena.07, s1.scena.09, s1.scena.10, s1.scena.12
-sceny: [s1.scena.01, s1.scena.03, s1.scena.05]
+sceny: [s1.scena.01, s1.scena.03, s1.scena.05, s1.scena.06, s1.scena.07, s1.scena.08, s1.scena.09, s1.scena.10, s1.scena.12]
 tylko_mg: true
 tagi: [s1, ansel, hufflepuff, "1951", kotwica, wiez]
 zrodla:
@@ -100,7 +100,7 @@ statystyki:
     - nazwa: "Okruchy wspólnej godziny"
       opis: "Raz na sesję może powiedzieć coś ze wspólnego sekretu postaci z 4. roku (odpowiedzi na pytania startowe 3 i 5). Ustawia flaga.sekret-poruszony. Bez rzutu."
     - nazwa: "Przewodnik"
-      opis: "Postać z najwyższą Więzią może liczyć na jego pomoc przy jednej wskazówce (np. przechodzi przez ścianę i liczy trzynaście uderzeń). Szczegóły progu Więzi ustala mechanik razem z trackerem Więzi."
+      opis: "Postać, która pierwsza zwróciła się do niego po imieniu, może liczyć na jego pomoc przy jednej wskazówce (np. przechodzi przez ścianę i liczy trzynaście uderzeń)."
 ```
 
 ## Do weryfikacji
