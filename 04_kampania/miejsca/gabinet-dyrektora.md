@@ -44,7 +44,7 @@ Schody kręcą się pod wami same, cicho, jak koło młyńskie, i wynoszą was p
 **Zagrożenia i kryjówki.** Brak zagrożeń fizycznych. Koszt to czas i to, że dyrektor nie rozwiąże sprawy za postacie. Portrety dyrektorów słuchają i plotkują między ramami (kolor na Sesję 2). Kryjówek brak: kto tu wchodzi, jest widziany.
 
 ### Do weryfikacji
-- Feniks Fawkes w gabinecie w 1969: niepewne (kanon pokazuje go w latach 90.); MG może go pominąć albo dać jako ptaka śpiącego na żerdzi.
+- Feniks Fawkes w gabinecie w 1969: niepewne (prawdopodobne). Fawkes istnieje najpóźniej od 1938, Dumbledore był jego pierwszym właścicielem, a feniks żyje bardzo długo; brak dowodu przeciwko (zob. [[kanon.weryfikacja-s1]]). MG może go pominąć albo dać jako ptaka śpiącego na żerdzi.
 - Kamienny strażnik na hasło w 1969: niepewne co do lat, przyjmujemy, że był.
 - Zero dryfu w gabinecie: nasze, przyjęte przez MG 2026-11-20 (bez wyjaśnienia graczom).
 

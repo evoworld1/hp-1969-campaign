@@ -63,4 +63,4 @@ statystyki:
 
 ## Do weryfikacji
 
-- Pince jako bibliotekarka w 1969: `niepewne` (potwierdzona w latach 90.; zob. [[kanon.kadra-hogwartu-1969]]). Imię Irma pochodzi z dodatku „Quidditch przez wieki” [do potwierdzenia przez strażnika kanonu].
+- Pince jako bibliotekarka w 1969: `niepewne` (potwierdzona w latach 90.; zob. [[kanon.kadra-hogwartu-1969]]). Imię Irma pochodzi z dodatku „Quidditch przez wieki” [niepewne]. Strażnik kanonu: początek pracy Pince nieznany, brak danych wykluczających 1969; użycie dozwolone jako `niepewne` (alternatywa: „bibliotekarka” bez imienia).

@@ -100,5 +100,6 @@ statystyki:
 
 - Istnienie Irytka i jego strach przed Krwawym Baronem: kanon (Kamień Filozoficzny, rozdz. 7). To, że jest w zamku od wieków: zapis w `01_kanon/kadra-hogwartu-1969.md`; dokładne źródło (dodatkowe teksty autorki o Irytku) do potwierdzenia u strażnika kanonu.
 - Irytek w 1969: obecność pewna (jest w zamku przed i po tym roku), ale jego zachowanie w tym konkretnym roku kanon pomija. Wojna z Filchem to kanon z lat 90.; jej początek w 1969, gdy Filch jest nowy, to nasza decyzja (`niepewne`).
+- Pani Norris w 1969: `niepewne`, brak danych z książek (źródła wtórne datują objęcie posady przez Filcha na ok. 1968 albo ok. 1973); wątek „zamkniętej kotki” zostaje opcją MG (zob. [[kanon.weryfikacja-s1]]).
 - Kapelusz z dzwoneczkiem: szczegół ze sceny 12; nie opieramy go na kanonie (nasze).
 - Że Irytek nie widzi Ansela, wie, gdzie śpi Cassian, i boi się ciszy: nasze.

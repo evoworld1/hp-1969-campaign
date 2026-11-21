@@ -62,4 +62,4 @@ statystyki:
 
 ## Do weryfikacji
 
-- Sprout jako nauczycielka i opiekunka Hufflepuffu w 1969: `niepewne` (zob. [[kanon.kadra-hogwartu-1969]]). Według tekstu Wizarding World jej lata nauki nakładały się z latami McGonagall (ok. 1947–1954), co nie obejmuje roku szkolnego 1951/52 (nakładanie tylko o dwa lata); Walker (s. 120) podaje 1955–1962. Do rozstrzygnięcia przez strażnika kanonu, jeśli wątek 1951 ma ją obejmować.
+- Sprout jako nauczycielka i opiekunka Hufflepuffu w 1969: `niepewne` (zob. [[kanon.kadra-hogwartu-1969]]). Według tekstu Wizarding World jej lata nauki nakładały się z latami McGonagall (ok. 1947–1954), co nie obejmuje roku szkolnego 1951/52 (nakładanie tylko o dwa lata); Walker (s. 120) podaje 1955–1962. Rozstrzygnięcie strażnika kanonu: w 1951 Sprout była uczennicą albo świeżą absolwentką, więc jako nauczycielka Zielarstwa w 1951 jest to mało prawdopodobne (`niepewne`); jeśli wątek 1951 potrzebuje „profesora od zielarstwa”, zostaje bez nazwiska (ewentualnie Herbert Beery, też `niepewne`). Rozbieżność Walkera (1955–1962) to jego błąd lub przybliżenie.

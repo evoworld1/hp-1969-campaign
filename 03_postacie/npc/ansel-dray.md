@@ -43,7 +43,7 @@ Jedenastoletni Puchon w szacie sprzed osiemnastu lat. Zginął jesienią 1951 ro
 - **Tempo:** szybkie, jednym tchem, jak dziecko, które długo z nikim nie rozmawiało; potem nagle cisza.
 - **Ulubione zwroty:** „Przepraszam, która jest godzina?”, „Pani profesor kazała”, „proszę pana”, „proszę pani” (do szóstorocznych mówi per pan i pani), „To chyba długo, prawda?”.
 - **Czego nigdy nie powie:** słowa „umarłem” ani „duch”. Nie podaje roku. Nie mówi źle o profesor Marrow.
-- **Mimochodem mówi rzeczy z 1951:** „Pan profesor Dumbledore od transmutacji mówi, że…”, „pan dyrektor Dippet”. Gracze mogą to wyłapać jako wskazówkę, że chłopiec jest „nie stąd” (fakty o kadrze z 1951 niepewne, zob. Do weryfikacji).
+- **Mimochodem mówi rzeczy z 1951:** „Pan profesor Dumbledore od transmutacji mówi, że…”, „pan dyrektor Dippet”. Gracze mogą to wyłapać jako wskazówkę, że chłopiec jest „nie stąd” (fakty o kadrze z 1951: kanon (wniosek), zob. Do weryfikacji).
 
 Przykładowe kwestie:
 - „Przepraszam… czy pan wie, która jest godzina? Pani profesor Marrow kazała mi czekać przy schodach i chyba czekam już bardzo długo.”
@@ -106,6 +106,6 @@ statystyki:
 ## Do weryfikacji
 
 - Więź z Anselem to wciąż **kandydat** na tracker (`tracker.wiez-ansel`), nie przyjęta mechanika. Opisy reakcji zakładają, że MG ją prowadzi; bez niej wystarczy znacznik kontaktu z grafu.
-- Kwestie o „profesorze Dumbledorze od transmutacji” i „dyrektorze Dippecie” zakładają, że w 1951 Dumbledore jeszcze uczył, a dyrektorem był Dippet. Według [[kanon.kadra-hogwartu-1969]] to `niepewne` dla 1951 (pewne dla lat 40.). Jeśli strażnik kanonu tego nie potwierdzi, zastąpić neutralną kwestią („pan profesor od transmutacji”).
+- Kwestie o „profesorze Dumbledorze od transmutacji” i „dyrektorze Dippecie” zakładają, że w 1951 Dumbledore jeszcze uczył, a dyrektorem był Dippet. Strażnik kanonu potwierdził: Dumbledore (Transmutacja) i Dippet (dyrektor) w 1951 to kanon (wniosek), bo oba końce luki są kanoniczne (zob. [[kanon.weryfikacja-s1]]). Kwestie zostają bez zmian.
 - Wspomnienia Ansela o pracowni (szafka, świecąca książka) to szczegół Twórcy NPC, potrzebny dla W7.3 i W10.3; Ansel bywał w pracowni w 1951 (przyjęte przez MG 2026-11-20).
 - Temat śmierci dziecka: przed grą MG ustala linie i zasłony. Upadek z wieży może zostać poza kadrem na zawsze.

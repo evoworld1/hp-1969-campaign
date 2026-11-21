@@ -113,7 +113,13 @@ aktualizacja: 2026-11-21
 - W 1969 nie było więc żadnej reglamentacji słodyczy [fakt historyczny]. W 1951 słodycze były jeszcze na kartki, więc wzmianka mamy Ansela jest poprawna.
 - **Co przyjąć:** formuła „do 1953” w scenach 05 i stanie kampanii jest poprawna; precyzyjniej: luty 1953.
 
-### Poprawki w innych plikach (nie edytowane przeze mnie)
+### 13. Pani Norris w 1969
+
+- Pani Norris to kotka woźnego Filcha [kanon, lata 90.]. Poprzednikiem Filcha był Apollyon Pringle (CO rozdz. 31) [kanon]; moment zmiany woźnego książki nie podają.
+- Źródła wtórne różnią się: ok. 1968 (Fandom) albo najpóźniej ok. 1973 (inna wiki), fanowska strona mówi o „końcu lat 60. lub początku 70.”. Lexicon podaje dla Pringle'a tylko „lata 60.”. Żadne z nich nie cytuje tekstu książki.
+- Wniosek: obecność pani Norris jesienią 1969 **niepewne, brak danych**. Zostaje opcją MG (zgodnie z `03_postacie/npc/argus-filch.md` i `irytek.md`). Poprawka wprowadzona w `01_kanon/kadra-hogwartu-1969.md`.
+
+### Poprawki w innych plikach (wprowadzone 2026-11-21)
 
 | Ścieżka | Co poprawić |
 |---|---|
@@ -152,3 +158,4 @@ Nie znalazłem sprzeczności wymagających zmiany fabuły. Jedyna wyraźna rozbi
 8. Czy okna dormitorium Slytherinu (nie pokoju wspólnego) wychodzą na jezioro.
 9. Polska odmiana „Esów i Floresów”: potwierdzić słownikiem, bo wyszukiwarka nie dała źródła.
 10. Numery rozdziałów podane za Lexiconem: sprawdzić w polskim wydaniu.
+11. Czy pani Norris jest w Hogwarcie w 1969 (zależy od daty objęcia posady przez Filcha; wtórne źródła: ok. 1968 albo ok. 1973).

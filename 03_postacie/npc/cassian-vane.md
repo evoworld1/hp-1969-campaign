@@ -147,7 +147,7 @@ statystyki:
 - Ojciec Cassiana (kim jest, jakie ma poglądy) jest odłożony do sceny 08 decyzją MG. Karta mówi tylko: urzędnik Ministerstwa, wymagający.
 - Pochodzenie zegarka (zegarek dziadka, prezent od ojca po SUM-ach): przyjęte przez MG.
 - Niezdobyta odznaka prefekta to szczegół wykonawczy; nie zmienia fabuły.
-- Oparzona, zabandażowana lewa dłoń i wymówka „kociołek”: szczegóły wykonawcze Twórcy NPC (graf mówi tylko o oparzonej dłoni). Kształt oparzenia (pręgi jak od wskazówek) to propozycja; MG może ją pominąć. Pani Pomfrey jako uzdrowicielka w 1969: do sprawdzenia u strażnika kanonu.
+- Oparzona, zabandażowana lewa dłoń i wymówka „kociołek”: szczegóły wykonawcze Twórcy NPC (graf mówi tylko o oparzonej dłoni). Kształt oparzenia (pręgi jak od wskazówek) to propozycja; MG może ją pominąć. Pani Pomfrey jako uzdrowicielka w 1969: `niepewne` (bardzo prawdopodobne), użycie dozwolone; można też zostawić „pielęgniarkę” bez imienia (zob. [[kanon.weryfikacja-s1]]).
 - Karta Pożyczającego działa tylko razem z jego zegarkiem (decyzja MG 2026-11-20).
 - Mechanik (2026-11-21): statystyki uzupełnione (Duelling 5, pula 2 Chwil w pojedynku, zegarek jako słaby punkt, zaklęcia, różdżka z modrzewia). Do decyzji MG: pochodzenie Pure-blood (założenie robocze).
 - Pochodzenie (Lineage) Cassiana nie jest ustalone; nazwisko Vane nie należy do „Sacred Twenty-Eight” (s. 7). Decyzja dla MG albo twórcy NPC.

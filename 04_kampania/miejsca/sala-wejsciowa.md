@@ -12,7 +12,7 @@ tylko_mg: true
 tagi: [s1, hogwart, zegar, crake, ansel-odbicie, sygnaly-dziwnosci, mapa-dryfu]
 zrodla:
   - "Rowling, Kamień Filozoficzny, rozdz. 7 (Sala Wejściowa, marmurowe schody); opis własnymi słowami"
-  - "Rowling, Zakon Feniksa (klepsydry z kamieniami punktów domów; numer rozdziału do weryfikacji)"
+  - "Rowling, Kamień Filozoficzny rozdz. 15, Zakon Feniksa rozdz. 28 i 38 (klepsydry z kamieniami punktów domów; numery rozdziałów za Harry Potter Lexicon)"
   - "05_scenariusze/s1-godzina-ktorej-nie-bylo/graf-scen.md (scena 01, pogawędka ruchoma z Crake'iem)"
 aktualizacja: 2026-11-20
 ---
@@ -42,7 +42,7 @@ Sala Wejściowa dudni od kroków i głosów, a pod nimi, równo i ciężko, tyka
 
 ### Do weryfikacji
 - Wielki zegar stojący w Sali Wejściowej to nasz element (nie ma go w książkach).
-- Klepsydry z kamieniami punktów domów: kanon (Zakon Feniksa), numer rozdziału do potwierdzenia przez straznika-kanonu. Czy stały w Sali Wejściowej już w 1969, kanon nie mówi (niepewne).
+- Klepsydry z kamieniami punktów domów: kanon (Kamień Filozoficzny rozdz. 15, Zakon Feniksa rozdz. 28 i 38, za Lexiconem; w książkach stoją w Sali Wejściowej, a filmy stawiają je w Wielkiej Sali, co nie jest kanonem książkowym). Czy stały tu już w 1969: niepewne (prawdopodobne). Nie mylić z „Klepsydrą Daniny” [nasze].
 
 ## Ukryte
 

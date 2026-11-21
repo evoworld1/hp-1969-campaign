@@ -15,7 +15,7 @@
 - **Sceny gotowe jako szkice (walidator czysty), sesja 2026-11-21:** 01 (MG zaakceptował treść), 02–10 i 12 (w 12 rozpisanych 8 spotkań: B, D, H, K, L, M, N, P; zarysy A, C, E, F, G, I, J, O zostają z TODO). **Zostaje scena 11 (prolog Pokątna, opcjonalny, sam szkielet).** Test obciążeniowy całości zrobiony, poprawki wprowadzone, redaktor ciągłości sprawdził; po nim poprawiono flagę `zegarek-u-graczy` w 07 i 09, imię pielęgniarki w kartach, regułę „po imieniu” zamiast „najwyższej Więzi”. Ściąga formatu: `docs/WZORZEC-SCENY.md`.
 - **Ostatnia poprawka Fazy 2 (2026-11-20):** architekt-fabuly usunął legalne wejście do biblioteki (przepustka Flitwicka, flagi `biblioteka-legalnie` i `przepustka-flitwicka`, karta przepustki); scena 09 tylko nocą, nowa siatka bezpieczeństwa 9 (Filch łapie w drodze).
 - **Dla mechanika (Faza 3), dodatkowo:** zasady domowe niszczenia rzeczy zwykłym uderzeniem i celowania w mały przedmiot (propozycje w `zegarek-cassiana.md`); trudność galerii wahadeł (propozycja Tricky 12).
-- **Dla strażnika kanonu:** czy pani Pomfrey pracuje w Hogwarcie w 1969; Slughorn w 1969; Fawkes w gabinecie w 1969; klepsydry punktów domów w kanonie.
+- **Dla strażnika kanonu (zamknięte, zob. `01_kanon/weryfikacja-s1.md`):** Pomfrey w 1969 `niepewne` (bardzo prawdopodobne, użycie dozwolone); Slughorn uczy Eliksirów (kanon, wniosek), opiekun Slytherinu `niepewne`; Fawkes `niepewne` (prawdopodobne); klepsydry punktów to kanon książkowy (Sala Wejściowa), ich obecność w 1969 `niepewne` (prawdopodobne).
 - **Dla mechanika (Faza 3):** zdolności Cassiana (Skradzione Chwile, zegarek jako słaby punkt), premie za nazwanie nawyków Rosalind i Barnaby'ego, obchód Filcha jako przeciwnik, próg pogawędki z Crake'iem, czy Ansel potrzebuje liczb.
 - **Dla mechanika przy scenach:** czy stan Drained działa już na lekcji Obrony; rdzeń ze smoczego serca a drewno „Oak” (s. 29, niejasność podręcznika).
 - **Odłożone do scen:** liczby dla wyniku 2× i 3× trudności (ZD-09).
@@ -120,7 +120,7 @@ Szczegóły każdej sceny są w raportach niżej; tu najważniejsze decyzje Reż
 - **Scena 10:** wybór notatnik/Ansel zostaje graczom; notatnik do McGonagall (uprzejmość) lub do szuflady Filcha (kłamstwo/kpina); Filch ma „pływające strony” (ukryty charłak); zniszczenie notatnika możliwe po pytaniu „na pewno?” (do rozstrzygnięcia w Sesji 2).
 - **Scena 12:** Wren przy prośbie o Dział Ksiąg Zakazanych tylko kolor; Crake we wtorek; Pince za trzecim razem znajduje tom o zegarmistrzostwie za liną na końcu ostatniego regału.
 - **Do zrobienia przez mechanika:** liczby „DO-USTALENIA” w kartach miejsc i przedmiotów (galeria wahadeł Tricky 12 itd.), liczby Cassiana w jego karcie (Duelling 5, pula 2), Filch 1D10+9 w jego karcie.
-- **Do strażnika kanonu:** Pomfrey i Pince w 1969, McGonagall jako opiekunka Gryffindoru, Dumbledore uczył Transmutacji w 1951 (Ansel w scenie 12 „pan profesor od transmutacji”).
+- **Do strażnika kanonu (zamknięte, zob. `01_kanon/weryfikacja-s1.md`):** Pomfrey i Pince w 1969 `niepewne`, użycie dozwolone; McGonagall jako opiekunka Gryffindoru `niepewne`; Dumbledore (Transmutacja) i Dippet (dyrektor) w 1951: kanon (wniosek), kwestie Ansela poprawne.
 - **Do zrobienia:** karta Irytka (występuje w scenach 01, 03, 10, 12; bloki dialogów w ogrodzeniu `text` do zmiany na `yaml`).
 
 ## Otwarte pytania
