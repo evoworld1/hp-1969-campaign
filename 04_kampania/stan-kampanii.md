@@ -19,7 +19,7 @@
 - **Dla mechanika (Faza 3):** zdolności Cassiana (Skradzione Chwile, zegarek jako słaby punkt), premie za nazwanie nawyków Rosalind i Barnaby'ego, obchód Filcha jako przeciwnik, próg pogawędki z Crake'iem, czy Ansel potrzebuje liczb.
 - **Dla mechanika przy scenach:** czy stan Drained działa już na lekcji Obrony; rdzeń ze smoczego serca a drewno „Oak” (s. 29, niejasność podręcznika).
 - **Odłożone do scen:** liczby dla wyniku 2× i 3× trudności (ZD-09).
-- **Ostatnie podsumowanie rozmowy:** `99_robocze/summary-session#4.md` (2026-11-20). Następne kroki: lektura scen przez MG, skreślenie lub akceptacja założeń roboczych, akceptacja statusów, potem webowy interfejs MG; Scenariusz 2 dopiero po rozegraniu Sesji 1.
+- **Ostatnie podsumowanie rozmowy:** `99_robocze/summary-session#5.md` (2026-11-21). Następne kroki: lektura scen przez MG, skreślenie lub akceptacja założeń roboczych, akceptacja statusów, potem webowy interfejs MG; Scenariusz 2 dopiero po rozegraniu Sesji 1.
 
 ### Faza 1, część A: co powstało
 - `00_zrodla/walker-2e-draft-2026-04/tekst/`: wyciąg tekstu podręcznika (16 rozdziałów, znaczniki stron). Podręcznik jest jednym PDF (184 s.; numer drukowany = strona PDF − 5).
