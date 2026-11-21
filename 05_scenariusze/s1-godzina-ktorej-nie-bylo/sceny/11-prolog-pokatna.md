@@ -143,12 +143,12 @@ aktualizacja: 2026-11-20
 
 **Krok 3. Ollivander** (ok. 8 min, tylko gdy postać potrzebuje nowej różdżki)
 - Czytaj: tekst 2 („Drzwi zamykają się za wami i ulica cichnie…”), potem wstawka „stara różdżka na ladzie” („Ollivander bierze ją w dwa palce…”), po 1–2 nieudanych próbach wstawka „ta właściwa” („Tym razem nic się nie przewraca…”).
-- Dialog: `s1.scena.11.dialog.ollivander-rozdzka` — „TODO (dialogista)”
+- Dialog: `s1.scena.11.dialog.ollivander-rozdzka` — „Dzień dobry. Szósty rok, jak mniemam. I różdżka, która ma do pana żal. Proszę mi ją pokazać.”
 - Krótko: różdżka złamana w wakacje, odziedziczona albo „nie słucha”. Pierwsza rozmowa z bohaterem niezależnym. Dobór różdżki bez rzutu: to zabawa opisowa, drewno i rdzeń według karty postaci (rdzenie Ollivandera: Walker 2e s. 26). Nieudane próby opisuj krótko i za każdym razem inaczej: z końca różdżki sypie się popiół, lampa przygasa, pudełko na półce samo się zamyka.
 
 **Krok 4. Witryna „Crake i Córka”** (ok. 6 min)
 - Czytaj: tekst 3 („Tam, gdzie Pokątna lekko zakręca…”), potem wstawka „Crake na progu” („Drzwi uchylają się i na próg wychodzi zegarmistrz…”). Wstawkę „wnętrze sklepu” tylko gdy postacie wchodzą, wstawkę „koperta zegarka” tylko przy sukcesie imponującym.
-- Dialog: `s1.scena.11.dialog.crake-witryna` — „TODO (dialogista)”
+- Dialog: `s1.scena.11.dialog.crake-witryna` — „Podobają się, młodzi? Oglądać wolno za darmo. Crake, do usług.”
 - Test: `s1.scena.11.test.crake-pogawedka` (jedyny test prologu, test nauczający)
 - Flagi: `flaga.crake-poznany`, `flaga.crake-dluga-rozmowa` (tylko bardzo wysoki wynik)
 - Krótko: starszy pan poprawia wskazówki w witrynie i sam wychodzi zagadać. Pogawędka ruchoma odbywa się tutaj i nie wraca w 01 ani w 07. Jeśli gracze omijają witrynę, tłum spycha ich pod szybę albo czyjaś lista zakupów odfruwa pod drzwi Crake'a: test nauczający ma się odbyć. Gdy postacie mimo to idą dalej, nie ustawiaj `flaga.crake-poznany`; Crake pojawi się w scenie 01 albo 07.
@@ -156,7 +156,7 @@ aktualizacja: 2026-11-20
 
 **Krok 5. Gazeciarz i szept** (ok. 4 min)
 - Czytaj: tekst 4 („»Prorok Codzienny«! Ministerstwo zabiera głos…”)
-- Dialog: `s1.scena.11.dialog.szept-w-kolejce` — „TODO (dialogista)” (para dorosłych w kolejce, tło bez karty)
+- Dialog: `s1.scena.11.dialog.szept-w-kolejce` — „…i mówię ci, to nie były żadne wypadki w tłumie. Przy tym marszu charłaków ktoś rzucał zaklęcia zza pleców ludzi.” (para dorosłych w kolejce, tło bez karty; przy zasłonie: „Mówią, że ktoś zbiera ludzi. Lepiej nie wiedzieć kto.”)
 - Flagi: `flaga.plotka-o-voldemorcie`
 - Krótko: plotka, bez potwierdzenia. Jeśli postać zapyta dorosłych wprost, para milknie, kobieta mówi coś o pogodzie, a mężczyzna nagle bardzo interesuje się półką z atlasami. Przy zasłonie na tematy czystości krwi jedno zdanie bez nazwisk.
 
@@ -185,11 +185,101 @@ Prolog ma dwa miejsca, gdzie może zrobić się ciężko. **Szept w kolejce** do
 
 ## Obecni
 
-TODO (tworca-npc).
+- **Garrick Ollivander** ([[npc.garrick-ollivander]], kanon). *Co robi:* obsługuje postać, która przyszła po nową różdżkę; zjawia się przy drabinie bez dźwięku. *Czego chce:* żeby różdżka trafiła do właściwej ręki, choćby miało to potrwać. *Sygnał:* bierze starą różdżkę postaci w dwa palce, unosi do ucha i milknie, jakby słuchał. *Na zaczepkę:* na pośpiech zwalnia jeszcze bardziej, na żart odpowiada uprzejmym, nieruchomym spojrzeniem. Nie ma sekretu fabularnego.
+- **Hollis Crake** ([[npc.hollis-crake]], `pewnosc: nasze`). *Co robi:* poprawia wskazówki zegarów w witrynie, potem wychodzi na próg zagadać. *Czego chce w tej scenie:* chwili rozmowy z młodymi o zegarach; lubi, gdy ktoś się zatrzymuje przy jego szybie. *Sygnał:* jaśniejsze złoto w „i Córka” na szyldzie, o córce mówi w czasie przeszłym; przy krzyku gazeciarza o marszach urywa zdanie w pół i wraca do niego, jakby nic się nie stało. *Na zaczepkę:* na groźbę uprzejmie się wycofuje do sklepu i zapamiętuje twarz, na przekupstwo śmieje się życzliwie. W Sesji 1 nie mówi nic o Klepsydrze, pieczęci ani kliencie z Londynu, niezależnie od wyniku.
+- **Gazeciarz** (tło bez karty, `pewnosc: nasze`). Chudy chłopak na skrzynce, może czternastoletni. *Co robi:* krzyczy ogólniki o „Proroku Codziennym” i marszach. *Czego chce:* sprzedać gazety przed obiadem. *Sygnał:* ludzie przyspieszają kroku, gdy krzyczy o marszach. *Na zaczepkę:* „chcesz wiedzieć, to kup”; treści gazety nie streszcza.
+- **Para szepcząca w kolejce** (tło bez karty, `pewnosc: nasze`). Kobieta w słomkowym kapeluszu i mężczyzna z „Prorokiem” w rulonie pod pachą, obcy dorośli w kolejce do Esów i Floresów. *Co robią:* rozmawiają o upale, potem mężczyzna ścisza głos. *Czego chcą:* wyrzucić z siebie strach i kupić podręczniki dla dzieci. *Sygnał:* kobieta przestaje się wachlować. *Na zaczepkę:* milkną, kobieta mówi o pogodzie, mężczyzna ogląda atlasy. Niczego nie potwierdzają.
 
 ## Dialogi
 
-TODO (dialogista): bloki o identyfikatorach z „Rytmu sceny”.
+### Garrick Ollivander i nowa różdżka (krok 3)
+
+Tylko gdy postać potrzebuje nowej różdżki. Ollivander mówi cicho, śpiewnie i wolno, o różdżkach jak o osobach. Zwraca się do postaci „pan” albo „pani”. Kwestie z nawiasem kwadratowym MG uzupełnia z karty postaci (drewno, rdzeń, długość starej różdżki). Najwyżej trzy próby: dwie nieudane, trzecia właściwa (albo wcześniej, jeśli czas goni).
+
+```yaml
+dialog:
+  id: s1.scena.11.dialog.ollivander-rozdzka
+  npc: npc.garrick-ollivander
+  wyzwalacz: "Po tekście 2, gdy Ollivander pojawia się przy drabinie, a postać przyszła po nową różdżkę."
+  ton: "cichy, śpiewny, bardzo wolny; uprzejmy i nieruchomy, o różdżkach mówi jak o żywych istotach"
+  kwestie:
+    - "Otwarcie: „Dzień dobry. Szósty rok, jak mniemam. I różdżka, która ma do pana żal. Proszę mi ją pokazać.”"
+    - "Po wstawce „stara różdżka na ladzie”, gdy znów się odzywa: „[Drewno], [rdzeń], [długość] cala. Pamiętam ją. Pamiętam każdą, która wyszła z tego sklepu.”"
+    - "Gdy różdżka jest odziedziczona: „Należała do kogoś przed panem. Ona to wciąż pamięta. Bywa lojalna, ale nie wobec pana.”"
+    - "Gdy różdżka jest złamana i postać pyta o naprawę: „Skleić można. Tylko że sklejona różdżka pamięta złamanie dłużej niż właściciel. Odradzam.”"
+    - "Gdy różdżka „nie słucha” (tylko raz, bez komentarza): „Różdżki źle znoszą rzeczy dziejące się nie w porę.”"
+    - "Próba pierwsza, nieudana: „Nie. Zdecydowanie nie.” (odbiera różdżkę szybciej, niż ją podał)"
+    - "Próba druga, nieudana: „Ciekawe… Bardzo ciekawe. Ale nie. Ona szuka kogoś bardziej cierpliwego.”"
+    - "Ta właściwa (po wstawce „ta właściwa”): „Ach. Proszę spojrzeć, jak się uspokoiła. Od dziś się znacie. Siedem galeonów, proszę.”"
+    - "Gdy postać jest uprzejma i cierpliwa: „[Drewno] jest wierne, ale obraża się, gdy leży w szufladzie. Proszę ją nosić przy sobie.” (opowiada o drewnie i rdzeniu chętniej)"
+    - "Gdy postać się spieszy albo lekceważy: „Pośpiech. Oczywiście. Proszę usiąść.” (mówi odtąd jeszcze wolniej)"
+    - "Gdy postać kłamie (np. „sama się złamała”): „Sama. Różdżki rzadko łamią się same. Nie będę dopytywał. Ona i tak mi powie.”"
+    - "Gdy postać pyta o plotki, wojnę albo „co słychać w świecie”: „Słyszę wiele rzeczy. Mówię tylko o różdżkach. To spokojniejszy temat.”"
+    - "Nieprzewidziane (postać chwyta pudełko z półki, wspina się na drabinę albo chce kupić dwie różdżki): „Proszę ją odłożyć. Ona jeszcze pana nie zna i może się obrazić.”"
+    - "Może zdradzić bez warunku: drewno, rdzeń i długość nowej różdżki; to, że pamięta starą różdżkę i (przy odziedziczonej) jej poprzedniego właściciela. Tylko przy różdżce, która „nie słucha”: jedno zdanie „nie w porę”."
+    - "Nie zdradza: nic. Nie ma sekretu fabularnego i nie wraca do zdania „nie w porę”, nawet gdy postać dopytuje."
+  wariant_od: []
+```
+
+### Hollis Crake przy witrynie (krok 4)
+
+Crake mówi ciepło, trochę chrapliwie, wolno i z westchnieniami. Do zegarów mówi jak do zwierząt. Co powie po rzucie, zależy od wyniku testu `s1.scena.11.test.crake-pogawedka`: MG wybiera jedną kwestię „po teście”. Jeśli gazeciarz krzyczy w trakcie, Crake urywa zdanie w pół i kończy je po chwili, bez komentarza. W Sesji 1 nie mówi ani słowa o Klepsydrze, pieczęci ani kliencie z Londynu.
+
+```yaml
+dialog:
+  id: s1.scena.11.dialog.crake-witryna
+  npc: npc.hollis-crake
+  wyzwalacz: "Po tekście 3 i wstawce „Crake na progu”, gdy postacie stoją przy witrynie albo zagadują zegarmistrza."
+  ton: "ciepły, trochę chrapliwy, wolny, z westchnieniami i uśmiechem w każdym zdaniu; przy córce jedno zdanie urywa się w pół"
+  kwestie:
+    - "Otwarcie: „Podobają się, młodzi? Oglądać wolno za darmo. Crake, do usług.”"
+    - "Do zegara w witrynie (gdy postacie patrzą przez szybę): „No już, już, kochanie. Nie spiesz się tak.”"
+    - "Gdy postać pyta o zegary: „Zegar to nie maszyna, to charakter. Ten wysoki, w gwiazdy, jest starszy ode mnie i ma lepszy humor.” (rozpromienia się)"
+    - "Gdy gazeciarz krzyczy o marszach w trakcie rozmowy: „Zegar to nie maszyna, to…” (milknie na pół oddechu, patrzy w szybę) „…to charakter. Na czym stanęliśmy?”"
+    - "Gdy postacie mówią, że jadą do Hogwartu: „Hogwart? To się może jeszcze zobaczymy. Stroję tam zegary od lat.”"
+    - "Gdy postać pyta o szyld albo „i Córka”: „Rodzinny interes. Ładnie błyszczy, co? Odmalowałem na wiosnę.” (od razu wraca do zegarów)"
+    - "Wnętrze sklepu, gdy postać pyta o drugie drzwi: „Tam warsztat. Bałagan, nie dla gości.” (poprawia szmatkę na klamce)"
+    - "Po teście, porażka: „Upał jak w kotle, co? Pijcie wodę, młodzi, i nie dajcie się stratować w księgarni.” (wraca do witryny)"
+    - "Po teście, porażka kompromitująca (postać gapi się w szybę i nie słucha): „Zegarki ciekawsze od starego zegarmistrza, rozumiem.” (śmieje się bez urazy i wraca do pracy)"
+    - "Po teście, sukces: „Wieża w Hogwarcie? Ostatnio wymaga więcej uwagi. Starość, wiecie. Jej i moja.”"
+    - "Po teście, sukces imponujący (po wstawce „koperta zegarka”): „To Nora. Pomagała mi w sklepie. Miała lepsze ręce do sprężyn niż…” (urywa, zamyka kopertę) „No. Ten zegar sam się nie nastawi.”"
+    - "Gdy postać dopytuje o Norę po sukcesie imponującym: „Pomagała. Dobra była.” (chowa zegarek do kamizelki) „Chcecie zobaczyć, jak bije ten w gwiazdy? Za minutę wybije.”"
+    - "Gdy postać próbuje go przekupić: „Synku, ja biorę pieniądze za naprawy, nie za plotki.”"
+    - "Gdy postać jest niegrzeczna albo grozi: „Przepraszam, mam robotę w środku.” (zamyka drzwi; zapamiętuje twarz)"
+    - "Gdy postać kłamie (np. udaje, że zna się na zegarach): „Doprawdy? To może pani mi powie, co tu stuka.” (podaje zegarek do ucha, uśmiecha się; nie obraża się)"
+    - "Nieprzewidziane (postać chce kupić zegarek albo dotyka mechanizmu w witrynie): „Ostrożnie, to staruszka, nie zabawka. Na zegarek przyjdźcie po pierwszej pensji. A swój zepsuty przynieście, obejrzę za darmo.”"
+    - "Może zdradzić: że stroi zegary w Hogwarcie (bez warunku); przy sukcesie zdanie o wieży; przy sukcesie imponującym imię córki i to, że pomagała w sklepie (zawsze w czasie przeszłym)."
+    - "Nie zdradza: że córka nie żyje, jak zginęła, nic o Klepsydrze, pieczęci ani kliencie z Londynu. Na każde takie pytanie zmienia temat na zegary."
+  wariant_od: [flaga.crake-dluga-rozmowa]
+```
+
+### Gazeciarz i szept w kolejce (krok 5)
+
+Obie postacie są tłem bez karty. Gazeciarz krzyczy tylko ogólniki; treść „Proroka Codziennego” jest odłożona decyzją MG. Szept MG mówi cicho, pochylony, z przerwami; kobieta odpowiada krótko i nerwowo. To plotka: nikt nic nie potwierdza i nikt niczego nie łączy wprost. **Przy zasłonie na tematy czystości krwi** MG używa tylko kwestii „Wariant przy zasłonie” i od razu przechodzi do pogody.
+
+```yaml
+dialog:
+  id: s1.scena.11.dialog.szept-w-kolejce
+  npc: ""
+  wyzwalacz: "Po tekście 4, gdy kobieta przestaje się wachlować, a postać stoi w kolejce tuż za parą (gazeciarz: w drodze do księgarni)."
+  ton: "mężczyzna: przyciszony, pospieszny, rozgląda się przez ramię; kobieta: krótko, nerwowo, potem sztucznie lekko"
+  kwestie:
+    - "Gazeciarz, gdy postać go zaczepia: „Chcesz wiedzieć, to kup. Ja tylko krzyczę.”"
+    - "Gazeciarz, gdy postać kupuje gazetę: (MG opisuje tylko nagłówek o marszach i zdjęcie tłumu; artykułu nie czyta)"
+    - "Otwarcie, mężczyzna: „…i mówię ci, to nie były żadne wypadki w tłumie. Przy tym marszu charłaków ktoś rzucał zaklęcia zza pleców ludzi.”"
+    - "Kobieta: „Ciszej. Ludzie słuchają.”"
+    - "Mężczyzna, jeszcze ciszej: „Podobno to ludzie tego… Voldemorta. Każą się nazywać śmierciożercami. Zbierają się po starych domach.”"
+    - "Kobieta: „Plotki. W taki upał każdy coś gada.” (ale nie wraca do wachlowania)"
+    - "Wariant przy zasłonie (jedyna kwestia szeptu): mężczyzna: „Mówią, że ktoś zbiera ludzi. Lepiej nie wiedzieć kto.”"
+    - "Gdy postać pyta ich wprost albo uprzejmie: kobieta: „Straszny upał w tym roku, prawda?” (mężczyzna nagle bardzo interesuje się półką z atlasami)"
+    - "Gdy postać naciska albo grozi: mężczyzna: „Nic nie mówiłem, młody człowieku. Kup książki i jedź do szkoły.”"
+    - "Gdy postać kłamie, żeby wyciągnąć więcej (np. „mój ojciec jest w Ministerstwie”): mężczyzna blednie: „To niech tata ci opowie. Ja nic nie wiem.” (para wychodzi z kolejki)"
+    - "Gdy postać pyta, kim jest Voldemort: kobieta, szeptem: „Nie mów tego na głos, dziecko. Proszę.”"
+    - "Nieprzewidziane (postać powtarza imię głośno na całą księgarnię): cisza, ktoś upuszcza książkę, para wychodzi bez zakupów. Sprzedawca z drabiny: „Następny, proszę!”"
+    - "Może zdradzić: tylko to, co słychać w szepcie (imię, słowo „śmierciożercy”, zaklęcia przy marszu). Nic ponad to, niezależnie od podejścia."
+    - "Nie zdradza: nazwisk, kto był przy marszu, skąd to wiedzą. Plotka zostaje plotką."
+  wariant_od: []
+```
 
 ## Testy
 

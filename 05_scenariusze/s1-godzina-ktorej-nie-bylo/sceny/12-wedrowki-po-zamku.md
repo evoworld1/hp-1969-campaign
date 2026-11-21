@@ -140,6 +140,70 @@ aktualizacja: 2026-11-20
 
 > Kobieta milknie na jedną długą sekundę. Luneta zatrzymuje się w połowie drogi do oka. Potem przychodzi uśmiech, ciepły i trochę nieobecny, jakby ktoś zawołał ją z drugiego końca bardzo długiego korytarza.
 
+### E. Profesor Sprout i rejestr Hufflepuffu (przy beczkach, przed kolacją)
+
+> W ciepłym korytarzu pod kuchnią, przy beczkach ułożonych w ścianie, stoi niska, krępa czarownica w połatanym kapeluszu. Z ronda sypie się jej suchy liść. Pod pachą ściska gruby rejestr w płóciennej oprawie, a w drugiej ręce doniczkę z rośliną o liściach jak zwinięte języki, która co chwilę próbuje ugryźć ją w kciuk. Czarownica nawet na nią nie patrzy.
+>
+> Pachnie od niej mokrą ziemią i nawozem. Pod paznokciami ma czarne półksiężyce, które chyba nie zeszły od początku semestru. Liczy pod nosem pierwszoroczniaków przemykających do pokoju wspólnego i przy każdym stawia ołówkiem kreskę.
+>
+> „…dziewięć, dziesięć… A gdzie mała Hemsby?” Przewraca kartkę, znajduje, oddycha z ulgą.
+>
+> Potem podnosi wzrok na was, spod ronda, i uśmiecha się szeroko, jakbyście też byli do policzenia.
+
+**Wstawka: gdy profesor sprawdza rejestr wstecz.**
+
+> Profesor odstawia doniczkę na beczkę i otwiera rejestr na kolanie. Strony są gęste od nazwisk, każdy rocznik innym atramentem, coraz bledszym, im dalej w tył. Palec poplamiony ziemią sunie w dół kolumny, przeskakuje rok, drugi, dziesiąty. Dochodzi do końca strony i zostaje tam chwilę, jakby czekał, aż nazwisko samo się dopisze.
+
+**Wstawka: gdy Ansel jest przy postaci.**
+
+> Ansel staje przy beczkach i unosi rękę, jakby chciał zastukać w znajomym rytmie. Palce wchodzą w dębowe klepki bez dźwięku, aż po nadgarstek. Chłopiec cofa rękę szybko i chowa ją za plecy. Profesor, o krok obok, niczego nie zauważa.
+
+### F. Dormitorium i pokój wspólny Slytherinu (noc, dopiero po scenie 04; jedna postać)
+
+*To spotkanie przeżywa jedna postać ze Slytherinu, więc tekst mówi do niej w liczbie pojedynczej. Wariant 1 dla chłopca (dormitorium), wariant 2 dla dziewczyny (pokój wspólny).*
+
+**Wariant 1: dormitorium szóstego roku.**
+
+> Dormitorium leży pod jeziorem i nocą to słychać: woda napiera na szyby z cichym, głębokim pomrukiem, a przez okna sączy się zielonkawa poświata, jakby ktoś postawił latarnię na dnie. Kamień jest zimny nawet przez skarpety. Pachnie wilgocią i knotami zgaszonych świec.
+>
+> Wszyscy śpią. Prawie wszyscy. Za zaciągniętą kotarą łóżka pod oknem tli się wąski pasek światła różdżki. Na kotarze rośnie cień: ktoś siedzi po turecku, pochylony, z dłońmi złożonymi przy piersi.
+>
+> Słyszysz drobny zgrzyt, ząbek po ząbku. Ktoś nakręca zegarek. A potem szept, równy i uparty, jak przy liczeniu baranów: „…czterdzieści jeden. Czterdzieści dwa. Czterdzieści trzy…”
+>
+> Światło gaśnie. Skrzypi materac. Po chwili oddech za kotarą robi się płytki i nierówny.
+
+**Wariant 2: pokój wspólny po północy.**
+
+> Pokój wspólny po północy jest prawie pusty. Ogień w kominku przygasł do żaru, a zielona poświata zza okien kładzie się na skórzanych fotelach jak woda na kamieniach. Gdzieś wysoko w jeziorze przepływa coś dużego i na chwilę zasłania światło.
+>
+> W fotelu najbliżej kominka siedzi ktoś w zapiętej kamizelce, z głową odchyloną na oparcie. Śpi albo prawie śpi. Na kolanach trzyma srebrny zegarek, obie dłonie zaciśnięte na kopercie. Usta poruszają mu się bez dźwięku, jakby liczył przez sen.
+>
+> W kominku pęka polano. Palce zaciskają się mocniej. Potem, bardzo powoli, się rozluźniają.
+
+**Wstawka: zegarek w twojej dłoni** (po udanej kradzieży).
+
+> Zegarek jest cięższy, niż wyglądał, i ciepły, jakby przed chwilą ktoś ściskał go w pięści. Wskazówki stoją. A w środku coś tyka, drobno i szybko, prosto w twoją dłoń.
+
+**Wstawka: przebudzenie** (po porażce).
+
+> Oddech urywa się w pół. Szelest materiału i dłoń zaciska się na twoim nadgarstku, zimna i bardzo mocna. W zielonej poświacie widzisz otwarte oczy, zupełnie przytomne, jakby wcale nie spał. „Nie” – mówi tylko, cicho, żeby nikogo nie obudzić.
+
+**Wstawka: kufer** (wariant 1, gdy postać przeszukuje kufer u stóp łóżka).
+
+> Podszewka wieka jest w jednym rogu przyszyta grubszą, świeższą nicią, niezgrabnie, jak ktoś, kto nigdy wcześniej nie trzymał igły. Pod palcami czujesz coś płaskiego i sztywnego, złożonego na pół.
+
+### G. Sowiarnia (każda pora; list do domu)
+
+> Schody na sowiarnię kręcą się tak długo, że w połowie zaczyna się słyszeć wiatr. Na górze jest zimno jak na dworze, bo okna nie mają szyb. Pod butami chrzęszczą słoma, łuski i drobne kosteczki, a powietrze pachnie pierzem, mokrym kamieniem i czymś, czego nikt nie nazywa przed obiadem.
+>
+> Na żerdziach, aż pod sam dach, siedzą setki sów. Większość śpi z głową pod skrzydłem. Kilka otwiera jedno oko, żółte jak moneta, i przygląda się wam bez większego zainteresowania. Stara szkolna płomykówka patrzy z góry tak, jakby już wiedziała, że to znowu list do domu.
+>
+> Przez puste okno widać jezioro, szare i pomarszczone od wiatru, a za nim ciemną, nieruchomą ścianę lasu.
+
+**Wstawka: gdy Ansel jest przy postaci.**
+
+> Sowa, która usiadła ci już na przedramieniu, nagle napina się cała. Pióra stają jej dęba, aż robi się dwa razy większa. Obraca głowę tam, gdzie stoi Ansel, i syczy cienko, ale patrzy przez niego, w ścianę. Listu nie bierze. Kiedy Ansel cofa się na schody, sowa otrzepuje się, jakby nic się nie stało, i grzecznie wyciąga nóżkę.
+
 ### H. Woźny i zegarmistrz (Sala Wejściowa, za dnia)
 
 *Wersję z zegarmistrzem czytaj tylko we wtorek i tylko wtedy, gdy postacie jeszcze go nie spotkały. W innym przypadku przeczytaj pierwszy akapit i wstawkę „Woźny sam”.*
@@ -157,6 +221,36 @@ aktualizacja: 2026-11-20
 **Wstawka: woźny sam.**
 
 > Woźny jest sam. Pod zegarem, na kamiennej posadzce, ciemnieje plama świeżego oleju, a w powietrzu wisi jeszcze słaby zapach mięty. Woźny patrzy na tę plamę tak, jakby ktoś obraził go osobiście.
+
+### I. Pierwszoroczniak na schodach (zdarzenie świata, gdy zegar kradzieży doszedł do 2)
+
+> Na ruchomych schodach jest tłok jak zawsze po obiedzie. Torby obijają się o kolana, ktoś woła, żeby zaczekać, a schody pod wami skrzypią i zaczynają się leniwie obracać.
+>
+> Kilka stopni wyżej mały chłopiec w za dużej szacie zatrzymuje się w pół kroku. Stoi zupełnie nieruchomo, z jedną nogą nad stopniem, jak zegar, któremu ktoś przytrzymał wahadło. Potem miękko, bez krzyku, siada i przewraca się na bok. Torba zsuwa się po schodach, pióra rozsypują się jak zapałki.
+>
+> Wokół robi się cicho. Ktoś piszczy. Chłopiec otwiera oczy prawie od razu i rozgląda się, zdumiony, jak ktoś, kto obudził się w cudzym łóżku. Patrzy w okno, na słońce, które stoi gdzie indziej, niż powinno.
+
+**Wstawka: gdy Ansel jest przy postaci.**
+
+> Chłopiec, wciąż na stopniu, nagle wyciąga palec w waszą stronę. „Tam… Tam był chłopiec. W żółtym krawacie”. Mruga i opuszcza rękę. Ansel stoi dokładnie tam, gdzie pokazał, i wpatruje się we własne buty.
+
+**Wstawka: prefekt** (na zamknięcie spotkania).
+
+> Przez tłum przepycha się prefekt z przekrzywioną odznaką, wciąż z kawałkiem placka w ręce. Klęka, dotyka chłopcu czoła, mówi coś łagodnie i podnosi go bez wysiłku. „Skrzydło szpitalne. Rozejść się, no już”. Torba zostaje na schodach.
+
+### J. Maisie Lock i Gideon Pratt (Wielka Sala między posiłkami)
+
+> Wielka Sala między posiłkami jest na wpół pusta. Na stołach zostały okruchy i dzbanki z wystygłą herbatą, a pod zaczarowanym sklepieniem suną nisko szare chmury. Kilkoro uczniów odrabia lekcje, ktoś śpi z głową na podręczniku.
+>
+> Na końcu stołu Hufflepuffu siedzi drobna trzecioroczna z dwoma krzywymi warkoczami i ściska podręcznik oburącz, jak tarczę. Naprzeciw niej, na ławce, która wcale nie jest jego, pochyla się chudy Krukon w drucianych okularach, z kieszonkowym kalendarzykiem i ołówkiem.
+>
+> „Czwartek. Ale który czwartek? Proszę być dokładną” – mówi. – „Przed dzwonkiem czy po?”
+>
+> Dziewczynka mruga szybko i patrzy w blat. Ołówek czeka, uniesiony nad kartką. Ona zerka na zegarek na nadgarstku, raz, drugi i jeszcze raz, choć minęło ledwie kilka sekund.
+
+**Wstawka: gdy Ansel jest przy postaci.**
+
+> Dziewczynka podnosi wzrok i patrzy ponad waszymi ramionami. Blednie. „Zdawało mi się…” – zaczyna i nie kończy. Krukon odwraca się, nie widzi nic, i bez słowa zapisuje w kalendarzyku godzinę.
 
 ### K. Biblioteka za dnia (czytelnia, biurko wypożyczeń, gablota na korytarzu)
 
@@ -216,6 +310,18 @@ aktualizacja: 2026-11-20
 
 > [W kieszeni cicho tyka twoja różdżka, jak zegarek, którego nikt nie nakręcał.] Na pustym korytarzu słychać każdy twój krok. Za tobą odzywają się drugie kroki, lekkie i nierówne, jakby ktoś bardzo się starał iść w twoim rytmie. Kiedy przystajesz, one też przystają. Kiedy się odwracasz, chłopiec w żółto-czarnym krawacie stoi trzy kroki dalej i chowa ręce za plecy.
 
+### O. Cassian szuka zegarka (ten sam wieczór albo nazajutrz po kradzieży)
+
+*Ten tekst prowadzi do wejścia 1c sceny 08 („Najpierw słyszycie zegarek…”). Pierwszy akapit czytaj tylko wtedy, gdy postacie są wśród ludzi: przy stole, w pokoju wspólnym, na korytarzu w przerwie.*
+
+> Wieść biegnie przed nim. Najpierw ktoś przy stole mówi, że Vane przetrząsnął pokój wspólny Slytherinu poduszka po poduszce i nikomu nie powiedział, czego szuka. Potem drugoroczniak wpada z korytarza z oczami jak spodki: Vane zaczepiał ludzi na schodach i każdemu zaglądał w ręce.
+>
+> Widzicie go raz, z daleka, na końcu długiego korytarza. Idzie szybko, przy samej ścianie, bez szaty, w samej kamizelce, i co kilka kroków przystaje, jakby nasłuchiwał. Głowę trzyma nisko.
+>
+> Potem skręca za róg i znika. Przez chwilę jest zupełnie zwyczajnie: ktoś się śmieje, ktoś trzaska drzwiami, gdzieś daleko bije zegar.
+>
+> Tylko w kieszeni, tej, w której leży zegarek, robi się coraz cieplej.
+
 ### P. Sala Obrony po lekcjach (profesor Wren)
 
 > Sala Obrony po lekcjach pachnie kurzem z mat i przypalonym płótnem: na jednym z manekinów wciąż tli się nadpalony rękaw. Przez wysokie okna wpada niskie słońce i kładzie na podłodze długie cienie odsuniętych ławek.
@@ -236,11 +342,11 @@ aktualizacja: 2026-11-20
 
 **Jak wpiąć.** Jedno spotkanie = jedna wskazówka albo jeden moment z Anselem albo czysty kolor, ok. 5 minut. Po spotkaniu powrót do sceny, z której gracze wyszli, albo do następnej w grafie. Zegar kradzieży rośnie o 1 za każde pół dnia w fikcji, więc długie wędrówki nie zatrzymują świata. Prośba do nauczyciela o wejście do Działu Ksiąg Zakazanych zawsze kończy się odmową (bez kary).
 
-**Konwencja w module.** Kroki to tutaj spotkania (A–P), w dowolnej kolejności; każde ma ten sam układ co krok sceny. Osiem spotkań jest rozpisanych (tekst, kwestia otwierająca, rady): **B, D, H, K, L, M, N, P**. Pozostałe mają jednozdaniowy zarys i MG prowadzi je z głowy, na podstawie kart NPC. Spotkanie P (Wren) jest nowe w module, a spotkanie H obejmuje teraz także zegarmistrza Crake'a.
+**Konwencja w module.** Kroki to tutaj spotkania (A–P), w dowolnej kolejności; każde ma ten sam układ co krok sceny. Wszystkie spotkania mają tekst do odczytania, kwestię otwierającą i rady. Osiem z nich (**B, D, H, K, L, M, N, P**) ma też pełne bloki dialogów i testów; pozostałe osiem (**A, C, E, F, G, I, J, O**) czeka na bloki w kolejnym etapie, więc rozmowę prowadzisz z „Krótko” i kart NPC. Spotkanie P (Wren) jest nowe w module, a spotkanie H obejmuje teraz także zegarmistrza Crake'a.
 
 ### Tabela spotkań
 
-*Kolumna „Pierwszeństwo” mówi, co podsunąć najpierw, gdy gracze pytają „to co robimy?”, i czego nie wolno pominąć. Dopisek w nawiasie mówi, czy spotkanie jest rozpisane (tak), czy ma tylko zarys (nie).*
+*Kolumna „Pierwszeństwo” mówi, co podsunąć najpierw, gdy gracze pytają „to co robimy?”, i czego nie wolno pominąć. Dopisek w nawiasie mówi, czy spotkanie ma już bloki dialogów i testów (tak), czy na razie tylko tekst i rady (nie).*
 
 | Spotkanie | Kiedy | Gdzie | Wyzwalacz | Daje | Pierwszeństwo |
 |---|---|---|---|---|---|
@@ -265,7 +371,7 @@ aktualizacja: 2026-11-20
 
 ### Rytm sceny
 
-*Kwestie otwierające to propozycje narratora. Dialogista może je zmienić w blokach i wtedy poprawia je także tutaj. Spotkania bez tekstu do odczytania (zarys) prowadzisz z głowy, jednym-dwoma zdaniami opisu.*
+*Kwestie otwierające to propozycje narratora. Dialogista może je zmienić w blokach i wtedy poprawia je także tutaj. Spotkania A, C, E, F, G, I, J i O mają tekst i rady, ale jeszcze bez bloków dialogów i testów: kwestie dopowiadasz z „Krótko” i kart NPC.*
 
 #### Spotkania rozpisane
 
@@ -327,47 +433,55 @@ aktualizacja: 2026-11-20
 - Krótko: Wren słucha bez przerywania. Na opowieść o straconej godzinie pyta od razu: „Czy Vane był w pobliżu?”. Oskarżenia nie przyjmie bez dowodu, ale od sceny 04 dorzuca konkret: „Pan Vane podniósł oceny w dwa tygodnie. Ze wszystkiego naraz. Tak się nie da, chyba że ktoś przestał spać” (W4.6). Prośbę o Dział Ksiąg Zakazanych odrzuca: „Przeciwnik zawsze mówi, co zrobi. Wy właśnie mi powiedzieliście”, i od tej chwili uważniej patrzy, kto z grupy nie śpi w nocy (tylko kolor). Przy zegarze kradzieży 2 to tu pada pytanie z kroku 6 sceny 06, jeśli tam nie padło. Wynik: kierunek do 08 (Cassian) albo z powrotem do 06.
 - Awaryjne: `awaryjne-za-dlugo`
 
-#### Spotkania w zarysie (szkic, bez tekstu do odczytania)
+#### Spotkania z tekstem i radami (bloki dialogów i testów w kolejnym etapie)
 
 **Spotkanie A. Kuchnia i skrzaty** (ok. 5 min)
-- Dialog: `s1.scena.12.dialog.skrzat-kuchnia` — „TODO”
-- Zarys: skrzaty chętnie dają jedzenie „dla kolegi”, a Ansel wdycha jego zapach i jest szczęśliwy (Więź, kolor); skrzaty widzą tylko, że ktoś „bierze dwie porcje”.
+- Czytaj: tekst A („Wystarczy połaskotać gruszkę…”); wstawka „Ansel nachyla się nad bułeczką…”, gdy postacie zaniosą mu jedzenie.
+- Dialog: `s1.scena.12.dialog.skrzat-kuchnia` — „Panicz głodny? Panienka głodna? Skrzaty dadzą! Ile porcji, proszę? Dwie? Dla kolegi? Skrzaty dadzą dwie!”
+- Krótko: kolor i Więź. Skrzaty karmią każdego i nie pytają po co; porcję „dla kolegi” pakują w serwetkę. Kto przyjdzie drugi raz, usłyszy od najmniejszego skrzata zmartwione: „Panicz bierze dwie porcje, a je jedną” (nikt w kuchni Ansela nie widzi). Jedzenie zaniesione Anselowi to +1 do Więzi dla postaci, która je przyniosła (raz w module). Ansel nie je, tylko wdycha zapach; jeśli ktoś poda mu bułeczkę do ręki, ręka przejdzie przez ciasto: pokaż to, nie nazywaj. Zdanie o „czwartkach z cynamonem” to okruch jego czasów, nie wskazówka; nie rozwijaj go. Pytania o Ansela, Marrow albo dawne lata: skrzaty niczego nie pamiętają i trapią się tym tak bardzo, że lepiej zmienić temat. Kuchnia jest też kryjówką: skrzaty nikogo nie wydają (karta [[miejsce.schody-przy-kuchni]]). Zamknięcie: postacie wychodzą z naręczem jedzenia, a skrzaty kłaniają się, dopóki drzwi się nie zamkną.
 
 **Spotkanie C. Portret przy schodach** (ok. 5 min)
-- Dialog: `s1.scena.12.dialog.portret-schody` — „TODO”
+- Czytaj: tekst C („Wśród martwych natur przy schodach…”); wstawka „Kobieta przestaje ugniatać…”, gdy postacie spytają o chłopca, który czeka przy schodach.
+- Dialog: `s1.scena.12.dialog.portret-schody` — „Szukacie kogoś, młodzi? Tu się tylko czeka. Jedni na kolację, drudzy na kogoś, kto nie przychodzi.”
 - Flagi: `flaga.marrow-imie-znane`
-- Zarys: portret Ansela nie widzi, ale pamięta, że w 1951 „mały Puchon czekał tu na panią profesor od gwiazd, a potem przestał przychodzić” (założenie robocze).
+- Krótko: portret kucharki (nasza postać, bez karty) Ansela nie widzi, choć chłopiec zwykle siedzi kilka kroków dalej i macha do niej, i nie dziwi się temu. Pamięta strzępy: „dawno temu, jesienią” mały Puchon siadał na najniższym stopniu i czekał na „panią profesor od gwiazd i klepsydr”, a potem przestał przychodzić (założenie robocze). Nazwisko podaje dopiero na uprzejme dopytanie i z trudem: „Marrow. Tak na nią mówili. Zawsze się spieszyła” (rezerwa W2, `flaga.marrow-imie-znane`). Roku nie zna („portrety liczą kolacje, nie lata”), imienia chłopca też nie. Dlaczego pamięta, skoro reszta zamku zapomniała, nie wyjaśniaj; jeśli gracze zapytają, portret sam się dziwi i wraca do ciasta. Ansel, jeśli słyszy, pyta postać szeptem: „Ona mnie pamięta?”. Uczciwa odpowiedź to +1 do Więzi. Zamknięcie: kucharka znowu nuci i fałszuje w tym samym miejscu.
 
-**Spotkanie E. Profesor Sprout i rejestr Hufflepuffu** (ok. 5 min)
-- Dialog: `s1.scena.12.dialog.sprout-rejestr` — „TODO”
+**Spotkanie E. Profesor Sprout i rejestr Hufflepuffu** (ok. 5 min, za dnia, najlepiej przed kolacją)
+- Czytaj: tekst E („W ciepłym korytarzu pod kuchnią…”); wstawka „Profesor odstawia doniczkę…”, gdy postacie poproszą o sprawdzenie; wstawka „Ansel staje przy beczkach…” tylko wtedy, gdy Ansel jest przy postaci.
+- Dialog: `s1.scena.12.dialog.sprout-rejestr` — „Szósty rok, i nie tylko moi? No proszę. Kochaneczki, jeśli któryś z moich Puchonów się zgubił, mówcie od razu. Ja ich wszystkich liczę.”
 - Flagi: `flaga.ansel-poza-spisem`
-- Zarys: Sprout nie znajduje Ansela Draya w rejestrze domu ani teraz, ani wstecz (W2.2), a Ansel przy beczkach próbuje wystukać rytm i ręka przechodzi przez drewno (W2.3).
+- Krótko: we wrześniu Sprout liczy pierwszoroczniaków przed kolacją i nosi rejestr domu pod pachą, więc sprawdza od ręki. Ansela Draya nie ma ani wśród obecnych, ani w rocznikach wstecz (W2.2). Martwi się: obiecuje poszukać jeszcze w archiwum szkoły i pyta, czy postacie dobrze się czują i czy śpią. Na „ducha Puchona” prycha, że jedynym duchem jej domu jest Gruby Mnich (karta). Gdy postacie upierają się, że chłopiec stoi obok, rozgląda się życzliwie, nikogo nie widzi i zaczyna martwić się o nie, nie o niego. Ręka Ansela w beczce (W2.3) to dowód tylko dla postaci; Sprout go nie zobaczy. Jeśli w scenie 05 Sprout już sprawdzała rejestr (blok `sprout-schody`), daj jej jedno zdanie: „Sprawdziłam jeszcze raz, wieczorem. Nic” i zostaw resztę jako kolor. Zamknięcie: Sprout odsyła na kolację, Puchoni wystukują rytm w beczkę i znikają w pokoju wspólnym.
 
 **Spotkanie F. Dormitorium i pokój wspólny Slytherinu** (ok. 5 min, siatka 5; kradzież dopiero po scenie 04)
-- Test: `s1.scena.12.test.kradziez-dormitorium`
-- Flagi: `flaga.zegarek-cassiana`, `flaga.karta-u-graczy`
-- Zarys: postać ze Slytherinu widzi nocą, jak Cassian nakręca stojący zegarek i mamrocze liczby (W4.7); zegarek pod poduszką, karta w podszewce kufra (dopisek o oddawaniu, W7.2, handout `s1.handout.karta-pozyczajacego`), porażka budzi Cassiana.
+- Czytaj: tekst F, wariant 1 („Dormitorium leży pod jeziorem…”, chłopiec) albo 2 („Pokój wspólny po północy…”, dziewczyna); wstawka „Zegarek jest cięższy…” po udanej kradzieży; wstawka „Oddech urywa się w pół…” po porażce; wstawka „Podszewka wieka…”, gdy postać zagląda do kufra (tylko wariant 1).
+- Test: `s1.scena.12.test.kradziez-dormitorium` (liczby: mechanik; podstawa to test kradzieży w karcie [[przedmiot.zegarek-cassiana]])
+- Flagi: `flaga.zegarek-cassiana`, `flaga.zegarek-u-graczy`, `flaga.karta-u-graczy`, `flaga.cassian-czujny` (po porażce)
+- Krótko: tylko dla postaci ze Slytherinu i dopiero od wieczoru po scenie 04 (siatka 5). Najpierw zwykłe życie: postać widzi i słyszy, jak Cassian nocą nakręca stojący zegarek i liczy szeptem (W4.7). Niczego nie tłumacz; liczby to minuty, które już „pożyczył” (założenie robocze), ale gracze mają to zgadywać sami. Nie wypychaj gracza do kradzieży: może tylko patrzeć i rano opowiedzieć drużynie, to też pełne spotkanie. Gdy kradnie: jeden test na zegarek. Karta leży w podszewce kufra u stóp łóżka (wstawka „Podszewka wieka…”); po jej wyjęciu daj handout `s1.handout.karta-pozyczajacego` (dopisek o oddawaniu, W7.2). Czy kufer to osobny test, ustala mechanik. Po wygranej zegar kradzieży staje, a Cassian odkrywa stratę w ciągu godziny (rano, jeśli spał) i sam przychodzi: spotkanie O, potem scena 08. Po porażce Cassian nie robi hałasu i nie budzi dormitorium: mówi „Nie”, chowa zegarek pod koszulę i od tej nocy nosi go przy sobie; rano przy śniadaniu patrzy na postać i milczy. Kolejnej próby kradzieży nie ma. Jeśli postać zamiast kraść odezwie się szeptem, Cassian odpowiada krótko i zimno („Śpij. Niczego nie widziałeś”) i to jest wejście do sceny 08 nazajutrz. Zamknięcie: zielona poświata, cisza, oddech za kotarą.
 
 **Spotkanie G. Sowiarnia** (ok. 5 min)
-- Zarys: list do domu i sowa, która nie chce lecieć, gdy obok stoi Ansel (założenie robocze: zwierzęta go wyczuwają, ale nie widzą).
+- Czytaj: tekst G („Schody na sowiarnię kręcą się…”); wstawka „Sowa, która usiadła ci już…”, gdy Ansel jest przy postaci.
+- Krótko: kolor i tło postaci. Postać pisze list do domu; zapytaj gracza, do kogo pisze i jakie jedno zdanie jest w liście. To dobre miejsce na niepokój roku 1969: rodzice w listach pytają, czy w szkole „spokojnie”, i proszą, żeby nie chodzić samemu. Opcjonalnie sowa przynosi komuś gazetę z nagłówkiem „Charłacy maszerują pod Ministerstwem” (wymysł kampanii); nie komentuj, wystarczy, że ktoś szybko ją składa. Gdy Ansel towarzyszy postaci, sowa go wyczuwa, ale nie widzi (założenie robocze: zwierzęta czują Ansela, nie widzą go) i nie weźmie listu, dopóki chłopiec nie zejdzie na schody. Ansel przeprasza i mówi najwyżej jedno zdanie o mamie, np. „Mama też pisze. W czwartki”, i nic więcej (o mamie w Sesji 1 tylko jednym zdaniem). Zamknięcie: sowa odlatuje nad jezioro i znika w szarości.
 
 **Spotkanie I. Pierwszoroczniak na schodach** (ok. 5 min, przy zegarze kradzieży 2)
-- Dialog: `s1.scena.12.dialog.pierwszoroczniak` — „TODO”
+- Czytaj: tekst I („Na ruchomych schodach jest tłok…”); wstawka „Chłopiec, wciąż na stopniu…”, gdy Ansel jest przy postaci; wstawka „Przez tłum przepycha się prefekt…” na zamknięcie albo wtedy, gdy postacie nic nie robią.
+- Dialog: `s1.scena.12.dialog.pierwszoroczniak` — „Ja nie spałem. Szedłem na Zielarstwo. Która jest godzina? Proszę, która jest godzina?”
 - Flagi: `flaga.rejestr-godzin`
-- Zarys: pierwszoroczniak mdleje na schodach, „nie wie, kiedy zasnął” i widział mignięcie „ducha” w żółtym krawacie (W4.3); prefekt zabiera go do skrzydła szpitalnego, a Wren zjawia się chwilę później (wstawka przy spotkaniu P).
+- Krótko: samo przychodzi, gdy zegar kradzieży doszedł do 2 (zwykle wtorek 23 września po obiedzie, scena 06), a postacie są na schodach albo idą przez zamek. Chłopiec nie jest ranny, tylko oszołomiony i przestraszony. Ostatnie, co pamięta, to wyjście z Wielkiej Sali po obiedzie; gdy postacie podadzą mu godzinę, wychodzi, że brakuje mu około czterdziestu minut (założenie robocze). Zanim się ocknął, widział „ducha” w żółtym krawacie: „Mignął i zniknął”. To nowy wpis do rejestru godzin (W4.3): dzień, godzina, miejsce. Co Cassian zrobił z tym czasem, gracze mogą sprawdzić sami: tego popołudnia znowu zbiera pochwały (założenie robocze: na Eliksirach u Slughorna; przy kolacji ktoś o tym mówi). Postać, która usiądzie przy chłopcu i go uspokoi, zanim przyjdzie prefekt, dostaje od niego wdzięczne spojrzenie i jego imię (nadaj je sam). Prefekt zabiera chłopca do skrzydła szpitalnego; torba zostaje na schodach, a chwilę później obok przechodzi Wren (wstawka przed tekstem P). Jeśli I zagrało, a postacie idą potem do Wrena, z tamtej wstawki przeczytaj tylko ostatnie zdanie (Wren wchodzi do sali), bo schody już widzieli.
 
-**Spotkanie J. Maisie Lock i Gideon Pratt** (ok. 5 min)
-- Dialog: `s1.scena.12.dialog.maisie-pratt` — „TODO”
+**Spotkanie J. Maisie Lock i Gideon Pratt** (ok. 5 min, za dnia, między posiłkami)
+- Czytaj: tekst J („Wielka Sala między posiłkami…”); wstawka „Dziewczynka podnosi wzrok…”, gdy Ansel jest przy postaci.
+- Dialog: `s1.scena.12.dialog.maisie-pratt` — Pratt: „Wy też zbieracie przypadki? Świetnie. Wreszcie ktoś z liczbami. Ona twierdzi, że czwartek, ale nie umie powiedzieć, o której.”
 - Flagi: `flaga.rejestr-godzin`, `flaga.plotka-duch-puchona`
-- Zarys: daty ich straconych godzin pasują do sukcesów Cassiana (W4.3; tabela „Rejestr godzin” w scenie 06).
+- Krótko: Pratt zbiera dane do skargi do Flitwicka („anomalia”) i przyczepił się do Maisie, a ona przy nim się zamyka (przy innych zaprzecza, karta). Postać, która stanie po stronie Maisie (grzecznie odsunie Pratta albo po prostu usiądzie obok), dostaje od niej kartkę z datą: czwartek 18 września, sprawdzian, trzecie pytanie, około jedenastej, kwadrans. Pratt potraktowany rzeczowo podaje swój wtorek 16 września, 14:12–15:11, korytarz Eliksirów, „pięćdziesiąt dziewięć minut, nie godzina” (tabela „Rejestr godzin” w scenie 06). Oboje widzieli „ducha Puchona” mignięciem: Maisie się boi, Pratt mówi „zjawisko optyczne”. Dopasowanie dat do sukcesów Cassiana robią gracze, nigdy NPC. Jeśli J gra się po kroku 5 sceny 06, postacie mają już te dane: zrób z J kolor, a Pratt pokazuje najwyżej nowy wpis (pierwszoroczniak ze schodów, jeśli I zagrało). Kpina z Maisie albo z Pratta zamyka oboje (karty). Zamknięcie: dzwon; Pratt wstaje pierwszy i zapisuje godzinę.
 
-**Spotkanie O. Cassian przychodzi po zegarek** (ok. 5 min, gdy zegarek jest u graczy po kradzieży)
-- Dialog: `s1.scena.12.dialog.cassian-po-zegarek` — „TODO”
-- Zarys: tego samego wieczoru albo nazajutrz Cassian, blady i wściekły, sam szuka postaci; to wejście do sceny 08.
+**Spotkanie O. Cassian szuka zegarka** (ok. 2 min, potem scena 08; gdy zegarek jest u graczy po kradzieży)
+- Czytaj: tekst O („Wieść biegnie przed nim…”; pierwszy akapit tylko wśród ludzi), potem od razu tekst 1c sceny 08 („Najpierw słyszycie zegarek…”).
+- Dialog: `s1.scena.12.dialog.cassian-po-zegarek` — „Oddajcie.” (prostuje się) „Proszę. To rodzinna pamiątka.” (to samo otwarcie co `s1.scena.08.dialog.cassian-oddajcie`)
+- Krótko: samo przychodzi, tego samego wieczoru albo rano po kradzieży (F albo siatka 1). To nie osobna rozmowa, tylko zapowiedź wejścia 1c do sceny 08: daj graczom minutę, żeby zdecydowali, gdzie chcą go przyjąć (pusta sala Obrony, korytarz, przy ludziach). Jeśli się chowają, Cassian i tak ich znajduje najpóźniej przy następnym posiłku: zegarek tyka i grzeje tym mocniej, im bliżej jest właściciel (założenie robocze, zgodne z tekstem 1c). Przy ludziach Cassian nie robi sceny, tylko prosi szeptem o rozmowę „na zewnątrz”. Zegar kradzieży stoi, dopóki zegarek jest u graczy.
 
 ### Ansel w wędrówkach
 
-Ansel nie jest osobnym spotkaniem, tylko cieniem, który chodzi z drużyną. Po scenie 05 może towarzyszyć postaci, która pierwsza zwróciła się do Ansela po imieniu (jak w remisie ze sceny 05) w **jednym** spotkaniu (stopień 3, towarzyszenie): najlepiej w K (biblioteka, gablota) albo w B (Mnich go nie widzi, ale czuje chłód „jak przy kimś bardzo smutnym”). Nie wchodzi do gabinetu dyrektora sam, tylko gdy go zaprowadzą. Nie idzie na wieżę astronomiczną ani do Sali Wejściowej, gdy bije wielki zegar: wzdryga się i zostaje na schodach. **Więź w module:** +1 za życzliwość (jedzenie z kuchni, imię, wysłuchanie, uczciwa odpowiedź), −1 tylko za odkryte kłamstwo; w spotkaniu N najwyżej do 1, bo to wyrównanie, nie wyścig.
+Ansel nie jest osobnym spotkaniem, tylko cieniem, który chodzi z drużyną. Po scenie 05 może towarzyszyć postaci, która pierwsza zwróciła się do Ansela po imieniu (jak w remisie ze sceny 05) w **jednym** spotkaniu (stopień 3, towarzyszenie): najlepiej w K (biblioteka, gablota) albo w B (Mnich go nie widzi, ale czuje chłód „jak przy kimś bardzo smutnym”). Nie wchodzi do gabinetu dyrektora sam, tylko gdy go zaprowadzą. Nie idzie na wieżę astronomiczną ani do Sali Wejściowej, gdy bije wielki zegar: wzdryga się i zostaje na schodach. Wstawki z Anselem w E, G, I i J to warianty tego jednego towarzyszenia, nie dodatkowe; w A i C Ansel jest „u siebie”, przy schodach, więc te wstawki nie liczą się do limitu. Do pokoju wspólnego i dormitorium Slytherinu (F) nie wchodzi. **Więź w module:** +1 za życzliwość (jedzenie z kuchni, imię, wysłuchanie, uczciwa odpowiedź), −1 tylko za odkryte kłamstwo; w spotkaniu N najwyżej do 1, bo to wyrównanie, nie wyścig.
 
 ### Rady dla MG, który prowadzi początkujących
 
@@ -379,7 +493,7 @@ Ansel nie jest osobnym spotkaniem, tylko cieniem, który chodzi z drużyną. Po 
 
 ### Linie i zasłony
 
-Spotkanie N wariant 1 (chłopiec na łóżku o świcie) bywa niepokojące; jeśli przy stole jest zasłona na „obcych w sypialni”, użyj wariantu 2 albo 3. Wieża i dzwon to temat śmierci Ansela: w module nikt o tym nie mówi, a strach chłopca przed biciem zegara wystarczy. Księga szlabanów Filcha dotyka wspólnego sekretu graczy: czytaj z niej tylko to, co gracze zgodzili się ujawnić. Filch jest charłakiem; kpina z niemagicznych w jego obecności to w 1969 temat marszów charłaków i napięć czystości krwi, prowadź ją jako ranę Filcha, nie jako żart.
+Spotkanie N wariant 1 (chłopiec na łóżku o świcie) bywa niepokojące; jeśli przy stole jest zasłona na „obcych w sypialni”, użyj wariantu 2 albo 3. Wieża i dzwon to temat śmierci Ansela: w module nikt o tym nie mówi, a strach chłopca przed biciem zegara wystarczy. Księga szlabanów Filcha dotyka wspólnego sekretu graczy: czytaj z niej tylko to, co gracze zgodzili się ujawnić. Filch jest charłakiem; kpina z niemagicznych w jego obecności to w 1969 temat marszów charłaków i napięć czystości krwi, prowadź ją jako ranę Filcha, nie jako żart. Spotkanie F to nocne skradanie się przy śpiącym koledze: jeśli przy stole kradzież albo „obcy przy łóżku” to zasłona, zostaw z F tylko obserwację zza kotary i przenieś zdobycie zegarka do sceny 08. Omdlenie pierwszoroczniaka (I) gra się bez obrażeń i bez szczegółów medycznych: chłopiec ocknie się od razu, a strach jest w pytaniu „która godzina?”, nie w upadku.
 
 ### Czym zamknąć moduł
 
