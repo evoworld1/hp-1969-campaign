@@ -38,7 +38,7 @@ function sekcjaOgolna(tlum) {
 function sekcjaKoniec() {
   return '<div class="krok"><h3>Różdżka, zwierzę i ostatnie szlify</h3><p><label>Drewno <input type="text" id="k-drewno"></label> <label>Rdzeń <input type="text" id="k-rdzen"></label> <label>Długość (cale) <input type="number" id="k-dl" value="11" min="8" max="18" style="width:4rem"></label> <label>Giętkość <input type="text" id="k-giet" value="Springy"></label> <label>Wytrzymałość <input type="text" id="k-wyt" value="2D+2" size="6"></label></p>' +
     '<p><label>Premie różdżki <input type="text" id="k-premie" size="60"></label></p>' +
-    '<p><label>Zwierzę <select id="k-zw"><option>sowa</option><option>kot</option><option>ropucha</option></select></label> <label>imię <input type="text" id="k-zwimie"></label></p>' +
+    '<p><label>Zwierzę towarzyszące i jego imię (np. sowa Kasjopeja, kot, ropucha) <input type="text" id="k-zw" size="40"></label></p>' +
     '<p><label>Osoba, na której zależy <input type="text" id="k-osoba" size="50"></label></p><p><label>Jak minęły wakacje 1969 <input type="text" id="k-wakacje" size="50"></label></p></div>' +
     '<p><button class="glowny" id="k-zapisz">Zapisz postać i pokaż kartę</button> <span id="k-bledy" class="blad"></span></p>';
 }
@@ -61,7 +61,7 @@ function wspolne(p) {
   p.charakter = "Chce: " + val("k-chce") + ". Lubi: " + val("k-lubi") + ".";
   p.sekret = val("k-boi");
   p.rozdzka = { drewno: val("k-drewno"), dlugosc_cali: parseInt(val("k-dl"), 10) || 11, rdzen: val("k-rdzen"), gietkosc: val("k-giet"), wytrzymalosc: val("k-wyt"), premie: val("k-premie") ? val("k-premie").split(/[;,]\s*/) : [], opis: "" };
-  p.zwierze = { rodzaj: val("k-zw"), imie: val("k-zwimie") };
+  p.zwierze = { rodzaj: val("k-zw"), imie: "" };
   p.osoba_bliska = val("k-osoba"); p.wakacje_1969 = val("k-wakacje");
   p.zdrowie = { body_kolka: 0, mind_kolka: 0 }; p.pewnosc = "nasze";
   return p;

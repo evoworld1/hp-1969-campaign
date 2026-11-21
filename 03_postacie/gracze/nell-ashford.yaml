@@ -59,8 +59,8 @@ rozdzka:
   opis: Prezent od rodziców, pielęgnowana, trzymana w wyściełanym etui. W rękojeści migocze odrobina schwytanego
     blasku gwiazdy.
 zwierze:
-  rodzaj: sowa
-  imie: Kasjopeja
+  rodzaj: ''
+  imie: ''
 zaklecia:
   wspolny:
   - nazwa: Lumos

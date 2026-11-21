@@ -57,8 +57,8 @@ rozdzka:
   - Wand Loyalty +1
   opis: 'Kupiona z drugiej ręki: rękojeść wytarta do gładkości, na drewnie drobne rysy.'
 zwierze:
-  rodzaj: ropucha
-  imie: Zawias
+  rodzaj: ''
+  imie: ''
 zaklecia:
   wspolny:
   - nazwa: Lumos
@@ -159,6 +159,6 @@ notatki_mg:
   wolno z puli wolnej. Do potwierdzenia.'
 - 'Różdżka: Mahogany + Phoenix Feather to wybór z s. 27-29 zamiast Black Walnut z archetypu C (Zora lubi
   transmutację). Do potwierdzenia.'
-- 'Wygląd, osoba bliska, wakacje, imię ropuchy: PROPOZYCJE, gracz nie podał.'
+- 'Wygląd, osoba bliska, wakacje: PROPOZYCJE, gracz nie podał. Zwierzę towarzyszące: gracz wpisuje sam (sowa, kot albo ropucha, własne imię).'
 - 'Cecha rzadka: brak (MG rzuci przy stole).'
 pewnosc: nasze

@@ -82,7 +82,7 @@ window.renderKarta = function (app, p, tlum) {
     "<div class='w2'><div><h2>Różdżka</h2><div><b>" + esc(tlum(r.drewno) || r.drewno || "") + "</b> <span class='malo'>(" + esc(r.drewno || "") + ")</span>, rdzeń: <b>" + esc(tlum(r.rdzen) || r.rdzen || "") + "</b> <span class='malo'>(" + esc(r.rdzen || "") + ")</span>, " + esc(r.dlugosc_cali || "") + " cali</div>" +
     "<div>Giętkość: " + esc(tlum(r.gietkosc) || r.gietkosc || "") + " · Wytrzymałość: " + esc(r.wytrzymalosc || "") + "</div>" +
     "<div>Premie: " + (r.premie || []).map(function (x) { return pl(x); }).join("; ") + "</div><div class='malo'>" + esc(r.opis || "") + "</div></div>" +
-    "<div><h2>Zwierzę</h2><div>" + esc(z.rodzaj || "") + (z.imie ? " „" + esc(z.imie) + "”" : "") + "</div><h2>Wygląd (opisz sam)</h2>" + lin(3) + "</div></div>" +
+    "<div><h2>Zwierzę (sowa, kot lub ropucha: wpisz i nazwij)</h2>" + ((z.rodzaj || z.imie) ? "<div>" + esc(z.rodzaj || "") + (z.imie ? " „" + esc(z.imie) + "”" : "") + "</div>" : lin(1)) + "<h2>Wygląd (opisz sam)</h2>" + lin(3) + "</div></div>" +
     "<h2>Zdrowie: zaznaczaj kółka od lewej, ołówkiem</h2>" + zdr +
     "<h2>Charakter i sekret</h2><div><b>Charakter:</b> " + esc(p.charakter || "") + "</div><div><b>Sekret:</b> " + esc(p.sekret || "") + "</div>" +
     "<div><b>Osoba, na której zależy:</b> " + esc(p.osoba_bliska || "") + "</div><div><b>Wakacje 1969:</b> " + esc(p.wakacje_1969 || "") + "</div>" +

@@ -16,9 +16,6 @@ window.tlum = tlum;
 var KARA = [0, 1, 2, 3, 5, 7, "X"];
 var STANY = [["", ""], ["Wstrząśnięty", "Roztrzęsiony"], ["Posiniaczony", "Oszołomiony"], ["Zakrwawiony", "Wyczerpany"], ["Złamany", "Zdezorientowany"], ["Gasnący", "Majaczący"], ["Bez życia", "Bez świadomości"]];
 var CECHY = ["Vitality", "Speed", "Wits", "Knowledge", "Focus"];
-var DADA = ["Flipendo", "Impedimenta", "Trip Jinx", "Stinging Jinx"];
-var TRANSM = ["Incendio", "Aguamenti", "Incarcerous"];
-function umZaklecia(n) { return DADA.indexOf(n) >= 0 ? "D.A.D.A." : TRANSM.indexOf(n) >= 0 ? "Transfiguration" : "Charms"; }
 
 var P = null, ST = null, KLUCZ = "", zakladka = "karta", kalkWstep = null;
 function zapisz() { try { localStorage.setItem(KLUCZ, JSON.stringify(ST)); } catch (e) {} }
@@ -79,8 +76,9 @@ function tKarta(t) {
     (P.specjalizacje && P.specjalizacje.length ? "<p><b>Specjalizacje (+1):</b> " + P.specjalizacje.map(esc).join("; ") + "</p>" : "") + "<p><b>Przedmioty 6. roku:</b> " + (P.przedmioty_6_roku || []).map(function (x) { return esc(tlum(x) || x); }).join(", ") + "</p></div>" +
     '<div class="sekg"><h3>Różdżka</h3><p><b>' + esc(tlum(r.drewno) || r.drewno) + "</b> (" + esc(r.drewno) + "), rdzeń: <b>" + esc(tlum(r.rdzen) || r.rdzen) + "</b> (" + esc(r.rdzen) + "), " + esc(r.dlugosc_cali) + " cali · giętkość: " + esc(tlum(r.gietkosc) || r.gietkosc) + " · wytrzymałość: " + esc(r.wytrzymalosc) + "</p>" +
     "<p><b>Premie do rzutu zaklęcia z tej grupy:</b> " + (r.premie || []).map(function (x) { return esc(premiaPL(x)); }).join("; ") + "</p><p class='puste'>" + esc(r.opis || "") + "</p></div>" +
-    '<div class="sekg"><h3>Zwierzę, charakter, sekret</h3><p><b>Zwierzę:</b> ' + esc(z.rodzaj || "") + (z.imie ? " „" + esc(z.imie) + "”" : "") + "</p><p><b>Charakter:</b> " + esc(P.charakter || "") + "</p><p><b>Sekret:</b> " + esc(P.sekret || "") + "</p><p><b>Osoba, na której zależy:</b> " + esc(P.osoba_bliska || "") + "</p><p><b>Wakacje 1969:</b> " + esc(P.wakacje_1969 || "") + "</p></div>";
+    '<div class="sekg"><h3>Zwierzę, charakter, sekret</h3><p><b>Zwierzę towarzyszące (wpisz własne: sowa, kot lub ropucha i imię):</b> <input id="zw-pole" type="text" style="width:100%;max-width:26rem;padding:.4rem;border:1px solid var(--linia);border-radius:6px;background:var(--bg)" value="' + esc(ST.zwierze != null ? ST.zwierze : ((z.rodzaj || "") + (z.imie ? " " + z.imie : ""))) + '"></p><p><b>Charakter:</b> ' + esc(P.charakter || "") + "</p><p><b>Sekret:</b> " + esc(P.sekret || "") + "</p><p><b>Osoba, na której zależy:</b> " + esc(P.osoba_bliska || "") + "</p><p><b>Wakacje 1969:</b> " + esc(P.wakacje_1969 || "") + "</p></div>";
   t.querySelectorAll(".um").forEach(function (b) { b.onclick = function () { otworzKalk({ um: b.getAttribute("data-u") }); }; });
+  var zp = document.getElementById("zw-pole"); if (zp) zp.oninput = function () { ST.zwierze = zp.value; zapisz(); };
 }
 function premiaPL(s) {
   var par = [];
@@ -128,6 +126,7 @@ function tZdrowie(t) {
 function num(id) { var v = parseFloat(String(document.getElementById(id).value).replace(",", ".")); return isNaN(v) ? null : v; }
 function poziom(suma, tr) {
   if (tr == null || suma == null) return "";
+  if (tr <= 0) return "sukces (trudność 0)";
   if (suma >= 3 * tr) return "sukces niewiarygodny (co najmniej 3× trudność)";
   if (suma >= 2 * tr) return "sukces imponujący (co najmniej 2× trudność)";
   if (suma >= tr) return "sukces";
@@ -139,42 +138,103 @@ function kolkaZRanyIOdp(obr, odp) {
   if (odp <= 0) return 3;
   if (obr >= 3 * odp) return 3; if (obr >= 2 * odp) return 2; if (obr >= odp) return 1; return 0;
 }
+var TYP_GRUPA = { "Charm": "Charms", "Jinx": "Jinxes", "Hex": "Hexes", "Curse": "Curses", "Transfiguration": "Transfiguration" };
+function premieRozdzki() {
+  var wyn = [];
+  ((P.rozdzka || {}).premie || []).forEach(function (x) { var m = String(x).match(/^(.+?)\s\+(\d+)/); if (m) wyn.push({ n: m[1].trim(), v: parseInt(m[2], 10) }); });
+  return wyn;
+}
+function premiaDla(nazwy) {
+  var suma = 0, opis = [];
+  premieRozdzki().forEach(function (p) { if (nazwy.indexOf(p.n) >= 0) { suma += p.v; opis.push((tlum(p.n) || p.n) + " +" + p.v); } });
+  return { suma: suma, opis: opis.join(", ") };
+}
+function umVal(n) { return (P.umiejetnosci || {})[n] || 0; }
+function infoZakl(n) { return (D.zaklecia || {})[n] || { typ: "Charm", um: "Charms", grupy: [], cel: false }; }
+var NIEKORZYSCI = [["niew", "Zaklęcie niewerbalne", 6], ["cudza", "Cudza różdżka (ZD-01; plus jej lojalność)", 5], ["uszk", "Uszkodzona różdżka", 5], ["bezr", "Bez różdżki", 9]];
+
 function tKalk(t) {
   var w = kalkWstep || {}; kalkWstep = null;
   var um = Object.keys(P.umiejetnosci || {});
-  var wybCecha = w.zakl ? "Focus" : "Wits", wybUm = w.um || (w.zakl ? umZaklecia(w.zakl) : "Observation");
-  if (um.indexOf(wybUm) < 0) wybUm = um.indexOf("Observation") >= 0 ? "Observation" : um[0];
-  t.innerHTML = '<div class="sekg kalk"><h3>Test' + (w.zakl ? ": " + esc(w.zakl) : "") + '</h3><p class="puste">Rzuć własną kością (1D10) i wpisz wynik. Panel doda cechę i umiejętność.</p>' +
-    '<label>Cecha <select id="k-cecha">' + CECHY.map(function (c) { return '<option value="' + c + '"' + (c === wybCecha ? " selected" : "") + ">" + esc(tlum(c)) + " (" + ((P.cechy || {})[c] || 0) + ")</option>"; }).join("") + "</select></label>" +
+  var info = w.zakl ? infoZakl(w.zakl) : null;
+  var tryb = w.zakl ? (info.cel ? "pojedynek" : "rzut") : "test";
+  var wybUm = w.um || "Observation";
+  if (um.indexOf(wybUm) < 0) wybUm = um[0];
+  function opcjeCech(sel) { return CECHY.map(function (c) { return '<option value="' + c + '"' + (c === sel ? " selected" : "") + ">" + esc(tlum(c)) + " (" + ((P.cechy || {})[c] || 0) + ")</option>"; }).join(""); }
+  var naglZ = info ? '<p class="puste">Typ: ' + esc(info.typ) + (info.grupy.length ? " · grupa premii różdżki: " + esc(info.grupy.map(function (g) { return tlum(g) || g; }).join(", ")) : "") + " · trudność startowa: " + (info.tr == null ? "?" : info.tr) + ". Wszystkie twoje zaklęcia są opanowane, więc ich aktualna trudność to 0.</p>" : "";
+  var radio = info ? '<p><label style="display:inline"><input type="radio" name="tryb" value="rzut"' + (tryb === "rzut" ? " checked" : "") + ' style="width:auto"> Rzucam zaklęcie (' + (info.typ === "Potion" ? "Wiedza" : "Skupienie") + " + " + esc(tlum(info.um) || info.um) + ')</label> &nbsp; <label style="display:inline"><input type="radio" name="tryb" value="pojedynek"' + (tryb === "pojedynek" ? " checked" : "") + ' style="width:auto"> Atak w pojedynku (Bystrość + wyższa z: Pojedynkowanie, umiejętność zaklęcia)</label></p>' : "";
+  t.innerHTML = '<div class="sekg kalk"><h3>' + (w.zakl ? esc(w.zakl) : "Test") + "</h3>" + naglZ + radio +
+    '<p class="puste" id="k-auto"></p>' +
+    '<label>Cecha <select id="k-cecha">' + opcjeCech("Wits") + "</select></label>" +
     '<label>Umiejętność <select id="k-um"><option value="">brak (0)</option>' + um.map(function (u) { return '<option value="' + esc(u) + '"' + (u === wybUm ? " selected" : "") + ">" + esc(tlum(u) || u) + " (" + P.umiejetnosci[u] + ")</option>"; }).join("") + "</select></label>" +
-    '<label>Wynik kości (1D10) <input id="k-kosc" type="number" inputmode="numeric"></label>' +
-    '<label>Inne modyfikatory (premia różdżki, specjalizacja, pomoc…) <input id="k-mod" type="number" inputmode="numeric" value="0"></label>' +
-    '<label>Trudność lub cel (od MG) <input id="k-tr" type="number" inputmode="numeric"></label>' +
+    '<label>Wynik twojej kości (1D10) <input id="k-kosc" type="number" inputmode="numeric"></label>' +
+    '<label>Premia różdżki i inne modyfikatory (+/−) <input id="k-mod" type="number" inputmode="numeric" value="0"></label>' +
+    '<label><span id="k-trl">Trudność lub cel (od MG)</span> <input id="k-tr" type="number" inputmode="numeric" value="' + (info && tryb === "rzut" ? 0 : "") + '"></label>' +
+    '<div class="pudg">' + NIEKORZYSCI.map(function (n) { return '<label><input type="checkbox" class="k-nk" data-v="' + n[2] + '" style="width:auto"> ' + n[1] + " (+" + n[2] + " do trudności)</label>"; }).join("") + "</div>" +
     '<label><input type="checkbox" id="k-kara" checked style="width:auto"> dodaj karę zdrowia do trudności (teraz: ' + (kara() === 0 ? "brak" : (kara() === "X" ? "brak akcji" : "+" + kara())) + ')</label><div id="k-wyn" class="wynikk">Wpisz wynik kości.</div></div>' +
     '<div class="sekg kalk"><h3>Obrażenia, które zadaję</h3><p class="puste">Rzuć kośćmi obrażeń (np. 3D dla iskier), wpisz sumę. Panel doda cechę.</p>' +
     '<label>Suma kości obrażeń <input id="o-kosci" type="number" inputmode="numeric"></label>' +
-    '<label>Dodaj cechę <select id="o-cecha">' + CECHY.map(function (c) { return '<option value="' + c + '"' + (c === "Focus" ? " selected" : "") + ">" + esc(tlum(c)) + " (" + ((P.cechy || {})[c] || 0) + ")</option>"; }).join("") + '</select></label>' +
-    '<label>Inne dodatki (np. +1D z mocnego rzutu, wpisz jako liczbę) <input id="o-mod" type="number" inputmode="numeric" value="0"></label>' +
+    '<label>Dodaj cechę <select id="o-cecha">' + opcjeCech("Focus") + '</select></label>' +
+    '<label>Inne dodatki (np. +1D z mocnego rzutu: wpisz wynik tej kości) <input id="o-mod" type="number" inputmode="numeric" value="0"></label>' +
     '<label>Rzut obronny celu (1D10 + Żywotność + pancerz) <input id="o-odp" type="number" inputmode="numeric"></label><div id="o-wyn" class="wynikk">Wpisz sumę kości obrażeń.</div></div>' +
     '<div class="sekg kalk"><h3>Obrażenia, które dostaję</h3><label>Obrażenia (od MG) <input id="d-obr" type="number" inputmode="numeric"></label><label>Mój rzut (1D10) <input id="d-kosc" type="number" inputmode="numeric"></label><label>Pancerz (jeśli jest) <input id="d-panc" type="number" inputmode="numeric" value="0"></label><div id="d-wyn" class="wynikk">Wpisz obrażenia i swój rzut.</div><button id="d-zapisz" hidden>Zaznacz te kółka na ciele</button></div>';
-  function licz() {
-    var c = (P.cechy || {})[document.getElementById("k-cecha").value] || 0, u = document.getElementById("k-um").value ? (P.umiejetnosci[document.getElementById("k-um").value] || 0) : 0;
-    var kosc = num("k-kosc"), mod = num("k-mod") || 0, tr = num("k-tr"), k = kara(), kv = (document.getElementById("k-kara").checked && k !== "X") ? k : 0;
-    var el = document.getElementById("k-wyn");
-    if (kosc == null) el.textContent = "Wpisz wynik kości.";
-    else {
-      var s = kosc + c + u + mod, trk = tr == null ? null : tr + kv;
-      el.innerHTML = "<b>Suma: " + s + "</b> (kość " + kosc + " + cecha " + c + " + umiejętność " + u + (mod ? " + modyfikatory " + mod : "") + ")" + (trk == null ? "<br>Wpisz trudność, żeby zobaczyć wynik." : "<br>Trudność: " + tr + (kv ? " + kara zdrowia " + kv : "") + " = <b>" + trk + "</b><br><b>" + poziom(s, trk) + "</b> (" + (s >= trk ? "zapas +" + (s - trk) : "brakuje " + (trk - s)) + ")") + (trk != null && s < trk && ST.sp > 0 ? "<br><span class='puste'>Możesz wydać Story Point: dorzuć jeszcze 1D10 do sumy.</span>" : "") + (kara() === "X" ? "<br><b>Stan 6. kółka: postać nie może wykonywać akcji.</b>" : "");
+  var el = function (id) { return document.getElementById(id); };
+  var ustawAuto = function () {
+    if (!info) return;
+    var tr = (document.querySelector("input[name=tryb]:checked") || {}).value || "rzut";
+    var cechy = info.typ === "Potion" ? "Knowledge" : "Focus", umi = info.um, grupy = info.grupy.slice();
+    if (TYP_GRUPA[info.typ]) grupy.push(TYP_GRUPA[info.typ]);
+    var pr = premiaDla(grupy), opis = "";
+    if (tr === "pojedynek") {
+      var pd = premiaDla(["Duelling"]), a = umVal("Duelling") + pd.suma, b = umVal(info.um) + pr.suma - pr.suma;
+      var wydl = umVal("Duelling"), wzakl = umVal(info.um);
+      // wyższa wartość umiejętności (z premią różdżki do jej grupy)
+      var sumaD = wydl + pd.suma, sumaZ = wzakl + pr.suma;
+      cechy = "Wits";
+      if (sumaD >= sumaZ) { umi = "Duelling"; el("k-mod").value = pd.suma; opis = "Atak: Bystrość + Pojedynkowanie " + wydl + (pd.suma ? " + różdżka (" + pd.opis + ")" : "") + " (wyższe niż " + (tlum(info.um) || info.um) + " " + wzakl + (pr.suma ? " + " + pr.suma : "") + ")."; }
+      else { el("k-mod").value = pr.suma; opis = "Atak: Bystrość + " + (tlum(info.um) || info.um) + " " + wzakl + (pr.suma ? " + różdżka (" + pr.opis + ")" : "") + " (wyższe niż Pojedynkowanie " + wydl + (pd.suma ? " + " + pd.suma : "") + ")."; }
+      el("k-trl").textContent = "Cel ataku: rzut obrony przeciwnika (unik lub Protego) od MG";
+      el("k-tr").value = el("k-tr").value === "0" ? "" : el("k-tr").value;
+    } else {
+      el("k-mod").value = pr.suma;
+      opis = "Rzut zaklęcia: " + (cechy === "Knowledge" ? "Wiedza" : "Skupienie") + " + " + (tlum(umi) || umi) + (pr.suma ? " + różdżka (" + pr.opis + ")" : "") + ". Trudność aktualna = 0 (opanowane).";
+      el("k-trl").textContent = "Trudność (opanowane: 0, MG dodaje swoje utrudnienia)";
+      if (el("k-tr").value === "") el("k-tr").value = 0;
     }
-    var ok = num("o-kosci"), oc = (P.cechy || {})[document.getElementById("o-cecha").value] || 0, om = num("o-mod") || 0, odp = num("o-odp"), eo = document.getElementById("o-wyn");
+    el("k-cecha").value = cechy; el("k-um").value = umi;
+    el("k-auto").textContent = opis;
+  };
+  var licz = function () {
+    var c = (P.cechy || {})[el("k-cecha").value] || 0, u = el("k-um").value ? (P.umiejetnosci[el("k-um").value] || 0) : 0;
+    var kosc = num("k-kosc"), mod = num("k-mod") || 0, tr = num("k-tr"), k = kara(), kv = (el("k-kara").checked && k !== "X") ? k : 0;
+    var nk = 0; document.querySelectorAll(".k-nk:checked").forEach(function (x) { nk += parseInt(x.getAttribute("data-v"), 10); });
+    var wy = el("k-wyn");
+    var duel = info && (document.querySelector("input[name=tryb]:checked") || {}).value === "pojedynek";
+    if (kosc == null) { wy.textContent = (info && tr === 0 && !nk && !kv && !duel) ? "Zaklęcie opanowane i nic go nie utrudnia: udaje się bez rzutu." : "Wpisz wynik kości."; }
+    else {
+      var sum = kosc + c + u + mod, trk = tr == null ? null : tr + kv + nk;
+      var skladnik = "(kość " + kosc + " + cecha " + c + " + umiejętność " + u + (mod ? " + modyfikatory " + mod : "") + ")";
+      var txt = "<b>Suma: " + sum + "</b> " + skladnik;
+      if (trk == null) txt += "<br>Wpisz trudność lub cel, żeby zobaczyć wynik.";
+      else {
+        txt += "<br>" + (duel ? "Cel" : "Trudność") + ": " + tr + (nk ? " + niekorzyści " + nk : "") + (kv ? " + kara zdrowia " + kv : "") + " = <b>" + trk + "</b><br>";
+        if (duel) txt += "<b>" + (sum >= trk ? "Atak trafia" : "Atak chybia") + "</b> (" + (sum >= trk ? "zapas +" + (sum - trk) : "brakuje " + (trk - sum)) + ")" + (sum >= 3 * trk ? "<br>Wynik co najmniej 3× celu: zaklęcie wzmocnione o dwa stopnie (zob. tabela ZD-09)." : sum >= 2 * trk ? "<br>Wynik co najmniej 2× celu: zaklęcie wzmocnione o jeden stopień (zob. tabela ZD-09). W pojedynkach szkolnych tylko opis." : "");
+        else txt += "<b>" + poziom(sum, trk) + "</b> (" + (sum >= trk ? "zapas +" + (sum - trk) : "brakuje " + (trk - sum)) + ")";
+        if (sum < trk && ST.sp > 0) txt += "<br><span class='puste'>Możesz wydać Story Point: dorzuć jeszcze 1D10 do sumy.</span>";
+      }
+      if (kara() === "X") txt += "<br><b>6. kółko: postać nie może wykonywać akcji.</b>";
+      wy.innerHTML = txt;
+    }
+    var ok = num("o-kosci"), oc = (P.cechy || {})[el("o-cecha").value] || 0, om = num("o-mod") || 0, odp = num("o-odp"), eo = el("o-wyn");
     if (ok == null) eo.textContent = "Wpisz sumę kości obrażeń.";
     else { var obr = ok + oc + om, kol = kolkaZRanyIOdp(obr, odp); eo.innerHTML = "<b>Obrażenia: " + obr + "</b> (kości " + ok + " + cecha " + oc + (om ? " + dodatki " + om : "") + ")" + (odp == null ? "<br>Wpisz rzut obronny celu, żeby zobaczyć, ile kółek straci." : "<br>Cel traci: <b>" + (kol === 0 ? "nic (obrona wystarcza)" : kol + " kółk" + (kol === 1 ? "o" : "a")) + "</b>" + (kol >= 2 ? " i robi test przytomności" : "")) + "<br><span class='puste'>W pojedynkach szkolnych i pokazach to tylko opis, bez ran.</span>"; }
-    var dobr = num("d-obr"), dk = num("d-kosc"), pa = num("d-panc") || 0, ed = document.getElementById("d-wyn"), bt = document.getElementById("d-zapisz");
+    var dobr = num("d-obr"), dk = num("d-kosc"), pa = num("d-panc") || 0, ed = el("d-wyn"), bt = el("d-zapisz");
     bt.hidden = true;
     if (dobr == null || dk == null) ed.textContent = "Wpisz obrażenia i swój rzut.";
     else { var odpm = dk + ((P.cechy || {}).Vitality || 0) + pa, kol2 = kolkaZRanyIOdp(dobr, odpm); ed.innerHTML = "Twoja odporność: <b>" + odpm + "</b> (kość " + dk + " + Żywotność " + ((P.cechy || {}).Vitality || 0) + (pa ? " + pancerz " + pa : "") + ")<br>Tracisz: <b>" + (kol2 === 0 ? "nic" : kol2 + " kółk" + (kol2 === 1 ? "o" : "a") + " ciała") + "</b>" + (kol2 >= 2 ? "<br>MG zarządzi test przytomności (1D10 + Żywotność przeciw " + (kol2 === 2 ? 3 : 6) + " + obecna kara)." : ""); if (kol2 > 0) { bt.hidden = false; bt.onclick = function () { ST.body = Math.min(6, ST.body + kol2); zapisz(); widok(); }; } }
-  }
-  t.addEventListener("input", licz); t.addEventListener("change", licz); licz();
+  };
+  t.addEventListener("input", licz); t.addEventListener("change", function (e) { if (e.target.name === "tryb") ustawAuto(); licz(); });
+  ustawAuto(); licz();
 }
 
 /* ---------- notatki, ściąga, druk ---------- */
@@ -193,7 +253,9 @@ function tSciaga(t) {
   document.getElementById("druk2").onclick = function () { window.print(); };
 }
 function tDruk(t) {
-  window.renderKarta(t, P, tlum);
+  var kopia = JSON.parse(JSON.stringify(P));
+  if (ST.zwierze != null) kopia.zwierze = { rodzaj: ST.zwierze, imie: "" };
+  window.renderKarta(t, kopia, tlum);
   var n = t.querySelector(".karta-nawig"); if (n) n.remove();
   t.insertAdjacentHTML("afterbegin", '<p><button id="druk3" class="glowny">Drukuj kartę lub zapisz jako PDF</button> <span class="puste">(w oknie druku wybierz „Zapisz jako PDF”)</span></p>');
   document.getElementById("druk3").onclick = function () { window.print(); };
