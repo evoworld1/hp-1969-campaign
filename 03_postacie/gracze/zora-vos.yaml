@@ -1,0 +1,164 @@
+# Karta gracza (szybka ścieżka). Kolejność kluczy jak w schemacie MG.
+id: gracz.zora-vos
+imie: Zora Vos
+dom: Slytherin
+rok: 6
+wiek: 16
+archetyp: C (Zręczny kombinator)
+pochodzenie:
+  typ: half-blood
+  rod: ''
+  uwagi: Mechanicznie półkrwi (3 Story Points), bo Zora nie zna ojca i nie wie, jakiej jest krwi. Prawdę
+    ustala MG, nie karta.
+cecha_rzadka: brak
+story_points: 3
+cechy:
+  Vitality: 3
+  Speed: 6
+  Wits: 6
+  Knowledge: 3
+  Focus: 4
+umiejetnosci:
+  Charms: 5
+  D.A.D.A.: 3
+  Transfiguration: 4
+  Potions: 3
+  Astronomy: 1
+  Herbology: 1
+  History of Magic: 1
+  Magical Theory: 1
+  Muggle Studies: 2
+  Divination: 2
+  Stealth: 5
+  Chicanery: 5
+  Concealment: 4
+  Persuasion: 3
+  Observation: 3
+  Balance: 3
+  Broomstick Flying: 3
+  Crafting: 2
+  Trivia: 2
+specjalizacje:
+- Charms (Naprawianie)
+przedmioty_6_roku:
+- Charms
+- Transfiguration
+- D.A.D.A.
+- Potions
+rozdzka:
+  drewno: Mahogany
+  dlugosc_cali: 10
+  rdzen: Phoenix Feather
+  gietkosc: Reasonably springy
+  wytrzymalosc: 2D+2
+  premie:
+  - Transfiguration +3 (Mahogany +2, Phoenix Feather +1)
+  - Fire Magic +1
+  - Wand Loyalty +1
+  opis: 'Kupiona z drugiej ręki: rękojeść wytarta do gładkości, na drewnie drobne rysy.'
+zwierze:
+  rodzaj: ropucha
+  imie: Zawias
+zaklecia:
+  wspolny:
+  - nazwa: Lumos
+    kratki: 1
+  - nazwa: Nox
+    kratki: 1
+  - nazwa: Wingardium Leviosa
+    kratki: 1
+  - nazwa: Diffindo
+    kratki: 1
+  - nazwa: Locomotor
+    kratki: 1
+  - nazwa: Alohomora
+    kratki: 2
+  - nazwa: Reparo
+    kratki: 2
+  - nazwa: Accio
+    kratki: 2
+  - nazwa: Expelliarmus
+    kratki: 2
+  - nazwa: Aparecium
+    kratki: 2
+  - nazwa: Episkey
+    kratki: 2
+  - nazwa: Protego
+    kratki: 3
+  - nazwa: Finite Incantatem
+    kratki: 3
+  - nazwa: Revelio
+    kratki: 3
+  archetyp:
+  - nazwa: Disillusionment Charm
+    kratki: 3
+  - nazwa: Confundo
+    kratki: 3
+  - nazwa: Silencio
+    kratki: 3
+  - nazwa: Quietus
+    kratki: 2
+  - nazwa: Colloportus
+    kratki: 2
+  - nazwa: Spongify
+    kratki: 2
+  - nazwa: Rictustempra
+    kratki: 2
+  - nazwa: Obliteration Charm
+    kratki: 1
+  wybor:
+  - nazwa: Impedimenta
+    kratki: 3
+  - nazwa: Incendio
+    kratki: 2
+  - nazwa: Cistem Aperio
+    kratki: 1
+  zaawansowane:
+  - nazwa: Aguamenti
+    kratki: 3
+  - nazwa: Cave Inimicum
+    kratki: 3
+  - nazwa: Incarcerous
+    kratki: 3
+  - nazwa: Protean Charm
+    kratki: 3
+  - nazwa: Ageing Potion
+    kratki: 3
+  - nazwa: Calming Draught
+    kratki: 3
+  - nazwa: Polyjuice Potion
+    kratki: 3
+  - nazwa: Shrinking Solution
+    kratki: 3
+  - nazwa: Sleeping Draught
+    kratki: 3
+  - nazwa: Wound-cleaning Potion
+    kratki: 3
+zdrowie:
+  body_kolka: 0
+  mind_kolka: 0
+wyglad: Drobna, żylasta, ciemne włosy związane byle jak, na palcach ślady smaru i atramentu, w kieszeniach
+  zawsze śrubki i kawałek drutu.
+charakter: Spostrzegawcza, ambitna i towarzyska, z ciętym humorem. Ceni pomysłowość i jest lojalna wobec
+  przyjaciół. Niechętnie przyznaje się do błędów. W pracowni matki nauczyła się cierpliwie sprawdzać,
+  dlaczego coś nie działa.
+sekret: Nigdy nie poznała ojca, a matka milczy na jego temat. Zora nie wie, czy jest czystej, czy półkrwi,
+  i ukrywa tę niewiedzę przed innymi.
+osoba_bliska: Matka, która prowadzi pracownię naprawy magicznych przedmiotów w Yorku.
+wakacje_1969: 'Pomagała matce w pracowni: lampy, kompasy i ciężka torba cudzych zepsutych drobiazgów do
+  poskładania.'
+haczyki_mg:
+- 'Niewiedza o ojcu: ktoś w Slytherinie (albo Cassian/Pożyczający) wie więcej o jej pochodzeniu niż ona;
+  pokusa, by to sprawdzić.'
+- 'Naprawianie: zepsuty albo zatrzymany mechanizm (zegar, zegarek, zamek) to jej naturalny punkt wejścia;
+  zaklęcia ujawniające nie pokażą magii czasu (ZD-24), ale ona zobaczy, że coś nie gra.'
+- 'Slytherin: dormitorium w lochach daje jej dostęp do poszlak o Cassianie, którego inni nie mają.'
+- 'Duma: nie przyzna się, że czegoś nie wie; MG może ją o to przyłapać przy świadkach.'
+notatki_mg:
+- 'Archetyp C zmieniony o jedno: Disguise 2 zastąpione Crafting 2 (pracownia matki); sumy bez zmian, Crafting
+  wolno z puli wolnej. Do potwierdzenia.'
+- 'Różdżka: Mahogany + Phoenix Feather to wybór z s. 27-29 zamiast Black Walnut z archetypu C (Zora lubi
+  transmutację). Do potwierdzenia.'
+- 'Wygląd, osoba bliska, wakacje, imię ropuchy: PROPOZYCJE, gracz nie podał.'
+- 'Cecha rzadka: brak (MG rzuci przy stole).'
+pewnosc: nasze

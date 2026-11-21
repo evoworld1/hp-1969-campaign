@@ -1,0 +1,171 @@
+# Karta gracza (szybka ścieżka). Kolejność kluczy jak w schemacie MG.
+id: gracz.nell-ashford
+imie: Nell Ashford
+dom: Gryffindor
+rok: 6
+wiek: 16
+archetyp: B (Bystry badacz)
+pochodzenie:
+  typ: pure-blood
+  rod: Longbottom
+  uwagi: 'Ród z listy s. 7 (z gwiazdką: mniej przywiązany do czystości krwi): Prestige 1, Herbology 2.
+    Oksford; matka uczy dzieci przed Hogwartem, ojciec szkoli pracowników Ministerstwa Magii.'
+cecha_rzadka: brak
+story_points: 0
+cechy:
+  Vitality: 3
+  Speed: 3
+  Wits: 5
+  Knowledge: 6
+  Focus: 5
+umiejetnosci:
+  Charms: 5
+  D.A.D.A.: 3
+  Transfiguration: 3
+  Potions: 3
+  Astronomy: 3
+  Herbology: 5
+  History of Magic: 4
+  Magical Theory: 3
+  Ancient Runes: 4
+  Arithmancy: 3
+  Archivist: 5
+  Observation: 5
+  Trivia: 4
+  Strategy: 2
+  Persuasion: 2
+  Stealth: 1
+  Prestige: 1
+specjalizacje:
+- Observation (Nocne niebo)
+przedmioty_6_roku:
+- Astronomy
+- Potions
+- Herbology
+- Charms
+- D.A.D.A.
+- Arithmancy
+rozdzka:
+  drewno: Vine
+  dlugosc_cali: 11
+  rdzen: Phoenix Feather
+  gietkosc: Fairly flexible
+  wytrzymalosc: 2D+2
+  premie:
+  - Revealing Magic +2
+  - Fire Magic +1
+  - Transfiguration +1
+  - Wand Loyalty +1
+  opis: Prezent od rodziców, pielęgnowana, trzymana w wyściełanym etui. W rękojeści migocze odrobina schwytanego
+    blasku gwiazdy.
+zwierze:
+  rodzaj: sowa
+  imie: Kasjopeja
+zaklecia:
+  wspolny:
+  - nazwa: Lumos
+    kratki: 1
+  - nazwa: Nox
+    kratki: 1
+  - nazwa: Wingardium Leviosa
+    kratki: 1
+  - nazwa: Diffindo
+    kratki: 1
+  - nazwa: Locomotor
+    kratki: 1
+  - nazwa: Alohomora
+    kratki: 2
+  - nazwa: Reparo
+    kratki: 2
+  - nazwa: Accio
+    kratki: 2
+  - nazwa: Expelliarmus
+    kratki: 2
+  - nazwa: Aparecium
+    kratki: 2
+  - nazwa: Episkey
+    kratki: 2
+  - nazwa: Protego
+    kratki: 3
+  - nazwa: Finite Incantatem
+    kratki: 3
+  - nazwa: Revelio
+    kratki: 3
+  archetyp:
+  - nazwa: Specialis Revelio
+    kratki: 3
+  - nazwa: Homenum Revelio
+    kratki: 3
+  - nazwa: Prior Incantato
+    kratki: 3
+  - nazwa: Colloportus
+    kratki: 2
+  - nazwa: Quietus
+    kratki: 2
+  - nazwa: Flagrate
+    kratki: 1
+  - nazwa: Intruder Charm
+    kratki: 1
+  - nazwa: Cistem Aperio
+    kratki: 1
+  - nazwa: Bluebell Flames
+    kratki: 1
+  - nazwa: Obliteration Charm
+    kratki: 1
+  wybor:
+  - nazwa: Stupefy
+    kratki: 3
+  - nazwa: Rennervate
+    kratki: 2
+  - nazwa: Cheering Charm
+    kratki: 1
+  zaawansowane:
+  - nazwa: Aguamenti
+    kratki: 3
+  - nazwa: Ageing Potion
+    kratki: 3
+  - nazwa: Calming Draught
+    kratki: 3
+  - nazwa: Draught of Peace
+    kratki: 3
+  - nazwa: Elixir to Induce Euphoria
+    kratki: 3
+  - nazwa: Love Potion Antidote
+    kratki: 3
+  - nazwa: Polyjuice Potion
+    kratki: 3
+  - nazwa: Shrinking Solution
+    kratki: 3
+  - nazwa: Sleeping Draught
+    kratki: 3
+  - nazwa: Wound-cleaning Potion
+    kratki: 3
+zdrowie:
+  body_kolka: 0
+  mind_kolka: 0
+wyglad: Wysoka, w za dużym swetrze, włosy w nieładzie; w kieszeni notes z mapami nieba, a na szyi łańcuszek
+  z maleńką szklaną fiolką.
+charakter: Roztargniona w drobiazgach (zapomina o wodzie na herbatę), ale gdy coś ją pochłonie, staje
+  się drobiazgowa i bardzo dokładna. Towarzyska, łatwo zawiera znajomości, za przyjaciółmi stoi murem,
+  także wtedy, gdy rozsądniej byłoby siedzieć cicho. Uwielbia astronomię i eliksiry; prowadzi własne mapy
+  nieba i sprawdza, czy fazy Księżyca wpływają na mikstury.
+sekret: Boi się ciemności. Nauczyła się łapać blask gwiazd w małe szklane fiolki; nocą otwiera jedną przy
+  łóżku i rozświetla mrok własnym gwiaździstym niebem.
+osoba_bliska: Matka, która pierwsza pokazała jej gwiazdozbiory z okna w Oksfordzie.
+wakacje_1969: W Oksfordzie z rodzicami; kilka nocy na dachu z mapami nieba i fiolkami do łapania światła.
+haczyki_mg:
+- 'Strach przed ciemnością: scena w mroku (lochy, zgaszone pochodnie, stracona godzina bez światła) bije
+  w nią mocniej; fiolka z gwiazdą to jej latarnia.'
+- 'Stracona godzina: jej mapy nieba i notatki o Księżycu mogą pokazać, że niebo w tej godzinie ''nie przesunęło
+  się'' (do ustalenia przez MG).'
+- 'Ojciec w Ministerstwie: kontakt do kogoś, kto zna procedury; ale też lojalność wobec przyjaciół wbrew
+  rozsądkowi.'
+- 'Eliksiry i Księżyc: eksperyment, który wymaga wyjścia nocą, wciąga ją w sprawę.'
+notatki_mg:
+- Ród Longbottom wybrany przeze mnie (Herbology 2 pasuje do eliksirów); do zmiany, jeśli MG woli inny
+  z s. 7.
+- 'Różdżka: Vine + Phoenix Feather zgodnie z archetypem B; długość i giętkość dobrane. Blask gwiazdy w
+  rękojeści to opis gracza, bez efektu mechanicznego.'
+- 'Wygląd, osoba bliska, wakacje, imię sowy: PROPOZYCJE, gracz nie podał.'
+- 'Cecha rzadka: brak (MG rzuci przy stole).'
+pewnosc: nasze

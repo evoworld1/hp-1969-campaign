@@ -1,0 +1,169 @@
+# Karta gracza (szybka ścieżka). Kolejność kluczy jak w schemacie MG.
+id: gracz.luna-lovedog
+imie: Luna Lovedog
+dom: Gryffindor
+rok: 6
+wiek: 16
+archetyp: D (Empatyczny opiekun)
+pochodzenie:
+  typ: pure-blood
+  rod: Abbot
+  uwagi: 'Ród z listy s. 7 (z gwiazdką): Prestige 2, Herbology 1. Rodzice Brytyjczycy, od jej dzieciństwa
+    w Nowym Jorku; w przerwach mieszka u babci w Londynie. Cała rodzina uczyła się w Hogwarcie.'
+cecha_rzadka: brak
+story_points: 0
+cechy:
+  Vitality: 5
+  Speed: 3
+  Wits: 4
+  Knowledge: 5
+  Focus: 5
+umiejetnosci:
+  Charms: 3
+  D.A.D.A.: 3
+  Transfiguration: 3
+  Potions: 4
+  Herbology: 6
+  Astronomy: 1
+  History of Magic: 1
+  Magical Theory: 1
+  Magical Creatures: 5
+  Divination: 1
+  Persuasion: 4
+  Observation: 5
+  Riding: 3
+  Music: 3
+  Swimming: 2
+  Balance: 2
+  Tracking: 2
+  Authority: 2
+  Trivia: 2
+  Crafting: 1
+  Prestige: 2
+specjalizacje:
+- Magical Creatures (Choroby i rany stworzeń)
+przedmioty_6_roku:
+- Potions
+- Herbology
+- Magical Creatures
+- Charms
+- D.A.D.A.
+rozdzka:
+  drewno: Chestnut
+  dlugosc_cali: 12
+  rdzen: Unicorn Hair
+  gietkosc: Nice and flexible
+  wytrzymalosc: 2D+3
+  premie:
+  - Herbology +1
+  - Magical Creatures +1
+  - Healing Magic +2 (Unicorn Hair)
+  - Protective Magic +2 (Unicorn Hair +1, +1 w parze z Chestnut)
+  opis: Rodzinna, po pra-pra-prababci; przechodzi z pokolenia na pokolenie na najzdolniejszych w rodzie.
+zwierze:
+  rodzaj: kot
+  imie: Taco
+zaklecia:
+  wspolny:
+  - nazwa: Lumos
+    kratki: 1
+  - nazwa: Nox
+    kratki: 1
+  - nazwa: Wingardium Leviosa
+    kratki: 1
+  - nazwa: Diffindo
+    kratki: 1
+  - nazwa: Locomotor
+    kratki: 1
+  - nazwa: Alohomora
+    kratki: 2
+  - nazwa: Reparo
+    kratki: 2
+  - nazwa: Accio
+    kratki: 2
+  - nazwa: Expelliarmus
+    kratki: 2
+  - nazwa: Aparecium
+    kratki: 2
+  - nazwa: Episkey
+    kratki: 2
+  - nazwa: Protego
+    kratki: 3
+  - nazwa: Finite Incantatem
+    kratki: 3
+  - nazwa: Revelio
+    kratki: 3
+  archetyp:
+  - nazwa: Salvio Hexia
+    kratki: 3
+  - nazwa: Stupefy
+    kratki: 3
+  - nazwa: Immobulus
+    kratki: 3
+  - nazwa: Rennervate
+    kratki: 2
+  - nazwa: Arresto Momentum
+    kratki: 2
+  - nazwa: Carpe Retractum
+    kratki: 2
+  - nazwa: Cheering Charm
+    kratki: 1
+  - nazwa: Impervius
+    kratki: 1
+  - nazwa: Extinguishing Charm
+    kratki: 1
+  wybor:
+  - nazwa: Confundo
+    kratki: 3
+  - nazwa: Petrificus Totalus
+    kratki: 3
+  zaawansowane:
+  - nazwa: Aguamenti
+    kratki: 3
+  - nazwa: Cave Inimicum
+    kratki: 3
+  - nazwa: Protean Charm
+    kratki: 3
+  - nazwa: Calming Draught
+    kratki: 3
+  - nazwa: Draught of Peace
+    kratki: 3
+  - nazwa: Elixir to Induce Euphoria
+    kratki: 3
+  - nazwa: Polyjuice Potion
+    kratki: 3
+  - nazwa: Shrinking Solution
+    kratki: 3
+  - nazwa: Sleeping Draught
+    kratki: 3
+  - nazwa: Wound-cleaning Potion
+    kratki: 3
+zdrowie:
+  body_kolka: 0
+  mind_kolka: 0
+wyglad: Wysoka, z burzą włosów w kolorze miedzi i kocią sierścią na rękawach; nosi amerykańskie trampki
+  pod szkolną szatą.
+charakter: Dumna i ambitna, ale roztargniona na tyle, że często nie umie się na nic zdecydować. Kocha
+  magiczne stworzenia i zwierzęta mugoli. Lubi warzyć eliksiry, zwłaszcza lecznicze, bo chce leczyć chore
+  stworzenia magiczne.
+sekret: Potajemnie ciągną ją mroczniejsze zagadnienia magii. Nie użyłaby zaklęć niewybaczalnych, ale inne
+  czarne praktyki ją pociągają.
+osoba_bliska: Babcia w Londynie, u której mieszka w przerwach.
+wakacje_1969: U babci w Londynie; opiekowała się rannym gołębiem i szukała w księgarniach starych książek
+  o stworzeniach.
+haczyki_mg:
+- 'Zainteresowanie mroczną magią: księga w bibliotece (zakazana albo zaklęta) działa na nią jak magnes;
+  Dark Arts na karcie zostaje 0.'
+- 'Taco: kot może reagować na miejsca i osoby, przy których ''coś jest nie tak'' (propozycja MG, bez efektu
+  mechanicznego).'
+- 'Amerykańska przeszłość: spojrzenie z zewnątrz na brytyjską czystość krwi i napięcia przed wojną.'
+- 'Rzadkie leczenie: ranny uczeń albo stworzenie to sceny, w których Healing Magic i Herbology dają jej
+  głos.'
+notatki_mg:
+- Ród Abbot wybrany przeze mnie (Herbology 1 pasuje); nazwisko Lovedog nie jest na liście, więc ród to
+  linia matki albo babci. Do potwierdzenia.
+- 'Różdżka: rodzinna (Legacy) z rdzeniem z archetypu D; rdzenie rodowe mogą być nietypowe (s. 26), MG
+  może to zmienić.'
+- 'Wygląd, wakacje: PROPOZYCJE, gracz nie podał. Imię Taco i kot z opisu gracza.'
+- 'Cecha rzadka: brak (MG rzuci przy stole).'
+pewnosc: nasze

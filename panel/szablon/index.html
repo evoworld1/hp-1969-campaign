@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Panel MG: Godzina, której nie było</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="brama" hidden>
+  <form id="brama-form">
+    <h1>Panel MG</h1>
+    <p>Podaj hasło.</p>
+    <input id="brama-haslo" type="password" autocomplete="current-password" autofocus>
+    <button type="submit">Wejdź</button>
+    <p id="brama-blad" class="blad" hidden>Błędne hasło.</p>
+  </form>
+</div>
+<header id="pasek" hidden>
+  <a href="#/" class="logo" title="Ekran startowy">Godzina, której nie było</a>
+  <div id="pasek-scena"></div>
+  <nav>
+    <button id="b-szukaj" title="Szukaj (Ctrl+K)">Szukaj</button>
+    <button id="b-flagi" title="Flagi i notatki">Flagi</button>
+    <button id="b-menu" title="Sceny, postacie, zasady">Menu</button>
+  </nav>
+</header>
+<main id="app"></main>
+<aside id="szuflada" hidden>
+  <div class="szuflada-g"><strong id="szuflada-tytul"></strong><button id="szuflada-x">Zamknij ✕</button></div>
+  <div id="szuflada-tresc"></div>
+</aside>
+<div id="nakladka" hidden></div>
+<script src="dane.js"></script>
+<script src="karta.js"></script>
+<script src="kreator.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

@@ -12,7 +12,7 @@ aktualizacja: 2026-11-21
 ---
 ## Streszczenie
 
-Rejestr problemów znalezionych przy streszczaniu szkicu. Każda pozycja ma numer strony. Propozycje oznaczone **ZD-nn** to **wyłącznie propozycje**: nie obowiązują, dopóki MG ich nie zatwierdzi i nie trafią do `02_zasady/zasady-domowe.md`.
+Rejestr problemów znalezionych przy streszczaniu szkicu. Każda pozycja ma numer strony. Propozycje oznaczone **ZD-nn**: **ZD-01 do ZD-23 przyjęte (MG 2026-11-21)** w wariancie rekomendowanym (ZD-06 w wariancie (a), ZD-09 z dopiskiem o „kolorze” w formalnych pojedynkach uczniów i pokazach Wrena), ZD-24 przyjęta 2026-11-20; obowiązujący zapis jest w `02_zasady/zasady-domowe.md`. Do akceptacji zostaje tylko ZD-24a.
 
 ### A. Sprzeczności liczbowe
 
@@ -29,7 +29,7 @@ Rejestr problemów znalezionych przy streszczaniu szkicu. Każda pozycja ma nume
 | Nr | Problem | Strony | Propozycja |
 |---|---|---|---|
 | B1 | Czy każde udane rzucenie zaklęcia zaznacza kratkę (przykład s. 40), czy tylko nauka i sytuacja krytyczna (s. 31–32) | 31–32, 40 | **ZD-05**: kratkę dają tylko nauka (książka, lekcja, korepetycje), zakup za Story Points albo pierwsze udane rzucenie w sytuacji krytycznej (najwyżej jedna kratka na scenę) |
-| B2 | Nieopanowane zaklęcie celowane: trudność zaklęcia dodaje się do celu ataku (s. 165), co dla uczniów oznacza prawie zerową szansę trafienia | 41, 165 | **ZD-06**, do wyboru przez MG: (a) zasady jak w podręczniku: w walce trafiają tylko opanowane zaklęcia; (b) zamiast całej trudności dodaje się połowę aktualnej trudności (zaokrągloną w górę); (c) dwa rzuty: najpierw rzucenie (Focus) przeciw trudności, potem trafienie (Wits) przeciw obronie bez trudności. Rekomendacja: (a), bo jest wierne systemowi i nagradza naukę; (b) jako rezerwa, gdyby pojedynki okazały się nudne |
+| B2 | Nieopanowane zaklęcie celowane: trudność zaklęcia dodaje się do celu ataku (s. 165), co dla uczniów oznacza prawie zerową szansę trafienia | 41, 165 | **ZD-06**, do wyboru przez MG: (a) zasady jak w podręczniku: w walce trafiają tylko opanowane zaklęcia; (b) zamiast całej trudności dodaje się połowę aktualnej trudności (zaokrągloną w górę); (c) dwa rzuty: najpierw rzucenie (Focus) przeciw trudności, potem trafienie (Wits) przeciw obronie bez trudności. **Przyjęta: (a) (MG 2026-11-21).** Rekomendacja: (a), bo jest wierne systemowi i nagradza naukę; (b) jako rezerwa, gdyby pojedynki okazały się nudne |
 | B3 | Czy obrona tarczą Protego zużywa akcję | 33, 41, 165 | **ZD-07**: unik i blok darmowe; Protego jako obrona zużywa jedną akcję z następnej puli dwóch akcji (albo zadeklarowaną w pojedynku) |
 | B4 | Jak rozliczyć dwie akcje w rundzie pojedynku | 41 | **ZD-08**: obie strony deklarują dwie akcje; zwycięzca inicjatywy wykonuje pierwszą, potem przegrany pierwszą, potem zwycięzca drugą, potem przegrany drugą; utrata akcji (Flipendo, Impedimenta) zabiera najbliższe niewykonane |
 | B5 | Czy wynik 2 × i 3 × trudności wzmacnia zaklęcie | 3, 41 | **ZD-09**: tak, narracyjnie: dłuższe działanie, większy zasięg albo dodatkowy cel; bez nowych liczb. **Decyzja MG (2026-11-19): wynik 2× i 3× ma dawać też efekt mechaniczny (np. dodatkowe obrażenia). Liczby: część F, ZD-09 (2026-11-21).** |
@@ -92,11 +92,11 @@ Odesłania „page @@” (s. 30, 38, 42, 58), „Working Together on page 6” (
 
 **Granica zasady.** Zasada dotyczy wyłącznie magii czasu: Klepsydry, jej wycieków, Karty Pożyczającego, zegarka Cassiana, RETRORSUM i Ansela. Inne zaklęcia na tych samych rzeczach (np. zwykłe zaklęcia ochronne, zamki) zaklęcia ujawniające widzą normalnie. Czy zabezpieczenia zaklętej księgi i gabloty w pracowni Marrow to magia czasu, czy zwykła: **do decyzji MG** (rekomendacja: gablota zwykła, więc Specialis Revelio pokazuje „zamek, który otwiera się za cenę”, ale nie mówi jaką; księga to magia czasu, więc nic nie pokazuje).
 
-**Propozycja rozszerzenia (do akceptacji MG, ZD-24a).** Wykrywacze z listy przedmiotów (s. 19): Sneakoscope (fałszoskop), Foe Glass (lustro wrogów) i Secrecy Sensor (wykrywacz tajemnic) reagują na ludzi i ich zamiary, nie na magię czasu. Rekomendacja: działają normalnie na Cassiana jako osobę (Sneakoscope może zawirować, gdy kłamie), ale nie na zegarek ani Kartę.
+**Propozycja rozszerzenia (do akceptacji MG, ZD-24a; jedyna nieprzyjęta).** Wykrywacze z listy przedmiotów (s. 19): Sneakoscope (fałszoskop), Foe Glass (lustro wrogów) i Secrecy Sensor (wykrywacz tajemnic) reagują na ludzi i ich zamiary, nie na magię czasu. Rekomendacja: działają normalnie na Cassiana jako osobę (Sneakoscope może zawirować, gdy kłamie), ale nie na zegarek ani Kartę.
 
 **Dlaczego tak (uzasadnienie fabularne).** Magia czasu działa „obok” chwili, w której rzuca się zaklęcie: zaklęcie ujawniające patrzy na teraz, a ślad magii czasu jest w chwili, której już nie ma. To spójne z tym, że Dumbledore'a magia czasu nie dotknęła i nigdy nie widział Ansela (rejestr decyzji 2026-11-19).
 
-#### ZD-09. Wynik 2× i 3× trudności albo celu: efekt mechaniczny (liczby: mechanik 2026-11-21; propozycja zgodna z decyzją MG 2026-11-19, do akceptacji)
+#### ZD-09. Wynik 2× i 3× trudności albo celu: efekt mechaniczny (przyjęta, MG 2026-11-21; w formalnym pojedynku uczniów i pokazach Wrena tylko „kolor” bez ran i dodatkowych trafień)
 
 **Luka w podręczniku.** Walker nazywa wyniki co najmniej dwa i trzy razy wyższe od trudności „Impressive” i „Unbelievable success” (s. 3), ale przy zaklęciach mówi tylko „niejasne” co do skutków (s. 41). Brak w podręczniku.
 
@@ -118,8 +118,8 @@ Odesłania „page @@” (s. 30, 38, 42, 58), „Working Together on page 6” (
 
 ## Jak używać przy stole
 
-- Dopóki MG nie zdecyduje, w scenach stosujemy zapis podręcznika, a przy sprzecznościach wybieramy wartość z rozdziału głównego (nie ze skrótu zasad) i zaznaczamy to w polu `modyfikatory` lub w uwadze sceny.
-- Po decyzji MG zatwierdzone pozycje przenosi się do `02_zasady/zasady-domowe.md` z opisem, co zmieniają względem Walkera.
+- ZD-01 do ZD-24 są przyjęte i obowiązują według `02_zasady/zasady-domowe.md`; numer ZD zaznaczaj w polu `modyfikatory` lub w uwadze sceny.
+- Status „przyjęta (MG 2026-11-21)” dotyczy wszystkich ZD-01 do ZD-23 w tabelach A-D, choć nie powtarzamy go w każdym wierszu.
 
 ## Przykład
 

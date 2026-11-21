@@ -98,6 +98,10 @@
 | 2026-11-20 | **Zaklęcia ujawniające nie wykrywają magii czasu** (cała kampania); najwyżej dziwnie zimne szkło. | MG |
 | 2026-11-20 | **Tryb przyspieszony** do końca Scenariusza 1 (sesja 2026-11-21): bez pytań w trakcie pracy, założenia robocze do skreślenia po lekturze (`docs/TRYB-PRZYSPIESZONY.md`). Proza i dialogi (narrator-scen, dialogista, tworca-npc) na Opusie, pozostali agenci na Sonnecie, wysiłek medium. Webowy interfejs MG osobno, po scenach. | MG |
 
+- **2026-11-21 (sesja 6):** sceny 01–12 zaakceptowane przez MG po lekturze. Zasady domowe ZD-01…ZD-23 przyjęte hurtem w wariancie rekomendowanym, ZD-09 (mocniejsze zaklęcia przy wyniku 2× i 3×; w pokazach i pojedynkach uczniów tylko „kolor”, czyli opis bez ran) i trzy zasady Irytka (ZI-01…03) przyjęte; zapisane w `02_zasady/zasady-domowe.md`. ZD-24a (wykrywacze) czeka na decyzję MG.
+- **2026-11-21:** hosting panelu: Netlify z repozytorium GitHub (wersja przeglądarkowa). Kontrakt danych: MG zgodził się na pole „zasady potrzebne w scenie” (jeszcze niewdrożone, panel działa bez niego). Karty graczy po polsku do wydruku; kreator postaci (szybka i pełna ścieżka) w panelu.
+- **2026-11-21:** postacie graczy (Zora Vos, Nell Ashford, Luna Lovedog) w `03_postacie/gracze/*.yaml`, szybka ścieżka (archetypy C, B, D). Propozycje mechanika do potwierdzenia przez MG: rody (Nell: Longbottom, Luna: Abbot), różdżki, specjalizacje, imiona zwierząt, wygląd, wybór zaklęć (zob. `notatki_mg` na kartach).
+
 ## Założenia robocze (do skreślenia przez MG po lekturze scen)
 - Dumbledore wraca z Londynu przed wieczorem 22 września. Zegarek oddany nauczycielowi po scenie 08 sam nic nie podbiera. Szlaban za przemoc w Sali: wtorek 23 września, tylko kolor.
 - Modyfikatory testu kradzieży zegarka (sen −4, drzemka −2, „Cassian zna twarz” +2), próg 9 u Crake'a, kradzież jako Speed + Concealment.

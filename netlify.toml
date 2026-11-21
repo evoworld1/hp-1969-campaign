@@ -1,0 +1,9 @@
+[build]
+  command = "pip install pyyaml && python3 narzedzia/buduj-panel.py"
+  publish = "panel/dist"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
+    Cache-Control = "no-cache"

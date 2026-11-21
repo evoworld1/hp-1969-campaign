@@ -103,6 +103,10 @@ Terminy mechaniczne zostają w oryginale angielskim (Walker 2e). Ten słownik ob
 | Oko, które dostrzega ukryte | Zdolność pasywna z teasera: raz w Sesji 1 (niewykorzystane przechodzi na Sesję 2) MG wskazuje istotny szczegół otoczenia (jak test spostrzegawczości z wynikiem Success, Walker s. 3); nie wyjaśnia, co on znaczy | nasze, teaser MG, szkic |
 | Licznik uderzeń | Licznik ucieczki przed pełnymi zabezpieczeniami zaklętej księgi (start 1, +3 za odcinek, 13 = schody się zamykają); zob. `przedmiot.zakleta-ksiega` | nasze, szkic |
 | Zaklęcia ujawniające a magia czasu (ZD-24) | Zasada kampanii: zaklęcia ujawniające (Revealing Magic) działają na zwykłą magię, ale nie wykrywają magii czasu ani jej śladów (zegarek Cassiana, Karta, Ansel, RETRORSUM); Prior Incantato pokazuje w miejscu zaklęcia czasu tylko bezkształtną mgiełkę | przyjęte (MG 2026-11-20) |
+| Zasady domowe ZD-01 do ZD-23 | Przyjęty pakiet poprawek luk i sprzeczności szkicu Walkera (np. cudza różdżka +5, Nox trudność 9, kratki tylko za naukę); rejestr: `02_zasady/zasady-domowe.md` | przyjęte (MG 2026-11-21) |
+| Kolor (ZD-09) | W formalnym pojedynku uczniów i pokazach Wrena wynik 2× i 3× daje tylko efekt opisowy, bez ran i dodatkowych trafień | nasze, przyjęte (MG 2026-11-21) |
+| ZI-01 Psota, ZI-02 Hałas, ZI-03 Łajnobomba | Trzy zasady domowe Irytka: +1 do trudności testu społecznego przy nauczycielu; ±2 przy skradaniu wobec obchodu Filcha; hałaśliwy prezent jako przekupstwo | nasze, przyjęte (MG 2026-11-21) |
+| Karta gracza (szybka ścieżka) | Plik YAML postaci w `03_postacie/gracze/`; polskie nazwy do karty w `slownik-karty.yaml` | nasze |
 
 ## Skróty
 

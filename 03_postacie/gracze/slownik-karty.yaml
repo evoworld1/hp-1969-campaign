@@ -1,0 +1,167 @@
+# Słownik polskich nazw do kart postaci graczy (pewnosc: nasze). Terminy Walkera zostają po angielsku, tu tylko objaśnienie.
+id: slownik.karty-graczy
+cechy:
+  Vitality: Żywotność
+  Speed: Szybkość
+  Wits: Bystrość
+  Knowledge: Wiedza
+  Focus: Skupienie
+umiejetnosci:
+  Alchemy: Alchemia
+  Ancient Runes: Starożytne Runy
+  Ancient Studies: Starożytności
+  Archivist: Szukanie w archiwach
+  Arithmancy: Numerologia
+  Art: Sztuka
+  Astronomy: Astronomia
+  Authority: Autorytet
+  Balance: Równowaga
+  Broomstick Flying: Latanie na miotle
+  Charms: Uroki
+  Chicanery: Podstęp
+  Concealment: Ukrywanie
+  Crafting: Rzemiosło
+  Dark Arts: Czarna Magia
+  D.A.D.A.: Obrona przed Czarną Magią
+  Disguise: Przebieranie się
+  Divination: Wróżbiarstwo
+  Duelling: Pojedynkowanie
+  Herbology: Zielarstwo
+  History of Magic: Historia Magii
+  Law: Prawo
+  Magical Creatures: Magiczne stworzenia
+  Magical Theory: Teoria Magii
+  Muggle Studies: Mugoloznawstwo
+  Music: Muzyka
+  Observation: Spostrzegawczość
+  Occlumency: Oklumencja
+  Persuasion: Perswazja
+  Potions: Eliksiry
+  Prestige: Prestiż rodu
+  Riding: Jazda konna
+  Skirmishing: Bijatyka
+  Stealth: Skradanie się
+  Strategy: Strategia
+  Swimming: Pływanie
+  Tracking: Tropienie
+  Transfiguration: Transmutacja
+  Transportation: Teleportacja i przenoszenie
+  Trivia: Ciekawostki, zasób wiedzy
+  Wandlore: Wiedza o różdżkach
+przedmioty_6_roku:
+  Astronomy: Astronomia
+  Potions: Eliksiry
+  Herbology: Zielarstwo
+  Charms: Uroki
+  D.A.D.A.: Obrona przed Czarną Magią
+  Arithmancy: Numerologia
+  Transfiguration: Transmutacja
+  Magical Creatures: Magiczne stworzenia
+  Ancient Runes: Starożytne Runy
+grupy_premii_rozdzki:
+  Charms: Uroki
+  Curses: Klątwy
+  Hexes: Złe uroki (hexy)
+  Jinxes: Psikusy (jinxy)
+  Duelling: Pojedynki
+  Transfiguration: Transmutacja
+  Herbology: Zielarstwo
+  Magical Creatures: Magiczne stworzenia
+  Fire Magic: Magia ognia
+  Healing Magic: Magia lecznicza
+  Protective Magic: Magia ochronna
+  Revealing Magic: Magia ujawniająca
+  Offensive Magic: Magia ofensywna
+  Mind Affecting Magic: Magia wpływająca na umysł
+  Water Magic: Magia wody
+  Blasting Magic: Magia wybuchowa
+  Non-verbal Magic: Magia bez słów
+  Wand Loyalty: Lojalność różdżki
+  Wand Resilience: Wytrzymałość różdżki
+rdzenie_i_drewna:
+  Mahogany: Mahoń
+  Vine: Winorośl
+  Chestnut: Kasztanowiec
+  Phoenix Feather: Pióro feniksa
+  Unicorn Hair: Włos jednorożca
+  Dragon Heartstring: Włókno ze smoczego serca
+gietkosc:
+  Reasonably springy: Dość sprężysta
+  Fairly flexible: Całkiem giętka
+  Nice and flexible: Miło giętka
+pochodzenie:
+  Pure-blood: Czystej krwi
+  Half-blood: Półkrwi
+  Muggle-born: Z rodziny mugolskiej
+  Part-human: Częściowo nieludzkie
+  Squib: Charłak
+domy:
+  Gryffindor: Gryffindor
+  Slytherin: Slytherin
+  Ravenclaw: Ravenclaw
+  Hufflepuff: Hufflepuff
+rody:
+  Longbottom: Longbottom (ród z listy s. 7)
+  Abbot: Abbot (ród z listy s. 7)
+zwierzeta:
+  sowa: sowa
+  kot: kot
+  ropucha: ropucha
+stany_zdrowia:
+  body_kolka: Kółka ciała (Body)
+  mind_kolka: Kółka umysłu (Mind)
+zaklecia:
+  Accio: {opis: "Przywołuje przedmiot do rzucającego."}
+  Aguamenti: {opis: "Strumień wody z końca różdżki."}
+  Alohomora: {opis: "Otwiera zamknięte na zamek drzwi i szkatułki."}
+  Aparecium: {opis: "Ujawnia niewidzialny atrament i ukryte wiadomości."}
+  Arresto Momentum: {opis: "Spowalnia ruch, może uratować przy upadku."}
+  Bluebell Flames: {opis: "Niebieskie, bezpieczne płomyki, które można nosić w dłoni lub słoiku."}
+  Carpe Retractum: {opis: "Świetlna lina przyciągająca cel do rzucającego."}
+  Cave Inimicum: {opis: "Chroni miejsce niewidzialną barierą przed wrogami."}
+  Cheering Charm: {opis: "Poprawia nastrój osoby, w którą trafi."}
+  Cistem Aperio: {opis: "Otwiera skrzynie i pudła, które nie są zamknięte magicznie."}
+  Colloportus: {opis: "Zamyka drzwi magicznie."}
+  Confundo: {opis: "Dezorientuje cel, który traci orientację."}
+  Diffindo: {opis: "Precyzyjnie tnie przedmiot."}
+  Disillusionment Charm: {opis: "Barwi rzucającego jak otoczenie, prawie niewidzialność."}
+  Episkey: {opis: "Leczy drobne urazy."}
+  Expelliarmus: {opis: "Wytrąca cel z dłoni trzymany przedmiot."}
+  Extinguishing Charm: {opis: "Gasi ogień."}
+  Finite Incantatem: {opis: "Ogólne przeciwzaklęcie kończące trwające zaklęcie."}
+  Flagrate: {opis: "Ognisty znak lub pismo wiszące w powietrzu."}
+  Homenum Revelio: {opis: "Wykrywa ukryte w pobliżu osoby."}
+  Immobulus: {opis: "Zatrzymuje cel w bezruchu na rundę."}
+  Impedimenta: {opis: "Spowalnia i zatrzymuje cel, który traci akcje."}
+  Impervius: {opis: "Czyni przedmiot lub szkło wodoodpornym."}
+  Incarcerous: {opis: "Wyczarowuje więzy z powietrza."}
+  Incendio: {opis: "Płomień z różdżki; rani lub rozpala ogień."}
+  Intruder Charm: {opis: "Ostrzega, gdy ktoś wejdzie w zaczarowane miejsce."}
+  Locomotor: {opis: "Unosi i przesuwa przedmiot po powietrzu."}
+  Lumos: {opis: "Światło na końcu różdżki."}
+  Nox: {opis: "Gasi światło Lumos."}
+  Obliteration Charm: {opis: "Zaciera ślady stóp i inne ślady."}
+  Petrificus Totalus: {opis: "Całkowicie unieruchamia cel."}
+  Prior Incantato: {opis: "Pokazuje echo ostatniego zaklęcia, które wyszło z różdżki."}
+  Protean Charm: {opis: "Powiązane przedmioty zmieniają się razem."}
+  Protego: {opis: "Tarcza, która osłabia zaklęcie lecące w rzucającego."}
+  Quietus: {opis: "Ścisza dźwięk, np. wzmocniony głos."}
+  Rennervate: {opis: "Budzi osobę ogłuszoną."}
+  Reparo: {opis: "Naprawia zepsuty przedmiot (nie różdżkę)."}
+  Revelio: {opis: "Ujawnia ukryte rzeczy, przejścia i przebrania."}
+  Rictustempra: {opis: "Łaskotki rozpraszające cel."}
+  Salvio Hexia: {opis: "Odbija szkodliwe uroki z chronionego miejsca."}
+  Silencio: {opis: "Odbiera celowi głos."}
+  Specialis Revelio: {opis: "Pokazuje zaklęcia na przedmiocie lub w eliksirze."}
+  Spongify: {opis: "Zmiękcza powierzchnię jak gąbkę."}
+  Stupefy: {opis: "Oszołomienie: ogłusza cel."}
+  Wingardium Leviosa: {opis: "Unosi przedmiot w powietrzu."}
+  Ageing Potion: {opis: "Eliksir postarzający wypijającego."}
+  Calming Draught: {opis: "Uspokaja po szoku."}
+  Draught of Peace: {opis: "Wywar Spokoju, łagodzi niepokój."}
+  Elixir to Induce Euphoria: {opis: "Wywołuje euforię."}
+  Love Potion Antidote: {opis: "Odtrutka na eliksir miłosny."}
+  Polyjuice Potion: {opis: "Eliksir Wielosokowy, zmienia wygląd na cudzy."}
+  Shrinking Solution: {opis: "Zmniejsza to, na co się go wyleje."}
+  Sleeping Draught: {opis: "Eliksir nasenny."}
+  Wound-cleaning Potion: {opis: "Oczyszcza rany z zakażeń i trucizn."}
