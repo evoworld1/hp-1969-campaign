@@ -83,7 +83,7 @@ test:
   wyniki:
     - wynik: wygrana
       efekt: "Zegarek jest u postaci. Cassian odkrywa stratę w ciągu godziny i sam przychodzi po zegarek tego wieczoru albo nazajutrz (wejście do sceny 08)."
-      flagi_ustaw: [flaga.zegarek-cassiana]
+      flagi_ustaw: [flaga.zegarek-cassiana, flaga.zegarek-u-graczy]
     - wynik: przegrana
       efekt: "Cassian łapie rękę albo budzi się. Od tej chwili jest czujny; zegarek nosi przy sobie nawet nocą i kolejnej próby kradzieży nie ma (zostają pojedynek, targ albo litość w scenie 08). Konfrontacja może zacząć się od razu na jego warunkach."
       flagi_ustaw: []
@@ -108,7 +108,7 @@ test:
   wyniki:
     - wynik: sukces
       efekt: "Obrażenia równe wytrzymałości albo wyższe: szkiełko pęka, z koperty wylatuje ciche, długie westchnienie. Skutki z „Dla MG”: Ansel migocze, część skradzionych godzin wraca do ofiar, zegar kradzieży staje. Reparo (s. 57) składa obudowę, ale magii nie przywraca."
-      flagi_ustaw: [flaga.zegarek-cassiana]
+      flagi_ustaw: [flaga.zegarek-cassiana, flaga.zegarek-zniszczony]
     - wynik: porazka
       efekt: "Mniej niż wytrzymałość: zegarek odskakuje, rysa na szkiełku się wydłuża, a w środku tyka głośniej. Jeśli Cassian jest w zamku, czuje to jak ukłucie w piersi i wie, że ktoś próbował. Można spróbować znowu."
       flagi_ustaw: []
@@ -134,7 +134,7 @@ Cassian przy zniszczeniu: najpierw ulga (koniec), zaraz potem strach (ojciec, dz
 
 **Użycie zegarka razem z kartą (decyzja MG 2026-11-20).** Tylko oba przedmioty naraz. Postacie, które ich użyją, wchodzą w zakończenie „moc” z przeglądu scenariusza.
 
-**Powiązane flagi:** `flaga.zegarek-cassiana`, `flaga.s1-zegar-kradziezy`, `flaga.sygnal-cassiana-nazwany`, `flaga.godzina-stracona`, `flaga.cassian-zdemaskowany`, `flaga.cassian-los`, `flaga.rejestr-godzin`.
+**Powiązane flagi:** `flaga.zegarek-cassiana`, `flaga.zegarek-u-graczy`, `flaga.zegarek-zniszczony`, `flaga.zegarek-skonfiskowany`, `flaga.s1-zegar-kradziezy`, `flaga.sygnal-cassiana-nazwany`, `flaga.godzina-stracona`, `flaga.cassian-zdemaskowany`, `flaga.cassian-los`, `flaga.rejestr-godzin`.
 
 **Powiązane obiekty:** [[npc.cassian-vane]], [[npc.filius-flitwick]] (szuflada przy konfiskacie), [[npc.thaddeus-wren]], [[npc.ansel-dray]], [[miejsce.sala-obrony]], [[miejsce.wieza-zegarowa]], [[miejsce.lochy-przejscie-slytherinu]].
 

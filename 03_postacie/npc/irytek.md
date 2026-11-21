@@ -85,15 +85,19 @@ statystyki:
   id: npc.irytek.statystyki
   system: walker-2e-draft-2026-04
   wartosci: {}
+  # Irytek nie ma cech ani umiejętności: to poltergeist, nie postać do walki (Walker nie podaje statystyk poltergeista; brak w podręczniku).
+  # Wszystkie liczby poniżej to zasady domowe [nasze], niezależne od cech.
   zdolnosci_specjalne:
     - nazwa: "Poltergeist"
       opis: "Przelatuje przez ściany, sufity i kratki wentylacyjne; w każdej chwili może zniknąć ze sceny. Nie walczy i nie da się go pokonać ani złapać. Zaklęcia i rzucone przedmioty nic mu nie robią poza tym, że go denerwują (odpowiada psotą, bez obrażeń)."
     - nazwa: "Świadek, który nie mówi nazwisk"
       opis: "Szczegóły ze sceny 03 daje tylko po teście świadka: Wits + Persuasion (bystrość i perswazja) przy pochlebstwie albo Wits + Chicanery (bystrość i podstęp), gdy postać go przechytrza. Nazwiska nie podaje przy żadnym wyniku. Groźba Krwawym Baronem to automatyczny sukces, ale Irytek potem ucieka."
     - nazwa: "Psota"
-      opis: "Odwet bez obrażeń: zrzuca coś komuś na głowę, brudzi esej, śpiewa przyśpiewkę przy świadkach. Koszt dla postaci to czas, komfort albo reputacja; do decyzji mechanika, czy to może dawać karę w następnym teście społecznym (np. +1 do trudności w rozmowie z nauczycielem, który słyszał przyśpiewkę)."
+      opis: "Odwet bez obrażeń: zrzuca coś komuś na głowę, brudzi esej, śpiewa przyśpiewkę przy świadkach. Koszt dla postaci to czas, komfort albo reputacja. [nasze, zasada domowa] Postać, na której Irytek się zemścił na oczach nauczyciela, ma +1 do trudności następnego testu społecznego (Persuasion albo Chicanery) przeprowadzanego przy tym nauczycielu albo wobec niego, do końca dnia szkolnego. Kara nie kumuluje się (najwyżej +1) i znika, gdy postać zrobi nauczycielowi grzeczną przysługę (decyzja Narratora). Nie dotyczy testów wobec rówieśników."
     - nazwa: "Hałas"
-      opis: "Jego wycie i trzaskanie drzwiami mogą ściągnąć Filcha albo zagłuszyć skradanie się drużyny (scena 10). Do decyzji mechanika: czy to modyfikator w teście Speed + Stealth (szybkość i skradanie) przeciw obchodowi Filcha."
+      opis: "Jego wycie i trzaskanie drzwiami mogą ściągnąć Filcha albo zagłuszyć skradanie się drużyny (scena 10). [nasze, zasada domowa] Gdy Irytek hałasuje w pobliżu, test skradania (Speed + Stealth, szybkość i skradanie) przeciw obchodowi Filcha ma +2 do rzutu drużyny (hałas zagłusza kroki), ale jeśli Irytek jest wściekły na drużynę albo go zignorowano (zob. Reakcje), zamiast tego jest +2 do trudności (wyje o nich i wskazuje palcem). Jedno albo drugie, nie oba naraz; rozstrzyga nastawienie Irytka z ostatniego kontaktu."
+    - nazwa: "Łajnobomba jako przekupstwo"
+      opis: "[nasze, zasada domowa] Prezent hałaśliwy (łajnobomba, coś do zrzucenia) kupuje szczegóły jak przy pochlebstwie, bez testu. Jeśli prefekt albo Filch zobaczy przekazanie, test Speed + Concealment (szybkość i ukrywanie) przeciw 1D10 + Wits + Observation obserwatora (około 10 + 1D10) udaje się albo nie; porażka to utrata 5 punktów domu (poziom kary ustala Narrator). Przekupstwo działa najwyżej raz na spotkanie."
 ```
 
 ## Do weryfikacji
