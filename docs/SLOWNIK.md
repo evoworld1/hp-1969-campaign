@@ -36,6 +36,7 @@ Terminy mechaniczne zostają w oryginale angielskim (Walker 2e). Ten słownik ob
 | Dodge / Block | Unik (1D10 + Speed + Wits) / blok (1D10 + Vitality lub Speed + Skirmishing) | 165 |
 | Shield Charm (Protego) | Tarcza: obrona 1D10 + Wits + Charms, tylko przy opanowanym Protego; −30 obrażeń | 56, 165 |
 | Health: Body / Mind | Tor zdrowia ciała (Shaken, Bruised, Bloodied, Broken, Fading, Lifeless) i umysłu (Rattled, Dazed, Drained, Confused, Raving, Mindless); kary +1, +2, +3, +5, +7, brak akcji | 35 |
+| Drained / Dazed | Stany umysłu na torze zdrowia: Dazed (oszołomienie) daje +2, Drained (wyczerpanie) +3 do trudności testów; zdejmuje je m.in. posiłek i sen (patrz Health) | 35 |
 | Resisting Damage | Odporność na obrażenia: 1D10 + Vitality + pancerz przeciw rzutowi obrażeń | 35 |
 | Pursuit | Pościg: porównanie kości prędkości ścigającego i uciekającego | 37 |
 | Fear | Wartość strachu stworzenia; test 1D10 + Wits, niedobór daje stan umysłu | 89 |

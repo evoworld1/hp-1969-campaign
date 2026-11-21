@@ -58,10 +58,33 @@ Zatrzymuje się przy każdym spóźnionym zegarze i stuka w szybkę, jakby to po
 statystyki:
   id: npc.argus-filch.statystyki
   system: walker-2e-draft-2026-04
-  wartosci: {}
+  wartosci:
+    # Uzupełnione 2026-11-21 (mechanik). Charłak (Squib): bez zaklęć, nie rzuca; Focus nie służy do niczego, Walker s. 6-9.
+    rodzaj: czarodziej
+    poziom: "Average student"     # s. 102 (cechy 17, umiejętności 21); Filch nie jest czarodziejem, poziom służy tylko jako skala
+    lineage: Squib
+    school: "brak (kurs korespondencyjny magii)"
+    profession: "Woźny Hogwartu"
+    cechy:
+      Vitality: 3
+      Speed: 4
+      Wits: 6
+      Knowledge: 3
+      Focus: 1
+    umiejetnosci:
+      "Observation (Patrol)": 3
+      Stealth: 4
+      Authority: 3
+      Skirmishing: 3
+      "Law (Regulamin szkoły)": 3
+      "Trivia (Zamek)": 4
+      Persuasion: 1
+    zaklecia: {}
+    patronus: brak
+    zdrowie: {body: 0, mind: 0}
   zdolnosci_specjalne:
     - nazwa: "Obchód"
-      opis: "Przeciwnik w teście skradania (test przeciwny: Speed + Stealth, czyli szybkość i skradanie, postaci przeciw jego Wits + Observation, czyli bystrości i spostrzegawczości). Kandydat na Zegar Północy w nocnej wyprawie w scenie 09; decyzja mechaniczna czeka."
+      opis: "Przeciwnik w teście skradania (test przeciwny: Speed + Stealth, czyli szybkość i skradanie, postaci przeciw jego Wits + Observation, czyli bystrości i spostrzegawczości). Rzut obronny Filcha to 1D10 + 9 (Wits 6 + Observation 3, Walker 2e s. 3-4); tyle liczą sceny 09 i 10. Zegar Północy w scenie 09 zastąpił licznik hałasu (założenie robocze 2026-11-21)."
 ```
 
 ## Do weryfikacji

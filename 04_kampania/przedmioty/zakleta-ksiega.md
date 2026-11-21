@@ -38,7 +38,7 @@ Pod pulpitem kamienie posadzki są osmalone w nieregularną gwiazdę, a w kurzu 
 - Księgi **nie da się zabrać** ani **przewrócić jej strony**. Pełną treść odblokowują zagadki, które pojawią się dopiero w Sesji 2 i później.
 - Siła budzi **stopniowane zabezpieczenia** (`flaga.ksiega-zabezpieczenia`, 0–3). Za dotknięcie uznaje się: dotyk ręką, dotyk różdżką, zaklęcie przyciągające, próbę przewrócenia strony.
   - **Poziom 1, pierwsze dotknięcie.** Delikatne porażenie, mrowienie do łokcia. Łuna ciemnieje, a wszystkie zatrzymane zegary w sali tykają raz, naraz. Bez obrażeń: to sygnał.
-  - **Poziom 2, każde kolejne dotknięcie.** Silniejsze porażenie: lekkie obrażenia, odrzut, upuszczona różdżka. Wahadła w galerii same zaczynają się kołysać, robi się głośno. Każde następne dotknięcie na tym poziomie boli mocniej. [[npc.ansel-dray]] (jeśli jest) krzyczy, żeby przestali. **Zanim ktoś spróbuje przejść na poziom 3, MG mówi wprost, poza fikcją:** „To jest to, co zrobił Cassian. Jeśli spróbujecie wyrwać kartkę, pracownia się obudzi i jedynym wyjściem będzie ucieczka”.
+  - **Poziom 2, każde kolejne dotknięcie.** Silniejsze porażenie: lekkie obrażenia, odrzut, upuszczona różdżka. Wahadła w galerii kołyszą się szerzej i głośniej (przy ponownym przejściu +3 do trudności), robi się głośno. Każde następne dotknięcie na tym poziomie boli mocniej. [[npc.ansel-dray]] (jeśli jest) krzyczy, żeby przestali. **Zanim ktoś spróbuje przejść na poziom 3, MG mówi wprost, poza fikcją:** „To jest to, co zrobił Cassian. Jeśli spróbujecie wyrwać kartkę, pracownia się obudzi i jedynym wyjściem będzie ucieczka”.
   - **Poziom 3, próba wyrwania kartki albo siłowego zabrania księgi.** Pełne zabezpieczenia. Kartka nie puszcza, ale w dłoni zostaje **róg kartki z jednym znakiem** (decyzja MG 2026-11-20, zob. „Dla MG”). Zatrzymane zegary ruszają wszystkie naraz, a sala zaczyna bić trzynaście uderzeń; po trzynastym schody się zamykają. Ucieczka przez galerię wahadeł, które teraz tną szybko, i po tykających schodach do drzwi w bibliotece. Droga jest otwarta, dopóki nie wybije trzynaste uderzenie. Hałas sięga biblioteki: Filch na obchodzie zaczyna nasłuchiwać.
   - **Kto nie zdąży** (`flaga.ksiega-zlapani`): budzi się na podłodze ostatniego rzędu Działu Ksiąg Zakazanych, ciężko ranny i z zaklęciem zapomnienia na ostatnie minuty w pracowni (siatka bezpieczeństwa 8 w grafie Sesji 1). Śmierć postaci wchodzi w grę tylko jako świadomy wybór gracza po drugim, wyraźnym pytaniu MG. Linie i zasłony ustalone przy stole mają pierwszeństwo.
   - **Po ucieczce** sala uspokaja się po kilku minutach i znów da się do niej wejść, ale księga „pamięta”: następne dotknięcie w tej sesji zaczyna od poziomu 2.
@@ -74,7 +74,7 @@ test:
       wartosc: "+2 do rzutu"
   wyniki:
     - wynik: sukces
-      efekt: "Rzut odporności jest wyższy od obrażeń: brak rany. Odrzut o krok, łuna ciemnieje, wahadła w galerii zaczynają się kołysać."
+      efekt: "Rzut odporności jest wyższy od obrażeń: brak rany. Odrzut o krok, łuna ciemnieje, wahadła w galerii kołyszą się szerzej i głośniej."
       flagi_ustaw: [flaga.ksiega-zabezpieczenia]
     - wynik: porazka
       efekt: "Obrażenia równe rzutowi albo wyższe: 1 kółko (Shaken, +1 do trudności, mija po kilku sekundach). Odrzut o metr, różdżka wylatuje z dłoni (podniesienie to akcja darmowa, s. 33). Hałas: Filch na górze zaczyna nasłuchiwać."

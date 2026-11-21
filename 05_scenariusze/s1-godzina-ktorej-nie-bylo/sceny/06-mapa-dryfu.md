@@ -32,6 +32,11 @@ flagi_wejscie:
   - flaga.tempus-opanowane
   - flaga.ansel-spotkany
   - flaga.s1-zegar-kradziezy
+  - flaga.zegarek-u-graczy
+  - flaga.wren-podejrzewa
+  - flaga.cassian-zdemaskowany
+  - flaga.plakietka-crake
+  - flaga.wieza-zbadana
 flagi_wyjscie:
   - flaga.przyplyw-ku-wiezy
   - flaga.slad-ukaszen
@@ -685,7 +690,7 @@ rozgalezienie:
   id: s1.scena.06.rozgalezienie.awaryjne-zegarek-u-graczy
   rodzaj: awaryjne
   warunek: "Zegarek Cassiana jest już u graczy (kradzież po scenie 04), więc zegar kradzieży stoi, a drżące odczyty słabną."
-  wymaga_flag: [flaga.zegarek-cassiana]
+  wymaga_flag: [flaga.zegarek-u-graczy]
   wyklucza_flagi: [flaga.cassian-zdemaskowany]
   efekt: "Wzór drżący widać rano w lochach, po południu tylko ślad w notatkach (zob. zegar kradzieży w Dla MG); przypływ ku wieży nie słabnie, bo to inny wzór. Tempus przy zegarku tyka szybciej niż gdziekolwiek. Cassian, pozbawiony zegarka, szuka go: po obiedzie widzi postacie i sam do nich podchodzi, blady i cichy, bez maski (siatka bezpieczeństwa 1 w `graf-scen.md`). Nie unieważnia to kradzieży: zegarek zostaje u graczy, a MG tylko ustala, czy Cassian prosi, grozi, czy ucieka. Jeśli pomiary jeszcze trwają, przerwij je i przejdź do 08 z tym, co mają na mapie."
   flagi_ustaw: []

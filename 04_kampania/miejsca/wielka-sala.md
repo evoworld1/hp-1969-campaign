@@ -59,7 +59,10 @@ test:
   opis: "Postać rozgląda się przy śniadaniu i zauważa, że coś w sali jest nie w porę (sygnał dziwności). To test nauczający ze sceny 01; plik sceny może go przejąć."
   kto: kazdy
   rzut: "1D10 + Wits + Observation"
-  trudnosc: "DO-USTALENIA"
+  trudnosc: "Tricky (12)"
+  modyfikatory:
+    - warunek: "Specjalizacja Observation pasująca do sytuacji (np. Observation (Twarze); Specialism, s. 13). Pełny zestaw zasad i wyjątków: blok s1.scena.01.test.przy-stole w pliku sceny 01"
+      wartosc: "+1 do rzutu"
   wyniki:
     - wynik: sukces
       efekt: "MG wskazuje jeden z sygnałów: spóźniony zegar, Maisie Lock, stojący zegarek Cassiana albo szept przy stole Slytherinu. Plotka o „duchu Puchona” i tak krąży."

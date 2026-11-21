@@ -64,7 +64,16 @@ test:
   opis: "Postać studiuje kartę i próbuje zrozumieć, co właściwie opisuje."
   kto: jeden
   rzut: "1D10 + Knowledge + Magical Theory"
-  trudnosc: "DO-USTALENIA"
+  trudnosc: "Challenging (15)"
+  modyfikatory:
+    - warunek: "Postać zna nazwisko Marrow (flaga.marrow-imie-znane) i rozpoznaje jej pismo na marginesach"
+      wartosc: "+2 do rzutu"
+    - warunek: "Karta leży przy zegarku Cassiana albo przyłożona do paska w księdze (sprzęgają się z tekstem)"
+      wartosc: "+1 do rzutu"
+    - warunek: "Każda inna postać, która czyta razem z prowadzącą (Working Together, s. 4)"
+      wartosc: "+1 do rzutu"
+    - warunek: "Postać ma stan Drained (+3; po scenie 03 albo po przegranym pojedynku w 08), s. 35; Dazed to +2, Rattled +1"
+      wartosc: "+3 do trudności"
   wyniki:
     - wynik: sukces
       efekt: "Postać rozumie, że tekst główny opisuje tylko branie czasu i urywa się tam, gdzie zaczynało się coś ważnego; reszta została w księdze. Rozumie też, że dopisek na odwrocie to nie ozdobnik: ktoś, kto znał ten tekst, upierał się, że działa w obie strony."
@@ -74,7 +83,7 @@ test:
       flagi_ustaw: []
 ```
 
-Objaśnienie: Knowledge (wiedza) to cecha, Magical Theory (teoria magii) to umiejętność (Walker 2e s. 12, 16). Liczby ustala mechanik.
+Objaśnienie: Knowledge (wiedza) to cecha, Magical Theory (teoria magii) to umiejętność (Walker 2e s. 12, 16). Trudność 15: tekst jest obcy i urwany (zasada nasza).
 
 ## Dla MG
 

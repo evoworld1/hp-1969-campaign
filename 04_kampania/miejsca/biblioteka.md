@@ -79,7 +79,10 @@ test:
   opis: "Postać przygląda się zdjęciom z 1951 roku w gablocie przed biblioteką."
   kto: jeden
   rzut: "1D10 + Wits + Observation"
-  trudnosc: "DO-USTALENIA"
+  trudnosc: "Tricky (12)"
+  modyfikatory:
+    - warunek: "Postać ma stan Drained (+3; po scenie 03 albo po przegranym pojedynku w 08), s. 35; Dazed to +2, Rattled +1"
+      wartosc: "+3 do trudności"
   wyniki:
     - wynik: sukces
       efekt: "Na zdjęciu z dopiskiem „Obserwatorium, jesień 1951” (bez nazwisk) kobieta przy teleskopie i wysoki prefekt z odznaką, który trzyma jej lunetę. Kobieta raz po raz zerka w bok, poza kadr, jakby ktoś tam stał."

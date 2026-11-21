@@ -146,7 +146,7 @@ Grupa pana Vane'a wychodzi pierwsza, ze śmiechem. Cassian idzie na końcu. W dr
 - Dialog: `s1.scena.04.dialog.wren-po-lekcji` — „Grupa trzecia. Na słowo.”, potem uwaga o ocenach: „Pan Vane podniósł oceny w dwa tygodnie. Z pojedynków, z teorii, ze wszystkiego naraz. Tak się nie da, chyba że ktoś przestał spać. Gratuluję mu. I patrzę.”
 - Dialog: `s1.scena.04.dialog.cassian-po-lekcji` — „[nazwisko]. Dobry pokaz. Naprawdę. Nie bierz tego do siebie.” (tylko gdy postacie go zaczepiają)
 - Flagi: `flaga.wren-podejrzewa` (gdy padnie uwaga o ocenach; W4.6)
-- Krótko: korytarz, późne popołudnie. Konfrontacja z Cassianem od razu prowadzi do 08 (rozgałęzienie `konfrontacja-po-lekcji`); zwykle dalej 05 albo 12. Stan Drained ustępuje, gdy postacie coś zjedzą.
+- Krótko: korytarz, późne popołudnie. Konfrontacja z Cassianem od razu prowadzi do 08 (rozgałęzienie `konfrontacja-po-lekcji`); zwykle dalej 05 albo 12. Stan Drained trwa do pierwszego posiłku albo snu; napar z pielęgniarki zmniejsza go do Dazed (+2).
 - Awaryjne: `awaryjne-przeciagnieta-scena` (scena przekroczyła 35 minut).
 
 ### Pokaz krok po kroku (ściąga dla MG)

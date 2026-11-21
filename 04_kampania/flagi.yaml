@@ -45,6 +45,11 @@ flagi:
     typ: bool
     wartosci: []
     sesja: s1
+  - id: flaga.crake-urazony
+    opis: "Postać była niegrzeczna wobec Hollisa Crake'a albo go zaatakowała (prolog, s1.scena.01, s1.scena.07, s1.scena.12). Crake jest wobec niej chłodno uprzejmy (jedno zdanie) i nie wchodzi z nią w pogawędkę z testem; pozostałe postacie rozmawiają z nim normalnie. MG zapisuje, której postaci dotyczy."
+    typ: bool
+    wartosci: []
+    sesja: s1
   - id: flaga.crake-dluga-rozmowa
     opis: "Dzięki bardzo wysokiemu wynikowi testu spostrzegawczości postać wciągnęła Crake'a w dłuższą rozmowę i zauważyła szczegół o jego córce."
     typ: bool
@@ -90,7 +95,7 @@ flagi:
     wartosci: []
     sesja: s1
   - id: flaga.ansel-kontakt
-    opis: "Liczba postaci graczy, które przynajmniej raz rozmawiały z Anselem (nie tylko mignięcie). Każda postać liczy się raz; MG prowadzi znacznik osobno przy każdej postaci. Przed sceną s1.scena.10 musi się równać liczbie graczy."
+    opis: "Liczba postaci graczy, które przynajmniej raz rozmawiały z Anselem (nie tylko mignięcie). Każda postać liczy się raz; MG prowadzi znacznik osobno przy każdej postaci. Przed sceną s1.scena.10 musi się równać liczbie graczy. Każde ustawienie = +1 na postać; MG zapisuje wartość per postać (liczba w kontrakcie jest jedna, więc zapis osobny przy każdej postaci). Po drugiej odmowie gracza kontakt liczy się jak mignięcie, a s1.scena.09 idzie bez wyrównania (założenie robocze)."
     typ: liczba
     wartosci: []
     sesja: s1
@@ -161,6 +166,16 @@ flagi:
     sesja: s1
   - id: flaga.zegarek-u-graczy
     opis: "Pomocnicza flaga bool: prawda, gdy flaga.zegarek-cassiana = u-graczy (kontrakt nie pozwala na warunek wartości w wymaga_flag). Warunek zakończenia „moc” (razem z flaga.karta-u-graczy). Fałsz po zniszczeniu, konfiskacie albo gdy zegarek wrócił do Cassiana."
+    typ: bool
+    wartosci: []
+    sesja: s1
+  - id: flaga.zegarek-zniszczony
+    opis: "Pomocnicza flaga bool: prawda, gdy flaga.zegarek-cassiana = zniszczony (kontrakt nie pozwala na warunek wartości w wymaga_flag). Ustawiana razem z flaga.zegarek-cassiana przy zniszczeniu zegarka (s1.scena.08 albo s1.scena.12, blok awaryjne-zegarek-zniszczony). Wtedy flaga.zegarek-u-graczy jest fałszem, a zakończenie „moc” przepada."
+    typ: bool
+    wartosci: []
+    sesja: s1
+  - id: flaga.zegarek-skonfiskowany
+    opis: "Pomocnicza flaga bool: prawda, gdy flaga.zegarek-cassiana = skonfiskowany (Filch, McGonagall, Flitwick albo Wren po konfrontacji w s1.scena.08). Wtedy flaga.zegarek-u-graczy jest fałszem, a zegar kradzieży stoi."
     typ: bool
     wartosci: []
     sesja: s1

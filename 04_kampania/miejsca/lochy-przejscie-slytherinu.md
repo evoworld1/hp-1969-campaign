@@ -44,7 +44,8 @@ Im niżej schodzicie, tym bardziej chłód wchodzi pod szaty. Ściany są mokre 
 - Kryjówki: sala Eliksirów (po lekcjach zamknięta, ale drzwi do składziku bywają uchylone), wnęka z zegarem dla jednej osoby, załom korytarza przed ścianą.
 
 ### Do weryfikacji
-- Kto uczy Eliksirów w 1969 (Slughorn): kanon, do potwierdzenia przez straznika-kanonu (graf wspomina „chłopca od Slughorna”).
+- Kto uczy Eliksirów w 1969 (Slughorn): kanon (wniosek), bo uczy w latach 40. i od 1971; opiekun Slytherinu w 1969: niepewne (zob. [[kanon.kadra-hogwartu-1969]]). Graf wspomina „chłopca od Slughorna”.
+- Pokój wspólny Slytherinu pod jeziorem: kanon (Wizarding World). Widok z okien dormitorium na jezioro: niepewne, nasz bezpieczny szczegół (źródła mówią o oknach pokoju wspólnego).
 - Stary zegar we wnęce to nasz szczegół.
 
 ## Ukryte

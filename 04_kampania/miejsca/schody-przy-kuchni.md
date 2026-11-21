@@ -44,7 +44,7 @@ Kamienne schody schodzą z gwaru Sali Wejściowej w ciszę. Na dole korytarz jes
 **Zagrożenia i kryjówki.** Brak zagrożeń; to najbezpieczniejsze miejsce Sesji 1. Wieczorem przechodzą tędy Puchoni do pokoju wspólnego, więc rozmowa z niewidzialnym dla nich chłopcem wygląda dziwnie (koszt: plotka, że „grupa trzecia gada do ściany”). Kryjówka: kuchnia, gdzie skrzaty nikogo nie wydają.
 
 ### Do weryfikacji
-- Kuchnia w podziemiach i wejście przez obraz: kanon (Czara Ognia, rozdz. 21). Położenie pokoju wspólnego Hufflepuffu przy kuchni: kanon (Wizarding World, Pottermore). Same schody i ich wytarte stopnie to nasze szczegóły.
+- Kuchnia w podziemiach i wejście przez obraz: kanon (Czara Ognia, rozdz. 21, rok 1994). Czy obraz wisiał już w 1969: niepewne (prawdopodobne), wiek obrazu nieznany. Położenie pokoju wspólnego Hufflepuffu przy kuchni: kanon (Wizarding World, Pottermore). Same schody i ich wytarte stopnie to nasze szczegóły.
 
 ## Ukryte
 

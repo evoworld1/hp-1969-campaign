@@ -291,8 +291,11 @@ Zegar zatrzymuje się, gdy `flaga.cassian-zdemaskowany` albo gdy zegarek trafia 
 | `flaga.cassian-zdemaskowany` | bool | 08 | 09, Sesja 2 |
 | `flaga.cassian-los` | wybór | 08 | Sesja 2 |
 | `flaga.zegarek-cassiana` | wybór | 08 (także kradzież w 12 po scenie 04); w 01–04 zawsze `u-cassiana` | 08, 09, finał („moc” wymaga `u-graczy`) |
-| `flaga.zegarek-u-graczy` | bool (pomocnicza: zegarek-cassiana = u-graczy) | 08, 12 | finał („moc”) |
-| `flaga.karta-u-graczy` | bool | 08 | 09 |
+| `flaga.zegarek-u-graczy` | bool (pomocnicza: zegarek-cassiana = u-graczy; MG zdejmuje ją ręcznie, gdy zegarek wraca do Cassiana, zostaje skonfiskowany albo zniszczony) | 07, 08, 12 | 06, 09 (gablota-zabrana), 10, 12, finał („moc”) |
+| `flaga.zegarek-zniszczony` | bool (pomocnicza: zegarek-cassiana = zniszczony) | 08, 12 | 09, finał (przepada „moc”) |
+| `flaga.zegarek-skonfiskowany` | bool (pomocnicza: zegarek-cassiana = skonfiskowany) | 08, 12 | 09, finał |
+| `flaga.crake-urazony` | bool (niegrzeczność lub groźba wobec Crake'a) | 11, 01, 07, 12 | 01, 07, 12 (Crake chłodno uprzejmy, bez testu pogawędki) |
+| `flaga.karta-u-graczy` | bool | 08, 12 | 09, 10 |
 | `flaga.lokalizacja-pracowni` | bool | 08, 12 | 09 |
 | `flaga.pracownia-otwarta` | bool | 09 | 10 |
 | `flaga.ksiega-zabezpieczenia` | liczba (0–3) | 09 | 09 (kolejne dotknięcia), Sesja 2 |
@@ -402,7 +405,7 @@ Zniszczenie zegarka nie oddaje godziny drużyny: jest wpleciona w Ansela, wracaj
 
 ## Do weryfikacji
 
-- Pliki scen 02–12 istnieją jako szkielety (2026-11-20, tryb przyspieszony); pole `sceny` w `przeglad.md` uzupełnione. Scena 01 nie ustawia jeszcze `flaga.cassian-czujny` przy nieudanej próbie zabrania zegarka (do dopisania przy jej recenzji).
+- Sceny 01–12 mają już pełną treść (status recenzja albo szkic w 11 i 12); scena 01 ustawia `flaga.cassian-czujny` przy nieudanej próbie zabrania zegarka (nagłówek zgodny).
 - Mechanik: czy stracona godzina daje stan Drained już na Obronie (04); próg testu przy śniadaniu; liczby dla pogawędki z Crake'iem, wahadeł, gabloty, pojedynku; test skradania nocą i Zegar Północy w scenie 09 (jedyne wejście, decyzja MG 2026-11-20).
 - Plan lekcji: Zaklęcia przed południem i Obrona po przerwie obiadowej to założenie wykonawcze; kanon nie podaje godzin lekcji w 1969.
 - Dom Wymarka w 1951 (propozycja: Ravenclaw) i jego dokładny wiek ustali tworca-npc.

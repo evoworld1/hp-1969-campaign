@@ -58,10 +58,15 @@ test:
   opis: "Wieczorem grupa trzecia ćwiczy w pustej sali, żeby przygotować się na Cassiana (opcjonalnie, scena 06–08)."
   kto: grupa
   rzut: "1D10 + Wits + Duelling"
-  trudnosc: "DO-USTALENIA"
+  trudnosc: "Tricky (12)"
+  modyfikatory:
+    - warunek: "Każda inna postać, która ćwiczy razem z prowadzącą (Working Together, Walker 2e s. 4)"
+      wartosc: "+1 do rzutu"
+    - warunek: "Postać nadal ma stan Drained (+3) albo Dazed (+2) po scenie 03 (s. 35)"
+      wartosc: "+3 do trudności"
   wyniki:
     - wynik: sukces
-      efekt: "Grupa ma plan na sygnał Cassiana. Premię do pierwszego ruchu w pojedynku (scena 08) ustala mechanik."
+      efekt: "Grupa ma plan na sygnał Cassiana. Każda ćwicząca postać dostaje +1 do rzutu pierwszego ataku albo uniku w pojedynku ze sceny 08 (zasada domowa, nasze; jednorazowa premia za przygotowanie)."
       flagi_ustaw: []
     - wynik: porazka
       efekt: "Ćwiczenie się rozjeżdża, ale Wren, który przechodzi korytarzem, rzuca jedną radę z progu."

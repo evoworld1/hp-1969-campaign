@@ -6,8 +6,8 @@ status: szkic
 sesja: s1
 akt: "prolog"
 kolejnosc: 0
-czas_min: 30
-cel: "Opcjonalny prolog trzy tygodnie przed szkołą. Przejmuje rolę sceny nauczającej (rozmowa i jeden prosty test), daje pierwszą plotkę o Czarnym Panu i przelotne spotkanie z Crake'iem przy jego witrynie."
+czas_min: 40
+cel: "Opcjonalny prolog w sobotę 30 sierpnia 1969, dwa dni przed początkiem roku szkolnego (około trzech tygodni przed sceną 01, 22 września). Przejmuje rolę sceny nauczającej (rozmowa i jeden prosty test), daje pierwszą plotkę o Czarnym Panu i przelotne spotkanie z Crake'iem przy jego witrynie."
 npc:
   - npc.garrick-ollivander
   - npc.hollis-crake
@@ -21,6 +21,7 @@ flagi_wyjscie:
   - flaga.s1-prolog-pokatna
   - flaga.crake-poznany
   - flaga.crake-dluga-rozmowa
+  - flaga.crake-urazony
   - flaga.plotka-o-voldemorcie
 nastepne:
   - s1.scena.01
@@ -130,7 +131,7 @@ aktualizacja: 2026-11-20
 
 ### Rytm sceny
 
-*Oś sceny: przy każdym kroku stoi, co czytać, który blok dialogu otworzyć, jaki test rzucić i jakie flagi zapisać. Pełne teksty są w „Do odczytania”. Kolejność kroków 3–5 jest dowolna: idź tam, dokąd gracze chcą iść, a tekst 3 i tekst 4 podsuń po drodze. Całość ok. 30 minut.*
+*Oś sceny: przy każdym kroku stoi, co czytać, który blok dialogu otworzyć, jaki test rzucić i jakie flagi zapisać. Pełne teksty są w „Do odczytania”. Kolejność kroków 3–5 jest dowolna: idź tam, dokąd gracze chcą iść, a tekst 3 i tekst 4 podsuń po drodze. Całość ok. 40 minut.*
 
 **Krok 1. Otwarcie i jak się gra** (ok. 3 min)
 - Czytaj: tekst 1 („Sobota, trzydziesty sierpnia 1969 roku…”)
@@ -151,7 +152,7 @@ aktualizacja: 2026-11-20
 - Dialog: `s1.scena.11.dialog.crake-witryna` — „Podobają się, młodzi? Oglądać wolno za darmo. Crake, do usług.”
 - Test: `s1.scena.11.test.crake-pogawedka` (jedyny test prologu, test nauczający)
 - Flagi: `flaga.crake-poznany`, `flaga.crake-dluga-rozmowa` (tylko bardzo wysoki wynik)
-- Krótko: starszy pan poprawia wskazówki w witrynie i sam wychodzi zagadać. Pogawędka ruchoma odbywa się tutaj i nie wraca w 01 ani w 07. Jeśli gracze omijają witrynę, tłum spycha ich pod szybę albo czyjaś lista zakupów odfruwa pod drzwi Crake'a: test nauczający ma się odbyć. Gdy postacie mimo to idą dalej, nie ustawiaj `flaga.crake-poznany`; Crake pojawi się w scenie 01 albo 07.
+- Krótko: starszy pan poprawia wskazówki w witrynie i sam wychodzi zagadać. Pogawędka ruchoma odbywa się tutaj; jeśli test zagrano, nie wraca w 01 ani w 07, a jeśli nie, Crake pojawia się w scenie 01 (jeden rzut nawet w wariancie skróconym) albo 07. Jeśli gracze omijają witrynę, tłum spycha ich pod szybę albo czyjaś lista zakupów odfruwa pod drzwi Crake'a: test nauczający ma się odbyć. Gdy postacie mimo to idą dalej, nie ustawiaj `flaga.crake-poznany`; Crake pojawi się w scenie 01 albo 07.
 - Awaryjne: `awaryjne-gdzie-indziej`.
 
 **Krok 5. Gazeciarz i szept** (ok. 4 min)
@@ -173,7 +174,7 @@ aktualizacja: 2026-11-20
 - **Gdy gracze pytają „czy to ważne?”** (szyld, zegary, szept), odpowiedz: „Twoja postać to zauważyła. Co z tym robisz?”. Nikt na Pokątnej niczego nie wyjaśnia.
 - **Czarowanie poza szkołą jest zakazane** dla niepełnoletnich (kanon). Różdżki zostają w kieszeniach. Wyjątek: próby różdżek w sklepie Ollivandera (w kanonie odbywają się bez kłopotów; przyjmujemy, że tak zostaje). Jeśli gracz chce rzucić zaklęcie na ulicy, ktoś dorosły kładzie mu rękę na ramieniu, zanim skończy formułę.
 
-**Tempo.** Jeśli prolog przekracza 35 minut, tnij w tej kolejności: zakupy (krok 2) do jednego zdania na gracza, potem Ollivander (różdżka „wybiera” przy pierwszej próbie), potem szept (scena 01 w wariancie skróconym i tak daje jedno zdanie plotki). Pogawędki z Crake'iem i tekstu 5 nie tnij: to jedyny test prologu i jedyne przejście do sceny 01.
+**Tempo.** Jeśli prolog przekracza 45 minut, tnij w tej kolejności: zakupy (krok 2) do jednego zdania na gracza, potem Ollivander (różdżka „wybiera” przy pierwszej próbie), potem szept (scena 01 w wariancie skróconym i tak daje jedno zdanie plotki). Pogawędki z Crake'iem i tekstu 5 nie tnij: to jedyny test prologu i jedyne przejście do sceny 01.
 
 **Czym zamknąć.** Tekstem 5 i od razu tekstem 2 sceny 01. Nie rób przerwy między nimi: przeskok ma zadziałać jak cięcie w filmie, z zegarów Crake'a prosto w szum sów nad Wielką Salą.
 
@@ -216,6 +217,8 @@ dialog:
     - "Gdy postać kłamie (np. „sama się złamała”): „Sama. Różdżki rzadko łamią się same. Nie będę dopytywał. Ona i tak mi powie.”"
     - "Gdy postać pyta o plotki, wojnę albo „co słychać w świecie”: „Słyszę wiele rzeczy. Mówię tylko o różdżkach. To spokojniejszy temat.”"
     - "Nieprzewidziane (postać chwyta pudełko z półki, wspina się na drabinę albo chce kupić dwie różdżki): „Proszę ją odłożyć. Ona jeszcze pana nie zna i może się obrazić.”"
+    - "Gdy postać próbuje wynieść różdżkę ze sklepu bez płacenia (kradzież u Ollivandera; zob. blok awaryjne-kradziez-na-pokatnej): (cicho, bez podnoszenia głosu) „Ona nie pójdzie z panem. Proszę ją odłożyć.” (czeka z wyciągniętą dłonią, nieruchomy, aż różdżka wróci)"
+    - "Gdy postać grozi mu, celuje w niego różdżką albo chce go zmusić do czegokolwiek: (nie cofa się ani o krok) „Nie w moim sklepie, proszę pana.” (dłoń zostaje wyciągnięta; różdżka w ręku postaci robi się ciężka jak kamień, a drzwi dzwonią, bo wchodzi dorosły klient)"
     - "Może zdradzić bez warunku: drewno, rdzeń i długość nowej różdżki; to, że pamięta starą różdżkę i (przy odziedziczonej) jej poprzedniego właściciela. Tylko przy różdżce, która „nie słucha”: jedno zdanie „nie w porę”."
     - "Nie zdradza: nic. Nie ma sekretu fabularnego i nie wraca do zdania „nie w porę”, nawet gdy postać dopytuje."
   wariant_od: []
@@ -247,10 +250,11 @@ dialog:
     - "Gdy postać próbuje go przekupić: „Synku, ja biorę pieniądze za naprawy, nie za plotki.”"
     - "Gdy postać jest niegrzeczna albo grozi: „Przepraszam, mam robotę w środku.” (zamyka drzwi; zapamiętuje twarz)"
     - "Gdy postać kłamie (np. udaje, że zna się na zegarach): „Doprawdy? To może pani mi powie, co tu stuka.” (podaje zegarek do ucha, uśmiecha się; nie obraża się)"
+    - "Gdy postać chwyta zegar z witryny i próbuje wyjść (kradzież z witryny; zob. blok awaryjne-kradziez-na-pokatnej): (łapie zegar obiema dłońmi, bez krzyku, smutno) „Ostrożnie, kochanie.” (do zegara) „Proszę go odłożyć, młody człowieku. Zapamiętam pana twarz.”"
     - "Nieprzewidziane (postać chce kupić zegarek albo dotyka mechanizmu w witrynie): „Ostrożnie, to staruszka, nie zabawka. Na zegarek przyjdźcie po pierwszej pensji. A swój zepsuty przynieście, obejrzę za darmo.”"
     - "Może zdradzić: że stroi zegary w Hogwarcie (bez warunku); przy sukcesie zdanie o wieży; przy sukcesie imponującym imię córki i to, że pomagała w sklepie (zawsze w czasie przeszłym)."
     - "Nie zdradza: że córka nie żyje, jak zginęła, nic o Klepsydrze, pieczęci ani kliencie z Londynu. Na każde takie pytanie zmienia temat na zegary."
-  wariant_od: [flaga.crake-dluga-rozmowa]
+  wariant_od: [flaga.crake-dluga-rozmowa, flaga.crake-urazony]
 ```
 
 ### Gazeciarz i szept w kolejce (krok 5)
@@ -288,7 +292,7 @@ Jedyny rzut prologu to pogawędka z Crake'iem, a jej celem jest nauczyć graczy 
 ```yaml
 test:
   id: s1.scena.11.test.crake-pogawedka
-  opis: "Pogawędka z Crake'iem przy witrynie na Pokątnej (test nauczający, jedyny rzut prologu). Test standardowy (Walker 2e s. 3), rzuca jedna postać: ta, która prowadzi rozmowę. Próg 9 (próg bez nazwy, zasada domowa ZD-23; Walker podaje 9 jako trudność prostych uroków, s. 40), jak w scenach 01, 07 i 12. Dłuższa rozmowa wymaga sukcesu imponującego (Impressive success, co najmniej 2 × trudność, s. 3), czyli wyniku 18 lub więcej. Przy Wits + Observation 9–10 zwykły sukces jest pewny, a imponujący wypada w około 20–30% rzutów (z jednym pomocnikiem 30–40%, z dwoma 40–50%). Porażka zdarza się tylko postaciom z Wits + Observation 7 lub mniej. Porażka kompromitująca (wynik poniżej połowy trudności, czyli 4 lub mniej) praktycznie nie wypada z rzutu; kwestia Crake'a o gapieniu się w szybę to wybór MG, gdy gracz sam odgrywa nieuwagę, bez liczb. Story Points dorzuca się dopiero po porażce (s. 4); przy pierwszym rzucie w życiu MG może przypomnieć, że taki punkt istnieje. Gdy postać była niegrzeczna albo groziła, testu nie ma: Crake wycofuje się do sklepu według dialogu crake-witryna. Modyfikatory za stany Drained i Dazed nie obowiązują, bo prolog dzieje się przed szkołą."
+  opis: "Pogawędka z Crake'iem przy witrynie na Pokątnej (test nauczający, jedyny rzut prologu). Test standardowy (Walker 2e s. 3), rzuca jedna postać: ta, która prowadzi rozmowę. Próg 9 (próg bez nazwy, zasada domowa ZD-23; Walker podaje 9 jako trudność prostych uroków, s. 40), jak w scenach 01, 07 i 12. Dłuższa rozmowa wymaga sukcesu imponującego (Impressive success, co najmniej 2 × trudność, s. 3), czyli wyniku 18 lub więcej. Przy Wits + Observation (bystrość i spostrzegawczość) 9–10 zwykły sukces jest pewny, a imponujący wypada w około 20–30% rzutów (z jednym pomocnikiem 30–40%, z dwoma 40–50%). Porażka zdarza się tylko postaciom z Wits + Observation 7 lub mniej. Porażka kompromitująca (wynik poniżej połowy trudności, czyli 4 lub mniej) praktycznie nie wypada z rzutu; kwestia Crake'a o gapieniu się w szybę to wybór MG, gdy gracz sam odgrywa nieuwagę, bez liczb. Story Points (punkty fabularne) dorzuca się dopiero po porażce (s. 4); przy pierwszym rzucie w życiu MG może przypomnieć, że taki punkt istnieje. Gdy postać była niegrzeczna albo groziła, testu nie ma: Crake wycofuje się do sklepu według dialogu crake-witryna. Modyfikatory za stany Drained i Dazed (stany umysłu: +3 i +2 do trudności) nie obowiązują, bo prolog dzieje się przed szkołą."
   kto: jeden
   rzut: "1D10 + Wits + Observation"
   trudnosc: 9
@@ -312,7 +316,7 @@ test:
       flagi_ustaw: [flaga.crake-poznany, flaga.crake-dluga-rozmowa]
 ```
 
-**Dobór różdżki u Ollivandera.** Bez rzutu i bez liczb: to zabawa opisowa (rdzenie Ollivandera: Walker 2e s. 26). Najwyżej trzy próby: dwie nieudane, trzecia właściwa; MG może przerwać wcześniej, jeśli czas goni (wtedy różdżka „wybiera” przy pierwszej próbie). Różdżka nie daje tu żadnego modyfikatora do późniejszych testów.
+**Dobór różdżki u Ollivandera.** Bez rzutu i bez liczb: to zabawa opisowa (rdzenie Ollivandera: Walker 2e s. 26). Najwyżej trzy próby: dwie nieudane, trzecia właściwa; MG może przerwać wcześniej, jeśli czas goni (wtedy różdżka „wybiera” przy pierwszej próbie). Nowa różdżka powtarza drewno, rdzeń i premie z karty postaci i nie daje niczego ponad kartę.
 
 ## Rozgałęzienia
 
@@ -335,8 +339,8 @@ rozgalezienie:
   warunek: "Postacie zatrzymują się przy witrynie i zagadują Crake'a."
   wymaga_flag: []
   wyklucza_flagi: []
-  efekt: "Pogawędka 2–3 minuty i test. Zwykły sukces: miły pan pachnący olejem. Bardzo wysoki wynik: zdjęcie dziewczyny w kopercie zegarka i chwila o córce."
-  flagi_ustaw: [flaga.crake-poznany]
+  efekt: "Pogawędka 2–3 minuty i test. Zwykły sukces: miły pan pachnący olejem. Bardzo wysoki wynik: zdjęcie dziewczyny w kopercie zegarka i chwila o córce. Flagi ustawia dopiero wynik testu `s1.scena.11.test.crake-pogawedka` (`flaga.crake-poznany`, przy sukcesie imponującym także `flaga.crake-dluga-rozmowa`), nie samo rozgałęzienie."
+  flagi_ustaw: []
   prowadzi_do: brak
 ```
 
@@ -399,8 +403,8 @@ rozgalezienie:
   warunek: "Gracze od razu chcą szukać zegarmistrza (np. postać wie coś z własnego tła albo MG wcześniej zasygnalizował zegary)."
   wymaga_flag: []
   wyklucza_flagi: []
-  efekt: "Nie ma żadnej przeszkody: witryna jest tuż za zakrętem. MG przeskakuje do kroku 4 i czyta tekst 3. Test pogawędki rozgrywa się normalnie. Nie dodajemy nic ponad prolog: Crake w Sesji 1 nie zdradza niczego o Klepsydrze. Jeśli gracze liczyli na „tajemnicę zegarmistrza”, mają miłego starszego pana i kolor. Reszta prologu (Ollivander, szept) może iść po rozmowie."
-  flagi_ustaw: [flaga.crake-poznany]
+  efekt: "Nie ma żadnej przeszkody: witryna jest tuż za zakrętem. MG przeskakuje do kroku 4 i czyta tekst 3. Test pogawędki rozgrywa się normalnie. Nie dodajemy nic ponad prolog: Crake w Sesji 1 nie zdradza niczego o Klepsydrze. Jeśli gracze liczyli na „tajemnicę zegarmistrza”, mają miłego starszego pana i kolor. Reszta prologu (Ollivander, szept) może iść po rozmowie. `flaga.crake-poznany` ustawia dopiero wynik testu."
+  flagi_ustaw: []
   prowadzi_do: s1.scena.01
 ```
 
@@ -435,24 +439,49 @@ rozgalezienie:
   warunek: "Postać odgrywa niegrzeczność, szyderstwo albo groźbę wobec Crake'a (kopie w szybę, drwi z zegarów, żąda, żeby się usunął)."
   wymaga_flag: []
   wyklucza_flagi: []
-  efekt: "Crake uprzejmie się wycofuje i zamyka drzwi (dialog crake-witryna, „Gdy postać jest niegrzeczna albo grozi”); zapamiętuje twarz. Testu nie ma i `flaga.crake-poznany` nie zostaje ustawiona, bo żadnej rozmowy nie było. To skutek wyboru gracza: nikt go nie cofa ani nie karze. W scenie 01 albo 07 Crake jest wobec tej postaci chłodniej uprzejmy (jedno zdanie), a pozostałe postacie nadal mogą z nim porozmawiać. Pozostali gracze mogą zadośćuczynić (przeprosić, podać szmatkę) i wtedy MG pozwala na jedną krótką pogawędkę z testem bez udziału niegrzecznej postaci. Dalej szept w kolejce albo koniec dnia."
+  efekt: "Crake uprzejmie się wycofuje i zamyka drzwi (dialog crake-witryna, „Gdy postać jest niegrzeczna albo grozi”); zapamiętuje twarz. Testu nie ma i `flaga.crake-poznany` nie zostaje ustawiona (ta flaga pochodzi tylko z wyniku testu), bo żadnej rozmowy nie było. Ustawia się `flaga.crake-urazony` dla tej postaci. To skutek wyboru gracza: nikt go nie cofa ani nie karze. W scenie 01, 07 i 12 Crake jest wobec tej postaci chłodniej uprzejmy (jedno zdanie, bez testu pogawędki), a pozostałe postacie nadal mogą z nim porozmawiać. Pozostali gracze mogą zadośćuczynić (przeprosić, podać szmatkę) i wtedy MG pozwala na jedną krótką pogawędkę z testem bez udziału niegrzecznej postaci. Dalej szept w kolejce albo koniec dnia."
+  flagi_ustaw: [flaga.crake-urazony]
+  prowadzi_do: s1.scena.01
+```
+
+```yaml
+rozgalezienie:
+  id: s1.scena.11.rozgalezienie.awaryjne-kradziez-na-pokatnej
+  rodzaj: awaryjne
+  warunek: "Postać próbuje ukraść różdżkę u Ollivandera albo zegar z witryny Crake'a (także „na chwilę” i „żartem”)."
+  wymaga_flag: []
+  wyklucza_flagi: []
+  efekt: "Ollivander mówi cicho: „Ona nie pójdzie z panem. Proszę ją odłożyć.” i czeka z wyciągniętą dłonią; Crake łapie zegar obiema dłońmi i mówi, że zapamięta twarz. W obu przypadkach dorosły (klient, sprzedawca albo rodzic) łapie postać za ramię, zanim wyjdzie za próg. Kara to tylko kolor: list do opiekuna domu, zapowiedziany i niewykonany w Sesji 1, i obowiązek odłożenia rzeczy z przeprosinami. Crake zapamiętuje twarz (`flaga.crake-urazony`, jak przy niegrzeczności); bez `flaga.crake-poznany` (nie było rozmowy i testu) i bez aurorów. Gracz, który chciał „zrobić coś głupiego”, dostaje jedno zdanie żartu od innych postaci i prolog toczy się dalej: szept w kolejce i tekst 5 nadal czekają."
+  flagi_ustaw: [flaga.crake-urazony]
+  prowadzi_do: s1.scena.01
+```
+
+```yaml
+rozgalezienie:
+  id: s1.scena.11.rozgalezienie.awaryjne-mroczna-decyzja
+  rodzaj: awaryjne
+  warunek: "Postać sięga po środek przymusu na dorosłym NPC (Imperius, Legilimens, Veritaserum, zaklęcie w plecy) albo atakuje Crake'a, Ollivandera, gazeciarza, szepczącą parę."
+  wymaga_flag: []
+  wyklucza_flagi: []
+  efekt: "Nie wychodzi (rozszerzenie założenia „mroczne decyzje nie wychodzą w Sesji 1”): niepełnoletni nie czaruje na ulicy, a dorosły kładzie rękę na ramieniu, zanim formuła wybrzmi do końca. Imperius i Veritaserum „nie łapią” (brak mocy, drobna fiolka się rozlewa, słowa kończą się kaszlem); Legilimens trafia na pustkę. Crake nie wychodzi pod żadnym przymusem, a w rozmowie najwyżej „pęka” na zegarach (mówi o kołach, sprężynach i oliwie, czule i długo), ale nic o Klepsydrze, pieczęci ani kliencie z Londynu. Gdy postać atakuje Crake'a, uprzejmie się wycofuje do sklepu i zapamiętuje twarz (`flaga.crake-urazony`). MG rozmawia z graczem poza fikcją i pyta, czy ta scena mieści się w liniach i zasłonach."
   flagi_ustaw: []
   prowadzi_do: s1.scena.01
 ```
 
 ## Drabinka podpowiedzi
 
-*Dwa cele prologu: (1) test nauczający przy witrynie Crake'a, (2) szept w kolejce. Oba są opcjonalne i niczego nie blokują, więc drabinka jest krótka i bez nacisku. Zasada trzech dróg: do witryny i do plotki prowadzą po trzy niezależne drogi, wymienione niżej. Mają wyglądać jak świat, nie jak MG prowadzący za rączkę.*
+*Dwa cele prologu: (1) test nauczający przy witrynie Crake'a, (2) szept w kolejce. Oba są opcjonalne i niczego nie blokują, więc drabinka jest krótka i bez nacisku. Zasada trzech dróg: do witryny prowadzą trzy niezależne drogi w prologu. Plotka ma jedną drogę w prologu (kolejka w księgarni; gazeciarz i Dziurawy Kocioł to tylko kolor tego samego wrażenia, bez nowej treści) i drugą w scenie 01 (Tobias, wariant skrócony). Trzecią drogą są dalsze sceny (plotki przy stole), więc brak szeptu w prologu niczego nie kosztuje. Mają wyglądać jak świat, nie jak MG prowadzący za rączkę.*
 
 **Trzy drogi do witryny Crake'a:**
 1. Tłum i zakręt ulicy: spycha postacie pod szybę (tekst 3).
 2. Przedmiot: czyjaś lista zakupów albo piórko odfruwa pod próg zegarmistrza, a Crake podaje ją z uśmiechem.
 3. Dźwięk: wszystkie zegary wybijają pełną godzinę razem (np. dwunastą albo trzecią), co przyciąga uwagę postaci w pobliżu (zob. tekst 5, powtórka w ciągu dnia).
 
-**Trzy drogi do plotki:**
-1. Kolejka do Esów i Floresów (tekst 4): szept pary dorosłych.
-2. Gazeciarz na skrzynce: krzyczy o marszach, a przechodnie przyspieszają kroku. Wystarczy kupić gazetę albo zapytać.
-3. Dziurawy Kocioł albo ławka przy lodziarni: dwóch czarodziejów rozmawia ciszej niż reszta (to samo wrażenie, bez nowej treści).
+**Drogi do plotki (jedna w prologu, reszta w scenie 01):**
+1. W prologu: kolejka do Esów i Floresów (tekst 4), szept pary dorosłych. To jedyna droga, która daje treść plotki w prologu.
+   - Kolor tego samego wrażenia (bez nowej treści i bez flagi): gazeciarz na skrzynce, który krzyczy o marszach, oraz Dziurawy Kocioł albo ławka przy lodziarni, gdzie dwóch czarodziejów rozmawia ciszej niż reszta.
+2. Scena 01, wariant skrócony: Tobias mówi jedno zdanie o Czarnym Panu i ustawia `flaga.plotka-o-voldemorcie`, jeśli nie padła w prologu.
+3. Dalsze sceny: plotki przy stole (Tobias, Rosalind) pojawiają się też w kolejnych scenach, gdy temat wróci; w wariancie skróconym sceny 01 to tylko jedno zdanie Tobiasa.
 
 ```yaml
 podpowiedzi:
@@ -473,7 +502,7 @@ podpowiedzi:
 | `flaga.crake-dluga-rozmowa` | Tylko sukces imponujący (wynik 18 lub więcej): zdjęcie w kopercie zegarka i imię Nory | Ziarno W8 (Crake związany z zegarami zamku) i na Sesję 2; w scenie 07 Crake wspomina ją w tonie przeszłym, jeśli rozmowa wejdzie na tę drogę. |
 | `flaga.plotka-o-voldemorcie` | Gdy postacie usłyszały szept w kolejce (przy zasłonie: wersja bez nazwisk, flaga i tak) | Scena 01: Tobias mówi „Słyszeliście już, co? No to wiecie. Bajki. Wróćmy do ducha.” Sesja 2: więcej wzmianek. Jeśli szeptu nie było, flagę ustawia scena 01 (Tobias). |
 
-**Nowa różdżka.** Tylko postać, która poszła do Ollivandera (złamana, odziedziczona albo „nie słucha”), ma po prologu nową różdżkę: drewno, rdzeń i długość ustala MG z kartą postaci (rdzenie Ollivandera: Walker 2e s. 26). Różdżka nie daje modyfikatora do testów. W scenie 01 i dalej opis postaci mówi „nowa od Ollivandera” (wspomnienie: siedem galeonów, trzecia próba). Postać, której różdżka „nie słuchała”, pamięta zdanie „nie w porę” jako kolor, bez wskazówki. Dla pozostałych postaci nic się nie zmienia.
+**Nowa różdżka.** Tylko postać, która poszła do Ollivandera (złamana, odziedziczona albo „nie słucha”), ma po prologu nową różdżkę: drewno, rdzeń i długość ustala MG z kartą postaci (rdzenie Ollivandera: Walker 2e s. 26). Nowa różdżka powtarza drewno, rdzeń i premie z karty postaci i nie daje niczego ponad kartę. W scenie 01 i dalej opis postaci mówi „nowa od Ollivandera” (wspomnienie: siedem galeonów, trzecia próba). Postać, której różdżka „nie słuchała”, pamięta zdanie „nie w porę” jako kolor, bez wskazówki. Dla pozostałych postaci nic się nie zmienia.
 
 **Co zmienia się w scenie 01.** Wariant skrócony (10 minut): otwarcie tekstem 2 („Pokątna to już tylko wspomnienie…”), brak testu przy stole, Tobias najwyżej minutę, Crake bez drabiny, jeśli `flaga.crake-poznany`. Odbicie w szkle zegara i dzwon spóźniony zostają bez zmian (to skutki trzech tygodni po prologu, nie samego prologu).
 

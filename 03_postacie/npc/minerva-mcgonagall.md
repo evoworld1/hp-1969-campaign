@@ -36,7 +36,7 @@ Porządku, uczciwości i dobrych wyników. Bez graczy: uczy, sprawdza prace, pil
 
 ## Sekret
 
-Brak sekretu fabularnego w Sesji 1. W 1951 była najpewniej uczennicą Gryffindoru (niepewne); jak nikt, nie pamięta Ansela.
+Brak sekretu fabularnego w Sesji 1. W 1951 była uczennicą piątego roku Gryffindoru (kanon (wniosek)); jak nikt, nie pamięta Ansela.
 
 ## Sygnały
 
@@ -63,4 +63,4 @@ statystyki:
 ## Do weryfikacji
 
 - Funkcja zastępczyni dyrektora i opiekunki Gryffindoru w 1969: `niepewne` (Walker s. 152 podaje 1956–1997, to interpretacja Walkera). Nauczanie Transmutacji w 1969: kanon (wniosek).
-- Lata nauki ok. 1947–1954: `niepewne` (zob. [[kanon.kadra-hogwartu-1969]]).
+- Urodzona 4 października 1935, szkoła 1947–1954, jesienią 1951 uczennica piątego roku Gryffindoru: kanon (materiał Wizarding World; rok nauki to wniosek). Zob. [[kanon.weryfikacja-s1]]. Zastępczyni „1956–1997” (Walker s. 152) nie jest kanonem.

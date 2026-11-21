@@ -65,7 +65,10 @@ test:
   opis: "Postacie badają mechanizm zegara w poszukiwaniu usterki albo śladów manipulacji."
   kto: grupa
   rzut: "1D10 + Wits + Observation"
-  trudnosc: "DO-USTALENIA"
+  trudnosc: "Tricky (12)"
+  modyfikatory:
+    - warunek: "Postać nadal ma stan Drained (+3) albo Dazed (+2) po scenie 03 (s. 35)"
+      wartosc: "+3 do trudności"
   wyniki:
     - wynik: sukces
       efekt: "Mechanizm jest bez skazy. Na osi głównego koła lśni świeży olej, a na obudowie mosiężna plakietka „Konserwacja: Crake i Córka, ulica Pokątna”."

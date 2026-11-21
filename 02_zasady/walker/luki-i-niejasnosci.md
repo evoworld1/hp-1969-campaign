@@ -8,7 +8,7 @@ pochodzenie: walker
 strony: "Walker 2e s. 3-4, 6, 16-20, 22, 24, 28-32, 33-36, 39-41, 47, 50-61, 71-72, 81, 165-168, 176-178"
 tagi: [luki, niejasnosci, sprzecznosci, propozycje-zasad-domowych, erraty]
 zrodla: ["Walker 2e, szkic 2026-04 (EN)"]
-aktualizacja: 2026-11-20
+aktualizacja: 2026-11-21
 ---
 ## Streszczenie
 
@@ -32,7 +32,7 @@ Rejestr problemów znalezionych przy streszczaniu szkicu. Każda pozycja ma nume
 | B2 | Nieopanowane zaklęcie celowane: trudność zaklęcia dodaje się do celu ataku (s. 165), co dla uczniów oznacza prawie zerową szansę trafienia | 41, 165 | **ZD-06**, do wyboru przez MG: (a) zasady jak w podręczniku: w walce trafiają tylko opanowane zaklęcia; (b) zamiast całej trudności dodaje się połowę aktualnej trudności (zaokrągloną w górę); (c) dwa rzuty: najpierw rzucenie (Focus) przeciw trudności, potem trafienie (Wits) przeciw obronie bez trudności. Rekomendacja: (a), bo jest wierne systemowi i nagradza naukę; (b) jako rezerwa, gdyby pojedynki okazały się nudne |
 | B3 | Czy obrona tarczą Protego zużywa akcję | 33, 41, 165 | **ZD-07**: unik i blok darmowe; Protego jako obrona zużywa jedną akcję z następnej puli dwóch akcji (albo zadeklarowaną w pojedynku) |
 | B4 | Jak rozliczyć dwie akcje w rundzie pojedynku | 41 | **ZD-08**: obie strony deklarują dwie akcje; zwycięzca inicjatywy wykonuje pierwszą, potem przegrany pierwszą, potem zwycięzca drugą, potem przegrany drugą; utrata akcji (Flipendo, Impedimenta) zabiera najbliższe niewykonane |
-| B5 | Czy wynik 2 × i 3 × trudności wzmacnia zaklęcie | 3, 41 | **ZD-09**: tak, narracyjnie: dłuższe działanie, większy zasięg albo dodatkowy cel; bez nowych liczb. **Decyzja MG (2026-11-19): wynik 2× i 3× ma dawać też efekt mechaniczny (np. dodatkowe obrażenia). Mechanik dopisze konkretne liczby.** |
+| B5 | Czy wynik 2 × i 3 × trudności wzmacnia zaklęcie | 3, 41 | **ZD-09**: tak, narracyjnie: dłuższe działanie, większy zasięg albo dodatkowy cel; bez nowych liczb. **Decyzja MG (2026-11-19): wynik 2× i 3× ma dawać też efekt mechaniczny (np. dodatkowe obrażenia). Liczby: część F, ZD-09 (2026-11-21).** |
 | B6 | „Obecna kara” w teście utraty przytomności: przed czy po zaznaczeniu nowych kółek | 35 | **ZD-10**: po zaznaczeniu |
 | B7 | Mieszanie i butelkowanie eliksiru: jeden rzut czy dwa | 60–61 | **ZD-11**: jeden rzut po zakończeniu warzenia |
 | B8 | Premia za korepetycje +2 tylko przy lepszym nauczycielu (tekst) czy zawsze (tabela) | 32 | **ZD-12**: +2 tylko, gdy nauczyciel ma wyższą umiejętność; inaczej +1 |
@@ -95,6 +95,26 @@ Odesłania „page @@” (s. 30, 38, 42, 58), „Working Together on page 6” (
 **Propozycja rozszerzenia (do akceptacji MG, ZD-24a).** Wykrywacze z listy przedmiotów (s. 19): Sneakoscope (fałszoskop), Foe Glass (lustro wrogów) i Secrecy Sensor (wykrywacz tajemnic) reagują na ludzi i ich zamiary, nie na magię czasu. Rekomendacja: działają normalnie na Cassiana jako osobę (Sneakoscope może zawirować, gdy kłamie), ale nie na zegarek ani Kartę.
 
 **Dlaczego tak (uzasadnienie fabularne).** Magia czasu działa „obok” chwili, w której rzuca się zaklęcie: zaklęcie ujawniające patrzy na teraz, a ślad magii czasu jest w chwili, której już nie ma. To spójne z tym, że Dumbledore'a magia czasu nie dotknęła i nigdy nie widział Ansela (rejestr decyzji 2026-11-19).
+
+#### ZD-09. Wynik 2× i 3× trudności albo celu: efekt mechaniczny (liczby: mechanik 2026-11-21; propozycja zgodna z decyzją MG 2026-11-19, do akceptacji)
+
+**Luka w podręczniku.** Walker nazywa wyniki co najmniej dwa i trzy razy wyższe od trudności „Impressive” i „Unbelievable success” (s. 3), ale przy zaklęciach mówi tylko „niejasne” co do skutków (s. 41). Brak w podręczniku.
+
+**Zasada.** Wynik rzutu rzucania albo ataku równy co najmniej 2× trudności (zaklęcie) lub 2× celu (atak w pojedynku) wzmacnia zaklęcie o **jeden stopień**; co najmniej 3× o **dwa stopnie**. Stopień to jedno z trzech: +1D obrażeń, +1 stracona akcja celu albo +2 do progu, który ofiara musi przebić, żeby się uwolnić (zob. tabela). Rany z tego wzmocnienia to najwyżej kółko Shaken lub Rattled (+1), a w formalnym pojedynku uczniów i w pokazach Wrena żadnych ran ani dodatkowych trafień (kolor, nie liczby). Zaklęcia bez wpisu w tabeli (np. Lumos, Wingardium Leviosa): wzmocnienie narracyjne (dłużej, dalej, dodatkowy cel) bez liczb.
+
+| Zaklęcie (strona Walkera) | Zwykły skutek | Wynik 2× | Wynik 3× |
+|---|---|---|---|
+| Iskry (Verdimillious, Vermillious, Baubillious; s. 59, 48), Incendio (s. 53) | 3D + Focus obrażeń | +1D obrażeń | +2D obrażeń |
+| Expelliarmus (s. 51) | wytrąca trzymany przedmiot | różdżka leci do rzucającego, cel traci najbliższą akcję | jak 2×, a cel odrzucony o 2-3 m i Shaken |
+| Flipendo (s. 52), Everte Statum (s. 50), Impedimenta (s. 53) | cel traci 2 akcje | traci 3 akcje | traci 4 akcje i jest Shaken |
+| Trip Jinx (s. 59) | cel się przewraca | traci jeszcze najbliższą akcję (wstawanie) | jak 2×, a cel jest Shaken |
+| Rictusempra (s. 57) | rozkojarzenie na rundę | na 2 rundy | na 3 rundy i Rattled |
+| Stinging Jinx (s. 58) | Shaken | Bruised | Bruised i cel upuszcza różdżkę |
+| Immobulus (s. 53), Confundo (s. 49) | próg uwolnienia 11 i 12 | próg +2 | próg +4 |
+| Stupefy (s. 58) | test przytomności 1D10 + Vitality 12+ | próg 14 | bez testu: nieprzytomny (czas jak ZD-14) |
+| Accio na przedmiot u przeciwnika (s. 47) | przywołuje przedmiot luźny lub w kieszeni | wyrywa przedmiot nawet z zaciśniętej dłoni | jak 2×, a cel traci najbliższą akcję |
+
+**Po co.** Daje smak i nagradza świetny rzut bez zmiany balansu: przy celach uczniowskich (unik 1D10 + 7 do +12) wynik 2× zdarza się w kilkunastu procentach rzutów silnego atakującego, a 3× prawie wcale. Pełna tabela użyta w scenie 04 i 08 jest identyczna (źródło: sekcja ZD-09 w pliku sceny 04).
 
 ## Jak używać przy stole
 

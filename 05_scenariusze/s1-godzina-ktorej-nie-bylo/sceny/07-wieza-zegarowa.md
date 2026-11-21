@@ -24,12 +24,16 @@ flagi_wejscie:
   - flaga.crake-poznany
   - flaga.ansel-spotkany
   - flaga.s1-zegar-kradziezy
+  - flaga.crake-urazony
 flagi_wyjscie:
   - flaga.wieza-zbadana
   - flaga.plakietka-crake
   - flaga.crake-poznany
   - flaga.crake-dluga-rozmowa
   - flaga.cassian-czujny
+  - flaga.zegarek-cassiana
+  - flaga.zegarek-u-graczy
+  - flaga.crake-urazony
 nastepne:
   - s1.scena.08
   - s1.scena.06
@@ -270,7 +274,21 @@ dialog:
     - "Nieprzewidziane (postacie chcą zejść razem z nim albo nieść mu torbę): „O, dziękuję. Dawno nikt mi nie pomagał.” (wolno, zadowolony; na dole oddaje go Filchowi, a postacie mogą wrócić na górę)"
     - "Może zdradzić: przy sukcesie zdanie o wieży, przy sukcesie imponującym imię córki, to, że pomagała w sklepie, i że przykręcała tabliczkę (zawsze w czasie przeszłym). Bez warunku: że oliwi wieżę co tydzień."
     - "Nie zdradza: nic o Klepsydrze, pieczęci ani kliencie z Londynu; nie mówi, że córka nie żyje."
-  wariant_od: [flaga.crake-poznany]
+  wariant_od: [flaga.crake-poznany, flaga.crake-urazony]
+```
+
+Wariant `flaga.crake-urazony` (postać była niegrzeczna wobec Crake'a w prologu, w scenie 01 albo wcześniej tutaj): wobec niej Crake mówi jedno chłodno uprzejme zdanie („Ostrożnie na stopniach.”) i schodzi dalej; bez testu pogawędki dla tej postaci. Pozostałe postacie mogą z nim rozmawiać normalnie.
+
+```yaml
+rozgalezienie:
+  id: s1.scena.07.rozgalezienie.niegrzecznosc-wobec-crakea
+  rodzaj: awaryjne
+  warunek: "Postać jest niegrzeczna, szydzi albo grozi Crake'owi na wieży lub na schodach."
+  wymaga_flag: []
+  wyklucza_flagi: []
+  efekt: "Crake uprzejmie się wycofuje (zob. dialog z wariantem flaga.crake-urazony), zapamiętuje twarz i wobec tej postaci nie wchodzi już w test pogawędki. Nie karzemy zaklęcia ani żartu mechanicznie, a nic z drogi do wskazówek nie jest zablokowane (inne postacie rozmawiają z nim normalnie)."
+  flagi_ustaw: [flaga.crake-urazony]
+  prowadzi_do: s1.scena.07
 ```
 
 ### Filch słyszy hałas (krok 3, tylko w razie potrzeby)
