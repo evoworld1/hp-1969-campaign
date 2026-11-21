@@ -816,7 +816,7 @@ dialog:
 
 ### F. Cassian nocą w dormitorium albo w pokoju wspólnym
 
-Spotkanie F to najpierw obserwacja, a dopiero potem, jeśli gracz chce, kradzież (test `s1.scena.12.test.kradziez-dormitorium`, liczby ustala mechanik). Cassian mówi tylko wtedy, gdy postać się odezwie albo gdy kradzież się nie uda. Nocą jest krótki i zimny, bez swojej dziennej uprzejmości: nie chce nikogo budzić, bo pobudka to pytania. Do chłopca mówi nazwiskiem, do dziewczyny „panno” i nazwisko. Po udanej kradzieży nie mówi nic: śpi, a po zegarek przychodzi w spotkaniu O.
+Spotkanie F to najpierw obserwacja, a dopiero potem, jeśli gracz chce, kradzież (test `s1.scena.12.test.kradziez-dormitorium`). Cassian mówi tylko wtedy, gdy postać się odezwie albo gdy kradzież się nie uda. Nocą jest krótki i zimny, bez swojej dziennej uprzejmości: nie chce nikogo budzić, bo pobudka to pytania. Do chłopca mówi nazwiskiem, do dziewczyny „panno” i nazwisko. Po udanej kradzieży nie mówi nic: śpi, a po zegarek przychodzi w spotkaniu O.
 
 ```yaml
 dialog:
@@ -832,7 +832,7 @@ dialog:
     - "Gdy postać okazuje szczerą troskę („wyglądasz, jakbyś nie spał od tygodnia”): (długa pauza) „Nie od tygodnia.” (odwraca się do ściany) „Idź spać, [nazwisko]. Jutro.” (dobre wejście do litości w scenie 08)"
     - "Gdy postać grozi, że powie Wrenowi albo opiekunowi domu: „Powiedz. Zobaczymy, komu uwierzą o drugiej w nocy.” (jeśli zna wspólny sekret z 4. roku albo blefuje: „Ja też mam co opowiadać. O czwartym roku.”)"
     - "Po nieudanej kradzieży (wstawka „Oddech urywa się w pół…”): „Nie.” (puszcza nadgarstek) „Wracaj do łóżka. Nikt tu nic nie widział. Ani ty, ani ja.” (zegarek pod koszulę; flaga.cassian-czujny; rano przy śniadaniu patrzy na postać i milczy)"
-    - "Gdy budzi się, kiedy postać jest przy kufrze (tylko wariant 1, jeśli mechanik da tu osobny test): (za szybko) „Tam są skarpetki. Chcesz skarpetki?” (zamyka wieko; flaga.cassian-czujny; karta zostaje w podszewce)"
+    - "Gdy budzi się, kiedy postać jest przy kufrze (tylko wariant 1, po przegranej z zadeklarowaną kartą): (za szybko) „Tam są skarpetki. Chcesz skarpetki?” (zamyka wieko; flaga.cassian-czujny; karta zostaje w podszewce)"
     - "Gdy postać pyta rano, przy ludziach, o noc: (uprzejmy uśmiech dzienny) „Śniło ci się, [nazwisko]. Nie bierz tego do siebie.”"
     - "Nieprzewidziane (postać przykrywa go kocem albo dokłada do kominka i odchodzi): (budzi się, patrzy) „Po co?” (nie czeka na odpowiedź; zegarek chowa, ale nie robi się czujny; MG notuje gest na scenę 08)"
     - "Może zdradzić bez warunku: że nie śpi (widać to i słychać; W4.7)."
@@ -1591,6 +1591,152 @@ rozgalezienie:
   prowadzi_do: s1.scena.08
 ```
 
+### Zboczenia w spotkaniach A, C, E, F, G, I, J i O
+
+*Zasada jak wyżej: świat odpowiada, nie blokuje. Zaczarowane rzeczy i skrzaty nie ranią i nie ulegają zniszczeniu, a nikt nie wyrzuca graczy za drzwi; rośnie koszt (czas, zamknięte drzwi, chłód NPC), a droga do wskazówki zostaje, tylko dłuższa. Kara dla postaci to zawsze kolor albo rozmowa w kantorku Filcha (blok „Filch łapie”), nigdy bramka. Każda wskazówka z tych spotkań ma inne źródło (tabela w „Drabince podpowiedzi”).*
+
+| Spotkanie | Zboczenie | Odpowiedź świata |
+|---|---|---|
+| **A. Kuchnia** | Atak na skrzata, kpina, wywrócenie kotła | Skrzat się nie broni, kłania się i chce „sam się ukarać”; inne skrzaty zabierają go w ciszy. Nikt nie wydaje postaci (kuchnia zostaje kryjówką), ale gruszka przestaje chichotać do następnego pół dnia, a jedzenia „dla kolegi” nie będzie. Ansel (jeśli jest) milczy i odwraca wzrok, bez kary w Więzi (−1 tylko za odkryte kłamstwo). Jedzenie dla Ansela da się wziąć w Wielkiej Sali. |
+| **A. Kuchnia** | Pół dnia w kuchni „na przeczekanie” | Skrzaty karmią i nie pytają, ale zegar kradzieży idzie o 1 za pół dnia (tylko przy zegarku u Cassiana). Najmniejszy skrzat zmartwionym szeptem powtarza o dwóch porcjach. |
+| **C. Portret** | Rozbicie ramy, zdarcie portretu, kopnięcie ściany | Rama pęka tylko na kosmyk, płótno się nie rwie (zaczarowane). Kucharka krzyczy, chowa się w sąsiedniej ramie i do następnego dnia zostawia pusty stół. Hałas ściąga Filcha (blok „Filch łapie”: nazwiska do zeszytu, kolor). Marrow nie padnie od niej dziś, ale ma ją D (Fairweather), K (gablota) i M (McGonagall). Ansel, jeśli widział, mówi najwyżej: „Ona zawsze tak nuciła”. |
+| **C. Portret** | Przesłuchanie groźbą albo kłamstwo | Portret milknie i znowu ugniata ciasto; nazwisko pada tylko za uprzejme dopytanie. Nie „blokuje”: wystarczy wrócić po kolacji i zapytać grzecznie. |
+| **E. Sprout** | Kłamstwo (że Ansel jest chory, że to „ktoś z domu”, że jej uczeń dał pozwolenie) | Sprout sprawdza rejestr tak czy owak, bo liczy swoich ze zwyczaju: Ansela Draya nie ma (W2.2). Kłamstwo wychodzi przy drugim zdaniu (chłopiec, o którym mówią, „jest chory i nie ma go w rejestrze”). Wtedy chłodnieje, nie obiecuje już szukać w archiwum i zapisuje postaci w pamięci jako „trzeba na nie uważać”. Bez rzutu i bez szlabanu. |
+| **E. Sprout** | Postacie upierają się, że Ansel stoi obok | Jak w „Krótko”: Sprout nikogo nie widzi i martwi się o postacie. Jeśli podniosą głos, odsyła je do skrzydła szpitalnego „na ziółka”; kolor, bez kary. |
+| **F. Dormitorium** | Wejście z hałasem (lumos, wywrócony kufer, głośna rozmowa) | Cassian budzi się, zanim postać dojdzie do łóżka. Nie ma rzutu: zegarek ma w dłoni, a zakłócenie jest wyborem gracza (MG mówi o tym raz, zanim postać przekroczy próg: „Jest cicho. Wchodzisz tak?”). Wstawka „Oddech urywa się w pół…” bez nadgarstka, dialog cassian-dormitorium („Nie.”). Inni śpiący mruczą i się odwracają; dormitorium się nie budzi. `flaga.cassian-czujny`. |
+| **F. Dormitorium** | Wejście postaci spoza Slytherinu | Przejście w lochach się nie otwiera; zimna ściana, nikt nie odpowiada. Plotkę o liczeniu daje Teague albo Quill (siatka 5, blok „awaryjne-slytherin”). |
+| **F. Dormitorium** | Postać zamiast kraść budzi Cassiana i go przesłuchuje | Dialog cassian-dormitorium: krótko, zimno; „Nie od tygodnia” za szczerą troskę. To wejście do 08 nazajutrz, bez rzutu. |
+| **G. Sowiarnia** | List z donosem (na Cassiana, o Anselu, o straconej godzinie) do rodziców albo opiekuna | Sowa lata, ale odpowiedź rodziców jest kolorem i przychodzi po pół dnia („spokojnie, nie wtrącaj się, dbaj o siebie”). Dla wyjścia poza mury i listów „do świata” obowiązuje blok „awaryjne-mroczna-decyzja” (sowa wraca z listem). Nie daje wskazówek. |
+| **G. Sowiarnia** | Przepłaszanie, rzucanie czymś w sowy, próba „przeczytania cudzej poczty” | Sowy atakują dziobami, sypią pierzem i złoszczą się grupą (kolor, zadra na ręku, bez testu). Cudze listy są zapieczętowane. |
+| **I. Pierwszoroczniak** | Postacie idą dalej i go ignorują | Zdarzenie się dzieje samo: prefekt przychodzi i zabiera chłopca do skrzydła szpitalnego, a w tłumie pada „ktoś patrzył w żółtym krawacie” (plotka). Wpis do rejestru godzin (W4.3) bierze się z samego zdarzenia: godzinę podaje prefekt przy kolacji. Imienia chłopca i zdania „duch w żółtym krawacie” postać nie dostaje; Ansel (jeśli jest) pyta cicho, czemu nie zostali. Bez kary w Więzi. |
+| **I. Pierwszoroczniak** | Postać przeszukuje torbę, zabiera pióra albo go ośmiesza | Wokół gwar, spojrzenia i prefekt z oburzeniem (nazwiska, kolor). Chłopiec nic nie powie, a rejestr godzin zostaje w zdarzeniu, nie w nim. Postać zapisuje tylko godzinę i stratę, bez imienia. |
+| **J. Maisie i Pratt** | Tropienie Pratta, podsłuchiwanie, pójście za nim z korytarza | Pratt jest pedantem z kalendarzykiem i liczy, kto za nim chodzi: wita ich jak źródło danych („Wy mnie obserwujecie? To nowy punkt: trzy osoby, dwadzieścia minut”) i skarży się Flitwickowi na „uczniów, którzy go śledzą” (kolor, pytanie Flitwicka przy okazji L). Podaje wtedy swój wtorek 16.09, 14:12–15:11, ale Maisie zamyka się przy nich do końca dnia. `flaga.rejestr-godzin` tylko wtedy, gdy postacie zestawią jego dane z innymi (scena 06, spotkanie I); sam J jej nie ustawi. |
+| **J. Maisie i Pratt** | Kpina z Maisie albo Pratta, wyśmiewanie „ducha Puchona” | Oboje się zamykają (karty): Pratt zapisuje nazwisko, Maisie milknie. Nie ma kary, ale kartki z datą też nie ma. Plotka o duchu (`flaga.plotka-duch-puchona`) zostaje, bo ma też źródła w scenie 01 i w B. |
+| **O. Cassian szuka zegarka** | Postacie chowają się albo uciekają | Zegarek grzeje i tyka mocniej; najpóźniej przy następnym posiłku Cassian je znajduje (zgodnie z „Krótko”). Zegar kradzieży stoi. |
+| **O. Cassian szuka zegarka** | Oddanie zegarka od razu, bez rozmowy | Cassian bierze go bez słowa, blednie z ulgi i odchodzi; chce wiedzieć, kto to zrobił, więc w 08 przychodzi jako ktoś, kto jest coś winny (wejście 08, wariant bez zegarka u graczy). Zegar kradzieży rusza od nowa (tylko przy zegarku u Cassiana). |
+| **O. Cassian szuka zegarka** | Oddanie zegarka Filchowi, Wrenowi, nauczycielowi | Nauczyciel odbiera i obiecuje oddać właścicielowi po sprawdzeniu (zegarek `skonfiskowany`). Cassian i tak przychodzi do postaci, wściekły i przestraszony; zegar kradzieży stoi, bo zegarek nie jest u niego. Wejście do 08 w wariancie bez zegarka u graczy. |
+| **O. Cassian szuka zegarka** | Zniszczenie zegarka przed spotkaniem | Decyzja sceny 08 (zakończenie „zniszczony”); w wędrówkach nie rozstrzygaj, tylko zaprowadź do 08. |
+
+```yaml
+rozgalezienie:
+  id: s1.scena.12.rozgalezienie.awaryjne-a-kuchnia
+  rodzaj: awaryjne
+  warunek: "W spotkaniu A gracze atakują skrzata, kpią z kuchni albo zostają w niej na przeczekanie."
+  wymaga_flag: []
+  wyklucza_flagi: []
+  efekt: "Skrzat się nie broni i nie wydaje postaci. Gruszka milknie do następnego pół dnia, więc jedzenia dla Ansela nie ma stąd; da się je wziąć w Wielkiej Sali. Przy dłuższym pobycie zegar kradzieży +1 za pół dnia (tylko gdy zegarek u Cassiana i Cassian nie jest zdemaskowany). Więź bez kary (−1 tylko za odkryte kłamstwo). Wskazówek nie traci: A ich nie daje (kolor i Więź)."
+  flagi_ustaw: []
+  prowadzi_do: s1.scena.06
+```
+
+```yaml
+rozgalezienie:
+  id: s1.scena.12.rozgalezienie.awaryjne-c-portret
+  rodzaj: awaryjne
+  warunek: "W spotkaniu C gracze rozbijają ramę, szarpią portret, grożą kucharce albo kłamią."
+  wymaga_flag: [flaga.godzina-stracona]
+  wyklucza_flagi: [flaga.marrow-imie-znane]
+  efekt: "Portret nie rozpada się, rama pęka co najwyżej na kosmyk. Kucharka chowa się w sąsiedniej ramie, a hałas może ściągnąć Filcha (blok awaryjne-filch-lapie, kolor). Nazwisko Marrow postacie dostają innymi drogami: D (Fairweather), K (gablota), M (McGonagall). Po grzecznym powrocie kucharka wraca i podaje je dalej (rezerwa W2)."
+  flagi_ustaw: []
+  prowadzi_do: s1.scena.06
+```
+
+```yaml
+rozgalezienie:
+  id: s1.scena.12.rozgalezienie.awaryjne-e-sprout
+  rodzaj: awaryjne
+  warunek: "W spotkaniu E gracze kłamią Sprout (że Ansel jest chory, że to „ktoś z domu”), upierają się, że widzi chłopca, albo podnoszą głos."
+  wymaga_flag: [flaga.godzina-stracona]
+  wyklucza_flagi: []
+  efekt: "Sprout sprawdza rejestr tak czy owak, więc Ansela Draya w nim nie ma (W2.2). Kłamstwo wychodzi w drugim zdaniu i Sprout chłodnieje: nie obiecuje już szukać w archiwum szkoły i zapisuje postacie w pamięci jako „na które trzeba uważać” (kolor, bez rzutu, bez szlabanu). Gdy upierają się, że chłopiec stoi obok, martwi się o nie i odsyła do skrzydła szpitalnego na ziółka (kolor). Ta sama wskazówka ma drugie źródło: B (Mnich)."
+  flagi_ustaw: [flaga.ansel-poza-spisem]
+  prowadzi_do: s1.scena.06
+```
+
+```yaml
+rozgalezienie:
+  id: s1.scena.12.rozgalezienie.awaryjne-f-halas
+  rodzaj: awaryjne
+  warunek: "W spotkaniu F postać ze Slytherinu wchodzi z hałasem (światło różdżki, wywrócony kufer, głośna rozmowa) albo budzi Cassiana celowo."
+  wymaga_flag: [flaga.godzina-stracona]
+  wyklucza_flagi: [flaga.zegarek-cassiana]
+  efekt: "Cassian budzi się, zanim postać dojdzie do łóżka. Rzutu nie ma: kradzież nie jest możliwa, bo to skutek wyboru gracza (MG ostrzega raz przed progiem: „Jest cicho. Wchodzisz tak?”). Wstawka „Oddech urywa się w pół…” bez nadgarstka, dialog cassian-dormitorium. Dormitorium się nie budzi, nikt nie woła nauczyciela. Cassian pamięta postać, patrzy na nią rano przy śniadaniu i milczy. Zegarek zostaje pod koszulą; kolejnej próby nie ma. Droga do 08 zostaje: zegar kradzieży biegnie, Cassian sam przychodzi."
+  flagi_ustaw: [flaga.cassian-czujny]
+  prowadzi_do: s1.scena.08
+```
+
+```yaml
+rozgalezienie:
+  id: s1.scena.12.rozgalezienie.awaryjne-f-wygrana
+  rodzaj: awaryjne
+  warunek: "W spotkaniu F test kradzieży (s1.scena.12.test.kradziez-dormitorium) kończy się wygraną postaci (także po drugim remisie, jeśli drugi rzut był wygrany)."
+  wymaga_flag: [flaga.godzina-stracona]
+  wyklucza_flagi: [flaga.cassian-zdemaskowany]
+  efekt: "Zegarek u postaci (wstawka „Zegarek jest cięższy…”); jeśli zadeklarowała kartę, ma też kartę i handout s1.handout.karta-pozyczajacego. Zegar kradzieży staje (zegarek nie jest u Cassiana). Cassian odkrywa stratę w ciągu godziny albo rano i przychodzi sam: spotkanie O, potem 08. Wynik „zawsze”: rozprute podszewki kufra zdradzają, że to ktoś z dormitorium; w 08 Cassian jest wobec tej postaci czujniejszy (kolor, bez dodatkowego rzutu). Postać nie musi mówić drużynie od razu, ale zegarek tyka i grzeje, więc ukrywa go z trudem. Zasada: nie unieważniaj wygranej."
+  flagi_ustaw: [flaga.zegarek-cassiana, flaga.zegarek-u-graczy, flaga.karta-u-graczy]
+  prowadzi_do: s1.scena.08
+```
+
+```yaml
+rozgalezienie:
+  id: s1.scena.12.rozgalezienie.awaryjne-f-przegrana
+  rodzaj: awaryjne
+  warunek: "W spotkaniu F test kradzieży kończy się przegraną (także po drugim remisie, który wg testu przegrywa)."
+  wymaga_flag: [flaga.godzina-stracona]
+  wyklucza_flagi: [flaga.zegarek-cassiana, flaga.cassian-zdemaskowany]
+  efekt: "Wstawka „Oddech urywa się w pół…” i dialog cassian-dormitorium („Nie.”, „Wracaj do łóżka. Nikt tu nic nie widział”). Zegarek zostaje pod koszulą Cassiana, a on od tej nocy nosi go przy sobie; kolejnej próby kradzieży nie ma. Po próbie z kartą: „Tam są skarpetki. Chcesz skarpetki?”, karta zostaje w podszewce. Rano przy śniadaniu patrzy na postać i milczy. Nie budzi dormitorium i nie woła nauczyciela. Droga do 08 zostaje: zegar kradzieży biegnie, Cassian sam przychodzi (przy 3), a postać dalej może mu pomóc albo się sprzeciwić. Zegarek bez wyjęcia z kieszeni da się zdobyć dopiero w 08 (pojedynek, targ, litość). Przy remisie postać, która nie chce ryzykować drugiego rzutu, cofa rękę bez skutków i nic nie traci."
+  flagi_ustaw: [flaga.cassian-czujny]
+  prowadzi_do: s1.scena.08
+```
+
+```yaml
+rozgalezienie:
+  id: s1.scena.12.rozgalezienie.awaryjne-g-sowiarnia
+  rodzaj: awaryjne
+  warunek: "W spotkaniu G gracze piszą list z donosem (o Cassianie, Anselu, straconej godzinie), drażnią sowy albo próbują czytać cudzą pocztę."
+  wymaga_flag: []
+  wyklucza_flagi: []
+  efekt: "Sowa leci, odpowiedź (rodzice, opiekun domu) przychodzi po pół dnia i jest kolorem: „spokojnie, nie wtrącaj się”. Nie daje wskazówek ani nie zmienia toru. Dla wyjścia poza mury i listów „do świata” działa blok awaryjne-mroczna-decyzja (sowa wraca z listem). Sowy przy złym traktowaniu dziobią i sypią pierzem (kolor, bez testu); cudze listy są zapieczętowane. Gdy Ansel jest przy postaci: sowa nie bierze listu, dopóki chłopiec nie zejdzie na schody."
+  flagi_ustaw: []
+  prowadzi_do: s1.scena.06
+```
+
+```yaml
+rozgalezienie:
+  id: s1.scena.12.rozgalezienie.awaryjne-i-ignorowanie
+  rodzaj: awaryjne
+  warunek: "W spotkaniu I postacie ignorują omdlałego pierwszoroczniaka albo go ośmieszają, zamiast mu pomóc."
+  wymaga_flag: [flaga.godzina-stracona]
+  wyklucza_flagi: []
+  efekt: "Zdarzenie dzieje się samo: prefekt zabiera chłopca do skrzydła szpitalnego, torba zostaje na schodach (wstawka „Przez tłum przepycha się prefekt…”). Wpis do rejestru godzin (W4.3) wychodzi z samego zdarzenia: godzinę i brakujące czterdzieści minut podaje prefekt przy kolacji, bez imienia chłopca i bez zdania o duchu w żółtym krawacie, które daje tylko rozmowa. Postać notuje dzień, godzinę, miejsce. Ośmieszenie albo kradzież z torby: spojrzenia, nazwiska do prefekta (kolor); nie ma kary w Więzi, ale Ansel (jeśli jest) pyta cicho, czemu nie zostali."
+  flagi_ustaw: [flaga.rejestr-godzin]
+  prowadzi_do: s1.scena.06
+```
+
+```yaml
+rozgalezienie:
+  id: s1.scena.12.rozgalezienie.awaryjne-j-pratt
+  rodzaj: awaryjne
+  warunek: "W spotkaniu J postacie tropią Pratta zamiast pomagać Maisie, śledzą go po korytarzach albo kpią z któregoś z dwojga."
+  wymaga_flag: [flaga.godzina-stracona]
+  wyklucza_flagi: []
+  efekt: "Pratt wita śledzących jak źródło danych („trzy osoby, dwadzieścia minut”) i skarży się Flitwickowi (kolor). Podaje swój wtorek 16.09, 14:12–15:11, ale Maisie zamyka się do końca dnia i kartki z datą nie daje. Kpina zamyka oboje. Dopasowanie dat do sukcesów Cassiana zostaje po stronie graczy (scena 06, spotkanie I). Plotka o duchu Puchona ma też źródła w scenie 01 i w B."
+  flagi_ustaw: [flaga.plotka-duch-puchona]
+  prowadzi_do: s1.scena.06
+```
+
+```yaml
+rozgalezienie:
+  id: s1.scena.12.rozgalezienie.awaryjne-o-zegarek
+  rodzaj: awaryjne
+  warunek: "Po kradzieży (F albo siatka 1) postacie chowają zegarek, oddają go od razu bez rozmowy albo odnoszą go nauczycielowi albo Filchowi, zanim Cassian ich znajdzie."
+  wymaga_flag: [flaga.zegarek-u-graczy]
+  wyklucza_flagi: [flaga.cassian-zdemaskowany]
+  efekt: "Chowanie: Cassian znajduje je najpóźniej przy następnym posiłku (zegarek grzeje i tyka), zegar kradzieży stoi, wejście 1c do 08. Oddanie od razu: Cassian bierze zegarek bez słowa, flaga.zegarek-cassiana wraca do u-cassiana, flaga.zegarek-u-graczy staje się fałszem, a zegar kradzieży rusza od nowa (tylko przy zegarku u Cassiana). Chce wiedzieć, kto to zrobił, i w 08 przychodzi jako ktoś, kto jest coś winny. Odniesienie do nauczyciela albo Filcha: zegarek skonfiskowany (flaga.zegarek-cassiana: skonfiskowany; flaga.zegarek-u-graczy fałsz), zegar kradzieży stoi, a Cassian przychodzi do postaci wściekły i przestraszony. Zniszczenie zegarka rozstrzyga scena 08 (zakończenie „zniszczony”). Nikt nie unieważnia decyzji graczy: zmienia się tylko, kto i kiedy ich szuka."
+  flagi_ustaw: [flaga.zegarek-cassiana, flaga.zegarek-u-graczy]
+  prowadzi_do: s1.scena.08
+```
+
 ### Postać wyłączona z gry (skrzydło szpitalne, szlaban, „wyrzucenie”, śmierć)
 
 Porażka kosztuje czas, komfort i reputację, ale gra nie staje (ton kampanii).
@@ -1665,14 +1811,14 @@ rozgalezienie:
 
 ## Drabinka podpowiedzi
 
-Drabinka dotyczy ośmiu wskazówek, które wędrówki dają jako drogi zapasowe: W2.4, W3.3, W4.6, W5.2, W5.5, W7.3, W8.3, W9.2. Każdy szczebel pasuje do każdej z nich. Najpierw szturchnięcie (świat coś robi), potem większa pomoc (postać mówi półzdaniem), dopiero na końcu wprost.
+Drabinka dotyczy ośmiu wskazówek, które wędrówki dają jako drogi zapasowe: W2.4, W3.3, W4.6, W5.2, W5.5, W7.3, W8.3, W9.2, oraz wskazówek ze spotkań C, E, F, I i J: W2 rezerwa (nazwisko Marrow), W2.2 (Ansela nie ma w rejestrze), W4.3 (rejestr godzin) i W4.7 (Cassian liczy nocą). Każdy szczebel pasuje do każdej z nich. **Trzy drogi do każdej wskazówki z A–O:** W2 rezerwa (`flaga.marrow-imie-znane`): C (kucharka) albo D (Fairweather) albo K (gablota), a ostatecznie M (McGonagall). W2.2 (`flaga.ansel-poza-spisem`): E (Sprout) albo B (Mnich) albo N (Ansel o sobie). W4.3 (`flaga.rejestr-godzin`): I (pierwszoroczniak) albo J (Pratt, Maisie) albo scena 06, krok 5. W4.7 (Cassian liczy nocą): F (obserwacja ślizgona) albo plotka Teague i Quilla (siatka 5) albo scena 08. Plotka o duchu (`flaga.plotka-duch-puchona`): scena 01, B albo J. Gdy któraś droga padła (atak, kłamstwo, ignorowanie), pozostałe dwie zostają. Najpierw szturchnięcie (świat coś robi), potem większa pomoc (postać mówi półzdaniem), dopiero na końcu wprost.
 
 ```yaml
 podpowiedzi:
   id: s1.scena.12.podpowiedzi
-  szturchniecie: "Świat sam zwraca uwagę: wielki zegar bije spóźniony i Filch klnie przy nim w Sali Wejściowej (W3.3, W8.3); pani Pince stuka w linijkę rejestru i marszczy usta, a gablota ze zdjęciem z 1951 błyska w popołudniowym świetle (W5.2, W9.2); Gruby Mnich blednie na dźwięk imienia Ansela (W2.4); Wren zerka na stos ocen Vane'a i wzdycha (W4.6); Ansel patrzy na biurko pani profesor i pyta o szafkę (W7.3, W5.5). MG zadaje pytanie postaci, nie graczowi: „Co zauważasz?”."
-  wieksza: "Postać mówi półzdaniem i czeka na pytanie: Pince: „Trzy razy ten sam tom, a przecież nikogo tam nie wpuszczam” (W5.2). Filch: „Zegarmistrz był w czwartek. I dziś znowu” (W8.3). Wren: „Podniósł oceny w dwa tygodnie. Ze wszystkiego naraz” (W4.6). Flitwick: „Boczy się od dwóch tygodni” (W3.3). Mnich: „Znałem chłopca o tym imieniu… nie, to niemożliwe” (W2.4). Fairweather: „Wysoki prefekt, wołaliśmy go Bocian” (W9.2). Ansel: „Pani profesor nosiła książki do najdalszego regału” (W5.5) i „szafka najpierw chce dostać” (W7.3). Zawsze za uprzejmość albo za wysłuchanie, nigdy za rzut."
-  bezposrednia: "MG mówi wprost, poza fikcją, i podaje jedno miejsce: „Pan Vane wypożyczał ten tom trzy razy. Biblioteka. Ostatni regał. Wy możecie tam pójść tylko nocą.” Dla W2.4 i W9.2 wystarczy zdanie z karty (nie ma kary ani rzutu). Gdy żaden szczebel nie zadziała, zegar kradzieży 3 prowadzi Cassiana do postaci (08), a przy 4 Ansel albo bicie budzi drużynę i scena 09 rusza z Cassianem w środku (siatka 6). Wskazówka jest zawsze dana: pytanie brzmi tylko, za jaką cenę czasu."
+  szturchniecie: "Świat sam zwraca uwagę: wielki zegar bije spóźniony i Filch klnie przy nim w Sali Wejściowej (W3.3, W8.3); pani Pince stuka w linijkę rejestru i marszczy usta, a gablota ze zdjęciem z 1951 błyska w popołudniowym świetle (W5.2, W9.2); Gruby Mnich blednie na dźwięk imienia Ansela (W2.4); Wren zerka na stos ocen Vane'a i wzdycha (W4.6); Ansel patrzy na biurko pani profesor i pyta o szafkę (W7.3, W5.5). MG zadaje pytanie postaci, nie graczowi: „Co zauważasz?”. Dla A–O: kucharka na portrecie przestaje ugniatać ciasto i patrzy na najniższy stopień (W2); Sprout przewraca stronę rejestru i palec zostaje na końcu kolumny (W2.2); pierwszoroczniak na schodach siada w pół kroku (W4.3); Pratt unosi ołówek nad kalendarzykiem, a Maisie zerka na zegarek (W4.3); zza kotary w dormitorium słychać zgrzyt nakręcanego zegarka i szept liczb (W4.7)."
+  wieksza: "Postać mówi półzdaniem i czeka na pytanie: Pince: „Trzy razy ten sam tom, a przecież nikogo tam nie wpuszczam” (W5.2). Filch: „Zegarmistrz był w czwartek. I dziś znowu” (W8.3). Wren: „Podniósł oceny w dwa tygodnie. Ze wszystkiego naraz” (W4.6). Flitwick: „Boczy się od dwóch tygodni” (W3.3). Mnich: „Znałem chłopca o tym imieniu… nie, to niemożliwe” (W2.4). Fairweather: „Wysoki prefekt, wołaliśmy go Bocian” (W9.2). Ansel: „Pani profesor nosiła książki do najdalszego regału” (W5.5) i „szafka najpierw chce dostać” (W7.3). Dla A–O: kucharka: „Marrow. Tak na nią mówili. Zawsze się spieszyła” (W2); Sprout: „Nie ma go ani wśród obecnych, ani w rocznikach” (W2.2); prefekt: „Brakuje mu czterdziestu minut. Od obiadu” (W4.3); Pratt: „Wtorek, 14:12 do 15:11, pięćdziesiąt dziewięć minut, nie godzina” (W4.3); Cassian szeptem: „Nie od tygodnia” (W4.7). Zawsze za uprzejmość albo za wysłuchanie, nigdy za rzut."
+  bezposrednia: "MG mówi wprost, poza fikcją, i podaje jedno miejsce: „Pan Vane wypożyczał ten tom trzy razy. Biblioteka. Ostatni regał. Wy możecie tam pójść tylko nocą.” Dla W2.4 i W9.2 wystarczy zdanie z karty (nie ma kary ani rzutu). Dla A–O: W2 rezerwa: „Pani profesor Marrow uczyła tu astronomii dawno temu; zapytajcie profesor Fairweather albo McGonagall”; W2.2: „Ansela Draya nie ma w żadnym rejestrze Hufflepuffu”; W4.3: „Wpisz do rejestru dzień, godzinę i miejsce; ten chłopiec stracił około czterdziestu minut”; W4.7: „Vane nie śpi i liczy po nocach; w scenie 08 zapytaj go o to wprost”. Gdy żaden szczebel nie zadziała, zegar kradzieży 3 prowadzi Cassiana do postaci (08), a przy 4 Ansel albo bicie budzi drużynę i scena 09 rusza z Cassianem w środku (siatka 6). Wskazówka jest zawsze dana: pytanie brzmi tylko, za jaką cenę czasu."
 ```
 
 ## Konsekwencje
@@ -1683,6 +1829,13 @@ Po scenie MG zapisuje w `04_kampania/stan-kampanii.md` (kronikarz po sesji przep
 - **Kontakt z Anselem:** `flaga.ansel-spotkany` i `flaga.ansel-kontakt` (liczone osobno dla każdej postaci); lista postaci bez rozmowy (przed 09 pusta). Więź z Anselem osobno: najwyżej 1 w spotkaniu N, +1 za życzliwość, −1 tylko za odkryte kłamstwo.
 - **Wskazówki zdobyte w wędrówkach:** `flaga.ansel-poza-spisem` (B, E), `flaga.marrow-imie-znane` (D, K, M), `flaga.wymark-slad` (D, K), `flaga.lokalizacja-pracowni` (K, N), `flaga.rejestr-godzin` (I, J), `flaga.przyplyw-ku-wiezy` (H, L), `flaga.slad-ukaszen`, `flaga.plotka-duch-puchona` (B, J), `flaga.tempus-opanowane` (L: która postać), `flaga.crake-poznany` i `flaga.crake-dluga-rozmowa` (H).
 - **Wren i zegarek:** `flaga.wren-podejrzewa` (nic nowego w tym module, tylko jeśli dalej bywa ustawiona po wyrwanym zegarku), `flaga.zegarek-cassiana` (u kogo), `flaga.karta-u-graczy` (F).
+- **Kradzież zegarka w F (wg wyniku testu `s1.scena.12.test.kradziez-dormitorium`):**
+  - *Wygrana:* `flaga.zegarek-cassiana` = u-graczy, `flaga.zegarek-u-graczy` = prawda; `flaga.karta-u-graczy` tylko, jeśli postać zadeklarowała kartę. Zegar kradzieży staje. Zapisz, która postać ma zegarek i czy rozpruła podszewkę kufra.
+  - *Remis:* bez flag; pierwszy remis nic nie zmienia, drugi liczy się jak przegrana.
+  - *Przegrana:* `flaga.cassian-czujny` (zapisz, której postaci dotyczy); zegarek zostaje u Cassiana i zegar kradzieży biegnie dalej; karta zostaje w podszewce.
+  - *Zawsze:* rozprute podszewki zdradzają, że to ktoś z dormitorium (tylko po wygranej z kartą); w 08 Cassian jest wobec tej postaci czujniejszy, bez dodatkowego rzutu.
+- **Po spotkaniu O:** zegarek u graczy (`flaga.zegarek-u-graczy`) i zegar kradzieży stoi do końca modułu. Zapisz drogę zegarka: schowany (Cassian znalazł przy posiłku), oddany od razu (`flaga.zegarek-cassiana` = u-cassiana, `flaga.zegarek-u-graczy` fałsz, zegar kradzieży rusza od nowa), skonfiskowany (nauczyciel albo Filch; `flaga.zegarek-cassiana` = skonfiskowany, zegar stoi). Wejście do 08 zawsze, w wariancie zależnym od tej drogi. Zniszczenie zegarka rozstrzyga scena 08.
+- **Zboczenia w A, C, E, G, I, J:** bez nowych flag poza już wymienionymi (`flaga.ansel-poza-spisem` w E, `flaga.marrow-imie-znane` w C tylko po grzecznym powrocie, `flaga.rejestr-godzin` w I i J, `flaga.plotka-duch-puchona` w J). Zapisz kolor: skrzaty bez gruszki do następnego pół dnia, pusta rama kucharki, chłodna Sprout, nazwiska w zeszycie Filcha, skarga Pratta do Flitwicka.
 - **Dumbledore:** `flaga.dumbledore-powiadomiony` ustawiona w M; zapis: przyjął raz, drugi raz już nie (Sesja 2 zaczyna się od tego, że „zapamiętał”).
 - **Odmowy dostępu do Działu Ksiąg Zakazanych:** zapisz, kto odmówił i co dał przy odmowie; nie ma flagi, to kolor i pamięć MG.
 - **Kary:** szlabany (Filch, Wren, opiekun domu), nazwiska w zeszycie Filcha, punkty ujemne. Kolor i czas, nie wątek. `flaga.filch-zlapal` ustawia scena 09 (siatki 8 i 9) i 10; w wędrówkach tylko wymagana z wejścia, bez nowego ustawiania.
