@@ -270,8 +270,10 @@ dialog:
     - "Nieprzewidziane (postacie chcą zejść razem z nim albo nieść mu torbę): „O, dziękuję. Dawno nikt mi nie pomagał.” (wolno, zadowolony; na dole oddaje go Filchowi, a postacie mogą wrócić na górę)"
     - "Może zdradzić: przy sukcesie zdanie o wieży, przy sukcesie imponującym imię córki, to, że pomagała w sklepie, i że przykręcała tabliczkę (zawsze w czasie przeszłym). Bez warunku: że oliwi wieżę co tydzień."
     - "Nie zdradza: nic o Klepsydrze, pieczęci ani kliencie z Londynu; nie mówi, że córka nie żyje."
-  wariant_od: [flaga.crake-poznany]
+  wariant_od: [flaga.crake-poznany, flaga.crake-urazony]
 ```
+
+Wariant `flaga.crake-urazony` (postać była niegrzeczna wobec Crake'a w prologu, w scenie 01 albo wcześniej tutaj): wobec niej Crake mówi jedno chłodno uprzejme zdanie („Ostrożnie na stopniach.”) i schodzi dalej; bez testu pogawędki dla tej postaci. Pozostałe postacie mogą z nim rozmawiać normalnie.
 
 ### Filch słyszy hałas (krok 3, tylko w razie potrzeby)
 

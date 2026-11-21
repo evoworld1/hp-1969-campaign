@@ -200,6 +200,8 @@ Pierwsza lekcja: Zaklęcia. Według połowy zegarków w zamku już jesteście sp
 4. **Spóźniony dzwon** (ok. 1 min): jak krok 7.
 5. **Odbicie w szkle zegara** (ok. 2 min): jak krok 8; odbicie dostaje najcichszy gracz. Jedyny sygnał dziwności w tym wariancie.
 
+**Gdy w prologu nie było pogawędki z Crake'iem** (prolog zagrany, ale postacie ominęły witrynę albo Crake wycofał się po niegrzeczności: brak `flaga.crake-poznany`, nikt jeszcze nie rzucał testu pogawędki). Prolog obiecuje „Crake w 01”, więc w wariancie skróconym wpleć **jeden rzut** z kroku 9 (test `s1.scena.01.test.crake-pogawedka`): po odbiciu, 2 minuty, Crake zszedł z drabiny i pakuje narzędzia z boku. Jeśli postać ma `flaga.crake-urazony`, rzutu nie ma: Crake jest wobec niej chłodno uprzejmy, a rozmowę prowadzi inna postać.
+
 **Odbicie i Crake nie przy tym samym zegarze.** Nie łącz odbicia w szkle wielkiego zegara z Crake'iem stojącym na drabinie przy tym zegarze: chłopiec za ramieniem i zegarmistrz z głową w skrzynce zabierają sobie nawzajem uwagę, a otwarta skrzynka nie ma szyby. Wybierz jedno z dwóch: odbicie idzie w szybce zegara nad stołem nauczycieli (postać podchodzi tam przed wyjściem, zob. niżej), albo Crake właśnie zszedł z drabiny, zamknął skrzynkę i pakuje narzędzia z boku, a postacie zaczepiają go dopiero po odbiciu.
 ### Jak prowadzić tę scenę z graczami, którzy grają pierwszy raz
 
@@ -482,8 +484,10 @@ dialog:
     - "Gdy postać jest niegrzeczna albo grozi: „Przepraszam, pan woźny na mnie czeka.” (schodzi z drabiny i odchodzi; zapamiętuje twarz)"
     - "Nieprzewidziane (postać chce wejść na drabinę albo dotknąć mechanizmu): „Ostrożnie! To staruszka, nie zabawka. Proszę patrzeć z dołu, dobrze?”"
     - "Może zdradzić: przy sukcesie zdanie o wieży, przy sukcesie imponującym imię córki i to, że pomagała w sklepie (zawsze w czasie przeszłym). Nic więcej, niezależnie od wyniku."
-  wariant_od: [flaga.crake-poznany]
+  wariant_od: [flaga.crake-poznany, flaga.crake-urazony]
 ```
+
+Wariant `flaga.crake-urazony` (postać była niegrzeczna wobec Crake'a w prologu): wobec niej jedno chłodno uprzejme zdanie („Przepraszam, pan woźny na mnie czeka.”) i brak testu; pozostałe postacie rozmawiają z nim normalnie.
 
 ### Argus Filch w drzwiach
 
