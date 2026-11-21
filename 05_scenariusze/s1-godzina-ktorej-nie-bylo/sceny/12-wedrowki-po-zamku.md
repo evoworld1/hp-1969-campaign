@@ -86,7 +86,19 @@ aktualizacja: 2026-11-20
 ---
 ## Do odczytania
 
-*Teksty mają litery spotkań z tabeli w „Dla MG”. Rozpisane jest osiem spotkań: B, D, H, K, L, M, N i P. Pozostałe (A, C, E, F, G, I, J, O) mają na razie tylko zarys w „Rytmie sceny”: MG opowiada je własnymi słowami. Każdy tekst czytaj na wejście do spotkania, a wstawki tylko wtedy, gdy zdarzy się to, co opisują. Imion NPC w tekstach nie ma, bo postacie nie zawsze je znają. Jeśli znają, wstaw je sam.*
+*Teksty mają litery spotkań z tabeli w „Dla MG”. Tekst do odczytania ma wszystkie szesnaście spotkań (A–P). Każdy tekst czytaj na wejście do spotkania, a wstawki tylko wtedy, gdy zdarzy się to, co opisują. Wstawki z Anselem czytaj tylko wtedy, gdy chłopiec naprawdę jest przy postaciach (zob. „Ansel w wędrówkach”). Imion NPC w tekstach nie ma, bo postacie nie zawsze je znają. Jeśli znają, wstaw je sam.*
+
+### A. Kuchnia i skrzaty (każda pora; jedzenie „dla kolegi”)
+
+> Wystarczy połaskotać gruszkę na obrazie z misą owoców. Gruszka chichocze, wierci się i zamienia w zieloną klamkę. Kiedy otwieracie drzwi, uderza w was gorąco jak z otwartego pieca.
+>
+> Kuchnia jest ogromna i niska, sklepiona jak piwnica, a pod sklepieniem wisi para z kotłów. Pachnie pieczenią, skórką pomarańczy i przypalonym cukrem. Na ścianach błyszczą miedziane rondle, wypucowane tak, że widzicie w nich własne wykrzywione twarze. Przez środek biegną cztery długie stoły, ustawione dokładnie tak jak te piętro wyżej, w Wielkiej Sali, tylko puste.
+>
+> Ze wszystkich kątów naraz wybiegają skrzaty domowe: szpiczaste uszy, oczy jak spodki, ścierki z herbem szkoły zawiązane na ramieniu jak togi. Jeden już niesie tacę z bułeczkami, choć nikt jeszcze o nic nie poprosił. Najmniejszy kłania się tak nisko, że czubkami uszu zamiata posadzkę.
+
+**Wstawka: gdy postacie zaniosą jedzenie Anselowi** (przy schodach albo tam, gdzie z nimi idzie).
+
+> Ansel nachyla się nad bułeczką, nie dotykając jej, i wciąga powietrze powoli, z zamkniętymi oczami, jak ktoś, kto wącha list z domu. Para z ciasta przechodzi mu przez brodę i nie zostawia śladu. Kiedy otwiera oczy, uśmiecha się od ucha do ucha. „Z cynamonem” – szepcze. – „U nas w czwartki też były z cynamonem”.
 
 ### B. Gruby Mnich i Irytek (korytarz przy kuchni, koło beczek Hufflepuffu; po straconej godzinie)
 
@@ -104,6 +116,18 @@ aktualizacja: 2026-11-20
 
 > Mnich otwiera usta, żeby odpowiedzieć od razu, i zamyka je. Przez jego twarz przechodzi coś jak zmarszczka na wodzie. Przez chwilę jest tak przejrzysty, że widać przez niego obręcze beczek. „Ansel…” – powtarza powoli, jakby to słowo leżało u niego bardzo długo na dnie kieszeni.
 
+### C. Portret przy schodach (korytarz przy kuchni, każda pora)
+
+> Wśród martwych natur przy schodach wisi jeden obraz, na którym ktoś mieszka. W ciężkiej, poczerniałej ramie, nad stołem zawalonym rzepą i bochnami, siedzi tęga kobieta w czepku i fartuchu, z rękami po łokcie w mące. Ugniata ciasto, które nigdy nie wyrośnie, i nuci pod nosem, fałszując zawsze w tym samym miejscu.
+>
+> Farba na jej policzkach popękała w drobną siateczkę, jak glazura na starym dzbanku. Od ściany ciągnie ciepłem chleba, choć to pewnie tylko piece za murem.
+>
+> Kobieta zerka na was spod czepka, potem na najniższy stopień schodów, potem znowu na was. Otrzepuje dłonie, aż mąka sypie się na namalowaną podłogę, i przechyla głowę jak kura, która usłyszała coś w trawie.
+
+**Wstawka: gdy postacie spytają o chłopca, który czeka przy schodach.**
+
+> Kobieta przestaje ugniatać. Mąka powoli opada jej z palców. Patrzy na najniższy stopień długo, tak jak patrzy się na miejsce przy stole, przy którym ktoś kiedyś zawsze siadał. „Mały taki” – mówi w końcu. – „Krawat zawsze prosto”. I marszczy brwi, jakby sama nie wiedziała, skąd to wie.
+
 ### D. Profesor z lunetą (zmierzch, najwyższe piętro, pod schodami do wieży astronomicznej)
 
 > Na najwyższym piętrze, pod schodami do wieży astronomicznej, korytarz jest wychłodzony jak dzwonnica. Przez uchylone okno wpada wiatr znad jeziora, pachnie wodą i dymem z kominów. Niebo nad Zakazanym Lasem przechodzi z pomarańczu w atrament.
@@ -115,6 +139,70 @@ aktualizacja: 2026-11-20
 **Wstawka: gdy pada nazwisko Marrow.**
 
 > Kobieta milknie na jedną długą sekundę. Luneta zatrzymuje się w połowie drogi do oka. Potem przychodzi uśmiech, ciepły i trochę nieobecny, jakby ktoś zawołał ją z drugiego końca bardzo długiego korytarza.
+
+### E. Profesor Sprout i rejestr Hufflepuffu (przy beczkach, przed kolacją)
+
+> W ciepłym korytarzu pod kuchnią, przy beczkach ułożonych w ścianie, stoi niska, krępa czarownica w połatanym kapeluszu. Z ronda sypie się jej suchy liść. Pod pachą ściska gruby rejestr w płóciennej oprawie, a w drugiej ręce doniczkę z rośliną o liściach jak zwinięte języki, która co chwilę próbuje ugryźć ją w kciuk. Czarownica nawet na nią nie patrzy.
+>
+> Pachnie od niej mokrą ziemią i nawozem. Pod paznokciami ma czarne półksiężyce, które chyba nie zeszły od początku semestru. Liczy pod nosem pierwszoroczniaków przemykających do pokoju wspólnego i przy każdym stawia ołówkiem kreskę.
+>
+> „…dziewięć, dziesięć… A gdzie mała Hemsby?” Przewraca kartkę, znajduje, oddycha z ulgą.
+>
+> Potem podnosi wzrok na was, spod ronda, i uśmiecha się szeroko, jakbyście też byli do policzenia.
+
+**Wstawka: gdy profesor sprawdza rejestr wstecz.**
+
+> Profesor odstawia doniczkę na beczkę i otwiera rejestr na kolanie. Strony są gęste od nazwisk, każdy rocznik innym atramentem, coraz bledszym, im dalej w tył. Palec poplamiony ziemią sunie w dół kolumny, przeskakuje rok, drugi, dziesiąty. Dochodzi do końca strony i zostaje tam chwilę, jakby czekał, aż nazwisko samo się dopisze.
+
+**Wstawka: gdy Ansel jest przy postaci.**
+
+> Ansel staje przy beczkach i unosi rękę, jakby chciał zastukać w znajomym rytmie. Palce wchodzą w dębowe klepki bez dźwięku, aż po nadgarstek. Chłopiec cofa rękę szybko i chowa ją za plecy. Profesor, o krok obok, niczego nie zauważa.
+
+### F. Dormitorium i pokój wspólny Slytherinu (noc, dopiero po scenie 04; jedna postać)
+
+*To spotkanie przeżywa jedna postać ze Slytherinu, więc tekst mówi do niej w liczbie pojedynczej. Wariant 1 dla chłopca (dormitorium), wariant 2 dla dziewczyny (pokój wspólny).*
+
+**Wariant 1: dormitorium szóstego roku.**
+
+> Dormitorium leży pod jeziorem i nocą to słychać: woda napiera na szyby z cichym, głębokim pomrukiem, a przez okna sączy się zielonkawa poświata, jakby ktoś postawił latarnię na dnie. Kamień jest zimny nawet przez skarpety. Pachnie wilgocią i knotami zgaszonych świec.
+>
+> Wszyscy śpią. Prawie wszyscy. Za zaciągniętą kotarą łóżka pod oknem tli się wąski pasek światła różdżki. Na kotarze rośnie cień: ktoś siedzi po turecku, pochylony, z dłońmi złożonymi przy piersi.
+>
+> Słyszysz drobny zgrzyt, ząbek po ząbku. Ktoś nakręca zegarek. A potem szept, równy i uparty, jak przy liczeniu baranów: „…czterdzieści jeden. Czterdzieści dwa. Czterdzieści trzy…”
+>
+> Światło gaśnie. Skrzypi materac. Po chwili oddech za kotarą robi się płytki i nierówny.
+
+**Wariant 2: pokój wspólny po północy.**
+
+> Pokój wspólny po północy jest prawie pusty. Ogień w kominku przygasł do żaru, a zielona poświata zza okien kładzie się na skórzanych fotelach jak woda na kamieniach. Gdzieś wysoko w jeziorze przepływa coś dużego i na chwilę zasłania światło.
+>
+> W fotelu najbliżej kominka siedzi ktoś w zapiętej kamizelce, z głową odchyloną na oparcie. Śpi albo prawie śpi. Na kolanach trzyma srebrny zegarek, obie dłonie zaciśnięte na kopercie. Usta poruszają mu się bez dźwięku, jakby liczył przez sen.
+>
+> W kominku pęka polano. Palce zaciskają się mocniej. Potem, bardzo powoli, się rozluźniają.
+
+**Wstawka: zegarek w twojej dłoni** (po udanej kradzieży).
+
+> Zegarek jest cięższy, niż wyglądał, i ciepły, jakby przed chwilą ktoś ściskał go w pięści. Wskazówki stoją. A w środku coś tyka, drobno i szybko, prosto w twoją dłoń.
+
+**Wstawka: przebudzenie** (po porażce).
+
+> Oddech urywa się w pół. Szelest materiału i dłoń zaciska się na twoim nadgarstku, zimna i bardzo mocna. W zielonej poświacie widzisz otwarte oczy, zupełnie przytomne, jakby wcale nie spał. „Nie” – mówi tylko, cicho, żeby nikogo nie obudzić.
+
+**Wstawka: kufer** (wariant 1, gdy postać przeszukuje kufer u stóp łóżka).
+
+> Podszewka wieka jest w jednym rogu przyszyta grubszą, świeższą nicią, niezgrabnie, jak ktoś, kto nigdy wcześniej nie trzymał igły. Pod palcami czujesz coś płaskiego i sztywnego, złożonego na pół.
+
+### G. Sowiarnia (każda pora; list do domu)
+
+> Schody na sowiarnię kręcą się tak długo, że w połowie zaczyna się słyszeć wiatr. Na górze jest zimno jak na dworze, bo okna nie mają szyb. Pod butami chrzęszczą słoma, łuski i drobne kosteczki, a powietrze pachnie pierzem, mokrym kamieniem i czymś, czego nikt nie nazywa przed obiadem.
+>
+> Na żerdziach, aż pod sam dach, siedzą setki sów. Większość śpi z głową pod skrzydłem. Kilka otwiera jedno oko, żółte jak moneta, i przygląda się wam bez większego zainteresowania. Stara szkolna płomykówka patrzy z góry tak, jakby już wiedziała, że to znowu list do domu.
+>
+> Przez puste okno widać jezioro, szare i pomarszczone od wiatru, a za nim ciemną, nieruchomą ścianę lasu.
+
+**Wstawka: gdy Ansel jest przy postaci.**
+
+> Sowa, która usiadła ci już na przedramieniu, nagle napina się cała. Pióra stają jej dęba, aż robi się dwa razy większa. Obraca głowę tam, gdzie stoi Ansel, i syczy cienko, ale patrzy przez niego, w ścianę. Listu nie bierze. Kiedy Ansel cofa się na schody, sowa otrzepuje się, jakby nic się nie stało, i grzecznie wyciąga nóżkę.
 
 ### H. Woźny i zegarmistrz (Sala Wejściowa, za dnia)
 
@@ -133,6 +221,36 @@ aktualizacja: 2026-11-20
 **Wstawka: woźny sam.**
 
 > Woźny jest sam. Pod zegarem, na kamiennej posadzce, ciemnieje plama świeżego oleju, a w powietrzu wisi jeszcze słaby zapach mięty. Woźny patrzy na tę plamę tak, jakby ktoś obraził go osobiście.
+
+### I. Pierwszoroczniak na schodach (zdarzenie świata, gdy zegar kradzieży doszedł do 2)
+
+> Na ruchomych schodach jest tłok jak zawsze po obiedzie. Torby obijają się o kolana, ktoś woła, żeby zaczekać, a schody pod wami skrzypią i zaczynają się leniwie obracać.
+>
+> Kilka stopni wyżej mały chłopiec w za dużej szacie zatrzymuje się w pół kroku. Stoi zupełnie nieruchomo, z jedną nogą nad stopniem, jak zegar, któremu ktoś przytrzymał wahadło. Potem miękko, bez krzyku, siada i przewraca się na bok. Torba zsuwa się po schodach, pióra rozsypują się jak zapałki.
+>
+> Wokół robi się cicho. Ktoś piszczy. Chłopiec otwiera oczy prawie od razu i rozgląda się, zdumiony, jak ktoś, kto obudził się w cudzym łóżku. Patrzy w okno, na słońce, które stoi gdzie indziej, niż powinno.
+
+**Wstawka: gdy Ansel jest przy postaci.**
+
+> Chłopiec, wciąż na stopniu, nagle wyciąga palec w waszą stronę. „Tam… Tam był chłopiec. W żółtym krawacie”. Mruga i opuszcza rękę. Ansel stoi dokładnie tam, gdzie pokazał, i wpatruje się we własne buty.
+
+**Wstawka: prefekt** (na zamknięcie spotkania).
+
+> Przez tłum przepycha się prefekt z przekrzywioną odznaką, wciąż z kawałkiem placka w ręce. Klęka, dotyka chłopcu czoła, mówi coś łagodnie i podnosi go bez wysiłku. „Skrzydło szpitalne. Rozejść się, no już”. Torba zostaje na schodach.
+
+### J. Maisie Lock i Gideon Pratt (Wielka Sala między posiłkami)
+
+> Wielka Sala między posiłkami jest na wpół pusta. Na stołach zostały okruchy i dzbanki z wystygłą herbatą, a pod zaczarowanym sklepieniem suną nisko szare chmury. Kilkoro uczniów odrabia lekcje, ktoś śpi z głową na podręczniku.
+>
+> Na końcu stołu Hufflepuffu siedzi drobna trzecioroczna z dwoma krzywymi warkoczami i ściska podręcznik oburącz, jak tarczę. Naprzeciw niej, na ławce, która wcale nie jest jego, pochyla się chudy Krukon w drucianych okularach, z kieszonkowym kalendarzykiem i ołówkiem.
+>
+> „Czwartek. Ale który czwartek? Proszę być dokładną” – mówi. – „Przed dzwonkiem czy po?”
+>
+> Dziewczynka mruga szybko i patrzy w blat. Ołówek czeka, uniesiony nad kartką. Ona zerka na zegarek na nadgarstku, raz, drugi i jeszcze raz, choć minęło ledwie kilka sekund.
+
+**Wstawka: gdy Ansel jest przy postaci.**
+
+> Dziewczynka podnosi wzrok i patrzy ponad waszymi ramionami. Blednie. „Zdawało mi się…” – zaczyna i nie kończy. Krukon odwraca się, nie widzi nic, i bez słowa zapisuje w kalendarzyku godzinę.
 
 ### K. Biblioteka za dnia (czytelnia, biurko wypożyczeń, gablota na korytarzu)
 
@@ -192,6 +310,18 @@ aktualizacja: 2026-11-20
 
 > [W kieszeni cicho tyka twoja różdżka, jak zegarek, którego nikt nie nakręcał.] Na pustym korytarzu słychać każdy twój krok. Za tobą odzywają się drugie kroki, lekkie i nierówne, jakby ktoś bardzo się starał iść w twoim rytmie. Kiedy przystajesz, one też przystają. Kiedy się odwracasz, chłopiec w żółto-czarnym krawacie stoi trzy kroki dalej i chowa ręce za plecy.
 
+### O. Cassian szuka zegarka (ten sam wieczór albo nazajutrz po kradzieży)
+
+*Ten tekst prowadzi do wejścia 1c sceny 08 („Najpierw słyszycie zegarek…”). Pierwszy akapit czytaj tylko wtedy, gdy postacie są wśród ludzi: przy stole, w pokoju wspólnym, na korytarzu w przerwie.*
+
+> Wieść biegnie przed nim. Najpierw ktoś przy stole mówi, że Vane przetrząsnął pokój wspólny Slytherinu poduszka po poduszce i nikomu nie powiedział, czego szuka. Potem drugoroczniak wpada z korytarza z oczami jak spodki: Vane zaczepiał ludzi na schodach i każdemu zaglądał w ręce.
+>
+> Widzicie go raz, z daleka, na końcu długiego korytarza. Idzie szybko, przy samej ścianie, bez szaty, w samej kamizelce, i co kilka kroków przystaje, jakby nasłuchiwał. Głowę trzyma nisko.
+>
+> Potem skręca za róg i znika. Przez chwilę jest zupełnie zwyczajnie: ktoś się śmieje, ktoś trzaska drzwiami, gdzieś daleko bije zegar.
+>
+> Tylko w kieszeni, tej, w której leży zegarek, robi się coraz cieplej.
+
 ### P. Sala Obrony po lekcjach (profesor Wren)
 
 > Sala Obrony po lekcjach pachnie kurzem z mat i przypalonym płótnem: na jednym z manekinów wciąż tli się nadpalony rękaw. Przez wysokie okna wpada niskie słońce i kładzie na podłodze długie cienie odsuniętych ławek.
@@ -212,11 +342,11 @@ aktualizacja: 2026-11-20
 
 **Jak wpiąć.** Jedno spotkanie = jedna wskazówka albo jeden moment z Anselem albo czysty kolor, ok. 5 minut. Po spotkaniu powrót do sceny, z której gracze wyszli, albo do następnej w grafie. Zegar kradzieży rośnie o 1 za każde pół dnia w fikcji, więc długie wędrówki nie zatrzymują świata. Prośba do nauczyciela o wejście do Działu Ksiąg Zakazanych zawsze kończy się odmową (bez kary).
 
-**Konwencja w module.** Kroki to tutaj spotkania (A–P), w dowolnej kolejności; każde ma ten sam układ co krok sceny. Osiem spotkań jest rozpisanych (tekst, kwestia otwierająca, rady): **B, D, H, K, L, M, N, P**. Pozostałe mają jednozdaniowy zarys i MG prowadzi je z głowy, na podstawie kart NPC. Spotkanie P (Wren) jest nowe w module, a spotkanie H obejmuje teraz także zegarmistrza Crake'a.
+**Konwencja w module.** Kroki to tutaj spotkania (A–P), w dowolnej kolejności; każde ma ten sam układ co krok sceny. Wszystkie spotkania mają tekst do odczytania, kwestię otwierającą i rady. Osiem z nich (**B, D, H, K, L, M, N, P**) ma też pełne bloki dialogów i testów; pozostałe osiem (**A, C, E, F, G, I, J, O**) ma już bloki dialogów, a test kradzieży w F czeka na kolejny etap. Spotkanie P (Wren) jest nowe w module, a spotkanie H obejmuje teraz także zegarmistrza Crake'a.
 
 ### Tabela spotkań
 
-*Kolumna „Pierwszeństwo” mówi, co podsunąć najpierw, gdy gracze pytają „to co robimy?”, i czego nie wolno pominąć. Dopisek w nawiasie mówi, czy spotkanie jest rozpisane (tak), czy ma tylko zarys (nie).*
+*Kolumna „Pierwszeństwo” mówi, co podsunąć najpierw, gdy gracze pytają „to co robimy?”, i czego nie wolno pominąć. Dopisek w nawiasie mówi, czy spotkanie ma już bloki dialogów i testów (tak), czy na razie tylko tekst i rady (nie).*
 
 | Spotkanie | Kiedy | Gdzie | Wyzwalacz | Daje | Pierwszeństwo |
 |---|---|---|---|---|---|
@@ -241,7 +371,7 @@ aktualizacja: 2026-11-20
 
 ### Rytm sceny
 
-*Kwestie otwierające to propozycje narratora. Dialogista może je zmienić w blokach i wtedy poprawia je także tutaj. Spotkania bez tekstu do odczytania (zarys) prowadzisz z głowy, jednym-dwoma zdaniami opisu.*
+*Kwestie otwierające są dosłownie z bloków w „Dialogach”. Wszystkie spotkania mają już bloki dialogów; w spotkaniach A, C, E, F, G, I, J i O czeka jeszcze test kradzieży w F (mechanik).*
 
 #### Spotkania rozpisane
 
@@ -303,47 +433,63 @@ aktualizacja: 2026-11-20
 - Krótko: Wren słucha bez przerywania. Na opowieść o straconej godzinie pyta od razu: „Czy Vane był w pobliżu?”. Oskarżenia nie przyjmie bez dowodu, ale od sceny 04 dorzuca konkret: „Pan Vane podniósł oceny w dwa tygodnie. Ze wszystkiego naraz. Tak się nie da, chyba że ktoś przestał spać” (W4.6). Prośbę o Dział Ksiąg Zakazanych odrzuca: „Przeciwnik zawsze mówi, co zrobi. Wy właśnie mi powiedzieliście”, i od tej chwili uważniej patrzy, kto z grupy nie śpi w nocy (tylko kolor). Przy zegarze kradzieży 2 to tu pada pytanie z kroku 6 sceny 06, jeśli tam nie padło. Wynik: kierunek do 08 (Cassian) albo z powrotem do 06.
 - Awaryjne: `awaryjne-za-dlugo`
 
-#### Spotkania w zarysie (szkic, bez tekstu do odczytania)
+#### Spotkania z tekstem, radami i dialogami (test w F w kolejnym etapie)
 
 **Spotkanie A. Kuchnia i skrzaty** (ok. 5 min)
-- Dialog: `s1.scena.12.dialog.skrzat-kuchnia` — „TODO”
-- Zarys: skrzaty chętnie dają jedzenie „dla kolegi”, a Ansel wdycha jego zapach i jest szczęśliwy (Więź, kolor); skrzaty widzą tylko, że ktoś „bierze dwie porcje”.
+- Czytaj: tekst A („Wystarczy połaskotać gruszkę…”); wstawka „Ansel nachyla się nad bułeczką…”, gdy postacie zaniosą mu jedzenie.
+- Dialog: `s1.scena.12.dialog.skrzat-kuchnia` — „Panicz głodny? Panienka głodna? Skrzaty dadzą! Ile porcji, proszę? Dwie? Dla kolegi? Skrzaty dadzą dwie!” (bez karty NPC; blok w ogrodzeniu `text`)
+- Dialog: `s1.scena.12.dialog.ansel-towarzysz` — „Mogę iść z panem? Będę cicho. Ja umiem być cicho.” (tu tylko kwestie „A”, przy schodach, gdy postacie przyniosą jedzenie)
+- Krótko: kolor i Więź. Skrzaty karmią każdego i nie pytają po co; porcję „dla kolegi” pakują w serwetkę. Kto przyjdzie drugi raz, usłyszy od najmniejszego skrzata zmartwione: „Panicz bierze dwie porcje, a je jedną” (nikt w kuchni Ansela nie widzi). Jedzenie zaniesione Anselowi to +1 do Więzi dla postaci, która je przyniosła (raz w module). Ansel nie je, tylko wdycha zapach; jeśli ktoś poda mu bułeczkę do ręki, ręka przejdzie przez ciasto: pokaż to, nie nazywaj. Zdanie o „czwartkach z cynamonem” to okruch jego czasów, nie wskazówka; nie rozwijaj go. Pytania o Ansela, Marrow albo dawne lata: skrzaty niczego nie pamiętają i trapią się tym tak bardzo, że lepiej zmienić temat. Kuchnia jest też kryjówką: skrzaty nikogo nie wydają (karta [[miejsce.schody-przy-kuchni]]). Zamknięcie: postacie wychodzą z naręczem jedzenia, a skrzaty kłaniają się, dopóki drzwi się nie zamkną.
 
 **Spotkanie C. Portret przy schodach** (ok. 5 min)
-- Dialog: `s1.scena.12.dialog.portret-schody` — „TODO”
+- Czytaj: tekst C („Wśród martwych natur przy schodach…”); wstawka „Kobieta przestaje ugniatać…”, gdy postacie spytają o chłopca, który czeka przy schodach.
+- Dialog: `s1.scena.12.dialog.portret-schody` — „Szukacie kogoś, młodzi? Tu się tylko czeka. Jedni na kolację, drudzy na kogoś, kto nie przychodzi.” (bez karty NPC; blok w ogrodzeniu `text`)
 - Flagi: `flaga.marrow-imie-znane`
-- Zarys: portret Ansela nie widzi, ale pamięta, że w 1951 „mały Puchon czekał tu na panią profesor od gwiazd, a potem przestał przychodzić” (założenie robocze).
+- Krótko: portret kucharki (nasza postać, bez karty) Ansela nie widzi, choć chłopiec zwykle siedzi kilka kroków dalej i macha do niej, i nie dziwi się temu. Pamięta strzępy: „dawno temu, jesienią” mały Puchon siadał na najniższym stopniu i czekał na „panią profesor od gwiazd i klepsydr”, a potem przestał przychodzić (założenie robocze). Nazwisko podaje dopiero na uprzejme dopytanie i z trudem: „Marrow. Tak na nią mówili. Zawsze się spieszyła” (rezerwa W2, `flaga.marrow-imie-znane`). Roku nie zna („portrety liczą kolacje, nie lata”), imienia chłopca też nie. Dlaczego pamięta, skoro reszta zamku zapomniała, nie wyjaśniaj; jeśli gracze zapytają, portret sam się dziwi i wraca do ciasta. Ansel, jeśli słyszy, pyta postać szeptem: „Ona mnie pamięta?”. Uczciwa odpowiedź to +1 do Więzi. Zamknięcie: kucharka znowu nuci i fałszuje w tym samym miejscu.
 
-**Spotkanie E. Profesor Sprout i rejestr Hufflepuffu** (ok. 5 min)
-- Dialog: `s1.scena.12.dialog.sprout-rejestr` — „TODO”
+**Spotkanie E. Profesor Sprout i rejestr Hufflepuffu** (ok. 5 min, za dnia, najlepiej przed kolacją)
+- Czytaj: tekst E („W ciepłym korytarzu pod kuchnią…”); wstawka „Profesor odstawia doniczkę…”, gdy postacie poproszą o sprawdzenie; wstawka „Ansel staje przy beczkach…” tylko wtedy, gdy Ansel jest przy postaci.
+- Dialog: `s1.scena.12.dialog.sprout-rejestr` — „Szósty rok, i nie tylko moi? No proszę. Kochaneczki, jeśli któryś z moich Puchonów się zgubił, mówcie od razu. Ja ich wszystkich liczę.”
+- Dialog: `s1.scena.12.dialog.ansel-towarzysz` — „Mogę iść z panem? Będę cicho. Ja umiem być cicho.” (tylko gdy Ansel jest przy postaci; kwestie „E”)
 - Flagi: `flaga.ansel-poza-spisem`
-- Zarys: Sprout nie znajduje Ansela Draya w rejestrze domu ani teraz, ani wstecz (W2.2), a Ansel przy beczkach próbuje wystukać rytm i ręka przechodzi przez drewno (W2.3).
+- Krótko: we wrześniu Sprout liczy pierwszoroczniaków przed kolacją i nosi rejestr domu pod pachą, więc sprawdza od ręki. Ansela Draya nie ma ani wśród obecnych, ani w rocznikach wstecz (W2.2). Martwi się: obiecuje poszukać jeszcze w archiwum szkoły i pyta, czy postacie dobrze się czują i czy śpią. Na „ducha Puchona” prycha, że jedynym duchem jej domu jest Gruby Mnich (karta). Gdy postacie upierają się, że chłopiec stoi obok, rozgląda się życzliwie, nikogo nie widzi i zaczyna martwić się o nie, nie o niego. Ręka Ansela w beczce (W2.3) to dowód tylko dla postaci; Sprout go nie zobaczy. Jeśli w scenie 05 Sprout już sprawdzała rejestr (blok `sprout-schody`), daj jej jedno zdanie: „Sprawdziłam jeszcze raz, wieczorem. Nic” i zostaw resztę jako kolor. Zamknięcie: Sprout odsyła na kolację, Puchoni wystukują rytm w beczkę i znikają w pokoju wspólnym.
 
 **Spotkanie F. Dormitorium i pokój wspólny Slytherinu** (ok. 5 min, siatka 5; kradzież dopiero po scenie 04)
-- Test: `s1.scena.12.test.kradziez-dormitorium`
-- Flagi: `flaga.zegarek-cassiana`, `flaga.karta-u-graczy`
-- Zarys: postać ze Slytherinu widzi nocą, jak Cassian nakręca stojący zegarek i mamrocze liczby (W4.7); zegarek pod poduszką, karta w podszewce kufra (dopisek o oddawaniu, W7.2, handout `s1.handout.karta-pozyczajacego`), porażka budzi Cassiana.
+- Czytaj: tekst F, wariant 1 („Dormitorium leży pod jeziorem…”, chłopiec) albo 2 („Pokój wspólny po północy…”, dziewczyna); wstawka „Zegarek jest cięższy…” po udanej kradzieży; wstawka „Oddech urywa się w pół…” po porażce; wstawka „Podszewka wieka…”, gdy postać zagląda do kufra (tylko wariant 1).
+- Dialog: `s1.scena.12.dialog.cassian-dormitorium` — „Śpij. Niczego nie widziałeś.” (do dziewczyny: „Śpij, panno [nazwisko]. Niczego nie widziałaś.”; tylko gdy postać się odezwie albo kradzież się nie uda)
+- Dialog: `s1.scena.12.dialog.rosalind-pokoj-wspolny` — „Kochanie. Nie budź go. On i tak prawie nie śpi.” (opcjonalnie: wariant 2 bez kradzieży albo rano po F)
+- Test: `s1.scena.12.test.kradziez-dormitorium` (liczby: mechanik; podstawa to test kradzieży w karcie [[przedmiot.zegarek-cassiana]])
+- Flagi: `flaga.zegarek-cassiana`, `flaga.zegarek-u-graczy`, `flaga.karta-u-graczy`, `flaga.cassian-czujny` (po porażce)
+- Krótko: tylko dla postaci ze Slytherinu i dopiero od wieczoru po scenie 04 (siatka 5). Najpierw zwykłe życie: postać widzi i słyszy, jak Cassian nocą nakręca stojący zegarek i liczy szeptem (W4.7). Niczego nie tłumacz; liczby to minuty, które już „pożyczył” (założenie robocze), ale gracze mają to zgadywać sami. Nie wypychaj gracza do kradzieży: może tylko patrzeć i rano opowiedzieć drużynie, to też pełne spotkanie. Gdy kradnie: jeden test na zegarek. Karta leży w podszewce kufra u stóp łóżka (wstawka „Podszewka wieka…”); po jej wyjęciu daj handout `s1.handout.karta-pozyczajacego` (dopisek o oddawaniu, W7.2). Czy kufer to osobny test, ustala mechanik. Po wygranej zegar kradzieży staje, a Cassian odkrywa stratę w ciągu godziny (rano, jeśli spał) i sam przychodzi: spotkanie O, potem scena 08. Po porażce Cassian nie robi hałasu i nie budzi dormitorium: mówi „Nie”, chowa zegarek pod koszulę i od tej nocy nosi go przy sobie; rano przy śniadaniu patrzy na postać i milczy. Kolejnej próby kradzieży nie ma. Jeśli postać zamiast kraść odezwie się szeptem, Cassian odpowiada krótko i zimno („Śpij. Niczego nie widziałeś”) i to jest wejście do sceny 08 nazajutrz. Zamknięcie: zielona poświata, cisza, oddech za kotarą.
 
 **Spotkanie G. Sowiarnia** (ok. 5 min)
-- Zarys: list do domu i sowa, która nie chce lecieć, gdy obok stoi Ansel (założenie robocze: zwierzęta go wyczuwają, ale nie widzą).
+- Czytaj: tekst G („Schody na sowiarnię kręcą się…”); wstawka „Sowa, która usiadła ci już…”, gdy Ansel jest przy postaci.
+- Dialog: `s1.scena.12.dialog.ansel-towarzysz` — „Mogę iść z panem? Będę cicho. Ja umiem być cicho.” (tylko gdy Ansel jest przy postaci; kwestie „G”; poza tym spotkanie nie ma rozmówcy)
+- Krótko: kolor i tło postaci. Postać pisze list do domu; zapytaj gracza, do kogo pisze i jakie jedno zdanie jest w liście. To dobre miejsce na niepokój roku 1969: rodzice w listach pytają, czy w szkole „spokojnie”, i proszą, żeby nie chodzić samemu. Opcjonalnie sowa przynosi komuś gazetę z nagłówkiem „Charłacy maszerują pod Ministerstwem” (wymysł kampanii); nie komentuj, wystarczy, że ktoś szybko ją składa. Gdy Ansel towarzyszy postaci, sowa go wyczuwa, ale nie widzi (założenie robocze: zwierzęta czują Ansela, nie widzą go) i nie weźmie listu, dopóki chłopiec nie zejdzie na schody. Ansel przeprasza i mówi najwyżej jedno zdanie o mamie, np. „Mama też pisze. W czwartki”, i nic więcej (o mamie w Sesji 1 tylko jednym zdaniem). Zamknięcie: sowa odlatuje nad jezioro i znika w szarości.
 
 **Spotkanie I. Pierwszoroczniak na schodach** (ok. 5 min, przy zegarze kradzieży 2)
-- Dialog: `s1.scena.12.dialog.pierwszoroczniak` — „TODO”
+- Czytaj: tekst I („Na ruchomych schodach jest tłok…”); wstawka „Chłopiec, wciąż na stopniu…”, gdy Ansel jest przy postaci; wstawka „Przez tłum przepycha się prefekt…” na zamknięcie albo wtedy, gdy postacie nic nie robią.
+- Dialog: `s1.scena.12.dialog.pierwszoroczniak` — „Ja nie spałem. Szedłem na Zielarstwo. Która jest godzina? Proszę, która jest godzina?” (bez karty NPC; blok w ogrodzeniu `text`; zawiera też kwestię prefekta)
+- Dialog: `s1.scena.12.dialog.ansel-towarzysz` — „Mogę iść z panem? Będę cicho. Ja umiem być cicho.” (tylko gdy Ansel jest przy postaci; kwestie „I”)
 - Flagi: `flaga.rejestr-godzin`
-- Zarys: pierwszoroczniak mdleje na schodach, „nie wie, kiedy zasnął” i widział mignięcie „ducha” w żółtym krawacie (W4.3); prefekt zabiera go do skrzydła szpitalnego, a Wren zjawia się chwilę później (wstawka przy spotkaniu P).
+- Krótko: samo przychodzi, gdy zegar kradzieży doszedł do 2 (zwykle wtorek 23 września po obiedzie, scena 06), a postacie są na schodach albo idą przez zamek. Chłopiec nie jest ranny, tylko oszołomiony i przestraszony. Ostatnie, co pamięta, to wyjście z Wielkiej Sali po obiedzie; gdy postacie podadzą mu godzinę, wychodzi, że brakuje mu około czterdziestu minut (założenie robocze). Zanim się ocknął, widział „ducha” w żółtym krawacie: „Mignął i zniknął”. To nowy wpis do rejestru godzin (W4.3): dzień, godzina, miejsce. Co Cassian zrobił z tym czasem, gracze mogą sprawdzić sami: tego popołudnia znowu zbiera pochwały (założenie robocze: na Eliksirach u Slughorna; przy kolacji ktoś o tym mówi). Postać, która usiądzie przy chłopcu i go uspokoi, zanim przyjdzie prefekt, dostaje od niego wdzięczne spojrzenie i jego imię (nadaj je sam). Prefekt zabiera chłopca do skrzydła szpitalnego; torba zostaje na schodach, a chwilę później obok przechodzi Wren (wstawka przed tekstem P). Jeśli I zagrało, a postacie idą potem do Wrena, z tamtej wstawki przeczytaj tylko ostatnie zdanie (Wren wchodzi do sali), bo schody już widzieli.
 
-**Spotkanie J. Maisie Lock i Gideon Pratt** (ok. 5 min)
-- Dialog: `s1.scena.12.dialog.maisie-pratt` — „TODO”
+**Spotkanie J. Maisie Lock i Gideon Pratt** (ok. 5 min, za dnia, między posiłkami)
+- Czytaj: tekst J („Wielka Sala między posiłkami…”); wstawka „Dziewczynka podnosi wzrok…”, gdy Ansel jest przy postaci.
+- Dialog: `s1.scena.12.dialog.maisie-pratt` — Pratt: „Wy też zbieracie przypadki? Świetnie. Wreszcie ktoś z liczbami. Ona twierdzi, że czwartek, ale nie umie powiedzieć, o której.”
+- Dialog: `s1.scena.12.dialog.maisie-kartka` — Maisie: „Dziękuję. On nie jest zły. Tylko pyta tak, jakbym kłamała.”
+- Dialog: `s1.scena.12.dialog.ansel-towarzysz` — „Mogę iść z panem? Będę cicho. Ja umiem być cicho.” (tylko gdy Ansel jest przy postaci; kwestie „J”)
 - Flagi: `flaga.rejestr-godzin`, `flaga.plotka-duch-puchona`
-- Zarys: daty ich straconych godzin pasują do sukcesów Cassiana (W4.3; tabela „Rejestr godzin” w scenie 06).
+- Krótko: Pratt zbiera dane do skargi do Flitwicka („anomalia”) i przyczepił się do Maisie, a ona przy nim się zamyka (przy innych zaprzecza, karta). Postać, która stanie po stronie Maisie (grzecznie odsunie Pratta albo po prostu usiądzie obok), dostaje od niej kartkę z datą: czwartek 18 września, sprawdzian, trzecie pytanie, około jedenastej, kwadrans. Pratt potraktowany rzeczowo podaje swój wtorek 16 września, 14:12–15:11, korytarz Eliksirów, „pięćdziesiąt dziewięć minut, nie godzina” (tabela „Rejestr godzin” w scenie 06). Oboje widzieli „ducha Puchona” mignięciem: Maisie się boi, Pratt mówi „zjawisko optyczne”. Dopasowanie dat do sukcesów Cassiana robią gracze, nigdy NPC. Jeśli J gra się po kroku 5 sceny 06, postacie mają już te dane: zrób z J kolor, a Pratt pokazuje najwyżej nowy wpis (pierwszoroczniak ze schodów, jeśli I zagrało). Kpina z Maisie albo z Pratta zamyka oboje (karty). Zamknięcie: dzwon; Pratt wstaje pierwszy i zapisuje godzinę.
 
-**Spotkanie O. Cassian przychodzi po zegarek** (ok. 5 min, gdy zegarek jest u graczy po kradzieży)
-- Dialog: `s1.scena.12.dialog.cassian-po-zegarek` — „TODO”
-- Zarys: tego samego wieczoru albo nazajutrz Cassian, blady i wściekły, sam szuka postaci; to wejście do sceny 08.
+**Spotkanie O. Cassian szuka zegarka** (ok. 2 min, potem scena 08; gdy zegarek jest u graczy po kradzieży)
+- Czytaj: tekst O („Wieść biegnie przed nim…”; pierwszy akapit tylko wśród ludzi), potem od razu tekst 1c sceny 08 („Najpierw słyszycie zegarek…”).
+- Dialog: `s1.scena.12.dialog.cassian-po-zegarek` — „Oddajcie.” (prostuje się) „Proszę. To rodzinna pamiątka.” (odsyłacz: to samo otwarcie co `s1.scena.08.dialog.cassian-oddajcie`, który prowadzi dalej całą rozmowę; blok w scenie 12 ma tylko kwestie z wędrówki: szept przy ludziach, znalezienie przy posiłku, podrzucony zegarek)
+- Krótko: samo przychodzi, tego samego wieczoru albo rano po kradzieży (F albo siatka 1). To nie osobna rozmowa, tylko zapowiedź wejścia 1c do sceny 08: daj graczom minutę, żeby zdecydowali, gdzie chcą go przyjąć (pusta sala Obrony, korytarz, przy ludziach). Jeśli się chowają, Cassian i tak ich znajduje najpóźniej przy następnym posiłku: zegarek tyka i grzeje tym mocniej, im bliżej jest właściciel (założenie robocze, zgodne z tekstem 1c). Przy ludziach Cassian nie robi sceny, tylko prosi szeptem o rozmowę „na zewnątrz”. Zegar kradzieży stoi, dopóki zegarek jest u graczy.
 
 ### Ansel w wędrówkach
 
-Ansel nie jest osobnym spotkaniem, tylko cieniem, który chodzi z drużyną. Po scenie 05 może towarzyszyć postaci, która pierwsza zwróciła się do Ansela po imieniu (jak w remisie ze sceny 05) w **jednym** spotkaniu (stopień 3, towarzyszenie): najlepiej w K (biblioteka, gablota) albo w B (Mnich go nie widzi, ale czuje chłód „jak przy kimś bardzo smutnym”). Nie wchodzi do gabinetu dyrektora sam, tylko gdy go zaprowadzą. Nie idzie na wieżę astronomiczną ani do Sali Wejściowej, gdy bije wielki zegar: wzdryga się i zostaje na schodach. **Więź w module:** +1 za życzliwość (jedzenie z kuchni, imię, wysłuchanie, uczciwa odpowiedź), −1 tylko za odkryte kłamstwo; w spotkaniu N najwyżej do 1, bo to wyrównanie, nie wyścig.
+Ansel nie jest osobnym spotkaniem, tylko cieniem, który chodzi z drużyną. Po scenie 05 może towarzyszyć postaci, która pierwsza zwróciła się do Ansela po imieniu (jak w remisie ze sceny 05) w **jednym** spotkaniu (stopień 3, towarzyszenie): najlepiej w K (biblioteka, gablota) albo w B (Mnich go nie widzi, ale czuje chłód „jak przy kimś bardzo smutnym”). Nie wchodzi do gabinetu dyrektora sam, tylko gdy go zaprowadzą. Nie idzie na wieżę astronomiczną ani do Sali Wejściowej, gdy bije wielki zegar: wzdryga się i zostaje na schodach. Wstawki z Anselem w E, G, I i J to warianty tego jednego towarzyszenia, nie dodatkowe; w A i C Ansel jest „u siebie”, przy schodach, więc te wstawki nie liczą się do limitu. Do pokoju wspólnego i dormitorium Slytherinu (F) nie wchodzi. **Więź w module:** +1 za życzliwość (jedzenie z kuchni, imię, wysłuchanie, uczciwa odpowiedź), −1 tylko za odkryte kłamstwo; w spotkaniu N najwyżej do 1, bo to wyrównanie, nie wyścig.
 
 ### Rady dla MG, który prowadzi początkujących
 
@@ -355,7 +501,7 @@ Ansel nie jest osobnym spotkaniem, tylko cieniem, który chodzi z drużyną. Po 
 
 ### Linie i zasłony
 
-Spotkanie N wariant 1 (chłopiec na łóżku o świcie) bywa niepokojące; jeśli przy stole jest zasłona na „obcych w sypialni”, użyj wariantu 2 albo 3. Wieża i dzwon to temat śmierci Ansela: w module nikt o tym nie mówi, a strach chłopca przed biciem zegara wystarczy. Księga szlabanów Filcha dotyka wspólnego sekretu graczy: czytaj z niej tylko to, co gracze zgodzili się ujawnić. Filch jest charłakiem; kpina z niemagicznych w jego obecności to w 1969 temat marszów charłaków i napięć czystości krwi, prowadź ją jako ranę Filcha, nie jako żart.
+Spotkanie N wariant 1 (chłopiec na łóżku o świcie) bywa niepokojące; jeśli przy stole jest zasłona na „obcych w sypialni”, użyj wariantu 2 albo 3. Wieża i dzwon to temat śmierci Ansela: w module nikt o tym nie mówi, a strach chłopca przed biciem zegara wystarczy. Księga szlabanów Filcha dotyka wspólnego sekretu graczy: czytaj z niej tylko to, co gracze zgodzili się ujawnić. Filch jest charłakiem; kpina z niemagicznych w jego obecności to w 1969 temat marszów charłaków i napięć czystości krwi, prowadź ją jako ranę Filcha, nie jako żart. Spotkanie F to nocne skradanie się przy śpiącym koledze: jeśli przy stole kradzież albo „obcy przy łóżku” to zasłona, zostaw z F tylko obserwację zza kotary i przenieś zdobycie zegarka do sceny 08. Omdlenie pierwszoroczniaka (I) gra się bez obrażeń i bez szczegółów medycznych: chłopiec ocknie się od razu, a strach jest w pytaniu „która godzina?”, nie w upadku.
 
 ### Czym zamknąć moduł
 
@@ -363,7 +509,7 @@ Moduł zamyka się na trzy sposoby: (1) gracze mają to, po co szli, i wracają 
 
 ## Obecni
 
-*Przy każdej osobie: w którym spotkaniu jest, co robi, czego chce, sygnał do pokazania i krótka reakcja na zaczepkę. Pełne karty są pod identyfikatorami. Osoby ze spotkań w zarysie mają na razie tylko odsyłacz.*
+*Przy każdej osobie: w którym spotkaniu jest, co robi, czego chce, sygnał do pokazania i krótka reakcja na zaczepkę. Pełne karty są pod identyfikatorami. Postacie bez karty (skrzaty, portret kucharki, pierwszoroczniak, prefekt, mała Hemsby) są naszym wymysłem (`pewnosc: nasze`) i mają tu wszystko, czego MG potrzebuje.*
 
 **[[npc.gruby-mnich]], duch Hufflepuffu** (spotkanie B)
 - *Co robi:* wisi pod sklepieniem korytarza przy kuchni i znosi docinki Irytka z miną męczennika. Gdy Irytek ucieka, szuka kogoś, komu może się wyżalić.
@@ -420,7 +566,7 @@ Moduł zamyka się na trzy sposoby: (1) gracze mają to, po co szli, i wracają 
 - *Gdy postacie ją zaczepią:* uczciwa, krótka opowieść otwiera gargulca (założenie robocze). Kluczenie: odsyła do dormitoriów i patrzy na postacie przez tydzień.
 
 **[[npc.ansel-dray]]** (spotkanie N; jako towarzysz najwyżej w jednym spotkaniu, najlepiej B albo K; w M, gdy go przyprowadzą)
-- *Co robi:* w N czeka na jedną postać, która jeszcze z nim nie rozmawiała: na jej łóżku o świcie, przy jej ławce albo idzie za jej krokami. W innych spotkaniach stoi obok postaci, która pierwsza zwróciła się do Ansela po imieniu (jak w remisie ze sceny 05) i mówi tylko do niej.
+- *Co robi:* w N czeka na jedną postać, która jeszcze z nim nie rozmawiała: na jej łóżku o świcie, przy jej ławce albo idzie za jej krokami. W innych spotkaniach stoi obok postaci, która pierwsza zwróciła się do Ansela po imieniu (jak w remisie ze sceny 05) i mówi tylko do niej (kwestie dla A, E, G, I i J w bloku `s1.scena.12.dialog.ansel-towarzysz`; dla C w bloku portretu).
 - *Czego chce:* wiedzieć, która jest godzina, doczekać się pani profesor i, choć sam tego nie wie, żeby ktoś zapamiętał jego imię.
 - *Sygnał:* pauza przed każdym pytaniem, „proszę pana”, „proszę pani”. Wzdryga się przy biciu zegara. Ręce przechodzą przez rzeczy.
 - *Gdy postacie go zaczepią:* krzyk albo chwyt: przeprasza i znika. Kłamstwo przyjmuje z ufnością (odkryte: Więź −1). Nigdy nie mówi „umarłem” ani „duch”; o mamie w Sesji 1 nie rozmawia dłużej niż jednym zdaniem.
@@ -431,11 +577,101 @@ Moduł zamyka się na trzy sposoby: (1) gracze mają to, po co szli, i wracają 
 - *Sygnał:* lewa dłoń płasko na blacie. Dwa stuknięcia kostką palca w biurko za dobrą odpowiedź, to cała pochwała.
 - *Gdy postacie go zaczepią:* kłamstwo: „Wróćcie, gdy będziecie gotowi powiedzieć prawdę”. Groźba: szlaban. Przekupstwo: suche „nie” i minus na długo.
 
-**W spotkaniach w zarysie (TODO, kolejny etap):** [[npc.pomona-sprout]] (E), [[npc.maisie-lock]] i [[npc.gideon-pratt]] (J), [[npc.cassian-vane]] (F, O), [[npc.rosalind-teague]] i [[npc.tobias-quill]] (F, J; do rozpisania).
+**Skrzaty domowe w kuchni (bez karty NPC)** (spotkanie A)
+- *Co robi:* wybiegają ze wszystkich kątów, niosą tace, zanim ktoś o coś poprosi. Najmniejszy kłania się najniżej i najwięcej zauważa. Skrzaty w kuchni Hogwartu to kanon; ich kwestie i zwyczaje są nasze (`pewnosc: nasze`).
+- *Czego chce:* żeby każdy wyszedł najedzony. Pytań nie zadają, bo to nie ich miejsce.
+- *Sygnał:* mówią o sobie „skrzaty” i „skrzat”, do postaci „panicz”, „panienka”. Najmniejszy przy drugiej wizycie zauważa, że ktoś bierze dwie porcje, a je jedną.
+- *Gdy postacie je zaczepią:* uprzejmość i podziękowanie wzruszają je do łez i dają dokładkę. Rozkaz spełniają od razu i ciszej. Pytanie o dawne lata zasmuca je, bo nic nie pamiętają. Propozycja zapłaty albo ubrania przeraża je: odsuwają się i robi się zimno.
+
+**Portret kucharki przy schodach (bez karty NPC)** (spotkanie C)
+- *Co robi:* ugniata w poczerniałej ramie ciasto, które nigdy nie wyrośnie, i nuci, fałszując zawsze w tym samym miejscu. Nasza postać (`pewnosc: nasze`).
+- *Czego chce:* towarzystwa przy robocie i kogoś, kto posłucha, jak fałszuje.
+- *Sygnał:* zerka na najniższy stopień, potem na postacie. Ansela nie widzi i nie dziwi się temu. Gdy coś sobie przypomina, przestaje ugniatać.
+- *Gdy postacie ją zaczepią:* uprzejme dopytanie daje nazwisko Marrow (rezerwa W2). Krzyk i pośpiech: odwraca się plecami i nuci głośniej. Kłamstwo przejrzy ze śmiechem i potem mówi już tylko o cieście.
+
+**[[npc.pomona-sprout]], opiekunka Hufflepuffu** (spotkanie E)
+- *Co robi:* przed kolacją liczy pierwszoroczniaków przy beczkach, z rejestrem domu pod pachą i gryzącą rośliną w doniczce.
+- *Czego chce:* żeby żaden Puchon się nie zgubił. Martwi się „zasypianiem” uczniów i Maisie Lock po sprawdzianie.
+- *Sygnał:* „kochaneczko”, palec poplamiony ziemią sunie po kolumnie nazwisk i zostaje na końcu strony. Na „ducha Puchona” prycha.
+- *Gdy postacie ją zaczepią:* uprzejma prośba otwiera rejestr od ręki (W2.2). Upór, że chłopiec stoi obok: martwi się o postacie, nie o niego. Kłamstwu wierzy, ale do rejestru nic nie dopisze.
+
+**Mała Hemsby, pierwszoroczna Puchonka (bez karty NPC)** (spotkanie E, tylko kolor)
+- *Co robi:* przemyka do pokoju wspólnego jako ostatnia. Sprout na chwilę jej szuka w rejestrze. Nasza postać (`pewnosc: nasze`).
+- *Czego chce:* zdążyć przed kolacją i nie zwracać na siebie uwagi.
+- *Sygnał:* jedyna, przy której Sprout przestaje liczyć i wzdycha z ulgą.
+- *Gdy postacie ją zaczepią:* rumieni się, mówi „przepraszam” i wystukuje rytm w beczkę. Niczego nie wie.
+
+**[[npc.cassian-vane]]** (spotkania F i O)
+- *Co robi:* w F nocą nakręca zatrzymany zegarek i liczy szeptem (W4.7), potem zasypia płytko z zegarkiem w dłoniach. W O szuka zegarka po całym zamku, w samej kamizelce, i nasłuchuje.
+- *Czego chce:* w F przetrwać noc, nikogo nie budząc. W O odzyskać zegarek po cichu, zanim ktoś zacznie pytać.
+- *Sygnał:* dłonie zaciśnięte na kopercie, które powoli się rozluźniają. Po przebudzeniu oczy zupełnie przytomne. W O głowa nisko, przystaje co kilka kroków.
+- *Gdy postacie go zaczepią:* w F odpowiada krótko i zimno („Śpij. Niczego nie widziałeś”); szczera troska trafia głębiej, niż by chciał. Nie robi hałasu w dormitorium. W O przy ludziach prosi szeptem o rozmowę „na zewnątrz”; dalej blok `s1.scena.08.dialog.cassian-oddajcie`.
+
+**[[npc.rosalind-teague]]** (spotkanie F, tylko wariant 2 albo rano po F; opcjonalnie)
+- *Co robi:* nie śpi, siedzi w cieniu przy schodach do dormitoriów dziewcząt i pilnuje Cassiana. Przy samej próbie kradzieży jej nie ma (test idzie bez niej).
+- *Czego chce:* żeby Cassian przestał, zanim ktoś się dowie, i żeby nikt obcy go nie skrzywdził.
+- *Sygnał:* bawi się spinką w kształcie węża. Gdy mowa o zegarku, zerka na fotel przy kominku.
+- *Gdy postacie ją zaczepią:* szczera troska o Cassiana daje zdanie o nocach bez snu. Groźba wobec niego: chłodna odpowiedź i rano Cassian o wszystkim wie. Kłamstwem się bawi.
+
+**Pierwszoroczniak na schodach (bez karty NPC; imię nadaje MG)** (spotkanie I)
+- *Co robi:* nieruchomieje na ruchomych schodach, osuwa się i budzi zdumiony, w złym miejscu dnia. Nasza postać (`pewnosc: nasze`).
+- *Czego chce:* wiedzieć, która jest godzina, i żeby nikt się z niego nie śmiał.
+- *Sygnał:* patrzy w okno na słońce, które stoi „gdzie indziej”. Powtarza pytanie o godzinę.
+- *Gdy postacie go zaczepią:* spokój i godzina go uspokajają, a postać, która przy nim usiądzie, dostaje jego imię. Śmiech albo pośpiech: łzy i „Ja nie spałem!”.
+
+**Prefekt (bez karty NPC)** (spotkanie I, zamknięcie)
+- *Co robi:* przepycha się z kawałkiem placka w ręce, klęka przy chłopcu i zabiera go do skrzydła szpitalnego. Nasza postać (`pewnosc: nasze`).
+- *Czego chce:* rozładować tłok i nie spóźnić się na własną lekcję.
+- *Sygnał:* przekrzywiona odznaka, łagodny głos do chłopca, ostry do gapiów: „Rozejść się, no już”.
+- *Gdy postacie go zaczepią:* dziękuje za pomoc i przyjmuje, że ktoś odprowadzi chłopca razem z nim. Na pytania o „zasypianie” wzrusza ramionami: „Trzeci w tym tygodniu. Pielęgniarka mówi, że to wrzesień”.
+
+**[[npc.maisie-lock]]** (spotkanie J)
+- *Co robi:* siedzi na końcu stołu Hufflepuffu, ściska podręcznik jak tarczę i odpowiada Prattowi coraz ciszej.
+- *Czego chce:* żeby ktoś jej uwierzył, ale nie przy wszystkich.
+- *Sygnał:* sprawdza zegarek co kilka sekund. Przy Anselu blednie: „Zdawało mi się…”.
+- *Gdy postacie ją zaczepią:* postać, która stanie po jej stronie albo usiądzie obok, dostaje kartkę z datą. Pytanie głośno, przy innych: zaprzecza. Żart: odchodzi z płaczem.
+
+**[[npc.gideon-pratt]]** (spotkanie J)
+- *Co robi:* siedzi na cudzej ławce z kalendarzykiem i ołówkiem i przesłuchuje Maisie jak świadka.
+- *Czego chce:* danych do skargi do Flitwicka o „anomalii”. Pod spodem: dowodu, że to nie choroba.
+- *Sygnał:* wyjmuje kalendarzyk, zanim odpowie. Mówi w minutach, nigdy w przybliżeniach.
+- *Gdy postacie go zaczepią:* dane za dane: współpracuje i podaje swój wtorek. Ogólniki: „Wróćcie z liczbami”. Kpina: od tej pory tylko na piśmie.
+
+**[[npc.tobias-quill]]** (spotkanie J, opcjonalnie; tylko gdy postacie nie siadały z nim nad notesem w scenie 06)
+- *Co robi:* przysiada się z drugiej strony stołu z notesem plotek, bo „zasypianie” to jego ulubiony temat tygodnia.
+- *Czego chce:* wiedzieć pierwszy i przyjąć zakład.
+- *Sygnał:* wyciąga notes przy każdym słowie o zgubionym czasie; przezwiska zamiast dat („Puchonka z warkoczami, czwartek?”).
+- *Gdy postacie go zaczepią:* zachowuje się jak w karcie i w scenie 06; daty z notesu odtwarza tylko razem z postaciami. Bez osobnego bloku: kwestie z karty.
 
 ## Dialogi
 
-*Bloki tylko dla ośmiu rozpisanych spotkań. Kwestie są krótkie, żeby dało się je przeczytać z kartki albo powiedzieć po swojemu. Spotkania w zarysie (A, C, E, F, G, I, J, O) nie mają jeszcze bloków: identyfikatory w „Rytmie sceny” są zarezerwowane (TODO, kolejny etap).*
+*Bloki dla wszystkich szesnastu spotkań, w kolejności liter. Kwestie są krótkie, żeby dało się je przeczytać z kartki albo powiedzieć po swojemu. Postacie bez karty NPC (Irytek, skrzaty, portret kucharki, pierwszoroczniak) mają bloki w formacie `dialog`, ale w ogrodzeniu `text`, jak w scenie 03; po utworzeniu karty wystarczy zmienić ogrodzenie na `yaml`. Spotkanie G nie ma własnego rozmówcy: jego kwestie są w bloku Ansela-towarzysza.*
+
+### A. Skrzaty w kuchni: „Skrzaty dadzą dwie!”
+
+Skrzaty to czysty kolor i Więź. Karmią każdego, nie pytają po co i nikogo nie wydają. Najmniejszy skrzat jest jedynym, który coś zauważa: przy drugiej wizycie martwi się, że „panicz bierze dwie porcje, a je jedną”. Pytania o dawne lata zasmucają skrzaty, bo nic nie pamiętają; wtedy lepiej zmienić temat. Skrzaty w kuchni Hogwartu to kanon, kwestie są nasze.
+
+```text
+dialog:
+  id: s1.scena.12.dialog.skrzat-kuchnia
+  npc: npc.skrzaty-kuchenne   # bez karty (pewnosc: nasze); blok w ogrodzeniu text
+  wyzwalacz: "Tekst A, gdy postacie wchodzą do kuchni; mówi zwykle najmniejszy skrzat, reszta mu wtóruje."
+  ton: "piskliwy, szybki, uniżony i szczerze uradowany; o sobie w trzeciej osobie"
+  kwestie:
+    - "Otwarcie: „Panicz głodny? Panienka głodna? Skrzaty dadzą! Ile porcji, proszę? Dwie? Dla kolegi? Skrzaty dadzą dwie!”"
+    - "Gdy postać prosi uprzejmie o jedzenie „dla kolegi”: (pakuje bułeczki w serwetkę) „Dla kolegi zawsze. Skrzaty nie pytają, jaki kolega. Skrzaty pakują ciepłe.”"
+    - "Gdy postać dziękuje albo chwali kuchnię: (najmniejszy skrzat zalewa się łzami) „Panicz dziękuje skrzatom! Skrzaty dadzą jeszcze placek!” (dokładka; kolor)"
+    - "Przy drugiej wizycie: (najmniejszy skrzat, zmartwiony, szeptem) „Panicz bierze dwie porcje, a je jedną. Skrzat się martwi. Panicz chory?”"
+    - "Gdy pytają o Ansela, profesor Marrow albo dawne lata: (wszystkie skrzaty zastygają; najmniejszy ciągnie się za uszy) „Skrzat nie pamięta. Skrzat powinien pamiętać, skrzat pamięta każdą kolację…” (inne skrzaty odciągają go do kotłów; zmień temat)"
+    - "Gdy postać prosi, żeby jej nie wydały (kryjówka): „Skrzaty nikogo nie widziały. Skrzaty widzą tylko garnki.”"
+    - "Gdy postać rozkazuje albo jest niegrzeczna: (kłaniają się niżej) „Tak, panicz. Już, panicz.” (spełniają od razu, ale ciszej; nikt już nie dorzuca placka)"
+    - "Gdy pytają o kolację w Wielkiej Sali albo o to, jak jedzenie wjeżdża na stoły: „Skrzaty stawiają tu, a stoły na górze dostają. Tak było zawsze.” (pokazują cztery puste stoły)"
+    - "Nieprzewidziane (postać proponuje skrzatom pieniądze, część ubrania albo pomoc w zmywaniu): (cofają się przerażone) „Panicz nie może! Skrzat ma pracę, skrzat ma kuchnię!” (robi się zimno; jedzenie dostają i tak, ale skrzaty odprowadzają ich do drzwi w milczeniu)"
+    - "Może zdradzić bez warunku: jedzenie, kryjówkę, że nikogo nie wydadzą."
+    - "Może zdradzić przy drugiej wizycie: że postać bierze dwie porcje, a je jedną (kolor; skrzaty Ansela nie widzą)."
+    - "Nie zdradza: niczego o dawnych latach, Anselu ani Marrow (nie pamięta)."
+  wariant_od: []
+```
 
 ### B. Gruby Mnich: „Duch Puchona! Doprawdy!”
 
@@ -488,6 +724,36 @@ dialog:
   wariant_od: []
 ```
 
+### C. Portret kucharki: „Tu się tylko czeka”
+
+Kucharka z obrazu jest najcichszą drogą do nazwiska Marrow (rezerwa W2). Pamięta strzępy, nie historię: małego chłopca na najniższym stopniu, „dawno temu, jesienią”, i panią profesor, na którą czekał. Nazwisko podaje dopiero na uprzejme dopytanie i z trudem. Dlaczego pamięta, skoro reszta zamku zapomniała, nie wyjaśniaj: portret sam się temu dziwi. Postać nie ma karty NPC, więc blok jest w ogrodzeniu `text`.
+
+```text
+dialog:
+  id: s1.scena.12.dialog.portret-schody
+  npc: npc.portret-kucharki   # bez karty (pewnosc: nasze); blok w ogrodzeniu text
+  wyzwalacz: "Tekst C, gdy postacie zatrzymają się przy obrazie albo do niego zagadają."
+  ton: "ciepły, gospodarski, trochę gderliwy; przy wspomnieniu zwalnia i gubi słowa"
+  kwestie:
+    - "Otwarcie: „Szukacie kogoś, młodzi? Tu się tylko czeka. Jedni na kolację, drudzy na kogoś, kto nie przychodzi.”"
+    - "Gdy postać zagaduje uprzejmie o nią samą: „Ugniatam od zawsze, a ciasto nie rośnie. Malarz zapomniał domalować drożdży, niech mu ziemia lekką będzie.”"
+    - "Gdy pytają o chłopca, który czeka przy schodach (wstawka „Kobieta przestaje ugniatać…”): „Mały taki. Krawat zawsze prosto.” (pauza) „Siadał na najniższym stopniu. Dawno temu, jesienią. Czekał na panią profesor od gwiazd i klepsydr. A potem przestał przychodzić.”"
+    - "Gdy dopytują uprzejmie o nazwisko tej pani profesor: (marszczy czoło, długo) „Marrow. Tak na nią mówili. Zawsze się spieszyła, zawsze z naręczem książek.” (flaga.marrow-imie-znane)"
+    - "Gdy flaga.marrow-imie-znane jest już ustawiona i postacie podają nazwisko same: (kiwa głową od razu) „Marrow, tak. To ona. Na nią czekał.”"
+    - "Gdy pytają o rok: (śmieje się) „Portrety liczą kolacje, nie lata, dziecko.”"
+    - "Gdy pytają o imię chłopca: „Imię? Nie… Nikt go przy mnie nie wołał. Albo wołał, a ja fałszowałam.”"
+    - "Gdy postacie mówią, że chłopiec siedzi tu teraz: (patrzy na stopień, spokojnie) „Tu? Pusto, dziecko. Ale ciepło od pieców, to może dlatego tak się zdaje.”"
+    - "Gdy pytają, czemu ona pamięta, skoro nikt inny nie: (sama się dziwi) „A wiesz, że nie wiem?” (wraca do ciasta i nuci; nie wyjaśniaj)"
+    - "Gdy postać krzyczy albo pogania: „Krzykiem ciasta nie wyrobisz.” (odwraca się plecami i nuci głośniej; dziś już nic nie powie)"
+    - "Gdy postać kłamie (np. że przysłała ją kuchnia albo nauczyciel): (śmieje się, aż mąka sypie się z fartucha) „Ładnie kłamiesz, dziecko. Prawie jak nasz piekarz.” (o chłopcu mówi już tylko „dawno temu”; nazwiska nie poda)"
+    - "Ansel, jeśli słyszy rozmowę, szeptem do postaci, która pierwsza zwróciła się do niego po imieniu: „Ona mnie pamięta?” (uczciwa odpowiedź: Więź +1)"
+    - "Nieprzewidziane (postać przynosi z kuchni prawdziwą bułeczkę i kładzie ją na ramie): (zachwycona, nachyla się) „Prawdziwa! Pachnie! Zostaw, dziecko, niech choć powącham do kolacji.” (od tej chwili jest serdeczna jak przy uprzejmości)"
+    - "Może zdradzić bez warunku: że dawno temu, jesienią, mały chłopiec czekał tu na „panią profesor od gwiazd i klepsydr”."
+    - "Może zdradzić przy uprzejmym dopytaniu: nazwisko Marrow (rezerwa W2)."
+    - "Nie zdradza: roku, imienia chłopca ani tego, dlaczego pamięta (nie wie). Ansela nie widzi."
+  wariant_od: [flaga.marrow-imie-znane]
+```
+
 ### D. Profesor Fairweather: pani od klepsydr
 
 Fairweather jest najłagodniejszą drogą do nazwiska Marrow (rezerwa W2) i do „Bociana” (W9). Daje jedno i drugie chętnie, ale w kawałkach, między dygresjami o gwiazdach. „Bocian” pada tylko przy dłuższej, życzliwej rozmowie. O zdjęciu klasy w szufladzie milczy (Sesja 2).
@@ -516,6 +782,115 @@ dialog:
     - "Może zdradzić przy nazwisku Marrow: „pani od klepsydr”, trzy tygodnie lekcji, odeszła wiele lat temu (rezerwa W2). Przy dłuższej, życzliwej rozmowie: „Bociana” (W9)."
     - "Nie zdradza: zdjęcia swojej klasy z pustym miejscem (Sesja 2) ani nazwiska Bociana (nie pamięta go)."
   wariant_od: [flaga.marrow-imie-znane]
+```
+
+### E. Profesor Sprout i rejestr Hufflepuffu
+
+Sprout jest pierwszą drogą do W2.2: sprawdza rejestr od ręki, przy postaciach, i nie znajduje Ansela Draya ani teraz, ani w rocznikach wstecz. Więcej niż rejestr daje jej troska: od razu pyta, czy postacie śpią, i mimochodem wspomina o Maisie Lock (most do spotkania J). Ansela nie widzi. Jeśli w scenie 05 już sprawdzała rejestr (blok `s1.scena.05.dialog.sprout-schody`), gra tylko kwestia z wariantu i reszta jako kolor.
+
+```yaml
+dialog:
+  id: s1.scena.12.dialog.sprout-rejestr
+  npc: npc.pomona-sprout
+  wyzwalacz: "Tekst E, gdy postacie podchodzą do profesor Sprout przy beczkach przed kolacją albo pytają o ucznia Ansela Draya."
+  ton: "serdeczny, konkretny, rzeczowy jak przy przesadzaniu; coraz bardziej zatroskany o same postacie"
+  kwestie:
+    - "Otwarcie: „Szósty rok, i nie tylko moi? No proszę. Kochaneczki, jeśli któryś z moich Puchonów się zgubił, mówcie od razu. Ja ich wszystkich liczę.”"
+    - "Gdy postacie podają imię i nazwisko (wstawka „Profesor odstawia doniczkę…”): „Dray… Dray…” (palec sunie wstecz, rok po roku) „Nie ma. Ani w tym roku, ani w żadnym, jak daleko sięga ta księga. A sięga daleko.” (W2.2; flaga.ansel-poza-spisem)"
+    - "Gdy flaga.ansel-poza-spisem jest już ustawiona przez blok sprout-schody (scena 05): „Sprawdziłam jeszcze raz, wieczorem. Nic.” (dalej tylko kolor)"
+    - "Po sprawdzeniu, zatroskana: „Poszukam jeszcze w archiwum szkoły, obiecuję. A wy? Śpicie? Jecie? Bo wyglądacie jak sałata po przymrozku.”"
+    - "Gdy pytają, czy ktoś z jej domu „zasypia” albo gubi czas: (ścisza głos) „Trzecia w tym miesiącu mówi, że zasnęła na stojąco. Maisie Lock płakała mi wczoraj nad sprawdzianem.” (most do spotkania J)"
+    - "Gdy pada „duch Puchona”: (prycha) „Mój dom ma jednego ducha. Jest gruby, miły i nie znika. Reszta to plotki z pierwszego roku.”"
+    - "Gdy postacie się upierają, że chłopiec stoi obok: (rozgląda się życzliwie, zagląda nawet za beczkę) „Obok? Kochaneczko… Tu jesteście wy, ja i ta złośnica w doniczce.” (patrzy na postacie dłużej) „Kiedy ostatnio przespaliście całą noc?”"
+    - "Gdy pytają o profesor Marrow: (marszczy brwi) „Marrow? Nie kojarzę. A nazwiska pamiętam, wszystkie, co do jednego.” (to ją niepokoi; nie rozwijaj)"
+    - "Gdy pytają o małą Hemsby albo o liczenie: „Hemsby? Pierwszy rok, moja. Wieczorem płacze za mamą, a szałwię sadzi lepiej ode mnie.” (kolor)"
+    - "Gdy postać kłamie (np. że Ansel to przeniesiony kuzyn): (wierzy od razu) „Przeniesiony? To by mi powiedzieli. Ale dobrze, zapytam.” (do rejestru niczego nie dopisze)"
+    - "Gdy postać jest niegrzeczna albo naciska: „Ton, kochaneczko. W cieplarniach rośliny gryzą za mniej.” (zamyka rejestr; dalej się martwi, ale już nic nie sprawdzi)"
+    - "Gdy proszą o przepustkę do Działu Ksiąg Zakazanych: „Do mnie z tym? Ja podpisuję przepustki do cieplarni, i to niechętnie.”"
+    - "Nieprzewidziane (postać proponuje pomoc przy roślinie albo przy liczeniu pierwszoroczniaków): (podaje doniczkę) „Trzymaj od strony korzeni, nie liści.” (roślina gryzie raz, niegroźnie; od tej chwili Sprout traktuje postać jak swoją)"
+    - "Może zdradzić bez warunku: że Puchoni ostatnio „zasypiają” i że martwi się o Maisie Lock."
+    - "Może zdradzić przy pytaniu o Ansela Draya: że nie ma go w rejestrze ani teraz, ani w rocznikach wstecz (W2.2)."
+    - "Nie zdradza: niczego o Marrow (nie pamięta). Ansela nie widzi; ręki w beczce nie zauważy."
+  wariant_od: [flaga.ansel-poza-spisem]
+```
+
+### F. Cassian nocą w dormitorium albo w pokoju wspólnym
+
+Spotkanie F to najpierw obserwacja, a dopiero potem, jeśli gracz chce, kradzież (test `s1.scena.12.test.kradziez-dormitorium`, liczby ustala mechanik). Cassian mówi tylko wtedy, gdy postać się odezwie albo gdy kradzież się nie uda. Nocą jest krótki i zimny, bez swojej dziennej uprzejmości: nie chce nikogo budzić, bo pobudka to pytania. Do chłopca mówi nazwiskiem, do dziewczyny „panno” i nazwisko. Po udanej kradzieży nie mówi nic: śpi, a po zegarek przychodzi w spotkaniu O.
+
+```yaml
+dialog:
+  id: s1.scena.12.dialog.cassian-dormitorium
+  npc: npc.cassian-vane
+  wyzwalacz: "Tekst F (wariant 1 albo 2), gdy postać ze Slytherinu odezwie się do Cassiana szeptem albo gdy próba kradzieży się nie uda (wstawka „Oddech urywa się w pół…”). Tylko po scenie 04."
+  ton: "szept, krótko i zimno; pod spodem zmęczenie, które przy trosce prawie się wylewa"
+  kwestie:
+    - "Otwarcie (postać odzywa się, zamiast kraść): „Śpij. Niczego nie widziałeś.” (do dziewczyny: „Śpij, panno [nazwisko]. Niczego nie widziałaś.”)"
+    - "Wariant 2, w pokoju wspólnym, gdy dziewczyna go budzi: „Panno [nazwisko]. Nie powinnaś tu siedzieć o tej porze.” (pauza) „Ja też nie.”"
+    - "Gdy postać pyta, co liczy: (cisza) „Owce. Mój ojciec mawia, że liczenie uspokaja.” (wsuwa zegarek pod koszulę)"
+    - "Gdy pyta o zegarek: „Pamiątka. Nie chodzi. Nakręcam z przyzwyczajenia.” (dłoń zostaje na kopercie)"
+    - "Gdy postać okazuje szczerą troskę („wyglądasz, jakbyś nie spał od tygodnia”): (długa pauza) „Nie od tygodnia.” (odwraca się do ściany) „Idź spać, [nazwisko]. Jutro.” (dobre wejście do litości w scenie 08)"
+    - "Gdy postać grozi, że powie Wrenowi albo opiekunowi domu: „Powiedz. Zobaczymy, komu uwierzą o drugiej w nocy.” (jeśli zna wspólny sekret z 4. roku albo blefuje: „Ja też mam co opowiadać. O czwartym roku.”)"
+    - "Po nieudanej kradzieży (wstawka „Oddech urywa się w pół…”): „Nie.” (puszcza nadgarstek) „Wracaj do łóżka. Nikt tu nic nie widział. Ani ty, ani ja.” (zegarek pod koszulę; flaga.cassian-czujny; rano przy śniadaniu patrzy na postać i milczy)"
+    - "Gdy budzi się, kiedy postać jest przy kufrze (tylko wariant 1, jeśli mechanik da tu osobny test): (za szybko) „Tam są skarpetki. Chcesz skarpetki?” (zamyka wieko; flaga.cassian-czujny; karta zostaje w podszewce)"
+    - "Gdy postać pyta rano, przy ludziach, o noc: (uprzejmy uśmiech dzienny) „Śniło ci się, [nazwisko]. Nie bierz tego do siebie.”"
+    - "Nieprzewidziane (postać przykrywa go kocem albo dokłada do kominka i odchodzi): (budzi się, patrzy) „Po co?” (nie czeka na odpowiedź; zegarek chowa, ale nie robi się czujny; MG notuje gest na scenę 08)"
+    - "Może zdradzić bez warunku: że nie śpi (widać to i słychać; W4.7)."
+    - "Może zdradzić przy szczerej trosce: „nie od tygodnia” (nie śpi od trzech tygodni; liczby nie poda)."
+    - "Nie zdradza: co liczy (minuty), karty, pracowni, dłoni. Nie budzi dormitorium i nie woła nauczyciela."
+  wariant_od: [flaga.cassian-czujny, flaga.zegarek-cassiana]
+```
+
+### F. Rosalind w pokoju wspólnym (opcjonalnie)
+
+Rosalind pojawia się tylko w wariancie 2 (pokój wspólny, postać to dziewczyna) albo rano po F, gdy postać pyta ją o Cassiana. Przy samej próbie kradzieży jej nie ma, żeby nie mieszać w teście. Kryje Cassiana, ale w połowie chce, żeby ktoś go zatrzymał; otwiera ją tylko szczera troska o niego, nie ciekawość.
+
+```yaml
+dialog:
+  id: s1.scena.12.dialog.rosalind-pokoj-wspolny
+  npc: npc.rosalind-teague
+  wyzwalacz: "Wariant 2 tekstu F, gdy postać odchodzi od fotela Cassiana bez kradzieży; albo rano po F, gdy postać ze Slytherinu pyta Rosalind o Cassiana."
+  ton: "cicho, chłodno, z uniesioną brwią; pauza na końcu zdania"
+  kwestie:
+    - "Otwarcie (z cienia przy schodach do dormitoriów): „Kochanie. Nie budź go. On i tak prawie nie śpi.”"
+    - "Gdy postać okazuje szczerą troskę o Cassiana: „On nie śpi. A rano wygląda, jakby przespał tydzień.” (bawi się spinką) „Nie mów mu, że ci powiedziałam.”"
+    - "Gdy pyta o zegarek: (zerka na fotel) „Nakręca go przy kominku. Zepsuty zegarek. Nie twoja sprawa, ale… ja też bym chciała wiedzieć po co.”"
+    - "Gdy postać jest tylko ciekawa albo węszy: „Cassian jest zmęczony. Wszyscy jesteśmy zmęczeni. Idź spać, kochanie.”"
+    - "Gdy postać grozi Cassianowi donosem: „Spróbuj. Zobaczymy, komu Slughorn uwierzy.” (rano Cassian wie o wszystkim)"
+    - "Gdy postać kłamie: (unosi brew) „Ładnie. Powtórz wolniej, żebym zapamiętała.”"
+    - "Nieprzewidziane (postać pyta o pana Notta albo o szepty przy śniadaniu): „Mówię tylko, co słyszałam. O tej porze nie mówię nawet tego.”"
+    - "Może zdradzić przy szczerej trosce: nocne nakręcanie zegarka przy kominku i to, że Cassian „nie śpi, a jest wyspany”."
+    - "Nie zdradza: niczego obcym, którzy grożą Cassianowi; niczego o ojcu i panu Nocie."
+  wariant_od: []
+```
+
+### G (i A, E, I, J). Ansel jako towarzysz
+
+Ten blok obsługuje jedno towarzyszenie w module (zob. „Ansel w wędrówkach”) oraz chwilę z jedzeniem przy schodach (A), która nie liczy się do limitu. Ansel mówi tylko do postaci, która pierwsza zwróciła się do niego po imieniu; nikt inny go nie słyszy. W każdym spotkaniu jedno, dwa zdania, nic więcej: zwierzęta, beczki i obcy ludzie reagują na niego, a on za to przeprasza. Na pytanie „dlaczego” zawsze ucieka w pytanie o godzinę.
+
+```yaml
+dialog:
+  id: s1.scena.12.dialog.ansel-towarzysz
+  npc: npc.ansel-dray
+  wyzwalacz: "Ansel idzie z postacią, która pierwsza zwróciła się do niego po imieniu (jedno spotkanie: E, G, I albo J), albo postacie przynoszą mu jedzenie do schodów (A)."
+  ton: "cichy, z pauzą przed pytaniem; przeprasza za wszystko, co się wokół niego dzieje"
+  kwestie:
+    - "Otwarcie (gdy postać gdzieś idzie): „Mogę iść z panem? Będę cicho. Ja umiem być cicho.” (do dziewczyny: „z panią”)"
+    - "A, po wstawce z bułeczką: „Dziękuję. Ja nie jestem głodny, naprawdę. Ale to pachnie jak czwartek.” (Więź +1 dla postaci, która przyniosła jedzenie; raz w module)"
+    - "A, gdy ktoś podaje mu bułeczkę do ręki: (ręka przechodzi przez ciasto; patrzy na nią) „Ojej. Przepraszam. Nie chciałem zepsuć.”"
+    - "E, po wstawce z ręką w beczce: (chowa rękę za plecy) „Ja znam rytm. Tylko beczka mnie chyba nie zna.” (W2.3, dowód tylko dla postaci)"
+    - "E, gdy Sprout nie znajduje go w rejestrze: „To nic. Pani profesor Marrow mnie zna.”"
+    - "G, po wstawce z sową: (cofa się na schody) „Przepraszam. Ona się mnie boi.” (pauza) „Mama też pisze. W czwartki.” (o mamie nic więcej)"
+    - "I, gdy pierwszoroczniak pokazuje go palcem: (szeptem) „Ja tylko chciałem zobaczyć, czy nic mu nie jest. On mnie widział? Na chwilę?”"
+    - "J, gdy Maisie blednie: „Ona mnie raz widziała. Na schodach. Uciekła.” (smutno) „Nie chciałem jej straszyć.”"
+    - "Gdy postać pyta, czemu sowa, beczka albo ludzie tak na niego reagują: (pauza) „Przepraszam, która jest godzina?”"
+    - "Gdy postać kłamie mu dla pocieszenia („ona cię widziała, na pewno”): (rozpromienia się) „Naprawdę?” (Więź bez zmian; −1, gdyby kłamstwo wyszło na jaw)"
+    - "Gdy postać chce go zabrać na wieżę astronomiczną albo do Sali Wejściowej, kiedy bije zegar: (wzdryga się) „Ja poczekam tu. Na schodach. Dobrze?”"
+    - "Gdy postać na niego krzyczy albo każe mu odejść: „Przepraszam. Już nie przeszkadzam.” (znika do końca spotkania)"
+    - "Nieprzewidziane (postać próbuje pokazać go komuś na siłę, ciągnie za rękę albo woła: „Patrzcie, tu jest!”): (ręka postaci przechodzi przez zimną mgłę) „Nie trzeba. Oni i tak nie…” (znika w pół zdania; wraca przy schodach)"
+    - "Może zdradzić bez warunku: nic nowego; kolor i W2.3 (ręka w beczce) jako dowód dla postaci."
+    - "Nie mówi nigdy: „umarłem”, „duch”, roku. O mamie najwyżej jedno zdanie."
+  wariant_od: []
 ```
 
 ### H. Filch przy wielkim zegarze
@@ -571,6 +946,86 @@ dialog:
     - "Może zdradzić po sukcesie: że wieża „wymaga więcej uwagi” (W8). Po sukcesie imponującym: imię córki i zdjęcie, zawsze w czasie przeszłym."
     - "Nie zdradza nigdy w Sesji 1: Klepsydry, pieczęci, „klienta z Londynu” ani tego, że córka nie żyje."
   wariant_od: [flaga.crake-poznany]
+```
+
+### I. Pierwszoroczniak na schodach
+
+Chłopiec jest oszołomiony i przestraszony, nie ranny. Strach jest w pytaniu o godzinę, nie w upadku. Kto poda mu godzinę, ten zobaczy, że brakuje mu około czterdziestu minut; kto usiądzie przy nim przed przyjściem prefekta, dostaje jego imię (nadaje MG). To nowy wpis do rejestru godzin (W4.3): dzień, godzina, miejsce. Dopasowanie do sukcesu Cassiana robią gracze. Postać nie ma karty NPC, więc blok jest w ogrodzeniu `text`.
+
+```text
+dialog:
+  id: s1.scena.12.dialog.pierwszoroczniak
+  npc: npc.pierwszoroczniak-schody   # bez karty (pewnosc: nasze); blok w ogrodzeniu text
+  wyzwalacz: "Tekst I, gdy chłopiec się ocknie, a postacie podejdą albo coś do niego powiedzą (zegar kradzieży właśnie doszedł do 2)."
+  ton: "drżący, za szybki, z powtórzeniami; uspokojony robi się cichy i grzeczny"
+  kwestie:
+    - "Otwarcie: „Ja nie spałem. Szedłem na Zielarstwo. Która jest godzina? Proszę, która jest godzina?”"
+    - "Gdy postać podaje godzinę: (liczy na palcach, warga mu drży) „Przecież dopiero wyszedłem z obiadu. Dopiero co był pudding…” (brakuje mu około czterdziestu minut)"
+    - "Gdy postać siada przy nim i uspokaja: „Nie powiecie nikomu, że się przewróciłem? Bracia będą się śmiać.” (pauza) „Jestem [imię]. Pierwszy rok.” (wdzięczne spojrzenie)"
+    - "Gdy pytają, co pamięta: „Wyszedłem z Wielkiej Sali. Schody się kręciły. A potem już siedzę.”"
+    - "Gdy pytają, czy coś widział: „Chłopca. W żółtym krawacie. Mignął i zniknął.” (szeptem) „To ten duch, prawda? Ten z plotek?”"
+    - "Gdy postać zapisuje jego dane: (gorliwie) „Wtorek. Po obiedzie. Tu, na tych schodach. Mam to komuś powiedzieć?” (W4.3; flaga.rejestr-godzin, gdy gracze zestawią to z sukcesem Cassiana)"
+    - "Gdy pytają o Ślizgona z zegarkiem albo kogoś w pobliżu: „Nie wiem. Wszyscy szli. Wszyscy mieli torby.” (nikogo nie wskaże)"
+    - "Gdy ktoś się śmieje albo go pogania: (łzy) „Ja nie spałem!” (zrywa się, chce uciec; łapie go prefekt, wstawka „Przez tłum przepycha się prefekt…”)"
+    - "Prefekt, na zamknięcie, do postaci, która pomogła: „Dzięki. Trzeci w tym tygodniu. Pielęgniarka mówi, że to wrzesień.”"
+    - "Nieprzewidziane (postać daje mu czekoladę albo sama chce odprowadzić go do skrzydła szpitalnego): „Pan mnie zaprowadzi? Naprawdę?” (prefekt się zgadza; postać spóźnia się na swoją lekcję, kolor)"
+    - "Może zdradzić bez warunku: że nie spał, że nie wie, która godzina, i że widział „ducha” w żółtym krawacie."
+    - "Może zdradzić, gdy postacie pytają spokojnie: dzień, porę i miejsce straty, około czterdziestu minut (W4.3)."
+    - "Nie zdradza: niczego o Cassianie (nic nie widział)."
+  wariant_od: []
+```
+
+### J. Gideon Pratt: „Wreszcie ktoś z liczbami”
+
+Pratt i Maisie to dwa bloki, bo każde z nich odpowiada na co innego. Pratt otwiera się na rzeczowość: dane za dane. Maisie otwiera się tylko przed kimś, kto stanie po jej stronie, i przy Pratcie mówi coraz mniej. Dopasowanie dat do sukcesów Cassiana robią gracze, nigdy NPC. Jeśli J gra się po kroku 5 sceny 06, postacie mają już te dane: wtedy z Pratta zostaje tylko kwestia z nowym wpisem.
+
+```yaml
+dialog:
+  id: s1.scena.12.dialog.maisie-pratt
+  npc: npc.gideon-pratt
+  wyzwalacz: "Tekst J, gdy postacie podchodzą do stołu Hufflepuffu albo Pratt sam je zauważa."
+  ton: "rzeczowy, trochę wyniosły, w minutach; urażony, gdy ktoś mu przerwie"
+  kwestie:
+    - "Otwarcie: „Wy też zbieracie przypadki? Świetnie. Wreszcie ktoś z liczbami. Ona twierdzi, że czwartek, ale nie umie powiedzieć, o której.”"
+    - "Gdy postacie pytają rzeczowo albo dają coś w zamian (pomiar, godzinę): (wyjmuje kalendarzyk) „Wtorek, szesnasty. Czternasta dwanaście, korytarz przy lochach Eliksirów. Potem od razu piętnasta jedenaście. Pięćdziesiąt dziewięć minut, nie godzina.”"
+    - "Gdy postacie dzielą się własnym pomiarem dryfu albo straconą godziną: „Proszę mi to podyktować. Dokładnie. Do minuty.” (zapisuje; od tej chwili traktuje postacie jak współpracowników)"
+    - "Gdy pytają o ducha Puchona: „Zjawisko optyczne. Mignięcie na skraju pola widzenia, żółta plama. Zapisałem kolor, nie wnioski.”"
+    - "Gdy pytają, po co mu to: „Piszę do profesora Flitwicka. Anomalia. Jeśli to choroba, chcę wiedzieć, jaka.” (szybko) „To znaczy: choroba kogokolwiek.”"
+    - "Gdy sugerują Cassiana Vane'a: „Vane? Nie mam danych o Vanie.” (zapisuje nazwisko z pytajnikiem; niczego nie dopasowuje)"
+    - "Gdy mówią ogólnikami albo plotkami: „Wróćcie z liczbami.”"
+    - "Gdy postać odsuwa go od Maisie albo każe jej dać spokój: (poprawia okulary, urażony) „Ja tylko zbieram dane. Proszę bardzo.” (przesiada się dwie ławki dalej i dalej notuje)"
+    - "Gdy flaga.rejestr-godzin jest już ustawiona (po kroku 5 sceny 06) i spotkanie I zagrało: „Mam nowy wpis. Pierwszy rok, ruchome schody, wtorek po obiedzie, około czterdziestu minut.”"
+    - "Gdy ktoś z niego kpi: (zamyka kalendarzyk) „Rozumiem. Od tej pory proszę o pytania na piśmie.”"
+    - "Nieprzewidziane (postać rzuca przy nim Tempus albo proponuje eksperyment): „Proszę powtórzyć. Wolniej. Zapisuję.” (kolor)"
+    - "Może zdradzić przy rzeczowym podejściu: swój wtorek 16 września, 14:12–15:11, korytarz Eliksirów, pięćdziesiąt dziewięć minut."
+    - "Nie zdradza: dopasowania do sukcesów Cassiana (nie zrobił go) ani strachu przed chorobą (najwyżej przejęzyczenie)."
+  wariant_od: [flaga.rejestr-godzin]
+```
+
+### J. Maisie Lock: kartka z datą
+
+Maisie mówi wszystko dopiero wtedy, gdy ktoś stanie po jej stronie; przy innych zaprzecza (karta). Kartkę z datą ma już przy sobie, bo sprawdziła ją u profesor Sprout: to ta sama data co w tabeli „Rejestr godzin” w scenie 06.
+
+```yaml
+dialog:
+  id: s1.scena.12.dialog.maisie-kartka
+  npc: npc.maisie-lock
+  wyzwalacz: "Tekst J, gdy postać stanie po stronie Maisie (grzecznie odsunie Pratta albo po prostu usiądzie obok) albo zagada do niej na osobności."
+  ton: "cichy, uparty, z drżeniem; z ulgą, gdy ktoś jej wierzy"
+  kwestie:
+    - "Otwarcie (gdy postać usiądzie obok albo odsunie Pratta): (zerka na zegarek) „Dziękuję. On nie jest zły. Tylko pyta tak, jakbym kłamała.”"
+    - "Gdy postać jej słucha: „Nie spałam. Ja wiem, jak się śpi. To było… jakby ktoś wyciął stronę.”"
+    - "Gdy postać pyta, kiedy to było: (wyjmuje złożoną kartkę z podręcznika) „Sprawdziłam u profesor Sprout. Czwartek, osiemnasty. Sprawdzian, trzecie pytanie. Koło jedenastej. Brakuje mi kwadransa.”"
+    - "Gdy postać mówi, że inni też tracą czas: (oczy jej się szklą) „To nie tylko ja? Naprawdę?”"
+    - "Gdy pytają o ducha Puchona: (ciszej) „Widziałam go. Żółty krawat. Odwróciłam się i nie było. Nie chodzę już tamtymi schodami.”"
+    - "Gdy Ansel jest przy postaci (wstawka „Dziewczynka podnosi wzrok…”), potem do postaci: „Wy też go widzicie, prawda?” (szybko) „Nie mówcie, jeśli nie.”"
+    - "Gdy pytają głośno, przy innych albo przy Pratcie: (spuszcza wzrok) „Nic się nie stało. Zasnęłam, i tyle.”"
+    - "Gdy pytają o Cassiana albo „wysokiego Ślizgona”: „Nie znam go. Ślizgoni nie siadają przy nas.” (niczego nie łączy)"
+    - "Gdy ktoś żartuje z niej albo ją zbywa: „Wiedziałam.” (zbiera książki i odchodzi; koleżanki patrzą na postacie krzywo)"
+    - "Nieprzewidziane (postać proponuje pomoc przy poprawie sprawdzianu albo odprowadzenie omijając „tamte schody”): (pierwszy raz się uśmiecha) „Naprawdę?” (od tej chwili macha postaci na korytarzu; kolor)"
+    - "Może zdradzić na osobności albo gdy postać stanie po jej stronie: kartkę z datą (czwartek 18 września, sprawdzian, trzecie pytanie, około jedenastej, kwadrans) i opis „ducha”."
+    - "Nie zdradza: niczego przy innych (zaprzecza)."
+  wariant_od: []
 ```
 
 ### K. Pani Pince i rejestr wypożyczeń
@@ -709,6 +1164,25 @@ dialog:
     - "Może zdradzić, gdy postać pyta o panią profesor: powiedzonko o szafce, która „najpierw chce dostać” (W7.3)."
     - "Nie mówi nigdy: „umarłem”, „duch”, roku. O mamie najwyżej jedno zdanie."
   wariant_od: [flaga.ansel-kontakt, flaga.sekret-poruszony]
+```
+
+### O. Cassian po zegarek (odsyłacz do sceny 08)
+
+To nie osobna rozmowa. Spotkanie O tylko doprowadza Cassiana do postaci; cała rozmowa jest w bloku `s1.scena.08.dialog.cassian-oddajcie` (wejście 1c sceny 08), a dalej w targu albo litości. Tu są wyłącznie kwestie, które należą do wędrówki: szept przy ludziach, znalezienie postaci, które się chowają, i zegarek podrzucony bez słowa.
+
+```yaml
+dialog:
+  id: s1.scena.12.dialog.cassian-po-zegarek
+  npc: npc.cassian-vane
+  wyzwalacz: "Tekst O, ten sam wieczór albo nazajutrz po kradzieży (flaga.zegarek-cassiana = u-graczy). Po otwarciu przejdź od razu do tekstu 1c i bloku s1.scena.08.dialog.cassian-oddajcie."
+  ton: "jak w scenie 08: cichy, zdyszany; przy świadkach na siłę uprzejmy"
+  kwestie:
+    - "Otwarcie (to samo co w scenie 08): „Oddajcie.” (prostuje się) „Proszę. To rodzinna pamiątka.” (dalej blok s1.scena.08.dialog.cassian-oddajcie)"
+    - "Przy ludziach (przy stole, w pokoju wspólnym, na korytarzu w przerwie), zamiast otwarcia: (szeptem, z uśmiechem dla świadków) „Na zewnątrz. Pięć minut. Proszę.”"
+    - "Gdy postacie się chowały, a on znajduje je przy posiłku: (siada naprzeciwko, nie je) „Słyszę go stąd. Skończcie jeść. Poczekam.”"
+    - "Nieprzewidziane (postacie podrzucają mu zegarek bez słowa albo zostawiają go u kogoś dla niego): (przychodzi i tak, z zegarkiem w dłoniach) „Dlaczego?” (to wejście do litości w scenie 08, jak przy oddaniu bez warunku)"
+    - "Może zdradzić i nie zdradza: jak w bloku s1.scena.08.dialog.cassian-oddajcie."
+  wariant_od: [flaga.zegarek-cassiana]
 ```
 
 ### P. Wren w pustej sali Obrony

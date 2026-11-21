@@ -7,7 +7,7 @@ lokalizacja: "Londyn, ulica Pokątna, wąska kamienica w bocznej części ulicy"
 pewnosc: nasze
 # Pliki scen jeszcze nie istnieją (walidator wymaga istniejących identyfikatorów).
 # Docelowo: s1.scena.11 (witryna, pogawędka), s1.scena.10 (epilog: Crake w warsztacie słyszy trzynasty raz)
-sceny: [s1.scena.10]
+sceny: [s1.scena.10, s1.scena.11]
 tylko_mg: true
 tagi: [s1, s2, pokatna, crake, zegarmistrz, witryna, ziarno-s2]
 zrodla:

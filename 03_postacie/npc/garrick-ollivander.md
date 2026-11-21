@@ -10,7 +10,7 @@ rocznik_1969: "dorosły, wytwórca różdżek"
 kanon: true
 pewnosc: kanon
 # Docelowo: s1.scena.11 (prolog, opcjonalny)
-sceny: []
+sceny: [s1.scena.11]
 tylko_mg: true
 tagi: [s1, prolog, pokatna, rozdzki, kanon]
 zrodla:
