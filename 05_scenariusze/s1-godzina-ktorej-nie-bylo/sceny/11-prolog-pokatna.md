@@ -324,7 +324,7 @@ rozgalezienie:
   wymaga_flag: []
   wyklucza_flagi: []
   efekt: "Prolog przejmuje naukę gry. Scena 01 idzie w wariancie skróconym (10 minut), bez Crake'a przy zegarze, jeśli poznano go tutaj."
-  flagi_ustaw: [flaga.s1-prolog-pokatna, flaga.plotka-o-voldemorcie]
+  flagi_ustaw: [flaga.s1-prolog-pokatna]  # flaga.plotka-o-voldemorcie dopiero gdy padł szept w kolejce (zob. Konsekwencje)
   prowadzi_do: s1.scena.01
 ```
 
@@ -354,10 +354,127 @@ rozgalezienie:
   prowadzi_do: s1.scena.01
 ```
 
+*Zasada wspólna dla wszystkich zboczeń: Pokątna jest tłoczna i ciasna, więc „powrót” to zwykle tłum, sprzedawca albo rodzic, nie MG mówiący „nie”. Skutki wyborów graczy zostają (kupiony przedmiot, urażony dorosły), zmienia się tylko to, co stoi po drodze. Każde zboczenie bierze 1–3 minuty. Żadne nie ustawia flag poza tymi z kroków 4–6.*
+
+```yaml
+rozgalezienie:
+  id: s1.scena.11.rozgalezienie.awaryjne-absurdalny-zakup
+  rodzaj: awaryjne
+  warunek: "Gracz chce kupić coś absurdalnego albo niedostępnego (smoczy kieł, sowę wielkości konia, fiolkę eliksiru miłosnego, zegar z witryny Crake'a, dwie różdżki)."
+  wymaga_flag: []
+  wyklucza_flagi: []
+  efekt: "Sprzedawca odpowiada serio i z humorem: towar jest za drogi, tylko dla pełnoletnich albo właśnie się skończył. Gracz może kupić tańszą, śmieszną wersję (kociołek z jedną nóżką, sowi przysmak w smaku zielonej mięty). Kwota to kolor, nie zasób: prolog nie liczy galeonów. Jeśli gracz celuje w coś zakazanego dla niepełnoletnich, dorosły w kolejce lub sprzedawca kręci głową i zagaduje o listę zakupów. Zegar od Crake'a: zob. dialog crake-witryna, „Nieprzewidziane” (na zegarek po pierwszej pensji). Po zakupie MG podsuwa następny krok: tłum niesie postacie dalej."
+  flagi_ustaw: []
+  prowadzi_do: s1.scena.01
+```
+
+```yaml
+rozgalezienie:
+  id: s1.scena.11.rozgalezienie.awaryjne-ollivander-czarny-pan
+  rodzaj: awaryjne
+  warunek: "Gracze zaczepiają Ollivandera o Czarnego Pana, wojnę albo „co słychać w świecie”."
+  wymaga_flag: []
+  wyklucza_flagi: []
+  efekt: "Ollivander odpowiada kwestią z dialogu ollivander-rozdzka („Słyszę wiele rzeczy. Mówię tylko o różdżkach”) i zwalnia jeszcze bardziej. Nie potwierdza i nie zaprzecza niczego, nie ma sekretu. Gdy gracz naciska, zadaje pytanie o różdżkę („A jak się ma pańska? Proszę mi ją pokazać jeszcze raz”) i wraca do doboru. Plotka nie pada z jego ust, więc nie ustawia się flaga plotki. Gdy temat trzeba domknąć: z zewnątrz dzwoni dzwonek drzwi, wchodzi następny klient, a postacie wychodzą na ulicę. Szept w księgarni (krok 5) jest wtedy jedynym źródłem plotki."
+  flagi_ustaw: []
+  prowadzi_do: s1.scena.01
+```
+
+```yaml
+rozgalezienie:
+  id: s1.scena.11.rozgalezienie.awaryjne-klotnia-o-plotke
+  rodzaj: awaryjne
+  warunek: "Po szepcie w kolejce gracze kłócą się o to, czy plotka jest prawdziwa, albo chcą dopytywać obcych dorosłych."
+  wymaga_flag: [flaga.plotka-o-voldemorcie]
+  wyklucza_flagi: []
+  efekt: "MG pozwala na dwie–trzy wymiany zdań między postaciami: to dobra zabawa i świetny kolor, a spór niczego nie rozstrzyga. Obcy dorośli milkną i wychodzą z kolejki (dialog szept-w-kolejce, „Gdy postać pyta ich wprost”). Potem sprzedawca z drabiny woła „Następny, proszę!”, a lada z paczkami wymusza ruch. Żaden NPC nie potwierdza plotki. Jeśli ktoś upiera się przy zdecydowanym stanowisku („to prawda”, „to bujda”), zapisz je jako kolor do sceny 01: Tobias i tak powie „Słyszeliście już, co?”."
+  flagi_ustaw: []
+  prowadzi_do: s1.scena.01
+```
+
+```yaml
+rozgalezienie:
+  id: s1.scena.11.rozgalezienie.awaryjne-szukaja-zegarmistrza
+  rodzaj: awaryjne
+  warunek: "Gracze od razu chcą szukać zegarmistrza (np. postać wie coś z własnego tła albo MG wcześniej zasygnalizował zegary)."
+  wymaga_flag: []
+  wyklucza_flagi: []
+  efekt: "Nie ma żadnej przeszkody: witryna jest tuż za zakrętem. MG przeskakuje do kroku 4 i czyta tekst 3. Test pogawędki rozgrywa się normalnie. Nie dodajemy nic ponad prolog: Crake w Sesji 1 nie zdradza niczego o Klepsydrze. Jeśli gracze liczyli na „tajemnicę zegarmistrza”, mają miłego starszego pana i kolor. Reszta prologu (Ollivander, szept) może iść po rozmowie."
+  flagi_ustaw: [flaga.crake-poznany]
+  prowadzi_do: s1.scena.01
+```
+
+```yaml
+rozgalezienie:
+  id: s1.scena.11.rozgalezienie.awaryjne-dziurawy-kociol
+  rodzaj: awaryjne
+  warunek: "Postacie wracają do Dziurawego Kotła (po napój, odpocząć, zapytać Toma o cokolwiek)."
+  wymaga_flag: []
+  wyklucza_flagi: []
+  efekt: "Dziurawy Kocioł jest ciemny, ciepły i pełen ludzi po zakupach. Barman (tło bez karty, nie Tom z kanonu) nalewa kremowe piwo albo sok dyniowy i mówi to samo co wszyscy: upał, tłok, książki za drogie. Dwie krótkie wymiany z dorosłymi przy stołach to czysty kolor. Jeśli gracze liczą na plotkę, dwóch czarodziejów przy barze milknie, gdy ktoś wymawia „Voldemort”, i zamawia następną kolejkę: to ten sam szept co w księgarni, tylko cichszy. Nie ustawiaj plotki tutaj. Po drodze wyjścia tłum znowu niesie ich w stronę zakrętu ulicy."
+  flagi_ustaw: []
+  prowadzi_do: s1.scena.01
+```
+
+```yaml
+rozgalezienie:
+  id: s1.scena.11.rozgalezienie.awaryjne-ignoruja-witryne
+  rodzaj: awaryjne
+  warunek: "Postacie mijają witrynę „Crake i Córka” albo świadomie jej unikają."
+  wymaga_flag: []
+  wyklucza_flagi: [flaga.crake-poznany]
+  efekt: "Witryna nie jest bramką. Jeśli tłum jest gęsty, spycha postacie pod szybę albo czyjaś lista zakupów odfruwa pod drzwi Crake'a (wzór w kroku 4). Wystarczy jedno zdanie i jedna szansa: tekst 3 i wstawka „Crake na progu”. Jeśli mimo to postacie idą dalej, nie ustawiaj `flaga.crake-poznany`: Crake pojawi się w scenie 01 (pogawędka przy zegarze) albo w scenie 07. Nie dociskaj i nie powtarzaj próby: tekst 5 sam przypomni zegary z zakrętu. Nic nie jest stracone."
+  flagi_ustaw: []
+  prowadzi_do: s1.scena.01
+```
+
+```yaml
+rozgalezienie:
+  id: s1.scena.11.rozgalezienie.awaryjne-niegrzeczny-wobec-crakea
+  rodzaj: awaryjne
+  warunek: "Postać odgrywa niegrzeczność, szyderstwo albo groźbę wobec Crake'a (kopie w szybę, drwi z zegarów, żąda, żeby się usunął)."
+  wymaga_flag: []
+  wyklucza_flagi: []
+  efekt: "Crake uprzejmie się wycofuje i zamyka drzwi (dialog crake-witryna, „Gdy postać jest niegrzeczna albo grozi”); zapamiętuje twarz. Testu nie ma i `flaga.crake-poznany` nie zostaje ustawiona, bo żadnej rozmowy nie było. To skutek wyboru gracza: nikt go nie cofa ani nie karze. W scenie 01 albo 07 Crake jest wobec tej postaci chłodniej uprzejmy (jedno zdanie), a pozostałe postacie nadal mogą z nim porozmawiać. Pozostali gracze mogą zadośćuczynić (przeprosić, podać szmatkę) i wtedy MG pozwala na jedną krótką pogawędkę z testem bez udziału niegrzecznej postaci. Dalej szept w kolejce albo koniec dnia."
+  flagi_ustaw: []
+  prowadzi_do: s1.scena.01
+```
+
 ## Drabinka podpowiedzi
 
-TODO.
+*Dwa cele prologu: (1) test nauczający przy witrynie Crake'a, (2) szept w kolejce. Oba są opcjonalne i niczego nie blokują, więc drabinka jest krótka i bez nacisku. Zasada trzech dróg: do witryny i do plotki prowadzą po trzy niezależne drogi, wymienione niżej. Mają wyglądać jak świat, nie jak MG prowadzący za rączkę.*
+
+**Trzy drogi do witryny Crake'a:**
+1. Tłum i zakręt ulicy: spycha postacie pod szybę (tekst 3).
+2. Przedmiot: czyjaś lista zakupów albo piórko odfruwa pod próg zegarmistrza, a Crake podaje ją z uśmiechem.
+3. Dźwięk: wszystkie zegary wybijają pełną godzinę razem (np. dwunastą albo trzecią), co przyciąga uwagę postaci w pobliżu (zob. tekst 5, powtórka w ciągu dnia).
+
+**Trzy drogi do plotki:**
+1. Kolejka do Esów i Floresów (tekst 4): szept pary dorosłych.
+2. Gazeciarz na skrzynce: krzyczy o marszach, a przechodnie przyspieszają kroku. Wystarczy kupić gazetę albo zapytać.
+3. Dziurawy Kocioł albo ławka przy lodziarni: dwóch czarodziejów rozmawia ciszej niż reszta (to samo wrażenie, bez nowej treści).
+
+```yaml
+podpowiedzi:
+  id: s1.scena.11.podpowiedzi
+  szturchniecie: "Witryna: tekst 3 przy zakręcie, zegary w szybie tykają naraz, a gdy postacie stoją choćby chwilę, Crake wychodzi na próg (wstawka „Crake na progu”). Plotka: w kolejce kobieta przestaje się wachlować. Nic więcej nie trzeba; to ciekawość, nie zadanie."
+  wieksza: "Witryna: tłum albo zawiany podmuch spycha postacie pod szybę (albo czyjaś lista zakupów odfruwa pod próg), a Crake sam zagaduje („Podobają się, młodzi?”) i wywołuje test. Plotka: gazeciarz krzyczy o marszach tuż obok, a mężczyzna w kolejce pochyla się nad kobietą i szepcze wystarczająco głośno, by postać z tyłu coś usłyszała."
+  bezposrednia: "Witryna: MG mówi poza fikcją: „Za zakrętem jest sklep z zegarami, który zagra tu jeszcze jedną krótką scenę. Chcecie zajrzeć?” i prowadzi test. Jeśli nie chcą, scena 11 się kończy bez flagi `flaga.crake-poznany`, a Crake jest w scenie 01 albo 07. Plotka: dorosły w kolejce mówi głośniej niż zamierzał („Voldemort”); pomija się tu ostatnie zdanie, jeśli ustalono zasłonę. Jeśli plotki w prologu nie było, zostaje ona do sceny 01: Tobias mówi o niej w wariancie skróconym i ustawia `flaga.plotka-o-voldemorcie`."
+```
 
 ## Konsekwencje
 
-TODO. Zapisz: `flaga.s1-prolog-pokatna`, `flaga.crake-poznany`, `flaga.crake-dluga-rozmowa`, `flaga.plotka-o-voldemorcie`; kto ma nową różdżkę.
+**Zapisz po prologu (tylko to, co się naprawdę wydarzyło):**
+
+| Flaga | Kiedy ustawić | Efekt w grze |
+|---|---|---|
+| `flaga.s1-prolog-pokatna` | Zawsze, gdy prolog został rozegrany (nawet w wersji skróconej) | Scena 01 idzie w wariancie skróconym (10 minut), bez testu przy stole ani długiej rozmowy z Tobiasem. |
+| `flaga.crake-poznany` | Dowolny wynik testu pogawędki (także porażka kompromitująca). Nie ustawiać, gdy postacie ominęły witrynę albo Crake wycofał się po niegrzeczności. | W scenie 01 Crake nie stoi przy zegarze (pogawędka nie wraca, krok 9 opuszczony); w scenie 07 postacie znają go z Pokątnej. |
+| `flaga.crake-dluga-rozmowa` | Tylko sukces imponujący (wynik 18 lub więcej): zdjęcie w kopercie zegarka i imię Nory | Ziarno W8 (Crake związany z zegarami zamku) i na Sesję 2; w scenie 07 Crake wspomina ją w tonie przeszłym, jeśli rozmowa wejdzie na tę drogę. |
+| `flaga.plotka-o-voldemorcie` | Gdy postacie usłyszały szept w kolejce (przy zasłonie: wersja bez nazwisk, flaga i tak) | Scena 01: Tobias mówi „Słyszeliście już, co? No to wiecie. Bajki. Wróćmy do ducha.” Sesja 2: więcej wzmianek. Jeśli szeptu nie było, flagę ustawia scena 01 (Tobias). |
+
+**Nowa różdżka.** Tylko postać, która poszła do Ollivandera (złamana, odziedziczona albo „nie słucha”), ma po prologu nową różdżkę: drewno, rdzeń i długość ustala MG z kartą postaci (rdzenie Ollivandera: Walker 2e s. 26). Różdżka nie daje modyfikatora do testów. W scenie 01 i dalej opis postaci mówi „nowa od Ollivandera” (wspomnienie: siedem galeonów, trzecia próba). Postać, której różdżka „nie słuchała”, pamięta zdanie „nie w porę” jako kolor, bez wskazówki. Dla pozostałych postaci nic się nie zmienia.
+
+**Co zmienia się w scenie 01.** Wariant skrócony (10 minut): otwarcie tekstem 2 („Pokątna to już tylko wspomnienie…”), brak testu przy stole, Tobias najwyżej minutę, Crake bez drabiny, jeśli `flaga.crake-poznany`. Odbicie w szkle zegara i dzwon spóźniony zostają bez zmian (to skutki trzech tygodni po prologu, nie samego prologu).
+
+**Gdy prologu nie grano.** Nic nie ginie: scena 01 w pełnym wariancie, Crake z drabiną przy wielkim zegarze (jeśli nie ma `flaga.crake-poznany`), plotka z ust Tobiasa, nowa różdżka „od Ollivandera” tylko w opisie postaci. Flagi z prologu zostają nieustawione.

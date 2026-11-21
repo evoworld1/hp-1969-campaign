@@ -7,7 +7,7 @@ lokalizacja: "Londyn, za murem na podwórzu Dziurawego Kotła przy Charing Cross
 pewnosc: niepewne
 # Pliki scen jeszcze nie istnieją (walidator wymaga istniejących identyfikatorów).
 # Docelowo: s1.scena.11 (opcjonalny prolog)
-sceny: []
+sceny: [s1.scena.11]
 tylko_mg: true
 tagi: [s1, prolog, pokatna, londyn, ollivander, crake, plotka, opcjonalne]
 zrodla:
