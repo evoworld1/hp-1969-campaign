@@ -177,3 +177,23 @@ dl{margin:.2rem 0}dt{font-weight:700;font-size:.85rem;color:var(--cichy)}dd{marg
 .sciaga table{font-size:7.2pt}
 @media print{.karta{padding:0}}
 .sciaga h2{break-after:avoid-column}
+/* księga zaklęć */
+.ksiega{max-width:900px;margin:2vh auto;padding:0 16px}
+.ksiega-f{display:flex;flex-wrap:wrap;gap:.5rem;align-items:center;margin:.6rem 0 1rem;position:sticky;top:3rem;background:var(--bg);padding:.4rem 0;z-index:5}
+.ksiega-f input[type=search]{flex:1 1 260px;font-size:1.05rem;padding:.5rem .7rem;border:1px solid var(--linia);border-radius:8px;background:var(--panel);color:var(--tekst)}
+.ksiega-f select{padding:.45rem;border:1px solid var(--linia);border-radius:8px;background:var(--panel);color:var(--tekst)}
+.ks-poz{background:var(--panel);border:1px solid var(--linia);border-radius:10px;margin:.35rem 0;padding:.45rem .8rem}
+.ks-poz[open]{border-color:var(--akcent)}
+.ks-poz summary{cursor:pointer;display:flex;flex-wrap:wrap;gap:.2rem .5rem;align-items:baseline}
+.ks-poz summary small{color:var(--cichy)}
+.ks-tr{margin-left:auto;font-weight:700;color:var(--akcent);min-width:2ch;text-align:right}
+.ks-ef{flex-basis:100%;color:var(--cichy);font-size:.9rem}
+.znacz{font-size:.75rem;background:var(--akcent);color:var(--akcent-t);border-radius:6px;padding:0 .4rem}
+.zkarta h3{margin:.4rem 0 .2rem}.zkarta h3 small{font-weight:400;color:var(--cichy)}
+.zkarta-meta{display:flex;flex-wrap:wrap;gap:.3rem;font-size:.85rem}
+.zkarta-meta span{background:var(--kod);border-radius:6px;padding:.05rem .45rem}
+.zkarta-efekt{font-weight:700;margin:.5rem 0 .2rem}
+.zkarta-t{width:100%;border-collapse:collapse;font-size:.92rem}
+.zkarta-t th{text-align:left;vertical-align:top;width:9.5rem;color:var(--cichy);font-weight:400;padding:.25rem .4rem .25rem 0;border-top:1px solid var(--linia)}
+.zkarta-t td{padding:.25rem 0;border-top:1px solid var(--linia)}
+@media (max-width:600px){.zkarta-t th{width:6.5rem}}

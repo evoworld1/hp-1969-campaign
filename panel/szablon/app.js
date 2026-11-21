@@ -89,6 +89,7 @@ function trasa() {
   if (cz === "postacie") return postacie();
   if (cz === "postac") return karta(h[1]);
   if (cz === "zasady") return zasady();
+  if (cz === "ksiega") return window.renderKsiega(app, { szukaj: h[1] || "" });
   if (cz === "sciaga") return window.renderSciaga(app);
   if (cz === "kreator") return window.kreator ? window.kreator(app, D) : (app.innerHTML = "<p>Kreator niedostępny.</p>");
   if (cz === "dok") { ekranStart(); return dokument(h[1]); }
@@ -111,7 +112,7 @@ function ekranStart() {
     '<label><input type="checkbox" id="bez-prologu"> Zacznij od sceny 01 (bez prologu na Pokątnej)</label>' +
     '<div class="rzad"><a class="kafel" href="#/postacie"><strong>Postacie graczy</strong><small>karty do wydruku</small></a>' +
     '<a class="kafel" href="#/sciaga"><strong>Ściąga dla graczy</strong><small>jak czytać kartę, do PDF</small></a><a class="kafel" href="#/kreator"><strong>Tworzenie postaci</strong><small>szybka i pełna ścieżka</small></a>' +
-    '<a class="kafel" href="#/zasady"><strong>Zasady i kanon</strong><small>przeglądanie i szukanie</small></a>' +
+    '<a class="kafel" href="#/ksiega"><strong>Księga zaklęć</strong><small>opisy, trudności, czas trwania</small></a><a class="kafel" href="#/zasady"><strong>Zasady i kanon</strong><small>przeglądanie i szukanie</small></a>' +
     '<a class="kafel" href="#/wedrowki"><strong>Wędrówki po zamku</strong><small>spotkania A–P</small></a></div>' +
     '<h3 style="text-align:left;margin-top:2rem">Wszystkie sceny</h3><div class="siatka">' + kafle + "</div></div>";
   $("#rozpocznij").onclick = function () {
@@ -240,7 +241,7 @@ function wedrowki() {
 
 /* ---------- menu, flagi, szukaj ---------- */
 function menu() {
-  var h = "<p><a href='#/'><button>Ekran startowy</button></a> <a href='#/postacie'><button>Postacie graczy</button></a> <a href='#/kreator'><button>Tworzenie postaci</button></a> <a href='#/zasady'><button>Zasady i kanon</button></a> <a href='#/wedrowki'><button>Wędrówki po zamku</button></a></p>";
+  var h = "<p><a href='#/'><button>Ekran startowy</button></a> <a href='#/postacie'><button>Postacie graczy</button></a> <a href='#/kreator'><button>Tworzenie postaci</button></a> <a href='#/ksiega'><button>Księga zaklęć</button></a> <a href='#/zasady'><button>Zasady i kanon</button></a> <a href='#/wedrowki'><button>Wędrówki po zamku</button></a></p>";
   h += "<h4>Sceny</h4><div class='siatka'>" + GLOWNE.map(function (s) {
     return '<a class="kafel" href="#/scena/' + s.id + '/0"><strong>' + (numerSceny(s) === "11" ? "Prolog" : "Scena " + numerSceny(s)) + "</strong><br>" + esc(s.tytul.replace(/^Prolog:\s*/, "")) + "</a>";
   }).join("") + "</div>";
@@ -296,8 +297,14 @@ function zbudujIndeks() {
     });
   });
 }
+function dodajZaklecia() {
+  (D.ksiega || []).forEach(function (z, i) {
+    INDEKS.push({ typ: z.typ === "Potion" ? "eliksir" : "zaklęcie", tytul: z.nazwa + (z.nazwa_pl ? " (" + z.nazwa_pl + ")" : ""), tekst: z.nazwa + " " + (z.nazwa_pl || "") + " " + z.nazwa + " " + (z.efekt || "") + " " + (z.opis || "") + " " + (z.w_walce || ""), hash: "#/ksiega", zakl: i });
+  });
+}
+function pokazZaklecie(z) { otworz(z.nazwa, window.kartaZaklecia(z, '<p><a href="#/ksiega/' + encodeURIComponent(z.nazwa) + '"><button>Otwórz w Księdze zaklęć</button></a></p>')); }
 function szukaj() {
-  if (!INDEKS) zbudujIndeks();
+  if (!INDEKS) { zbudujIndeks(); dodajZaklecia(); }
   otworz("Szukaj", '<input id="szuk-wejscie" placeholder="np. Stupefy, pojedynek, Cassian, trudność, Drained…" autofocus><div id="szuk-wyniki"></div>');
   var we = $("#szuk-wejscie"); we.focus();
   we.oninput = function () {
@@ -313,11 +320,11 @@ function szukaj() {
     });
     out.sort(function (a, b) { return b.pkt - a.pkt; });
     $("#szuk-wyniki").innerHTML = (out.length ? "" : "<p class='puste'>Brak wyników.</p>") + out.slice(0, 40).map(function (o) {
-      var dok = o.e.dok ? ' data-dok="' + o.e.dok + '"' : "";
+      var dok = o.e.dok ? ' data-dok="' + o.e.dok + '"' : o.e.zakl != null ? ' data-zakl="' + o.e.zakl + '"' : "";
       return '<a class="wynik" href="' + o.e.hash + '"' + dok + '><span class="typ">' + esc(o.e.typ) + "</span> <strong>" + esc(o.e.tytul) + "</strong><small>…" + esc(o.fr) + "…</small></a>";
     }).join("");
     $("#szuk-wyniki").querySelectorAll("a").forEach(function (a) {
-      a.onclick = function (ev) { var d = a.getAttribute("data-dok"); if (d) { ev.preventDefault(); dokument(d); } else zamknij(); };
+      a.onclick = function (ev) { var d = a.getAttribute("data-dok"), zk = a.getAttribute("data-zakl"); if (d) { ev.preventDefault(); dokument(d); } else if (zk != null) { ev.preventDefault(); pokazZaklecie(D.ksiega[+zk]); } else zamknij(); };
     });
   };
 }

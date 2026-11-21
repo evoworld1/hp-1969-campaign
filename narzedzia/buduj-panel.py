@@ -489,6 +489,16 @@ def streszczenie_tekstu(tekst):
     return re.sub(r"\s+", " ", t).strip()
 
 
+def wczytaj_ksiege():
+    """Księga zaklęć i eliksirów po polsku (02_zasady/walker/ksiega-zaklec.yaml)."""
+    p = KORZEN / "02_zasady" / "walker" / "ksiega-zaklec.yaml"
+    if not p.exists():
+        OSTRZEZENIA.append("brak 02_zasady/walker/ksiega-zaklec.yaml: księga zaklęć będzie pusta")
+        return []
+    d = yaml.safe_load(p.read_text(encoding="utf-8")) or {}
+    return d.get("zaklecia", d) if isinstance(d, dict) else d
+
+
 def main():
     wczytaj_dokumenty()
     sceny = []
@@ -528,6 +538,7 @@ def main():
     dane = {
         "sceny": sceny, "flagi": flagi, "dokumenty": dok, "postacie": postacie,
         "dzien": "Hogwart, jesień 1969",
+        "ksiega": wczytaj_ksiege(),
     }
     haslo = os.environ.get("PANEL_HASLO", "").strip()
     dane["haslo_sha256"] = hashlib.sha256(haslo.encode("utf-8")).hexdigest() if haslo else ""

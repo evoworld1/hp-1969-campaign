@@ -26,7 +26,7 @@ from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 KORZEN = Path(__file__).resolve().parent.parent
 GRACZE = KORZEN / "03_postacie" / "gracze"
 SZABLON = KORZEN / "panel-gracze" / "szablon"
-WSPOLNE = [KORZEN / "panel" / "szablon" / n for n in ("style.css", "karta.js", "sciaga.js")]
+WSPOLNE = [KORZEN / "panel" / "szablon" / n for n in ("style.css", "karta.js", "sciaga.js", "ksiega.js")]
 WYJSCIE = KORZEN / "panel-gracze" / "dist"
 ITERACJE = 200_000
 # pola tylko dla MG: nigdy nie trafiają na stronę graczy
@@ -87,6 +87,16 @@ def wczytaj_zaklecia():
     return wynik
 
 
+def wczytaj_ksiege():
+    """Księga zaklęć i eliksirów po polsku; to dane z podręcznika, nie z kampanii, więc idą jawnie."""
+    p = KORZEN / "02_zasady" / "walker" / "ksiega-zaklec.yaml"
+    if not p.exists():
+        print("OSTRZEŻENIE: brak ksiega-zaklec.yaml, księga zaklęć będzie pusta")
+        return []
+    d = yaml.safe_load(p.read_text(encoding="utf-8")) or {}
+    return d.get("zaklecia", d) if isinstance(d, dict) else d
+
+
 def main():
     losuj = "--losuj" in sys.argv
     postacie = {}
@@ -134,7 +144,7 @@ def main():
         (WYJSCIE / "pdf").mkdir()
         shutil.copy(sciaga, WYJSCIE / "pdf" / sciaga.name)
     (WYJSCIE / "dane.js").write_text(
-        "window.DANE = " + json.dumps({"postacie": {"_slownik": slownik}, "zaklecia": wczytaj_zaklecia()}, ensure_ascii=False) + ";\n"
+        "window.DANE = " + json.dumps({"postacie": {"_slownik": slownik}, "zaklecia": wczytaj_zaklecia(), "ksiega": wczytaj_ksiege()}, ensure_ascii=False) + ";\n"
         "window.KARTY = " + json.dumps(karty, ensure_ascii=False) + ";\n", encoding="utf-8")
     print(f"Panel graczy zbudowany: {WYJSCIE} (karty: {len(karty)})")
     if losuj:

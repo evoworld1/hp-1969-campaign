@@ -56,14 +56,14 @@ function odszyfruj(slug, pin) {
 /* ---------- widok ---------- */
 function kara() { var a = KARA[ST.body], b = KARA[ST.mind]; if (a === "X" || b === "X") return "X"; return a + b; }
 function widok() {
-  var zk = [["karta", "Karta"], ["zaklecia", "Zaklęcia"], ["zdrowie", "Zdrowie i punkty"], ["kalk", "Kalkulator"], ["notatki", "Ekwipunek i notatki"], ["sciaga", "Ściąga"], ["druk", "Do druku"]];
+  var zk = [["karta", "Karta"], ["zaklecia", "Zaklęcia"], ["zdrowie", "Zdrowie i punkty"], ["ksiega", "Księga zaklęć"], ["kalk", "Kalkulator"], ["notatki", "Ekwipunek i notatki"], ["sciaga", "Ściąga"], ["druk", "Do druku"]];
   var k = kara();
   app.innerHTML = '<div class="gpasek"><h1>' + esc(P.imie) + ' <small class="puste">' + esc(P.dom) + '</small></h1><div><span class="flaga">Story Points: ' + ST.sp + '</span> <span class="flaga">Kara zdrowia: ' + (k === 0 ? "brak" : (k === "X" ? "brak akcji" : "+" + k)) + '</span> <button id="wyjdz">Wyloguj</button></div></div>' +
     '<div class="gz">' + zk.map(function (z) { return '<button data-z="' + z[0] + '" class="' + (z[0] === zakladka ? "aktywna" : "") + '">' + z[1] + "</button>"; }).join("") + '</div><div id="tresc"></div>';
   app.querySelectorAll(".gz button").forEach(function (b) { b.onclick = function () { zakladka = b.getAttribute("data-z"); widok(); window.scrollTo(0, 0); }; });
   document.getElementById("wyjdz").onclick = function () { try { sessionStorage.removeItem("hp69g-sesja"); } catch (e) {} P = null; login(); };
   var t = document.getElementById("tresc");
-  ({ karta: tKarta, zaklecia: tZaklecia, zdrowie: tZdrowie, kalk: tKalk, notatki: tNotatki, sciaga: tSciaga, druk: tDruk })[zakladka](t);
+  ({ karta: tKarta, zaklecia: tZaklecia, ksiega: tKsiega, zdrowie: tZdrowie, kalk: tKalk, notatki: tNotatki, sciaga: tSciaga, druk: tDruk })[zakladka](t);
 }
 function otworzKalk(w) { kalkWstep = w; zakladka = "kalk"; widok(); window.scrollTo(0, 0); }
 
@@ -91,18 +91,25 @@ function premiaPL(s) {
 function tZaklecia(t) {
   var zz = P.zaklecia || {}, sl = SL.zaklecia || {};
   var G = [["wspolny", "Pakiet wspólny"], ["archetyp", "Pakiet typu postaci"], ["wybor", "Do wyboru"], ["zaawansowane", "Magia zaawansowana i eliksiry"]];
-  t.innerHTML = '<p class="puste">Wszystkie zaklęcia na karcie są <b>opanowane</b> (zaznaczone wszystkie kratki): trudność 0, poza walką nie rzucasz kością. Liczba kratek to „koszt nauki”. Kliknij zaklęcie, żeby przeliczyć rzut.</p><input id="zf" placeholder="Szukaj zaklęcia…" style="width:100%;padding:.5rem;margin:.4rem 0;border:1px solid var(--linia);border-radius:8px;background:var(--panel)">' +
+  t.innerHTML = '<p class="puste">Wszystkie zaklęcia na karcie są <b>opanowane</b> (zaznaczone wszystkie kratki): trudność 0, poza walką nie rzucasz kością. Liczba kratek to „koszt nauki”. Kliknij zaklęcie, żeby zobaczyć opis (efekt, czas trwania, działanie w walce) i przeliczyć rzut. Wszystkie zaklęcia z podręcznika są w zakładce „Księga zaklęć”.</p><input id="zf" placeholder="Szukaj zaklęcia…" style="width:100%;padding:.5rem;margin:.4rem 0;border:1px solid var(--linia);border-radius:8px;background:var(--panel)">' +
     G.map(function (g) {
       var l = zz[g[0]] || []; if (!l.length) return "";
       return "<h3>" + g[1] + "</h3><div class='zklg'>" + l.map(function (x) {
         var kr = ""; for (var i = 0; i < (x.kratki || 0); i++) kr += "<span></span>";
-        return '<div class="zk" data-n="' + esc(x.nazwa) + '"><b>' + esc(x.nazwa === "Stupefy" ? "Stupefy (Drętwota)" : x.nazwa) + ' </b><span class="kr">' + kr + "</span><small>" + esc((sl[x.nazwa] || {}).opis || "") + "</small></div>";
+        var ks = window.znajdzZaklecie ? window.znajdzZaklecie(x.nazwa) : null;
+        return '<details class="zk" data-n="' + esc(x.nazwa) + '"><summary><b>' + esc(x.nazwa === "Stupefy" ? "Stupefy (Drętwota)" : x.nazwa) + ' </b><span class="kr">' + kr + "</span><small>" + esc((ks && ks.efekt) || (sl[x.nazwa] || {}).opis || "") + "</small></summary>" +
+          window.kartaZaklecia(ks, '<p><button class="zk-kalk">Przelicz rzut w kalkulatorze</button></p>') + "</details>";
       }).join("") + "</div>";
     }).join("");
-  t.querySelectorAll(".zk").forEach(function (b) { b.onclick = function () { otworzKalk({ zakl: b.getAttribute("data-n") }); }; });
+  t.querySelectorAll(".zk-kalk").forEach(function (b) { b.onclick = function () { otworzKalk({ zakl: b.closest(".zk").getAttribute("data-n") }); }; });
   document.getElementById("zf").oninput = function () { var q = this.value.toLowerCase(); t.querySelectorAll(".zk").forEach(function (b) { b.hidden = q && b.textContent.toLowerCase().indexOf(q) < 0; }); };
 }
 
+function tKsiega(t) {
+  var moje = [], zz = P.zaklecia || {};
+  Object.keys(zz).forEach(function (g) { (zz[g] || []).forEach(function (x) { moje.push(x.nazwa); }); });
+  window.renderKsiega(t, { tytul: false, moje: moje, naKlik: function (z) { otworzKalk({ zakl: z.nazwa, ksiega: z }); }, przycisk: "Przelicz rzut w kalkulatorze" });
+}
 function tZdrowie(t) {
   function tor(nazwa, klucz, idx) {
     var h = '<div class="sekg"><h3>' + nazwa + '</h3><div class="kolka-g">';
@@ -150,18 +157,26 @@ function premiaDla(nazwy) {
   return { suma: suma, opis: opis.join(", ") };
 }
 function umVal(n) { return (P.umiejetnosci || {})[n] || 0; }
-function infoZakl(n) { return (D.zaklecia || {})[n] || { typ: "Charm", um: "Charms", grupy: [], cel: false }; }
+var UM_TYPU = { "Charm": "Charms", "Jinx": "D.A.D.A.", "Hex": "D.A.D.A.", "Curse": "Dark Arts", "Transfiguration": "Transfiguration", "Transportation": "Transportation", "Counter–Jinx": "D.A.D.A.", "Potion": "Potions" };
+function infoZakl(n) {
+  var z = (D.zaklecia || {})[n], k = window.znajdzZaklecie ? window.znajdzZaklecie(n) : null;
+  if (!z && k) z = (D.zaklecia || {})[k.nazwa] || { typ: k.typ, tr: k.trudnosc, um: UM_TYPU[k.typ] || "Charms", grupy: [], cel: false };
+  z = z || { typ: "Charm", um: "Charms", grupy: [], cel: false };
+  z.ks = k; return z;
+}
 var NIEKORZYSCI = [["niew", "Zaklęcie niewerbalne", 6], ["cudza", "Cudza różdżka (ZD-01; plus jej lojalność)", 5], ["uszk", "Uszkodzona różdżka", 5], ["bezr", "Bez różdżki", 9]];
 
+function moje(n) { var zz = P.zaklecia || {}; return Object.keys(zz).some(function (g) { return (zz[g] || []).some(function (x) { return x.nazwa === n; }); }); }
 function tKalk(t) {
   var w = kalkWstep || {}; kalkWstep = null;
   var um = Object.keys(P.umiejetnosci || {});
   var info = w.zakl ? infoZakl(w.zakl) : null;
   var tryb = w.zakl ? (info.cel ? "pojedynek" : "rzut") : "test";
+  var aktTr = info && !moje(w.zakl) && info.tr != null ? info.tr : 0;
   var wybUm = w.um || "Observation";
   if (um.indexOf(wybUm) < 0) wybUm = um[0];
   function opcjeCech(sel) { return CECHY.map(function (c) { return '<option value="' + c + '"' + (c === sel ? " selected" : "") + ">" + esc(tlum(c)) + " (" + ((P.cechy || {})[c] || 0) + ")</option>"; }).join(""); }
-  var naglZ = info ? '<p class="puste">Typ: ' + esc(info.typ) + (info.grupy.length ? " · grupa premii różdżki: " + esc(info.grupy.map(function (g) { return tlum(g) || g; }).join(", ")) : "") + " · trudność startowa: " + (info.tr == null ? "?" : info.tr) + ". Wszystkie twoje zaklęcia są opanowane, więc ich aktualna trudność to 0.</p>" : "";
+  var naglZ = info ? (info.ks && info.ks.efekt ? '<p><b>' + esc(info.ks.efekt) + '</b>' + (info.ks.w_walce ? ' <span class="puste">W walce: ' + esc(info.ks.w_walce) + '</span>' : "") + '</p>' : "") + '<p class="puste">Typ: ' + esc(info.typ) + (info.grupy.length ? " · grupa premii różdżki: " + esc(info.grupy.map(function (g) { return tlum(g) || g; }).join(", ")) : "") + " · trudność startowa: " + (info.tr == null ? "?" : info.tr) + ". " + (moje(w.zakl) ? "Masz je opanowane, więc aktualna trudność to 0." : "<b>Tego zaklęcia nie masz na karcie</b>: musisz się go najpierw nauczyć (aktualna trudność = trudność startowa).") + "</p>" : "";
   var radio = info ? '<p><label style="display:inline"><input type="radio" name="tryb" value="rzut"' + (tryb === "rzut" ? " checked" : "") + ' style="width:auto"> Rzucam zaklęcie (' + (info.typ === "Potion" ? "Wiedza" : "Skupienie") + " + " + esc(tlum(info.um) || info.um) + ')</label> &nbsp; <label style="display:inline"><input type="radio" name="tryb" value="pojedynek"' + (tryb === "pojedynek" ? " checked" : "") + ' style="width:auto"> Atak w pojedynku (Bystrość + wyższa z: Pojedynkowanie, umiejętność zaklęcia)</label></p>' : "";
   t.innerHTML = '<div class="sekg kalk"><h3>' + (w.zakl ? esc(w.zakl) : "Test") + "</h3>" + naglZ + radio +
     '<p class="puste" id="k-auto"></p>' +
@@ -169,8 +184,8 @@ function tKalk(t) {
     '<label>Umiejętność <select id="k-um"><option value="">brak (0)</option>' + um.map(function (u) { return '<option value="' + esc(u) + '"' + (u === wybUm ? " selected" : "") + ">" + esc(tlum(u) || u) + " (" + P.umiejetnosci[u] + ")</option>"; }).join("") + "</select></label>" +
     '<label>Wynik twojej kości (1D10) <input id="k-kosc" type="number" inputmode="numeric"></label>' +
     '<label>Premia różdżki i inne modyfikatory (+/−) <input id="k-mod" type="number" inputmode="numeric" value="0"></label>' +
-    '<label><span id="k-trl">Trudność lub cel (od MG)</span> <input id="k-tr" type="number" inputmode="numeric" value="' + (info && tryb === "rzut" ? 0 : "") + '"></label>' +
-    '<label id="k-atrw" hidden>Aktualna trudność zaklęcia (opanowane: 0; nieopanowane: liczba z pierwszej pustej kratki) <input id="k-atr" type="number" inputmode="numeric" value="0"></label>' +
+    '<label><span id="k-trl">Trudność lub cel (od MG)</span> <input id="k-tr" type="number" inputmode="numeric" value="' + (info && tryb === "rzut" ? aktTr : "") + '"></label>' +
+    '<label id="k-atrw" hidden>Aktualna trudność zaklęcia (opanowane: 0; nieopanowane: liczba z pierwszej pustej kratki) <input id="k-atr" type="number" inputmode="numeric" value="' + aktTr + '"></label>' +
     '<div class="pudg">' + NIEKORZYSCI.map(function (n) { return '<label><input type="checkbox" class="k-nk" data-v="' + n[2] + '" style="width:auto"> ' + n[1] + " (+" + n[2] + " do trudności)</label>"; }).join("") + "</div>" +
     '<label><input type="checkbox" id="k-kara" checked style="width:auto"> dodaj karę zdrowia do trudności (teraz: ' + (kara() === 0 ? "brak" : (kara() === "X" ? "brak akcji" : "+" + kara())) + ')</label><div id="k-wyn" class="wynikk">Wpisz wynik kości.</div></div>' +
     '<div class="sekg kalk"><h3>Obrażenia, które zadaję</h3><p class="puste">Rzuć kośćmi obrażeń (np. 3D dla iskier), wpisz sumę. Panel doda cechę.</p>' +
@@ -199,10 +214,10 @@ function tKalk(t) {
       el("k-tr").value = el("k-tr").value === "0" ? "" : el("k-tr").value;
     } else {
       el("k-mod").value = pr.suma;
-      opis = "Rzut zaklęcia: " + (cechy === "Knowledge" ? "Wiedza" : "Skupienie") + " + " + (tlum(umi) || umi) + (pr.suma ? " + różdżka (" + pr.opis + ")" : "") + ". Trudność aktualna = 0 (opanowane).";
+      opis = "Rzut zaklęcia: " + (cechy === "Knowledge" ? "Wiedza" : "Skupienie") + " + " + (tlum(umi) || umi) + (pr.suma ? " + różdżka (" + pr.opis + ")" : "") + (aktTr ? ". Nie masz go opanowanego: aktualna trudność = " + aktTr + "." : ". Trudność aktualna = 0 (opanowane).");
       el("k-trl").textContent = "Trudność (opanowane: 0, MG dodaje swoje utrudnienia)";
       el("k-atrw").hidden = true;
-      if (el("k-tr").value === "") el("k-tr").value = 0;
+      if (el("k-tr").value === "") el("k-tr").value = aktTr;
     }
     el("k-cecha").value = cechy; el("k-um").value = umi;
     el("k-auto").textContent = opis;
