@@ -121,7 +121,14 @@ def wczytaj_starcia_i_npc():
                                    "staty": {"wartosci": {k: w[k] for k in ("cechy", "umiejetnosci", "zaklecia", "rozdzka") if k in w}}}
     # graczom bez uwag dla MG
     jawne = [{k: v for k, v in s.items() if k not in ("uwagi",)} for s in starcia]
-    return jawne, npc
+    pl = KORZEN / "04_kampania" / "przeciwnicy-losowi.yaml"
+    losowi = []
+    if pl.exists():
+        for l in (yaml.safe_load(pl.read_text(encoding="utf-8")) or {}).get("przeciwnicy", []):
+            w = (l.get("staty") or {}).get("wartosci") or {}
+            losowi.append({"id": l["id"], "imie": l.get("imie", l["id"]), "poziom_trudnosci": l.get("poziom_trudnosci", ""),
+                           "staty": {"wartosci": {k: w[k] for k in ("cechy", "umiejetnosci", "zaklecia", "rozdzka") if k in w}}})
+    return jawne, npc, losowi
 
 
 def main():
@@ -159,7 +166,7 @@ def main():
         ct = AESGCM(klucz(piny[s], sol)).encrypt(iv, json.dumps(jawne, ensure_ascii=False).encode("utf-8"), None)
         karty.append({"slug": s, "imie": d["imie"], "dom": d.get("dom", ""), "sol": b64(sol), "iv": b64(iv), "ct": b64(ct), "iter": ITERACJE})
 
-    starcia, npc_staty = wczytaj_starcia_i_npc()
+    starcia, npc_staty, losowi = wczytaj_starcia_i_npc()
     if WYJSCIE.exists():
         shutil.rmtree(WYJSCIE)
     WYJSCIE.mkdir(parents=True)
@@ -172,7 +179,7 @@ def main():
         (WYJSCIE / "pdf").mkdir()
         shutil.copy(sciaga, WYJSCIE / "pdf" / sciaga.name)
     (WYJSCIE / "dane.js").write_text(
-        "window.DANE = " + json.dumps({"postacie": {"_slownik": slownik}, "zaklecia": wczytaj_zaklecia(), "ksiega": wczytaj_ksiege(), "starcia": starcia, "npc_staty": npc_staty}, ensure_ascii=False) + ";\n"
+        "window.DANE = " + json.dumps({"postacie": {"_slownik": slownik}, "zaklecia": wczytaj_zaklecia(), "ksiega": wczytaj_ksiege(), "starcia": starcia, "npc_staty": npc_staty, "losowi": losowi}, ensure_ascii=False) + ";\n"
         "window.KARTY = " + json.dumps(karty, ensure_ascii=False) + ";\n", encoding="utf-8")
     print(f"Panel graczy zbudowany: {WYJSCIE} (karty: {len(karty)})")
     if losuj:

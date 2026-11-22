@@ -97,6 +97,11 @@
 | 2026-11-20 | Dumbledore jest nieobecny przy śniadaniu 22 września (wyjazd do Londynu). | MG |
 | 2026-11-20 | **Zaklęcia ujawniające nie wykrywają magii czasu** (cała kampania); najwyżej dziwnie zimne szkło. | MG |
 | 2026-11-20 | **Tryb przyspieszony** do końca Scenariusza 1 (sesja 2026-11-21): bez pytań w trakcie pracy, założenia robocze do skreślenia po lekturze (`docs/TRYB-PRZYSPIESZONY.md`). Proza i dialogi (narrator-scen, dialogista, tworca-npc) na Opusie, pozostali agenci na Sonnecie, wysiłek medium. Webowy interfejs MG osobno, po scenach. | MG |
+| 2026-11-22 | Scena 04 zostaje bez zmian (już rozegrana). Zasada na przyszłość: **każde możliwe starcie (pojedynek, potyczka) ma w panelu instrukcję krok po kroku**. | MG |
+| 2026-11-22 | Szanse powodzenia testów dla przeciętnej postaci: szczegóły o niewielkim znaczeniu 60–70%, smaczki i ułatwienia 40–60%, kluczowe tropy 40–55% (zasada trzech dróg do wskazówki zostaje). | MG |
+| 2026-11-22 | Panel graczy: gracz widzi tylko, **ile musi minimalnie wyrzucić**, żeby atak, zaklęcie obronne albo unik się udały; pełnych statystyk NPC nie widzi. | MG |
+| 2026-11-22 | Dodatkowe karty przeciwników do przypadkowych starć: 2 łatwe, 2 średnie, 2 trudne, 1 niemożliwy; wybór albo losowanie w panelu („Przypadkowy pojedynek”). | MG |
+| 2026-11-22 | Porządkowanie języka dialogów: najpierw sceny 05–08. | MG |
 
 - **2026-11-21 (sesja 6):** sceny 01–12 zaakceptowane przez MG po lekturze. Zasady domowe ZD-01…ZD-23 przyjęte hurtem w wariancie rekomendowanym, ZD-09 (mocniejsze zaklęcia przy wyniku 2× i 3×; w pokazach i pojedynkach uczniów tylko „kolor”, czyli opis bez ran) i trzy zasady Irytka (ZI-01…03) przyjęte; zapisane w `02_zasady/zasady-domowe.md`. ZD-24a (wykrywacze) czeka na decyzję MG.
 - **2026-11-21:** hosting panelu: Netlify z repozytorium GitHub (wersja przeglądarkowa). Kontrakt danych: MG zgodził się na pole „zasady potrzebne w scenie” (jeszcze niewdrożone, panel działa bez niego). Karty graczy po polsku do wydruku; kreator postaci (szybka i pełna ścieżka) w panelu.

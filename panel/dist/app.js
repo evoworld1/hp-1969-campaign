@@ -244,7 +244,7 @@ function starcie(presetId) {
   if (presetId) { try { var st = JSON.parse(localStorage.getItem("hp69-starcie-v1")) || {}; if (st.preset !== presetId) { st.preset = presetId; var pr = (D.starcia || []).filter(function (x) { return x.id === presetId; })[0]; if (pr) { st.rodzaj = pr.rodzaj; st.n = (pr.przeciwnicy || [])[0]; st.tp = 0; st.tn = 0; st.zn = { body: 0, mind: 0 }; st.log = []; st.zp = {}; if (pr.stan_postaci) lista.forEach(function (p) { st.zp[p.id] = { body: pr.stan_postaci.body || 0, mind: pr.stan_postaci.mind || 0 }; }); st.akcja = pr.inicjatywa === false ? "atakN" : "inic"; } } localStorage.setItem("hp69-starcie-v1", JSON.stringify(st)); } catch (e) {} }
   var poz = S.pozycja, wr = poz && scena(poz.scena) ? '<p><a href="#/scena/' + poz.scena + "/" + poz.krok + '"><button>← Wróć do sceny</button></a></p>' : "";
   app.innerHTML = '<div class="starcie-ekran" style="max-width:980px;margin:0 auto"><h1>Panel starcia</h1>' + wr + '<div id="starcie-el"></div></div>';
-  window.renderStarcie(document.getElementById("starcie-el"), { postacie: lista, npc: D.npc_staty || {}, starcia: D.starcia || [], mg: true });
+  window.renderStarcie(document.getElementById("starcie-el"), { postacie: lista, npc: D.npc_staty || {}, starcia: D.starcia || [], losowi: D.losowi || [], mg: true });
 }
 
 /* ---------- wędrówki ---------- */

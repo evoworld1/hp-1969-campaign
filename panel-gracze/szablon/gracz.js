@@ -269,8 +269,8 @@ function tTest(t) {
   window.renderTest(t, P, { um: w.um, kara: kara() });
 }
 function tStarcie(t) {
-  t.innerHTML = '<p class="puste">Panel do pojedynków i pokazów. Wybierz zaplanowane starcie (gdy MG powie, która scena), potem zaklęcie. Wpisz swoją kość; kość przeciwnika podaje MG.</p><div id="st-el"></div>';
-  window.renderStarcie(document.getElementById("st-el"), { postacie: [P], stala: P.id, npc: D.npc_staty || {}, starcia: D.starcia || [], storyPoints: ST.sp > 0 });
+  t.innerHTML = '<p class="puste">Panel do pojedynków i pokazów. Wybierz zaplanowane starcie (gdy MG powie, która scena), potem zaklęcie. MG rzuca za przeciwnika i podaje wynik kości; wpisz go, a panel pokaże, ile musisz wyrzucić, żeby się udało.</p><div id="st-el"></div>';
+  window.renderStarcie(document.getElementById("st-el"), { postacie: [P], stala: P.id, npc: D.npc_staty || {}, starcia: D.starcia || [], losowi: D.losowi || [], gracz: true, storyPoints: ST.sp > 0 });
 }
 
 /* ---------- notatki, ściąga, druk ---------- */

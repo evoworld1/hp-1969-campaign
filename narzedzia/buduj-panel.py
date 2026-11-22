@@ -594,6 +594,18 @@ def wczytaj_starcia():
     return d.get("starcia", [])
 
 
+def wczytaj_losowych():
+    """Przeciwnicy do przypadkowych pojedynków (04_kampania/przeciwnicy-losowi.yaml)."""
+    p = KORZEN / "04_kampania" / "przeciwnicy-losowi.yaml"
+    if not p.exists():
+        return []
+    try:
+        return (yaml.safe_load(p.read_text(encoding="utf-8")) or {}).get("przeciwnicy", [])
+    except yaml.YAMLError as e:
+        OSTRZEZENIA.append(f"przeciwnicy-losowi.yaml: {e}")
+        return []
+
+
 def main():
     wczytaj_dokumenty()
     sceny = []
@@ -636,6 +648,7 @@ def main():
         "ksiega": wczytaj_ksiege(),
         "npc_staty": npc_staty(),
         "starcia": wczytaj_starcia(),
+        "losowi": wczytaj_losowych(),
     }
     haslo = os.environ.get("PANEL_HASLO", "").strip()
     dane["haslo_sha256"] = hashlib.sha256(haslo.encode("utf-8")).hexdigest() if haslo else ""

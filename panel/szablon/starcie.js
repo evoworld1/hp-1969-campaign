@@ -191,6 +191,11 @@ window.renderTest = function (el, o, opt) {
 };
 
 /* ---------- panel starcia ---------- */
+function minKosc(potrzeba) {
+  if (potrzeba <= 1) return "<b>Wystarczy dowolny wynik kości.</b>";
+  if (potrzeba > 10) return "<b>Nawet 10 na kości nie wystarczy</b> (brakuje " + (potrzeba - 10) + "); pomóc może tylko Story Point (dodatkowa kość).";
+  return "<b>Musisz wyrzucić na kości co najmniej " + potrzeba + ".</b>";
+}
 function kolka(obr, odp) { if (obr == null || odp == null) return null; if (obr < odp) return 0; if (obr >= 3 * odp) return 3; if (obr >= 2 * odp) return 2; return 1; }
 var RODZAJE = {
   pokaz: { nazwa: "Pokaz albo ćwiczenie na lekcji", rany: false, opis: "Liczysz trafienia, nikt nie odnosi ran (Wren pilnuje siły zaklęć). Wzmocnienie ×2 i ×3 to tylko opis (ZD-09)." },
@@ -220,6 +225,8 @@ window.renderStarcie = function (el, opt) {
   var post = opt.postacie || [], npc = opt.npc || {}, pres = opt.starcia || [];
   if (opt.stala) S.p = opt.stala;
   if (!S.p || !post.some(function (p) { return p.id === S.p; })) S.p = post[0] ? post[0].id : null;
+  (opt.losowi || []).forEach(function (l) { npc[l.id] = { imie: l.imie + " (" + ({ latwy: "łatwy", sredni: "średni", trudny: "trudny", niemozliwy: "niemożliwy" }[l.poziom_trudnosci] || l.poziom_trudnosci) + ")", staty: l.staty, los: l }; });
+  var G = !!opt.gracz;
   var npcIds = Object.keys(npc).filter(function (i) { var w = (npc[i].staty || {}).wartosci || {}; return w.cechy && Object.keys(w.cechy).length; });
   if (!S.n || npcIds.indexOf(S.n) < 0) S.n = npcIds[0] || null;
   S.rodzaj = S.rodzaj || "pojedynek"; S.akcja = S.akcja || "atakP";
@@ -246,11 +253,19 @@ window.renderStarcie = function (el, opt) {
       }
       h += "</div>";
     }
+    if ((opt.losowi || []).length && !G) {
+      h += '<div class="sekg"><h3>Przypadkowy pojedynek</h3><p class="puste">Gracze nagle z kimś walczą? Wybierz poziom i wylosuj przeciwnika albo wybierz go z listy „Przeciwnik” niżej.</p>' +
+        '<select id="st-lp"><option value="">dowolny poziom</option><option value="latwy">łatwy (młodsi uczniowie)</option><option value="sredni">średni (6.–7. rok)</option><option value="trudny">trudny (dorośli, zakapiory)</option><option value="niemozliwy">niemożliwy (profesor, auror, śmierciożerca)</option></select> <button id="st-los">Losuj przeciwnika</button>';
+      var L = S.n && npc[S.n] && npc[S.n].los;
+      if (L) h += '<div class="st-pr"><p><b>' + esc(L.imie) + "</b>: " + esc(L.opis || "") + "</p><p><b>Jak prowadzić:</b> " + esc(L.styl || "") + "</p></div>";
+      h += "</div>";
+    }
     // 1-2. kto z kim
     h += '<div class="sekg st-kto"><div><h3>1. Postać</h3>' + (opt.stala ? "<p><b>" + esc(p.imie) + "</b></p>" : '<div class="wyb-p">' + post.map(function (x) { return '<button data-p="' + esc(x.id) + '" class="' + (x.id === S.p ? "aktywna" : "") + '">' + esc(x.imie) + "</button>"; }).join("") + "</div>") +
       "<p class='puste'>Unik 1D10 + " + (ce(p, "Speed") + ce(p, "Wits")) + (protegoOpanowane(p, zakleciaPostaci(p)) ? " · Protego 1D10 + " + (ce(p, "Wits") + um(p, "Charms")) : "") + " · Inicjatywa 1D10 + " + (ce(p, "Speed") + um(p, "Duelling") + (premieRozdzki(p).Duelling || 0)) + " · Odporność 1D10 + " + ce(p, "Vitality") + "</p></div>" +
       '<div><h3>Przeciwnik</h3>' + (npcIds.length ? '<select id="st-n">' + npcIds.map(function (i) { return '<option value="' + esc(i) + '"' + (i === S.n ? " selected" : "") + ">" + esc(npc[i].imie) + "</option>"; }).join("") + "</select>" : "<p class='puste'>Brak NPC z liczbami.</p>") +
-      (w ? "<p class='puste'>" + rzuty(w).slice(0, 5).map(function (r) { return esc(r[0].split(" (")[0]) + " 1D10 + " + r[1]; }).join(" · ") + "</p>" + (opt.mg ? '<details><summary class="puste">Pełne statystyki</summary>' + window.kartaStatystyk(npc[S.n].staty) + "</details>" : "") : "") + "</div></div>";
+      (w && G ? "<p class='puste'>Liczby przeciwnika zna MG. Panel pokaże, ile musisz wyrzucić.</p>" : "") +
+      (w && !G ? "<p class='puste'>" + rzuty(w).slice(0, 5).map(function (r) { return esc(r[0].split(" (")[0]) + " 1D10 + " + r[1]; }).join(" · ") + "</p>" + (opt.mg ? '<details><summary class="puste">Pełne statystyki</summary>' + window.kartaStatystyk(npc[S.n].staty) + "</details>" : "") : "") + "</div></div>";
     // rodzaj
     h += '<div class="sekg"><h3>Rodzaj starcia</h3><div class="wyb-r">' + Object.keys(RODZAJE).map(function (r) { return '<label><input type="radio" name="st-r" value="' + r + '"' + (r === S.rodzaj ? " checked" : "") + ' style="width:auto"> ' + esc(RODZAJE[r].nazwa) + "</label>"; }).join("") + "</div><p class='puste'>" + esc(RODZAJE[S.rodzaj].opis) + "</p></div>";
     // stan
@@ -285,6 +300,13 @@ window.renderStarcie = function (el, opt) {
         if (pr.stan_postaci) post.forEach(function (x) { S.zp[x.id] = { body: pr.stan_postaci.body || 0, mind: pr.stan_postaci.mind || 0 }; });
         S.akcja = pr.inicjatywa === false ? "atakN" : "inic";
       }
+      rysuj();
+    };
+    if (q("#st-los")) q("#st-los").onclick = function () {
+      var poz = q("#st-lp").value, pula = (opt.losowi || []).filter(function (l) { return !poz || l.poziom_trudnosci === poz; });
+      if (!pula.length) return;
+      S.n = pula[Math.floor(Math.random() * pula.length)].id; S.tn = 0; S.tp = 0; S.zn = { body: 0, mind: 0 }; S.log = []; S.akcja = "inic";
+      S.preset = pres.some(function (x) { return x.id === "s1.starcie.przypadkowy"; }) ? "s1.starcie.przypadkowy" : "";
       rysuj();
     };
     el.querySelectorAll(".wyb-p button").forEach(function (b) { b.onclick = function () { S.p = b.getAttribute("data-p"); rysuj(); }; });
@@ -324,12 +346,13 @@ window.renderStarcie = function (el, opt) {
       var ip = ce(p, "Speed") + um(p, "Duelling") + (premieRozdzki(p).Duelling || 0), iN = ce(w, "Speed") + um(w, "Duelling") + (premieRozdzki(w).Duelling || 0);
       box.innerHTML = (pr && pr.inicjatywa === false ? "<p class='uwaga-czytaj'>W tym zaplanowanym starciu inicjatywy się nie rzuca. " + esc(pr.inicjatywa_opis || "") + "</p>" : "") +
         "<p class='puste'>Walker s. 41: obie strony rzucają 1D10 + Szybkość + Pojedynkowanie. Wyższy wynik działa pierwszy. Remis: zaklęcia się zwierają.</p>" +
-        numer("i-p", p.imie + ": kość (1D10 + " + ip + ")") + numer("i-n", NI() + ": kość (1D10 + " + iN + ")") + '<div id="i-w" class="wynikk">Wpisz obie kości.</div>';
+        numer("i-p", p.imie + ": kość (1D10 + " + ip + ")") + numer("i-n", NI() + ": kość" + (G ? " (podaje MG)" : " (1D10 + " + iN + ")")) + '<div id="i-w" class="wynikk">Wpisz obie kości.</div>';
       var li = function () {
         var a = n("i-p"), b = n("i-n"), e = el.querySelector("#i-w");
-        if (a == null || b == null) { e.textContent = "Wpisz obie kości."; return; }
+        if (b != null && a == null) { e.innerHTML = "Żeby działać pierwsza: " + minKosc(b + iN - ip + 1); return; }
+        if (a == null || b == null) { e.textContent = G ? "Poproś MG o rzut przeciwnika i wpisz go: panel pokaże, ile potrzebujesz." : "Wpisz obie kości."; return; }
         var sa = a + ip, sb = b + iN;
-        e.innerHTML = p.imie + ": <b>" + sa + "</b> · " + esc(NI()) + ": <b>" + sb + "</b><br><b>" + (sa > sb ? p.imie + " działa pierwsza. Wybierz „rzuca zaklęcie”." : sa < sb ? esc(NI()) + " działa pierwszy. Wybierz „" + esc(NI()) + " atakuje”." : "Remis: zwarcie zaklęć (s. 41). Co rundę obie strony rzucają 1D10 + Skupienie + umiejętność zaklęcia; zwarcie trwa, aż ktoś przebije drugiego o 5 i więcej. Przegrany przyjmuje zaklęcie zwycięzcy.") + "</b>";
+        e.innerHTML = p.imie + ": <b>" + sa + "</b> · " + (G ? "przeciwnik" : esc(NI())) + ": <b>" + sb + "</b><br><b>" + (sa > sb ? p.imie + " działa pierwsza. Wybierz „rzuca zaklęcie”." : sa < sb ? esc(NI()) + " działa pierwszy. Wybierz „" + esc(NI()) + " atakuje”." : "Remis: zwarcie zaklęć (s. 41). Co rundę obie strony rzucają 1D10 + Skupienie + umiejętność zaklęcia; zwarcie trwa, aż ktoś przebije drugiego o 5 i więcej. Przegrany przyjmuje zaklęcie zwycięzcy.") + "</b>";
       };
       box.oninput = li; li(); return;
     }
@@ -338,7 +361,7 @@ window.renderStarcie = function (el, opt) {
       var o2 = w || {};
       box.innerHTML = "<p class='puste'>Obie strony rzucają 1D10 + cecha + umiejętność; wyższy wygrywa, remis: powtórka albo decyzja MG (s. 4). Kary ze zdrowia odejmij od rzutu.</p>" +
         '<label>Co sprawdzamy <select id="pz-para">' + PARY.map(function (x, i) { return '<option value="' + i + '">' + esc(x[0]) + " (" + CECHY_PL[x[1]] + " + " + esc(UM_PL[x[2]] || x[2]) + ")</option>"; }).join("") + "</select></label>" +
-        '<label>Przeciwnik broni się parą <select id="pz-para-n">' + PARY.map(function (x, i) { return '<option value="' + i + '">' + esc(x[0]) + " (" + CECHY_PL[x[1]] + " + " + esc(UM_PL[x[2]] || x[2]) + ")</option>"; }).join("") + "</select></label>" +
+        '<label' + (G ? " hidden" : "") + '>Przeciwnik broni się parą <select id="pz-para-n">' + PARY.map(function (x, i) { return '<option value="' + i + '">' + esc(x[0]) + " (" + CECHY_PL[x[1]] + " + " + esc(UM_PL[x[2]] || x[2]) + ")</option>"; }).join("") + "</select></label>" +
         numer("pz-p", p.imie + ": kość") + numer("pz-n", NI() + ": kość") + numer("pz-m", "Premia postaci (nazwany nawyk +3, pomocnik +1 itp.)", 0) + '<div id="pz-w" class="wynikk">Wpisz obie kości.</div>';
       var sp = el.querySelector("#pz-para"), sn = el.querySelector("#pz-para-n");
       sp.value = S.pz || "0"; sn.value = S.pzn || "0";
@@ -349,8 +372,9 @@ window.renderStarcie = function (el, opt) {
         var x = PARY[+sp.value], y = PARY[+sn.value];
         var vp = ce(p, x[1]) + um(p, x[2]), vn = ce(o2, y[1]) + um(o2, y[2]);
         var kpp = kp === "X" ? 0 : kp, knn = kn === "X" ? 0 : kn;
-        var info = p.imie + ": 1D10 + " + vp + (m ? " + " + m : "") + (kpp ? " − kara " + kpp : "") + " · " + esc(NI()) + ": 1D10 + " + vn + (knn ? " − kara " + knn : "");
-        if (a == null || b == null) { e.innerHTML = info + "<br>Wpisz obie kości."; return; }
+        var info = p.imie + ": 1D10 + " + vp + (m ? " + " + m : "") + (kpp ? " − kara " + kpp : "") + (G ? "" : " · " + esc(NI()) + ": 1D10 + " + vn + (knn ? " − kara " + knn : ""));
+        if (b != null && a == null) { e.innerHTML = info + "<br>Żeby wygrać: " + minKosc(b + vn - knn - vp - m + kpp + 1); return; }
+        if (a == null || b == null) { e.innerHTML = info + "<br>Wpisz obie kości" + (G ? " (kość przeciwnika podaje MG)" : "") + "."; return; }
         var sa = a + vp + m - kpp, sb = b + vn - knn;
         e.innerHTML = info + "<br>" + p.imie + ": <b>" + sa + "</b> · " + esc(NI()) + ": <b>" + sb + "</b><br><b>" + (sa > sb ? p.imie + " wygrywa." : sa < sb ? esc(NI()) + " wygrywa." : "Remis: rzućcie jeszcze raz.") + "</b>";
       };
@@ -370,7 +394,7 @@ window.renderStarcie = function (el, opt) {
       var k = ksiega(z); return '<option value="' + esc(z) + '"' + (z === wybZ ? " selected" : "") + ">" + esc(z) + (k ? " · trudność nauki " + k.trudnosc : "") + (trA(z) ? " · NIEOPANOWANE (+" + trA(z) + ")" : " · opanowane") + (bojowe(z) ? " · do walki" : "") + "</option>";
     }).join("") + '</select></label><p id="a-opis" class="puste"></p>' +
       '<label>Obrona (' + esc(imO) + ') <select id="a-o"><option value="unik"' + (obr === "unik" ? " selected" : "") + ">Unik: 1D10 + Szybkość + Bystrość (darmowy)</option>" + (mozeProtego ? '<option value="protego"' + (obr === "protego" ? " selected" : "") + ">Protego: 1D10 + Bystrość + Zaklęcia (zabiera najbliższą akcję, ZD-07)</option>" : "") + "</select></label>" +
-      '<div class="st-kosci">' + numer("a-k", "3. Kość " + esc(imA) + " (atak)") + numer("a-ko", "4. Kość " + esc(imO) + " (obrona)") + "</div>" + mod +
+      '<div class="st-kosci">' + numer("a-k", "3. Kość " + esc(imA) + " (atak)" + (G && !atakujeP ? ", podaje MG" : "")) + numer("a-ko", "4. Kość " + esc(imO) + " (obrona)" + (G && atakujeP ? ", podaje MG" : "")) + "</div>" + mod +
       '<div id="a-w" class="wynikk">Wpisz obie kości.</div><div id="a-obr"></div>';
     var sel = el.querySelector("#a-z"), so = el.querySelector("#a-o");
     var pisz = function () { el.querySelector("#a-opis").innerHTML = opisZakl(sel.value); };
@@ -387,10 +411,16 @@ window.renderStarcie = function (el, opt) {
       var roznica = kaN - koN; // s. 165: liczy się różnica kar; gdy obrońca ranny bardziej, cel spada
       var niek = (el.querySelector("#m-niew").checked ? 6 : 0) + (el.querySelector("#m-cudza").checked ? 5 : 0) + (el.querySelector("#m-bez").checked ? 9 : 0);
       var mr = n("m-rzut") || 0, mc = n("m-cel") || 0, aktTr = trA(z);
-      var info = "Atak " + esc(imA) + ": 1D10 + " + at.suma + " (" + esc(at.opis) + (mr ? " + premia " + mr : "") + ")<br>Obrona " + esc(imO) + ": 1D10 + " + ob.s + " (" + esc(ob.o) + ")" +
+      var info = (G && !atakujeP) ? "Atak przeciwnika: kość podaje MG" : "Atak " + esc(imA) + ": 1D10 + " + at.suma + " (" + esc(at.opis) + (mr ? " + premia " + mr : "") + ")" + ((G && atakujeP) ? "" : "<br>Obrona " + esc(imO) + ": 1D10 + " + ob.s + " (" + esc(ob.o) + ")") +
         "<br>Do celu dochodzi: aktualna trudność zaklęcia " + aktTr + (roznica ? ", różnica kar ze zdrowia " + (roznica > 0 ? "+" : "") + roznica : "") + (niek ? ", niekorzyści +" + niek : "") + (mc ? ", inne +" + mc : "");
       var ka1 = n("a-k"), ko1 = n("a-ko");
-      if (ka1 == null || ko1 == null) { e.innerHTML = info + "<br><b>Wpisz obie kości.</b>"; eo.innerHTML = ""; return; }
+      var stale = aktTr + roznica + niek + mc;
+      if (ka1 == null || ko1 == null) {
+        var pom = "";
+        if (atakujeP && ko1 != null) pom = "<br>Żeby trafić: " + minKosc(ko1 + ob.s + stale - at.suma - mr);
+        if (!atakujeP && ka1 != null) pom = "<br>Żeby uniknąć trafienia: " + minKosc(ka1 + at.suma + mr - ob.s - stale + 1);
+        e.innerHTML = info + (pom || "<br><b>Wpisz obie kości" + (G ? " (kość przeciwnika podaje MG; wpisz ją najpierw, panel pokaże, ile potrzebujesz)" : "") + ".</b>"); eo.innerHTML = ""; return;
+      }
       var sa = ka1 + at.suma + mr, cel = ko1 + ob.s + aktTr + roznica + niek + mc;
       var traf = sa >= cel;
       var x = traf && cel > 0 ? (sa >= 3 * cel ? 3 : sa >= 2 * cel ? 2 : 1) : 0;
