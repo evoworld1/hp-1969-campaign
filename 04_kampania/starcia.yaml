@@ -1,5 +1,9 @@
 # Zaplanowane starcia Scenariusza 1: dane dla panelu starcia (panel MG i panel graczy).
-# status: szkic. Liczby i kroki przepisane ze scen 04 i 08 (bez nowych zasad); do przeglądu przez mechanika i MG.
+# status: szkic. Liczby i kroki przepisane ze scen (04, 07, 08, 09, 10, 12) i kart NPC, bez nowych zasad Walkera; do przeglądu przez MG.
+# Instrukcja krok po kroku dla każdego starcia (decyzja MG 2026-11-22). Rozstrzygnięcia spoza scen i podręcznika są w polu „uwagi” jako „propozycja”.
+# Presety bez sceny (scena pusta) służą do starć przypadkowych; przeciwnika wybiera się wtedy z 04_kampania/przeciwnicy-losowi.yaml.
+# Przyciski panelu starcia: „Inicjatywa”, „[postać] rzuca zaklęcie”, „[NPC] atakuje”, „Test przeciwny”, „Zapisz trafienie”, „Zaznacz kółka”.
+# Wskazówka do „Test przeciwny”: panel ma pole „Premia postaci”. Modyfikator rzutu PRZECIWNIKA (np. −3 do rzutu Cassiana) wpisz tam z odwrotnym znakiem (+3).
 # Pola: id, scena, krok (numer kroku w scenie, od 1), tytul, rodzaj (pokaz | pojedynek | walka),
 #       przeciwnicy (id NPC z kartą i statystykami), limit_trafien {postac, przeciwnik}, rundy_max,
 #       inicjatywa (false = nie rzuca się), inicjatywa_opis, stan_postaci {body, mind} na starcie,
@@ -45,7 +49,297 @@ starcia:
       - "Runda: najpierw Cassian atakuje („Cassian atakuje”, postać robi unik); w rundzie z Chwilą robi to dwa razy. Potem postać atakuje raz („postać rzuca zaklęcie”)."
       - "Kto zna sygnał (palce w kieszonce), może atakować przed Chwilą; drugi atak Cassiana z tej Chwili ma −2 (wpisz w modyfikatorach)."
       - "Celowanie w zegarek: Expelliarmus po uprzedzeniu bez kary; Accio na zapiętą kieszonkę +4 do celu. Zegarek wytrącony liczy się jako trafienie postaci i odbiera Cassianowi Chwile (−2 do jego rzutów)."
-      - "Postać wygrywa przy 2 trafieniach albo wytrąconym zegarku, Cassian przy 3. Najwyżej 4 rundy; gdy się przeciąga, zegarek wypada albo w drzwiach staje Wren („Dosyć”)."
+      - "Postać wygrywa przy 2 trafieniach albo wytrąconym zegarku, Cassian przy 3. Najwyżej 4 rundy; po czwartej wygrywa ten, kto ma więcej trafień, a przy równej liczbie zegarek wypada Cassianowi (tekst 3) i wygrywa postać."
+      - "Gdy pojedynek przekroczy granicę (krew, ktoś upada i nie wstaje, zabrana godzina), w drzwiach staje Wren: „Dosyć. Różdżki na podłogę. Wszystkie.”"
+      - "Po nieudanym rzucie gracz może wydać Story Point na dorzut 1D10 (Walker s. 4), najwyżej jeden na rzut. Za pierwszy pojedynek punkt dostaje tylko ta postać, która nie dostała go w scenie 04."
     po_wygranej_postaci: "Cassian: „Umowa to umowa.” Przejdź do dialogu o pracowni (krok 6)."
     po_wygranej_przeciwnika: "Cassian zabiera przegranemu godzinę (tekst 4): Drained do pierwszego posiłku następnego dnia."
-    uwagi: "Rany tylko wtedy, gdy stół chce ostrzejszej walki: przełącz rodzaj na „walka na serio”."
+    uwagi: "Rany tylko wtedy, gdy stół chce ostrzejszej walki: przełącz rodzaj na „walka na serio”. Wariant poniedziałkowy (konfrontacja zaraz po scenie 04): postać nadal ma Drained, więc zaznacz jej 3 kółka umysłu (kara +3 liczy się do celu jej ataków, a od celu ataków Cassiana się odejmuje)."
+  - id: s1.starcie.07-sledzenie
+    scena: s1.scena.07
+    krok: 5
+    tytul: "Scena 07: śledzenie Cassiana z ukrycia (krużganek o zmierzchu)"
+    rodzaj: pokaz
+    przeciwnicy: [npc.cassian-vane]
+    rundy_max: 1
+    inicjatywa: false
+    inicjatywa_opis: "Nie ma walki ani inicjatywy: to jeden test przeciwny, skradanie postaci przeciw spostrzegawczości Cassiana."
+    stan_postaci: {body: 0, mind: 0}
+    zasady:
+      - "Zapytaj graczy, gdzie się chowają (filar, okno nad schodami) i kto kieruje ukryciem. Rzuca jedna postać, najlepsza w skradaniu; pozostałe pomagają (każda +1, najwyżej dwie)."
+      - "Opisz Cassiana: nakręca zatrzymany zegarek, gwiżdże, patrzy w tarczę, a nie na krużganek. Nie ogłaszaj, że to test."
+      - "Kliknij „Test przeciwny” i wybierz „Skradanie się” (Speed + Stealth). Przeciwnik broni się czujnością (Wits + Observation: 1D10 + 10)."
+      - "Cassian jest pochłonięty zegarkiem: −3 do jego rzutu, czyli wpisz +3 w polu „Premia postaci”. Dodaj pomocników (+1 za osobę), specjalizację Stealth (+1). Jeśli Cassian jest czujny wobec tej postaci (flaga.cassian-czujny): +2 do jego rzutu, czyli odejmij 2 od premii."
+      - "Wygrana: postacie widzą wszystko (zegarek tyka szybko, twarz Cassiana się wygładza). Flagę sygnału ustawia dopiero nazwanie go na głos."
+      - "Przegrana albo remis (remis rozstrzyga scena na korzyść Cassiana): Cassian odwraca się w pół ruchu: „Grupa trzecia. Też mierzycie czas?”. Konfrontacja zaczyna się na jego warunkach, przejdź do sceny 08."
+    po_wygranej_postaci: "Postacie obserwują niezauważone; przejdź do sceny 08 z przewagą (Cassian nie wie, że ktoś jest w krużganku)."
+    po_wygranej_przeciwnika: "Cassian ich zauważa i zaczyna rozmowę (dialog cassian-zmierzch), potem scena 08."
+    uwagi: "Liczby ze sceny 07 (test sledzenie-kruzganek). Porażka niczego nie zamyka. Remis na korzyść Cassiana to zapis sceny 07; scena 08 i karta zegarka w kradzieży przy remisie każą rzucić jeszcze raz, więc dla jednolitości można zrobić tak samo tutaj (propozycja)."
+  - id: s1.starcie.07-kradziez-zmierzch
+    scena: s1.scena.07
+    krok: 5
+    tytul: "Scena 07: kradzież zegarka Cassianowi w krużganku"
+    rodzaj: pokaz
+    przeciwnicy: [npc.cassian-vane]
+    rundy_max: 1
+    inicjatywa: false
+    inicjatywa_opis: "Nie ma inicjatywy: jeden test przeciwny (szybkość i ukrywanie postaci przeciw czujności Cassiana). Dostępny od wieczoru po scenie 04."
+    stan_postaci: {body: 0, mind: 0}
+    zasady:
+      - "Gracz mówi, jak próbuje wyjąć zegarek (kieszonka, dłoń). Inna postać może odwrócić uwagę Cassiana: zagaduje albo upuszcza książki (każda +1, najwyżej dwie)."
+      - "Kliknij „Test przeciwny” i wybierz „Ukrycie przedmiotu, kradzież kieszonkowa” (Speed + Concealment). Przeciwnik broni się czujnością (Wits + Observation: 1D10 + 10)."
+      - "W polu „Premia postaci” wpisz pomocników (+1 każdy). Jeśli postać wcześniej próbowała zabrać zegarek albo celowała w niego (flaga.cassian-czujny): +2 do rzutu Cassiana, czyli odejmij 2. Jeśli Cassian wie, że ktoś jest w krużganku i patrzy na tę postać: kolejne −2."
+      - "Wygrana: zegarek jest u postaci, zegar kradzieży staje. Cassian zauważy stratę w ciągu godziny i sam przyjdzie (scena 08, wejście 1c: gwizd urywa się w pół nuty, ręka sięga po pustą kieszonkę)."
+      - "Przegrana: Cassian łapie rękę przy kieszonce. Konfrontacja zaczyna się od razu na jego warunkach (scena 08, dialog cassian-oskarzony), a od tej chwili nosi zegarek nawet nocą. Kolejnej kradzieży nie ma."
+      - "Remis w tej scenie wygrywa Cassian (zapis sceny 07)."
+    po_wygranej_postaci: "Zegarek u graczy (flaga.zegarek-cassiana = u-graczy, flaga.zegarek-u-graczy). Cassian przychodzi po niego: scena 08, tekst 1c."
+    po_wygranej_przeciwnika: "Flaga.cassian-czujny wobec tej postaci; zostają pojedynek, targ albo litość w scenie 08."
+    uwagi: "Szanse przy braku modyfikatorów: kombinator ok. 45%, pojedynkowicz ok. 10%, badacz i opiekun ok. 3% (scena 07). Jeśli postacie robią i śledzenie, i kradzież, rzuć najpierw śledzenie: po wygranej śledzeniu odpada +2 za czujność Cassiana. Rozbieżność do rozstrzygnięcia: scena 08 i karta zegarka przy remisie każą rzucić jeszcze raz (drugi remis przegrywa postać), a scena 07 mówi, że remis wygrywa Cassian; proponuję jednolicie wersję ze sceny 08."
+  - id: s1.starcie.07-atak-pod-wieza
+    scena: s1.scena.07
+    krok: 5
+    tytul: "Scena 07: ktoś rzuca się na Cassiana pod wieżą (pojedynek bez widowni)"
+    rodzaj: pojedynek
+    przeciwnicy: [npc.cassian-vane]
+    limit_trafien: {postac: 2, przeciwnik: 3}
+    rundy_max: 4
+    inicjatywa: false
+    inicjatywa_opis: "Jak w scenie 08: póki zegarek jest przy Cassianie, w rundach 1 i 2 wydaje on Skradzioną Chwilę (pula 2) i atakuje dwa razy po akcji postaci, która zaczęła (propozycja, patrz uwagi). Od rundy 3 kolejność: postać, potem Cassian."
+    stan_postaci: {body: 0, mind: 0}
+    zasady:
+      - "Scena 07 odsyła do pojedynku ze sceny 08 (krok 4), ale bez Rosalind, bez sekundanta i bez Wrena. Cassian nie atakuje pierwszy: zasłania zegarek i mówi „Tutaj? Pod wieżą?”."
+      - "Powiedz graczom poza fikcją, że to pierwsza walka w grze i że przegrana kosztuje godzinę (stan Drained do pierwszego posiłku następnego dnia)."
+      - "Runda: wybierz „[imię postaci] rzuca zaklęcie” dla ataku postaci (tylko zaklęcia opanowane), potem „Cassian atakuje” (dwa razy w rundzie z Chwilą). Postać broni się unikiem (Speed + Wits) albo opanowanym Protego (zużywa akcję, ZD-07)."
+      - "Kto zna sygnał (palce w kieszonce), atakuje przed Chwilą; drugi atak Cassiana z tej Chwili ma −2. Expelliarmus w zegarek po uprzedzeniu: bez kary; Accio na zapiętą kieszonkę: +4 do celu."
+      - "Trafienie nie rani: kliknij „Zapisz trafienie”. Postać wygrywa przy 2 trafieniach albo wytrąconym zegarku (Chwile się kończą, Cassian ma −2 do rzutów), Cassian przy 3."
+      - "Najwyżej 4 rundy. Po czwartej wygrywa ten, kto ma więcej trafień; przy równej liczbie zegarek wypada Cassianowi (tekst 3 sceny 08) i wygrywa postać."
+      - "Postać, która celowała w Cassiana, dostaje u niego flagę czujności (flaga.cassian-czujny; zapisz jej imię)."
+    po_wygranej_postaci: "Zegarek jest przy postaci albo Cassian go traci: przejdź do sceny 08 od dialogu o zegarku (rozgałęzienie pojedynek-wygrany)."
+    po_wygranej_przeciwnika: "Cassian zabiera przegranemu godzinę (tekst 4 sceny 08): Drained do pierwszego posiłku następnego dnia. Rozmowa o pracowni przechodzi do sceny 08."
+    uwagi: "Liczby identyczne jak w presecie sceny 08. Propozycja: ponieważ Cassian nie atakuje pierwszy, runda 1 zaczyna się od ataku postaci (to ona zaczęła), dopiero potem Cassian wydaje Chwilę; scena 07 tego dokładnie nie rozstrzyga. Bez Wrena nikt nie mówi „Dosyć”: granicą jest limit trafień albo zegarek wypadający po 4 rundach. Ostrzejsza walka (rany): przełącz rodzaj na „walka na serio”."
+  - id: s1.starcie.08-bojka
+    scena: s1.scena.08
+    krok: 4
+    tytul: "Scena 08: bójka z Cassianem bez różdżek (awaryjne-bojka)"
+    rodzaj: walka
+    przeciwnicy: [npc.cassian-vane]
+    rundy_max: 2
+    inicjatywa: false
+    inicjatywa_opis: "Bójkę zaczyna postać, więc atakuje pierwsza. Cassian nie oddaje ciosów: cofa się, zasłania kieszonkę i broni się (propozycja)."
+    stan_postaci: {body: 0, mind: 0}
+    zasady:
+      - "Ostrzeż graczy poza fikcją: Cassian „nie bije się jak w porcie”, bójka przy świadkach sprowadzi prefekta albo Wrena, a rozmowa o pracowni się opóźni. Zapytaj, czy na pewno."
+      - "Opisz świadków: uczniowie na korytarzu, ktoś z grupy Cassiana w drzwiach, prefekt, który zaraz zareaguje."
+      - "Atak postaci: kliknij „Test przeciwny” i wybierz „Bójka bez różdżek” (Vitality + Skirmishing). Cassian broni się blokiem wręcz: 1D10 + 3 (Vitality 3, Skirmishing 0, Walker s. 33–34); „Przeciwnik broni się parą” też ustaw na „Bójka bez różdżek”."
+      - "Trafienie (wynik postaci wyższy): obrażenia pięści to ½D + Vitality postaci (Walker s. 35). Cassian rzuca 1D10 + 3 i traci 0, 1, 2 albo 3 kółka zależnie od przewagi obrażeń nad rzutem. Kółka zaznacz przyciskiem „Zaznacz kółka”; w tej scenie wystarczy Shaken lub Bruised."
+      - "Cassian nie atakuje. Mów: „Nie… nie tak. Nie jesteśmy w porcie.” i cofaj się o krok po każdej wymianie."
+      - "Po drugiej rundzie albo po pierwszej wyraźnej ranie przychodzi prefekt albo Wren (w sali Obrony zawsze Wren): rozbraja i rozdziela bez rzutu, punkty ujemne, szlaban jako kolor."
+      - "Ustaw flaga.cassian-zdemaskowany. Rosalind zapamiętuje, kto pierwszy wyciągnął różdżkę (jeśli ktoś ją wyciągnął)."
+    po_wygranej_postaci: "Cassian zdemaskowany przed postaciami, ale rozmowa o pracowni przesuwa się na później (ktoś musi być przy nim, gdy wyjdzie). Po odejściu nauczyciela można dokończyć scenę krokiem targu albo litości."
+    po_wygranej_przeciwnika: "Cassian nie „wygrywa” bójki: odsuwa się i pyta, czy skończyli. Scena toczy się jak po wygranej postaci, z większą wrogością Cassiana."
+    uwagi: "Scena 08 (awaryjne-bojka) podaje tylko skutek fabularny: pojedynek z liczbami i ran w niej nie ma. Propozycja: bójka według Walkera s. 33–35 (Skirmishing, pięść ½D + Vitality, odporność 1D10 + Vitality), Cassian blokuje zamiast uniku, bo „nie umie się bić”, i nie oddaje ciosów; 2 rundy to też propozycja. Zaklęcia rzucone w Cassiana to nie bójka: tu działa jak w scenie 04 (awaryjne-atak-na-serio) rozbrojenie przez nauczyciela. Panel nie ma pary „unik” dla obrońcy; jeśli wolisz unik (Speed + Wits = 1D10 + 10), dopisz różnicę w polu „Premia postaci” ze znakiem odwrotnym."
+  - id: s1.starcie.08-kradziez-zegarka
+    scena: s1.scena.08
+    krok: 5
+    tytul: "Scena 08: szarpanina o zegarek, kradzież podczas rozmowy"
+    rodzaj: pokaz
+    przeciwnicy: [npc.cassian-vane]
+    rundy_max: 1
+    inicjatywa: false
+    inicjatywa_opis: "Nie ma inicjatywy: jeden test przeciwny, Speed + Concealment postaci przeciw Wits + Observation Cassiana."
+    stan_postaci: {body: 0, mind: 0}
+    zasady:
+      - "Jedna postać zagaduje Cassiana (każda pomagająca +1, najwyżej dwie), druga próbuje wyjąć zegarek z kieszonki, z dłoni albo spod poduszki."
+      - "Jeśli Cassian jest złamany (siedzi, patrzy na bandaż, tekst 5), nie rzucaj: oddaje zegarek na prośbę (dialog cassian-litosc)."
+      - "Kliknij „Test przeciwny” i wybierz „Ukrycie przedmiotu, kradzież kieszonkowa” (Speed + Concealment). Cassian broni się czujnością: Wits + Observation, 1D10 + 10."
+      - "W „Premii postaci” wpisz pomocników (+1). Modyfikatory Cassiana wpisz z odwrotnym znakiem: czujność wobec tej postaci (flaga.cassian-czujny) +2 do jego rzutu, Cassian przyparty (ręka na kieszonce, gwizd) +2, śpi (wariant nocny) −4, drzemie z zegarkiem w dłoni −2."
+      - "Wygrana: zegarek jest u postaci, zegar kradzieży staje. Po jednej wymianie zdań Cassian zauważa stratę i staje w progu: dialog cassian-oddajcie (rozbity, bez Chwil, prosi, targuje się, w końcu pęka)."
+      - "Przegrana: „Rodzinna pamiątka. Nie chodzi.” Cassian nosi zegarek nawet nocą i kolejnej kradzieży nie ma; zostają pojedynek, targ albo litość."
+      - "Remis: Cassian się porusza albo mruczy, postać cofa rękę albo rzuca jeszcze raz; przy drugim remisie przegrywa postać (zasada domowa karty zegarka)."
+    po_wygranej_postaci: "Zegarek u graczy (flaga.zegarek-cassiana, flaga.zegarek-u-graczy). Dalej dialog cassian-oddajcie, potem targ, litość albo zniszczenie zegarka."
+    po_wygranej_przeciwnika: "Flaga.cassian-czujny. Scena toczy się dalej na warunkach Cassiana: pojedynek (krok 4), targ albo litość."
+    uwagi: "Liczby ze sceny 08 (test kradziez-zegarka). Szanse: kombinator ok. 50% (z dwiema pomagającymi 69%), pojedynkowicz ok. 11%, badacz i opiekun ok. 3%; kto nie ma Concealment, ma lepsze drogi: litość albo targ. Rzucaj tylko wtedy, gdy ktoś naprawdę próbuje. Zniszczenie zegarka (test zniszczenie-zegarka) to rzut obrażeń przeciw wytrzymałości 15, nie starcie; użyj testu ze sceny."
+  - id: s1.starcie.09-skradanie
+    scena: s1.scena.09
+    krok: 2
+    tytul: "Scena 09: nocna wyprawa, skradanie przed obchodem Filcha"
+    rodzaj: pokaz
+    przeciwnicy: [npc.argus-filch]
+    rundy_max: 1
+    inicjatywa: false
+    inicjatywa_opis: "Nie ma inicjatywy: jeden test przeciwny dla całej grupy (Speed + Stealth prowadzącej przeciw Wits + Observation Filcha)."
+    stan_postaci: {body: 0, mind: 0}
+    zasady:
+      - "Daj graczom najwyżej 2 minuty na plan: kto prowadzi, kto niesie światło. Prowadzi najlepsza w Stealth; reszta idzie jej śladem (każda +1 do rzutu)."
+      - "Kliknij „Test przeciwny” i wybierz „Skradanie się” (Speed + Stealth). Filch broni się czujnością: Wits + Observation, 1D10 + 9. Nie podawaj graczom liczb Filcha: to „jego latarnia”."
+      - "W „Premii postaci” wpisz: pomocnicy +1 każdy, Ansel idzie przodem i melduje +2, gracze zauważyli stałą trasę Filcha i przeczekują latarnię +2. Kara −2, jeśli ktoś świeci różdżką (Filch +2 do rzutu, czyli odejmij 2). Rany i stany prowadzącej zaznacz w jej zdrowiu: panel odejmie je sam."
+      - "Wygrana: przechodzą cicho (jedno zdanie opisu). Remis: Filch staje i nasłuchuje, gracze mają chwilę na decyzję; Narrator rozstrzyga na ich korzyść, jeśli ruch jest rozsądny. Jeden ślad dla pani Pince."
+      - "Przegrana: latarnia łapie prowadzącą (dialog filch-obchod: „No proszę. Po ciszy nocnej.”). Reszta może się schować i odciągnąć Filcha (rozgałęzienie awaryjne-filch-w-drodze)."
+      - "Przegrana o 5 lub więcej (albo wszyscy złapani): szlaban dla wszystkich, zegar kradzieży +1, jeśli biegnie. Po północy Ansel budzi postać i druga próba idzie bez rzutu. Po nieudanym rzucie wolno wydać Story Point (dorzut 1D10)."
+    po_wygranej_postaci: "Dojście do biblioteki bez śladu: krok 3, ostatni rząd i drzwi."
+    po_wygranej_przeciwnika: "Złapanie: ustaw flaga.filch-zlapal i flaga.s1-zegar-kradziezy. Wyprawa trwa dalej (druga próba bez rzutu)."
+    uwagi: "Liczby ze sceny 09 (test skradanie). Filch rzuca 1D10 + 9 tak w karcie, jak w scenach. Jeśli któraś postać przegrała pojedynek w scenie 08 (Drained do śniadania), zaznacz jej 3 kółka umysłu: prowadzenie z Drained to +3 do trudności. Panel pokaże kary ze zdrowia sam."
+  - id: s1.starcie.09-galeria-wahadel
+    scena: s1.scena.09
+    krok: 4
+    tytul: "Scena 09: galeria wahadeł (przejście z ceną)"
+    rodzaj: pokaz
+    przeciwnicy: []
+    rundy_max: 1
+    inicjatywa: false
+    inicjatywa_opis: "Nie ma przeciwnika ani inicjatywy: jeden test grupowy o stałej trudności. Cena, nie bramka: przejście jest zawsze."
+    stan_postaci: {body: 0, mind: 0}
+    zasady:
+      - "Przeczytaj tekst 4 (korytarz rozszerza się, wahadła tną powietrze). Powiedz, że przejście jest zawsze; rozstrzyga się tylko, ile kosztuje."
+      - "Prowadzi jedna postać (najlepsza w Speed i Balance), pozostałe idą jej śladem (każda +1). Zapytaj, czy idą po śladach w kurzu albo liczą rytm na głos."
+      - "Rzut rozstrzygnij w zakładce „Testy” tego kroku (test galeria-wahadel): 1D10 + Speed + Balance przeciw Tricky (12). Ślady w kurzu albo rytm pani profesor od Ansela: +2. Liczenie rytmu na głos: +1 raz na test. Ponowne przejście przy księdze na poziomie 2: +3 do trudności."
+      - "Sukces: przechodzą w rytmie wahadeł, cicho i bez strat. Sukces imponujący: przy ewentualnej ucieczce na odcinku galerii mają +1."
+      - "Porażka: MG wybiera jedną cenę (albo oddaje wybór graczom): hałas (licznik hałasu +1, ślad dla pani Pince), stracone minuty (test wyjścia przed Filchem ma +1 do trudności więcej), albo zadrapanie jednej postaci: obrażenia 2D przeciw 1D10 + Vitality, rana najwyżej Shaken (przycisk „Zaznacz kółka”)."
+      - "Gdy czas goni, pomiń test i powiedz jednym zdaniem, że przeszli."
+    po_wygranej_postaci: "Przechodzą bez strat: krok 5, Sala Zatrzymanych Godzin."
+    po_wygranej_przeciwnika: "Przejście i tak otwarte; zapisz cenę (hałas, minuty albo zadrapanie) i idź do kroku 5."
+    uwagi: "Liczby ze sceny 09 (test galeria-wahadel). To nie jest starcie z przeciwnikiem; preset służy do pokazania kroków i wpisania rany w panelu. Poziom 3 zabezpieczeń księgi zamienia galerię w ucieczkę (osobny preset 09-ucieczka-z-pracowni)."
+  - id: s1.starcie.09-ucieczka-z-pracowni
+    scena: s1.scena.09
+    krok: 7
+    tytul: "Scena 09: ucieczka z pracowni przed trzynastym uderzeniem"
+    rodzaj: pokaz
+    przeciwnicy: []
+    rundy_max: 3
+    inicjatywa: false
+    inicjatywa_opis: "Nie ma inicjatywy: trzy odcinki drogi (sala, galeria, schody), na każdym jeden test grupowy. Licznik uderzeń rośnie z każdym odcinkiem."
+    stan_postaci: {body: 0, mind: 0}
+    zasady:
+      - "Przed ucieczką (krok 6) MG powiedział graczom wprost, poza fikcją, że wyrwanie kartki obudzi pracownię. Zapisz start licznika: 1 (pierwsze uderzenie). Licz na głos albo kośćmi na stole."
+      - "Odcinek 1 (sala): prowadzi jedna postać, test 1D10 + Speed + Balance przeciw Challenging (15) w zakładce „Testy” (test ucieczka). Pomocnik +1, światło albo liczenie rytmu na galerii +1 (raz na odcinek). Rany i stany prowadzącej: +1 do trudności każde."
+      - "Wynik: sukces to +3 do licznika, sukces imponujący +2. Porażka to +3 i jedna cena: +2 uderzenia, albo obrażenia 2D jednej postaci (przeciw 1D10 + Vitality), albo upuszczona rzecz. Porażka kompromitująca: +3 i dwie różne ceny."
+      - "Odcinek 2 (galeria, wahadła teraz tną) i odcinek 3 (schody, stopnie zapadają się od dołu): ten sam rzut. Na galerii +1, jeśli w teście galerii był sukces imponujący."
+      - "Jeśli licznik dojdzie do 13 przed końcem trzeciego odcinka, każda postać, która jest jeszcze w środku, robi „ostatni skok”: 1D10 + Vitality + Speed przeciw Tricky (12). Kto już zdał, podaje rękę (+1)."
+      - "Kto nie zdążył (test ostatni-skok oblany): siatka bezpieczeństwa 8, test zlapani: Bloodied, Dazed, brak pamięci ostatnich minut; skrzydło szpitalne do rana. Przed ogłoszeniem skutku gracz może wydać Story Point (dorzut 1D10) albo użyć RETRORSUM."
+      - "Gdy grupa wyjdzie: drzwi zatrzaskują się, bicie milknie w pół uderzenia. Licznik hałasu +1 za całe bicie; sprawdź wyjście przed Filchem (osobny preset)."
+    po_wygranej_postaci: "Wychodzą (bez porażek zwykle przy 10. uderzeniu, z jedną porażką przy 12.). Krok 8 albo scena 10."
+    po_wygranej_przeciwnika: "Pracownia wypluwa nieobecnych: flaga.ksiega-zlapani, flaga.filch-zlapal, zegar kradzieży +1 (jeśli biegnie)."
+    uwagi: "Liczby ze sceny 09 (testy ucieczka, ostatni-skok, zlapani). Śmierć postaci tylko po dwóch ostrzeżeniach i świadomym wyborze gracza (karta księgi); przy linii na śmierć zawsze obowiązuje siatka 8: pracownia wypluwa postać. Ucieczka z Dazed albo Drained po oddaniu godziny jest trudniejsza (kara +2 lub +3 dla prowadzącej): zaznacz ją w zdrowiu postaci."
+  - id: s1.starcie.09-wyjscie-przed-filchem
+    scena: s1.scena.09
+    krok: 7
+    tytul: "Scena 09: wyjście z biblioteki, gdy Filch nasłuchuje przy drzwiach"
+    rodzaj: pokaz
+    przeciwnicy: [npc.argus-filch]
+    rundy_max: 1
+    inicjatywa: false
+    inicjatywa_opis: "Nie ma inicjatywy: jeden test przeciwny, jak przy drodze tam, tylko trudniejszy z powodu hałasu."
+    stan_postaci: {body: 0, mind: 0}
+    zasady:
+      - "Gdy licznik hałasu doszedł do 2 albo wybiło trzynaście uderzeń, Filch staje w drzwiach biblioteki. Dialog filch-obchod: „Kto tam stuka?”."
+      - "Prowadzi najlepsza w skradaniu. Kliknij „Test przeciwny” i wybierz „Skradanie się” (Speed + Stealth); Filch broni się czujnością (1D10 + 9)."
+      - "W „Premii postaci”: pomocnicy +1 każdy, Ansel wychodzi pierwszy i melduje +2. Hałas (licznik 2+ albo ucieczka przed trzynastym uderzeniem): +2 do rzutu Filcha, czyli odejmij 2. Stany prowadzącej zaznacz w jej zdrowiu."
+      - "Wygrana: wymykają się bokiem za regałami, Filch odchodzi mrucząc; rano znajdzie ślady z panią Pince. Remis: Filch chwilę słucha i odchodzi niezadowolony, jeden ślad więcej."
+      - "Przegrana: latarnia łapie tych, którzy wyszli pierwsi: szlaban, spisane nazwiska, odprowadzenie do dormitoriów. Przedmioty z pracowni zostają przy postaciach (Filch ich nie przeszukuje)."
+      - "Zegar kradzieży +1, jeśli złapani zostali wszyscy. Po nieudanym rzucie wolno wydać Story Point (dorzut 1D10) albo użyć RETRORSUM (cofa najwyżej to złapanie)."
+    po_wygranej_postaci: "Wracają do dormitoriów. Przejście do sceny 10, jeśli notatnik zbliża się do progu sali."
+    po_wygranej_przeciwnika: "Flaga.filch-zlapal i flaga.s1-zegar-kradziezy (przy złapaniu wszystkich). Szlaban jako kolor."
+    uwagi: "Liczby ze sceny 09 (test wyjscie-przed-filchem). Jeśli Filch złapał postacie już na drodze do biblioteki (flaga.filch-zlapal), drugi raz zamiast szlabanu jest list do domu."
+  - id: s1.starcie.10-ucieczka-przed-filchem
+    scena: s1.scena.10
+    krok: 4
+    tytul: "Scena 10: ucieczka przed Filchem po trzynastym uderzeniu"
+    rodzaj: pokaz
+    przeciwnicy: [npc.argus-filch]
+    rundy_max: 1
+    inicjatywa: false
+    inicjatywa_opis: "Nie ma inicjatywy: jeden test przeciwny dla grupy. Rzucasz go tylko wtedy, gdy postacie nie przyjęły złapania od razu (biegną, chowają się, mieszają z uczniami)."
+    stan_postaci: {body: 0, mind: 0}
+    zasady:
+      - "Zapytaj: „Co robisz, gdy słyszysz kroki?”. Kto zgasi różdżkę i nasłuchuje, rzuca Quick Test (Observation, wynik równy lub niższy od umiejętności); sukces daje +2 do ucieczki."
+      - "Postacie, które stoją i grzecznie czekają na latarnię, nie rzucają: Filch ich ma (dialog filch-konfiskata)."
+      - "Prowadzi jedna postać (najwyższe Speed i Stealth, albo Balance, jeśli to bieg po schodach). Kliknij „Test przeciwny” i wybierz „Skradanie się” (Speed + Stealth); Filch broni się czujnością (1D10 + 9)."
+      - "W „Premii postaci”: biegnący za prowadzącą +1 każdy, przebudzony zamek (zamieszkane piętra, schody pełne uczniów w piżamach) +3, sukces w zauważeniu latarni +2, Ansel mówi, gdzie jest latarnia +1. Kara: różdżka świeci albo błyszczy mosiężna tarcza notatnika: odejmij 2 (Filch +2). Stan Shaken, Bruised albo Rattled z tej sceny zaznacz w zdrowiu."
+      - "Wygrana: wymykają się, nikt nie pyta, skąd wracają; notatnik zostaje u postaci. Remis: Filch widzi sylwetki i kawałek tarczy, ale nie twarze; plotka rano, bez szlabanu i konfiskaty."
+      - "Przegrana: latarnia łapie ich na schodach albo w progu pokoju wspólnego; dialog filch-konfiskata. Notatnik trafia do McGonagall (uczciwość, milczenie) albo do szuflady Filcha (kłamstwo, kpina). Szlaban."
+      - "Kto ucieka z notatnikiem osobno, rzuca osobno (te same liczby, bez premii za pomocników). Po nieudanym rzucie: Story Point (dorzut) albo RETRORSUM."
+    po_wygranej_postaci: "Tekst 7 (pokój wspólny). Notatnik zostaje przy postaciach; rozgałęzienie z-notatnikiem."
+    po_wygranej_przeciwnika: "Flaga.filch-zlapal, flaga.dziennik-miejsce = skonfiskowany. Gdy Filch złapał ich już tej nocy, zamiast szlabanu jest list do domu."
+    uwagi: "Liczby ze sceny 10 (testy ucieczka-przed-filchem i zauważenie-latarni). Scena celowo daje dużą przewagę (tłum +3): ma kończyć się pytaniem, nie rzutem. Zaklęcie rzucone w Filcha albo McGonagall: McGonagall rozbraja bez rzutu; nie rozpisuj walki ani pojedynku w tej scenie."
+  - id: s1.starcie.12-irytek
+    scena: s1.scena.12
+    krok: 1
+    tytul: "Scena 12, spotkanie B: Irytek (zaczepki, psota, próba przechytrzenia)"
+    rodzaj: pokaz
+    przeciwnicy: [npc.irytek]
+    rundy_max: 2
+    inicjatywa: false
+    inicjatywa_opis: "Nie ma inicjatywy: Irytek nie walczy i nie da się go trafić. Rozstrzygasz przechytrzenie jednym testem przeciwnym albo odpowiadasz psotą."
+    stan_postaci: {body: 0, mind: 0}
+    zasady:
+      - "Powiedz sobie, nie graczom: Irytka nie da się pokonać ani złapać. Przelatuje przez ściany, w każdej chwili może zniknąć ze sceny, a zaklęcia i rzucone przedmioty tylko go denerwują."
+      - "Gdy ktoś rzuca w niego zaklęciem albo przedmiotem: nie licz trafień i nie klikaj „Zapisz trafienie”. Irytek odpowiada psotą bez obrażeń: coś spada komuś na głowę, wrzask albo melodia nad uchem."
+      - "Gdy ktoś chce go przechytrzyć (np. o „Ślizgona z zegarkiem”): kliknij „Test przeciwny”, wybierz „Kłamstwo, blef, ukrywanie zamiaru” (Wits + Chicanery). Irytek broni się tą samą parą: 1D10 + 13."
+      - "Wygrana: Irytek da się nabrać na drobiazg (gwiżdże melodię Ślizgona, przedrzeźnia „paniczyka Tik-Taka”), ale nazwiska nie poda przy żadnym wyniku. Przegrana: psota (czas, komfort albo reputacja)."
+      - "Groźba Krwawym Baronem to automatyczny sukces bez rzutu, ale Irytek potem ucieka."
+      - "Zasada domowa karty: gdy psota spotka postać na oczach nauczyciela, ma ona +1 do trudności następnego testu społecznego przy nim do końca dnia (najwyżej +1). Koniec starcia: Irytek znika przez sufit, gdy mu się znudzi, najpóźniej po dwóch rundach."
+    po_wygranej_postaci: "Echo melodii (W4.2) bez testu: postać, która słyszała gwizd w scenie 03, rozpoznaje go."
+    po_wygranej_przeciwnika: "Postać dostaje psotę (kolor, +1 do trudności tylko przy nauczycielu, jak wyżej). Gra toczy się dalej."
+    uwagi: "Karta Irytka (npc.irytek) ma liczby jako propozycję: Walker nie podaje statystyk poltergeista (brak w podręczniku, s. 89). Pogoń za Irytkiem nie ma sensu i nie ma tu rzutu; jeśli gracze upierają się, odpowiedz psotą. Hałas Irytka w pobliżu daje +2 do skradania albo +2 do trudności (zob. karta, scena 10)."
+  - id: s1.starcie.12-kradziez-dormitorium
+    scena: s1.scena.12
+    krok: 12
+    tytul: "Scena 12, spotkanie F: nocna kradzież zegarka w dormitorium Slytherinu"
+    rodzaj: pokaz
+    przeciwnicy: [npc.cassian-vane]
+    rundy_max: 1
+    inicjatywa: false
+    inicjatywa_opis: "Nie ma inicjatywy: jeden test przeciwny dla jednej postaci. Dostępne tylko dla postaci ze Slytherinu i dopiero od wieczoru po scenie 04."
+    stan_postaci: {body: 0, mind: 0}
+    zasady:
+      - "Najpierw zwykłe życie: postać widzi i słyszy, jak Cassian nocą nakręca stojący zegarek i liczy szeptem. Nie wypychaj gracza do kradzieży; może tylko patrzeć i rano opowiedzieć drużynie."
+      - "Gdy kradnie: jeden test na całe spotkanie. Rzuca jedna postać, nikt jej nie pomaga. Kliknij „Test przeciwny” i wybierz „Ukrycie przedmiotu, kradzież kieszonkowa” (Speed + Concealment). Cassian broni się czujnością: 1D10 + 10."
+      - "Modyfikatory Cassiana wpisz w „Premii postaci” z odwrotnym znakiem: wariant 1 (śpi, zegarek pod poduszką) −4 do jego rzutu, czyli +4; wariant 2 (drzemie w fotelu z zegarkiem w dłoni) −2, czyli +2; Cassian zna twarz postaci (próbowała w 01–04) +2 do jego rzutu, czyli −2; postać sięga też po kartę z kufra (tylko wariant 1) +2, czyli −2."
+      - "Wygrana: zegarek jest u postaci (z kartą, jeśli zadeklarowała ją przed rzutem; wtedy daj handout karty). Zegar kradzieży staje. Cassian odkryje stratę w ciągu godziny i przyjdzie sam (spotkanie O, potem scena 08)."
+      - "Przegrana: Cassian się budzi: „Nie.”, chowa zegarek pod koszulę i nosi go odtąd przy sobie; kolejnej próby nie ma. Jeśli postać sięgała po kartę, wieko kufra go budzi: „Tam są skarpetki. Chcesz skarpetki?”."
+      - "Remis: Cassian mruczy przez sen i się przekręca; postać cofa rękę bez skutków albo rzuca jeszcze raz; przy drugim remisie przegrywa. Po porażce Story Point daje dorzut od razu po rzucie, zanim Cassian się obudzi (to nie druga próba)."
+    po_wygranej_postaci: "Flaga.zegarek-cassiana, flaga.zegarek-u-graczy (i flaga.karta-u-graczy tylko przy wygranej z zadeklarowaną kartą). Rozprute podszewki: Cassian wie, że to ktoś z dormitorium."
+    po_wygranej_przeciwnika: "Flaga.cassian-czujny. Rano przy śniadaniu Cassian patrzy na postać i milczy."
+    uwagi: "Liczby ze sceny 12 (test kradziez-dormitorium). Szanse przy Speed + Concealment 6–9: wariant 1, sam zegarek 45–72%; z kartą 28–55%; wariant 2 sam zegarek 28–55%; po wcześniejszych porażkach o ok. 20 punktów procentowych mniej. Jeśli przy stole kradzież albo „obcy przy łóżku” to zasłona, zostaw obserwację zza kotary i przenieś zdobycie zegarka do sceny 08. Kolejna rozbieżność: kary −4 i −2 za sen i drzemkę są zasadami domowymi karty zegarka (brak w podręczniku zasad dla śpiącego przeciwnika)."
+  - id: s1.starcie.00-przypadkowy-pojedynek
+    scena: ""
+    krok:
+    tytul: "Przypadkowy pojedynek (bez sceny)"
+    rodzaj: pojedynek
+    przeciwnicy: []
+    limit_trafien: {postac: 3, przeciwnik: 3}
+    rundy_max: 5
+    inicjatywa: true
+    inicjatywa_opis: "Rzuca się normalnie (Walker s. 41): każda strona 1D10 + Speed + Duelling (plus premia różdżki do Duelling). Wyższy wynik działa pierwszy; remis to zwarcie zaklęć."
+    stan_postaci: {body: 0, mind: 0}
+    zasady:
+      - "Wybierz przeciwnika: kliknij „Losuj przeciwnika” (poziom: łatwy, średni, trudny albo niemożliwy) albo wybierz go z listy „Przeciwnik”. Przeczytaj graczom opis jednym zdaniem; „Jak prowadzić” zostaje dla Ciebie."
+      - "Ustal rodzaj starcia: formalny pojedynek (ukłon, limit trafień, bez ran) albo walka na serio (rany, rodzaj „Walka na serio”). Z poziomem niemożliwy zawsze „na serio” i bez nadziei na wygraną: celem jest ucieczka albo pomoc nauczyciela."
+      - "Obie strony deklarują zaklęcia przed rzutem (s. 41): gracz mówi, jakie rzuca; zaklęcia przeciwnika wybierz z jego karty (tylko opanowane, ZD-06)."
+      - "Przycisk „Inicjatywa”: wpisz obie kości, panel pokaże, kto działa pierwszy. Dalej wybieraj „[imię postaci] rzuca zaklęcie” albo „[przeciwnik] atakuje”; kolejność akcji w rundzie wg ZD-08 (po jednej akcji na zmianę, zaczyna zwycięzca inicjatywy)."
+      - "Każdy atak: rzut atakującego przeciw celowi obrońcy (unik 1D10 + Speed + Wits albo opanowane Protego, które zużywa akcję, ZD-07). Trafienie w pojedynku formalnym zapisz przyciskiem „Zapisz trafienie”. Wynik 2× i 3× celu to tylko kolor (ZD-09)."
+      - "W walce na serio trafienie zadaje obrażenia, a cel rzuca 1D10 + Vitality i traci kółka (Walker s. 35). Zaznacz je przyciskiem „Zaznacz kółka”; kary ze zdrowia panel dolicza do celu."
+      - "Koniec: ktoś ma 3 trafienia, przeciwnik się poddaje albo ucieka (patrz „Jak prowadzić” w jego karcie), albo mija 5 rund i do akcji wkracza nauczyciel albo prefekt. Rozstrzygnij skutki: punkty ujemne, szlaban, plotka."
+    po_wygranej_postaci: "Przeciwnik opuszcza pole zgodnie ze swoim stylem; skutki wg poziomu (plotka u uczniów, szlaban, dług u zwycięzcy)."
+    po_wygranej_przeciwnika: "Postać traci twarz albo punkty domu (kolor), przy walce na serio także kółka zdrowia. Nic nie zatrzymuje gry."
+    uwagi: "Propozycja: limit 3 trafień dla obu stron i najwyżej 5 rund; Walker nie ustala limitu trafień ani długości formalnego pojedynku (te limity w scenach 04 i 08 to zasady domowe z asymetrią 2/3). Przy symetrycznym pojedynku szanse postaci i przeciwnika są równe, gdy mają podobne atak i unik. Wskazówka doboru: łatwy dla postaci pierwszego pojedynku, średni jak pojedynek z Cassianem, trudny to ryzyko, niemożliwy to scena ucieczki, nie walki."
+  - id: s1.starcie.00-przypadkowa-bojka
+    scena: ""
+    krok:
+    tytul: "Przypadkowa bójka bez różdżek (bez sceny)"
+    rodzaj: walka
+    przeciwnicy: []
+    rundy_max: 3
+    inicjatywa: false
+    inicjatywa_opis: "Kto zaczyna bójkę, ten atakuje pierwszy; potem kolejność na zmianę (Narrator ustala kolejność według logiki sceny, Walker s. 33). Gdy akcje się wykluczają: 1D10 + Speed + Skirmishing."
+    stan_postaci: {body: 0, mind: 0}
+    zasady:
+      - "Wybierz przeciwnika („Losuj przeciwnika” albo lista „Przeciwnik”). Ostrzeż graczy poza fikcją, że bójka kończy się kłopotami: prefekt, Filch albo nauczyciel zjawią się po kilku rundach."
+      - "Atak postaci: kliknij „Test przeciwny” i wybierz „Bójka bez różdżek” (Vitality + Skirmishing, Walker s. 34). Przeciwnik broni się blokiem wręcz (1D10 + Vitality + Skirmishing) albo unikiem (1D10 + Speed + Wits): weź lepszy z jego karty."
+      - "Uczniowie rzadko mają Skirmishing, więc ich blok jest słaby (1D10 + Vitality); unik jest zwykle lepszy. Panel ma tylko parę „Bójka bez różdżek” dla obrońcy; dla uniku dopisz różnicę w polu „Premia postaci” ze znakiem odwrotnym."
+      - "Trafienie: obrażenia pięści to ½D + Vitality atakującego (Walker s. 35). Obrońca rzuca 1D10 + Vitality; obrażenia równe lub wyższe to 1 kółko, 2× to 2 kółka (plus test przytomności), 3× to 3 kółka. Zaznacz kółka przyciskiem „Zaznacz kółka”."
+      - "Gdy przeciwnik atakuje: wybierz „[przeciwnik] atakuje” i rzuć za niego Vitality + Skirmishing (większość uczniów: sama Vitality). Postać broni się blokiem albo unikiem."
+      - "Rany ciała po kółku się sumują i dają kary do trudności (1: +1, 2: +2, 3: +3). Po 3 rundach albo po pierwszej wyraźnej ranie wkracza prefekt albo nauczyciel i rozdziela walczących."
+    po_wygranej_postaci: "Przeciwnik się wycofuje, poddaje albo ucieka (patrz jego „Jak prowadzić”). Nauczyciel i tak wystawia szlaban; punkty ujemne dla domu (kolor)."
+    po_wygranej_przeciwnika: "Postać ma kółka ciała (zwykle Shaken lub Bruised, mija w minuty), szlaban i plotkę o porażce. Nic nie zatrzymuje gry."
+    uwagi: "Walker podaje zasady bójki (s. 33–35) bez zaklęć; przeciwnicy z przeciwnicy-losowi.yaml nie mają Skirmishing w kartach (kilku dorosłych tak), więc pięści to ich słaba strona. Propozycja: bójka z poziomem trudny i niemożliwy ma sens tylko jako krótka scena ucieczki; dorosły czarodziej prawie zawsze sięga po różdżkę (wtedy użyj presetu „Przypadkowy pojedynek” i rodzaju „Walka na serio”). Limit 3 rund to propozycja."

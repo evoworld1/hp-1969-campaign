@@ -1,0 +1,250 @@
+# Przeciwnicy losowi: 7 gotowych kart do przypadkowego pojedynku albo bójki (panel MG: „Przypadkowy pojedynek”).
+# status: szkic. Wszystkie postacie to nasze wymysły (pewnosc: nasze), rok 1969, Hogwart i okolice. Autor: mechanik (2026-11-22).
+# Liczby wg tabeli poziomów Walkera s. 102 (suma cech i umiejętności) i wzoru kart NPC (02_zasady/walker/statystyki-npc.md).
+# Rzuty (Walker s. 33, 41, 165): inicjatywa 1D10 + Speed + Duelling; atak 1D10 + Wits + Duelling + premia różdżki;
+#   unik 1D10 + Speed + Wits; Protego 1D10 + Wits + Charms (tylko gdy opanowane, zużywa akcję, ZD-07);
+#   odporność na obrażenia 1D10 + Vitality. Zaklęcia: ZD-06 (a), w walce trafiają tylko opanowane (0 = opanowane).
+# Poziom trudności i „poziom” Walkera to dwie różne rzeczy: poziom_trudnosci to nasza etykieta dla MG, poziom to wiersz tabeli s. 102.
+przeciwnicy:
+  - id: los.latwy-1
+    poziom_trudnosci: latwy        # latwy | sredni | trudny | niemozliwy
+    imie: "Wilmot Pridd"
+    pewnosc: nasze
+    opis: "Trzecioroczny Puchon, drobny, z piegami i szatą o rozmiar za dużą; nie szuka kłótni, ale dał się podpuścić. Walczy ostrożnie, trzyma różdżkę oburącz i woła zaklęcie za głośno, więc widać z daleka, co rzuci."
+    styl: "Ulubione zaklęcie: Flipendo, na zmianę z Rictustempra. Atak 1D10 + 6, unik 1D10 + 6, odporność 1D10 + 3. Pierwsze wytrącenie różdżki albo pierwsze trafienie i się poddaje („Dobra, dobra, wygraliście!”); ucieka, gdy w korytarzu pojawia się prefekt albo Filch. Nie używa Protego (nie opanował), nigdy nie celuje w twarz. Zwycięstwo nad nim nie daje nic poza kolorem; porażka z nim jest dla postaci wstydem (plotka w Wielkiej Sali)."
+    staty:
+      wartosci:
+        rodzaj: czarodziej
+        poziom: "Average student"     # tabela Walker s. 102; cechy 13 (zakres 11-18), umiejętności 21 (zakres 21-40)
+        lineage: Half-blood
+        school: "Hogwarts (1967)"
+        year: 3
+        house: Hufflepuff
+        cechy: {Vitality: 3, Speed: 3, Wits: 3, Knowledge: 2, Focus: 2}
+        umiejetnosci:
+          Charms: 3
+          Herbology: 3
+          D.A.D.A.: 2
+          Duelling: 2
+          Observation: 2
+          Potions: 2
+          Transfiguration: 2
+          History of Magic: 2
+          Balance: 2
+          Magical Theory: 1
+        zaklecia: {Flipendo: 0, Rictustempra: 0, Expelliarmus: 0}
+        patronus: brak
+        rozdzka: "Jabłoń, włos jednorożca; Duelling +1, Charms +1"
+        zdrowie: {body: 0, mind: 0}
+  - id: los.latwy-2
+    poziom_trudnosci: latwy
+    imie: "Dorothea Pilch"
+    pewnosc: nasze
+    opis: "Czwartoroczna Gryfonka z mugolskiej rodziny, szybka, głośna i uparta; zaczepia na korytarzu, bo ktoś obraził jej koleżankę z roku. Walczy bez finezji, ale biega szybciej od większości."
+    styl: "Ulubione zaklęcie: Trip Jinx (podcina nogi), potem Expelliarmus, gdy cel już leży. Atak 1D10 + 7, unik 1D10 + 7, odporność 1D10 + 3. Najpierw wymienia po dwie akcje szybko, potem się rozkręca; po wytrąceniu różdżki wybucha śmiechem i prosi o rewanż („Jeszcze raz! Tym razem się nie dam”). Gdy przegrywa dwa razy z rzędu, ucieka biegiem (Speed 4). Można ją załatwić rozmową, jeśli postać nie wyśmieje jej pochodzenia."
+    staty:
+      wartosci:
+        rodzaj: czarodziej
+        poziom: "Average student"     # cechy 15, umiejętności 28
+        lineage: Muggle-born
+        school: "Hogwarts (1966)"
+        year: 4
+        house: Gryffindor
+        cechy: {Vitality: 3, Speed: 4, Wits: 3, Knowledge: 2, Focus: 3}
+        umiejetnosci:
+          Duelling: 3
+          Charms: 3
+          D.A.D.A.: 3
+          Balance: 3
+          Broomstick Flying: 4
+          Muggle Studies: 3
+          Observation: 2
+          Stealth: 2
+          Transfiguration: 2
+          Herbology: 2
+          Potions: 1
+        zaklecia: {Trip Jinx: 0, Expelliarmus: 0, Rictustempra: 0, Flipendo: 0}
+        patronus: brak
+        rozdzka: "Wiąz, włókno smoczego serca; Duelling +1, Jinxes +1"
+        zdrowie: {body: 0, mind: 0}
+  - id: los.sredni-1
+    poziom_trudnosci: sredni
+    imie: "Ignatius Brae"
+    pewnosc: nasze
+    opis: "Szóstoroczny Krukon w okularach, który czyta o pojedynkach więcej, niż się pojedynkuje; chłodny, grzeczny, trochę protekcjonalny. Walczy z tarczą i cierpliwie czeka na błąd."
+    styl: "Ulubione zaklęcie: Protego, potem Impedimenta albo Expelliarmus. Atak 1D10 + 10, unik 1D10 + 9, Protego 1D10 + 11, odporność 1D10 + 3. Deklaruje obronę przy każdej drugiej akcji (Protego zużywa akcję, ZD-07), więc atakuje rzadziej niż Cassian. Poddaje się przy drugim trafieniu albo gdy zostanie bez różdżki: „Zgoda. Dobrze to zrobiłeś”. Nie ucieka, bo uważa to za nieeleganckie. Nie bije się bez różdżki."
+    staty:
+      wartosci:
+        rodzaj: czarodziej
+        poziom: "Gifted student"      # cechy 21 (zakres 19-21), umiejętności 43 (zakres 41-60)
+        lineage: Half-blood
+        school: "Hogwarts (1964)"
+        year: 6
+        house: Ravenclaw
+        cechy: {Vitality: 3, Speed: 4, Wits: 5, Knowledge: 5, Focus: 4}
+        umiejetnosci:
+          Charms: 5
+          Duelling: 4
+          D.A.D.A.: 4
+          Transfiguration: 4
+          Magical Theory: 4
+          Observation: 3
+          Potions: 3
+          Arithmancy: 3
+          Astronomy: 3
+          History of Magic: 3
+          Balance: 2
+          Stealth: 2
+          Herbology: 2
+          Chicanery: 1
+        zaklecia: {Expelliarmus: 0, Impedimenta: 0, Protego: 0, Flipendo: 0, Rictustempra: 0, Trip Jinx: 0}
+        patronus: brak
+        rozdzka: "Cis, włos jednorożca; Duelling +1, Charms +1"
+        zdrowie: {body: 0, mind: 0}
+  - id: los.sredni-2
+    poziom_trudnosci: sredni
+    imie: "Leopold Thrale"
+    pewnosc: nasze
+    opis: "Siódmoroczny Ślizgon, pałkarz drużyny, szeroki w barach, z uśmiechem człowieka, który lubi, gdy młodsi ustępują mu z drogi. Walczy agresywnie i szybko, lubi widzieć, jak przeciwnik ląduje na ziemi."
+    styl: "Ulubione zaklęcie: Everte Statum, potem Stupefy. Atak 1D10 + 11, unik 1D10 + 9, odporność 1D10 + 5. Zaczyna od inicjatywy i dwóch ataków pod rząd (nie broni się tarczą, tylko unikiem). Stupefy rzuca w pojedynku nieformalnym dopiero od drugiej rundy; jeśli stół chce łagodniej, zostaje przy Everte Statum i Flipendo. Poddaje się dopiero po dwóch trafieniach i wytrąceniu różdżki, ale wtedy odchodzi z groźbą („Zapamiętam cię”). Gdy w pobliżu stoi nauczyciel, natychmiast przechodzi na uprzejmy ton."
+    staty:
+      wartosci:
+        rodzaj: czarodziej
+        poziom: "Gifted student"      # cechy 21, umiejętności 42
+        lineage: Pure-blood
+        school: "Hogwarts (1963)"
+        year: 7
+        house: Slytherin
+        cechy: {Vitality: 5, Speed: 4, Wits: 5, Knowledge: 3, Focus: 4}
+        umiejetnosci:
+          Duelling: 5
+          D.A.D.A.: 5
+          Charms: 4
+          Broomstick Flying: 5
+          Skirmishing: 3
+          Balance: 3
+          Transfiguration: 3
+          Observation: 3
+          Authority: 3
+          Potions: 2
+          Stealth: 2
+          Magical Theory: 2
+          Herbology: 2
+        zaklecia: {Everte Statum: 0, Stupefy: 0, Expelliarmus: 0, Flipendo: 0, Impedimenta: 0}
+        patronus: brak
+        rozdzka: "Jesion, włókno smoczego serca; Duelling +1, Offensive Magic +1"
+        zdrowie: {body: 0, mind: 0}
+  - id: los.trudny-1
+    poziom_trudnosci: trudny
+    imie: "Jasper Grimsditch"
+    pewnosc: nasze
+    opis: "Czterdziestolatek z zaplecza Hogsmeade: znoszony płaszcz, zbyt czyste ręce, uśmiech, który nie sięga oczu. Sprzedaje wszystko, co da się sprzedać, i ma pamięć do twarzy uczniów, którzy kiedyś go przyłapali."
+    styl: "Ulubione zaklęcie: Stupefy, poprzedzone blefem albo pogawędką. Atak 1D10 + 13, unik 1D10 + 11, Protego 1D10 + 11, odporność 1D10 + 5. Wygrywa inicjatywę podstępem: zaczyna rozmowę i atakuje w połowie zdania. Nie lubi długich walk: jeśli traci dwa trafienia albo różdżkę, zostawia towar i ucieka (poza terenem szkoły teleportacją, na błoniach biegiem do Zakazanego Lasu albo Hogsmeade). Nie zabija i nie używa klątw; woli, żeby uczeń zasnął w krzakach. Dorosły łamiący przepisy w pobliżu zamku: po wygranej postaci zostaje pytanie, komu to zgłosić."
+    staty:
+      wartosci:
+        rodzaj: czarodziej
+        poziom: "Professional Wizard" # cechy 25 (zakres 25-34), umiejętności 81 (zakres 81-140)
+        lineage: Half-blood
+        school: "Hogwarts (1938)"
+        profession: "Pośrednik i handlarz z Hogsmeade"
+        cechy: {Vitality: 5, Speed: 5, Wits: 6, Knowledge: 4, Focus: 5}
+        umiejetnosci:
+          Duelling: 6
+          Chicanery: 7
+          Stealth: 6
+          Concealment: 6
+          Skirmishing: 6
+          D.A.D.A.: 5
+          Charms: 5
+          Observation: 6
+          Persuasion: 5
+          Disguise: 4
+          Transfiguration: 4
+          Balance: 4
+          Trivia: 4
+          Transportation: 4
+          Law: 4
+          Potions: 3
+          Authority: 2
+        zaklecia: {Stupefy: 0, Expelliarmus: 0, Petrificus Totalus: 0, Protego: 0, Flipendo: 0, Impedimenta: 0, Furnunculus: 0}
+        patronus: brak
+        rozdzka: "Czarny orzech, włókno smoczego serca; Duelling +1, Jinxes +1"
+        zdrowie: {body: 0, mind: 0}
+  - id: los.trudny-2
+    poziom_trudnosci: trudny
+    imie: "Aurelian Voss"
+    pewnosc: nasze
+    opis: "Siódmoroczny Krukon, mistrz szkolnych pojedynków, wysoki, spokojny, ubrany z przesadną dokładnością. Szanuje przeciwników, którzy walczą uczciwie, i nie znosi tych, którzy oszukują."
+    styl: "Ulubione zaklęcie: Expelliarmus, potem Stupefy, gdy zasady pojedynku na to pozwalają. Atak 1D10 + 15, unik 1D10 + 10, Protego 1D10 + 13, odporność 1D10 + 4. Walczy formalnie: ukłon, odliczenie, brak ciosów w plecy; łamie rytm tylko wtedy, gdy przeciwnik złamie go pierwszy. Nie ucieka i nie poddaje się łatwo, ale przy dwóch własnych trafieniach i wytrąconej różdżce kończy z uśmiechem („Dobra walka”). Dobry sparingpartner: pokonany przez postać może stać się sojusznikiem na lata."
+    staty:
+      wartosci:
+        rodzaj: czarodziej
+        poziom: "Top of the class"    # cechy 24 (zakres 22-24), umiejętności 71 (zakres 61-80)
+        lineage: Pure-blood
+        school: "Hogwarts (1963)"
+        year: 7
+        house: Ravenclaw
+        cechy: {Vitality: 4, Speed: 5, Wits: 5, Knowledge: 5, Focus: 5}
+        umiejetnosci:
+          Duelling: 8
+          D.A.D.A.: 7
+          Charms: 7
+          Transfiguration: 6
+          Observation: 5
+          Magical Theory: 5
+          Arithmancy: 4
+          Balance: 4
+          Potions: 4
+          Broomstick Flying: 4
+          Authority: 3
+          History of Magic: 3
+          Astronomy: 3
+          Herbology: 3
+          Stealth: 3
+        zaklecia: {Expelliarmus: 0, Stupefy: 0, Protego: 0, Impedimenta: 0, Everte Statum: 0, Petrificus Totalus: 0, Flipendo: 0}
+        patronus: brak
+        rozdzka: "Winorośl, włos jednorożca; Duelling +2, Charms +1"
+        zdrowie: {body: 0, mind: 0}
+  - id: los.niemozliwy-1
+    poziom_trudnosci: niemozliwy
+    imie: "Aldous Greave"
+    pewnosc: nasze
+    opis: "Wysoki czarodziej w podróżnym płaszczu, wiek nieokreślony, z twarzą, którą zapomina się po odwróceniu wzroku; nazwisko jest zapewne fałszywe. Może być aurorem na tropie, łowcą ciemnych magów albo wysłannikiem kręgu zwolenników Czarnego Pana: MG wybiera, kim jest (patrz styl)."
+    styl: "To przeciwnik nie do pokonania: celem postaci jest przeżyć, uciec albo doczekać pomocy, nie wygrać. Atak 1D10 + 20, unik 1D10 + 15, Protego 1D10 + 17, odporność 1D10 + 6. Zawsze wygrywa inicjatywę i broni się Protego, a dwa ataki na rundę rzuca pewnie (Stupefy, Petrificus Totalus, Incarcerous). Nie zabija uczniów: jako auror obezwładnia i prowadzi do Dumbledore'a; jako zwolennik Czarnego Pana zbywa ich, zabiera, po co przyszedł, i znika (Obliviate na świadkach). Klątwy z listy Dark Arts (Crucio, Imperio) są w jego zasięgu, ale w Sesji 1 to ostateczność, tylko gdyby gracze same wymusili tragedię; wojna dopiero nadciąga, a Hogwart jest dla niego terenem obserwacji, nie polem bitwy. Zwykle kończy starcie po 2-3 rundach: nadchodzi Dumbledore albo któryś z profesorów, albo on sam stwierdza, że to nie ten dzień, i znika."
+    staty:
+      wartosci:
+        rodzaj: czarodziej
+        poziom: "Veteran Wizard"      # cechy 36 (zakres 35-39), umiejętności 158 (zakres 141-170)
+        lineage: Pure-blood
+        school: "Hogwarts (1941)"
+        profession: "Nieznany: auror, łowca ciemnych magów albo wysłannik zwolenników Czarnego Pana (wybór MG)"
+        cechy: {Vitality: 6, Speed: 7, Wits: 8, Knowledge: 7, Focus: 8}
+        umiejetnosci:
+          Duelling: 10
+          D.A.D.A.: 10
+          Dark Arts: 9
+          Charms: 9
+          Observation: 9
+          Transfiguration: 8
+          Occlumency: 8
+          Chicanery: 8
+          Stealth: 7
+          Strategy: 7
+          Concealment: 6
+          Disguise: 6
+          Authority: 6
+          Persuasion: 6
+          Potions: 6
+          Magical Theory: 6
+          Balance: 6
+          Transportation: 6
+          Skirmishing: 5
+          Tracking: 5
+          Broomstick Flying: 5
+          Trivia: 4
+          Law: 3
+          Wandlore: 3
+        zaklecia: {Stupefy: 0, Petrificus Totalus: 0, Incarcerous: 0, Protego: 0, Expelliarmus: 0, Impedimenta: 0, Everte Statum: 0, Reducto: 0, Obliviate: 0, Confundo: 0, Levicorpus: 0, Crucio: 0, Imperio: 0}
+        patronus: brak
+        rozdzka: "Cis, włókno smoczego serca; Duelling +2, Curses +1"
+        zdrowie: {body: 0, mind: 0}

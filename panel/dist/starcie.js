@@ -33,7 +33,8 @@ var PARY = [
   ["Ciekawostka, plotka, wiedza o zamku", "Knowledge", "Trivia"],
   ["Szukanie w bibliotece", "Knowledge", "Archivist"],
   ["Zręczność, wspinanie, łapanie", "Vitality", "Balance"],
-  ["Bójka bez różdżek", "Vitality", "Skirmishing"]
+  ["Bójka bez różdżek", "Vitality", "Skirmishing"],
+  ["Unik, wyrwanie się, ucieczka", "Speed", "Wits"]
 ];
 var SKALA = [[3, "Elementary (elementarne)"], [6, "Straightforward (proste)"], [9, "proste zaklęcie (ZD-03)"], [12, "Tricky (podchwytliwe)"], [15, "Challenging (wymagające)"], [18, "Ambitious (ambitne)"], [21, "Formidable (potężne)"], [25, "Almost Impossible (prawie niemożliwe)"]];
 
@@ -306,7 +307,7 @@ window.renderStarcie = function (el, opt) {
       var poz = q("#st-lp").value, pula = (opt.losowi || []).filter(function (l) { return !poz || l.poziom_trudnosci === poz; });
       if (!pula.length) return;
       S.n = pula[Math.floor(Math.random() * pula.length)].id; S.tn = 0; S.tp = 0; S.zn = { body: 0, mind: 0 }; S.log = []; S.akcja = "inic";
-      S.preset = pres.some(function (x) { return x.id === "s1.starcie.przypadkowy"; }) ? "s1.starcie.przypadkowy" : "";
+      S.preset = pres.some(function (x) { return x.id === "s1.starcie.00-przypadkowy-pojedynek"; }) ? "s1.starcie.00-przypadkowy-pojedynek" : "";
       rysuj();
     };
     el.querySelectorAll(".wyb-p button").forEach(function (b) { b.onclick = function () { S.p = b.getAttribute("data-p"); rysuj(); }; });
@@ -360,7 +361,7 @@ window.renderStarcie = function (el, opt) {
     if (S.akcja === "przec") {
       var o2 = w || {};
       box.innerHTML = "<p class='puste'>Obie strony rzucają 1D10 + cecha + umiejętność; wyższy wygrywa, remis: powtórka albo decyzja MG (s. 4). Kary ze zdrowia odejmij od rzutu.</p>" +
-        '<label>Co sprawdzamy <select id="pz-para">' + PARY.map(function (x, i) { return '<option value="' + i + '">' + esc(x[0]) + " (" + CECHY_PL[x[1]] + " + " + esc(UM_PL[x[2]] || x[2]) + ")</option>"; }).join("") + "</select></label>" +
+        '<label>Co sprawdzamy <select id="pz-para">' + PARY.map(function (x, i) { return '<option value="' + i + '">' + esc(x[0]) + " (" + CECHY_PL[x[1]] + " + " + esc(UM_PL[x[2]] || CECHY_PL[x[2]] || x[2]) + ")</option>"; }).join("") + "</select></label>" +
         '<label' + (G ? " hidden" : "") + '>Przeciwnik broni się parą <select id="pz-para-n">' + PARY.map(function (x, i) { return '<option value="' + i + '">' + esc(x[0]) + " (" + CECHY_PL[x[1]] + " + " + esc(UM_PL[x[2]] || x[2]) + ")</option>"; }).join("") + "</select></label>" +
         numer("pz-p", p.imie + ": kość") + numer("pz-n", NI() + ": kość") + numer("pz-m", "Premia postaci (nazwany nawyk +3, pomocnik +1 itp.)", 0) + '<div id="pz-w" class="wynikk">Wpisz obie kości.</div>';
       var sp = el.querySelector("#pz-para"), sn = el.querySelector("#pz-para-n");
@@ -370,7 +371,8 @@ window.renderStarcie = function (el, opt) {
       var lp = function () {
         var a = n("pz-p"), b = n("pz-n"), m = n("pz-m") || 0, e = el.querySelector("#pz-w");
         var x = PARY[+sp.value], y = PARY[+sn.value];
-        var vp = ce(p, x[1]) + um(p, x[2]), vn = ce(o2, y[1]) + um(o2, y[2]);
+        var dr = function (o, n) { return CECHY.indexOf(n) >= 0 ? ce(o, n) : um(o, n); };
+        var vp = ce(p, x[1]) + dr(p, x[2]), vn = ce(o2, y[1]) + dr(o2, y[2]);
         var kpp = kp === "X" ? 0 : kp, knn = kn === "X" ? 0 : kn;
         var info = p.imie + ": 1D10 + " + vp + (m ? " + " + m : "") + (kpp ? " − kara " + kpp : "") + (G ? "" : " · " + esc(NI()) + ": 1D10 + " + vn + (knn ? " − kara " + knn : ""));
         if (b != null && a == null) { e.innerHTML = info + "<br>Żeby wygrać: " + minKosc(b + vn - knn - vp - m + kpp + 1); return; }
