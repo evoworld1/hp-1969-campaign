@@ -68,7 +68,7 @@ Uwaga o typie pliku: kontrakt danych nie ma osobnego typu dla „dokumentu oceny
 
 **Przełożenie na Walkera (propozycja).**
 - Walker **nie ma mechaniki relacji z NPC**; są tylko testy społeczne (np. Persuasion, s. 3). Więź niczego nie dubluje.
-- **Bez rzutów.** Życzliwość wobec przestraszonego dziecka nie powinna zależeć od kości. Więź rośnie za działanie w fikcji, nie za udany test Persuasion. Test Persuasion (Tricky, 12) zostaje tylko do uspokojenia Ansela w panice.
+- **Bez rzutów.** Życzliwość wobec przestraszonego dziecka nie powinna zależeć od kości. Więź rośnie za działanie w fikcji, nie za udany test Persuasion. Test Persuasion (Challenging, 15; od 2026-11-22, wcześniej Tricky 12) zostaje tylko do uspokojenia Ansela w panice.
 - **Tracker** `rodzaj: wiez`, `zakres: 0-3`, `zasieg: kampania`, osobno dla każdej postaci. Najwyżej +1 na scenę na postać, żeby gracze nie „farmili” Więzi.
 - **Progi:**
 

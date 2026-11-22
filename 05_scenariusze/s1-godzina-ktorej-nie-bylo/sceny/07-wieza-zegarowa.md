@@ -376,10 +376,10 @@ Bez rzutu postacie widzą: mechanizm bez skazy, świeży olej, miętę, plakietk
 ```yaml
 test:
   id: s1.scena.07.test.mechanizm
-  opis: "Postać ogląda z bliska mechanizm, olej i plakietkę, szukając czegokolwiek nietypowego. Podstawowy wynik (mechanizm bez skazy, zero przesunięcia, olej, plakietka z napisem) postacie dostają bez rzutu; ten test dotyczy tylko drobiazgu, że „i Córka” wycięto później i innym dłutem. Test standardowy (s. 3), rzuca jedna postać, przy czym ta sama postać nie rzuca ponownie w tej scenie; inna postać może spróbować osobno. Trudność Tricky (12), bo to drobiazg w półmroku. Szanse (Wits + Observation 9–10): archetypy A, C i D wystarczy 3 lub więcej na kości (ok. 80%), archetyp B wystarczy 2 (ok. 90%). Sukces imponujący (24) jest nieosiągalny dla postaci startowych i nie ma osobnego efektu. Porażka nie kosztuje niczego: postać widzi tylko starannie wygrawerowaną, nowiutką tabliczkę. Story Point po porażce wolno wydać (s. 4), ale nie warto: ziarno i tak dostarczy Crake albo Filch (W8)."
+  opis: "Postać ogląda z bliska mechanizm, olej i plakietkę, szukając czegokolwiek nietypowego. Podstawowy wynik (mechanizm bez skazy, zero przesunięcia, olej, plakietka z napisem) postacie dostają bez rzutu; ten test dotyczy tylko drobiazgu, że „i Córka” wycięto później i innym dłutem. Test standardowy (s. 3), rzuca jedna postać, przy czym ta sama postać nie rzuca ponownie w tej scenie; inna postać może spróbować osobno. Trudność Challenging (15), bo to drobiazg w półmroku (podniesiona z 12 decyzją MG z 2026-11-22). Szanse (Wits + Observation 9–10): archetypy A, C i D wystarczy 6 lub więcej na kości (ok. 50%), archetyp B wystarczy 5 (ok. 60%). Szansa przeciętnej postaci: ok. 53% (ważność: smaczek). Sukces imponujący (30) jest nieosiągalny dla postaci startowych i nie ma osobnego efektu. Porażka nie kosztuje niczego: postać widzi tylko starannie wygrawerowaną, nowiutką tabliczkę. Story Point po porażce wolno wydać (s. 4), ale nie warto: ziarno i tak dostarczy Crake albo Filch (W8)."
   kto: jeden
   rzut: "1D10 + Wits + Observation"
-  trudnosc: "Tricky (12)"
+  trudnosc: "Challenging (15)"
   modyfikatory:
     - warunek: "Każda inna postać, która pomaga (świeci Lumos, trzyma ramię, podpowiada, gdzie patrzeć); najwyżej dwie (Working Together, s. 4)"
       wartosc: "+1 do rzutu"

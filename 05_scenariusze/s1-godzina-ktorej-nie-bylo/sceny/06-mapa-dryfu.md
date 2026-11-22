@@ -477,15 +477,15 @@ dialog:
 
 W miejscach spokojnych (krużganek, biblioteka, Sala Zaklęć) pomiar zwykłym zegarkiem też idzie **bez rzutu**. Nie każ rzucać przy każdej liczbie.
 
-**Szanse.** Zwykły zegarek, próg 6: archetypy A-D 100% (rzucają razem z cechami 9-10 przed kością). Z jednym utrudnieniem (próg 9): nadal 100%. Z dwoma utrudnieniami naraz (próg 12): 80-90%. Dopiero rany (Drained +3, Dazed +2) albo postać z pełnej ścieżki o słabej Wits i Observation wprowadzają realne ryzyko. To zamierzone: pomiar jest lekcją, nie bramką.
+**Szanse (decyzja MG z 2026-11-22: ważne odkrycia nie mogą wychodzić prawie zawsze).** Zwykły zegarek, próg 15 (Challenging): przeciętna postać ma ok. 53% (przy Wits + Observation 9-10 wystarczy 5-6 na kości). Z jednym utrudnieniem (próg 18): ok. 23%. Z dwoma utrudnieniami naraz (próg 21): kilka procent, więc pomiaru w takim miejscu nie rzuca się, tylko przenosi w spokojniejsze. Rany (Drained +3, Dazed +2) obniżają szanse dalej. Porażka nic nie zamyka: powtórka kosztuje kilka minut, Tempus omija rzut, a wzór podpowiadają też NPC. Zasada naczelna zostaje: rzut ma być wyjątkiem, pomiar w miejscu spokojnym idzie bez rzutu.
 
 ```yaml
 test:
   id: s1.scena.06.test.pomiar
-  opis: "Postać mierzy dryf czasu w jednym miejscu zamku. Tempus: opanowane zaklęcie działa bez rzutu (Walker 2e s. 31, 41; ZD-21), więc pomiar nim nie wymaga testu. Rzut dotyczy tylko (a) próby Tempus przez postać, która go nie opanowała, oraz (b) pomiaru zwykłymi zegarkami w miejscu, które go utrudnia (W3.2: nastawić razem, rozejść się, porównać przy dzwonku). Wynik to jedna liczba i słowo „gładko” albo „drżąco” z tabeli odczytów w Dla MG. Pomiar nigdy nie fałszuje liczby: porażka oznacza brak odczytu i powtórkę, nie złą liczbę (gracze zapisują dane na mapie i muszą im ufać)."
+  opis: "Postać mierzy dryf czasu w jednym miejscu zamku. Tempus: opanowane zaklęcie działa bez rzutu (Walker 2e s. 31, 41; ZD-21), więc pomiar nim nie wymaga testu. Rzut dotyczy tylko (a) próby Tempus przez postać, która go nie opanowała, oraz (b) pomiaru zwykłymi zegarkami w miejscu, które go utrudnia (W3.2: nastawić razem, rozejść się, porównać przy dzwonku). Wynik to jedna liczba i słowo „gładko” albo „drżąco” z tabeli odczytów w Dla MG. Pomiar nigdy nie fałszuje liczby: porażka oznacza brak odczytu i powtórkę, nie złą liczbę (gracze zapisują dane na mapie i muszą im ufać). Szansa przeciętnej postaci: ok. 53% (ważność: kluczowy trop; trudność 15 po decyzji MG z 2026-11-22, dawniej 6)."
   kto: jeden
   rzut: "1D10 + Wits + Observation"
-  trudnosc: "Straightforward (6)"
+  trudnosc: "Challenging (15)"
   modyfikatory:
     - warunek: "Postać opanowała Tempus (flaga.tempus-opanowane)"
       wartosc: "bez rzutu"
@@ -527,8 +527,8 @@ test:
 | Liczba pomiarów danego wzoru | Trudność | A | B | C | D |
 |---|---|---|---|---|---|
 | 3 i więcej | bez rzutu | 100% | 100% | 100% | 100% |
-| 2 | Tricky (12) | 60% | 100% | 80% | 80% |
-| 1 | Challenging (15) | 30% | 70% | 50% | 50% |
+| 2 | Challenging (15) | 30% | 70% | 50% | 50% |
+| 1 | 18 (próg bez nazwy) | 0% | 40% | 20% | 20% |
 | 0 | brak testu: brak danych, wzoru nie widać | , | , | , | , |
 
 Każdy pomagający dodaje +1 (więc trzy osoby nad mapą: +2 albo +3), co podnosi te szanse o 10-20 punktów procentowych. Archetyp B ma też Arithmancy 3, ale Wits + Knowledge wypada lepiej (11 wobec 8), więc w liczbach zostaje Knowledge. Gracz z Arithmancy może zaproponować Wits + Arithmancy zamiast Wits + Knowledge (zwykły test cecha + umiejętność, s. 3); MG zgadza się, jeśli wynik jest dla niego lepszy.
@@ -536,10 +536,10 @@ Każdy pomagający dodaje +1 (więc trzy osoby nad mapą: +2 albo +3), co podnos
 ```yaml
 test:
   id: s1.scena.06.test.odczytanie-wzoru
-  opis: "Postacie mają za mało pomiarów (1 albo 2 danego wzoru) i chcą ocenić, czy z liczb na mapie wynika wzór: gładkie spóźnienia rosnące ku Wieży Zegarowej (przypływ, W3) albo wąska ścieżka drżących odczytów ku lochom (ślad, W4.4). Rzucają raz na wzór, wspólnie nad mapą. Przy 3 i więcej pomiarach danego wzoru testu nie ma: gracze sami widzą wzór. Przy 0 pomiarach wzoru nie ma jak odczytać (MG podsuwa wskazówkę NPC z drabinki). Test niczego nie blokuje: porażka zamienia wniosek gracza na wskazówkę od NPC."
+  opis: "Postacie mają za mało pomiarów (1 albo 2 danego wzoru) i chcą ocenić, czy z liczb na mapie wynika wzór: gładkie spóźnienia rosnące ku Wieży Zegarowej (przypływ, W3) albo wąska ścieżka drżących odczytów ku lochom (ślad, W4.4). Rzucają raz na wzór, wspólnie nad mapą. Przy 3 i więcej pomiarach danego wzoru testu nie ma: gracze sami widzą wzór. Przy 0 pomiarach wzoru nie ma jak odczytać (MG podsuwa wskazówkę NPC z drabinki). Test niczego nie blokuje: porażka zamienia wniosek gracza na wskazówkę od NPC. Szansa przeciętnej postaci: ok. 57% przy 2 pomiarach, ok. 27% przy 1 pomiarze (ważność: kluczowy trop; po decyzji MG z 2026-11-22 trudność 15 i 18, dawniej 12 i 15)."
   kto: grupa
   rzut: "1D10 + Wits + Knowledge"
-  trudnosc: "Tricky (12) przy 2 pomiarach danego wzoru; Challenging (15) przy 1 pomiarze"
+  trudnosc: "Challenging (15) przy 2 pomiarach danego wzoru; 18 przy 1 pomiarze"
   modyfikatory:
     - warunek: "3 i więcej pomiarów danego wzoru w różnych miejscach"
       wartosc: "bez rzutu"

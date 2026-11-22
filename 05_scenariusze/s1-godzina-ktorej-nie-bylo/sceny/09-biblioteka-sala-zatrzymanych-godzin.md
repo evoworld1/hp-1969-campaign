@@ -543,7 +543,7 @@ dialog:
 
 **Co jest rzutem, a co nie.** Obowiązkowe są tylko drzwi (W6) i gablota (W7), ale **żadne z nich nie wymaga rzutu**: drzwi otwiera każde rozsądne „trzynaście”, gablotę oddana godzina. Rzuty to cena (skradanie, galeria), pokusa (ściana), siła (księga, gablota wyłamana) i ucieczka. Gdy czas goni, pomiń galerię i ścianę jednym zdaniem (zob. „Czas i tempo”).
 
-**Szanse dla archetypów** (z `03_postacie/instrukcja-tworzenia-postaci.md`: A pojedynkowicz, B badacz, C kombinator, D opiekun), w procentach szansy na sukces, bez premii pomocników i kar stanów: *skradanie* prowadzi C ≈64%, A ≈28%, B ≈10%, D ≈6% (z Anselem i jednym pomocnikiem: C ≈85%, A ≈55%, B ≈28%, D ≈21%); *drzwi* (nasłuchiwanie) A, C, D ≈80%, B ≈90%; *galeria* bez śladów A ≈90%, C ≈80%, D ≈40%, B ≈20% (z premią za ślady: A i C pewnie, D ≈60%, B ≈40%); *ściana obliczeń* A i B ≈60%, C ≈50%, D ≈40%; *ucieczka* bez pomocy A ≈60%, C ≈50%, D ≈10%, B 0% (z dwoma pomocnikami i światłem, +3: A ≈90%, C ≈80%, D ≈40%, B ≈20%). Wniosek dla MG: **w skradaniu i ucieczce niech prowadzi ten, kto ma najwyższe Speed i Stealth albo Balance**; reszta pomaga (+1 za osobę). Przy trzech graczach grupa zwykle ma kogoś w roli prowadzącego.
+**Szanse dla archetypów** (z `03_postacie/instrukcja-tworzenia-postaci.md`: A pojedynkowicz, B badacz, C kombinator, D opiekun), w procentach szansy na sukces, bez premii pomocników i kar stanów: *skradanie* prowadzi C ≈64%, A ≈28%, B ≈10%, D ≈6% (z Anselem i jednym pomocnikiem: C ≈85%, A ≈55%, B ≈28%, D ≈21%); *drzwi* (nasłuchiwanie, trudność 15) A, C, D ≈50%, B ≈60%; *galeria* bez śladów A ≈90%, C ≈80%, D ≈40%, B ≈20% (z premią za ślady: A i C pewnie, D ≈60%, B ≈40%); *ściana obliczeń* A i B ≈60%, C ≈50%, D ≈40%; *ucieczka* bez pomocy A ≈60%, C ≈50%, D ≈10%, B 0% (z dwoma pomocnikami i światłem, +3: A ≈90%, C ≈80%, D ≈40%, B ≈20%). Wniosek dla MG: **w skradaniu i ucieczce niech prowadzi ten, kto ma najwyższe Speed i Stealth albo Balance**; reszta pomaga (+1 za osobę). Przy trzech graczach grupa zwykle ma kogoś w roli prowadzącego.
 
 **Filch w liczbach (założenie robocze; karta Filcha ma puste `wartosci`).** W teście przeciwnym Filch rzuca `1D10 + 9` (Wits 4 + Observation 5). Nie rzuca w ciemno: pokazuj to graczom jako „jego latarnia”, nie liczby.
 
@@ -624,10 +624,10 @@ Drzwi nie są rzutem. Ten test służy tylko do **znalezienia** odpowiedzi, gdy 
 ```yaml
 test:
   id: s1.scena.09.test.drzwi
-  opis: "Opcjonalne nasłuchiwanie przy ścianie ostatniego rzędu, gdy gracze nie wiedzą, co zrobić. Nie otwiera drzwi: daje wskazówkę, że za kamieniem coś bije trzynaście razy. Same drzwi otwiera każde rozsądne „trzynaście” (zob. „Jak otworzyć drzwi”)."
+  opis: "Opcjonalne nasłuchiwanie przy ścianie ostatniego rzędu, gdy gracze nie wiedzą, co zrobić. Nie otwiera drzwi: daje wskazówkę, że za kamieniem coś bije trzynaście razy. Same drzwi otwiera każde rozsądne „trzynaście” (zob. „Jak otworzyć drzwi”). Szansa przeciętnej postaci: ok. 53% (ważność: smaczek; trudność 15 po decyzji MG z 2026-11-22, dawniej 12)."
   kto: jeden
   rzut: "1D10 + Wits + Observation"
-  trudnosc: "Tricky (12)"
+  trudnosc: "Challenging (15)"
   modyfikatory:
     - warunek: "Postać przyłożyła ucho do ściany i milczy cała drużyna (cisza)"
       wartosc: "+2 do rzutu"

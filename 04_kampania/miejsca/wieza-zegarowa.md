@@ -65,7 +65,7 @@ test:
   opis: "Postacie badają mechanizm zegara w poszukiwaniu usterki albo śladów manipulacji."
   kto: grupa
   rzut: "1D10 + Wits + Observation"
-  trudnosc: "Tricky (12)"
+  trudnosc: "Challenging (15)"
   modyfikatory:
     - warunek: "Postać nadal ma stan Drained (+3) albo Dazed (+2) po scenie 03 (s. 35)"
       wartosc: "+3 do trudności"

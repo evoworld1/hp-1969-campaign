@@ -563,10 +563,10 @@ Szanse z symulacji całego pojedynku (Cassian używa obu Chwil). Wytrącenie zeg
 ```yaml
 test:
   id: s1.scena.08.test.pierwsze-spojrzenie
-  opis: "Postać patrzy na Cassiana i słucha: czy widzi, że szybkość i wypoczęta twarz biorą się z zegarka (dłoń na kieszonce, za szybkie tykanie, ciepłe srebro). Rzuca tylko gdy nikt wcześniej nie ustawił flaga.sygnal-cassiana-nazwany. Test standardowy (Standard Test, s. 3), rzuca każda postać osobno; kto nie zda, rzuca jeszcze raz po pierwszej Skradzionej Chwili w pojedynku, o ile do niego dojdzie (druga szansa). Wits to bystrość, Observation to spostrzegawczość. Szanse przy Wits + Observation 9-10 i trudności 12: A, C, D 80%, B 90%; w 1a (zegarek w jego dłoniach, tykanie słychać) trudność 9: praktycznie pewny sukces. Sukces tylko daje wiedzę: flagę ustawia dopiero powiedzenie na głos w grze (jak w 04), więc MG pyta: „Mówisz to komuś?”."
+  opis: "Postać patrzy na Cassiana i słucha: czy widzi, że szybkość i wypoczęta twarz biorą się z zegarka (dłoń na kieszonce, za szybkie tykanie, ciepłe srebro). Rzuca tylko gdy nikt wcześniej nie ustawił flaga.sygnal-cassiana-nazwany. Test standardowy (Standard Test, s. 3), rzuca każda postać osobno; kto nie zda, rzuca jeszcze raz po pierwszej Skradzionej Chwili w pojedynku, o ile do niego dojdzie (druga szansa). Wits to bystrość, Observation to spostrzegawczość. Szanse przy Wits + Observation 9-10 i trudności 15 (podniesionej z 12 decyzją MG z 2026-11-22): A, C, D 50%, B 60%; w 1a (zegarek w jego dłoniach, tykanie słychać) trudność 12: A, C, D 80%, B 90%. Szansa przeciętnej postaci: ok. 53% (ważność: kluczowy trop; w 1a ok. 83%). Sukces tylko daje wiedzę: flagę ustawia dopiero powiedzenie na głos w grze (jak w 04), więc MG pyta: „Mówisz to komuś?”."
   kto: kazdy
   rzut: "1D10 + Wits + Observation"
-  trudnosc: "Tricky (12)"
+  trudnosc: "Challenging (15)"
   modyfikatory:
     - warunek: "Wejście 1a: Cassian nakręca zegarek w obu dłoniach, tykanie słychać od początku"
       wartosc: "-3 do trudności"

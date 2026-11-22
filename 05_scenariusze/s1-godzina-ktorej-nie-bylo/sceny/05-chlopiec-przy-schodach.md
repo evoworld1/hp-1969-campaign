@@ -40,7 +40,7 @@ tagi: [s1, ansel, wiez, rozmowa, punkt-pauzy, maisie, siatka-3]
 zrodla:
   - "05_scenariusze/s1-godzina-ktorej-nie-bylo/graf-scen.md (s1.scena.05, Kontakt z Anselem, Kto widzi Ansela, wspólny sekret z 4. roku, siatka bezpieczeństwa 3, W2, W7.3, punkt pauzy 2)"
   - "04_kampania/stan-kampanii.md, rejestr decyzji do 2026-11-20 (Więź osobno dla każdej postaci 0–3, kotwica, teaser, ZD-24)"
-  - "02_zasady/mechaniki-fabularne.md (Więź z Anselem, wariant A; Persuasion Tricky 12 do uspokojenia Ansela)"
+  - "02_zasady/mechaniki-fabularne.md (Więź z Anselem, wariant A; Persuasion Challenging 15 do zatrzymania spłoszonego Ansela, zmiana 2026-11-22)"
   - "Walker 2e s. 3 (test standardowy, poziomy wyniku), s. 4 (Story Points), s. 23 (Wits + Persuasion), s. 35–36 (stany umysłu), s. 40–41 (trudność i rzucanie zaklęć)"
   - "02_zasady/walker/luki-i-niejasnosci.md (ZD-21: Tempus, ZD-24: zaklęcia ujawniające a magia czasu)"
 aktualizacja: 2026-11-20
@@ -490,10 +490,10 @@ test:
 ```yaml
 test:
   id: s1.scena.05.test.zatrzymac-sploszonego
-  opis: "Inna postać (nie ta, która go spłoszyła) próbuje zatrzymać Ansela, zanim zniknie po nieuprzejmości, groźbie albo chwycie: łagodnie, słowem, bez dotykania. Test standardowy perswazji, szybka gadka: Wits + Persuasion (s. 3, 23). Próg Tricky (12): to jedyny test Persuasion, który zostawia ocena Więzi (mechaniki-fabularne.md, uspokojenie Ansela w panice). Przy Wits 4–6 i Persuasion 0–4 szanse są około 30–80%. Rzuca jedna postać; najwyżej jedna inna może pomóc słowem (+1, Working Together, s. 4). Postać, która spłoszyła Ansela, nie może ani rzucać, ani pomagać. Test nie cofa spłoszenia: Ansel i tak znika na resztę wieczoru, chodzi tylko o to, czy zdąży zamienić jeszcze kilka zdań z postacią, która go broni."
+  opis: "Inna postać (nie ta, która go spłoszyła) próbuje zatrzymać Ansela, zanim zniknie po nieuprzejmości, groźbie albo chwycie: łagodnie, słowem, bez dotykania. Test standardowy perswazji, szybka gadka: Wits + Persuasion (s. 3, 23). Próg Challenging (15, podniesiony z 12 decyzją MG z 2026-11-22: to szczegół, nie bramka): to jedyny test Persuasion, który zostawia ocena Więzi (mechaniki-fabularne.md, uspokojenie Ansela w panice). Przy Wits 4–6 i Persuasion 0–4 szanse są około 0–50%. Szansa przeciętnej postaci: ok. 40% (ważność: smaczek). Rzuca jedna postać; najwyżej jedna inna może pomóc słowem (+1, Working Together, s. 4). Postać, która spłoszyła Ansela, nie może ani rzucać, ani pomagać. Test nie cofa spłoszenia: Ansel i tak znika na resztę wieczoru, chodzi tylko o to, czy zdąży zamienić jeszcze kilka zdań z postacią, która go broni."
   kto: jeden
   rzut: "1D10 + Wits + Persuasion"
-  trudnosc: "Tricky (12)"
+  trudnosc: "Challenging (15)"
   modyfikatory:
     - warunek: "Jedna inna postać pomaga łagodnym słowem (nie ta, która go spłoszyła)"
       wartosc: "+1 do rzutu"
