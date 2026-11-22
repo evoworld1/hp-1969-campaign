@@ -19,7 +19,7 @@
 - **Dla mechanika (Faza 3):** zdolności Cassiana (Skradzione Chwile, zegarek jako słaby punkt), premie za nazwanie nawyków Rosalind i Barnaby'ego, obchód Filcha jako przeciwnik, próg pogawędki z Crake'iem, czy Ansel potrzebuje liczb.
 - **Dla mechanika przy scenach:** czy stan Drained działa już na lekcji Obrony; rdzeń ze smoczego serca a drewno „Oak” (s. 29, niejasność podręcznika).
 - **Odłożone do scen:** liczby dla wyniku 2× i 3× trudności (ZD-09).
-- **Ostatnie podsumowanie rozmowy:** `99_robocze/summary-session#5.md` (2026-11-21). Następne kroki: lektura scen przez MG, skreślenie lub akceptacja założeń roboczych, akceptacja statusów, potem webowy interfejs MG; Scenariusz 2 dopiero po rozegraniu Sesji 1.
+- **Ostatnie podsumowanie rozmowy:** `99_robocze/summary-session#6.md` (2026-11-22). Następne kroki: publikacja panelu i sprawdzenie przez MG, decyzje o skradaniu przed Filchem, remisie przy kradzieży zegarka i trudności odczytania wzoru (06), dialogi scen 09–12 bez żargonu, ramy „Start/Koniec/Dalej” w scenach 05–12, potem gra od sceny 05.
 
 ### Faza 1, część A: co powstało
 - `00_zrodla/walker-2e-draft-2026-04/tekst/`: wyciąg tekstu podręcznika (16 rozdziałów, znaczniki stron). Podręcznik jest jednym PDF (184 s.; numer drukowany = strona PDF − 5).
@@ -102,6 +102,7 @@
 | 2026-11-22 | Panel graczy: gracz widzi tylko, **ile musi minimalnie wyrzucić**, żeby atak, zaklęcie obronne albo unik się udały; pełnych statystyk NPC nie widzi. | MG |
 | 2026-11-22 | Dodatkowe karty przeciwników do przypadkowych starć: 2 łatwe, 2 średnie, 2 trudne, 1 niemożliwy; wybór albo losowanie w panelu („Przypadkowy pojedynek”). | MG |
 | 2026-11-22 | Porządkowanie języka dialogów: najpierw sceny 05–08. | MG |
+| 2026-11-22 | Kradzież zegarka (ok. 17% dla przeciętnej postaci) bez zmian; dłuższa rozmowa z Crake'iem przy sukcesie imponującym zostaje; przeciwnik losowy „niemożliwy” opisany neutralnie, bez słowa „śmierciożerca”. | MG |
 
 - **2026-11-21 (sesja 6):** sceny 01–12 zaakceptowane przez MG po lekturze. Zasady domowe ZD-01…ZD-23 przyjęte hurtem w wariancie rekomendowanym, ZD-09 (mocniejsze zaklęcia przy wyniku 2× i 3×; w pokazach i pojedynkach uczniów tylko „kolor”, czyli opis bez ran) i trzy zasady Irytka (ZI-01…03) przyjęte; zapisane w `02_zasady/zasady-domowe.md`. ZD-24a (wykrywacze) czeka na decyzję MG.
 - **2026-11-21:** hosting panelu: Netlify z repozytorium GitHub (wersja przeglądarkowa). Kontrakt danych: MG zgodził się na pole „zasady potrzebne w scenie” (jeszcze niewdrożone, panel działa bez niego). Karty graczy po polsku do wydruku; kreator postaci (szybka i pełna ścieżka) w panelu.
