@@ -12,7 +12,7 @@ pochodzenie:
   uwagi: 'Ród z listy s. 7 (z gwiazdką): Prestige 2, Herbology 1. Rodzice Brytyjczycy, od jej dzieciństwa
     w Nowym Jorku; w przerwach mieszka u babci w Londynie. Cała rodzina uczyła się w Hogwarcie.'
 cecha_rzadka: brak
-story_points: 0
+story_points: 1
 cechy:
   Vitality: 4
   Speed: 3
@@ -172,6 +172,8 @@ haczyki_mg:
   to szkolne psikusy, ale Slugulus Eructo i Locomotor Mortis wymagają Dark Arts; nauczyciel, który zobaczy
   je w użyciu, może zapytać, skąd je zna.'
 notatki_mg:
+- 'Story Points na start: 1 (wyrównanie wobec Zory, która jako półkrwi ma 3; decyzja MG 2026-11-22).'
+- 'Klątwa z Działu Ksiąg Zakazanych (scena 09): Conjunctivitis Curse, wybór MG 2026-11-22; po udanym teście MG dopisuje ją w panelu jako nieopanowaną.'
 - 'Zmiany względem v1 (powód: opis gracza). Cechy: v1 5/3/4/5/5, v2 4/3/4/6/5 (Knowledge 6: zdolna uczennica
   i eliksiry, Vitality 4); Speed 3 i Wits 4 bez zmian (roztargniona).'
 - 'DARK ARTS 3 (decyzja MG 2026-11-22): wyjątek od zasady „Dark Arts 0” z instrukcji tworzenia postaci

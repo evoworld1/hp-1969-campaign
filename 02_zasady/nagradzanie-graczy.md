@@ -107,7 +107,7 @@ Nie wszystko musi być punktem. Dla MG-nowicjusza: te nagrody nie psują równow
 ## Jak używać przy stole
 
 1. Przed sesją przeczytaj tylko sekcję „Za co dawać” i „Proponowana stawka”. Resztę trzymaj jako ściągę.
-2. Przy stole rób to samo za każdym razem: wypowiedz **dlaczego** dajesz punkt, i dopisz go w arkuszu gracza (albo niech gracz użyje przycisku „+ zdobądź 1” w panelu graczy).
+2. Przy stole rób to samo za każdym razem: wypowiedz **dlaczego** dajesz punkt, i dopisz go w arkuszu gracza (albo w panelu MG: „Gracze” → zakładka „Rozwój (MG)” → „Nagroda”).
 3. Gdy gracz pyta „na co mam wydać?”, pokaż mu tabelę kosztów. Podpowiedź: Story Point jest najsilniejszy, gdy wydasz go na **dorzut przy ważnej scenie**, a rozwój kupuj przed większą przygodą.
 4. Pod koniec każdej sesji zapytaj: „Komu przydzielę 1 punkt za najlepszy moment?” i powiedz to głośno. Bez dyskusji, tylko uznanie.
 5. Gdy limit z ZD-19 zostanie wyczerpany (1 punkt z nauki na sesję), kolejne lekcje w tej sesji mogą dawać kratki, ale nie punkty.
@@ -133,15 +133,15 @@ Nie wszystko musi być punktem. Dla MG-nowicjusza: te nagrody nie psują równow
 
 **Wskazówki dla trzech postaci (propozycje fabularne do wykorzystania przy pozycjach 3 i 6):**
 - **Zora** (półkrwi, startuje z 3 SP, więc ma już bufor): jej naturalny moment to zauważenie nieregularności zegarów albo naprawa, a w pokazie Wrena jej pojedynek, wygrany refleksem i pomysłem.
-- **Nell** (czystokrwista, startuje z 0 SP): jej naturalny moment to mapa nieba i notatki o fazach Księżyca, albo wytrwałość na lekcji, gdy coś ją pochłonie. Opcjonalnie dać jej i Luny jednorazowy 1 SP „na start” jako wyrównanie (Zora ma 3, one 0): **brak w podręczniku, propozycja nasza, decyzja MG**.
+- **Nell** (czystokrwista, startuje z 0 SP): jej naturalny moment to mapa nieba i notatki o fazach Księżyca, albo wytrwałość na lekcji, gdy coś ją pochłonie. Wyrównanie przyjęte (decyzja MG 2026-11-22): Nell i Luna startują z 1 SP, Zora z 3 (brak w podręczniku, zasada nasza).
 - **Luna** (czystokrwista, startuje z 0 SP): jej naturalny moment to uspokojenie spłoszonego Ansela (Persuasion albo opieka nad stworzeniami), leczenie rannego ucznia albo pierwsze wzmianki o zakazanej lekturze.
 
-Wpisz punkty do kart: przez panel graczy (przycisk „+ zdobądź 1”) albo ręcznie przy stole. Karta v2 nie przechowuje Story Points zdobytych w trakcie gry (pole `story_points` to wartość startowa).
+**Decyzja MG (2026-11-22):** nagrody za Sesję 1 MG przyznaje sam w panelu MG („Gracze” → „Rozwój (MG)” → „Nagroda”), a po sesji wysyła Reżyserowi eksport zmian. Karta v2 nie przechowuje Story Points zdobytych w trakcie gry (pole `story_points` to wartość startowa); przechowuje je panel do czasu eksportu.
 
 ## Uwagi
 
 - **Niejasne, s. 12 i 31:** podręcznik mówi o dodawaniu punktu do cechy „w każde urodziny do 18. roku życia”, ale nie precyzuje, czy 18. urodziny jeszcze dają punkt. Przyjmuję „tak”, do decyzji MG.
 - **Brak w podręczniku:** maksymalna pula Story Points, wydawanie ich na rzecz innej postaci, wzrost przez zwykłe chodzenie na lekcje. Stawka 3 SP na sesję, przysługi NPC i skala punktów domu to **nasze propozycje** (`pewnosc: nasze`), do akceptacji MG.
-- **Czysta krew i Story Points:** Zora (półkrwi) startuje z 3 SP, Nell i Luna z 0 (ZD-20, podręcznik wprost tego nie mówi). Opcjonalne wyrównanie opisano wyżej.
+- **Czysta krew i Story Points:** Zora (półkrwi) startuje z 3 SP; Nell i Luna według ZD-20 miałyby 0, ale MG przyznał im po 1 SP na wyrównanie (2026-11-22).
 - **Pożyczona Chwila i Story Points:** jeśli MG zatwierdzi mechanikę Pożyczonej Chwili ([[zasada.mechaniki-fabularne]]), do jednego rzutu najwyżej jeden dorzut, z dowolnego źródła.
 - Liczby z podręcznika (koszty, 1/3 kratki, 5 × cecha) zweryfikowane z [[zasada.walker-story-points]] i [[zasada.walker-nauka-i-rozwoj]].

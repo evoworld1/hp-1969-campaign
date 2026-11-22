@@ -1,5 +1,7 @@
 # Klątwa Luny w Dziale Ksiąg Zakazanych: propozycja do wyboru przez MG
 
+**Wybór MG (2026-11-22): Conjunctivitis Curse, test Knowledge + Dark Arts przeciw 15.** Wprowadzone do sceny 09.
+
 Stan: propozycja mechanika z 2026-11-22. Scena 09 (`05_scenariusze/s1-godzina-ktorej-nie-bylo/sceny/09-biblioteka-sala-zatrzymanych-godzin.md`) NIE została zmieniona. Po wyborze MG wprowadzę wybrany wariant do sceny jako blok `test` i zapis na karcie Luny.
 
 Decyzja MG, od której wychodzę: Luna, jeśli zdecyduje się na lekturę, może w Dziale Ksiąg Zakazanych poznać jedno silniejsze zaklęcie czarnej magii, po trudnym teście, jako zaklęcie nieopanowane (wszystkie kratki puste, z trudnością startową na karcie).

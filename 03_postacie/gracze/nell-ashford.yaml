@@ -13,7 +13,7 @@ pochodzenie:
     Pasuje do ojca, który szkoli pracowników Ministerstwa Magii. Oksford; matka uczy dzieci przed Hogwartem.
     Ród to daleka linia, bez specjalnego traktowania (s. 7).'
 cecha_rzadka: brak
-story_points: 0
+story_points: 1
 cechy:
   Vitality: 3
   Speed: 3
@@ -171,6 +171,8 @@ haczyki_mg:
 - 'Towarzyskość: Persuasion 5 ze specjalizacją; potrafi zagadać prefektów i portrety, ale nie umie kłamać
   z kamienną twarzą (Chicanery 0).'
 notatki_mg:
+- 'Story Points na start: 1 (wyrównanie wobec Zory, która jako półkrwi ma 3; decyzja MG 2026-11-22).'
+- 'Ród Macmillan zatwierdzony przez MG (2026-11-22).'
 - 'Zmiany względem v1 (powód: opis gracza). Cechy: Knowledge 6 -> 7 (eliksiry, astronomia, drobiazgowość),
   Focus 5 -> 4; reszta bez zmian (v1: Vitality 3, Speed 3, Wits 5, Knowledge 6, Focus 5; v2: 3/3/5/7/4).'
 - 'Ród: Longbottom -> Macmillan (Authority 1, Prestige 2), bo ojciec szkoli pracowników Ministerstwa;
