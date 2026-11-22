@@ -80,10 +80,56 @@ Przykładowe kwestie:
 statystyki:
   id: npc.rosalind-teague.statystyki
   system: walker-2e-draft-2026-04
-  wartosci: {}
+  wartosci:
+    # Uzupełnione 2026-11-22 (mechanik). Pure-blood: założenie robocze z karty (ojciec przyjmuje „pana Notta”); rodzina Teague poza Sacred Twenty-Eight. Ukrywanie zamiaru Wits 5 + Chicanery 3 = 8 (scena 04).
+    rodzaj: czarodziej
+    poziom: "Gifted student"   # s. 102; cechy 20, umiejętności 53
+    lineage: Pure-blood
+    school: "Hogwarts (1963)"
+    year: 6
+    house: "Slytherin"
+    cechy:
+      Vitality: 3
+      Speed: 4
+      Wits: 5
+      Knowledge: 4
+      Focus: 4
+    umiejetnosci:
+      Chicanery: 3
+      Duelling: 4
+      Charms: 5
+      D.A.D.A.: 4
+      Observation: 4
+      Persuasion: 5
+      Potions: 4
+      Transfiguration: 4
+      Magical Theory: 3
+      Stealth: 3
+      "Prestige (Slytherin)": 3
+      Concealment: 2
+      Dark Arts: 2
+      Herbology: 2
+      Broomstick Flying: 3
+      Authority: 2
+    zaklecia:                     # nazwa: aktualna trudność (0 = opanowane)
+      Lumos: 0
+      Flipendo: 0
+      Expelliarmus: 0
+      Trip Jinx: 0
+      Rictustempra: 0
+      Impedimenta: 0
+      Protego: 0
+      Muffliato: 0
+      Stupefy: 12
+      Confundo: 15
+    patronus: brak
+    rozdzka: "Wiąz (Elm), włókno ze smoczego serca, 11 cali, sztywna; Prestige +1, Charms +1, Fire Magic +2, Offensive Magic +1. Propozycja [nasze]"
+    zdrowie: {body: 0, mind: 0}
   zdolnosci_specjalne:
     - nazwa: "Nawyk z kciukiem"
       opis: "Na lekcji Wrena ćwiczebny przeciwnik w pierwszym teście przeciwnym (Opposed Test, s. 4). Postać, która zauważy i nazwie jej nawyk, dostaje premię. Wielkość premii ustala mechanik."
+    - nazwa: "Typowe rzuty"
+      opis: "Czujność (Wits + Observation): 1D10 + 9; Ukrywanie zamiaru (Wits + Chicanery): 1D10 + 8; Wykrywanie kłamstwa (Wits + Chicanery): 1D10 + 8; Inicjatywa w pojedynku (Speed + Duelling): 1D10 + 8; Atak w pojedynku (Wits + Duelling): 1D10 + 9; Unik (Speed + Wits): 1D10 + 9; Protego (Wits + Charms + różdżka): 1D10 + 11; Odporność na obrażenia (1D10 + Vitality): 1D10 + 3. Sumy gotowe do użycia przy stole (Walker 2e s. 3-4, 33, 41; wzór: 1D10 + cecha + umiejętność)."
 ```
 
 ## Do weryfikacji

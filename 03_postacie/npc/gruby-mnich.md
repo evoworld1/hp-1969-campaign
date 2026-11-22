@@ -57,8 +57,27 @@ Przy imieniu „Ansel” na moment blednie jeszcze bardziej i traci wątek.
 statystyki:
   id: npc.gruby-mnich.statystyki
   system: walker-2e-draft-2026-04
-  wartosci: {}
-  zdolnosci_specjalne: []
+  wartosci:
+    # Uzupełnione 2026-11-22 (mechanik). Duch (Spirit, s. 89). Walker nie podaje wpisu Grubego Mnicha: liczby to propozycja [nasze], potrzebna tylko do czytania go jako świadka.
+    rodzaj: stworzenie
+    typ_stworzenia: Spirit
+    cechy:
+      Vitality: "—"
+      Speed: 2
+      Wits: 4
+      Knowledge: 6
+      Focus: 5
+    move: "1D+2"
+    combat: "Nie walczy; nie da się go zranić ani zabić (duch)"
+    fear: "—"
+    umiejetnosci:
+      Persuasion: 5
+      Prestige (Hufflepuff): 4
+      History of Magic: 5
+    zaklecia: {}
+  zdolnosci_specjalne:
+    - nazwa: "Typowe rzuty"
+      opis: "Czujność (Wits + Observation): sama Wits, 1D10 + 4. Przekonywanie go (jego obrona w teście przeciwnym, Wits + Persuasion): 1D10 + 9. Nie atakuje, nie unika, nie odnosi obrażeń. [nasze]"
 ```
 
 ## Do weryfikacji

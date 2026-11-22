@@ -84,10 +84,27 @@ Drugi, cichszy sekret: przez straconą godzinę był przestraszony. Nie przyzna 
 statystyki:
   id: npc.irytek.statystyki
   system: walker-2e-draft-2026-04
-  wartosci: {}
-  # Irytek nie ma cech ani umiejętności: to poltergeist, nie postać do walki (Walker nie podaje statystyk poltergeista; brak w podręczniku).
-  # Wszystkie liczby poniżej to zasady domowe [nasze], niezależne od cech.
+  wartosci:
+    # Uzupełnione 2026-11-22 (mechanik). Walker (s. 89) zalicza poltergeisty do Spirit (byt niebędący istotą żywą, nie da się go zabić, tylko wygnać), ale nie podaje statystyk Irytka: brak w podręczniku. Poniższe liczby to propozycja [nasze] w formacie wpisu stworzenia, do akceptacji MG.
+    rodzaj: stworzenie
+    typ_stworzenia: Spirit
+    cechy:
+      Vitality: "—"             # bez ciała: nie da się go zranić fizycznie (s. 89)
+      Speed: 9
+      Wits: 6
+      Knowledge: 3
+      Focus: 7                  # zastępuje Vitality przy atakach magicznych (s. 89)
+    move: "1D+9"
+    combat: "Brak ataku na obrażenia; psota (zrzucony przedmiot, wrzask, melodia) kosztuje czas, komfort albo reputację"
+    fear: "—"
+    umiejetnosci:
+      Stealth: 8
+      Chicanery: 7
+      Persuasion: 3
+    zaklecia: {}
   zdolnosci_specjalne:
+    - nazwa: "Typowe rzuty"
+      opis: "Test skradania przeciw jego czujności (Wits + Observation): Irytek nie ma Observation, więc 1D10 + 6 (sama Wits). Unik (Speed + Wits): 1D10 + 15; w praktyce nie da się go trafić (zob. Poltergeist). Rzuty Irytka są potrzebne tylko do wyścigu (Move 1D+9) i do przechytrzenia go: Wits + Chicanery graczy przeciw 1D10 + 13 (Wits 6 + Chicanery 7). [nasze]"
     - nazwa: "Poltergeist"
       opis: "Przelatuje przez ściany, sufity i kratki wentylacyjne; w każdej chwili może zniknąć ze sceny. Nie walczy i nie da się go pokonać ani złapać. Zaklęcia i rzucone przedmioty nic mu nie robią poza tym, że go denerwują (odpowiada psotą, bez obrażeń)."
     - nazwa: "Świadek, który nie mówi nazwisk"

@@ -121,13 +121,13 @@ statystyki:
     zaklecia:                     # nazwa: aktualna trudność (0 = opanowane); tylko opanowane trafiają w pojedynku (ZD-06 a)
       Flipendo: 0
       Trip Jinx: 0
-      Rictusempra: 0
+      Rictustempra: 0
       Expelliarmus: 0
       Impedimenta: 0
       Protego: 0
       Tempus: 0
       Accio: 0
-      Stupefy: 15
+      Stupefy: 12                 # jedna kratka zaznaczona (15 -> 12), jak w scenie 04; nieopanowane, więc nie trafia w pojedynku (ZD-06 a)
     patronus: brak
     rozdzka: "Modrzew (Larch), Duelling +1 i Wand Resilience +3 (Walker 2e s. 28); rdzeń bez premii do tej sceny. Atak w pojedynku: Wits 6 + Duelling 5 + 1 = 12"
     zdrowie: {body: 0, mind: 0}
@@ -140,6 +140,8 @@ statystyki:
       opis: "Po wygranym pojedynku (3 trafienia Cassiana) zabiera przegranemu godzinę na oczach wszystkich, bez rzutu. Przegrany ma stan Drained (+3 do trudności) do pierwszego posiłku następnego dnia (reguła jednolita z graf-scen.md) i przegapia coś małego i ważnego. Druga godzina nie zmienia kotwicy Ansela."
     - nazwa: "Czytanie przeciwnika"
       opis: "Dobry w teście przeciwnym (Opposed Test, s. 4) na wykrywanie blefu; tak samo dobrze blefuje. Para: Wits + Chicanery (1D10 + 11), bo Chicanery obejmuje też wyczucie oszustwa i dwulicowości (s. 21). Na kradzież i fizyczne podejście do kieszonki reaguje czujnością: Wits + Observation (1D10 + 10, s. 4); test kradzieży rzuca się dopiero od wieczoru po scenie 04, wcześniej próba zawsze się nie udaje (decyzja MG 2026-11-20). To nie zdolność spoza zasad, tylko wysoka Chicanery."
+    - nazwa: "Typowe rzuty"
+      opis: "Czujność (Wits + Observation): 1D10 + 10; Wykrywanie kłamstwa i blef (Wits + Chicanery): 1D10 + 11; Inicjatywa w pojedynku (Speed + Duelling + różdżka): 1D10 + 10; Atak w pojedynku (Wits + Duelling + różdżka): 1D10 + 12; Unik (Speed + Wits): 1D10 + 10; Protego (Wits + Charms): 1D10 + 11; Odporność na obrażenia (1D10 + Vitality): 1D10 + 3. Sumy gotowe do użycia przy stole (Walker 2e s. 3-4, 33, 41)."
 ```
 
 ## Do weryfikacji

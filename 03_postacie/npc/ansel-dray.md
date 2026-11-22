@@ -93,7 +93,12 @@ Przykładowe kwestie:
 statystyki:
   id: npc.ansel-dray.statystyki
   system: walker-2e-draft-2026-04
-  wartosci: {}
+  wartosci:
+    # Uzupełnione 2026-11-22 (mechanik). Świadomie bez liczb: Ansel nie rzuca, nie jest przeciwnikiem testu i nie da się go zranić ani złapać (zob. „Niezakotwiczony”). Walker nie ma wpisu na byt trzymany przy istnieniu cudzymi godzinami: brak w podręczniku. Wszystko, co robi, rozstrzyga MG; przy pomocy w jednej wskazówce nie rzuca się nic.
+    rodzaj: byt
+    poziom: "Young Wizard"        # tylko jako skala wieku, s. 102 (11 lat w chwili śmierci); liczby celowo pominięte
+    house: Hufflepuff
+    liczby: "brak (decyzja Mechanika, patrz komentarz)"
   zdolnosci_specjalne:
     - nazwa: "Niezakotwiczony"
       opis: "Nie da się go zranić ani złapać. Widzą go i słyszą tylko postacie graczy (po straconej godzinie); inne ofiary Cassiana widzą go mignięciem, reszta zamku wcale. Przed sceną 03 pojawia się wyłącznie jako odbicie w szkle zegara. Przedmioty dotyka z trudem i nie zawsze. Mechanik: czy potrzebne są tu jakiekolwiek liczby, czy wystarczy decyzja MG."

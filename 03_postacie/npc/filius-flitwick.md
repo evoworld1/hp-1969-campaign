@@ -57,8 +57,53 @@ Przy każdym biciu z wieży zerka w okno. Na błąd w Tempus reaguje zachętą, 
 statystyki:
   id: npc.filius-flitwick.statystyki
   system: walker-2e-draft-2026-04
-  wartosci: {}
-  zdolnosci_specjalne: []
+  wartosci:
+    # Uzupełnione 2026-11-22 (mechanik). Walker 2e s. 120-121 (wpis z lat 90.). Cechy 35 (Veteran), umiejętności około 105 (zakres Professional): poziom wg cech. Tempus: zaklęcie kampanii (ZD-21). Mistrz Zaklęć i pojedynków (kanon: mistrz pojedynków).
+    rodzaj: czarodziej
+    poziom: "Veteran Wizard"   # s. 102; cechy 35, umiejętności 105
+    lineage: Part-Goblin
+    school: "Hogwarts (1946)"
+    house: "Ravenclaw"
+    profession: "Charms Master"
+    cechy:
+      Vitality: 6
+      Speed: 7
+      Wits: 7
+      Knowledge: 7
+      Focus: 8
+    umiejetnosci:
+      "Art (Choral Music)": 7
+      "Authority (Teaching)": 6
+      Broomstick Flying: 5
+      Charms: 10
+      D.A.D.A.: 9
+      Dark Arts: 7
+      Duelling: 9
+      History of Magic: 7
+      Magical Theory: 7
+      Muggle Studies: 5
+      Persuasion: 5
+      Potions: 6
+      "Prestige (Hogwarts)": 7
+      "Strategy (Duelling)": 7
+      Transfiguration: 8
+    zaklecia:                     # nazwa: aktualna trudność (0 = opanowane)
+      Expecto Patronum: 0
+      Protego: 0
+      Protego Horribilis: 0
+      Wingardium Leviosa: 0
+      Reparo: 0
+      Accio: 0
+      Impedimenta: 0
+      Stupefy: 0
+      Specialis Revelio: 0
+      Tempus: 0
+    patronus: NC
+    rozdzka: "Wierzba (Willow), włos jednorożca; Healing Magic +3, Charms +1, Protective Magic +2. Propozycja [nasze] (kanon nie podaje)"
+    zdrowie: {body: 0, mind: 0}
+  zdolnosci_specjalne:
+    - nazwa: "Typowe rzuty"
+      opis: "Czujność (Wits + Observation): 1D10 + 7; Wykrywanie kłamstwa (Wits + Chicanery): 1D10 + 7; Inicjatywa w pojedynku (Speed + Duelling): 1D10 + 16; Atak w pojedynku (Wits + Duelling): 1D10 + 16; Unik (Speed + Wits): 1D10 + 14; Protego (Wits + Charms + różdżka): 1D10 + 18. Sumy gotowe do użycia przy stole (Walker 2e s. 3-4, 33, 41; wzór: 1D10 + cecha + umiejętność)."
 ```
 
 ## Do weryfikacji

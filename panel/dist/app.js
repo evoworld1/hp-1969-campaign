@@ -74,7 +74,8 @@ function dokument(id) {
   var d = D.dokumenty[id];
   if (!d) { otworz(id, "<p>Brak dokumentu o identyfikatorze <code>" + esc(id) + "</code>.</p>"); return; }
   var znacznik = d.pewnosc ? ' <span class="flaga">pewność: ' + esc(d.pewnosc) + "</span>" : "";
-  otworz(d.tytul, "<p><span class='flaga'>" + esc(d.typ) + "</span>" + znacznik + "</p>" + d.html);
+  var st = d.staty ? "<h3>Statystyki</h3>" + window.kartaStatystyk(d.staty) : "";
+  otworz(d.tytul, "<p><span class='flaga'>" + esc(d.typ) + "</span>" + znacznik + "</p>" + st + d.html);
 }
 
 /* ---------- trasa ---------- */
@@ -91,6 +92,7 @@ function trasa() {
   if (cz === "zasady") return zasady();
   if (cz === "ksiega") return window.renderKsiega(app, { szukaj: h[1] || "" });
   if (cz === "sciaga") return window.renderSciaga(app);
+  if (cz === "starcie") return starcie(h[1]);
   if (cz === "kreator") return window.kreator ? window.kreator(app, D) : (app.innerHTML = "<p>Kreator niedostępny.</p>");
   if (cz === "dok") { ekranStart(); return dokument(h[1]); }
   ekranStart();
@@ -113,7 +115,7 @@ function ekranStart() {
     '<div class="rzad"><a class="kafel" href="#/postacie"><strong>Postacie graczy</strong><small>karty do wydruku</small></a>' +
     '<a class="kafel" href="#/sciaga"><strong>Ściąga dla graczy</strong><small>jak czytać kartę, do PDF</small></a><a class="kafel" href="#/kreator"><strong>Tworzenie postaci</strong><small>szybka i pełna ścieżka</small></a>' +
     '<a class="kafel" href="#/ksiega"><strong>Księga zaklęć</strong><small>opisy, trudności, czas trwania</small></a><a class="kafel" href="#/zasady"><strong>Zasady i kanon</strong><small>przeglądanie i szukanie</small></a>' +
-    '<a class="kafel" href="#/wedrowki"><strong>Wędrówki po zamku</strong><small>spotkania A–P</small></a></div>' +
+    '<a class="kafel" href="#/wedrowki"><strong>Wędrówki po zamku</strong><small>spotkania A–P</small></a><a class="kafel" href="#/starcie"><strong>Panel starcia</strong><small>pojedynki, pokazy, testy przeciwne</small></a></div>' +
     '<h3 style="text-align:left;margin-top:2rem">Wszystkie sceny</h3><div class="siatka">' + kafle + "</div></div>";
   $("#rozpocznij").onclick = function () {
     S.flagi = {}; S.historia = []; zapisz(S);
@@ -132,8 +134,13 @@ function npcKarta(sc, nid) {
   var n = sc.npc[nid]; if (!n) return "";
   var pelna = n.id && D.dokumenty[n.id] ? '<button data-dok="' + n.id + '">Pełna karta</button>' : "";
   var zwin = n.opis_html && n.opis_html.length > 700;
+  var d = n.id && D.dokumenty[n.id], st = "";
+  if (d && d.staty) {
+    var w = d.staty.wartosci || {};
+    st = (w.cechy && Object.keys(w.cechy).length) ? "<details><summary>Liczby (rzuty)</summary>" + window.kartaStatystyk(d.staty, { krotko: true }) + "</details>" : "";
+  }
   return '<div class="npc"><div class="imie">' + esc(n.imie) + '</div>' +
-    (zwin ? "<details><summary>Co robi, czego chce, sygnał</summary>" + n.opis_html + "</details>" : n.opis_html) + pelna + "</div>";
+    (zwin ? "<details><summary>Co robi, czego chce, sygnał</summary>" + n.opis_html + "</details>" : n.opis_html) + st + pelna + "</div>";
 }
 function krok(sid, i) {
   var sc = scena(sid);
@@ -152,8 +159,11 @@ function krok(sid, i) {
     (reszta.length ? "<details><summary class='puste'>W całej scenie (" + reszta.length + ")</summary>" + reszta.map(function (n) { return npcKarta(sc, n); }).join("") + "</details>" : "");
 
   // środek
+  var ramy = (k.ramy || []).length ? '<div class="ramy">' + k.ramy.map(function (r) { return "<div><b>" + esc(r[0]) + ":</b> " + r[1] + "</div>"; }).join("") + "</div>" : "";
+  var pres = (D.starcia || []).filter(function (x) { return x.scena === sid && (+x.krok === i + 1); });
+  var przStarcie = pres.map(function (x) { return '<a class="przycisk-starcie" href="#/starcie/' + esc(x.id) + '">⚔ Otwórz panel starcia: ' + esc(x.tytul) + "</a>"; }).join("");
   var sr = '<div class="naglowek-kroku"><div class="meta">' + esc(nazwa) + " · " + (modul ? "spotkanie " + esc(k.nr) : "krok " + (i + 1) + " z " + sc.kroki.length) + (k.czas ? " · " + esc(k.czas) : "") + "</div><h2>" + esc(k.tytul) + "</h2></div>" +
-    '<div class="pasek-postepu"><div style="width:' + Math.round(((i + 1) / sc.kroki.length) * 100) + '%"></div></div>';
+    '<div class="pasek-postepu"><div style="width:' + Math.round(((i + 1) / sc.kroki.length) * 100) + '%"></div></div>' + ramy + przStarcie;
   if (k.teksty.length) {
     sr += '<div class="sekcja-t">Czytaj na głos</div>';
     k.teksty.forEach(function (t) {
@@ -163,7 +173,8 @@ function krok(sid, i) {
   }
   if (k.uwagi_czytaj.length && !k.teksty.length) sr += '<div class="sekcja-t">Czytaj</div><div class="uwaga-czytaj">' + k.uwagi_czytaj.join("<br>") + "</div>";
   if (k.dialogi.length) {
-    sr += '<div class="sekcja-t">Dialogi do odczytania</div>' + k.dialogi.map(function (d) { return sc.bloki[d] || ""; }).join("");
+    sr += '<div class="sekcja-t">Dialogi w tym kroku (' + k.dialogi.length + ')</div><p class="puste">Pierwsze zdanie każdej postaci widzisz od razu. Gdy gracze odpowiedzą, rozwiń dialog i wybierz pasującą reakcję.</p>' +
+      k.dialogi.map(function (d, j) { return (sc.bloki[d] || "").replace('<span class="dl-tytul">', '<span class="dl-nr">' + (j + 1) + '</span><span class="dl-tytul">'); }).join("");
   }
   if (!k.teksty.length && !k.dialogi.length && k.krotko.length) {
     sr += '<div class="sekcja-t">Ten krok prowadzisz własnymi słowami</div><div class="krotko">' + k.krotko.map(function (x) { return "<p>" + x + "</p>"; }).join("") + "</div>";
@@ -203,7 +214,9 @@ function krok(sid, i) {
     if (i < sc.kroki.length - 1) next = '<a href="#/scena/' + sid + "/" + (i + 1) + '"><button class="glowny">Przejdź do następnego etapu sceny →</button></a>';
     else { var n = nastepnaScena(sc); next = n ? '<a href="#/scena/' + n.id + '/0"><button class="glowny">Przejdź do następnej sceny: ' + esc(n.tytul) + " →</button></a>" : '<a href="#/"><button class="glowny">Koniec scenariusza: ekran startowy</button></a>'; }
   }
-  var dol = '<div class="dol">' + prev + '<div class="flagi-krok">' + (flagi ? "<small>Zaznacz, co się wydarzyło (zapisuje się w przeglądarce):</small><br>" + flagi : "") + "</div>" + next + "</div>";
+  var nk = modul ? null : (i < sc.kroki.length - 1 ? { k: sc.kroki[i + 1], s: sc, n: i + 2 } : (nastepnaScena(sc) ? { k: nastepnaScena(sc).kroki[0], s: nastepnaScena(sc), n: 1 } : null));
+  var dalej = nk && nk.k ? '<div class="dalej">Co dalej: <strong>' + (nk.s === sc ? "krok " + nk.n + ". " : "scena " + numerSceny(nk.s) + ", krok 1. ") + esc(nk.k.tytul) + "</strong>" + (nk.k.czas ? " (" + esc(nk.k.czas) + ")" : "") + (nk.k.skrot ? "<br>" + nk.k.skrot : "") + "</div>" : "";
+  var dol = dalej + '<div class="dol">' + prev + '<div class="flagi-krok">' + (flagi ? "<small>Zaznacz, co się wydarzyło (zapisuje się w przeglądarce):</small><br>" + flagi : "") + "</div>" + next + "</div>";
   var wed = (!modul && MODUL) ? '<p><a href="#/wedrowki" id="do-wedrowek">Gracze błądzą po zamku? Wędrówki po zamku (spotkania A–P) →</a></p>' : "";
 
   app.innerHTML = '<div class="ukl"><aside class="lewa">' + lewa + '</aside><section class="srodek">' + sr + dol + wed + '</section><aside class="prawa">' + prawa + "</aside></div>";
@@ -225,6 +238,15 @@ function krok(sid, i) {
   if (dw) dw.onclick = function () { S.powrot = { scena: sid, krok: i }; zapisz(S); };
 }
 
+/* ---------- starcie ---------- */
+function starcie(presetId) {
+  var lista = Object.keys(D.postacie).filter(function (k) { return k !== "_slownik"; }).map(function (k) { return D.postacie[k]; });
+  if (presetId) { try { var st = JSON.parse(localStorage.getItem("hp69-starcie-v1")) || {}; if (st.preset !== presetId) { st.preset = presetId; var pr = (D.starcia || []).filter(function (x) { return x.id === presetId; })[0]; if (pr) { st.rodzaj = pr.rodzaj; st.n = (pr.przeciwnicy || [])[0]; st.tp = 0; st.tn = 0; st.zn = { body: 0, mind: 0 }; st.log = []; st.zp = {}; if (pr.stan_postaci) lista.forEach(function (p) { st.zp[p.id] = { body: pr.stan_postaci.body || 0, mind: pr.stan_postaci.mind || 0 }; }); st.akcja = pr.inicjatywa === false ? "atakN" : "inic"; } } localStorage.setItem("hp69-starcie-v1", JSON.stringify(st)); } catch (e) {} }
+  var poz = S.pozycja, wr = poz && scena(poz.scena) ? '<p><a href="#/scena/' + poz.scena + "/" + poz.krok + '"><button>← Wróć do sceny</button></a></p>' : "";
+  app.innerHTML = '<div class="starcie-ekran" style="max-width:980px;margin:0 auto"><h1>Panel starcia</h1>' + wr + '<div id="starcie-el"></div></div>';
+  window.renderStarcie(document.getElementById("starcie-el"), { postacie: lista, npc: D.npc_staty || {}, starcia: D.starcia || [], mg: true });
+}
+
 /* ---------- wędrówki ---------- */
 function wedrowki() {
   if (!MODUL) { app.innerHTML = "<p>Brak modułu wędrówek.</p>"; return; }
@@ -241,7 +263,7 @@ function wedrowki() {
 
 /* ---------- menu, flagi, szukaj ---------- */
 function menu() {
-  var h = "<p><a href='#/'><button>Ekran startowy</button></a> <a href='#/postacie'><button>Postacie graczy</button></a> <a href='#/kreator'><button>Tworzenie postaci</button></a> <a href='#/ksiega'><button>Księga zaklęć</button></a> <a href='#/zasady'><button>Zasady i kanon</button></a> <a href='#/wedrowki'><button>Wędrówki po zamku</button></a></p>";
+  var h = "<p><a href='#/'><button>Ekran startowy</button></a> <a href='#/postacie'><button>Postacie graczy</button></a> <a href='#/kreator'><button>Tworzenie postaci</button></a> <a href='#/ksiega'><button>Księga zaklęć</button></a> <a href='#/zasady'><button>Zasady i kanon</button></a> <a href='#/wedrowki'><button>Wędrówki po zamku</button></a> <a href='#/starcie'><button>Panel starcia</button></a></p>";
   h += "<h4>Sceny</h4><div class='siatka'>" + GLOWNE.map(function (s) {
     return '<a class="kafel" href="#/scena/' + s.id + '/0"><strong>' + (numerSceny(s) === "11" ? "Prolog" : "Scena " + numerSceny(s)) + "</strong><br>" + esc(s.tytul.replace(/^Prolog:\s*/, "")) + "</a>";
   }).join("") + "</div>";

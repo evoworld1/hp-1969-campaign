@@ -55,10 +55,54 @@ Zerka na drzwi przed każdym zaklęciem (nawyk do testu przeciwnego).
 statystyki:
   id: npc.barnaby-finch.statystyki
   system: walker-2e-draft-2026-04
-  wartosci: {}
+  wartosci:
+    # Uzupełnione 2026-11-22 (mechanik). Uczeń przeciętny, jak w tabeli sceny 04. Ukrywanie zamiaru: Wits 3 + Chicanery 1 = 4. Protego jeszcze nieopanowane (12), więc w pojedynku nie tarcza.
+    rodzaj: czarodziej
+    poziom: "Average student"   # s. 102; cechy 16, umiejętności 34
+    lineage: Half-blood
+    school: "Hogwarts (1963)"
+    year: 6
+    house: "Gryffindor"
+    cechy:
+      Vitality: 4
+      Speed: 3
+      Wits: 3
+      Knowledge: 3
+      Focus: 3
+    umiejetnosci:
+      Chicanery: 1
+      Duelling: 3
+      Charms: 3
+      D.A.D.A.: 3
+      Observation: 3
+      Transfiguration: 3
+      Potions: 2
+      Herbology: 2
+      Magical Theory: 2
+      Broomstick Flying: 4
+      Balance: 3
+      Skirmishing: 2
+      Stealth: 1
+      Magical Creatures: 2
+    zaklecia:                     # nazwa: aktualna trudność (0 = opanowane)
+      Lumos: 0
+      Wingardium Leviosa: 0
+      Alohomora: 0
+      Reparo: 0
+      Diffindo: 0
+      Flipendo: 0
+      Expelliarmus: 0
+      Trip Jinx: 0
+      Rictustempra: 0
+      Protego: 12
+    patronus: brak
+    rozdzka: "Kasztanowiec (Chestnut), włos jednorożca, 12 cali, giętka; Herbology +1, Magical Creatures +1, Healing Magic +2, Protective Magic +2 (rdzeń z drewnem Chestnut daje +2 zamiast +1, s. 28-29). Propozycja [nasze]"
+    zdrowie: {body: 0, mind: 0}
   zdolnosci_specjalne:
     - nazwa: "Zerkanie na drzwi"
       opis: "Ćwiczebny przeciwnik w teście przeciwnym (Opposed Test, s. 4) na lekcji Wrena. Postać, która zauważy i nazwie nawyk, dostaje premię; wielkość ustala mechanik."
+    - nazwa: "Typowe rzuty"
+      opis: "Czujność (Wits + Observation): 1D10 + 6; Ukrywanie zamiaru (Wits + Chicanery): 1D10 + 4; Inicjatywa w pojedynku (Speed + Duelling): 1D10 + 6; Atak w pojedynku (Wits + Duelling): 1D10 + 6; Unik (Speed + Wits): 1D10 + 6; Odporność na obrażenia (1D10 + Vitality): 1D10 + 4. Sumy gotowe do użycia przy stole (Walker 2e s. 3-4, 33, 41; wzór: 1D10 + cecha + umiejętność)."
 ```
 
 ## Do weryfikacji

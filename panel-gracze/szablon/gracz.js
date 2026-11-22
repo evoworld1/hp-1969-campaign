@@ -17,7 +17,7 @@ var KARA = [0, 1, 2, 3, 5, 7, "X"];
 var STANY = [["", ""], ["Wstrząśnięty", "Roztrzęsiony"], ["Posiniaczony", "Oszołomiony"], ["Zakrwawiony", "Wyczerpany"], ["Złamany", "Zdezorientowany"], ["Gasnący", "Majaczący"], ["Bez życia", "Bez świadomości"]];
 var CECHY = ["Vitality", "Speed", "Wits", "Knowledge", "Focus"];
 
-var P = null, ST = null, KLUCZ = "", zakladka = "karta", kalkWstep = null;
+var P = null, ST = null, KLUCZ = "", zakladka = "karta", kalkWstep = null, testWstep = null;
 function zapisz() { try { localStorage.setItem(KLUCZ, JSON.stringify(ST)); } catch (e) {} }
 function wczytaj() { try { return JSON.parse(localStorage.getItem(KLUCZ)) || {}; } catch (e) { return {}; } }
 
@@ -56,14 +56,14 @@ function odszyfruj(slug, pin) {
 /* ---------- widok ---------- */
 function kara() { var a = KARA[ST.body], b = KARA[ST.mind]; if (a === "X" || b === "X") return "X"; return a + b; }
 function widok() {
-  var zk = [["karta", "Karta"], ["zaklecia", "Zaklęcia"], ["zdrowie", "Zdrowie i punkty"], ["ksiega", "Księga zaklęć"], ["kalk", "Kalkulator"], ["notatki", "Ekwipunek i notatki"], ["sciaga", "Ściąga"], ["druk", "Do druku"]];
+  var zk = [["karta", "Karta"], ["zaklecia", "Zaklęcia"], ["zdrowie", "Zdrowie i punkty"], ["ksiega", "Księga zaklęć"], ["kalk", "Rzut zaklęcia"], ["test", "Test umiejętności"], ["starcie", "Pojedynek i starcie"], ["notatki", "Ekwipunek i notatki"], ["sciaga", "Ściąga"], ["druk", "Do druku"]];
   var k = kara();
   app.innerHTML = '<div class="gpasek"><h1>' + esc(P.imie) + ' <small class="puste">' + esc(P.dom) + '</small></h1><div><span class="flaga">Story Points: ' + ST.sp + '</span> <span class="flaga">Kara zdrowia: ' + (k === 0 ? "brak" : (k === "X" ? "brak akcji" : "+" + k)) + '</span> <button id="wyjdz">Wyloguj</button></div></div>' +
     '<div class="gz">' + zk.map(function (z) { return '<button data-z="' + z[0] + '" class="' + (z[0] === zakladka ? "aktywna" : "") + '">' + z[1] + "</button>"; }).join("") + '</div><div id="tresc"></div>';
   app.querySelectorAll(".gz button").forEach(function (b) { b.onclick = function () { zakladka = b.getAttribute("data-z"); widok(); window.scrollTo(0, 0); }; });
   document.getElementById("wyjdz").onclick = function () { try { sessionStorage.removeItem("hp69g-sesja"); } catch (e) {} P = null; login(); };
   var t = document.getElementById("tresc");
-  ({ karta: tKarta, zaklecia: tZaklecia, ksiega: tKsiega, zdrowie: tZdrowie, kalk: tKalk, notatki: tNotatki, sciaga: tSciaga, druk: tDruk })[zakladka](t);
+  ({ karta: tKarta, zaklecia: tZaklecia, ksiega: tKsiega, zdrowie: tZdrowie, kalk: tKalk, test: tTest, starcie: tStarcie, notatki: tNotatki, sciaga: tSciaga, druk: tDruk })[zakladka](t);
 }
 function otworzKalk(w) { kalkWstep = w; zakladka = "kalk"; widok(); window.scrollTo(0, 0); }
 
@@ -77,7 +77,7 @@ function tKarta(t) {
     '<div class="sekg"><h3>Różdżka</h3><p><b>' + esc(tlum(r.drewno) || r.drewno) + "</b> (" + esc(r.drewno) + "), rdzeń: <b>" + esc(tlum(r.rdzen) || r.rdzen) + "</b> (" + esc(r.rdzen) + "), " + esc(r.dlugosc_cali) + " cali · giętkość: " + esc(tlum(r.gietkosc) || r.gietkosc) + " · wytrzymałość: " + esc(r.wytrzymalosc) + "</p>" +
     "<p><b>Premie do rzutu zaklęcia z tej grupy:</b> " + (r.premie || []).map(function (x) { return esc(premiaPL(x)); }).join("; ") + "</p><p class='puste'>" + esc(r.opis || "") + "</p></div>" +
     '<div class="sekg"><h3>Zwierzę, charakter, sekret</h3><p><b>Zwierzę towarzyszące (wpisz własne: sowa, kot lub ropucha i imię):</b> <input id="zw-pole" type="text" style="width:100%;max-width:26rem;padding:.4rem;border:1px solid var(--linia);border-radius:6px;background:var(--bg)" value="' + esc(ST.zwierze != null ? ST.zwierze : ((z.rodzaj || "") + (z.imie ? " " + z.imie : ""))) + '"></p><p><b>Charakter:</b> ' + esc(P.charakter || "") + "</p><p><b>Sekret:</b> " + esc(P.sekret || "") + "</p><p><b>Osoba, na której zależy:</b> " + esc(P.osoba_bliska || "") + "</p><p><b>Wakacje 1969:</b> " + esc(P.wakacje_1969 || "") + "</p></div>";
-  t.querySelectorAll(".um").forEach(function (b) { b.onclick = function () { otworzKalk({ um: b.getAttribute("data-u") }); }; });
+  t.querySelectorAll(".um").forEach(function (b) { b.onclick = function () { testWstep = { um: b.getAttribute("data-u") }; zakladka = "test"; widok(); window.scrollTo(0, 0); }; });
   var zp = document.getElementById("zw-pole"); if (zp) zp.oninput = function () { ST.zwierze = zp.value; zapisz(); };
 }
 function premiaPL(s) {
@@ -91,16 +91,18 @@ function premiaPL(s) {
 function tZaklecia(t) {
   var zz = P.zaklecia || {}, sl = SL.zaklecia || {};
   var G = [["wspolny", "Pakiet wspólny"], ["archetyp", "Pakiet typu postaci"], ["wybor", "Do wyboru"], ["zaawansowane", "Magia zaawansowana i eliksiry"]];
-  t.innerHTML = '<p class="puste">Wszystkie zaklęcia na karcie są <b>opanowane</b> (zaznaczone wszystkie kratki): trudność 0, poza walką nie rzucasz kością. Liczba kratek to „koszt nauki”. Kliknij zaklęcie, żeby zobaczyć opis (efekt, czas trwania, działanie w walce) i przeliczyć rzut. Wszystkie zaklęcia z podręcznika są w zakładce „Księga zaklęć”.</p><input id="zf" placeholder="Szukaj zaklęcia…" style="width:100%;padding:.5rem;margin:.4rem 0;border:1px solid var(--linia);border-radius:8px;background:var(--panel)">' +
+  t.innerHTML = '<p class="puste">Wszystkie zaklęcia na karcie są <b>opanowane</b> (zaznaczone wszystkie kratki): ich aktualna trudność to 0, a poza walką zwykle nie rzucasz kością. „Trudność” przy nazwie to trudność nauki z podręcznika: tyle wynosi, dopóki zaklęcia się nie opanuje (ważne przy nauce nowych zaklęć z Księgi). Kliknij nazwę, żeby zobaczyć opis; „Rzuć →” otwiera kalkulator z gotowymi ustawieniami. Wszystkie zaklęcia z podręcznika są w zakładce „Księga zaklęć”.</p><input id="zf" placeholder="Szukaj zaklęcia…" style="width:100%;padding:.5rem;margin:.4rem 0;border:1px solid var(--linia);border-radius:8px;background:var(--panel)">' +
     G.map(function (g) {
       var l = zz[g[0]] || []; if (!l.length) return "";
       return "<h3>" + g[1] + "</h3><div class='zklg'>" + l.map(function (x) {
         var kr = ""; for (var i = 0; i < (x.kratki || 0); i++) kr += "<span></span>";
         var ks = window.znajdzZaklecie ? window.znajdzZaklecie(x.nazwa) : null;
-        return '<details class="zk" data-n="' + esc(x.nazwa) + '"><summary><b>' + esc(x.nazwa === "Stupefy" ? "Stupefy (Drętwota)" : x.nazwa) + ' </b><span class="kr">' + kr + "</span><small>" + esc((ks && ks.efekt) || (sl[x.nazwa] || {}).opis || "") + "</small></summary>" +
+        var meta = ks ? '<span class="zk-tr" title="trudność nauki z podręcznika; opanowane zaklęcie ma aktualną trudność 0">trudność ' + esc(ks.trudnosc) + "</span>" + (ks.rok ? '<span class="zk-meta">' + esc(ks.rok) + ". rok</span>" : "") + (ks.w_walce ? '<span class="zk-meta">· do walki</span>' : "") : '<span class="zk-meta">brak w księdze</span>';
+        return '<details class="zk" data-n="' + esc(x.nazwa) + '"><summary><b>' + esc(x.nazwa === "Stupefy" ? "Stupefy (Drętwota)" : x.nazwa) + ' </b>' + meta + '<span class="kr">' + kr + '</span><button class="zk-rzuc" type="button">Rzuć →</button><small>' + esc((ks && ks.efekt) || (sl[x.nazwa] || {}).opis || "") + "</small></summary>" +
           window.kartaZaklecia(ks, '<p><button class="zk-kalk">Przelicz rzut w kalkulatorze</button></p>') + "</details>";
       }).join("") + "</div>";
     }).join("");
+  t.querySelectorAll(".zk-rzuc").forEach(function (b) { b.onclick = function (e) { e.preventDefault(); e.stopPropagation(); otworzKalk({ zakl: b.closest(".zk").getAttribute("data-n") }); }; });
   t.querySelectorAll(".zk-kalk").forEach(function (b) { b.onclick = function () { otworzKalk({ zakl: b.closest(".zk").getAttribute("data-n") }); }; });
   document.getElementById("zf").oninput = function () { var q = this.value.toLowerCase(); t.querySelectorAll(".zk").forEach(function (b) { b.hidden = q && b.textContent.toLowerCase().indexOf(q) < 0; }); };
 }
@@ -169,6 +171,12 @@ var NIEKORZYSCI = [["niew", "Zaklęcie niewerbalne", 6], ["cudza", "Cudza różd
 function moje(n) { var zz = P.zaklecia || {}; return Object.keys(zz).some(function (g) { return (zz[g] || []).some(function (x) { return x.nazwa === n; }); }); }
 function tKalk(t) {
   var w = kalkWstep || {}; kalkWstep = null;
+  if (!w.zakl) {
+    var zz = []; Object.keys(P.zaklecia || {}).forEach(function (g) { (P.zaklecia[g] || []).forEach(function (x) { zz.push(x.nazwa); }); });
+    t.innerHTML = '<div class="sekg"><h3>Rzut zaklęcia</h3><p class="puste">Wybierz zaklęcie z karty (albo kliknij „Rzuć →” na liście zaklęć). Test bez zaklęcia, np. spostrzegawczość czy skradanie, jest w zakładce „Test umiejętności”.</p><div class="pary">' + zz.map(function (n) { var k = window.znajdzZaklecie(n); return '<button type="button" data-z="' + esc(n) + '">' + esc(n) + (k ? " · " + k.trudnosc : "") + "</button>"; }).join("") + "</div></div>";
+    t.querySelectorAll("[data-z]").forEach(function (b) { b.onclick = function () { otworzKalk({ zakl: b.getAttribute("data-z") }); }; });
+    return;
+  }
   var um = Object.keys(P.umiejetnosci || {});
   var info = w.zakl ? infoZakl(w.zakl) : null;
   var tryb = w.zakl ? (info.cel ? "pojedynek" : "rzut") : "test";
@@ -254,6 +262,15 @@ function tKalk(t) {
   };
   t.addEventListener("input", licz); t.addEventListener("change", function (e) { if (e.target.name === "tryb") ustawAuto(); licz(); });
   ustawAuto(); licz();
+}
+
+function tTest(t) {
+  var w = testWstep || {}; testWstep = null;
+  window.renderTest(t, P, { um: w.um, kara: kara() });
+}
+function tStarcie(t) {
+  t.innerHTML = '<p class="puste">Panel do pojedynków i pokazów. Wybierz zaplanowane starcie (gdy MG powie, która scena), potem zaklęcie. Wpisz swoją kość; kość przeciwnika podaje MG.</p><div id="st-el"></div>';
+  window.renderStarcie(document.getElementById("st-el"), { postacie: [P], stala: P.id, npc: D.npc_staty || {}, starcia: D.starcia || [], storyPoints: ST.sp > 0 });
 }
 
 /* ---------- notatki, ściąga, druk ---------- */

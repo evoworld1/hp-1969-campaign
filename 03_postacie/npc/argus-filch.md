@@ -59,32 +59,33 @@ statystyki:
   id: npc.argus-filch.statystyki
   system: walker-2e-draft-2026-04
   wartosci:
-    # Uzupełnione 2026-11-21 (mechanik). Charłak (Squib): bez zaklęć, nie rzuca; Focus nie służy do niczego, Walker s. 6-9.
-    rodzaj: czarodziej
-    poziom: "Average student"     # s. 102 (cechy 17, umiejętności 21); Filch nie jest czarodziejem, poziom służy tylko jako skala
+    rodzaj: czarodziej   # charłak (Squib): bez zaklęć, nie rzuca
+    poziom: "Average student"   # s. 102; cechy 16, umiejętności 31
     lineage: Squib
-    school: "brak (kurs korespondencyjny magii)"
+    school: "brak"
     profession: "Woźny Hogwartu"
     cechy:
-      Vitality: 3
-      Speed: 4
-      Wits: 6
-      Knowledge: 3
-      Focus: 1
+      Vitality: 4
+      Speed: 3
+      Wits: 3
+      Knowledge: 6
+      Focus: 0
     umiejetnosci:
-      "Observation (Patrol)": 3
-      Stealth: 4
-      Authority: 3
-      Skirmishing: 3
-      "Law (Regulamin szkoły)": 3
-      "Trivia (Zamek)": 4
-      Persuasion: 1
+      "Art (House Keeping)": 7
+      Balance: 4
+      "Crafting (Naprawy)": 5
+      "Law (Regulamin szkoły)": 5
+      "Observation (Patrol)": 6
+      "Prestige (Hogwarts)": 1
+      Stealth: 3
     zaklecia: {}
     patronus: brak
     zdrowie: {body: 0, mind: 0}
   zdolnosci_specjalne:
     - nazwa: "Obchód"
-      opis: "Przeciwnik w teście skradania (test przeciwny: Speed + Stealth, czyli szybkość i skradanie, postaci przeciw jego Wits + Observation, czyli bystrości i spostrzegawczości). Rzut obronny Filcha to 1D10 + 9 (Wits 6 + Observation 3, Walker 2e s. 3-4); tyle liczą sceny 09 i 10. Zegar Północy w scenie 09 zastąpił licznik hałasu (założenie robocze 2026-11-21)."
+      opis: "Przeciwnik w teście skradania (test przeciwny: Speed + Stealth, czyli szybkość i skradanie, postaci przeciw jego Wits + Observation, czyli bystrości i spostrzegawczości). Rzut obronny Filcha to 1D10 + 9 (Wits 3 + Observation (Patrol) 6, jak we wpisie Walkera s. 123; sceny 09 i 10 liczą tę samą sumę 9, choć rozkładają ją na Wits 4 + Observation 5). Zegar Północy w scenie 09 zastąpił licznik hałasu (założenie robocze 2026-11-21)."
+    - nazwa: "Typowe rzuty"
+      opis: "Czujność (Wits + Observation): 1D10 + 9; Unik (Speed + Wits): 1D10 + 6; Odporność na obrażenia (1D10 + Vitality): 1D10 + 4. Sumy gotowe do użycia przy stole (Walker 2e s. 3-4, 33, 41; wzór: 1D10 + cecha + umiejętność)."
 ```
 
 ## Do weryfikacji

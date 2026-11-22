@@ -56,8 +56,48 @@ Odruchowo sprawdza zegarek co kilka minut, jakby pilnowała, czy znowu nic nie z
 statystyki:
   id: npc.maisie-lock.statystyki
   system: walker-2e-draft-2026-04
-  wartosci: {}
-  zdolnosci_specjalne: []
+  wartosci:
+    # Uzupełnione 2026-11-22 (mechanik). Trzecioroczna, dolna granica poziomu Average student. Nie przeciwnik.
+    rodzaj: czarodziej
+    poziom: "Average student"   # s. 102; cechy 14, umiejętności 27
+    lineage: Half-blood
+    school: "Hogwarts (1966)"
+    year: 3
+    house: "Hufflepuff"
+    cechy:
+      Vitality: 3
+      Speed: 3
+      Wits: 3
+      Knowledge: 2
+      Focus: 3
+    umiejetnosci:
+      Herbology: 3
+      Charms: 3
+      Magical Creatures: 3
+      Observation: 2
+      Persuasion: 2
+      Potions: 2
+      Transfiguration: 2
+      D.A.D.A.: 2
+      Astronomy: 2
+      Broomstick Flying: 2
+      Balance: 2
+      Stealth: 1
+      History of Magic: 1
+    zaklecia:                     # nazwa: aktualna trudność (0 = opanowane)
+      Lumos: 0
+      Alohomora: 0
+      Wingardium Leviosa: 0
+      Reparo: 0
+      Diffindo: 0
+      Flipendo: 12
+      Locomotor: 0
+    patronus: brak
+    rozdzka: "Leszczyna (Hazel), łodyga dyptamu, 10 cali, giętka; Water Magic +2, Herbology +2. Propozycja [nasze]"
+    zdrowie: {body: 0, mind: 0}
+  zdolnosci_specjalne:
+    - nazwa: "Typowe rzuty"
+      opis: "Czujność (Wits + Observation): 1D10 + 5; Unik (Speed + Wits): 1D10 + 6. Sumy gotowe do użycia przy stole (Walker 2e s. 3-4, 33, 41; wzór: 1D10 + cecha + umiejętność)."
 ```
 
 ## Do weryfikacji

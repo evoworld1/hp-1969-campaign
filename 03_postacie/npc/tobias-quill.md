@@ -82,10 +82,51 @@ Przykładowe kwestie:
 statystyki:
   id: npc.tobias-quill.statystyki
   system: walker-2e-draft-2026-04
-  wartosci: {}
+  wartosci:
+    # Uzupełnione 2026-11-22 (mechanik). Źródło plotek, nie przeciwnik. W teście z sceny 01 (Wits + Observation) tylko partner rozmowy.
+    rodzaj: czarodziej
+    poziom: "Average student"   # s. 102; cechy 16, umiejętności 36
+    lineage: Muggle-born
+    school: "Hogwarts (1963)"
+    year: 6
+    house: "zmienny (MG przypisuje przed sesją)"
+    cechy:
+      Vitality: 3
+      Speed: 3
+      Wits: 4
+      Knowledge: 3
+      Focus: 3
+    umiejetnosci:
+      Persuasion: 4
+      Chicanery: 3
+      Observation: 3
+      "Trivia (Plotki)": 5
+      Charms: 3
+      D.A.D.A.: 2
+      Duelling: 2
+      Transfiguration: 3
+      Muggle Studies: 3
+      Herbology: 2
+      Potions: 2
+      Magical Theory: 2
+      Stealth: 2
+    zaklecia:                     # nazwa: aktualna trudność (0 = opanowane)
+      Lumos: 0
+      Wingardium Leviosa: 0
+      Alohomora: 0
+      Reparo: 0
+      Flipendo: 0
+      Expelliarmus: 12
+      Protego: 15
+      Muffliato: 15
+    patronus: brak
+    rozdzka: "Wierzba (Willow), włos jednorożca, 10 cali, giętka; Healing Magic +3, Charms +1, Protective Magic +2 (wierzba z włosem jednorożca daje Protective +2, s. 28-29). Propozycja [nasze]"
+    zdrowie: {body: 0, mind: 0}
   zdolnosci_specjalne:
     - nazwa: "Źródło plotek"
       opis: "Raz na scenę z jego udziałem MG może przez niego podać jedną plotkę albo jedną wskazówkę z tabeli trzech dróg, bez testu. W scenie 01 jest partnerem pierwszego, prostego testu (np. Wits + Observation, czyli bystrość i spostrzegawczość; próg ustali mechanik)."
+    - nazwa: "Typowe rzuty"
+      opis: "Czujność (Wits + Observation): 1D10 + 7; Wykrywanie kłamstwa (Wits + Chicanery): 1D10 + 7; Unik (Speed + Wits): 1D10 + 7. Sumy gotowe do użycia przy stole (Walker 2e s. 3-4, 33, 41; wzór: 1D10 + cecha + umiejętność)."
 ```
 
 ## Do weryfikacji

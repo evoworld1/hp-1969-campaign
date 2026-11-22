@@ -82,12 +82,58 @@ Przykładowe kwestie:
 statystyki:
   id: npc.hollis-crake.statystyki
   system: walker-2e-draft-2026-04
-  wartosci: {}
+  wartosci:
+    # Uzupełnione 2026-11-22 (mechanik). Własny wpis [nasze]; lineage i rok szkoły to założenie robocze. Sesja 1: pogawędka bez przeciwnika. Sesja 2: Życzliwe kłamstwo (Wits 6 + Chicanery 7). Słabe w pojedynku.
+    rodzaj: czarodziej
+    poziom: "Professional Wizard"   # s. 102; cechy 28, umiejętności 87
+    lineage: Half-blood
+    school: "Hogwarts (1920)"
+    house: "Hufflepuff"
+    profession: "Zegarmistrz (Crake i Córka)"
+    cechy:
+      Vitality: 3
+      Speed: 3
+      Wits: 6
+      Knowledge: 8
+      Focus: 8
+    umiejetnosci:
+      "Crafting (Zegary)": 11
+      Magical Theory: 8
+      Charms: 7
+      Transfiguration: 6
+      Chicanery: 7
+      Persuasion: 5
+      "Observation (Mechanizmy)": 6
+      "Trivia (Zegary)": 7
+      Arithmancy: 6
+      Ancient Runes: 5
+      D.A.D.A.: 4
+      Potions: 3
+      Alchemy: 4
+      Law: 2
+      Authority: 2
+      "Prestige (Zegarmistrzowie)": 4
+    zaklecia:                     # nazwa: aktualna trudność (0 = opanowane)
+      Reparo: 0
+      Lumos: 0
+      Alohomora: 0
+      Finite Incantatem: 0
+      Specialis Revelio: 0
+      Engorgio: 0
+      Reducio: 0
+      Protego: 15
+      Expelliarmus: 12
+      Geminio: 0
+    patronus: brak
+    rozdzka: "Jodła (Fir), kosmyk wąsa kneazla; Transfiguration +1, Revealing Magic +2, Non-verbal Magic +1. Propozycja [nasze]"
+    zdrowie: {body: 0, mind: 0}
   zdolnosci_specjalne:
     - nazwa: "Ręce zegarmistrza"
       opis: "Wybitny w rzemiośle (kandydat: Crafting ze specjalizacją w zegarach). Potrzebne dopiero w Sesji 2–3."
     - nazwa: "Życzliwe kłamstwo"
       opis: "Ukrywa prawdę bez wysiłku. W Sesji 1 nie da się go przyłapać na kłamstwie testem; w Sesji 2 test przeciwny (np. Wits + Chicanery, czyli bystrość i podstęp, postaci przeciw jego Chicanery). Liczby ustala mechanik."
+    - nazwa: "Typowe rzuty"
+      opis: "Czujność (Wits + Observation): 1D10 + 12; Wykrywanie kłamstwa (Wits + Chicanery): 1D10 + 13; Unik (Speed + Wits): 1D10 + 9. Sumy gotowe do użycia przy stole (Walker 2e s. 3-4, 33, 41; wzór: 1D10 + cecha + umiejętność)."
 ```
 
 ## Do weryfikacji

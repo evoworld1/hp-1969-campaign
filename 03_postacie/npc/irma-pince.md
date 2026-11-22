@@ -57,8 +57,51 @@ Krzywi się na każdy okruch i każdy zagięty róg. Przy ostatnim rzędzie dzia
 statystyki:
   id: npc.irma-pince.statystyki
   system: walker-2e-draft-2026-04
-  wartosci: {}
-  zdolnosci_specjalne: []
+  wartosci:
+    # Uzupełnione 2026-11-22 (mechanik). Walker 2e s. 122 (wpis z lat 90.). Observation 5 i Authority (Biblioteka) 5 dopisane jako propozycja [nasze]. Nocą nie patroluje (karta); liczby przydają się dla rano po wyprawie.
+    rodzaj: czarodziej
+    poziom: "Professional Wizard"   # s. 102; cechy 27, umiejętności 85
+    lineage: Pure-blood
+    school: "Hogwarts"
+    house: "Ravenclaw"
+    profession: "Librarian"
+    cechy:
+      Vitality: 4
+      Speed: 5
+      Wits: 5
+      Knowledge: 8
+      Focus: 5
+    umiejetnosci:
+      Ancient Runes: 8
+      Archivist: 10
+      Broomstick Flying: 6
+      Charms: 7
+      D.A.D.A.: 6
+      Dark Arts: 5
+      Duelling: 5
+      Muggle Studies: 7
+      Persuasion: 3
+      Potions: 6
+      "Prestige (Hogwarts)": 6
+      Transfiguration: 6
+      Observation: 5
+      "Authority (Biblioteka)": 5
+    zaklecia:                     # nazwa: aktualna trudność (0 = opanowane)
+      Expecto Patronum: 0
+      Quietus: 0
+      Reparo: 0
+      Accio: 0
+      Silencio: 0
+      Protego: 0
+      Finite Incantatem: 0
+      Colloportus: 0
+      Scourgify: 0
+    patronus: NC
+    rozdzka: "Czarny orzech (Black Walnut), kolec kolczastego jesionu (Prickly Ash); Charms +2, Protective Magic +3, Revealing Magic +1. Propozycja [nasze]"
+    zdrowie: {body: 0, mind: 0}
+  zdolnosci_specjalne:
+    - nazwa: "Typowe rzuty"
+      opis: "Czujność (Wits + Observation): 1D10 + 10; Wykrywanie kłamstwa (Wits + Chicanery): 1D10 + 5; Protego (Wits + Charms + różdżka): 1D10 + 14. Sumy gotowe do użycia przy stole (Walker 2e s. 3-4, 33, 41; wzór: 1D10 + cecha + umiejętność)."
 ```
 
 ## Do weryfikacji

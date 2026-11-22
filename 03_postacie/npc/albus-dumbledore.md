@@ -60,10 +60,77 @@ Przy słowie „Marrow” na moment przestaje się uśmiechać. Na puste krzesł
 statystyki:
   id: npc.albus-dumbledore.statystyki
   system: walker-2e-draft-2026-04
-  wartosci: {}
+  wartosci:
+    # Uzupełnione 2026-11-22 (mechanik). Walker 2e s. 117-118 (wpis z lat 90.; w 1969 postać jest młodsza o ok. 25 lat, liczb nie zmieniamy). Wartości z podręcznika. W Sesji 1 niepotrzebne do walki; służą do czytania blefu i oceny siły.
+    rodzaj: czarodziej
+    poziom: "Uniquely powerful"   # s. 102; cechy 47, umiejętności 283
+    lineage: Half-blood
+    school: "Hogwarts (1892)"
+    house: "Gryffindor"
+    profession: "Headmaster of Hogwarts"
+    cechy:
+      Vitality: 5
+      Speed: 7
+      Wits: 11
+      Knowledge: 12
+      Focus: 12
+    umiejetnosci:
+      Alchemy: 7
+      Ancient Runes: 8
+      Ancient Studies: 7
+      Archivist: 8
+      Arithmancy: 8
+      Astronomy: 7
+      "Authority (Mentor)": 10
+      "Balance (Bowling)": 4
+      Broomstick Flying: 4
+      "Charms (Elemental)": 12
+      Chicanery: 6
+      Concealment: 6
+      Crafting: 7
+      Dark Arts: 8
+      D.A.D.A.: 10
+      Divination: 5
+      Duelling: 10
+      Herbology: 7
+      History of Magic: 9
+      Law: 7
+      Magical Creatures: 6
+      Magical Theory: 10
+      Muggle Studies: 7
+      Music: 5
+      Observation: 9
+      Occlumency: 10
+      Persuasion: 9
+      Potions: 8
+      "Prestige (Order of the Phoenix)": 10
+      "Strategy (Predictive)": 9
+      Skirmishing: 4
+      Stealth: 9
+      Swimming: 3
+      Transfiguration: 10
+      Transportation: 9
+      "Trivia (Bowling)": 9
+      Wandlore: 6
+    zaklecia:                     # nazwa: aktualna trudność (0 = opanowane)
+      Expecto Patronum: 0
+      Expelliarmus: 0
+      Protego: 0
+      Protego Totalum: 0
+      Finite Incantatem: 0
+      Legilimens: 0
+      Piertotum Locomotor: 0
+      Specialis Revelio: 0
+      Incendio: 0
+      Aguamenti: 0
+    patronus: Phoenix
+    rozdzka: "Starsza Różdżka (Elder Wand): Magic +7 (wszystkie zaklęcia), Wand Loyalty +7 (Walker 2e s. 118). Różdżka od 1945 w jego rękach (kanon)"
+    zdrowie: {body: 0, mind: 0}
   zdolnosci_specjalne:
     - nazwa: "Poza zasięgiem magii czasu"
       opis: "Kradzież godzin go nie dotyka i Ansela nie widzi (decyzja MG). Statystyki w Sesji 1 niepotrzebne."
+    - nazwa: "Typowe rzuty"
+      opis: "Czujność (Wits + Observation): 1D10 + 20; Wykrywanie kłamstwa (Wits + Chicanery): 1D10 + 17; Inicjatywa w pojedynku (Speed + Duelling + różdżka): 1D10 + 24; Atak w pojedynku (Wits + Duelling + różdżka): 1D10 + 28; Protego (Wits + Charms + różdżka): 1D10 + 30; Unik (Speed + Wits): 1D10 + 18. Sumy gotowe do użycia przy stole (Walker 2e s. 3-4, 33, 41; wzór: 1D10 + cecha + umiejętność)."
 ```
 
 ## Do weryfikacji

@@ -56,8 +56,54 @@ Przy słowie „duch Puchona” prycha i mówi, że Gruby Mnich jest jedynym duc
 statystyki:
   id: npc.pomona-sprout.statystyki
   system: walker-2e-draft-2026-04
-  wartosci: {}
-  zdolnosci_specjalne: []
+  wartosci:
+    # Uzupełnione 2026-11-22 (mechanik). Walker 2e s. 121 (wpis z lat 90.). Observation 5 dopisane jako propozycja [nasze]. Opiekunka Hufflepuffu. Cechy 30, umiejętności około 100.
+    rodzaj: czarodziej
+    poziom: "Professional Wizard"   # s. 102; cechy 30, umiejętności 95
+    lineage: Half-blood
+    school: "Hogwarts (1955)"
+    house: "Hufflepuff"
+    profession: "Head of Herbology"
+    cechy:
+      Vitality: 5
+      Speed: 5
+      Wits: 6
+      Knowledge: 7
+      Focus: 7
+    umiejetnosci:
+      Astronomy: 5
+      "Authority (Teaching)": 6
+      Broomstick Flying: 4
+      Charms: 7
+      Herbology: 10
+      D.A.D.A.: 6
+      Dark Arts: 6
+      Duelling: 5
+      History of Magic: 6
+      Muggle Studies: 4
+      Persuasion: 4
+      Potions: 8
+      "Prestige (Hogwarts)": 7
+      Tracking: 5
+      Transfiguration: 7
+      Observation: 5
+    zaklecia:                     # nazwa: aktualna trudność (0 = opanowane)
+      Diffindo: 0
+      Incendio: 0
+      Expecto Patronum: 0
+      Riddikulus: 0
+      Protego: 0
+      Stupefy: 0
+      Expelliarmus: 0
+      Engorgio: 0
+      Reparo: 0
+      Lumos: 0
+    patronus: NC
+    rozdzka: "Kasztanowiec (Chestnut), łodyga dyptamu; Herbology +3, Magical Creatures +1. Propozycja [nasze]"
+    zdrowie: {body: 0, mind: 0}
+  zdolnosci_specjalne:
+    - nazwa: "Typowe rzuty"
+      opis: "Czujność (Wits + Observation): 1D10 + 11; Wykrywanie kłamstwa (Wits + Chicanery): 1D10 + 6. Sumy gotowe do użycia przy stole (Walker 2e s. 3-4, 33, 41; wzór: 1D10 + cecha + umiejętność)."
 ```
 
 ## Do weryfikacji

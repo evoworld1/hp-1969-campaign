@@ -197,3 +197,82 @@ dl{margin:.2rem 0}dt{font-weight:700;font-size:.85rem;color:var(--cichy)}dd{marg
 .zkarta-t th{text-align:left;vertical-align:top;width:9.5rem;color:var(--cichy);font-weight:400;padding:.25rem .4rem .25rem 0;border-top:1px solid var(--linia)}
 .zkarta-t td{padding:.25rem 0;border-top:1px solid var(--linia)}
 @media (max-width:600px){.zkarta-t th{width:6.5rem}}
+/* ---------- wspólne: kalkulator, karty (przeniesione dla panelu MG) ---------- */
+.sekg{background:var(--panel);border:1px solid var(--linia);border-radius:10px;padding:.7rem 1rem;margin:.8rem 0}
+.sekg h3{margin:.1rem 0 .4rem}
+.kalk label,.starcie label{display:block;margin:.4rem 0}
+.kalk input,.kalk select,.starcie input,.starcie select{padding:.4rem;border:1px solid var(--linia);border-radius:6px;background:var(--bg);max-width:100%}
+.kalk input[type=number],.starcie input[type=number]{width:8rem}
+.wynikk{background:var(--czytaj-bg);border-left:5px solid var(--czytaj-linia);border-radius:0 10px 10px 0;padding:.6rem 1rem;margin:.6rem 0;font-size:1.05rem}
+.wynikk .ok{color:var(--ok)} .wynikk .zle{color:var(--akcent)}
+.gz{display:flex;gap:.3rem;flex-wrap:wrap;margin:.5rem 0 1rem}
+.gz button.aktywna,.wyb-p button.aktywna{background:var(--akcent);color:var(--akcent-t);border-color:var(--akcent)}
+.pary{display:flex;flex-wrap:wrap;gap:.3rem;margin:.4rem 0}
+.pary button{font-size:.85rem;padding:.25rem .6rem}
+.znacz.ostrz{background:var(--ostrz)}
+/* ---------- dialogi ---------- */
+details.dialog{padding:0}
+details.dialog>summary{list-style:none;cursor:pointer;padding:.7rem .9rem}
+details.dialog>summary::-webkit-details-marker{display:none}
+details.dialog>summary .rozwin{float:right;font-size:.8rem;color:var(--cichy)}
+details.dialog[open]>summary .rozwin{display:none}
+details.dialog .dl-ciało{padding:0 .9rem .7rem}
+.dialog .dl-nr{display:inline-block;background:var(--akcent);color:var(--akcent-t);border-radius:6px;padding:0 .45rem;margin-right:.4rem;font-size:.85rem}
+.dialog .dl-tytul{font-weight:700}
+.dialog .otwarcie{font-size:1.12rem;background:var(--czytaj-bg);border-left:4px solid var(--czytaj-linia);padding:.45rem .8rem;margin:.5rem 0 .2rem;border-radius:0 8px 8px 0}
+.dialog .otwarcie small{display:block;color:var(--cichy);font-size:.78rem}
+.dialog .reakcje-t{font-weight:700;font-size:.85rem;color:var(--cichy);margin:.7rem 0 .2rem}
+details.reakcja{border:1px solid var(--linia);border-radius:8px;margin:.3rem 0;background:var(--bg)}
+details.reakcja>summary{cursor:pointer;padding:.35rem .6rem;font-weight:600}
+details.reakcja>summary .nr{display:inline-block;min-width:1.5rem;font-weight:700;color:var(--akcent)}
+details.reakcja[open]>summary{border-bottom:1px solid var(--linia)}
+details.reakcja .odp{padding:.4rem .8rem;font-size:1.05rem}
+.didask{color:var(--cichy);font-style:italic;font-size:.92em}
+q.mowa{quotes:none}
+details.wie{margin-top:.6rem;font-size:.9rem}
+details.wie summary{cursor:pointer;color:var(--cichy)}
+details.wie li{margin:.25rem 0}
+.dl-spis{font-size:.9rem;margin:.2rem 0 .6rem;padding-left:1.2rem}
+/* ---------- statystyki NPC ---------- */
+.stat-karta{background:var(--panel);border:1px solid var(--linia);border-left:5px solid var(--ostrz);border-radius:10px;padding:.6rem .8rem;margin:.6rem 0}
+.stat-meta{color:var(--cichy);font-size:.85rem}
+.stat-cechy{display:grid;grid-template-columns:repeat(5,1fr);gap:.3rem;margin:.4rem 0;text-align:center}
+.stat-cechy div{border:1px solid var(--linia);border-radius:8px;padding:.15rem}
+.stat-cechy b{display:block;font-size:1.4rem;line-height:1.1}
+.stat-cechy small{display:block;font-size:.65rem;color:var(--cichy)}
+.stat-rz th{font-weight:400;text-align:left;padding-right:.8rem}
+.stat-um{font-size:.9rem}
+.stat-zakl{padding-left:1.1rem;font-size:.92rem}
+.stat-zd summary{cursor:pointer;font-weight:600}
+.npc .stat-karta{font-size:.85rem;padding:.4rem .5rem}
+.npc .stat-cechy b{font-size:1.1rem}
+/* ---------- krok: start, koniec, dalej ---------- */
+.ramy{display:grid;gap:.4rem;margin:.6rem 0}
+.ramy div{border:1px solid var(--linia);border-radius:8px;padding:.35rem .7rem;background:var(--panel);font-size:.95rem}
+.ramy b{color:var(--akcent)}
+.dalej{border:1px dashed var(--linia);border-radius:8px;padding:.5rem .8rem;margin:.8rem 0;font-size:.92rem;color:var(--cichy)}
+.dalej strong{color:var(--tekst)}
+.przycisk-starcie{display:block;margin:.6rem 0;padding:.6rem;font-weight:700;border:2px solid var(--ostrz);background:var(--panel);border-radius:10px;text-align:center}
+/* ---------- starcie ---------- */
+.starcie{max-width:980px;margin:0 auto}
+.st-kto{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+@media (max-width:720px){.st-kto{grid-template-columns:1fr}}
+.wyb-p{display:flex;gap:.4rem;flex-wrap:wrap}
+.wyb-p button{padding:.5rem 1rem;font-size:1.05rem}
+.wyb-r label{display:inline-block;margin-right:1rem}
+.st-stan{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+.st-stan>p{grid-column:1/-1}
+@media (max-width:720px){.st-stan{grid-template-columns:1fr}}
+.st-osoba h3{margin:0}
+.tor{display:flex;align-items:center;gap:.25rem;flex-wrap:wrap;margin:.25rem 0}
+.tor small:first-child{width:3.2rem}
+.kolko{width:1.5rem;height:1.5rem;border-radius:50%;padding:0}
+.kolko.on{background:var(--akcent);border-color:var(--akcent)}
+.st-kosci{display:flex;gap:1rem;flex-wrap:wrap}
+.st-kosci input{font-size:1.3rem;width:6rem!important}
+.st-koniec{background:var(--ok);color:#fff;padding:.4rem .8rem;border-radius:8px}
+.st-kroki li{margin:.2rem 0}
+.st-log{font-size:.9rem}
+.zk-meta{font-size:.8rem;color:var(--cichy);margin-left:.3rem}
+.zk-tr{display:inline-block;font-size:.78rem;border:1px solid var(--linia);border-radius:6px;padding:0 .35rem;margin-left:.3rem}
+.zk-rzuc{font-size:.8rem;padding:.1rem .5rem;margin-left:.4rem}

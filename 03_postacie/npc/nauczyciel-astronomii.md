@@ -82,8 +82,57 @@ Przykładowe kwestie:
 statystyki:
   id: npc.nauczyciel-astronomii.statystyki
   system: walker-2e-draft-2026-04
-  wartosci: {}
-  zdolnosci_specjalne: []
+  wartosci:
+    # Uzupełnione 2026-11-22 (mechanik). Własny wpis [nasze]; lineage i dom to założenie robocze. Nie przeciwnik w Sesji 1. Ciepła, roztargniona; liczby tylko dla porządku.
+    rodzaj: czarodziej
+    poziom: "Professional Wizard"   # s. 102; cechy 27, umiejętności 88
+    lineage: Half-blood
+    school: "Hogwarts (1951)"
+    house: "nieustalony (MG)"
+    profession: "Professor Ada Fairweather, Astronomy"
+    cechy:
+      Vitality: 4
+      Speed: 4
+      Wits: 6
+      Knowledge: 7
+      Focus: 6
+    umiejetnosci:
+      Astronomy: 9
+      Magical Theory: 7
+      Arithmancy: 6
+      Charms: 6
+      D.A.D.A.: 5
+      Transfiguration: 6
+      Potions: 4
+      Divination: 3
+      "Authority (Teaching)": 5
+      Persuasion: 4
+      Observation: 7
+      Ancient Studies: 4
+      History of Magic: 4
+      Herbology: 3
+      Duelling: 3
+      Broomstick Flying: 3
+      "Trivia (Gwiazdy)": 4
+      Prestige: 2
+      Ancient Runes: 3
+    zaklecia:                     # nazwa: aktualna trudność (0 = opanowane)
+      Lumos: 0
+      Nox: 0
+      Wingardium Leviosa: 0
+      Reparo: 0
+      Incendio: 0
+      Aguamenti: 0
+      Protego: 0
+      Expelliarmus: 0
+      Specialis Revelio: 0
+      Stupefy: 12
+    patronus: brak
+    rozdzka: "Buk (Beech), wąs kneazla, 12 cali; Divination +2, Revealing Magic +2, Non-verbal Magic +1. Propozycja [nasze]"
+    zdrowie: {body: 0, mind: 0}
+  zdolnosci_specjalne:
+    - nazwa: "Typowe rzuty"
+      opis: "Czujność (Wits + Observation): 1D10 + 13; Wykrywanie kłamstwa (Wits + Chicanery): 1D10 + 6. Sumy gotowe do użycia przy stole (Walker 2e s. 3-4, 33, 41; wzór: 1D10 + cecha + umiejętność)."
 ```
 
 ## Do weryfikacji

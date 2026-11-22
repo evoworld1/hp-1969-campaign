@@ -85,10 +85,59 @@ W Sesji 1 Wymark nie spotyka graczy (decyzja MG: tylko ślad). Jedyna „reakcja
 statystyki:
   id: npc.silas-wymark.statystyki
   system: walker-2e-draft-2026-04
-  wartosci: {}
+  wartosci:
+    # Uzupełnione 2026-11-22 (mechanik). Własny wpis [nasze]. Lineage i szkoła to założenie robocze z karty (rok szkolny 1951/52: 7. rok prefekt, stąd start 1945). W Sesji 1 tylko ślad (bez walki). Liczby na Sesję 2-3. Legilimens opanowane (zob. sekcja sekretów karty).
+    rodzaj: czarodziej
+    poziom: "Professional Wizard"   # s. 102; cechy 34, umiejętności 126
+    lineage: Half-blood
+    school: "Hogwarts (1945)"
+    house: "Ravenclaw"
+    profession: "Death Eater (zwerbowany), dawny prefekt"
+    cechy:
+      Vitality: 5
+      Speed: 6
+      Wits: 8
+      Knowledge: 8
+      Focus: 7
+    umiejetnosci:
+      Magical Theory: 9
+      Astronomy: 8
+      Arithmancy: 7
+      Ancient Runes: 6
+      Charms: 7
+      D.A.D.A.: 7
+      Dark Arts: 8
+      Duelling: 8
+      Chicanery: 8
+      Persuasion: 7
+      Observation: 6
+      Occlumency: 6
+      Stealth: 6
+      Transfiguration: 6
+      Potions: 4
+      Strategy: 6
+      "Prestige (Ravenclaw)": 4
+      Alchemy: 5
+      Concealment: 5
+      Authority: 3
+    zaklecia:                     # nazwa: aktualna trudność (0 = opanowane)
+      Expelliarmus: 0
+      Stupefy: 0
+      Protego: 0
+      Impedimenta: 0
+      Confundo: 0
+      Legilimens: 0
+      Disillusionment Charm: 0
+      Reducto: 0
+      Specialis Revelio: 0
+    patronus: brak
+    rozdzka: "Heban (Ebony), włos testrala; Offensive Magic +1, Transfiguration +1, Hexes +1, Jinxes +1, Divination +2 (heban w parze z testralem, s. 28-29). Propozycja [nasze]"
+    zdrowie: {body: 0, mind: 0}
   zdolnosci_specjalne:
     - nazwa: "Uczeń Marrow"
       opis: "Zna teorię daniny czasu z 1951 lepiej niż ktokolwiek żyjący poza Marrow, ale niepełnie (nie wie o Anselu). Nie są potrzebne statystyki w Sesji 1."
+    - nazwa: "Typowe rzuty"
+      opis: "Czujność (Wits + Observation): 1D10 + 14; Wykrywanie kłamstwa (Wits + Chicanery): 1D10 + 16; Inicjatywa w pojedynku (Speed + Duelling): 1D10 + 14; Atak w pojedynku (Wits + Duelling): 1D10 + 16; Unik (Speed + Wits): 1D10 + 14; Protego (Wits + Charms): 1D10 + 15; Odporność na obrażenia (1D10 + Vitality): 1D10 + 5. Sumy gotowe do użycia przy stole (Walker 2e s. 3-4, 33, 41; wzór: 1D10 + cecha + umiejętność)."
 ```
 
 ## Do weryfikacji

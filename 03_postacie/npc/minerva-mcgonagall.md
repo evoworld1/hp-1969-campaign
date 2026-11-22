@@ -56,8 +56,54 @@ Kłamstwo poznaje po pierwszym zdaniu i daje kłamcy jeszcze jedną szansę, zan
 statystyki:
   id: npc.minerva-mcgonagall.statystyki
   system: walker-2e-draft-2026-04
-  wartosci: {}
-  zdolnosci_specjalne: []
+  wartosci:
+    # Uzupełnione 2026-11-22 (mechanik). Walker 2e s. 120 (wpis z lat 90.; w 1969 młodsza o ok. 25 lat, liczb nie zmieniamy). Zaklęcia ponad listę Notable Spells to propozycja [nasze]. Cechy 40 (Renowned), umiejętności około 130 (zakres Professional): poziom wg cech. Animagus (kot) bez rzutu.
+    rodzaj: czarodziej
+    poziom: "Renowned Wizard"   # s. 102; cechy 40, umiejętności 124
+    lineage: Half-blood
+    school: "Hogwarts (1947)"
+    house: "Gryffindor"
+    profession: "Head of Transfiguration"
+    cechy:
+      Vitality: 7
+      Speed: 9
+      Wits: 8
+      Knowledge: 7
+      Focus: 9
+    umiejetnosci:
+      Ancient Runes: 9
+      "Authority (Discipline)": 7
+      Balance: 6
+      Broomstick Flying: 9
+      Charms: 7
+      D.A.D.A.: 8
+      Dark Arts: 7
+      Duelling: 9
+      History of Magic: 7
+      Magical Theory: 8
+      Observation: 8
+      Persuasion: 6
+      Potions: 7
+      "Prestige (Hogwarts)": 9
+      Strategy: 7
+      Transfiguration: 10
+    zaklecia:                     # nazwa: aktualna trudność (0 = opanowane)
+      Expecto Patronum: 0
+      Piertotum Locomotor: 0
+      Stupefy: 0
+      Protego: 0
+      Expelliarmus: 0
+      Evanesco: 0
+      Incarcerous: 0
+      Fera Verto: 0
+      Aguamenti: 0
+      Impedimenta: 0
+    patronus: Cat
+    rozdzka: "Jodła (Fir), włókno ze smoczego serca; Transfiguration +1, Fire Magic +2, Offensive Magic +1 (premie z tabeli s. 28-29; rodzaj różdżki wg kanonu, pewność niepewne)"
+    zdrowie: {body: 0, mind: 0}
+  zdolnosci_specjalne:
+    - nazwa: "Typowe rzuty"
+      opis: "Czujność (Wits + Observation): 1D10 + 16; Wykrywanie kłamstwa (Wits + Chicanery): 1D10 + 8; Inicjatywa w pojedynku (Speed + Duelling): 1D10 + 18; Atak w pojedynku (Wits + Duelling): 1D10 + 17; Unik (Speed + Wits): 1D10 + 17; Protego (Wits + Charms): 1D10 + 15. Sumy gotowe do użycia przy stole (Walker 2e s. 3-4, 33, 41; wzór: 1D10 + cecha + umiejętność)."
 ```
 
 ## Do weryfikacji

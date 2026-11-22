@@ -56,8 +56,47 @@ Bierze w dłoń starą różdżkę postaci i na chwilę milknie, jakby słuchał
 statystyki:
   id: npc.garrick-ollivander.statystyki
   system: walker-2e-draft-2026-04
-  wartosci: {}
-  zdolnosci_specjalne: []
+  wartosci:
+    # Uzupełnione 2026-11-22 (mechanik). Walker 2e s. 126 (cechy i umiejętności z podręcznika; Reparo, Lumos i Protego dopisane [nasze]). Scena 11: bez walki; liczby tylko dla testów doboru różdżki.
+    rodzaj: czarodziej
+    poziom: "Professional Wizard"   # s. 102; cechy 30, umiejętności 93
+    lineage: Half-blood
+    school: "Hogwarts"
+    house: "Ravenclaw"
+    profession: "Wandmaker"
+    cechy:
+      Vitality: 3
+      Speed: 4
+      Wits: 7
+      Knowledge: 9
+      Focus: 7
+    umiejetnosci:
+      Ancient Runes: 6
+      Charms: 8
+      "Crafting (Wands)": 9
+      D.A.D.A.: 7
+      Dark Arts: 7
+      Duelling: 6
+      History of Magic: 6
+      Magical Theory: 8
+      Potions: 6
+      "Prestige (Wandmaker)": 8
+      "Strategy (Business)": 5
+      Transfiguration: 7
+      Wandlore: 10
+    zaklecia:                     # nazwa: aktualna trudność (0 = opanowane)
+      Avis: 0
+      Expecto Patronum: 0
+      Orchideous: 0
+      Reparo: 0
+      Lumos: 0
+      Protego: 0
+    patronus: NC
+    rozdzka: "Własna różdżka niepodana (kanon i Walker milczą); bez premii. Zdolność Wand Versatility: kara za cudzą różdżkę mniejsza o 5 (s. 10, 126)"
+    zdrowie: {body: 0, mind: 0}
+  zdolnosci_specjalne:
+    - nazwa: "Typowe rzuty"
+      opis: "Czujność (Wits + Observation): 1D10 + 7; Wykrywanie kłamstwa (Wits + Chicanery): 1D10 + 7. Sumy gotowe do użycia przy stole (Walker 2e s. 3-4, 33, 41; wzór: 1D10 + cecha + umiejętność)."
 ```
 
 ## Do weryfikacji

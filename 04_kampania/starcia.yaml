@@ -1,0 +1,51 @@
+# Zaplanowane starcia Scenariusza 1: dane dla panelu starcia (panel MG i panel graczy).
+# status: szkic. Liczby i kroki przepisane ze scen 04 i 08 (bez nowych zasad); do przeglądu przez mechanika i MG.
+# Pola: id, scena, krok (numer kroku w scenie, od 1), tytul, rodzaj (pokaz | pojedynek | walka),
+#       przeciwnicy (id NPC z kartą i statystykami), limit_trafien {postac, przeciwnik}, rundy_max,
+#       inicjatywa (false = nie rzuca się), inicjatywa_opis, stan_postaci {body, mind} na starcie,
+#       zasady (kroki dla MG po kolei), po_wygranej_postaci, po_wygranej_przeciwnika, uwagi.
+starcia:
+  - id: s1.starcie.04-pokaz
+    scena: s1.scena.04
+    krok: 4
+    tytul: "Scena 04: pokaz u Wrena (Cassian kontra jedna postać)"
+    rodzaj: pokaz
+    przeciwnicy: [npc.cassian-vane]
+    limit_trafien: {postac: 2, przeciwnik: 3}
+    rundy_max: 3
+    inicjatywa: false
+    inicjatywa_opis: "Cassian wydaje Skradzioną Chwilę na początku każdej rundy, więc zawsze zaczyna i atakuje dwa razy, zanim postać odpowie raz."
+    stan_postaci: {body: 0, mind: 3}
+    zasady:
+      - "Walczy jedna postać (ochotnik albo ta, która była bezczelna przy wejściu). Pozostałe patrzą i po pierwszej rundzie rzucają test kieszonki (Wits + Observation)."
+      - "Przy ukłonie daj walczącej postaci 1 Story Point za pierwszy pojedynek (Walker s. 4)."
+      - "Każda postać po straconej godzinie ma stan Drained: 3 kółka umysłu (panel zaznacza je sam). Kara +3 wlicza się do celu jej ataków, a od celu ataków Cassiana się odejmuje."
+      - "Runda: Cassian dotyka kieszonki (opisz to), potem dwa ataki Cassiana: przy każdym wybierz „Cassian atakuje”, postać robi unik. Potem jeden atak postaci: wybierz „postać rzuca zaklęcie”."
+      - "Trafienie nie rani: kliknij „Zapisz trafienie”. Cassian wygrywa przy 3 trafieniach, postać przy 2."
+      - "Po pierwszej rundzie: test kieszonki dla patrzących. Kto zauważył sygnał i powie to na głos, w drugiej rundzie walcząca może uprzedzić Cassiana: atakuje przed jego dwoma zaklęciami, Expelliarmusem w zegarek bez kary."
+      - "Zegarek wytrącony: Wren przerywa pokaz, łapie zegarek i oddaje go Cassianowi („pamiątka, nie dowód”). Grupa Vane'a i tak wygrywa pokaz."
+      - "Po trzech rundach wygrywa ten, kto ma więcej trafień; przy równej liczbie Wren ogłasza remis. Potem tekst 4 sceny."
+    po_wygranej_postaci: "Rzadkie. Wren gratuluje krótko; grupa Vane'a i tak wygrywa pokaz (decyzja MG)."
+    po_wygranej_przeciwnika: "Zwykły wynik. Tekst 4 sceny: Wren ogłasza wynik."
+    uwagi: "Do decyzji MG po Sesji 1: przebieg całej lekcji (ćwiczenie w parach i pokaz) wymaga uproszczenia; ten preset opisuje stan obecny sceny."
+  - id: s1.starcie.08-pojedynek
+    scena: s1.scena.08
+    krok: 4
+    tytul: "Scena 08: pojedynek z Cassianem (sekundanci)"
+    rodzaj: pojedynek
+    przeciwnicy: [npc.cassian-vane]
+    limit_trafien: {postac: 2, przeciwnik: 3}
+    rundy_max: 4
+    inicjatywa: false
+    inicjatywa_opis: "W rundach 1 i 2 Cassian wydaje Skradzioną Chwilę (pula 2) i atakuje dwa razy przed postacią. Od rundy 3 kolejność: Cassian, potem postać."
+    stan_postaci: {body: 0, mind: 0}
+    zasady:
+      - "Rytuał: ukłon, różdżki w górę, odliczenie do trzech. Cassian bierze Rosalind na sekundantkę, drużyna wybiera swojego sekundanta (on nie walczy, ale może ostrzec: +1 do uniku walczącej)."
+      - "Jeśli postać ma jeszcze Drained (pojedynek w poniedziałek), zaznacz 3 kółka umysłu."
+      - "Runda: najpierw Cassian atakuje („Cassian atakuje”, postać robi unik); w rundzie z Chwilą robi to dwa razy. Potem postać atakuje raz („postać rzuca zaklęcie”)."
+      - "Kto zna sygnał (palce w kieszonce), może atakować przed Chwilą; drugi atak Cassiana z tej Chwili ma −2 (wpisz w modyfikatorach)."
+      - "Celowanie w zegarek: Expelliarmus po uprzedzeniu bez kary; Accio na zapiętą kieszonkę +4 do celu. Zegarek wytrącony liczy się jako trafienie postaci i odbiera Cassianowi Chwile (−2 do jego rzutów)."
+      - "Postać wygrywa przy 2 trafieniach albo wytrąconym zegarku, Cassian przy 3. Najwyżej 4 rundy; gdy się przeciąga, zegarek wypada albo w drzwiach staje Wren („Dosyć”)."
+    po_wygranej_postaci: "Cassian: „Umowa to umowa.” Przejdź do dialogu o pracowni (krok 6)."
+    po_wygranej_przeciwnika: "Cassian zabiera przegranemu godzinę (tekst 4): Drained do pierwszego posiłku następnego dnia."
+    uwagi: "Rany tylko wtedy, gdy stół chce ostrzejszej walki: przełącz rodzaj na „walka na serio”."

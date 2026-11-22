@@ -55,8 +55,50 @@ Na każde pytanie wyjmuje kalendarzyk, zanim odpowie.
 statystyki:
   id: npc.gideon-pratt.statystyki
   system: walker-2e-draft-2026-04
-  wartosci: {}
-  zdolnosci_specjalne: []
+  wartosci:
+    # Uzupełnione 2026-11-22 (mechanik). Piątoroczny pedant, świadek z danymi, nie przeciwnik. Poziom Gifted dla roku 5 (SUM-y).
+    rodzaj: czarodziej
+    poziom: "Gifted student"   # s. 102; cechy 21, umiejętności 57
+    lineage: Half-blood
+    school: "Hogwarts (1964)"
+    year: 5
+    house: "Ravenclaw"
+    cechy:
+      Vitality: 2
+      Speed: 3
+      Wits: 4
+      Knowledge: 7
+      Focus: 5
+    umiejetnosci:
+      Charms: 5
+      Magical Theory: 6
+      Transfiguration: 5
+      Potions: 5
+      Arithmancy: 4
+      Archivist: 4
+      "Observation (Szczegóły)": 5
+      "Trivia (Daty)": 5
+      D.A.D.A.: 4
+      Herbology: 3
+      Astronomy: 4
+      History of Magic: 4
+      Duelling: 1
+      Persuasion: 2
+    zaklecia:                     # nazwa: aktualna trudność (0 = opanowane)
+      Lumos: 0
+      Wingardium Leviosa: 0
+      Alohomora: 0
+      Reparo: 0
+      Specialis Revelio: 0
+      Flipendo: 0
+      Expelliarmus: 12
+      Protego: 12
+    patronus: brak
+    rozdzka: "Jodła (Fir), włos jednorożca, 11 cali, sprężysta; Transfiguration +1, Healing Magic +2, Protective Magic +1. Propozycja [nasze]"
+    zdrowie: {body: 0, mind: 0}
+  zdolnosci_specjalne:
+    - nazwa: "Typowe rzuty"
+      opis: "Czujność (Wits + Observation): 1D10 + 9; Unik (Speed + Wits): 1D10 + 7. Sumy gotowe do użycia przy stole (Walker 2e s. 3-4, 33, 41; wzór: 1D10 + cecha + umiejętność)."
 ```
 
 ## Do weryfikacji

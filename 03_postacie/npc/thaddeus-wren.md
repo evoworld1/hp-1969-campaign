@@ -84,12 +84,67 @@ Przykładowe kwestie:
 statystyki:
   id: npc.thaddeus-wren.statystyki
   system: walker-2e-draft-2026-04
-  wartosci: {}
+  wartosci:
+    # Uzupełnione 2026-11-22 (mechanik). Podstawa: wpisy aurorów Walkera (s. 126, Moody). Zakres Veteran Wizard (cechy 35). Dom i rok szkoły to założenie robocze [nasze]. Nie walczy z uczniami; liczby na wypadek przerwania pojedynku. Brak dwóch palców lewej dłoni: bez kary (decyzja Mechanika, proza karty).
+    rodzaj: czarodziej
+    poziom: "Veteran Wizard"   # s. 102; cechy 35, umiejętności 145
+    lineage: Half-blood
+    school: "Hogwarts (1925)"
+    house: "Gryffindor"
+    profession: "Auror (były), nauczyciel D.A.D.A."
+    cechy:
+      Vitality: 6
+      Speed: 6
+      Wits: 9
+      Knowledge: 6
+      Focus: 8
+    umiejetnosci:
+      "Authority (Commanding)": 7
+      Balance: 5
+      Broomstick Flying: 6
+      Charms: 7
+      Chicanery: 5
+      Concealment: 6
+      D.A.D.A.: 9
+      Dark Arts: 6
+      Duelling: 10
+      "Observation (Walka)": 8
+      Persuasion: 5
+      Potions: 5
+      "Prestige (Ministry)": 7
+      Skirmishing: 7
+      Stealth: 6
+      "Strategy (Dark Wizards)": 7
+      Tracking: 7
+      Transfiguration: 7
+      Herbology: 4
+      Magical Theory: 5
+      Law: 4
+      Muggle Studies: 3
+      Disguise: 3
+      Magical Creatures: 3
+      History of Magic: 3
+    zaklecia:                     # nazwa: aktualna trudność (0 = opanowane)
+      Expelliarmus: 0
+      Stupefy: 0
+      Protego: 0
+      Impedimenta: 0
+      Flipendo: 0
+      Petrificus Totalus: 0
+      Incarcerous: 0
+      Disillusionment Charm: 0
+      Expecto Patronum: 0
+      Reducto: 0
+    patronus: NC
+    rozdzka: "Dąb czerwony (Red Oak), włókno ze smoczego serca; Duelling +2, Fire Magic +2, Offensive Magic +2 (dąb wzmacnia rdzeń smoczy, s. 29). Propozycja [nasze]"
+    zdrowie: {body: 0, mind: 0}
   zdolnosci_specjalne:
     - nazwa: "Przeciwnik zawsze mówi, co zrobi"
       opis: "Uczy na lekcji pierwszego testu przeciwnego (Opposed Test, s. 4): obie strony rzucają, wyższy wynik wygrywa. Mechanik ustala parę cechy i umiejętności dla czytania przeciwnika i to, jaką premię daje nazwany na głos sygnał."
     - nazwa: "Były auror"
       opis: "Doświadczony pojedynkowicz (Duelling). W Sesji 1 nie walczy z uczniami; liczby potrzebne tylko na wypadek przerwania pojedynku."
+    - nazwa: "Typowe rzuty"
+      opis: "Czujność (Wits + Observation): 1D10 + 17; Wykrywanie kłamstwa (Wits + Chicanery): 1D10 + 14; Inicjatywa w pojedynku (Speed + Duelling + różdżka): 1D10 + 18; Atak w pojedynku (Wits + Duelling + różdżka): 1D10 + 21; Unik (Speed + Wits): 1D10 + 15; Protego (Wits + Charms): 1D10 + 16; Odporność na obrażenia (1D10 + Vitality): 1D10 + 6. Sumy gotowe do użycia przy stole (Walker 2e s. 3-4, 33, 41; wzór: 1D10 + cecha + umiejętność)."
 ```
 
 ## Do weryfikacji

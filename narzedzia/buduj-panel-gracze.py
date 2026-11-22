@@ -12,6 +12,7 @@ Wymaga: Python 3.8+, PyYAML, cryptography.
 """
 import base64
 import json
+import re
 import os
 import secrets
 import shutil
@@ -26,7 +27,7 @@ from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 KORZEN = Path(__file__).resolve().parent.parent
 GRACZE = KORZEN / "03_postacie" / "gracze"
 SZABLON = KORZEN / "panel-gracze" / "szablon"
-WSPOLNE = [KORZEN / "panel" / "szablon" / n for n in ("style.css", "karta.js", "sciaga.js", "ksiega.js")]
+WSPOLNE = [KORZEN / "panel" / "szablon" / n for n in ("style.css", "karta.js", "sciaga.js", "ksiega.js", "starcie.js")]
 WYJSCIE = KORZEN / "panel-gracze" / "dist"
 ITERACJE = 200_000
 # pola tylko dla MG: nigdy nie trafiają na stronę graczy
@@ -97,6 +98,32 @@ def wczytaj_ksiege():
     return d.get("zaklecia", d) if isinstance(d, dict) else d
 
 
+def wczytaj_starcia_i_npc():
+    """Zaplanowane starcia i statystyki tylko tych NPC, którzy w nich walczą (gracze widzą ich liczby walki)."""
+    p = KORZEN / "04_kampania" / "starcia.yaml"
+    if not p.exists():
+        return [], {}
+    starcia = (yaml.safe_load(p.read_text(encoding="utf-8")) or {}).get("starcia", [])
+    potrzebni = {n for s in starcia for n in (s.get("przeciwnicy") or [])}
+    npc = {}
+    for f in sorted((KORZEN / "03_postacie" / "npc").glob("*.md")):
+        t = f.read_text(encoding="utf-8")
+        m = re.match(r"^---\n(.*?)\n---", t, re.S)
+        meta = yaml.safe_load(m.group(1)) if m else {}
+        if not isinstance(meta, dict) or meta.get("id") not in potrzebni:
+            continue
+        for b in re.findall(r"```yaml\n(.*?)\n```", t, re.S):
+            d = yaml.safe_load(b)
+            if isinstance(d, dict) and isinstance(d.get("statystyki"), dict):
+                w = dict(d["statystyki"].get("wartosci") or {})
+                # graczom tylko liczby walki, bez zdolności specjalnych (sekrety MG)
+                npc[meta["id"]] = {"imie": re.sub(r"\s*[(:–-].*$", "", meta.get("tytul", meta["id"])).strip(),
+                                   "staty": {"wartosci": {k: w[k] for k in ("cechy", "umiejetnosci", "zaklecia", "rozdzka") if k in w}}}
+    # graczom bez uwag dla MG
+    jawne = [{k: v for k, v in s.items() if k not in ("uwagi",)} for s in starcia]
+    return jawne, npc
+
+
 def main():
     losuj = "--losuj" in sys.argv
     postacie = {}
@@ -132,6 +159,7 @@ def main():
         ct = AESGCM(klucz(piny[s], sol)).encrypt(iv, json.dumps(jawne, ensure_ascii=False).encode("utf-8"), None)
         karty.append({"slug": s, "imie": d["imie"], "dom": d.get("dom", ""), "sol": b64(sol), "iv": b64(iv), "ct": b64(ct), "iter": ITERACJE})
 
+    starcia, npc_staty = wczytaj_starcia_i_npc()
     if WYJSCIE.exists():
         shutil.rmtree(WYJSCIE)
     WYJSCIE.mkdir(parents=True)
@@ -144,7 +172,7 @@ def main():
         (WYJSCIE / "pdf").mkdir()
         shutil.copy(sciaga, WYJSCIE / "pdf" / sciaga.name)
     (WYJSCIE / "dane.js").write_text(
-        "window.DANE = " + json.dumps({"postacie": {"_slownik": slownik}, "zaklecia": wczytaj_zaklecia(), "ksiega": wczytaj_ksiege()}, ensure_ascii=False) + ";\n"
+        "window.DANE = " + json.dumps({"postacie": {"_slownik": slownik}, "zaklecia": wczytaj_zaklecia(), "ksiega": wczytaj_ksiege(), "starcia": starcia, "npc_staty": npc_staty}, ensure_ascii=False) + ";\n"
         "window.KARTY = " + json.dumps(karty, ensure_ascii=False) + ";\n", encoding="utf-8")
     print(f"Panel graczy zbudowany: {WYJSCIE} (karty: {len(karty)})")
     if losuj:

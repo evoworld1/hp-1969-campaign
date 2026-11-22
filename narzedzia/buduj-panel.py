@@ -53,6 +53,10 @@ def wczytaj_dokumenty():
                 "id": meta["id"], "typ": meta.get("typ", ""), "tytul": meta.get("tytul", meta["id"]),
                 "meta": meta, "tekst": ciało, "sciezka": str(p.relative_to(KORZEN)),
             }
+            if meta.get("typ") == "npc":
+                for b in bloki_yaml(ciało):
+                    if isinstance(b.get("statystyki"), dict):
+                        DOKUMENTY[meta["id"]]["staty"] = b["statystyki"]
 
 
 # ---------------------------------------------------------------- markdown -> html
@@ -183,23 +187,87 @@ def bloki_yaml(tekst):
     return wynik
 
 
-def render_dialog(d, wstep=""):
+WIEDZA_RE = re.compile(r"^(Może zdradzić|Może powiedzieć|Nie zdradza|Nie mówi|Nie wie|Zdradza)", re.I)
+
+
+def mowa(tekst):
+    """Kwestia: mowa w „…” zwykłym tekstem, didaskalia w nawiasach kursywą."""
+    h = inline(tekst)
+    h = re.sub(r"\(([^()]{2,240})\)", r'<span class="didask">(\1)</span>', h)
+    return h
+
+
+def podziel_kwestie(kw):
+    otw, reakcje, wiedza, inne = [], [], [], []
+    for k in kw:
+        if isinstance(k, dict):
+            inne.append(json.dumps(k, ensure_ascii=False))
+            continue
+        k = str(k).strip()
+        m = re.match(r"^([^„“\"]{1,160}?):\s+(.*)$", k)
+        if not m:
+            reakcje.append(("", k))
+            continue
+        et, tr = m.group(1).strip(), m.group(2).strip()
+        if et.lower().startswith("otwarcie"):
+            otw.append((et, tr))
+        elif WIEDZA_RE.match(et):
+            wiedza.append((et, tr))
+        elif et.lower().startswith("nieprzewidziane"):
+            reakcje.append(("Coś nieprzewidzianego", tr))
+        else:
+            reakcje.append((et, tr))
+    return otw, reakcje, wiedza, inne
+
+
+def etykieta_wiedzy(et):
+    """Etykiety z bloków dialogów przełożone na prosty język dla MG."""
+    e = et.strip()
+    if re.match(r"^może zdradzić bez warunku", e, re.I):
+        return "Powie, jeśli ktoś zapyta"
+    for prefiks, nowy in (("Może zdradzić", "Może powiedzieć"), ("Może powiedzieć", "Może powiedzieć"), ("Nie zdradza", "Nie powie"), ("Nie mówi", "Nie powie"), ("Zdradza", "Powie")):
+        if e.lower().startswith(prefiks.lower()):
+            return nowy + e[len(prefiks):]
+    return e
+
+
+DIALOG_TYTUL = {}
+
+
+def render_dialog(d, wstep="", nr=None):
     npc = DOKUMENTY.get(d.get("npc", ""), {})
     kto = npc.get("tytul", d.get("npc") or "Postać bez karty")
-    h = f'<div class="blok dialog"><div class="kto">{esc(kto)}</div>'
-    if wstep:
-        h += f'<div class="wstep">{inline(wstep)}</div>'
+    tytul = DIALOG_TYTUL.get(d.get("id", ""), "")
+    otw, reakcje, wiedza, inne = podziel_kwestie(d.get("kwestie") or [])
+    h = '<details class="blok dialog"><summary>'
+    h += (f'<span class="dl-nr">{esc(nr)}</span>' if nr else "") + f'<span class="dl-tytul">{esc(kto)}</span>'
+    if tytul and tytul.lower() != kto.lower():
+        h += f' <span class="puste">· {esc(tytul)}</span>'
+    h += '<span class="rozwin">rozwiń reakcje ▾</span>'
     if d.get("wyzwalacz"):
         h += f'<div class="wyzwalacz"><strong>Kiedy:</strong> {inline(d["wyzwalacz"])}</div>'
+    for et, tr in otw:
+        dop = et[len("Otwarcie"):].strip(" ,")
+        h += f'<div class="otwarcie"><small>Powiedz na początek{(" (" + esc(dop) + ")") if dop else ""}:</small>{mowa(tr)}</div>'
+    h += '</summary><div class="dl-ciało">'
     if d.get("ton"):
         h += f'<div class="ton"><strong>Głos:</strong> {inline(d["ton"])}</div>'
-    kw = d.get("kwestie") or []
-    if kw:
-        h += "<ul class='kwestie'>" + "".join(f"<li>{inline(k if not isinstance(k, dict) else json.dumps(k, ensure_ascii=False))}</li>" for k in kw) + "</ul>"
-    resztа = {k: v for k, v in d.items() if k not in ("id", "npc", "wyzwalacz", "ton", "kwestie", "wariant_od")}
-    if resztа:
-        h += "<details class='wiecej'><summary>Więcej o dialogu</summary>" + wartosc(resztа) + "</details>"
-    return h + "</div>"
+    if wstep:
+        h += f'<div class="wstep">{inline(wstep)}</div>'
+    if reakcje:
+        h += '<div class="reakcje-t">Potem: co zrobili gracze? Otwórz pasującą odpowiedź.</div>'
+        for i, (et, tr) in enumerate(reakcje, 1):
+            h += f'<details class="reakcja"><summary><span class="nr">{i}.</span> {inline(et) if et else "Dalej"}</summary><div class="odp">{mowa(tr)}</div></details>'
+    if wiedza:
+        h += '<details class="wie"><summary>Co ta postać wie i czego nie powie (dla MG)</summary><ul>'
+        h += "".join(f"<li><strong>{esc(etykieta_wiedzy(et))}:</strong> {inline(tr)}</li>" for et, tr in wiedza)
+        h += "</ul></details>"
+    for x in inne:
+        h += f"<p>{inline(x)}</p>"
+    reszta = {k: v for k, v in d.items() if k not in ("id", "npc", "wyzwalacz", "ton", "kwestie", "wariant_od")}
+    if reszta:
+        h += "<details class='wiecej'><summary>Więcej o dialogu</summary>" + wartosc(reszta) + "</details>"
+    return h + "</div></details>"
 
 
 def render_test(t):
@@ -344,6 +412,7 @@ def zbuduj_scene(meta, ciało, plik):
         intro = tresc.split("```")[0].strip()
         if m:
             dialogi_wstep[m.group(1)] = intro
+            DIALOG_TYTUL[m.group(1)] = nazwa or ""
     teksty = teksty_do_odczytania(sek.get("Do odczytania", ""))
     rytm_tekst = sek.get("Dla MG", "")
     kroki_raw = kroki_z_rytmu(rytm_tekst, False)
@@ -375,7 +444,7 @@ def zbuduj_scene(meta, ciało, plik):
                            "opis_html": ("<p class='rola'>" + inline(re.sub(r"\[\[npc\.[a-z0-9\-]+\]\],?\s*", "", naglowek)) + "</p>" if naglowek else "") + md(reszta)}
     kroki = []
     for k in kroki_raw:
-        czytaj_html, dialogi, testy, jesli, flagi, materialy, krotko, inne = [], [], [], [], [], [], [], []
+        czytaj_html, dialogi, testy, jesli, flagi, materialy, krotko, inne, ramy = [], [], [], [], [], [], [], [], []
         uzyte_npc = set()
         for etyk, tr in k["punkty"]:
             tokeny = re.findall(r"`([^`]+)`", tr)
@@ -415,6 +484,8 @@ def zbuduj_scene(meta, ciało, plik):
                     krotko.append(tr)
             elif el.startswith("krótko") or el.startswith("krotko"):
                 krotko.append(tr)
+            elif el in ("start", "na wejściu", "na wejsciu", "koniec", "kończy się", "konczy sie", "koniec, gdy", "dalej", "następnie", "nastepnie"):
+                ramy.append((etyk, tr))
             else:
                 inne.append((etyk, tr))
             for t in tokeny:
@@ -451,6 +522,8 @@ def zbuduj_scene(meta, ciało, plik):
             "krotko": [inline(x) for x in krotko], "inne": [[e, inline(t)] for e, t in inne],
             "dialogi": dialogi, "testy": testy, "jesli": jesli, "flagi": flagi,
             "materialy": list(dict.fromkeys(materialy)), "npc": npc_k,
+            "ramy": [[e, inline(t)] for e, t in ramy],
+            "skrot": inline(krotko[0][:220] + ("…" if len(krotko[0]) > 220 else "")) if krotko else "",
         })
     # render bloków
     bloki_html = {}
@@ -499,6 +572,28 @@ def wczytaj_ksiege():
     return d.get("zaklecia", d) if isinstance(d, dict) else d
 
 
+def imie_npc(d):
+    return re.sub(r"\s*[(:–-].*$", "", d["tytul"]).strip() or d["tytul"]
+
+
+def npc_staty():
+    """Statystyki z bloków ```yaml statystyki: w kartach NPC (03_postacie/npc)."""
+    return {i: {"imie": imie_npc(d), "staty": d["staty"]} for i, d in DOKUMENTY.items() if d.get("staty")}
+
+
+def wczytaj_starcia():
+    """Zaplanowane starcia (pojedynki, pokazy, potyczki) z 04_kampania/starcia.yaml."""
+    p = KORZEN / "04_kampania" / "starcia.yaml"
+    if not p.exists():
+        return []
+    try:
+        d = yaml.safe_load(p.read_text(encoding="utf-8")) or {}
+    except yaml.YAMLError as e:
+        OSTRZEZENIA.append(f"starcia.yaml: {e}")
+        return []
+    return d.get("starcia", [])
+
+
 def main():
     wczytaj_dokumenty()
     sceny = []
@@ -516,7 +611,7 @@ def main():
 
     dok = {}
     for id_, d in DOKUMENTY.items():
-        dok[id_] = {"id": id_, "typ": d["typ"], "tytul": d["tytul"], "html": md(d["tekst"]),
+        dok[id_] = {"id": id_, "typ": d["typ"], "tytul": d["tytul"], "html": md(d["tekst"]), "staty": d.get("staty"),
                     "status": d["meta"].get("status", ""), "pewnosc": d["meta"].get("pewnosc", ""),
                     "tekst": streszczenie_tekstu(d["tekst"])[:6000]}
 
@@ -539,6 +634,8 @@ def main():
         "sceny": sceny, "flagi": flagi, "dokumenty": dok, "postacie": postacie,
         "dzien": "Hogwart, jesień 1969",
         "ksiega": wczytaj_ksiege(),
+        "npc_staty": npc_staty(),
+        "starcia": wczytaj_starcia(),
     }
     haslo = os.environ.get("PANEL_HASLO", "").strip()
     dane["haslo_sha256"] = hashlib.sha256(haslo.encode("utf-8")).hexdigest() if haslo else ""
