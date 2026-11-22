@@ -127,6 +127,7 @@ dl{margin:.2rem 0}dt{font-weight:700;font-size:.85rem;color:var(--cichy)}dd{marg
 .karta th,.karta td{border:1px solid #999;padding:1px 4px;background:#fff;color:#111}
 .karta .kolka span{display:inline-block;width:14px;height:14px;border:2px solid #111;border-radius:50%;margin-right:3px}
 .karta .kratka{display:inline-block;width:9px;height:9px;border:1.5px solid #111;margin-right:1px;background:#111}
+.karta .kratka.pusta{background:transparent}
 .karta .malo{font-size:8pt;color:#444}
 .karta .pole{border-bottom:1px solid #999;min-height:14px;margin:2px 0}
 .karta ul{margin:2px 0;padding-left:16px}

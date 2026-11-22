@@ -1,5 +1,6 @@
 # Karta gracza (szybka ścieżka). Kolejność kluczy jak w schemacie MG.
-id: gracz.luna-lovedog
+id: gracz.luna-lovedog-v1
+wersja: 1
 imie: Luna Lovedog
 dom: Gryffindor
 rok: 6

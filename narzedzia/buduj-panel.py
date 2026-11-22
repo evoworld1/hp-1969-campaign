@@ -606,6 +606,54 @@ def wczytaj_losowych():
         return []
 
 
+# Indeks zaklęć dla kalkulatora kart graczy (przeniesione z dawnego buduj-panel-gracze.py)
+INDEKS_ZAKLEC = KORZEN / "02_zasady" / "walker" / "zaklecia-indeks.md"
+# zaklęcia celowane (w pojedynku rzuca się je jako atak), wg ZD-16 i instrukcji
+CELOWANE = {"Expelliarmus", "Flipendo", "Stupefy", "Impedimenta", "Petrificus Totalus", "Stinging Jinx", "Trip Jinx",
+            "Rictusempra", "Incendio", "Everte Statum", "Verdimillious", "Vermillious", "Baubillious", "Locomotor Mortis"}
+# grupy premii różdżki spoza skrótu w indeksie (do potwierdzenia w Walkerze, s. 30)
+GRUPY_DOD = {"Fire Magic": ["Incendio", "Flagrate", "Bluebell Flames", "Demitto Ignem"]}
+ELIKSIRY = ["Ageing Potion", "Calming Draught", "Draught of Peace", "Elixir to Induce Euphoria", "Love Potion Antidote", "Polyjuice Potion", "Shrinking Solution", "Sleeping Draught", "Wound-cleaning Potion"]
+UMIEJETNOSC = {"Charm": "Charms", "Jinx": "D.A.D.A.", "Hex": "D.A.D.A.", "Curse": "D.A.D.A.", "Transfiguration": "Transfiguration"}
+
+
+def wczytaj_zaklecia():
+    """Czyta indeks zaklęć: nazwa -> typ, trudność startowa, umiejętność, grupy premii."""
+    wynik, grupy = {}, {}
+    for l in INDEKS_ZAKLEC.read_text(encoding="utf-8").split("\n"):
+        if l.startswith("|") and not l.startswith("|---"):
+            k = [c.strip() for c in l.strip("|").split("|")]
+            if len(k) < 4 or k[0] in ("Zaklęcie", "Rok"):
+                continue
+            if k[1].isdigit() and len(k) >= 5:  # tabele lat 6-7: Zaklęcie | Rok | Typ | Trudn. | ...
+                k = [k[0]] + k[2:]
+            typ = k[1].split("/")[0].strip()
+            try:
+                tr = int(k[2].split("/")[0].strip())
+            except ValueError:
+                tr = None
+            for n in [x.strip() for x in k[0].replace(" / ", ",").split(",")]:
+                if n:
+                    wynik[n] = {"typ": typ, "tr": tr, "um": UMIEJETNOSC.get(typ, "Charms"), "grupy": [], "cel": n in CELOWANE}
+        elif ":" in l and any(l.startswith(g) for g in ("Healing Magic", "Protective Magic", "Revealing Magic", "Offensive Magic", "Mind Affecting")):
+            for czesc in l.split(". "):
+                if ":" in czesc:
+                    g, lista = czesc.split(":", 1)
+                    grupy[g.strip()] = [x.strip().split(" (")[0].rstrip(".") for x in lista.split(",")]
+    for n in ELIKSIRY:
+        wynik[n] = {"typ": "Potion", "tr": 15, "um": "Potions", "grupy": [], "cel": False}
+    grupy.update(GRUPY_DOD)
+    for g, lista in grupy.items():
+        for n in lista:
+            for nazwa in list(wynik):
+                if nazwa == n or (n == "Protego" and nazwa.startswith("Protego")):
+                    wynik[nazwa]["grupy"].append(g)
+            if n not in wynik and n in GRUPY_DOD.get(g, []):
+                wynik[n] = {"typ": "Charm", "tr": None, "um": "Charms", "grupy": [g], "cel": n in CELOWANE}
+    return wynik
+
+
+
 def main():
     wczytaj_dokumenty()
     sceny = []
@@ -639,11 +687,19 @@ def main():
         else:
             postacie[dane["id"]] = dane
 
+    postacie_v1 = {}
+    for p in sorted((KORZEN / "03_postacie" / "gracze" / "v1").glob("*.yaml")) if (KORZEN / "03_postacie" / "gracze" / "v1").exists() else []:
+        try:
+            dane = yaml.safe_load(p.read_text(encoding="utf-8"))
+            postacie_v1[dane["id"]] = dane
+        except (yaml.YAMLError, KeyError, TypeError) as e:
+            OSTRZEZENIA.append(f"v1/{p.name}: {e}")
+
     zaklecia_html = ""
     instr = DOKUMENTY.get("zasada.tworzenie-postaci-6-rok")
 
     dane = {
-        "sceny": sceny, "flagi": flagi, "dokumenty": dok, "postacie": postacie,
+        "sceny": sceny, "flagi": flagi, "dokumenty": dok, "postacie": postacie, "postacie_v1": postacie_v1, "zaklecia": wczytaj_zaklecia(),
         "dzien": "Hogwart, jesień 1969",
         "ksiega": wczytaj_ksiege(),
         "npc_staty": npc_staty(),

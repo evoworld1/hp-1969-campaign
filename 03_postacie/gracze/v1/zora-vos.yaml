@@ -1,5 +1,6 @@
 # Karta gracza (szybka ścieżka). Kolejność kluczy jak w schemacie MG.
-id: gracz.zora-vos
+id: gracz.zora-vos-v1
+wersja: 1
 imie: Zora Vos
 dom: Slytherin
 rok: 6

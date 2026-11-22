@@ -1,7 +1,7 @@
 (function () {
 "use strict";
-var app = document.getElementById("app");
-var D = window.DANE, KARTY = window.KARTY || [];
+var app = null;
+var D = window.DANE;
 var SL = D.postacie._slownik || {};
 function esc(s) { return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
 function dek(b64) { var s = atob(b64), a = new Uint8Array(s.length); for (var i = 0; i < s.length; i++) a[i] = s.charCodeAt(i); return a; }
@@ -11,7 +11,6 @@ function tlum(n) {
   for (var i = 0; i < g.length; i++) { var o = SL[g[i]] || {}; if (typeof o[n] === "string") return o[n]; var c = n.charAt(0).toUpperCase() + n.slice(1); if (typeof o[c] === "string") return o[c]; }
   return "";
 }
-window.tlum = tlum;
 
 var KARA = [0, 1, 2, 3, 5, 7, "X"];
 var STANY = [["", ""], ["Wstrząśnięty", "Roztrzęsiony"], ["Posiniaczony", "Oszołomiony"], ["Zakrwawiony", "Wyczerpany"], ["Złamany", "Zdezorientowany"], ["Gasnący", "Majaczący"], ["Bez życia", "Bez świadomości"]];
@@ -19,51 +18,21 @@ var CECHY = ["Vitality", "Speed", "Wits", "Knowledge", "Focus"];
 
 var P = null, ST = null, KLUCZ = "", zakladka = "karta", kalkWstep = null, testWstep = null;
 function zapisz() { try { localStorage.setItem(KLUCZ, JSON.stringify(ST)); } catch (e) {} }
+var LISTA = [], BAZA = null, SLUG = "", R = null;
 function wczytaj() { try { return JSON.parse(localStorage.getItem(KLUCZ)) || {}; } catch (e) { return {}; } }
-
-/* ---------- logowanie ---------- */
-function login(blad, wybrana) {
-  app.innerHTML = '<div class="login"><h1>Karta gracza</h1><p class="puste">Godzina, której nie było · Hogwart 1969</p><div class="wybor">' +
-    KARTY.map(function (k) { return '<button data-s="' + esc(k.slug) + '"' + (wybrana === k.slug ? ' class="aktywna"' : "") + ">" + esc(k.imie) + " <small class='puste'>" + esc(k.dom) + "</small></button>"; }).join("") + "</div>" +
-    '<div id="pin-box" ' + (wybrana ? "" : "hidden") + '><input id="pin" type="password" inputmode="numeric" autocomplete="off" placeholder="PIN"><p><button id="wejdz" class="glowny">Wejdź</button></p></div>' +
-    (blad ? '<p class="blad">' + esc(blad) + "</p>" : "") + "</div>";
-  var wyb = wybrana;
-  app.querySelectorAll(".wybor button").forEach(function (b) { b.onclick = function () { login("", b.getAttribute("data-s")); }; });
-  if (wyb) {
-    var pin = document.getElementById("pin"); pin.focus();
-    var go = function () { odszyfruj(wyb, pin.value.trim()); };
-    document.getElementById("wejdz").onclick = go;
-    pin.onkeydown = function (e) { if (e.key === "Enter") go(); };
-  }
-}
-function odszyfruj(slug, pin) {
-  var k = KARTY.filter(function (x) { return x.slug === slug; })[0];
-  if (!k || !pin) { login("Podaj PIN.", slug); return; }
-  crypto.subtle.importKey("raw", new TextEncoder().encode(pin), "PBKDF2", false, ["deriveKey"])
-    .then(function (m) { return crypto.subtle.deriveKey({ name: "PBKDF2", salt: dek(k.sol), iterations: k.iter, hash: "SHA-256" }, m, { name: "AES-GCM", length: 256 }, false, ["decrypt"]); })
-    .then(function (key) { return crypto.subtle.decrypt({ name: "AES-GCM", iv: dek(k.iv) }, key, dek(k.ct)); })
-    .then(function (buf) {
-      P = JSON.parse(new TextDecoder().decode(buf));
-      KLUCZ = "hp69g-" + slug; ST = wczytaj();
-      if (ST.sp == null) ST.sp = P.story_points || 0;
-      ST.body = ST.body || 0; ST.mind = ST.mind || 0; ST.ekw = ST.ekw || {}; ST.dod = ST.dod || ""; ST.nagrody = ST.nagrody || ""; ST.sekret4 = ST.sekret4 || ""; ST.wyglad = ST.wyglad || ""; ST.notatki = ST.notatki || "";
-      try { sessionStorage.setItem("hp69g-sesja", JSON.stringify({ s: slug, p: pin })); } catch (e) {}
-      zakladka = "karta"; widok();
-    })
-    .catch(function () { login("Zły PIN albo uszkodzona karta.", slug); });
-}
 
 /* ---------- widok ---------- */
 function kara() { var a = KARA[ST.body], b = KARA[ST.mind]; if (a === "X" || b === "X") return "X"; return a + b; }
 function widok() {
-  var zk = [["karta", "Karta"], ["zaklecia", "Zaklęcia"], ["zdrowie", "Zdrowie i punkty"], ["ksiega", "Księga zaklęć"], ["kalk", "Rzut zaklęcia"], ["test", "Test umiejętności"], ["starcie", "Pojedynek i starcie"], ["notatki", "Ekwipunek i notatki"], ["sciaga", "Ściąga"], ["druk", "Do druku"]];
+  var zk = [["karta", "Karta"], ["zaklecia", "Zaklęcia"], ["zdrowie", "Zdrowie i punkty"], ["ksiega", "Księga zaklęć"], ["kalk", "Rzut zaklęcia"], ["test", "Test umiejętności"], ["starcie", "Pojedynek i starcie"], ["notatki", "Ekwipunek i notatki"], ["sciaga", "Ściąga"], ["druk", "Do druku"], ["rozwoj", "Rozwój (MG)"]];
   var k = kara();
-  app.innerHTML = '<div class="gpasek"><h1>' + esc(P.imie) + ' <small class="puste">' + esc(P.dom) + '</small></h1><div><span class="flaga">Story Points: ' + ST.sp + '</span> <span class="flaga">Kara zdrowia: ' + (k === 0 ? "brak" : (k === "X" ? "brak akcji" : "+" + k)) + '</span> <button id="wyjdz">Wyloguj</button></div></div>' +
+  app.innerHTML = '<div class="gpasek"><h1>' + esc(P.imie) + ' <small class="puste">' + esc(P.dom) + '</small></h1><div><span class="flaga">Story Points: ' + ST.sp + '</span> <span class="flaga">Kara zdrowia: ' + (k === 0 ? "brak" : (k === "X" ? "brak akcji" : "+" + k)) + '</span> </div></div>' +
+    '<div class="wyb-p gz">' + LISTA.map(function (x) { var s = slugZ(x); return '<button data-p="' + esc(s) + '" class="' + (s === SLUG ? "aktywna" : "") + '">' + esc(x.imie) + ' <small class="puste">' + esc(x.dom || "") + "</small></button>"; }).join("") + "</div>" +
     '<div class="gz">' + zk.map(function (z) { return '<button data-z="' + z[0] + '" class="' + (z[0] === zakladka ? "aktywna" : "") + '">' + z[1] + "</button>"; }).join("") + '</div><div id="tresc"></div>';
-  app.querySelectorAll(".gz button").forEach(function (b) { b.onclick = function () { zakladka = b.getAttribute("data-z"); widok(); window.scrollTo(0, 0); }; });
-  document.getElementById("wyjdz").onclick = function () { try { sessionStorage.removeItem("hp69g-sesja"); } catch (e) {} P = null; login(); };
+  app.querySelectorAll(".gz:not(.wyb-p) button").forEach(function (b) { b.onclick = function () { zakladka = b.getAttribute("data-z"); try { history.replaceState(null, "", "#/gracze/" + SLUG + "/" + zakladka); } catch (e) {} widok(); window.scrollTo(0, 0); }; });
+  app.querySelectorAll(".wyb-p button").forEach(function (b) { b.onclick = function () { location.hash = "#/gracze/" + b.getAttribute("data-p") + "/" + zakladka; }; });
   var t = document.getElementById("tresc");
-  ({ karta: tKarta, zaklecia: tZaklecia, ksiega: tKsiega, zdrowie: tZdrowie, kalk: tKalk, test: tTest, starcie: tStarcie, notatki: tNotatki, sciaga: tSciaga, druk: tDruk })[zakladka](t);
+  (({ karta: tKarta, zaklecia: tZaklecia, ksiega: tKsiega, zdrowie: tZdrowie, kalk: tKalk, test: tTest, starcie: tStarcie, notatki: tNotatki, sciaga: tSciaga, druk: tDruk, rozwoj: tRozwoj })[zakladka] || tKarta)(t);
 }
 function otworzKalk(w) { kalkWstep = w; zakladka = "kalk"; widok(); window.scrollTo(0, 0); }
 
@@ -90,14 +59,15 @@ function premiaPL(s) {
 
 function tZaklecia(t) {
   var zz = P.zaklecia || {}, sl = SL.zaklecia || {};
-  var G = [["wspolny", "Pakiet wspólny"], ["archetyp", "Pakiet typu postaci"], ["wybor", "Do wyboru"], ["zaawansowane", "Magia zaawansowana i eliksiry"]];
+  var G = [["nowe", "Nowo poznane w trakcie gry"], ["wspolny", "Pakiet wspólny"], ["archetyp", "Pakiet typu postaci"], ["wybor", "Do wyboru"], ["zaawansowane", "Magia zaawansowana i eliksiry"]];
   t.innerHTML = '<p class="puste">Wszystkie zaklęcia na karcie są <b>opanowane</b> (zaznaczone wszystkie kratki): ich aktualna trudność to 0, a poza walką zwykle nie rzucasz kością. „Trudność” przy nazwie to trudność nauki z podręcznika: tyle wynosi, dopóki zaklęcia się nie opanuje (ważne przy nauce nowych zaklęć z Księgi). Kliknij nazwę, żeby zobaczyć opis; „Rzuć →” otwiera kalkulator z gotowymi ustawieniami. Wszystkie zaklęcia z podręcznika są w zakładce „Księga zaklęć”.</p><input id="zf" placeholder="Szukaj zaklęcia…" style="width:100%;padding:.5rem;margin:.4rem 0;border:1px solid var(--linia);border-radius:8px;background:var(--panel)">' +
     G.map(function (g) {
       var l = zz[g[0]] || []; if (!l.length) return "";
       return "<h3>" + g[1] + "</h3><div class='zklg'>" + l.map(function (x) {
-        var kr = ""; for (var i = 0; i < (x.kratki || 0); i++) kr += "<span></span>";
+        var kr = "", zazn = x.zaznaczone == null ? (x.kratki || 0) : x.zaznaczone; for (var i = 0; i < (x.kratki || 0); i++) kr += i < zazn ? "<span></span>" : '<span class="pusta"></span>';
+        var akt = aktTr0(x.nazwa);
         var ks = window.znajdzZaklecie ? window.znajdzZaklecie(x.nazwa) : null;
-        var meta = ks ? '<span class="zk-tr" title="trudność nauki z podręcznika; opanowane zaklęcie ma aktualną trudność 0">trudność ' + esc(ks.trudnosc) + "</span>" + (ks.rok ? '<span class="zk-meta">' + esc(ks.rok) + ". rok</span>" : "") + (ks.w_walce ? '<span class="zk-meta">· do walki</span>' : "") : '<span class="zk-meta">brak w księdze</span>';
+        var meta = (akt ? '<span class="zk-tr">nieopanowane: aktualna trudność ' + akt + "</span> " : "") + (ks ? '<span class="zk-tr" title="trudność nauki z podręcznika; opanowane zaklęcie ma aktualną trudność 0">trudność ' + esc(ks.trudnosc) + "</span>" + (ks.rok ? '<span class="zk-meta">' + esc(ks.rok) + ". rok</span>" : "") + (ks.w_walce ? '<span class="zk-meta">· do walki</span>' : "") : '<span class="zk-meta">brak w księdze</span>');
         return '<details class="zk" data-n="' + esc(x.nazwa) + '"><summary><b>' + esc(x.nazwa === "Stupefy" ? "Stupefy (Drętwota)" : x.nazwa) + ' </b>' + meta + '<span class="kr">' + kr + '</span><button class="zk-rzuc" type="button">Rzuć →</button><small>' + esc((ks && ks.efekt) || (sl[x.nazwa] || {}).opis || "") + "</small></summary>" +
           window.kartaZaklecia(ks, '<p><button class="zk-kalk">Przelicz rzut w kalkulatorze</button></p>') + "</details>";
       }).join("") + "</div>";
@@ -180,11 +150,11 @@ function tKalk(t) {
   var um = Object.keys(P.umiejetnosci || {});
   var info = w.zakl ? infoZakl(w.zakl) : null;
   var tryb = w.zakl ? (info.cel ? "pojedynek" : "rzut") : "test";
-  var aktTr = info && !moje(w.zakl) && info.tr != null ? info.tr : 0;
+  var aktTr = moje(w.zakl) ? aktTr0(w.zakl) : (info && info.tr != null ? info.tr : 0);
   var wybUm = w.um || "Observation";
   if (um.indexOf(wybUm) < 0) wybUm = um[0];
   function opcjeCech(sel) { return CECHY.map(function (c) { return '<option value="' + c + '"' + (c === sel ? " selected" : "") + ">" + esc(tlum(c)) + " (" + ((P.cechy || {})[c] || 0) + ")</option>"; }).join(""); }
-  var naglZ = info ? (info.ks && info.ks.efekt ? '<p><b>' + esc(info.ks.efekt) + '</b>' + (info.ks.w_walce ? ' <span class="puste">W walce: ' + esc(info.ks.w_walce) + '</span>' : "") + '</p>' : "") + '<p class="puste">Typ: ' + esc(info.typ) + (info.grupy.length ? " · grupa premii różdżki: " + esc(info.grupy.map(function (g) { return tlum(g) || g; }).join(", ")) : "") + " · trudność startowa: " + (info.tr == null ? "?" : info.tr) + ". " + (moje(w.zakl) ? "Masz je opanowane, więc aktualna trudność to 0." : "<b>Tego zaklęcia nie masz na karcie</b>: musisz się go najpierw nauczyć (aktualna trudność = trudność startowa).") + "</p>" : "";
+  var naglZ = info ? (info.ks && info.ks.efekt ? '<p><b>' + esc(info.ks.efekt) + '</b>' + (info.ks.w_walce ? ' <span class="puste">W walce: ' + esc(info.ks.w_walce) + '</span>' : "") + '</p>' : "") + '<p class="puste">Typ: ' + esc(info.typ) + (info.grupy.length ? " · grupa premii różdżki: " + esc(info.grupy.map(function (g) { return tlum(g) || g; }).join(", ")) : "") + " · trudność startowa: " + (info.tr == null ? "?" : info.tr) + ". " + (moje(w.zakl) ? (aktTr ? "Masz je na karcie, ale nieopanowane: aktualna trudność " + aktTr + "." : "Masz je opanowane, więc aktualna trudność to 0.") : "<b>Tego zaklęcia nie masz na karcie</b>: musisz się go najpierw nauczyć (aktualna trudność = trudność startowa).") + "</p>" : "";
   var radio = info ? '<p><label style="display:inline"><input type="radio" name="tryb" value="rzut"' + (tryb === "rzut" ? " checked" : "") + ' style="width:auto"> Rzucam zaklęcie (' + (info.typ === "Potion" ? "Wiedza" : "Skupienie") + " + " + esc(tlum(info.um) || info.um) + ')</label> &nbsp; <label style="display:inline"><input type="radio" name="tryb" value="pojedynek"' + (tryb === "pojedynek" ? " checked" : "") + ' style="width:auto"> Atak w pojedynku (Bystrość + wyższa z: Pojedynkowanie, umiejętność zaklęcia)</label></p>' : "";
   t.innerHTML = '<div class="sekg kalk"><h3>' + (w.zakl ? esc(w.zakl) : "Test") + "</h3>" + naglZ + radio +
     '<p class="puste" id="k-auto"></p>' +
@@ -275,9 +245,14 @@ function tStarcie(t) {
 
 /* ---------- notatki, ściąga, druk ---------- */
 var EKW = ["Różdżka (w etui lub przy pasie)", "Szaty szkolne: trzy komplety czarnych szat roboczych", "Czarna spiczasta tiara na co dzień", "Rękawice ochronne (ze smoczej skóry)", "Zimowa peleryna (czarna, z zapięciami)", "Krawat i szalik swojego domu", "Kociołek cynowy (rozmiar 2)", "Fiolki szklane lub kryształowe (zestaw)", "Mosiężne wagi i zestaw odważników", "Teleskop", "Podręczniki do przedmiotów 6. roku", "Pergamin, pióra, atrament, suszka", "Zwierzę i jego klatka albo koszyk", "Plecak lub torba na książki"];
+function listaMG() {
+  var pr = P.przedmioty_mg || [], na = P.nagrody_mg || [];
+  if (!pr.length && !na.length) return "";
+  return '<div class="sekg"><h3>Od Mistrza Gry (zakładka „Rozwój”)</h3>' + (pr.length ? "<p><b>Przedmioty:</b></p><ul>" + pr.map(function (x) { return "<li><b>" + esc(x.nazwa) + "</b>" + (x.opis ? ": " + esc(x.opis) : "") + "</li>"; }).join("") + "</ul>" : "") + (na.length ? "<p><b>Nagrody:</b></p><ul>" + na.map(function (x) { return "<li>" + esc(x.opis) + (x.sp ? " (+" + x.sp + " Story Points)" : "") + "</li>"; }).join("") + "</ul>" : "") + "</div>";
+}
 function tNotatki(t) {
   t.innerHTML = '<div class="sekg pudg"><h3>Podstawowy ekwipunek ucznia 6. roku</h3>' + EKW.map(function (e, i) { return '<label><input type="checkbox" data-e="' + i + '"' + (ST.ekw[i] ? " checked" : "") + "> " + esc(e) + "</label>"; }).join("") + "</div>" +
-    '<div class="sekg"><h3>Dodatkowe przedmioty</h3><textarea class="n" data-f="dod"></textarea></div><div class="sekg"><h3>Nagrody (wpisuje Mistrz Gry, możesz przepisać)</h3><textarea class="n" data-f="nagrody"></textarea></div>' +
+    listaMG() + '<div class="sekg"><h3>Dodatkowe przedmioty</h3><textarea class="n" data-f="dod"></textarea></div><div class="sekg"><h3>Nagrody (wpisuje Mistrz Gry, możesz przepisać)</h3><textarea class="n" data-f="nagrody"></textarea></div>' +
     '<div class="sekg"><h3>Wygląd postaci</h3><textarea class="n" data-f="wyglad"></textarea></div><div class="sekg"><h3>Wspólny sekret z 4. roku</h3><textarea class="n" data-f="sekret4"></textarea></div><div class="sekg"><h3>Notatki z sesji</h3><textarea class="n" data-f="notatki" style="min-height:14rem"></textarea></div>';
   t.querySelectorAll("textarea").forEach(function (a) { var f = a.getAttribute("data-f"); a.value = ST[f] || ""; a.oninput = function () { ST[f] = a.value; zapisz(); }; });
   t.querySelectorAll("input[type=checkbox]").forEach(function (c) { c.onchange = function () { ST.ekw[c.getAttribute("data-e")] = c.checked; zapisz(); }; });
@@ -297,9 +272,141 @@ function tDruk(t) {
   document.getElementById("druk3").onclick = function () { window.print(); };
 }
 
-/* ---------- start ---------- */
-(function () {
-  try { var s = JSON.parse(sessionStorage.getItem("hp69g-sesja")); if (s && s.s && s.p) { odszyfruj(s.s, s.p); return; } } catch (e) {}
-  login();
-})();
+/* ---------- rozwój postaci (MG): zmiany nakładane na kartę z repozytorium ---------- */
+var KRATKI = { 9: [9], 12: [12, 9], 15: [15, 12, 9], 18: [18, 15, 12], 21: [21, 18, 15] };
+function slugZ(p) { return String(p.id || "").replace(/^gracz\./, ""); }
+function kluczR(s) { return "hp69mg-rozwoj-" + s; }
+function wczytajR(s) { try { var r = JSON.parse(localStorage.getItem(kluczR(s))); if (r && Array.isArray(r.zmiany)) return r; } catch (e) {} return { zmiany: [] }; }
+function zapiszR() { try { localStorage.setItem(kluczR(SLUG), JSON.stringify(R)); } catch (e) {} }
+function stanZdrowia(s, p) { try { var x = JSON.parse(localStorage.getItem("hp69g-" + s)) || {}; if (x.sp == null) x.sp = p.story_points || 0; return x; } catch (e) { return { sp: p.story_points || 0 }; } }
+function trudnoscStartowa(n) {
+  var k = window.znajdzZaklecie ? window.znajdzZaklecie(n) : null;
+  var t = k ? parseInt(String(k.trudnosc).split("/")[0], 10) : NaN;
+  if (isNaN(t)) { var z = (D.zaklecia || {})[n]; t = z && z.tr; }
+  return t || null;
+}
+function aktTr0(n) {
+  var nowe = (P.zaklecia || {}).nowe || [];
+  for (var i = 0; i < nowe.length; i++) if (nowe[i].nazwa === n) {
+    var x = nowe[i], k = KRATKI[x.tr] || [];
+    return x.zaznaczone >= x.kratki ? 0 : (k[x.zaznaczone] != null ? k[x.zaznaczone] : x.tr);
+  }
+  return 0;
+}
+/* karta z repozytorium + zmiany z dziennika */
+function zastosuj(baza, zmiany) {
+  var p = JSON.parse(JSON.stringify(baza));
+  p.cechy = p.cechy || {}; p.umiejetnosci = p.umiejetnosci || {}; p.zaklecia = p.zaklecia || {}; p.specjalizacje = p.specjalizacje || [];
+  p.przedmioty_mg = []; p.nagrody_mg = [];
+  (zmiany || []).forEach(function (z) {
+    if (z.typ === "cecha") p.cechy[z.nazwa] = (p.cechy[z.nazwa] || 0) + z.o;
+    else if (z.typ === "umiejetnosc") p.umiejetnosci[z.nazwa] = (p.umiejetnosci[z.nazwa] || 0) + z.o;
+    else if (z.typ === "zaklecie") { p.zaklecia.nowe = p.zaklecia.nowe || []; p.zaklecia.nowe.push({ nazwa: z.nazwa, tr: z.tr, kratki: z.kratki, zaznaczone: z.zaznaczone }); }
+    else if (z.typ === "kratka") { (p.zaklecia.nowe || []).forEach(function (x) { if (x.nazwa === z.nazwa) x.zaznaczone = Math.min(x.kratki, x.zaznaczone + 1); }); }
+    else if (z.typ === "specjalizacja") p.specjalizacje.push(z.tekst);
+    else if (z.typ === "przedmiot") p.przedmioty_mg.push(z);
+    else if (z.typ === "nagroda") p.nagrody_mg.push(z);
+  });
+  return p;
+}
+function opisZmiany(z) {
+  var sp = z.sp ? " (" + (z.sp > 0 ? "+" : "") + z.sp + " Story Points)" : "";
+  if (z.typ === "cecha" || z.typ === "umiejetnosc") return (tlum(z.nazwa) || z.nazwa) + " " + z.przed + " → " + (z.przed + z.o) + sp;
+  if (z.typ === "zaklecie") return "Nowe zaklęcie: " + z.nazwa + " (trudność " + z.tr + ", zaznaczone kratki " + z.zaznaczone + " z " + z.kratki + ")" + sp;
+  if (z.typ === "kratka") return "Kratka nauki: " + z.nazwa + (z.sposob ? " (" + z.sposob + ")" : "") + sp;
+  if (z.typ === "specjalizacja") return "Specjalizacja: " + z.tekst + sp;
+  if (z.typ === "przedmiot") return "Przedmiot: " + z.nazwa + (z.opis ? " – " + z.opis : "") + sp;
+  if (z.typ === "nagroda") return "Nagroda: " + z.opis + sp;
+  return z.typ;
+}
+function dodajZmiane(z) {
+  z.data = new Date().toISOString().slice(0, 16).replace("T", " ");
+  if (z.sp) { ST.sp = Math.max(0, (ST.sp || 0) + z.sp); zapisz(); }
+  R.zmiany.push(z); zapiszR(); P = zastosuj(BAZA, R.zmiany); widok();
+}
+function wszystkieUmiejetnosci() {
+  var o = SL.umiejetnosci || {}, l = Object.keys(o).filter(function (k) { return typeof o[k] === "string"; });
+  Object.keys(P.umiejetnosci || {}).forEach(function (u) { if (l.indexOf(u) < 0) l.push(u); });
+  return l.sort(function (a, b) { return (tlum(a) || a).localeCompare(tlum(b) || b, "pl"); });
+}
+function tRozwoj(t) {
+  var ks = (D.ksiega || []).map(function (z) { return z.nazwa; });
+  var nowe = ((P.zaklecia || {}).nowe || []).filter(function (x) { return x.zaznaczone < x.kratki; });
+  var umy = wszystkieUmiejetnosci();
+  var instr = (D.dokumenty || {})["zasada.nagradzanie-graczy"] ? '<a href="#/dok/zasada.nagradzanie-graczy">Jak nagradzać graczy (instrukcja) →</a>' : '<span class="puste">Instrukcja nagradzania: 02_zasady/nagradzanie-graczy.md</span>';
+  var zm = R.zmiany.slice().reverse();
+  t.innerHTML = '<div class="sekg"><h3>Rozwój postaci (tylko MG)</h3><p class="puste">Zmiany zapisują się w tej przeglądarce i nakładają na kartę z repozytorium. Po sesji kliknij „Eksportuj zmiany” i wklej tekst Reżyserowi: wpisze je na stałe do kart i PDF-ów. U Walkera nie ma punktów doświadczenia: rozwój kupuje się za Story Points (s. 31).</p><p>' + instr + '</p>' +
+    '<p class="duzy">Story Points: ' + ST.sp + ' <button id="r-sp-m">−1</button> <button id="r-sp-p">+1</button></p></div>' +
+    '<div class="sekg kalk"><h3>Nagroda</h3><label>Za co (np. „pierwszy pojedynek u Wrena”) <input id="r-n-opis" type="text" style="width:100%"></label><label>Story Points do dodania <input id="r-n-sp" type="number" inputmode="numeric" value="1"></label><button id="r-n">Dodaj nagrodę</button></div>' +
+    '<div class="sekg kalk"><h3>Cecha albo umiejętność +1</h3><p class="puste">Koszt (Walker s. 31): cecha 5 × obecna wartość, umiejętność obecna wartość + 3. Urodziny dają +1 do cechy za darmo.</p>' +
+    '<label>Cecha <select id="r-c">' + CECHY.map(function (c) { return '<option value="' + c + '">' + esc(tlum(c)) + " (" + (P.cechy[c] || 0) + ")</option>"; }).join("") + '</select></label><p id="r-c-k" class="puste"></p><label><input type="checkbox" id="r-c-pl" checked style="width:auto"> zapłać Story Points</label><button id="r-c-b">+1 do cechy</button>' +
+    '<hr><label>Umiejętność <select id="r-u">' + umy.map(function (u) { return '<option value="' + esc(u) + '">' + esc(tlum(u) || u) + " · " + esc(u) + " (" + (P.umiejetnosci[u] || 0) + ")</option>"; }).join("") + '</select></label><p id="r-u-k" class="puste"></p><label><input type="checkbox" id="r-u-pl" checked style="width:auto"> zapłać Story Points</label><button id="r-u-b">+1 do umiejętności</button></div>' +
+    '<div class="sekg kalk"><h3>Nowe zaklęcie albo eliksir</h3><p class="puste">Zaklęcie z Księgi zaklęć trafia do grupy „Nowo poznane”. Zwykle zaczyna od 0 zaznaczonych kratek (nieopanowane); kolejne kratki zaznaczasz niżej po udanym rzucie nauki albo za Story Points.</p>' +
+    '<label>Nazwa <input id="r-z" list="r-z-l" type="text" style="width:100%"></label><datalist id="r-z-l">' + ks.map(function (n) { return '<option value="' + esc(n) + '">'; }).join("") + '</datalist><p id="r-z-i" class="puste"></p><label>Zaznaczone kratki <select id="r-z-k"></select></label><button id="r-z-b">Dodaj zaklęcie</button></div>' +
+    '<div class="sekg kalk"><h3>Kratka nauki</h3>' + (nowe.length ? nowe.map(function (x, i) { var k = KRATKI[x.tr] || [], akt = k[x.zaznaczone]; return '<p><b>' + esc(x.nazwa) + "</b> · aktualna trudność " + akt + " · kratki " + x.zaznaczone + "/" + x.kratki + '<br><button data-kr="' + esc(x.nazwa) + '" data-s="nauka">Udany rzut nauki (lekcja, książka, korepetycje)</button> <button data-kr="' + esc(x.nazwa) + '" data-s="kupno" data-koszt="' + Math.round(akt / 3) + '">Kup za ' + Math.round(akt / 3) + " Story Points</button></p>"; }).join("") : '<p class="puste">Brak nieopanowanych zaklęć. Rzut nauki: 1D10 + Skupienie + umiejętność zaklęcia przeciw aktualnej trudności; lekcja +1, korepetycje +2 (s. 31–32).</p>') + "</div>" +
+    '<div class="sekg kalk"><h3>Specjalizacja</h3><label>Np. „Stealth (Zamek nocą)” (+1 w wąskim zakresie, przy umiejętności 5 lub więcej) <input id="r-s" type="text" style="width:100%"></label><button id="r-s-b">Dodaj specjalizację</button></div>' +
+    '<div class="sekg kalk"><h3>Przedmiot</h3><label>Nazwa <input id="r-p" type="text" style="width:100%"></label><label>Opis i działanie <input id="r-p-o" type="text" style="width:100%"></label><button id="r-p-b">Dodaj przedmiot</button></div>' +
+    '<div class="sekg"><h3>Dziennik zmian (' + R.zmiany.length + ')</h3>' + (zm.length ? "<ol reversed>" + zm.map(function (z) { return "<li><small class='puste'>" + esc(z.data) + "</small> " + esc(opisZmiany(z)) + "</li>"; }).join("") + "</ol><button id='r-cof'>Cofnij ostatnią zmianę</button>" : "<p class='puste'>Brak zmian.</p>") +
+    '</div><div class="sekg"><h3>Eksport i import (wszystkie postacie)</h3><p><button id="r-eks" class="glowny">Eksportuj zmiany</button> <button id="r-imp">Importuj</button></p><textarea class="n" id="r-txt" placeholder="Tu pojawi się eksport. Aby zaimportować, wklej tekst eksportu i kliknij „Importuj”."></textarea><p id="r-komunikat" class="puste"></p></div>';
+  var el = function (id) { return document.getElementById(id); };
+  el("r-sp-m").onclick = function () { ST.sp = Math.max(0, ST.sp - 1); zapisz(); widok(); };
+  el("r-sp-p").onclick = function () { ST.sp += 1; zapisz(); widok(); };
+  el("r-n").onclick = function () { var o = el("r-n-opis").value.trim(); if (!o) return; dodajZmiane({ typ: "nagroda", opis: o, sp: parseInt(el("r-n-sp").value, 10) || 0 }); };
+  var kc = function () { var c = el("r-c").value, v = P.cechy[c] || 0; el("r-c-k").textContent = "Koszt: " + 5 * v + " Story Points (masz " + ST.sp + ")."; };
+  var ku = function () { var u = el("r-u").value, v = P.umiejetnosci[u] || 0; el("r-u-k").textContent = "Koszt: " + (v + 3) + " Story Points (masz " + ST.sp + ")."; };
+  el("r-c").onchange = kc; el("r-u").onchange = ku; kc(); ku();
+  el("r-c-b").onclick = function () { var c = el("r-c").value, v = P.cechy[c] || 0, k = 5 * v; if (el("r-c-pl").checked && ST.sp < k) { alert("Za mało Story Points (potrzeba " + k + ")."); return; } dodajZmiane({ typ: "cecha", nazwa: c, o: 1, przed: v, sp: el("r-c-pl").checked ? -k : 0 }); };
+  el("r-u-b").onclick = function () { var u = el("r-u").value, v = P.umiejetnosci[u] || 0, k = v + 3; if (el("r-u-pl").checked && ST.sp < k) { alert("Za mało Story Points (potrzeba " + k + ")."); return; } dodajZmiane({ typ: "umiejetnosc", nazwa: u, o: 1, przed: v, sp: el("r-u-pl").checked ? -k : 0 }); };
+  var zi = function () {
+    var n = el("r-z").value.trim(), tr = n ? trudnoscStartowa(n) : null, k = KRATKI[tr] || [];
+    el("r-z-i").innerHTML = !n ? "" : (moje(n) ? "<b>To zaklęcie już jest na karcie.</b>" : (tr ? "Trudność startowa " + tr + ", kratki: " + k.join(", ") + "." : "Nie znam trudności tego zaklęcia (sprawdź pisownię w Księdze)."));
+    el("r-z-k").innerHTML = k.map(function (_, i) { return '<option value="' + i + '">' + i + (i === 0 ? " (nieopanowane)" : "") + "</option>"; }).join("") + (k.length ? '<option value="' + k.length + '">' + k.length + " (opanowane)</option>" : "");
+  };
+  el("r-z").oninput = zi; zi();
+  el("r-z-b").onclick = function () { var n = el("r-z").value.trim(), tr = trudnoscStartowa(n), k = KRATKI[tr]; if (!n || !k || moje(n)) { zi(); return; } dodajZmiane({ typ: "zaklecie", nazwa: n, tr: tr, kratki: k.length, zaznaczone: parseInt(el("r-z-k").value, 10) || 0 }); };
+  t.querySelectorAll("[data-kr]").forEach(function (b) { b.onclick = function () { var koszt = parseInt(b.getAttribute("data-koszt") || "0", 10); if (koszt && ST.sp < koszt) { alert("Za mało Story Points (potrzeba " + koszt + ")."); return; } dodajZmiane({ typ: "kratka", nazwa: b.getAttribute("data-kr"), sposob: b.getAttribute("data-s") === "kupno" ? "kupiona" : "rzut nauki", sp: -koszt }); }; });
+  el("r-s-b").onclick = function () { var x = el("r-s").value.trim(); if (x) dodajZmiane({ typ: "specjalizacja", tekst: x }); };
+  el("r-p-b").onclick = function () { var x = el("r-p").value.trim(); if (x) dodajZmiane({ typ: "przedmiot", nazwa: x, opis: el("r-p-o").value.trim() }); };
+  var cof = el("r-cof"); if (cof) cof.onclick = function () { var z = R.zmiany[R.zmiany.length - 1]; if (!z || !confirm("Cofnąć: " + opisZmiany(z) + "?")) return; R.zmiany.pop(); if (z.sp) { ST.sp = Math.max(0, ST.sp - z.sp); zapisz(); } zapiszR(); P = zastosuj(BAZA, R.zmiany); widok(); };
+  el("r-eks").onclick = function () { var tx = eksport(); el("r-txt").value = tx; try { navigator.clipboard.writeText(tx); el("r-komunikat").textContent = "Skopiowano do schowka."; } catch (e) { el("r-komunikat").textContent = "Zaznacz tekst i skopiuj ręcznie."; } };
+  el("r-imp").onclick = function () { var w = importuj(el("r-txt").value); el("r-komunikat").textContent = w; if (/^Zaimportowano/.test(w)) { R = wczytajR(SLUG); ST = stanZdrowia(SLUG, BAZA); P = zastosuj(BAZA, R.zmiany); widok(); } };
+}
+function yq(s) { return '"' + String(s == null ? "" : s).replace(/\\/g, "\\\\").replace(/"/g, '\\"') + '"'; }
+function eksport() {
+  var dane = {}, txt = "# Zmiany z panelu MG (Rozwój postaci). Wklej cały tekst Reżyserowi.\n# Wygenerowano: " + new Date().toISOString().slice(0, 16).replace("T", " ") + "\n";
+  LISTA.forEach(function (p) {
+    var s = slugZ(p), r = wczytajR(s), st = stanZdrowia(s, p);
+    dane[s] = { zmiany: r.zmiany, story_points: st.sp, body: st.body || 0, mind: st.mind || 0 };
+    txt += s + ":\n  story_points_teraz: " + st.sp + "\n  zdrowie: {cialo: " + (st.body || 0) + ", umysl: " + (st.mind || 0) + "}\n  zmiany:" + (r.zmiany.length ? "\n" + r.zmiany.map(function (z) { return "  - " + yq(z.data + ": " + opisZmiany(z)); }).join("\n") : " []") + "\n";
+  });
+  return txt + "# ---JSON (do importu)---\n# " + JSON.stringify(dane) + "\n";
+}
+function importuj(tx) {
+  var i = tx.indexOf("---JSON (do importu)---"); if (i < 0) return "Nie znalazłem części do importu (linia „---JSON (do importu)---”).";
+  var j = tx.slice(i).split("\n")[1] || ""; j = j.replace(/^#\s*/, "");
+  try {
+    var d = JSON.parse(j), n = 0;
+    Object.keys(d).forEach(function (s) {
+      if (!LISTA.some(function (p) { return slugZ(p) === s; })) return;
+      localStorage.setItem(kluczR(s), JSON.stringify({ zmiany: d[s].zmiany || [] }));
+      var st = {}; try { st = JSON.parse(localStorage.getItem("hp69g-" + s)) || {}; } catch (e) {}
+      st.sp = d[s].story_points; st.body = d[s].body || 0; st.mind = d[s].mind || 0;
+      localStorage.setItem("hp69g-" + s, JSON.stringify(st)); n++;
+    });
+    return "Zaimportowano postacie: " + n + ".";
+  } catch (e) { return "Błąd importu: " + e.message; }
+}
+
+/* el: kontener; opt: {lista: [karty], slug, zakladka} */
+window.renderGracz = function (el, opt) {
+  app = el; LISTA = opt.lista || [];
+  if (!LISTA.length) { app.innerHTML = "<p class='puste'>Brak kart graczy w 03_postacie/gracze/.</p>"; return; }
+  var b = LISTA.filter(function (p) { return slugZ(p) === opt.slug; })[0] || LISTA[0];
+  BAZA = b; SLUG = slugZ(b); KLUCZ = "hp69g-" + SLUG;
+  ST = stanZdrowia(SLUG, b);
+  ST.body = ST.body || 0; ST.mind = ST.mind || 0; ST.ekw = ST.ekw || {}; ST.dod = ST.dod || ""; ST.nagrody = ST.nagrody || ""; ST.sekret4 = ST.sekret4 || ""; ST.wyglad = ST.wyglad || ""; ST.notatki = ST.notatki || "";
+  R = wczytajR(SLUG); P = zastosuj(b, R.zmiany);
+  zakladka = opt.zakladka || zakladka || "karta";
+  widok();
+};
 })();

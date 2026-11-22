@@ -1,5 +1,6 @@
 # Karta gracza (szybka ścieżka). Kolejność kluczy jak w schemacie MG.
-id: gracz.nell-ashford
+id: gracz.nell-ashford-v1
+wersja: 1
 imie: Nell Ashford
 dom: Gryffindor
 rok: 6

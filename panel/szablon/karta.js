@@ -26,7 +26,7 @@ var EKWIPUNEK = [
   "Kieszonkowe: ___ galeonów, ___ sykli, ___ knutów"
 ];
 
-function kratki(n) { var h = ""; for (var i = 0; i < n; i++) h += '<span class="kratka"></span>'; return h; }
+function kratki(n, z) { var h = ""; for (var i = 0; i < n; i++) h += '<span class="kratka' + (z != null && i >= z ? ' pusta' : '') + '"></span>'; return h; }
 function budujTlumacz(tlum) {
   var sl = window.DANE.postacie._slownik || {};
   var par = [];
@@ -59,16 +59,16 @@ window.renderKarta = function (app, p, tlum) {
   var z = p.zwierze || {};
   var zdr = "<table style='width:100%'><thead><tr><th>Kółko</th><th>Ciało (Body)</th><th>Umysł (Mind)</th><th>Kara do trudności</th></tr></thead><tbody>" +
     STANY.map(function (s, i) { return "<tr><td style='text-align:center'><span class='o'></span></td><td><span class='o'></span> " + s[0] + "</td><td><span class='o'></span> " + s[1] + "</td><td style='text-align:center'>" + s[2] + "</td></tr>"; }).join("") + "</tbody></table>";
-  var grupy = [["wspolny", "Pakiet wspólny (lata 1–5)"], ["archetyp", "Pakiet typu postaci"], ["wybor", "Do wyboru"], ["zaawansowane", "Magia zaawansowana (lata 6–7, eliksiry)"]];
+  var grupy = [["nowe", "Nowo poznane w trakcie gry"], ["wspolny", "Pakiet wspólny (lata 1–5)"], ["archetyp", "Pakiet typu postaci"], ["wybor", "Do wyboru"], ["zaawansowane", "Magia zaawansowana (lata 6–7, eliksiry)"]];
   var zakl = "", zz = p.zaklecia || {};
   grupy.forEach(function (g) {
     var l = zz[g[0]] || [];
     if (!l.length) return;
     zakl += "<h2>" + g[1] + " (" + l.reduce(function (a, x) { return a + (x.kratki || 0); }, 0) + " kratek)</h2><table style='width:100%'><tbody>" +
-      l.map(function (x) { var o = (sl[x.nazwa] || {}).opis || ""; return "<tr><td style='width:36%'><b>" + esc(ZAKL_PL[x.nazwa] || x.nazwa) + "</b></td><td style='width:13%'>" + kratki(x.kratki || 0) + "</td><td class='malo'>" + esc(o) + "</td></tr>"; }).join("") + "</tbody></table>";
+      l.map(function (x) { var o = (sl[x.nazwa] || {}).opis || ""; return "<tr><td style='width:36%'><b>" + esc(ZAKL_PL[x.nazwa] || x.nazwa) + "</b></td><td style='width:13%'>" + kratki(x.kratki || 0, x.zaznaczone) + "</td><td class='malo'>" + esc(o) + "</td></tr>"; }).join("") + "</tbody></table>";
   });
   var mg = (p.haczyki_mg || p.notatki_mg) ? '<div class="mgnotatki" hidden><h2>Notatki MG (nie do druku dla gracza)</h2>' + (p.haczyki_mg ? "<b>Haczyki:</b><ul>" + p.haczyki_mg.map(function (x) { return "<li>" + esc(x) + "</li>"; }).join("") + "</ul>" : "") + (p.notatki_mg ? "<b>Do potwierdzenia:</b><ul>" + p.notatki_mg.map(function (x) { return "<li>" + esc(x) + "</li>"; }).join("") + "</ul>" : "") + "</div>" : "";
-  var pdf = !window.BEZ_PDF && p.id && /^gracz\./.test(p.id) ? '<a href="pdf/karta-' + esc(p.id.replace("gracz.", "")) + '.pdf" download><button>Pobierz PDF (3 strony A4)</button></a> ' : "";
+  var pdf = !window.BEZ_PDF && p.id && /^gracz\./.test(p.id) && !(p.wersja === 1) ? '<a href="pdf/karta-' + esc(p.id.replace("gracz.", "")) + '.pdf" download><button>Pobierz PDF (3 strony A4)</button></a> ' : "";
 
   app.innerHTML = '<div class="karta-nawig"><a href="#/postacie"><button>← Postacie</button></a>' + pdf + '<button id="druk">Drukuj / zapisz jako PDF</button><a href="#/sciaga"><button>Ściąga dla graczy</button></a>' + (mg ? '<button id="pokaz-mg">Pokaż/ukryj notatki MG</button>' : "") + '</div>' +
     '<div class="karta"><div class="strona">' +
@@ -86,11 +86,11 @@ window.renderKarta = function (app, p, tlum) {
     "<h2>Zdrowie: zaznaczaj kółka od lewej, ołówkiem</h2>" + zdr +
     "<h2>Charakter i sekret</h2><div><b>Charakter:</b> " + esc(p.charakter || "") + "</div><div><b>Sekret:</b> " + esc(p.sekret || "") + "</div>" +
     "<div><b>Osoba, na której zależy:</b> " + esc(p.osoba_bliska || "") + "</div><div><b>Wakacje 1969:</b> " + esc(p.wakacje_1969 || "") + "</div>" +
-    "</div><div class='strona'><h1>" + esc(p.imie) + " · zaklęcia i eliksiry</h1><div class='malo'>Wszystkie wpisane pozycje są opanowane (Mastered): wszystkie kratki zaznaczone. Zaklęcie Tempus poznacie na lekcji w trakcie gry.</div>" +
+    "</div><div class='strona'><h1>" + esc(p.imie) + " · zaklęcia i eliksiry</h1><div class='malo'>Pozycje z pełnymi kratkami są opanowane (Mastered); puste kratki przy nowo poznanych zaklęciach to nauka w toku. Zaklęcie Tempus poznacie na lekcji w trakcie gry.</div>" +
     zakl + "</div><div class='strona'><h1>" + esc(p.imie) + " · ekwipunek, nagrody, notatki</h1>" +
     "<h2>Podstawowy ekwipunek ucznia 6. roku</h2><div class='ekw'>" + EKWIPUNEK.map(function (e) { return "<div><span class='pudelko'></span> " + esc(e) + "</div>"; }).join("") + "</div>" +
-    "<h2>Dodatkowe przedmioty</h2>" + lin(4) +
-    "<h2>Nagrody (wpisuje Mistrz Gry)</h2>" + lin(3) +
+    "<h2>Dodatkowe przedmioty</h2>" + (p.przedmioty_mg || []).map(function (x) { return "<div>• <b>" + esc(x.nazwa) + "</b>" + (x.opis ? ": " + esc(x.opis) : "") + "</div>"; }).join("") + lin(Math.max(1, 4 - (p.przedmioty_mg || []).length)) +
+    "<h2>Nagrody (wpisuje Mistrz Gry)</h2>" + (p.nagrody_mg || []).map(function (x) { return "<div>• " + esc(x.opis) + (x.sp ? " (+" + x.sp + " Story Points)" : "") + "</div>"; }).join("") + lin(Math.max(1, 3 - (p.nagrody_mg || []).length)) +
     "<h2>Wspólny sekret z 4. roku</h2>" + lin(4) +
     "<h2>Notatki</h2>" + lin(11) + "</div></div>" + mg;
   document.getElementById("druk").onclick = function () { window.print(); };

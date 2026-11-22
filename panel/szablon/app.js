@@ -89,6 +89,7 @@ function trasa() {
   if (cz === "wedrowki") return wedrowki();
   if (cz === "postacie") return postacie();
   if (cz === "postac") return karta(h[1]);
+  if (cz === "gracze") return gracze(h[1], h[2]);
   if (cz === "zasady") return zasady();
   if (cz === "ksiega") return window.renderKsiega(app, { szukaj: h[1] || "" });
   if (cz === "sciaga") return window.renderSciaga(app);
@@ -112,7 +113,7 @@ function ekranStart() {
   app.innerHTML = '<div class="start"><h1>Godzina, której nie było</h1><div class="podtytul">Hogwart, jesień 1969. Panel Mistrza Gry, Scenariusz 1.</div>' +
     '<div class="rzad"><button id="rozpocznij" class="glowny">ROZPOCZNIJ SESJĘ</button>' + wznow + "</div>" +
     '<label><input type="checkbox" id="bez-prologu"> Zacznij od sceny 01 (bez prologu na Pokątnej)</label>' +
-    '<div class="rzad"><a class="kafel" href="#/postacie"><strong>Postacie graczy</strong><small>karty do wydruku</small></a>' +
+    '<div class="rzad"><a class="kafel" href="#/gracze"><strong>Karty graczy</strong><small>na żywo: zdrowie, rzuty, rozwój</small></a><a class="kafel" href="#/postacie"><strong>Postacie graczy</strong><small>karty do wydruku</small></a>' +
     '<a class="kafel" href="#/sciaga"><strong>Ściąga dla graczy</strong><small>jak czytać kartę, do PDF</small></a><a class="kafel" href="#/kreator"><strong>Tworzenie postaci</strong><small>szybka i pełna ścieżka</small></a>' +
     '<a class="kafel" href="#/ksiega"><strong>Księga zaklęć</strong><small>opisy, trudności, czas trwania</small></a><a class="kafel" href="#/zasady"><strong>Zasady i kanon</strong><small>przeglądanie i szukanie</small></a>' +
     '<a class="kafel" href="#/wedrowki"><strong>Wędrówki po zamku</strong><small>spotkania A–P</small></a><a class="kafel" href="#/starcie"><strong>Panel starcia</strong><small>pojedynki, pokazy, testy przeciwne</small></a></div>' +
@@ -263,7 +264,7 @@ function wedrowki() {
 
 /* ---------- menu, flagi, szukaj ---------- */
 function menu() {
-  var h = "<p><a href='#/'><button>Ekran startowy</button></a> <a href='#/postacie'><button>Postacie graczy</button></a> <a href='#/kreator'><button>Tworzenie postaci</button></a> <a href='#/ksiega'><button>Księga zaklęć</button></a> <a href='#/zasady'><button>Zasady i kanon</button></a> <a href='#/wedrowki'><button>Wędrówki po zamku</button></a> <a href='#/starcie'><button>Panel starcia</button></a></p>";
+  var h = "<p><a href='#/'><button>Ekran startowy</button></a> <a href='#/gracze'><button>Karty graczy</button></a> <a href='#/postacie'><button>Postacie graczy</button></a> <a href='#/kreator'><button>Tworzenie postaci</button></a> <a href='#/ksiega'><button>Księga zaklęć</button></a> <a href='#/zasady'><button>Zasady i kanon</button></a> <a href='#/wedrowki'><button>Wędrówki po zamku</button></a> <a href='#/starcie'><button>Panel starcia</button></a></p>";
   h += "<h4>Sceny</h4><div class='siatka'>" + GLOWNE.map(function (s) {
     return '<a class="kafel" href="#/scena/' + s.id + '/0"><strong>' + (numerSceny(s) === "11" ? "Prolog" : "Scena " + numerSceny(s)) + "</strong><br>" + esc(s.tytul.replace(/^Prolog:\s*/, "")) + "</a>";
   }).join("") + "</div>";
@@ -370,7 +371,7 @@ function postacie() {
   var lista = Object.keys(D.postacie).filter(function (k) { return k !== "_slownik"; }).map(function (k) { return D.postacie[k]; });
   app.innerHTML = '<div class="start" style="margin-top:2vh"><h1>Postacie graczy</h1><div class="podtytul">Karta do wydruku po polsku (Ctrl+P w przeglądarce).</div><div class="siatka">' +
     (lista.length ? lista.map(function (p) { return '<a class="kafel" href="#/postac/' + esc(p.id) + '"><strong>' + esc(p.imie) + "</strong>" + esc(p.dom) + ", " + esc(p.rok) + ". rok<small>" + esc(p.archetyp || "") + "</small></a>"; }).join("") : "<p class='puste'>Brak zapisanych postaci. Użyj kreatora.</p>") +
-    '</div><p><a href="#/kreator"><button class="glowny">Stwórz nową postać</button></a> <a href="#/sciaga"><button>Ściąga dla graczy (PDF)</button></a></p><p class="puste">PDF-y do pobrania: <a href="pdf/sciaga-dla-graczy.pdf" download>ściąga</a>, ' + lista.map(function (p) { return '<a href="pdf/karta-' + esc(p.id.replace("gracz.", "")) + '.pdf" download>' + esc(p.imie) + "</a>"; }).join(", ") + ".</p>" + (S.wlasne && S.wlasne.length ? "<h3>Utworzone w przeglądarce</h3><div class='siatka'>" + S.wlasne.map(function (p, i) { return '<a class="kafel" href="#/postac/wlasna-' + i + '"><strong>' + esc(p.imie || "bez imienia") + "</strong>" + esc(p.archetyp || "") + "</a>"; }).join("") + "</div>" : "") + "</div>";
+    '</div><p><a href="#/kreator"><button class="glowny">Stwórz nową postać</button></a> <a href="#/sciaga"><button>Ściąga dla graczy (PDF)</button></a></p><p class="puste">PDF-y do pobrania: <a href="pdf/sciaga-dla-graczy.pdf" download>ściąga</a>, ' + lista.map(function (p) { return '<a href="pdf/karta-' + esc(p.id.replace("gracz.", "")) + '.pdf" download>' + esc(p.imie) + "</a>"; }).join(", ") + ".</p>" + (Object.keys(D.postacie_v1 || {}).length ? "<h3>Wersja 1 (archiwum, tylko podgląd)</h3><p class='puste'>Pierwsze karty z gotowych archetypów, sprzed opisów graczy. Obowiązują karty powyżej (wersja 2).</p><div class='siatka'>" + Object.keys(D.postacie_v1).map(function (k) { var p = D.postacie_v1[k]; return '<a class="kafel" href="#/postac/' + esc(p.id) + '"><strong>' + esc(p.imie) + " (v1)</strong>" + esc(p.archetyp || "") + "</a>"; }).join("") + "</div>" : "") + (S.wlasne && S.wlasne.length ? "<h3>Utworzone w przeglądarce</h3><div class='siatka'>" + S.wlasne.map(function (p, i) { return '<a class="kafel" href="#/postac/wlasna-' + i + '"><strong>' + esc(p.imie || "bez imienia") + "</strong>" + esc(p.archetyp || "") + "</a>"; }).join("") + "</div>" : "") + "</div>";
 }
 var SL = null;
 function tlum(nazwa) {
@@ -389,8 +390,15 @@ function tlum(nazwa) {
   if (!nazwa) return "";
   return SL[nazwa] || SL[nazwa.charAt(0).toUpperCase() + nazwa.slice(1)] || "";
 }
+function gracze(slug, zakladka) {
+  var lista = Object.keys(D.postacie).filter(function (k) { return k !== "_slownik"; }).map(function (k) { return D.postacie[k]; });
+  var poz = S.pozycja, wr = poz && scena(poz.scena) ? '<p><a href="#/scena/' + poz.scena + "/" + poz.krok + '"><button>← Wróć do sceny</button></a></p>' : "";
+  app.innerHTML = wr + '<div id="gracz-el"></div>';
+  window.renderGracz(document.getElementById("gracz-el"), { lista: lista, slug: slug || S.ostatniGracz, zakladka: zakladka });
+  if (slug) { S.ostatniGracz = slug; zapisz(S); }
+}
 function karta(id) {
-  var p = D.postacie[id];
+  var p = D.postacie[id] || (D.postacie_v1 || {})[id];
   if (!p && /^wlasna-/.test(id)) p = (S.wlasne || [])[parseInt(id.split("-")[1], 10)];
   if (!p) { app.innerHTML = "<p>Nie ma takiej postaci.</p>"; return; }
   window.renderKarta(app, p, tlum);
