@@ -289,18 +289,17 @@ dialog:
   ton: "zgrzytliwy szept, który nagle przechodzi w krzyk; mięknie, gdy ktoś słucha jego skarg"
   kwestie:
     - "Otwarcie: „Ręce od szybki. Zegar jak zegar. To wieża się boczy, a dzwony za nią.” (stuka kostką palca w szkło)"
-    - "Gdy postać pyta, od kiedy zegar się spóźnia: „Od dwóch tygodni. Nastawiam rano, a w południe znowu w tyle. Jakby go ktoś ciągnął.”"
+    - "Gdy pytają, od kiedy zegar się spóźnia: „Od dwóch tygodni. Nastawiam rano, a w południe znowu w tyle. Jakby go ktoś ciągnął.”"
     - "Gdy postać jest uprzejma i słucha jego narzekań (np. pyta, ile ma roboty): „Mnie nikt nie pyta. Ja tylko sprzątam, jak się popsuje.” (ścisza głos) „Zegarmistrz był w czwartek. Znowu. A ona dalej się spóźnia.”"
-    - "Gdy postać dopytuje o zegarmistrza: „Z Pokątnej. Niski, wąsaty, śmierdzi olejem i miętą. Idzie prosto na wieżę i siedzi tam do zmroku.” (wyjmuje zeszyt) „Wpisuję go. Ja wszystkich wpisuję.”"
-    - "Gdy postać pyta, kto konserwuje zegar w Sali: (pokazuje palcem mosiężną plakietkę pod tarczą) „Tam pisze. Czytać umiecie.”"
-    - "Wariant, gdy postacie widziały już plakietkę w wieży (flaga.plakietka-crake) i mówią „Crake”: „No, Crake. I co z tego? Ma klucze od dyrektora, nie ode mnie.”"
+    - "Gdy dopytują o zegarmistrza: „Z Pokątnej. Niski, wąsaty, śmierdzi olejem i miętą. Idzie prosto na wieżę i siedzi tam do zmroku.” (wyjmuje zeszyt) „Wpisuję go. Ja wszystkich wpisuję.”"
+    - "Gdy postać rzuca przy nim Tempus: (patrzy na cyfry dłużej, niż powinien, i szybko odwraca wzrok) „No i co wam wyszło? Pięć? Mówiłem. Wieża.”"
+    - "Gdy pytają, kto konserwuje zegar w Sali, albo mówią nazwisko Crake z plakietki, którą widzieli w wieży: (pokazuje palcem mosiężną plakietkę pod tarczą) „Tam pisze. Czytać umiecie.” (jeśli sami mówią Crake:) „No, Crake. I co z tego? Ma klucze od dyrektora, nie ode mnie.”"
     - "Gdy postać naciska albo rozkazuje: „Nazwiska. Domy. Teraz.” (zapisuje w zeszycie i odwraca się do zegara; więcej nic nie powie)"
     - "Gdy postać kłamie, że nauczyciel kazał jej sprawdzić zegar: „Który profesor? To pójdę i zapytam.” (zapisuje nazwisko postaci; jeśli kłamstwo się nie trzyma, wieczorem ktoś z kadry pyta postać, co robiła przy zegarze)"
-    - "Gdy postać rzuca przy nim Tempus: (patrzy na cyfry dłużej, niż powinien, i szybko odwraca wzrok) „No i co wam wyszło? Pięć? Mówiłem. Wieża.”"
     - "Gdy ktoś przy nim kpi z ludzi bez magii albo pyta, czemu sam nie rzuci zaklęcia: (cisza, potem szeptem) „Zapamiętam pana. Na cały rok zapamiętam.” (od tej chwili ta postać nie dostanie od niego nic; na nocnym obchodzie w scenie 09 poznaje ją pierwszą)"
-    - "Nieprzewidziane (postać otwiera skrzynkę zegara, wspina się na niego albo przestawia wskazówki): „ZŁAŹ! To jest zabytek! Nazwisko!” (wpis do zeszytu i punkty ujemne dla domu postaci; zegar i tak spóźnia się dalej)"
+    - "Nieprzewidziane: (gdy postać otwiera skrzynkę zegara, wspina się na niego albo przestawia wskazówki) „ZŁAŹ! To jest zabytek! Nazwisko!” (wpis do zeszytu i punkty ujemne dla domu postaci; zegar i tak spóźnia się dalej)"
     - "Może zdradzić bez warunku: że zegar spóźnia się od dwóch tygodni i że jego zdaniem winna jest wieża."
-    - "Może zdradzić, gdy ktoś go cierpliwie wysłucha: że zegarmistrz z Pokątnej był w czwartek, bywa często i chodzi prosto na wieżę (W8.3)."
+    - "Może zdradzić, gdy ktoś go cierpliwie wysłucha: że zegarmistrz z Pokątnej był w czwartek, bywa często i chodzi prosto na wieżę. To ziarno na Sesję 2, nie podkreślaj go."
     - "Nie zdradza: niczego o sobie (że jest charłakiem). Nie wie, co zegarmistrz robi w wieży."
   wariant_od: [flaga.plakietka-crake]
 ```
@@ -318,14 +317,14 @@ dialog:
   kwestie:
     - "Otwarcie: „Sprawdziłam. Mam to na kartce. Czwartek, trzecie pytanie, i od razu dzwonek.” (rozwija pogniecioną kartkę: czwartek 18 września, sprawdzian zaczął się o jedenastej)"
     - "Gdy postać jest uprzejma i pyta, co dokładnie się stało: „Pisałam trzecie pytanie. Pisałam! A potem wszyscy wstają, a ja mam pół strony i kwadrans mniej.”"
-    - "Gdy postać pyta, czy ktoś był obok albo czy widziała Ślizgona z zegarkiem: „Nie wiem. Ja pisałam. Ja zawsze patrzę w kartkę.” (spuszcza głowę, jakby to była jej wina)"
-    - "Gdy postać pyta o ducha Puchona: „Na schodach przy kuchni. Mały, w naszym krawacie. Odwróciłam się i nie było.” (ciszej) „Wy też go widzicie, prawda?”"
-    - "Gdy postać mówi, że to nic takiego, że każdemu się zdarza: „Profesor Sprout też tak mówi. Ale to nie jest nic.” (chowa kartkę z powrotem)"
-    - "Gdy postać pyta przy jej koleżankach albo przy innych uczniach: „Nic mi nie jest. Naprawdę.” (odchodzi; po chwili czeka sama przy drzwiach, jakby chciała coś dodać)"
-    - "Gdy postać kpi albo naciska: „Wiedziałam, że się będziecie śmiać.” (odchodzi; daty tego dnia już nie poda, chyba że inna postać ją przeprosi)"
+    - "Gdy pytają, czy ktoś był obok albo czy widziała Ślizgona z zegarkiem: „Nie wiem. Ja pisałam. Ja zawsze patrzę w kartkę.” (spuszcza głowę, jakby to była jej wina)"
     - "Gdy postać mówi jej, że inni też stracili czas: (pierwszy raz podnosi głowę) „Czyli to nie ja? Czyli ze mną wszystko dobrze?”"
-    - "Wariant, gdy zegarek Cassiana został już zniszczony (flaga.zegarek-cassiana): (oczy jej błyszczą) „Przypomniało mi się trzecie pytanie. I odpowiedź. Całe.”"
-    - "Nieprzewidziane (postać rzuca Tempus nad jej zegarkiem albo obiecuje odzyskać jej kwadrans): „Mój zegarek się nie spóźnia. To ja się spóźniam.” (patrzy na postać, jakby bała się uwierzyć) „Da się to oddać?”"
+    - "Gdy pytają przy jej koleżankach albo przy innych uczniach: „Nic mi nie jest. Naprawdę.” (odchodzi; po chwili czeka sama przy drzwiach, jakby chciała coś dodać)"
+    - "Gdy postać mówi, że to nic takiego, że każdemu się zdarza: „Profesor Sprout też tak mówi. Ale to nie jest nic.” (chowa kartkę z powrotem)"
+    - "Gdy postać kpi albo naciska: „Wiedziałam, że się będziecie śmiać.” (odchodzi; daty tego dnia już nie poda, chyba że inna postać ją przeprosi)"
+    - "Gdy pytają o ducha Puchona: „Na schodach przy kuchni. Mały, w naszym krawacie. Odwróciłam się i nie było.” (ciszej) „Wy też go widzicie, prawda?”"
+    - "Gdy rozmawiają z nią już po zniszczeniu zegarka Cassiana: (oczy jej błyszczą) „Przypomniało mi się trzecie pytanie. I odpowiedź. Całe.”"
+    - "Nieprzewidziane: (gdy postać rzuca Tempus nad jej zegarkiem albo obiecuje odzyskać jej kwadrans) „Mój zegarek się nie spóźnia. To ja się spóźniam.” (patrzy na postać, jakby bała się uwierzyć) „Da się to oddać?”"
     - "Może zdradzić bez warunku: że „brakuje jej kawałka” i że widziała ducha Puchona."
     - "Może zdradzić na osobności, gdy postać traktuje ją poważnie: kartkę z datą i godziną (czwartek 18 września, około jedenastej, kwadrans)."
     - "Nie zdradza: niczego przy świadkach. Nie wie, gdzie był wtedy Cassian i nie łączy swojej straty z nikim."
@@ -344,19 +343,17 @@ dialog:
   ton: "rzeczowy, trochę wyniosły, z liczbami; najpierw kalendarzyk, potem odpowiedź"
   kwestie:
     - "Otwarcie: „Czternasta dwanaście. Potem piętnasta jedenaście. Pięćdziesiąt dziewięć minut, nie godzina. Proszę być dokładnym.”"
-    - "Gdy postać pyta rzeczowo, kiedy i gdzie: „Wtorek, szesnasty września. Korytarz przy lochach Eliksirów, trzeci kandelabr od schodów.” (stuka ołówkiem w kalendarzyk) „Wasza kolej. Co macie?”"
-    - "Gdy postacie pokazują mapę dryfu: (pochyla się, poprawia okulary) „Spóźnienia rosną na zachód. Monotonicznie. To ładne dane.” (po raz pierwszy prawie się uśmiecha)"
-    - "Wariant, gdy na mapie są drżące odczyty w lochach (flaga.slad-ukaszen): „Drżenie na moim korytarzu. To nie przypadek, to korelacja.” (zapisuje to sobie)"
-    - "Gdy postać pyta, co się działo obok: „Za ścianą była lekcja Eliksirów szóstego roku. Slughorn kogoś głośno chwalił, słyszałem przez drzwi. Kogo, nie zapisałem.”"
-    - "Gdy postacie mają notes Tobiasa z wpisem „przed obiadem?”: „Przed obiadem? Kto to zapisał? Po obiedzie. Czternasta dwanaście. Proszę poprawić.”"
-    - "Gdy postać pyta o ducha Puchona: „Zjawisko optyczne. Mignięcie w kącie oka, żółty pas, wysokość około czterech stóp. Zapisałem, bo zapisuję wszystko.”"
-    - "Gdy postać mówi ogólnikami albo powtarza plotki: „Wróćcie z liczbami.” (wraca do książki)"
-    - "Gdy postać kłamie albo zmyśla dane: „Ta liczba nie zgadza się z tą sprzed minuty. Albo kłamiesz, albo źle liczysz. Jedno i drugie mnie nie interesuje.”"
+    - "Gdy pytają rzeczowo, kiedy i gdzie: „Wtorek, szesnasty września. Korytarz przy lochach Eliksirów, trzeci kandelabr od schodów.” (stuka ołówkiem w kalendarzyk) „Wasza kolej. Co macie?”"
+    - "Gdy pokazują mapę dryfu: (pochyla się, poprawia okulary) „Spóźnienia rosną na zachód. Monotonicznie. To ładne dane.” (po raz pierwszy prawie się uśmiecha; jeśli postacie odkryły już, że drżące odczyty prowadzą do lochów, dodaje:) „Drżenie na moim korytarzu. To nie przypadek, to korelacja.” (zapisuje to sobie)"
+    - "Gdy pytają, co się działo obok: „Za ścianą była lekcja Eliksirów szóstego roku. Slughorn kogoś głośno chwalił, słyszałem przez drzwi. Kogo, nie zapisałem.”"
+    - "Gdy pokazują notes Tobiasa, w którym przy Pratcie zapisano, że stracił czas przed obiadem: (czyta wpis „przed obiadem?”) „Przed obiadem? Kto to zapisał? Po obiedzie. Czternasta dwanaście. Proszę poprawić.”"
+    - "Gdy mówią ogólnikami, powtarzają plotki albo zmyślają dane: „Wróćcie z liczbami.” (wraca do książki; gdy złapie zmyśloną liczbę:) „Ta liczba nie zgadza się z tą sprzed minuty. Albo kłamiesz, albo źle liczysz. Jedno i drugie mnie nie interesuje.”"
     - "Gdy postać kpi: „Rozumiem. Dalsze pytania proszę kierować na piśmie.” (od tej chwili tylko na piśmie; liścik z danymi przychodzi następnego dnia)"
     - "Gdy postać łagodnie pyta, czy dobrze się czuje, albo mówi, że to nie choroba: (odkłada ołówek) „Czyli to nie jest objaw.” (chwila ciszy) „Dziękuję. To znaczy: przyjąłem do wiadomości.”"
-    - "Nieprzewidziane (postać chce pożyczyć albo zabrać kalendarzyk): „Kalendarzyka nie pożyczam. Mogę przepisać. Starannie.” (przepisuje swój wpis na kartkę, równym pismem)"
+    - "Gdy pytają o ducha Puchona: „Zjawisko optyczne. Mignięcie w kącie oka, żółty pas, wysokość około czterech stóp. Zapisałem, bo zapisuję wszystko.”"
+    - "Nieprzewidziane: (gdy postać chce pożyczyć albo zabrać kalendarzyk) „Kalendarzyka nie pożyczam. Mogę przepisać. Starannie.” (przepisuje swój wpis na kartkę, równym pismem)"
     - "Może zdradzić bez warunku: dzień i godziny swojej straty (jest z nich dumny)."
-    - "Może zdradzić za dane (pomiary, mapa, notes Tobiasa): dokładne miejsce i to, że za ścianą Slughorn kogoś chwalił."
+    - "Może zdradzić, gdy postacie same pokażą mu dane (pomiary, mapę albo notes Tobiasa): dokładne miejsce straty i to, że za ścianą Slughorn kogoś chwalił."
     - "Nie zdradza: że boi się, że to choroba (chyba że ktoś łagodnie nazwie ten strach). Nie zna nazwiska chwalonego ucznia."
   wariant_od: [flaga.slad-ukaszen]
 ```
@@ -373,16 +370,14 @@ dialog:
   ton: "bardzo szybki, pytania jedno za drugim, przerywa sam sobie; ścisza głos, gdy plotka jest „naprawdę dobra”"
   kwestie:
     - "Otwarcie: „Notes? Same głupoty, kto kiedy przysnął. No dobra, siadajcie. Który to był czwartek?”"
-    - "Gdy postacie siadają z nim nad wpisem „Puchonka z warkoczami, czwartek?”: „To Maisie Lock, trzeci rok, ta od płakania przy śniadaniu. Czwartek… osiemnasty, bo w środę lało, a w czwartek już nie.”"
-    - "Przy wpisie „Krukon od sów, przed obiadem, eliksiry?”: „Krukon od sów to Pratt, on się uczy do SUM-ów we wrześniu, słyszeliście? Wtorek, coś przy Eliksirach. Przed obiadem chyba. Głowy nie dam.”"
-    - "Przy wpisie „Ten wysoki z Gryffindoru – 2x!”: „Finch! Barnaby Finch, z grupy Vane'a. Dwa razy, mówię wam. W piątek dwunastego, bo była ryba, i w środę, jak oddawali wypracowania.”"
-    - "Gdy postać sama łączy daty z sukcesami Cassiana i mówi to na głos: (blednie, zerka na stół Ślizgonów) „Vane? Nie, posłuchajcie… stawiam knuta, że to przypadek.” (ciszej) „Tylko nie mówcie, że to ode mnie, dobra?”"
+    - "Gdy siadają z nim nad notesem i razem rozszyfrowują przezwiska: (przy wpisie „Puchonka z warkoczami, czwartek?”) „To Maisie Lock, trzeci rok, ta od płakania przy śniadaniu. Czwartek… osiemnasty, bo w środę lało, a w czwartek już nie.” (przy wpisie „Krukon od sów, przed obiadem, eliksiry?”) „Krukon od sów to Pratt, on się uczy do SUM-ów we wrześniu, słyszeliście? Wtorek, coś przy Eliksirach. Przed obiadem chyba. Głowy nie dam.” (przy wpisie „Ten wysoki z Gryffindoru – 2x!”) „Finch! Barnaby Finch, z grupy Vane'a. Dwa razy, mówię wam. W piątek dwunastego, bo była ryba, i w środę, jak oddawali wypracowania.”"
     - "Gdy postać chce notes za darmo albo na szybko: „Notes za zakład. Wygracie ze mną w gargulki, to siedzę z wami całe okienko.” (kilka knutów też działa)"
-    - "Gdy postać grozi albo wyrywa notes: (blednie, śmieje się nerwowo) „Dobra, dobra, spokojnie. Macie.” (oddaje notes i ucieka; bez niego przezwisk nikt nie rozszyfruje, a do wieczora szkoła mówi o „tym groźnym z szóstego roku”)"
+    - "Gdy postać sama łączy daty z sukcesami Cassiana i mówi to na głos: (blednie, zerka na stół Ślizgonów) „Vane? Nie, posłuchajcie… stawiam knuta, że to przypadek.” (ciszej) „Tylko nie mówcie, że to ode mnie, dobra?”"
+    - "Gdy mówią o duchu Puchona: „Stawiam knuta, że to Irytek w przebraniu. Chociaż… wszyscy, co go widzieli, są w moim notesie.” (zatrzymuje się w pół zdania, sam zaskoczony)"
     - "Gdy postać kłamie, po co jej notes: „Serio? No to trzeba było od razu mówić!” (wierzy; jutro to kłamstwo wraca do postaci jako plotka, przekręcona po swojemu)"
     - "Gdy życzliwa postać nazywa jego strach przed Ślizgonami: (długa pauza, rzadka u niego) „No. Trochę. Ale nikomu ani słowa, bo to by była najlepsza plotka tygodnia.” (od tej chwili jest wiernym sojusznikiem postaci)"
-    - "Gdy postać mówi o duchu Puchona: „Stawiam knuta, że to Irytek w przebraniu. Chociaż… wszyscy, co go widzieli, są w moim notesie.” (zatrzymuje się w pół zdania, sam zaskoczony)"
-    - "Nieprzewidziane (postać proponuje mu udział w śledztwie albo wpisuje mu do notesu własną plotkę): „Śledztwo? Prawdziwe? Wchodzę. Stawiam knuta, że rozwiążemy to do piątku.”"
+    - "Gdy postać grozi albo wyrywa notes: (blednie, śmieje się nerwowo) „Dobra, dobra, spokojnie. Macie.” (oddaje notes i ucieka; bez niego przezwisk nikt nie rozszyfruje, a do wieczora szkoła mówi o „tym groźnym z szóstego roku”)"
+    - "Nieprzewidziane: (gdy postać proponuje mu udział w śledztwie albo wpisuje mu do notesu własną plotkę) „Śledztwo? Prawdziwe? Wchodzę. Stawiam knuta, że rozwiążemy to do piątku.”"
     - "Może zdradzić bez warunku: że prowadzi notes, kto „zasnął z otwartymi oczami”, i że jest tam kilka osób."
     - "Może zdradzić, gdy postacie usiądą z nim (prawdziwe zainteresowanie, wygrany zakład albo kilka knutów): kto kryje się pod przezwiskami i przybliżone daty (z błędem przy Pratcie)."
     - "Nie zdradza: że boi się szeptów ze stołu Slytherinu (chyba że ktoś nazwie to życzliwie). Nigdy sam nie łączy dat z Cassianem."
@@ -402,24 +397,23 @@ dialog:
   kwestie:
     - "Otwarcie: „Grupa trzecia, chwileczkę. Zanim zapytam cały rok: kto z was ostatnio gubi czas?”"
     - "Gdy postacie mówią prawdę o straconej godzinie: „Czy Vane był w pobliżu?” (pauza) „Proszę nie zgadywać. Był albo nie był.”"
-    - "Gdy postacie pokazują mapę dryfu albo listę dat: (stuka dwa razy kostką palca w kartkę) „Daty, godziny, miejsca. Tak się pisze raport.” (oddaje kartkę) „To jeszcze nie dowód. To powód, żeby patrzeć uważniej.”"
-    - "Wariant, gdy Wren już podejrzewa (flaga.wren-podejrzewa): „Pan Vane podniósł oceny w dwa tygodnie. Ze wszystkiego naraz. Tak się nie da, chyba że ktoś przestał spać.”"
-    - "Wariant, gdy postacie mają listę dat (flaga.rejestr-godzin) i proszą, żeby coś z tym zrobił: „Nie oskarżam ucznia za przeczucie. Ani za listę dat.” (pauza) „Przynieście mi coś, czego nie da się podważyć.”"
-    - "Gdy postacie mówią, że czas płynie ku wieży: „Jeszcze nie wiem, co to znaczy. Wieża to sprawa profesora Flitwicka i dyrektora. Pan Vane to moja.”"
+    - "Gdy pokazują mapę dryfu albo listę dat: (stuka dwa razy kostką palca w kartkę) „Daty, godziny, miejsca. Tak się pisze raport.” (oddaje kartkę) „To jeszcze nie dowód. To powód, żeby patrzeć uważniej.” (jeśli postacie dopasowały już daty strat do sukcesów Cassiana i proszą, żeby coś z tym zrobił:) „Nie oskarżam ucznia za przeczucie. Ani za listę dat.” (pauza) „Przynieście mi coś, czego nie da się podważyć.”"
+    - "Gdy rozmawiają z nim, a on już wcześniej nabrał podejrzeń wobec Cassiana (np. po pokazie na lekcji Obrony): „Pan Vane podniósł oceny w dwa tygodnie. Ze wszystkiego naraz. Tak się nie da, chyba że ktoś przestał spać.”"
     - "Gdy postacie milczą albo zbywają pytanie: „Rozumiem. Jutro zapytam cały rok. Wtedy będzie głośniej.” (od tej chwili otwarcie obserwuje Cassiana, co go płoszy)"
+    - "Gdy mówią, że czas płynie ku wieży: „Jeszcze nie wiem, co to znaczy. Wieża to sprawa profesora Flitwicka i dyrektora. Pan Vane to moja.”"
     - "Gdy postać kłamie: (patrzy chwilę, jak na przeciwnika na macie) „Wróćcie, gdy będziecie gotowi powiedzieć mi prawdę.”"
     - "Gdy postać prosi o zgodę na Dział Ksiąg Zakazanych: „Przeciwnik zawsze mówi, co zrobi. Wy właśnie mi powiedzieliście.” (odmowa; od dziś uważniej patrzy, kto z grupy nie śpi w nocy)"
     - "Gdy postać grozi albo jest bezczelna: (długie, spokojne spojrzenie) „Szlaban u pana Filcha. Termin podam.” (tylko kolor, bez skutków w tej sesji)"
-    - "Nieprzewidziane (postać prosi o pozwolenie na pojedynek z Cassianem albo o dodatkową lekcję): „Pojedynek z panem Vane'em? Tylko na macie. I tylko przy mnie.” (ziarno formalnego pojedynku w scenie 08)"
+    - "Nieprzewidziane: (gdy postać prosi o pozwolenie na pojedynek z Cassianem albo o dodatkową lekcję) „Pojedynek z panem Vane'em? Tylko na macie. I tylko przy mnie.” (to zapowiedź formalnego pojedynku w scenie 08)"
     - "Może zdradzić bez warunku: że kilka osób z różnych lat zgłaszało zgubiony czas profesorowi Flitwickowi."
-    - "Może zdradzić, gdy już podejrzewa albo gdy postacie powiedzą prawdę: swój konkret o ocenach Vane'a."
+    - "Może zdradzić, gdy sam już coś podejrzewa albo gdy postacie powiedzą mu prawdę o straconej godzinie: to, co zauważył w ocenach Vane'a (podniósł je ze wszystkiego naraz w dwa tygodnie). Wcześniej tylko pyta, czy Vane był w pobliżu."
     - "Nie zdradza: oskarżenia bez dowodu ani niczego o swojej służbie w Biurze Aurorów. Nie zabierze Cassianowi zegarka na podstawie listy dat."
   wariant_od: [flaga.wren-podejrzewa, flaga.rejestr-godzin, flaga.s1-zegar-kradziezy]
 ```
 
 ### Ansel: towarzysz pomiaru
 
-Ansel idzie z postacią, która pierwsza zwróciła się do Ansela po imieniu na jeden pomiar (stopień 3, towarzyszenie). Gada o drobiazgach i liczy stopnie, a dwie jego kwestie są wskazówkami: przy wieży czuje ciągnięcie (W3.4), w lochach czuje, że „ktoś tu ciągle stoi” (wzmocnienie śladu do lochów). Nie tłumacz graczom ani jednego, ani drugiego.
+Na jeden pomiar Ansel idzie z postacią, która pierwsza zwróciła się do niego po imieniu. Gada o drobiazgach i liczy stopnie, a dwie jego kwestie są wskazówkami: przy wieży czuje ciągnięcie (to podpowiedź, że czas płynie ku wieży), w lochach czuje, że „ktoś tu ciągle stoi” (to wzmacnia ślad do lochów). Nie tłumacz graczom ani jednego, ani drugiego.
 
 ```yaml
 dialog:
@@ -429,17 +423,15 @@ dialog:
   ton: "szybki, jednym tchem, ciepły; cichnie przy wieży i w lochach"
   kwestie:
     - "Otwarcie: „Przepraszam… pan coś mierzy? Mogę iść z panem? Ja umiem liczyć stopnie.”"
-    - "Po drodze, na schodach: „Czternaście, piętnaście… Te schody wczoraj miały mniej. One się chyba przesuwają, jak nikt nie patrzy.”"
-    - "Gdy postać rzuca Tempus, a dym przy nim się rozmywa: (dmucha w dym, który znika) „Ojej. Przepraszam. Chyba to przeze mnie.”"
-    - "Gdy postać podaje mu godzinę z pomiaru: „A wieża mówi co innego. Która jest prawdziwa?” (powtarza obie szeptem, jak coś do zapamiętania)"
-    - "Na początku krytego mostu (po tekście 4), gdy postać go namawia: „Nie. Proszę nie. Tam jest dzwon.”"
-    - "Gdy postać pyta, czemu nie chce iść: „Nie wiem. Ciągnie mnie tam, jakby ktoś trzymał za rękaw. I właśnie dlatego nie chcę.”"
+    - "Otwarcie, przy śniadaniu (tekst 5), nad półmiskiem: (wciąga zapach z zamkniętymi oczami) „Kiełbaski. U nas w domu są tylko w niedzielę.”"
+    - "Gdy idą z nim po schodach: „Czternaście, piętnaście… Te schody wczoraj miały mniej. One się chyba przesuwają, jak nikt nie patrzy.”"
+    - "Gdy postać rzuca przy nim Tempus albo podaje mu godzinę z pomiaru: (jeśli dym przy nim się rozmywa, dmucha w niego i dym znika) „Ojej. Przepraszam. Chyba to przeze mnie.” (gdy słyszy godzinę:) „A wieża mówi co innego. Która jest prawdziwa?” (powtarza obie szeptem, jak coś do zapamiętania)"
+    - "Gdy na początku krytego mostu (po tekście 4) namawiają go, żeby szedł dalej: „Nie. Proszę nie. Tam jest dzwon.” (gdy pytają, czemu nie chce:) „Nie wiem. Ciągnie mnie tam, jakby ktoś trzymał za rękaw. I właśnie dlatego nie chcę.”"
     - "Gdy postać wraca z mostu albo z krużganka: „Długo pana nie było. Dzwon nie bił. To dobrze.”"
-    - "W lochach, przy wnęce ze stojącym zegarem: (przysuwa się do postaci) „Tu jest zimno. I tak, jakby ktoś tu ciągle stał. Tylko nikogo nie ma.”"
-    - "Przy śniadaniu (tekst 5), nad półmiskiem: (wciąga zapach z zamkniętymi oczami) „Kiełbaski. U nas w domu są tylko w niedzielę.”"
-    - "Wariant, gdy zegar kradzieży doszedł do 2 (flaga.s1-zegar-kradziezy): (patrzy na swoje dłonie, brzegi postaci lekko się strzępią) „Dzisiaj jestem jakiś cienki. Jak papier pod światło.”"
-    - "Gdy postać okłamuje go, żeby go uspokoić (np. „na wieży nic nie ma”): „Naprawdę? To dobrze.” (wierzy; MG notuje kłamstwo przy tej postaci, jak w scenie 05)"
-    - "Nieprzewidziane (postać próbuje go wciągnąć na most albo chwycić za rękę): (ręka przechodzi na wylot; Ansel krzyczy krótko i znika; wraca przy następnym pomiarze, cichszy) „Ja tu poczekam. Dobrze?”"
+    - "Gdy schodzą z nim do lochów, do wnęki ze stojącym zegarem: (przysuwa się do postaci) „Tu jest zimno. I tak, jakby ktoś tu ciągle stał. Tylko nikogo nie ma.”"
+    - "Gdy postać okłamuje go, żeby go uspokoić (np. że na wieży nic nie ma): „Naprawdę? To dobrze.” (wierzy; zanotuj kłamstwo przy tej postaci, jak w scenie 05: gdy wyjdzie na jaw, Więź −1)"
+    - "Gdy spotykają go, a Zegar kradzieży stoi już na 2 (Cassian podebrał czas co najmniej dwa razy): (patrzy na swoje dłonie, brzegi postaci lekko się strzępią) „Dzisiaj jestem jakiś cienki. Jak papier pod światło.”"
+    - "Nieprzewidziane: (gdy postać próbuje go wciągnąć na most albo chwycić za rękę; ręka przechodzi na wylot, Ansel krzyczy krótko i znika, a wraca przy następnym pomiarze, cichszy) „Ja tu poczekam. Dobrze?”"
     - "Może zdradzić bez warunku: że przy wieży „ciągnie” i że boi się dzwonu."
     - "Może zdradzić w lochach, gdy postać zostaje z nim chwilę: że „ktoś tu ciągle stoi”."
     - "Nie zdradza: dlaczego boi się wieży (nie wie). Nie mówi „duch” ani „umarłem”."
@@ -448,7 +440,7 @@ dialog:
 
 ### Flitwick: „Pochylają się w jedną stronę”
 
-Flitwick nie jest w rytmie sceny; pojawia się, gdy postacie same go szukają, i w ścieżce `awaryjne-bez-pomiarow` (wtedy jego kwestia o błędach to gotowa wskazówka W3). Przy drżących odczytach i zgubionych godzinach poważnieje i kieruje do Wrena, a przy okazji podsuwa nazwisko Pratta.
+Flitwick nie jest w rytmie sceny; pojawia się, gdy postacie same go szukają, i w ścieżce awaryjnej, gdy pomiary nie wyszły (wtedy jego kwestia o błędach sama podsuwa wskazówkę, że czas płynie na zachód, ku wieży). Przy drżących odczytach i zgubionych godzinach poważnieje i kieruje do Wrena, a przy okazji podsuwa nazwisko Pratta.
 
 ```yaml
 dialog:
@@ -458,15 +450,15 @@ dialog:
   ton: "piskliwy, szybki, radosny; przy magii czasu nagle poważny i ściszony"
   kwestie:
     - "Otwarcie: „Ach, moi badacze dryfu! Pokażcie, pokażcie, co wam wyszło.” (staje na palcach, żeby zajrzeć w kartkę)"
-    - "Gdy postacie pokazują pomiary albo mapę: „Proszę spojrzeć: wszystkie wasze błędy pochylają się w jedną stronę. Na zachód.” (zerka w okno, ku wieży) „Ciekawe. Bardzo ciekawe.”"
-    - "Gdy postacie nie mają pomiarów albo im nie wyszły (ścieżka awaryjna): „Nie szkodzi! Mam tu prace całego roku.” (przerzuca kartki) „Wszystkie błędy pochylają się w jedną stronę. Na zachód.”"
-    - "Gdy postacie mówią o drżących odczytach: (poważnieje, zniża głos) „Zegar drży, kiedy ktoś go szarpie. Z czasem się nie żartuje, panie i panowie.”"
-    - "Gdy postacie pytają o zgubione godziny: „Już trzecie zgłoszenie w tym tygodniu. Pan Pratt z piątego roku przysłał mi skargę na trzech stronach.” (poważnie) „Jeśli ktoś bawi się czasem, to nie jest zabawa. Proszę iść z tym do profesora Wrena.”"
-    - "Gdy postacie pytają o wieżę: „Boczy się od dwóch tygodni. Zegarmistrz twierdzi, że wszystko w porządku.” (pauza) „Zegarmistrz zapewne wie lepiej.”"
+    - "Gdy pokazują pomiary albo mapę: „Proszę spojrzeć: wszystkie wasze błędy pochylają się w jedną stronę. Na zachód.” (zerka w okno, ku wieży) „Ciekawe. Bardzo ciekawe.”"
+    - "Gdy nie mają pomiarów albo pomiary im nie wyszły: „Nie szkodzi! Mam tu prace całego roku.” (przerzuca kartki) „Wszystkie błędy pochylają się w jedną stronę. Na zachód.”"
+    - "Gdy pytają o zgubione godziny: „Już trzecie zgłoszenie w tym tygodniu. Pan Pratt z piątego roku przysłał mi skargę na trzech stronach.” (poważnie) „Jeśli ktoś bawi się czasem, to nie jest zabawa. Proszę iść z tym do profesora Wrena.”"
+    - "Gdy mówią o drżących odczytach: (poważnieje, zniża głos) „Zegar drży, kiedy ktoś go szarpie. Z czasem się nie żartuje, panie i panowie.”"
+    - "Gdy pytają o wieżę: „Boczy się od dwóch tygodni. Zegarmistrz twierdzi, że wszystko w porządku.” (pauza) „Zegarmistrz zapewne wie lepiej.”"
+    - "Gdy przy nim jest postać, która opanowała Tempus: „Panno, panie [nazwisko], proszę pokazać koledze, jak to się robi. Nadgarstek, nadgarstek!”"
     - "Gdy postać prosi o przepustkę do Działu Ksiąg Zakazanych: „Nie na ten temat, moi drodzy. Z czasem się nie żartuje.” (uprzejmie i bez kary)"
     - "Gdy postać kłamie: „Oczywiście, oczywiście.” (uśmiecha się, ale przestaje opowiadać ciekawostki)"
-    - "Wariant, gdy postać opanowała Tempus na korepetycjach (flaga.tempus-opanowane): „Panno, panie [nazwisko], proszę pokazać koledze, jak to się robi. Nadgarstek, nadgarstek!”"
-    - "Nieprzewidziane (postać rzuca przy nim Tempus i coś idzie źle): „Prawie! Nadgarstek luźniej i jeszcze raz.” (klaszcze, nawet gdy dym wyjdzie krzywo)"
+    - "Nieprzewidziane: (gdy postać rzuca przy nim Tempus i coś idzie źle) „Prawie! Nadgarstek luźniej i jeszcze raz.” (klaszcze, nawet gdy dym wyjdzie krzywo)"
     - "Może zdradzić bez warunku: że błędy pochylają się na zachód, że wieża boczy się od dwóch tygodni."
     - "Może zdradzić, gdy postacie pytają o zgubione godziny: że zgłoszeń jest więcej i że pan Pratt złożył skargę."
     - "Nie zdradza: teorii magii czasu ani przepustki do Działu Ksiąg Zakazanych."

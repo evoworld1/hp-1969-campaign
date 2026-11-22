@@ -233,22 +233,22 @@ dialog:
   ton: "grzeczny, cichy, z pauzą przed pytaniem; szybciej, gdy ktoś odpowie"
   kwestie:
     - "Otwarcie: „Przepraszam… czy pan wie, która jest godzina? Pani profesor Marrow kazała mi czekać przy schodach i chyba czekam już bardzo długo.”"
-    - "Gdy postać podaje godzinę: „Dziękuję! Dziękuję bardzo.” (powtarza ją szeptem, jak coś do zapamiętania) „To chyba długo, prawda? Pani profesor mówiła, że zaraz wróci.”"
-    - "Gdy dwie postacie podają różne godziny (np. zegarek po stracie spóźnia się o godzinę): (patrzy z jednej na drugą) „To… która jest prawdziwa? Bo ja już nie wiem. U mnie zawsze jest trochę później, niż myślę.”"
-    - "Gdy postać pyta, kim jest: „Ansel. Ansel Dray. Pierwszy rok, Hufflepuff.” (pokazuje krawat, jakby to był dowód) „A pan?”"
-    - "Gdy postać pyta, od kiedy czeka: „Od… od rana? Od wczoraj?” (marszczy brwi) „Ja dużo czekam. Ale pani profesor kazała, to czekam.”"
-    - "Gdy postać pyta, który jest rok, albo mówi mu, że jest 1969: (śmieje się niepewnie) „Pan żartuje. To byłbym już stary jak mój tata.” (milknie, liczy coś na palcach, przestaje) „Pan żartuje, prawda?”"
-    - "Gdy postać zbywa go albo mówi, że nie wie: „Nic nie szkodzi. Przepraszam, że przeszkadzam.” (siada z powrotem; po chwili pyta następną postać)"
-    - "Gdy postać kpi albo go przegania: zob. blok s1.scena.05.dialog.ansel-sploszony."
-    - "Nieprzewidziane (postać rzuca zaklęcie, robi coś dziwnego, wyciąga różdżkę na powitanie): (oczy jak spodki) „Ojej. Jeszcze raz? Proszę. Ja umiem dopiero Lumos, i to nie zawsze.”"
+    - "Gdy postać podaje mu godzinę: „Dziękuję! Dziękuję bardzo.” (powtarza ją szeptem, jak coś do zapamiętania) „To chyba długo, prawda? Pani profesor mówiła, że zaraz wróci.”"
+    - "Gdy pytają, kim jest: „Ansel. Ansel Dray. Pierwszy rok, Hufflepuff.” (pokazuje krawat, jakby to był dowód) „A pan?”"
+    - "Gdy postać go zbywa albo mówi, że nie wie, która godzina: „Nic nie szkodzi. Przepraszam, że przeszkadzam.” (siada z powrotem; po chwili pyta następną postać)"
+    - "Gdy pytają, od kiedy czeka: „Od… od rana? Od wczoraj?” (marszczy brwi) „Ja dużo czekam. Ale pani profesor kazała, to czekam.”"
+    - "Gdy dwie postacie podają różne godziny (np. zegarek nieprzestawiony po stracie spóźnia się o godzinę): (patrzy z jednej na drugą) „To… która jest prawdziwa? Bo ja już nie wiem. U mnie zawsze jest trochę później, niż myślę.”"
+    - "Gdy pytają, który jest rok, albo mówią mu, że jest 1969: (śmieje się niepewnie) „Pan żartuje. To byłbym już stary jak mój tata.” (milknie, liczy coś na palcach, przestaje) „Pan żartuje, prawda?”"
+    - "Gdy postać kpi z niego albo go przegania: (Ansel przeprasza i znika; przejdź do rozmowy „Ansel spłoszony” niżej i przeczytaj tekst 6)"
+    - "Nieprzewidziane: (gdy postać rzuca zaklęcie, robi coś dziwnego albo wyciąga różdżkę na powitanie; Ansel robi oczy jak spodki) „Ojej. Jeszcze raz? Proszę. Ja umiem dopiero Lumos, i to nie zawsze.”"
     - "Może zdradzić bez warunku: swoje imię, dom, rok nauki i to, że pani profesor Marrow kazała mu czekać przy schodach."
-    - "Nie zdradza: roku, w którym jest (nie wie albo bierze to za żart), ani niczego o wieży."
+    - "Nie zdradza: roku, w którym jest (nie wie albo bierze pytanie za żart), ani niczego o wieży."
   wariant_od: []
 ```
 
 ### Ansel: „Widziałem pana w zegarze” (rozpoznanie)
 
-Blok dla trzech osobnych chwil rozpoznania: postać z odbicia w scenie 01 (`flaga.ansel-odbicie`), postać, która w scenie 03 obejrzała się i widziała mignięcie na schodach (bez flagi: MG pamięta z notatek), i gracz, który spotkał Ansela w escape roomie przed kampanią (teaser). Ansel nie pamięta teasera, ale ma wrażenie, że zna tego gracza (decyzja MG z 2026-11-20): patrzy dłużej, przechyla głowę, uśmiecha się niepewnie, nie potwierdza i nie zaprzecza.
+Rozmowa na trzy osobne chwile rozpoznania: postać, która w scenie 01 widziała chłopca w odbiciu zegara, postać, która w scenie 03 obejrzała się i widziała go mignięciem na schodach (MG pamięta to z notatek), i gracz, który spotkał Ansela w escape roomie przed kampanią. Ansel nie pamięta escape roomu, ale ma wrażenie, że zna tego gracza (decyzja MG z 2026-11-20): patrzy dłużej, przechyla głowę, uśmiecha się niepewnie, nie potwierdza i nie zaprzecza.
 
 ```yaml
 dialog:
@@ -257,15 +257,15 @@ dialog:
   wyzwalacz: "Po kwestii otwierającej, gdy przy schodach jest postać z odbicia (po tekście 2), postać z mignięcia w scenie 03 albo gracz mówi, że zna chłopca z escape roomu."
   ton: "zdziwiony i ucieszony; przy zegarach ciszej, jakby zdradzał tajemnicę"
   kwestie:
-    - "Postać z odbicia, otwarcie: „Widziałem pana w zegarze. Rano. Wszyscy w zegarach są tacy daleko.” (do dziewczyny: „Widziałem panią w zegarze…”)"
-    - "Gdy postać z odbicia pyta, co to znaczy „w zegarze”: „No… w szybce. Jak się patrzy w zegar, to czasem widać ludzi. Tylko oni nigdy się nie odwracają. A pan się odwrócił!” (cieszy się) „Pierwszy raz ktoś się odwrócił.”"
+    - "Otwarcie, do postaci, która widziała go w odbiciu zegara: „Widziałem pana w zegarze. Rano. Wszyscy w zegarach są tacy daleko.” (do dziewczyny: „Widziałem panią w zegarze…”)"
+    - "Otwarcie, do postaci, która w południe widziała go mignięciem na schodach: „Pan się wtedy obejrzał. Na tamtych schodach, w południe. Ja nie chciałem uciekać, przepraszam. Tak jakoś wyszło.”"
+    - "Gdy postać z odbicia pyta, co to znaczy, że widział ją w zegarze: „No… w szybce. Jak się patrzy w zegar, to czasem widać ludzi. Tylko oni nigdy się nie odwracają. A pan się odwrócił!” (cieszy się) „Pierwszy raz ktoś się odwrócił.”"
     - "Gdy postać z odbicia pyta, czy stał za nią: „Stałem. Tak blisko jak teraz. Ale pan patrzył na mnie przez szkło, a nie tak naprawdę. To się nie liczy, prawda?”"
-    - "Postać, która w scenie 03 widziała mignięcie na schodach: „Pan się wtedy obejrzał. Na tamtych schodach, w południe. Ja nie chciałem uciekać, przepraszam. Tak jakoś wyszło.”"
-    - "Gracz z teasera mówi, że go zna (np. z wieży): (patrzy długo, przechyla głowę) „Może. Ja dużo czekam, to dużo widzę.” (uśmiecha się niepewnie i nie mówi nic więcej)"
-    - "Gdy gracz z teasera naciska („Byłeś na wieży! Dałeś nam radę!”): (kuli ramiona) „Ja nie lubię wysoko.” (zmienia temat: pyta o godzinę albo o imię)"
-    - "Nieprzewidziane (postać przykłada do niego zegarek albo lusterko, żeby sprawdzić odbicie): (zagląda ciekawie) „Ojej, ja tam jestem? Tak malutko?” (w szkiełku widać go wyraźniej niż na żywo, ostro, jakby stał bardzo daleko)"
+    - "Gdy gracz mówi, że zna go z escape roomu przed kampanią (np. z wieży): (patrzy długo, przechyla głowę) „Może. Ja dużo czekam, to dużo widzę.” (uśmiecha się niepewnie i nie mówi nic więcej)"
+    - "Gdy ten gracz naciska, że Ansel był na wieży i dał im radę: (kuli ramiona) „Ja nie lubię wysoko.” (zmienia temat: pyta o godzinę albo o imię)"
+    - "Nieprzewidziane: (gdy postać przykłada do niego zegarek albo lusterko, żeby sprawdzić odbicie; Ansel zagląda ciekawie) „Ojej, ja tam jestem? Tak malutko?” (w szkiełku widać go wyraźniej niż na żywo, ostro, jakby stał bardzo daleko)"
     - "Może zdradzić bez warunku: że widział tę postać w zegarze albo na schodach i że ludzie w zegarach „nigdy się nie odwracają”."
-    - "Nie zdradza: niczego o teaserze (nie pamięta go) ani o tym, czemu widzi się go w szkle zegarów."
+    - "Nie zdradza: niczego o escape roomie sprzed kampanii (nie pamięta go) ani tego, czemu widać go w szkle zegarów."
   wariant_od: [flaga.ansel-odbicie]
 ```
 
@@ -281,25 +281,23 @@ dialog:
   ton: "szybki, jednym tchem, ciepły; nagłe milknięcia przy rzeczach, które się nie zgadzają"
   kwestie:
     - "Otwarcie: „Pan jest z szóstego roku? Szóstoroczni są tacy wysocy. Ja jestem w pierwszej. To jest mój pierwszy wrzesień.”"
-    - "Gdy postać przynosi coś z kuchni (bułkę, ciasto, jabłko): (pochyla się i wdycha zapach z zamkniętymi oczami) „Cynamon. Mama piecze z cynamonem.” (nie je; trzyma albo prosi, żeby postać potrzymała) „Dziękuję. Nikt mi jeszcze nic nie przyniósł.” (Więź +1)"
-    - "Gdy postać pyta o niego, o dom, o rodzinę: „Mama pisze co tydzień. Że w sklepie we wsi cukierki dalej są na kartki, więc mam oszczędzać te, co mi dała. Mam jeszcze trzy.” (klepie kieszeń; kieszeń jest pusta, ale on tego nie zauważa) „Pan ma młodsze rodzeństwo?” (Więź +1, gdy postać naprawdę słucha)"
-    - "Gdy postać przedstawia się i potem mówi do niego po imieniu: (powtarza imię postaci szeptem dwa razy, jak coś do zapamiętania) „Ja zapamiętam. Ja dobrze pamiętam imiona. Tylko godziny mi uciekają.” (Więź +1)"
-    - "Gdy postać pyta o pierwszą jesień w szkole: „Pani profesor mówi, że dziś ma być czyste niebo, to będziemy liczyć gwiazdy. Pozwala mi nosić lunetę. Ja nikomu nie mówię, bo by się śmiali, że pupilek.”"
-    - "Gdy postać pyta, co się stało, czy coś pamięta: (długo milczy) „Było wysoko. I dzwon był bardzo blisko. A potem pani profesor powiedziała: czekaj przy schodach.” (wzrusza ramionami) „To czekam.”"
-    - "Gdy postać kłamie, żeby go pocieszyć (np. „pani profesor zaraz przyjdzie”): (rozpromienia się) „Naprawdę? To dobrze. To ja poczekam jeszcze troszkę.” (MG notuje kłamstwo przy tej postaci: gdy Ansel je odkryje, Więź −1)"
-    - "Gdy postać wypytuje go jak na przesłuchaniu, szybko, pytanie za pytaniem: (kurczy się) „Ja nie wiem. Przepraszam. Ja naprawdę nie wiem.” (odwraca się do innej postaci; ta postać nie zdobywa dziś Więzi, ale kontakt się liczy)"
-    - "Gdy postać pyta, czemu widzą go tylko oni: „Inni się spieszą. Wy nie. Może dlatego?” (nie wie więcej)"
-    - "Gdy postać mówi o duchu Puchona z plotki: „Jakim duchu? Tu jest Gruby Mnich, on jest miły, tylko na mnie nie patrzy.” (rozgląda się ciekawie, jakby duch mógł być za nim)"
-    - "Gdy postać chce go zabrać do zamkowej wieży albo pyta o Wieżę Zegarową: „Nie. Proszę nie. Tam jest dzwon.” (pierwszy raz w rozmowie mówi „nie”; nie wie, czemu się boi)"
-    - "Nieprzewidziane (postać śpiewa, robi sztuczkę, rysuje mu coś, opowiada bajkę): (śmieje się na głos, pierwszy raz) „Jeszcze! Proszę, jeszcze raz!” (traktuj to jak życzliwość: Więź +1)"
+    - "Gdy pytają o niego samego, o dom, rodzinę albo pierwszą jesień w szkole: „Mama pisze co tydzień. Że w sklepie we wsi cukierki dalej są na kartki, więc mam oszczędzać te, co mi dała. Mam jeszcze trzy.” (klepie kieszeń; kieszeń jest pusta, ale on tego nie zauważa) „Pan ma młodsze rodzeństwo?” (o szkole mówi tak:) „Pani profesor mówi, że dziś ma być czyste niebo, to będziemy liczyć gwiazdy. Pozwala mi nosić lunetę. Ja nikomu nie mówię, bo by się śmiali, że pupilek.” (Więź +1, gdy postać naprawdę słucha)"
+    - "Gdy postać się przedstawia i potem mówi do niego po imieniu: (powtarza imię postaci szeptem dwa razy, jak coś do zapamiętania) „Ja zapamiętam. Ja dobrze pamiętam imiona. Tylko godziny mi uciekają.” (Więź +1)"
+    - "Gdy postać przynosi mu coś z kuchni (bułkę, ciasto, jabłko): (pochyla się i wdycha zapach z zamkniętymi oczami) „Cynamon. Mama piecze z cynamonem.” (nie je; trzyma albo prosi, żeby postać potrzymała) „Dziękuję. Nikt mi jeszcze nic nie przyniósł.” (Więź +1)"
+    - "Gdy postać wypytuje go jak na przesłuchaniu, pytanie za pytaniem: (kurczy się) „Ja nie wiem. Przepraszam. Ja naprawdę nie wiem.” (odwraca się do innej postaci; ta postać nie zdobywa dziś Więzi, ale kontakt się liczy)"
+    - "Gdy pytają, co się stało i czy coś pamięta: (długo milczy) „Było wysoko. I dzwon był bardzo blisko. A potem pani profesor powiedziała: czekaj przy schodach.” (wzrusza ramionami) „To czekam.”"
+    - "Gdy pytają, czemu widzą go tylko oni, albo wspominają plotkę o duchu Puchona: „Inni się spieszą. Wy nie. Może dlatego?” (o duchu:) „Jakim duchu? Tu jest Gruby Mnich, on jest miły, tylko na mnie nie patrzy.” (rozgląda się ciekawie, jakby duch mógł być za nim; więcej nie wie)"
+    - "Gdy postać kłamie, żeby go pocieszyć (np. że pani profesor zaraz przyjdzie): (rozpromienia się) „Naprawdę? To dobrze. To ja poczekam jeszcze troszkę.” (zanotuj kłamstwo przy tej postaci: gdy Ansel je odkryje, Więź −1)"
+    - "Gdy chcą go zabrać na wieżę albo pytają o Wieżę Zegarową: „Nie. Proszę nie. Tam jest dzwon.” (pierwszy raz w rozmowie mówi „nie”; nie wie, czemu się boi)"
+    - "Nieprzewidziane: (gdy postać śpiewa, robi sztuczkę, rysuje mu coś albo opowiada bajkę; Ansel śmieje się na głos, pierwszy raz) „Jeszcze! Proszę, jeszcze raz!” (traktuj to jak życzliwość: Więź +1)"
     - "Może zdradzić bez warunku: że jest w pierwszej klasie, że to jego pierwszy wrzesień, że pani profesor uczy o gwiazdach i pozwala mu nosić lunetę, że mama pisze o kartkach na cukierki."
-    - "Może zdradzić tylko na spokojne, ciepłe pytanie o to, co się stało: „było wysoko, dzwon był blisko”. Nic więcej: nie zna roku, nie pamięta upadku."
+    - "Może zdradzić tylko wtedy, gdy ktoś spokojnie i ciepło zapyta, co się stało: że „było wysoko, dzwon był blisko”. Nic więcej: nie zna roku i nie pamięta upadku."
   wariant_od: []
 ```
 
-### Ansel: pani profesor i szafka (wczesna droga do W7)
+### Ansel: pani profesor i szafka (pierwsza podpowiedź do gabloty)
 
-Tylko gdy ktoś pyta o panią profesor Marrow: jaka jest, gdzie jest, co robi, gdzie ma swój pokój. Powiedzonko o szafce to droga W7.3 do gabloty w pracowni (scena 09). **Nie podkreślaj go.** Niech padnie w środku ciepłego wspomnienia, tak jak dziecko powtarza dziwne powiedzenia dorosłych. Jeśli gracze je zapamiętają, w scenie 09 sami połączą je z gablotą; jeśli nie, Ansel powtórzy je przy gablocie, a są też dwie inne drogi (tabliczka i dopisek na karcie).
+Tylko gdy ktoś pyta o panią profesor Marrow: jaka jest, gdzie jest, co robi, gdzie ma swój pokój. Powiedzonko o szafce to jedna z trzech podpowiedzi, jak otworzyć gablotę w pracowni (scena 09). **Nie podkreślaj go.** Niech padnie w środku ciepłego wspomnienia, tak jak dziecko powtarza dziwne powiedzenia dorosłych. Jeśli gracze je zapamiętają, w scenie 09 sami połączą je z gablotą; jeśli nie, Ansel powtórzy je przy gablocie, a są też dwie inne drogi (tabliczka i dopisek na karcie).
 
 ```yaml
 dialog:
@@ -309,14 +307,14 @@ dialog:
   ton: "z dumą i czułością, jak o ulubionej nauczycielce; przy pytaniu, gdzie ona jest, nagle niepewnie"
   kwestie:
     - "Otwarcie: „Pani profesor Marrow? Uczy o gwiazdach. Ma zimne ręce, ale bardzo ciepły głos.”"
-    - "Gdy postać pyta, czego uczy, albo mówi, że astronomii uczy profesor Fairweather: „Nie, nie, astronomii uczy pani profesor Marrow. Ja wiem, bo noszę jej lunetę.” (marszczy brwi) „Kto to jest pani Fairweather?” (flaga.marrow-imie-znane)"
-    - "Gdy postać pyta o jej pokój albo o to, co tam jest: „Ma taki pokój, gdzie dużo zegarów i żaden nie tyka. I szafkę ze szkła. Pani profesor nigdy nic z szafki nie brała. Zawsze najpierw coś jej dawała. Mówiła, że szafka jest uczciwa: najpierw chce dostać.” (uśmiecha się do wspomnienia)"
-    - "Gdy postać dopytuje, co jej dawała: „Nie wiem. Coś małego. Nie widziałem, bo zawsze mówiła: odwróć się, Ansel, to nie dla ciebie.”"
-    - "Gdy postać pyta, gdzie jest ten pokój: „Na dole? Albo na górze?” (zakłopotany) „Nie pamiętam drogi. Pani profesor zawsze prowadziła. Ja tylko niosłem lunetę.”"
-    - "Gdy postać pyta o świecącą książkę albo o coś, czego Ansel nie powinien znać: „Tam była książka, co świeci. Nie wolno jej dotykać. Pani profesor mówiła, że ona się złości.” (więcej nie wie)"
-    - "Gdy postać pyta, gdzie jest pani profesor teraz: (długa cisza) „Ona… zaraz przyjdzie. Kazała czekać.” (patrzy na schody) „Prawda, że zaraz przyjdzie?” (nie naciskaj dalej: to boli; jeśli postać skłamie, że tak, zob. kłamstwo w bloku ansel-rozmowa)"
-    - "Gdy postać mówi mu, że Marrow już tu nie uczy albo że odeszła: (cichnie) „To pomyłka. Pani profesor nie odchodzi bez słowa.” (odwraca wzrok i liczy stopnie; Więź nie spada, ale rozmowa o niej na dziś się kończy)"
-    - "Nieprzewidziane (postać chce od razu iść szukać pani profesor): „Teraz? Ale ona kazała czekać tu…” (waha się; zob. rozgałęzienie awaryjne-szukaja-marrow)"
+    - "Gdy pytają, czego uczy, albo mówią, że astronomii uczy profesor Fairweather: „Nie, nie, astronomii uczy pani profesor Marrow. Ja wiem, bo noszę jej lunetę.” (marszczy brwi) „Kto to jest pani Fairweather?” (od teraz postacie znają imię Marrow i wiedzą, że uczyła astronomii)"
+    - "Gdy pytają, gdzie jest pani profesor teraz: (długa cisza) „Ona… zaraz przyjdzie. Kazała czekać.” (patrzy na schody) „Prawda, że zaraz przyjdzie?” (nie naciskaj dalej, to boli; jeśli postać skłamie, że tak, zanotuj to jak każde pocieszające kłamstwo: gdy wyjdzie na jaw, Więź −1)"
+    - "Gdy pytają o jej pokój albo o to, co tam jest: „Ma taki pokój, gdzie dużo zegarów i żaden nie tyka. I szafkę ze szkła. Pani profesor nigdy nic z szafki nie brała. Zawsze najpierw coś jej dawała. Mówiła, że szafka jest uczciwa: najpierw chce dostać.” (uśmiecha się do wspomnienia)"
+    - "Gdy dopytują, co dawała szafce: „Nie wiem. Coś małego. Nie widziałem, bo zawsze mówiła: odwróć się, Ansel, to nie dla ciebie.”"
+    - "Gdy pytają, gdzie jest ten pokój: „Na dole? Albo na górze?” (zakłopotany) „Nie pamiętam drogi. Pani profesor zawsze prowadziła. Ja tylko niosłem lunetę.”"
+    - "Gdy mówią mu, że Marrow już tu nie uczy albo że odeszła: (cichnie) „To pomyłka. Pani profesor nie odchodzi bez słowa.” (odwraca wzrok i liczy stopnie; Więź nie spada, ale rozmowa o niej na dziś się kończy)"
+    - "Gdy pytają o świecącą książkę albo o coś innego w pokoju: „Tam była książka, co świeci. Nie wolno jej dotykać. Pani profesor mówiła, że ona się złości.” (więcej nie wie)"
+    - "Nieprzewidziane: (gdy postać chce od razu iść szukać pani profesor) „Teraz? Ale ona kazała czekać tu…” (waha się; dalej poprowadź według sekcji „Gdy gracze zboczą”, część o szukaniu Marrow)"
     - "Może zdradzić, gdy ktoś pyta o panią profesor: że nazywa się Marrow i uczy o gwiazdach; powiedzonko o szafce, która „najpierw chce dostać”; że w jej pokoju zegary nie tykają; że jest tam książka, która świeci i której nie wolno dotykać."
     - "Nie zdradza nigdy: drogi do pokoju, słowa „Klepsydra”, roku, imienia pani profesor (zna tylko „pani profesor Marrow”)."
   wariant_od: []
@@ -333,19 +331,19 @@ dialog:
   wyzwalacz: "MG chce dotknąć wspólnego sekretu z 4. roku (raz na sesję); najlepiej w chwili ciszy, gdy postacie siedzą z Anselem na schodach, albo gdy ktoś pyta: „Skąd ty nas znasz?”."
   ton: "mimochodem, zwyczajnie, jak dziecko mówiące o pogodzie; zaraz potem zdziwienie"
   kwestie:
-    - "Otwarcie (strach z pytania 3): „Wy też się wtedy baliście, prawda? [czego się bali]. Tak samo jak ja na wieży.”"
-    - "Wariant (rzecz z pytania 5, do postaci, która ją ma): „Pan to dalej nosi? [rzecz]. To dobrze. Takich rzeczy się nie wyrzuca.”"
-    - "Wariant (słowo albo zdanie z tamtego dnia): (szeptem, jakby powtarzał hasło) „[słowo].” (mruga) „Czemu ja to powiedziałem?”"
-    - "Gdy postacie pytają, skąd to wie: (szczerze zdziwiony) „Nie wiem. Samo przyszło. Jak piosenka, której się nie uczyłem.” (już więcej o tym nie mówi)"
+    - "Otwarcie, gdy wybierasz strach z pytania startowego 3: „Wy też się wtedy baliście, prawda? [czego się bali]. Tak samo jak ja na wieży.”"
+    - "Otwarcie, gdy wybierasz rzecz z pytania startowego 5 (do postaci, która ją ma): „Pan to dalej nosi? [rzecz]. To dobrze. Takich rzeczy się nie wyrzuca.”"
+    - "Otwarcie, gdy wybierasz słowo albo zdanie z tamtego dnia: (szeptem, jakby powtarzał hasło) „[słowo].” (mruga) „Czemu ja to powiedziałem?”"
+    - "Gdy pytają, skąd to wie: (szczerze zdziwiony) „Nie wiem. Samo przyszło. Jak piosenka, której się nie uczyłem.” (już więcej o tym nie mówi)"
     - "Gdy postacie się przestraszą albo zdenerwują: „Przepraszam! Ja nie chciałem podsłuchiwać. Ja nie podsłuchiwałem, naprawdę.” (kuli się; to nie jest nieuprzejmość postaci, Ansel nie znika, jeśli ktoś go uspokoi)"
-    - "Gdy postać żąda, żeby powiedział więcej: „Ale ja nic więcej nie wiem.” (jeśli postać naciska groźnie, zob. ansel-sploszony)"
-    - "Może zdradzić: wyłącznie jeden okruch (strach, rzecz albo słowo). Nigdy całej historii sekretu, nigdy tego, kto o nim wie."
+    - "Gdy postać żąda, żeby powiedział więcej: „Ale ja nic więcej nie wiem.” (jeśli postać naciska groźnie, Ansel się płoszy: przejdź do rozmowy „Ansel spłoszony” niżej)"
+    - "Może zdradzić: wyłącznie jeden okruch tego sekretu (strach, rzecz albo słowo). Nigdy całej historii sekretu i nigdy tego, kto o nim wie."
   wariant_od: [flaga.sekret-poruszony]
 ```
 
 ### Ansel: spłoszony (nieuprzejmość, groźba, chwyt)
 
-Ten blok MG otwiera, gdy postać jest wobec Ansela nieuprzejma, straszy go, kpi z niego, próbuje go złapać albo rzuca na niego zaklęcie z wrogością. Ansel nie walczy i nie krzyczy. Przeprasza i znika na resztę wieczoru (tekst 6). Zapamiętuje tę postać jako „tego pana, który krzyczał” (albo „panią, która złapała”) i jutro podchodzi do niej ostrożnie. Inne postacie mogą spróbować go zatrzymać na chwilę (test `zatrzymac-sploszonego`).
+Ten blok MG otwiera, gdy postać jest wobec Ansela nieuprzejma, straszy go, kpi z niego, próbuje go złapać albo rzuca na niego zaklęcie z wrogością. Ansel nie walczy i nie krzyczy. Przeprasza i znika na resztę wieczoru (tekst 6). Zapamiętuje tę postać jako „tego pana, który krzyczał” (albo „panią, która złapała”) i jutro podchodzi do niej ostrożnie. Inne postacie mogą spróbować go zatrzymać na chwilę (test zatrzymania spłoszonego Ansela w sekcji „Testy”).
 
 ```yaml
 dialog:
@@ -354,12 +352,12 @@ dialog:
   wyzwalacz: "Postać krzyczy na Ansela, kpi z niego, grozi mu, łapie go albo celuje w niego różdżką z wrogością."
   ton: "bardzo cichy, przepraszający, potem nic"
   kwestie:
-    - "Otwarcie (krzyk, kpina, groźba): (cofa się o krok) „Przepraszam. Ja tylko czekam.” (tekst 6; znika)"
-    - "Gdy postać próbuje go złapać za ramię: (dłoń postaci przechodzi przez rękaw jak przez zimną mgłę) „Proszę nie! Proszę!” (tekst 6; znika)"
-    - "Gdy postać celuje w niego różdżką: „Ja nic nie zrobiłem…” (zaklęcie przechodzi na wylot albo nie pokazuje niczego; tekst 6; znika)"
-    - "Gdy inna postać od razu staje w jego obronie (zanim zniknie): (zatrzymuje się na najwyższym stopniu, w półcieniu) „Pan… pan nie krzyczy?” (MG może dać test zatrzymac-sploszonego tej postaci)"
-    - "Nazajutrz, do postaci, która go spłoszyła (pierwsze spotkanie po tej scenie): (z daleka, grzecznie, nie podchodzi bliżej niż na kilka kroków) „Dzień dobry. Ja już nie będę przeszkadzał.” (dopiero przeprosiny albo gest życzliwości otwierają mu znowu buzię)"
-    - "Nieprzewidziane (postać udaje, że go nie ma, odwraca się plecami na pokaz): (stoi chwilę) „Pan mnie nie widzi? Jak wszyscy?” (siada na stopniu; nie znika, ale już się do tej postaci nie odzywa dziś wieczorem)"
+    - "Otwarcie, gdy postać krzyczy, kpi albo grozi: (cofa się o krok) „Przepraszam. Ja tylko czekam.” (przeczytaj tekst 6; Ansel znika)"
+    - "Gdy postać próbuje go złapać za ramię: (dłoń postaci przechodzi przez rękaw jak przez zimną mgłę) „Proszę nie! Proszę!” (przeczytaj tekst 6; Ansel znika)"
+    - "Gdy postać celuje w niego różdżką: „Ja nic nie zrobiłem…” (zaklęcie przechodzi na wylot albo nie pokazuje niczego; przeczytaj tekst 6; Ansel znika)"
+    - "Gdy inna postać od razu staje w jego obronie, zanim zniknie: (zatrzymuje się na najwyższym stopniu, w półcieniu) „Pan… pan nie krzyczy?” (możesz dać tej postaci test zatrzymania spłoszonego Ansela)"
+    - "Gdy nazajutrz spotyka postać, która go spłoszyła (pierwsze spotkanie po tej scenie): (z daleka, grzecznie, nie podchodzi bliżej niż na kilka kroków) „Dzień dobry. Ja już nie będę przeszkadzał.” (dopiero przeprosiny albo gest życzliwości otwierają mu znowu buzię)"
+    - "Nieprzewidziane: (gdy postać udaje, że go nie ma, i na pokaz odwraca się plecami; Ansel stoi chwilę) „Pan mnie nie widzi? Jak wszyscy?” (siada na stopniu; nie znika, ale już się do tej postaci nie odzywa dziś wieczorem)"
   wariant_od: []
 ```
 
@@ -374,13 +372,13 @@ dialog:
   wyzwalacz: "Maisie schodzi po schodach z koleżanką (tekst 4) i na chwilę widzi chłopca mignięciem."
   ton: "cichy, przestraszony, uparty; przy koleżance zawstydzony"
   kwestie:
-    - "Otwarcie (do siebie, mrugając): „Zdawało mi się…” (i już biegnie za koleżanką)"
+    - "Otwarcie, do siebie, mrugając: „Zdawało mi się…” (i już biegnie za koleżanką)"
     - "Gdy postać woła ją przy koleżance: „Nic. Nic nie widziałam. Idę spać.” (koleżanka ciągnie ją za rękaw)"
     - "Gdy postać dogania ją sama, przy beczkach: „Wy… też go widzicie? Tego chłopca w żółtym krawacie? Bo ja widzę tylko przez chwilkę. Potem się odwracam i nic.”"
     - "Gdy postać mówi, że on tam siedzi i z nimi rozmawia: (blednie) „Rozmawia? Z wami?” (cofa się o krok) „Ja go nawet nie słyszę. Tylko kawałek widzę, jak w szybie.”"
     - "Gdy postać pyta, czy widziała go wcześniej: „Raz. Na schodach koło Zielarstwa. Tego dnia, kiedy… kiedy zgubiłam kawałek sprawdzianu.” (dokładnej daty jeszcze nie pamięta; poda ją w scenie 06)"
     - "Gdy postać ją wyśmiewa: „Wiedziałam.” (ucieka; do końca sesji nie rozmawia z tą postacią)"
-    - "Nieprzewidziane (postać prowadzi ją pod rękę do schodów i mówi: patrz): (patrzy długo na najniższy stopień) „Tam nikogo nie ma.” (Ansel macha do niej) „…Nikogo.” (ale ręce jej drżą)"
+    - "Nieprzewidziane: (gdy postać prowadzi ją pod rękę do schodów i każe patrzeć; Maisie patrzy długo na najniższy stopień) „Tam nikogo nie ma.” (Ansel macha do niej) „…Nikogo.” (ale ręce jej drżą)"
     - "Może zdradzić tylko sama, bez koleżanki, postaci, która jej nie wyśmiała: że widzi chłopca tylko mignięciem, że nie słyszy go wcale i że pierwszy raz widziała go tego dnia, kiedy zgubiła kawałek sprawdzianu."
   wariant_od: []
 ```
@@ -397,16 +395,16 @@ dialog:
   ton: "z nadzieją, trochę za szybko, jakby bał się, że nie zdąży powiedzieć"
   kwestie:
     - "Otwarcie: „Przyjdziecie jutro? Ja tu będę. Zawsze tu jestem.”"
-    - "Do postaci z Więzią 1: „Mogę jutro przyjść do pana na śniadanie? Wiem, przy którym stole pan siedzi. Będę cicho.”"
-    - "Do postaci, która nie chciała rozmawiać albo milczała: „Pan też może przyjść. Jak pan będzie chciał. Ja nie jestem nudny, naprawdę.”"
     - "Gdy postać obiecuje, że przyjdzie: (rozpromienia się) „To ja policzę, ile to godzin. Ja dobrze liczę.”"
-    - "Gdy postać proponuje, że z nim zostanie: „Nie trzeba. Pani profesor kazała czekać mnie, nie wam. A wy musicie spać, bo jutro lekcje.” (mówi to jak starszy brat, z powagą)"
+    - "Gdy żegna się postać, która ma z Anselem Więź 1: „Mogę jutro przyjść do pana na śniadanie? Wiem, przy którym stole pan siedzi. Będę cicho.”"
+    - "Gdy żegna się postać, która nie chciała rozmawiać albo milczała: „Pan też może przyjść. Jak pan będzie chciał. Ja nie jestem nudny, naprawdę.”"
     - "Gdy nadchodzi prefekt albo Filch z latarnią: „Ktoś idzie.” (i już go nie ma; gdy kroki miną, stopień znów jest zajęty)"
-    - "Nieprzewidziane (postać chce zostawić mu coś na noc: koc, bułkę, świeczkę): (patrzy na to jak na skarb) „To moje? Naprawdę moje?” (rzecz leży rano dokładnie tam, gdzie ją położono, nietknięta; Więź +1, jeśli postać jeszcze dziś jej nie zdobyła)"
+    - "Gdy postać proponuje, że z nim zostanie: „Nie trzeba. Pani profesor kazała czekać mnie, nie wam. A wy musicie spać, bo jutro lekcje.” (mówi to jak starszy brat, z powagą)"
+    - "Nieprzewidziane: (gdy postać chce mu zostawić coś na noc, np. koc, bułkę albo świeczkę; Ansel patrzy na to jak na skarb) „To moje? Naprawdę moje?” (rzecz leży rano dokładnie tam, gdzie ją położono, nietknięta; Więź +1, jeśli postać jeszcze dziś jej nie zdobyła)"
   wariant_od: []
 ```
 
-### Profesor Sprout przy schodach (rozgałęzienie `do-nauczyciela`)
+### Profesor Sprout przy schodach (gdy postacie idą z Anselem do nauczyciela)
 
 ```yaml
 dialog:
@@ -416,18 +414,18 @@ dialog:
   ton: "serdeczny, konkretny, coraz bardziej zatroskany o same postacie"
   kwestie:
     - "Otwarcie: „Zgubiony Puchon? Kochaneczko, jeśli to mój Puchon, to ja go znajdę. Gdzie on jest?”"
-    - "Gdy postacie wskazują Ansela, który stoi tuż przed nią i macha: (patrzy w to miejsce, potem na postacie) „Tu? Na schodach? Kochani, tu nikogo nie ma.”"
-    - "Gdy postacie podają imię i nazwisko: (wyciąga z fartucha zniszczony notes rejestru domu i przesuwa palcem po liście, raz, potem drugi, wstecz) „Dray… Dray… Nie. Nie ma. Ani teraz, ani wcześniej, jak daleko sięga ten zeszyt.” (flaga.ansel-poza-spisem)"
-    - "Gdy postacie się upierają: „Dobrze. Wierzę, że coś widzicie. Ale najpierw: kiedy ostatnio jedliście? Wszyscy, do kuchni, i potem prosto do łóżek.”"
-    - "Gdy postacie chcą do dyrektora: „Dyrektor wrócił godzinę temu i pewnie jeszcze nie zdjął płaszcza.” (waha się, potem prowadzi ich do gargulca; zob. rozgałęzienie do-dyrektora)"
-    - "Nieprzewidziane (postacie mówią, że chłopiec nie żyje albo że to duch): (poważnieje) „O duchach rozmawia się z Grubym Mnichem, nie ze mną. A o zmarłych uczniach w ogóle się nie żartuje.” (bez kary; tylko chłodniej)"
-    - "Może zdradzić: że w rejestrze Hufflepuffu nie ma żadnego Ansela Draya. Ansel przy tym słucha i mówi do postaci cicho: „Pani profesor Sprout mnie nie zna. Ja jej też nie.”"
+    - "Gdy pokazują jej Ansela, który stoi tuż przed nią i macha: (patrzy w to miejsce, potem na postacie) „Tu? Na schodach? Kochani, tu nikogo nie ma.”"
+    - "Gdy podają imię i nazwisko chłopca: (wyciąga z fartucha zniszczony notes rejestru domu i przesuwa palcem po liście, raz, potem drugi, wstecz) „Dray… Dray… Nie. Nie ma. Ani teraz, ani wcześniej, jak daleko sięga ten zeszyt.” (to dowód, że chłopca nie ma w żadnym spisie)"
+    - "Gdy się upierają: „Dobrze. Wierzę, że coś widzicie. Ale najpierw: kiedy ostatnio jedliście? Wszyscy, do kuchni, i potem prosto do łóżek.”"
+    - "Gdy chcą iść do dyrektora: „Dyrektor wrócił godzinę temu i pewnie jeszcze nie zdjął płaszcza.” (waha się, potem prowadzi ich do gargulca; dalej rozmowa z Dumbledore'em niżej)"
+    - "Nieprzewidziane: (gdy postacie mówią, że chłopiec nie żyje albo że to duch; Sprout poważnieje) „O duchach rozmawia się z Grubym Mnichem, nie ze mną. A o zmarłych uczniach w ogóle się nie żartuje.” (bez kary; tylko chłodniej)"
+    - "Może zdradzić, gdy postacie podadzą imię chłopca: że w rejestrze Hufflepuffu nie ma żadnego Ansela Draya. Ansel przy tym słucha i mówi do postaci cicho: „Pani profesor Sprout mnie nie zna. Ja jej też nie.”"
   wariant_od: []
 ```
 
-### Dumbledore i puste krzesło (rozgałęzienie `do-dyrektora`, siatka 3)
+### Dumbledore i puste krzesło (gdy postacie idą z Anselem do dyrektora)
 
-Dyrektor wrócił z Londynu przed wieczorem (założenie robocze z rejestru decyzji). Jak wejść do gabinetu, mówi karta [[miejsce.gabinet-dyrektora]]; najprościej: nauczyciel prowadzi postacie albo gargulec odsuwa się sam, bo dyrektor „spodziewał się gości”. Krótka wstawka do odczytania o pustym krześle jest w karcie miejsca. Dumbledore nie widzi Ansela i nie słyszy go; wierzy postaciom, prosi o obserwację i niczego nie obiecuje (decyzja MG z 2026-11-19). Nie wyjaśnia niczego i nie prowadzi graczy za rękę. Ten sam blok może posłużyć w module 12 (spotkanie M).
+Dyrektor wrócił z Londynu przed wieczorem (założenie robocze z rejestru decyzji). Jak wejść do gabinetu, mówi karta [[miejsce.gabinet-dyrektora]]; najprościej: nauczyciel prowadzi postacie albo gargulec odsuwa się sam, bo dyrektor „spodziewał się gości”. Krótka wstawka do odczytania o pustym krześle jest w karcie miejsca. Dumbledore nie widzi Ansela i nie słyszy go; wierzy postaciom, prosi o obserwację i niczego nie obiecuje (decyzja MG z 2026-11-19). Nie wyjaśnia niczego i nie prowadzi graczy za rękę. Tej samej rozmowy możesz użyć później, w module 12 (spotkanie M), gdy postacie pójdą do dyrektora innego dnia.
 
 ```yaml
 dialog:
@@ -437,15 +435,16 @@ dialog:
   ton: "łagodny, niespieszny, z humorem, który nagle przechodzi w powagę"
   kwestie:
     - "Otwarcie (jeszcze w płaszczu podróżnym, przysuwając trzecie krzesło): „Wróciłem godzinę temu i proszę, już goście. Siadajcie. I pański przyjaciel też, jeśli zechce.” (patrzy w punkt nad oparciem, odrobinę za wysoko)"
-    - "Gdy postacie mówią, że Ansel siedzi właśnie na tym krześle: (kiwa głową w stronę krzesła, uprzejmie, jak do kogoś nieśmiałego) „Dobry wieczór.” (Ansel: „Dobry wieczór, panie profesorze!”, ale dyrektor nie reaguje na odpowiedź)"
-    - "Gdy postacie opowiadają o straconej godzinie i o chłopcu: „Wierzę, że kogoś widzicie. To nie to samo, co widzieć go samemu, ale to dużo. Proszę patrzeć dalej. I proszę mi mówić, co widzicie.”"
-    - "Gdy pada nazwisko Marrow: (na moment przestaje się uśmiechać) „Profesor Marrow uczyła tu dawno temu.” (nic więcej; wraca uprzejmość)"
-    - "Gdy postacie proszą o pomoc albo o obietnicę: „Nie obiecam wam niczego, czego nie umiem dotrzymać. Mam w tej chwili na głowie sprawy, które nie czekają.” (patrzy na stos listów z Londynu)"
-    - "Gdy postacie proszą o zgodę na Dział Ksiąg Zakazanych: „Regulamin obowiązuje wszystkich, także ciekawych. Nawet bardzo ciekawych.” (bez kary, z uważnym spojrzeniem)"
-    - "Gdy postacie kłamią albo coś zmyślają: „Poczekam, aż będziecie gotowi powiedzieć mi resztę.” (nie karze)"
-    - "Ansel do postaci, cicho, przy wyjściu: „On mnie nie widzi. Pani profesor też w końcu przestała.”"
-    - "Nieprzewidziane (postać próbuje udowodnić obecność Ansela zaklęciem, np. Homenum Revelio): (patrzy na wynik bez śladu zawodu) „Zaklęcia widzą to, co jest teraz. Czasem to za mało.” (ZD-24: zaklęcie nic nie pokazuje)"
-    - "Może zdradzić: że profesor Marrow uczyła w Hogwarcie dawno temu (flaga.marrow-imie-znane, jeśli jeszcze nie ustawiona). Nie zdradza: kiedy odeszła, dlaczego, ani niczego o 1951."
+    - "Gdy opowiadają o straconej godzinie i o chłopcu: „Wierzę, że kogoś widzicie. To nie to samo, co widzieć go samemu, ale to dużo. Proszę patrzeć dalej. I proszę mi mówić, co widzicie.”"
+    - "Gdy mówią, że Ansel siedzi właśnie na tym krześle: (kiwa głową w stronę krzesła, uprzejmie, jak do kogoś nieśmiałego) „Dobry wieczór.” (Ansel odpowiada: „Dobry wieczór, panie profesorze!”, ale dyrektor nie reaguje)"
+    - "Gdy proszą o pomoc albo o obietnicę: „Nie obiecam wam niczego, czego nie umiem dotrzymać. Mam w tej chwili na głowie sprawy, które nie czekają.” (patrzy na stos listów z Londynu)"
+    - "Gdy pada nazwisko Marrow: (na moment przestaje się uśmiechać) „Profesor Marrow uczyła tu dawno temu.” (nic więcej; wraca uprzejmość; od teraz postacie znają imię Marrow, jeśli jeszcze go nie znały)"
+    - "Gdy kłamią albo coś zmyślają: „Poczekam, aż będziecie gotowi powiedzieć mi resztę.” (nie karze)"
+    - "Gdy proszą o zgodę na Dział Ksiąg Zakazanych: „Regulamin obowiązuje wszystkich, także ciekawych. Nawet bardzo ciekawych.” (bez kary, z uważnym spojrzeniem)"
+    - "Gdy wychodzą z gabinetu: (Ansel, cicho, do postaci) „On mnie nie widzi. Pani profesor też w końcu przestała.”"
+    - "Nieprzewidziane: (gdy postać próbuje udowodnić obecność Ansela zaklęciem, np. Homenum Revelio; zaklęcie nic nie pokazuje, a dyrektor patrzy na wynik bez śladu zawodu) „Zaklęcia widzą to, co jest teraz. Czasem to za mało.”"
+    - "Może zdradzić, gdy pada nazwisko Marrow: że profesor Marrow uczyła w Hogwarcie dawno temu."
+    - "Nie zdradza: kiedy Marrow odeszła ani dlaczego, ani niczego o roku 1951."
   wariant_od: [flaga.marrow-imie-znane]
 ```
 

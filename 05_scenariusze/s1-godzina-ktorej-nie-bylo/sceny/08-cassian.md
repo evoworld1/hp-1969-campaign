@@ -296,44 +296,40 @@ dialog:
   ton: "chłodny, uprzejmy, odrobinę za wolny; z każdym dowodem krótszy i szybszy"
   kwestie:
     - "Otwarcie: „Zgubiliście coś? Bo patrzycie na mnie tak, jakbym to ja to znalazł.”"
+    - "Otwarcie, w poniedziałek prosto po lekcji Obrony (scena 04), przed wejściem do pustej klasy: „Nie tutaj. Nie przy wszystkich.” (tego dnia jest promienny i pewny siebie: łamie się wolniej, potrzeba o jeden dowód więcej)"
     - "Gdy postać jest uprzejma i pyta wprost, bez oskarżenia: „Grzecznie zapytane. Odpowiem grzecznie: nie wiem, o czym mówisz, [nazwisko]. Nie bierz tego do siebie.”"
-    - "Gdy postacie mówią o zegarku: (dłoń na kieszonce) „Rodzinna pamiątka. Nie chodzi. Mój ojciec mawia, że Vane'owie się nie spóźniają, więc noszę zegarek, który się nie spóźnia.”"
-    - "Gdy postacie dopasowały godziny ofiar do jego sukcesów: „Uczę się. Wiem, że w grupie trzeciej to brzmi egzotycznie.” (pauza, ciszej) „Uczę się. Po nocach.”"
-    - "Gdy postacie mówią o śladzie do lochów albo o drżących zegarach przy Slytherinie: „Lochy. Tak. Mieszkam w lochach.” (gwiżdże dwie nuty i urywa) „To nie jest dowód. To jest adres.”"
-    - "Gdy postać rozpozna gwizd albo zapach oleju (po RETRORSUM w scenie 03): (zamiera, dłoń zatrzymuje się w pół drogi do kieszonki) „Skąd ty… Nie. Nie tutaj.”"
-    - "Gdy postacie mówią mu w twarz, że kradnie czas (ustaw flaga.cassian-zdemaskowany): „Kradnie. Ładne słowo. Wy macie godzinę mniej, ja godzinę więcej. Wszyscy tak robią, tylko nie wszyscy dobrze.”"
-    - "Gdy postać kłamie, że Wren już wie: (blednie) „Wren.” (pauza) „To nie mamy o czym rozmawiać.” (odwraca się do wyjścia; jeśli nikt go nie zatrzyma, rozgałęzienie awaryjne-milczenie; jeśli ktoś przejrzy kłamstwo albo powie prawdę, zostaje i jest przyparty)"
-    - "Gdy postać grozi albo naciska: przejdź do dialogu cassian-sekret."
-    - "Gdy postać pyta o bandaż: (cofa lewą rękę głębiej w rękaw) „Kociołek. Slughorn każe nam pracować za blisko ognia.”"
-    - "Gdy postać użyje obelgi o pochodzeniu krwi (wobec kogokolwiek): (milknie, patrzy w bok, długo) „Nie mów tak. Nie przy mnie.”"
-    - "Nieprzewidziane (ktoś mówi do Ansela, którego Cassian nie widzi): (marszczy brwi, patrzy w puste miejsce) „Z kim ty rozmawiasz?” (cicho, sam do siebie) „Wszyscy tu już wariujemy.”"
-    - "Nieprzewidziane (ktoś rzuca Tempus albo zaklęcie ujawniające na zegarek): (wstrzymuje oddech; gdy nic nie wychodzi, uśmiech wraca) „Mówiłem: pamiątka.” (Tempus przy nim tyka szybciej; to widzą tylko postacie)"
-    - "Wariant poniedziałkowy (prosto po lekcji 04, przed wejściem do pustej klasy): „Nie tutaj. Nie przy wszystkich.” Tego dnia jest promienny i pewny siebie: łamie się wolniej, potrzeba o jeden dowód więcej."
-    - "Może zdradzić bez warunku: że zegarek był dziadka i nie chodzi; że ojciec chce wyników. Nic o karcie ani pracowni."
-    - "Nie zdradza tu: skąd ma kartę, gdzie jest pracownia, co się stało z jego dłonią. To dopiero w kroku 6."
+    - "Gdy pytają o zegarek: (dłoń na kieszonce) „Rodzinna pamiątka. Nie chodzi. Mój ojciec mawia, że Vane'owie się nie spóźniają, więc noszę zegarek, który się nie spóźnia.”"
+    - "Gdy wykładają dowody: (gdy pokazują, że godziny ofiar pasują do jego sukcesów) „Uczę się. Wiem, że w grupie trzeciej to brzmi egzotycznie.” (pauza, ciszej) „Uczę się. Po nocach.” (gdy mówią o śladzie do lochów albo o drżących zegarach przy Slytherinie) „Lochy. Tak. Mieszkam w lochach.” (gwiżdże dwie nuty i urywa) „To nie jest dowód. To jest adres.” (gdy postać rozpoznaje jego gwizd albo zapach oleju, bo cofnęła się w czasie w scenie 03; zamiera, dłoń staje w pół drogi do kieszonki) „Skąd ty… Nie. Nie tutaj.”"
+    - "Gdy mówią mu w twarz, że kradnie czas: „Kradnie. Ładne słowo. Wy macie godzinę mniej, ja godzinę więcej. Wszyscy tak robią, tylko nie wszyscy dobrze.” (zapisz: Cassian jest zdemaskowany)"
+    - "Gdy postać grozi albo naciska: (przejdź do rozmowy „Cassian sięga po sekret” niżej)"
+    - "Gdy pytają o bandaż: (cofa lewą rękę głębiej w rękaw) „Kociołek. Slughorn każe nam pracować za blisko ognia.”"
+    - "Gdy postać kłamie, że Wren już wie: (blednie) „Wren.” (pauza) „To nie mamy o czym rozmawiać.” (odwraca się do wyjścia; jeśli nikt go nie zatrzyma, dalej według sekcji „Gdy gracze zboczą”, część o tym, że Cassian odmawia rozmowy; jeśli ktoś przejrzy kłamstwo albo powie prawdę, zostaje i jest przyparty)"
+    - "Gdy ktoś użyje obelgi o pochodzeniu krwi (wobec kogokolwiek): (milknie, patrzy w bok, długo) „Nie mów tak. Nie przy mnie.”"
+    - "Nieprzewidziane: (gdy ktoś mówi do Ansela, którego Cassian nie widzi; Cassian marszczy brwi, patrzy w puste miejsce) „Z kim ty rozmawiasz?” (cicho, sam do siebie) „Wszyscy tu już wariujemy.” (gdy ktoś rzuca Tempus albo zaklęcie ujawniające na zegarek, wstrzymuje oddech; gdy nic nie wychodzi, uśmiech wraca) „Mówiłem: pamiątka.” (Tempus przy nim tyka szybciej; to widzą tylko postacie)"
+    - "Może zdradzić bez warunku: że zegarek był dziadka i nie chodzi i że ojciec chce od niego wyników. Nic o karcie ani o pracowni."
+    - "Nie zdradza w tej rozmowie: skąd ma kartę, gdzie jest pracownia ani co się stało z jego dłonią. To mówi dopiero wtedy, gdy przegra pojedynek, zawrze targ albo się złamie (rozmowa „Co Cassian wie o pracowni”)."
   wariant_od: [flaga.rejestr-godzin, flaga.slad-ukaszen, flaga.sygnal-cassiana-nazwany, flaga.cassian-czujny]
 ```
 
 ### Cassian sięga po sekret (krok 2, opcjonalnie)
 
-Gdy postacie mu grożą albo przypierają go do muru, Cassian odpowiada tym samym: wspólnym sekretem drużyny z 4. roku. MG przed sesją sprawdza w odpowiedziach graczy na pytanie startowe 4, czy Cassian naprawdę go zna, czy tylko blefuje. Test `s1.scena.08.test.czytanie-cassiana` pozwala to wyczuć. Wypowiedz kwestię otwierającą dokładnie tak samo w obu przypadkach: gracze nie powinni rozpoznać różnicy po tonie MG.
+Gdy postacie mu grożą albo przypierają go do muru, Cassian odpowiada tym samym: wspólnym sekretem drużyny z 4. roku. MG przed sesją sprawdza w odpowiedziach graczy na pytanie startowe 4, czy Cassian naprawdę go zna, czy tylko blefuje. Test czytania Cassiana (sekcja „Testy”) pozwala postaciom to wyczuć. Wypowiedz kwestię otwierającą dokładnie tak samo w obu przypadkach: gracze nie powinni rozpoznać różnicy po tonie MG.
 
 ```yaml
 dialog:
   id: s1.scena.08.dialog.cassian-sekret
   npc: npc.cassian-vane
-  wyzwalacz: "Postacie grożą Cassianowi donosem, przemocą albo naciskają, gdy jest przyparty (ustaw flaga.sekret-poruszony, gdy padnie kwestia otwierająca)."
+  wyzwalacz: "Postacie grożą Cassianowi donosem, przemocą albo naciskają, gdy jest przyparty. Gdy padnie kwestia otwierająca, zapisz, że wspólny sekret został poruszony."
   ton: "bardzo spokojny, za spokojny; uśmiech, który nie dociera do oczu"
   kwestie:
     - "Otwarcie: „Ja wiem o waszym, wy o moim. Czwarty rok, prawda? Nie bierzcie tego do siebie.”"
-    - "Gdy postacie pytają, co dokładnie wie (zna sekret): podaje jeden szczegół z odpowiedzi graczy, bez puenty, i dodaje: „Wystarczy? Nie lubię mówić za dużo. Ojciec mówi, że to rozrzutność.”"
-    - "Gdy postacie pytają, co dokładnie wie (blefuje): „Wystarczająco. Chcecie sprawdzić, ile?” (dłoń na kieszonce, gwizd urwany po dwóch nutach)"
-    - "Gdy postać przejrzy blef (sukces w teście czytania): (cisza, potem cicho) „Dobrze. Nie wiem. Ale wy też nie wiecie, czy ja nie wiem. Do wczoraj.” (stopień niżej: przyparty)"
-    - "Gdy postać kłamie, że ich sekret i tak już wyszedł: „To po co się denerwujecie?” (czyta kłamstwo dobrze; MG może poprosić o test przeciwny)"
-    - "Gdy postacie dalej grożą: „Zróbmy to jak ludzie.” (przejście do dialogu cassian-wyzwanie)"
-    - "Gdy postać odpowiada spokojnie, bez groźby („Nie chcemy nic mówić. Chcemy, żebyś przestał”): (milknie, ręka zsuwa się z kieszonki) „Przestał.” (pauza) „Myślicie, że to takie proste.” (droga do litości albo targu)"
-    - "Nieprzewidziane (postacie same wyjawiają swój sekret na głos, żeby go rozbroić): (pierwszy raz naprawdę zaskoczony) „No proszę. Grupa trzecia ma odwagę.” Sekret traci wartość jako karta przetargowa; Cassian jest przyparty."
-    - "Może zdradzić bez warunku: że zna albo udaje, że zna sekret. Skąd zna, nie mówi („Szkoła ma cienkie ściany”)."
+    - "Gdy pytają, co dokładnie wie: (jeśli naprawdę zna sekret, podaje jeden szczegół z odpowiedzi graczy, bez puenty, i dodaje:) „Wystarczy? Nie lubię mówić za dużo. Ojciec mówi, że to rozrzutność.” (jeśli blefuje:) „Wystarczająco. Chcecie sprawdzić, ile?” (dłoń na kieszonce, gwizd urwany po dwóch nutach)"
+    - "Gdy dalej grożą: „Zróbmy to jak ludzie.” (przejdź do rozmowy „Cassian wyzywa na pojedynek” niżej)"
+    - "Gdy postać odpowiada spokojnie, bez groźby (np. że nie chcą nic mówić, chcą tylko, żeby przestał): (milknie, ręka zsuwa się z kieszonki) „Przestał.” (pauza) „Myślicie, że to takie proste.” (stąd prowadzi droga do litości albo do targu)"
+    - "Gdy postać przejrzy blef (sukces w teście czytania Cassiana): (cisza, potem cicho) „Dobrze. Nie wiem. Ale wy też nie wiecie, czy ja nie wiem. Do wczoraj.” (schodzi stopień niżej: jest przyparty)"
+    - "Gdy postać kłamie, że ich sekret i tak już wyszedł: „To po co się denerwujecie?” (dobrze czyta kłamstwo; możesz poprosić o test przeciwny)"
+    - "Nieprzewidziane: (gdy postacie same wyjawiają swój sekret na głos, żeby go rozbroić; Cassian jest pierwszy raz naprawdę zaskoczony) „No proszę. Grupa trzecia ma odwagę.” (sekret traci wartość jako karta przetargowa; Cassian jest przyparty)"
+    - "Może zdradzić bez warunku: że zna wspólny sekret drużyny z 4. roku albo udaje, że go zna. Skąd go zna, nie mówi („Szkoła ma cienkie ściany”)."
     - "Nie zdradza: że blefuje, dopóki ktoś tego nie przejrzy."
   wariant_od: [flaga.sekret-poruszony]
 ```
@@ -350,16 +346,14 @@ dialog:
   ton: "formalny, prawie uroczysty; pod spodem pośpiech"
   kwestie:
     - "Otwarcie: „Zróbmy to jak ludzie: pojedynek, zasady, sekundanci. Przegram, powiem wam, skąd to mam. Wygram, zapomnicie o mnie.”"
-    - "Gdy postacie przyjmują: „Dobrze. Teague, będziesz łaskawa?” (do Rosalind; dialog rosalind-sekundantka) „Wybierzcie swojego. Ten, kto nie walczy, patrzy. Taka jest zasada.”"
-    - "Gdy postacie chcą podnieść stawkę o zegarek: (dłoń na kieszonce, długa pauza) „Zegarek.” (pauza) „Dobrze. Jeśli wygracie, jest wasz. Nie wygracie.”"
-    - "Gdy postacie chcą podnieść stawkę o kartę: „Karta nie chodzi ze mną po korytarzach. Jeśli wygracie, przyniosę ją sam. Słowo Vane'a.”"
-    - "Gdy postacie odmawiają: „Szkoda. W pojedynku przynajmniej wszystko jest jasne.” (przejście do kroku 5: targ, litość albo jego odejście)"
-    - "Gdy pojedynek miałby być w lochach, przy ścianie Slytherinu: „Nie przy moim domu. Sala Obrony. Wasza sala, będzie uczciwie.”"
-    - "Gdy postać proponuje bójkę bez różdżek albo atakuje bez ukłonu: (cofa się o krok, blednie) „Nie… nie tak. Nie jesteśmy w porcie.” (rozgałęzienie awaryjne-bojka, jeśli postać nie przestanie)"
-    - "Po przegranej Cassiana (pojedynek wygrany przez postacie): (siada albo opiera się o ścianę, oddycha ciężko) „Umowa to umowa.” (przejście do dialogu cassian-pracownia)"
-    - "Po wygranej Cassiana, po tekście 4 (zabrana godzina): (zaróżowiony, spokojny) „Nie bierz tego do siebie. Jutro trochę mniej zdążysz. Tylko tyle.” (odchodzi; rozgałęzienie pojedynek-przegrany)"
-    - "Gdy zegarek wypadnie mu w trakcie (tekst 3): (patrzy na zegarek pod ścianą, nie na postacie) „Nie… zostawcie go. Zostawcie.”"
-    - "Nieprzewidziane (postać proponuje inną próbę: zagadkę, wyścig, partię szachów czarodziejów): (zaskoczony, potem uśmiech) „Szachy. Mój ojciec by umarł ze wstydu.” (pauza) „Zgoda. Te same stawki.” (MG prowadzi to jako test przeciwny zamiast pojedynku)"
+    - "Gdy postacie przyjmują: „Dobrze. Teague, będziesz łaskawa?” (do Rosalind; dalej jej rozmowa „Rosalind jako sekundantka” niżej) „Wybierzcie swojego. Ten, kto nie walczy, patrzy. Taka jest zasada.”"
+    - "Gdy postacie odmawiają: „Szkoda. W pojedynku przynajmniej wszystko jest jasne.” (przejdź do kroku 5: targ, litość albo jego odejście)"
+    - "Gdy chcą podnieść stawkę o zegarek albo o kartę: (o zegarek: dłoń na kieszonce, długa pauza) „Zegarek.” (pauza) „Dobrze. Jeśli wygracie, jest wasz. Nie wygracie.” (o kartę:) „Karta nie chodzi ze mną po korytarzach. Jeśli wygracie, przyniosę ją sam. Słowo Vane'a.”"
+    - "Gdy chcą walczyć w lochach, przy ścianie Slytherinu: „Nie przy moim domu. Sala Obrony. Wasza sala, będzie uczciwie.”"
+    - "Gdy zegarek wypadnie mu w trakcie pojedynku (tekst 3): (patrzy na zegarek pod ścianą, nie na postacie) „Nie… zostawcie go. Zostawcie.”"
+    - "Gdy pojedynek się kończy: (jeśli Cassian przegrał, siada albo opiera się o ścianę, oddycha ciężko) „Umowa to umowa.” (przejdź do rozmowy „Co Cassian wie o pracowni” niżej; jeśli Cassian wygrał, po tekście 4 o zabranej godzinie, zaróżowiony i spokojny, mówi:) „Nie bierz tego do siebie. Jutro trochę mniej zdążysz. Tylko tyle.” (odchodzi; dalej według sekcji „Rozgałęzienia”, część o przegranym pojedynku)"
+    - "Gdy postać proponuje bójkę bez różdżek albo atakuje bez ukłonu: (cofa się o krok, blednie) „Nie… nie tak. Nie jesteśmy w porcie.” (jeśli postać nie przestanie, dalej według sekcji „Gdy gracze zboczą”, część o bójce bez pojedynku)"
+    - "Nieprzewidziane: (gdy postać proponuje inną próbę: zagadkę, wyścig, partię szachów czarodziejów; Cassian jest zaskoczony, potem się uśmiecha) „Szachy. Mój ojciec by umarł ze wstydu.” (pauza) „Zgoda. Te same stawki.” (prowadź to jako test przeciwny zamiast pojedynku)"
     - "Może zdradzić bez warunku: że przegrany pojedynek zobowiązuje go do mówienia. Słowa dotrzymuje."
     - "Nie zdradza: że chce przegrać. Sam nie jest tego pewien."
   wariant_od: [flaga.zegarek-cassiana]
@@ -377,20 +371,20 @@ dialog:
   ton: "chłodny, cichy, ironiczny; pauza na końcu zdania, jakby sprawdzała, czy nadążasz"
   kwestie:
     - "Otwarcie: „Kochanie, jeśli już musicie, to porządnie. Ukłon, różdżki w górę, na trzy. Na trzy, nie na dwa.”"
-    - "Do sekundanta drużyny: „Ty i ja tylko patrzymy. Jak ktoś upadnie, podajesz mu rękę. Jak ktoś oszukuje, mówisz to głośno. Zrozumiałeś?”"
+    - "Gdy drużyna wybierze swojego sekundanta (Rosalind mówi do niego): „Ty i ja tylko patrzymy. Jak ktoś upadnie, podajesz mu rękę. Jak ktoś oszukuje, mówisz to głośno. Zrozumiałeś?”"
     - "Gdy postać jest wobec niej uprzejma: „Klasa. Rzadka rzecz w grupie trzeciej.” (unosi brew; tylko tyle)"
     - "Gdy postać grozi jej albo Cassianowi publicznym donosem: „Spróbujcie. Ja widziałam, kto pierwszy wyciągnął różdżkę. Mówię tylko, co widziałam.” (staje murem za Cassianem)"
     - "Gdy postać kłamie: (uśmiecha się) „Kochanie. Naprawdę?” (przy wszystkich, bez dalszych słów)"
     - "Gdy Cassian się wzdryga w pojedynku, a postać pyta ją, co z nim jest: „Nie twoja sprawa, ale… on tak ma od trzech tygodni. Walcz.”"
     - "Gdy postać szczerze pyta, czy z Cassianem wszystko w porządku (troska, nie ciekawość): (długa pauza, ciszej) „On nie śpi. A rano wygląda, jakby przespał tydzień. Nie mów mu, że ci powiedziałam.”"
     - "Gdy Cassian przegra albo straci zegarek: (pierwszy raz bez ironii) „Dosyć, Cassian. Dosyć.”"
-    - "Nieprzewidziane (postać prosi ją o pomoc przeciw Cassianowi albo proponuje jej przejęcie grupy): „Jesteś bezczelny. Podoba mi się to.” (pauza) „Odpowiedź brzmi: nie dziś.”"
-    - "Może zdradzić po szczerej trosce o Cassiana (najlepiej na osobności, po jego złamaniu albo przegranej): że nakręca zatrzymany zegarek nocą przy kominku w pokoju wspólnym; że wraca do dormitorium o dziwnych porach."
+    - "Nieprzewidziane: (gdy postać prosi ją o pomoc przeciw Cassianowi albo proponuje jej przejęcie grupy) „Jesteś bezczelny. Podoba mi się to.” (pauza) „Odpowiedź brzmi: nie dziś.”"
+    - "Może zdradzić postaci, która szczerze martwi się o Cassiana (najlepiej na osobności, gdy Cassian już się złamał albo przegrał): że nakręca zatrzymany zegarek nocą przy kominku w pokoju wspólnym; że wraca do dormitorium o dziwnych porach."
     - "Nie zdradza: niczego o ojcu i panu Nocie. Niczego obcym, którzy grożą Cassianowi."
   wariant_od: []
 ```
 
-### Cassian po zegarek (wejście 1c)
+### Cassian po zegarek (gdy zegarek jest u postaci, tekst 1c)
 
 Ten dialog zastępuje kroki 2–3, gdy postacie ukradły zegarek po scenie 04, a Cassian przybiegł po niego. Bez zegarka jest zwykłym, niewyspanym chłopcem i to widać: zdania urywa od początku. Nie pojedynkuje się, bo nie ma przewagi; najpierw prosi, potem się targuje, a na końcu pęka. Nie rzuca się na postacie, chyba że ktoś zrobi gest, jakby chciał zegarek zniszczyć.
 
@@ -398,24 +392,24 @@ Ten dialog zastępuje kroki 2–3, gdy postacie ukradły zegarek po scenie 04, a
 dialog:
   id: s1.scena.08.dialog.cassian-oddajcie
   npc: npc.cassian-vane
-  wyzwalacz: "Wejście 1c: zegarek jest u postaci po kradzieży po scenie 04 (flaga.zegarek-cassiana = u-graczy); Cassian staje w progu."
+  wyzwalacz: "Tekst 1c: postacie ukradły zegarek po scenie 04 i mają go przy sobie; Cassian staje w progu."
   ton: "cichy, zdyszany, próbujący wrócić do uprzejmości i nieumiejący"
   kwestie:
     - "Otwarcie: „Oddajcie.” (prostuje się) „Proszę. To rodzinna pamiątka.”"
     - "Gdy postać jest uprzejma i pyta, po co mu zepsuty zegarek: „Bo był dziadka. Bo ojciec mi go dał. Bo…” (urywa) „Po prostu oddajcie.”"
-    - "Gdy postać grozi, że zaniesie zegarek do Wrena: (blednie) „Nie. Nie do Wrena.” (pauza) „Czego chcecie? Powiedzcie, czego chcecie.” (przejście do dialogu cassian-targ)"
+    - "Gdy postać grozi, że zaniesie zegarek do Wrena: (blednie) „Nie. Nie do Wrena.” (pauza) „Czego chcecie? Powiedzcie, czego chcecie.” (przejdź do rozmowy „Cassian się targuje” niżej)"
     - "Gdy postać kłamie, że zegarka nie ma: „Słyszę go. Tyka. On nigdy tak nie tykał, dopóki był u mnie.”"
-    - "Gdy postać unosi zegarek, jakby chciała go rozbić: (krok naprzód, ręka wyciągnięta) „Nie! Nie wiem, co się stanie. Rozumiesz? Nie wiem.” (jeśli postać mimo to niszczy: tekst 6, rozgałęzienie zniszczenie-zegarka)"
     - "Gdy postać po prostu oddaje mu zegarek bez warunku: (bierze go oburącz, długo milczy) „Dlaczego?” (to otwiera drogę litości: Cassian mówi dużo więcej, niż by chciał)"
-    - "Nieprzewidziane (postać próbuje sama nakręcić zegarek albo użyć go przy nim): (szeptem) „Nie kręć nim. Nie wiesz, czyja to godzina.”"
+    - "Gdy postać unosi zegarek, jakby chciała go rozbić: (krok naprzód, ręka wyciągnięta) „Nie! Nie wiem, co się stanie. Rozumiesz? Nie wiem.” (jeśli postać mimo to niszczy zegarek, przeczytaj tekst 6 i poprowadź według sekcji „Rozgałęzienia”, część o zniszczeniu zegarka)"
+    - "Nieprzewidziane: (gdy postać próbuje sama nakręcić zegarek albo użyć go przy nim; Cassian mówi szeptem) „Nie kręć nim. Nie wiesz, czyja to godzina.”"
     - "Może zdradzić bez warunku: że bez zegarka „wszystko jest wolniejsze” i że nie spał od trzech tygodni."
-    - "Nie zdradza bez targu albo litości: karty, pracowni, dłoni."
+    - "Nie zdradza bez targu albo litości: niczego o karcie, pracowni ani o swojej dłoni."
   wariant_od: [flaga.zegarek-cassiana]
 ```
 
 ### Cassian się targuje (krok 5)
 
-Pieniądze Cassiana nie obchodzą; obchodzi go milczenie. Za ciszę wobec Wrena i ojca odda zegarek albo kartę i powie o pracowni, ale nigdy wszystkiego naraz bez wyraźnej umowy. Po udanym targu zostaje dłużnikiem (`flaga.cassian-los` = dluznik), a jeśli warunki były upokarzające, rywalem.
+Pieniądze Cassiana nie obchodzą; obchodzi go milczenie. Za ciszę wobec Wrena i ojca odda zegarek albo kartę i powie o pracowni, ale nigdy wszystkiego naraz bez wyraźnej umowy. Po udanym targu zostaje dłużnikiem postaci, a jeśli warunki były upokarzające, ich rywalem (zapisz, kim się stał).
 
 ```yaml
 dialog:
@@ -429,18 +423,18 @@ dialog:
     - "Gdy postacie proponują milczenie za kartę i lokalizację: (dłużej się namyśla) „Wren nic nie wie. Ojciec nic nie wie. Nikt nic nie wie.” (wyciąga rękę) „Umowa.”"
     - "Gdy postacie żądają zegarka: (dłoń zaciska się na kieszonce) „Zegarek to co innego.” (pauza) „Dobrze. Ale nie mówcie ojcu, że go zgubiłem. Zgubiłem, rozumiecie? Nie oddałem.”"
     - "Gdy pytają o kartę: „W kufrze. W podszewce. Przyniosę przed ciszą nocną, tam, gdzie powiecie. Albo Teague przyniesie.”"
-    - "Gdy postać kłamie w targu (obiecuje ciszę, a widać, że pójdzie do Wrena): „Nie bierz tego do siebie, ale kłamiesz gorzej niż Finch.” (MG może poprosić o test przeciwny; przyłapany kłamca dostaje od niego tylko lokalizację, bez zegarka i karty)"
-    - "Gdy postacie stawiają upokarzające warunki (np. ma się przyznać przy całej grupie): „Nie.” (pauza) „Wolę przegrać pojedynek niż to.” (powrót do dialogu cassian-wyzwanie albo odejście)"
-    - "Gdy postacie proponują coś w zamian za nic, z dobrej woli (pomoc, bez żądań): przejdź do dialogu cassian-litosc."
-    - "Nieprzewidziane (postacie proponują, że pomogą mu oddać godziny): (zamiera) „Oddać.” (pauza) „Myślicie, że się da?” (to otwiera drogę do litości i do dopisku na karcie)"
-    - "Może zdradzić po umowie: lokalizację pracowni i to, co uzgodniono (zegarek, kartę albo oba). Przechodzi do dialogu cassian-pracownia."
+    - "Gdy postać kłamie w targu (obiecuje ciszę, a widać, że pójdzie do Wrena): „Nie bierz tego do siebie, ale kłamiesz gorzej niż Finch.” (możesz poprosić o test przeciwny; przyłapany kłamca dostaje od niego tylko lokalizację pracowni, bez zegarka i karty)"
+    - "Gdy postacie stawiają upokarzające warunki (np. ma się przyznać przy całej grupie): „Nie.” (pauza) „Wolę przegrać pojedynek niż to.” (wróć do rozmowy „Cassian wyzywa na pojedynek” albo Cassian odchodzi)"
+    - "Gdy postacie z dobrej woli proponują pomoc i niczego nie żądają: (przejdź do rozmowy „Cassian i litość” niżej)"
+    - "Nieprzewidziane: (gdy postacie proponują, że pomogą mu oddać godziny; Cassian zamiera) „Oddać.” (pauza) „Myślicie, że się da?” (to otwiera drogę do litości i do dopisku na karcie)"
+    - "Może zdradzić po zawarciu umowy: gdzie jest pracownia i to, co uzgodniono (zegarek, kartę albo oba). Wtedy przejdź do rozmowy „Co Cassian wie o pracowni”."
     - "Nie zdradza przed umową: niczego. Po umowie nie mówi więcej, niż obiecał, chyba że ktoś okaże mu troskę."
   wariant_od: [flaga.zegarek-cassiana, flaga.wren-podejrzewa]
 ```
 
 ### Cassian i litość (krok 5)
 
-Najważniejsza droga dla początkujących graczy. Działa szczera troska, nie ciekawość: „wyglądasz, jakbyś nie spał od tygodnia”, „co ci się stało w rękę?”, podany kubek wody, usiąść obok. Wtedy Cassian schodzi o stopień niżej, a przy drugiej takiej chwili się łamie i czytasz tekst 5. Po litości oddaje zegarek i kartę sam (`flaga.cassian-los` = sojusznik).
+Najważniejsza droga dla początkujących graczy. Działa szczera troska, nie ciekawość: „wyglądasz, jakbyś nie spał od tygodnia”, „co ci się stało w rękę?”, podany kubek wody, usiąść obok. Wtedy Cassian schodzi o stopień niżej, a przy drugiej takiej chwili się łamie i czytasz tekst 5. Po litości oddaje zegarek i kartę sam i zostaje sojusznikiem postaci (zapisz to).
 
 ```yaml
 dialog:
@@ -450,17 +444,16 @@ dialog:
   ton: "cichy, zmęczony, z powtórzeniami; na końcu prawie szept"
   kwestie:
     - "Otwarcie: „Nie patrz tak na mnie. Ja tylko… Trzy tygodnie nie spałem. Trzy tygodnie.”"
-    - "Wariant poniedziałkowy (Cassian jest tego dnia promienny po kradzieży): „Wyglądam na wyspanego, prawda? To nie mój sen.” (pauza) „To nie jest mój sen.”"
-    - "Gdy postać dalej jest łagodna (drugi gest troski; czytaj tekst 5): „Nie wiem, jak to zatrzymać.” (pauza) „Ja nie wiem, jak to zatrzymać.”"
+    - "Otwarcie, w poniedziałek, gdy Cassian jest promienny po kradzieży: „Wyglądam na wyspanego, prawda? To nie mój sen.” (pauza) „To nie jest mój sen.”"
+    - "Gdy postać dalej jest łagodna (drugi gest troski): (przeczytaj tekst 5) „Nie wiem, jak to zatrzymać.” (pauza) „Ja nie wiem, jak to zatrzymać.”"
     - "Gdy postać pyta o rękę: (patrzy na bandaż) „To nie kociołek.” (długo nic) „Ona mnie nie chciała puścić.”"
     - "Gdy postać pyta, dlaczego to robił: „Ojciec pisze co tydzień. Pyta o oceny. Nie o mnie, o oceny.” (pauza) „Wystarczyło jedno dobre popołudnie. Potem następne.”"
     - "Gdy postać nagle przechodzi do groźby albo szyderstwa: (wstaje, wraca uprzejmość, ale głos się łamie) „Rozumiem. Myliłem się. Nie bierzcie tego do siebie.” (stopień wyżej; litość tej sceny przepada, zostaje targ albo pojedynek)"
     - "Gdy postać kłamie, że wszystko będzie dobrze: (słabo się uśmiecha) „Kłamiesz ładniej niż ja.” (ale zostaje; to go nie odpycha)"
-    - "Gdy postacie proszą o zegarek: (wyjmuje go, kładzie na dłoni postaci, nie puszcza od razu) „Weź. Weź, zanim się rozmyślę.”"
-    - "Gdy postacie proszą o kartę: „W kufrze. W podszewce. Przyniosę. Albo… niech Teague przyniesie, ja nie chcę jej już dotykać.”"
+    - "Gdy proszą o zegarek albo o kartę: (o zegarek: wyjmuje go, kładzie na dłoni postaci, nie puszcza od razu) „Weź. Weź, zanim się rozmyślę.” (o kartę:) „W kufrze. W podszewce. Przyniosę. Albo… niech Teague przyniesie, ja nie chcę jej już dotykać.”"
     - "Gdy postać oferuje pomoc na później: „Gdybyście szli tam nocą… znam drogę, na której nie chodzi Filch.” (pauza) „Ze mną czy beze mnie. Jak wolicie.”"
-    - "Nieprzewidziane (postać go przytula albo kładzie mu rękę na ramieniu): (sztywnieje, potem nie odsuwa się) „Mój ojciec by…” (nie kończy) „Nieważne.”"
-    - "Może zdradzić po litości: wszystko z dialogu cassian-pracownia, bez targu, łącznie z gablotą."
+    - "Nieprzewidziane: (gdy postać go przytula albo kładzie mu rękę na ramieniu; Cassian sztywnieje, potem się nie odsuwa) „Mój ojciec by…” (nie kończy) „Nieważne.”"
+    - "Może zdradzić, gdy już się złamał: wszystko, co wie o pracowni (rozmowa „Co Cassian wie o pracowni”), bez żadnego targu, łącznie z gablotą."
     - "Nie zdradza nawet teraz: słowa „przepraszam” wprost, dopóki nie przeczytasz tekstu 5. Potem może je powiedzieć raz, do postaci, której godzinę wziął: „Wtedy przed Obroną… to byliście wy. Przepraszam.”"
   wariant_od: [flaga.cassian-zdemaskowany]
 ```
@@ -473,29 +466,27 @@ Cassian mówi, gdy przegrał pojedynek, zawarł targ albo się złamał. Podaje 
 dialog:
   id: s1.scena.08.dialog.cassian-pracownia
   npc: npc.cassian-vane
-  wyzwalacz: "Cassian przegrał pojedynek, zawarł targ albo złamał się po litości (krok 6). Ustaw flaga.lokalizacja-pracowni po kwestii otwierającej."
+  wyzwalacz: "Cassian przegrał pojedynek, zawarł targ albo złamał się po litości (krok 6). Po kwestii otwierającej zapisz, że postacie wiedzą, gdzie jest pracownia."
   ton: "cichy, płaski, jakby mówił o kimś innym; przy księdze zaciska lewą dłoń"
   kwestie:
     - "Otwarcie: „Biblioteka. Ostatni rząd. Tam, gdzie Pince nie wpuszcza nikogo.”"
     - "Gdy pytają, jak tam wszedł: „Nie wszedłem. Drzwi mnie znalazły. Szukałem książki o zegarmistrzostwie, a potem po prostu… były.”"
-    - "Gdy pytają, co tam jest (księga, W10): „Książka. Wisi w powietrzu nad pulpitem i świeci na niebiesko. Nie da się jej zabrać i nie da się przewrócić strony.” (pauza) „Ma zagadki. Nie umiałem żadnej.”"
-    - "Gdy pytają o kartę albo dłoń (W10.2; jeśli nie było tekstu 5, czytaj go teraz): „Dotknąłem raz. Potem drugi. Potem złapałem kartkę i szarpnąłem.” (patrzy na bandaż) „Wszystko się obudziło. Zegary, wahadła, schody. Zdążyłem na ostatnim.”"
-    - "Gdy pytają, czy tam wracał, albo o gablotę (zapasowa droga do W7): „Raz. Tam jest szafka ze szkłem, w środku notatnik. Próbowałem ją okraść. Szkło zmatowiało mi pod ręką.” (pauza) „Ona nie daje się brać.”"
-    - "Gdy postacie pokażą mu dopisek na odwrocie karty (flaga.karta-u-graczy): (blednie, czyta dwa razy) „Myślałem, że to ozdobnik.” (cicho) „Oddać. Można oddać.”"
-    - "Gdy pytają, kto napisał książkę albo czyja to pracownia: „Nie wiem. Naprawdę nie wiem.”"
-    - "Gdy postać podaje nazwisko Marrow: „Marrow?” (kręci głową) „Nie było tam żadnych nazwisk. Tylko zegary. Wszystkie stały.”"
-    - "Gdy pytają, jak oddać skradzione godziny: „Gdybym wiedział, nie stałbym tu.”"
+    - "Gdy pytają, co tam jest: „Książka. Wisi w powietrzu nad pulpitem i świeci na niebiesko. Nie da się jej zabrać i nie da się przewrócić strony.” (pauza) „Ma zagadki. Nie umiałem żadnej.”"
+    - "Gdy pytają o kartę albo o jego dłoń: (jeśli nie było jeszcze tekstu 5, przeczytaj go teraz) „Dotknąłem raz. Potem drugi. Potem złapałem kartkę i szarpnąłem.” (patrzy na bandaż) „Wszystko się obudziło. Zegary, wahadła, schody. Zdążyłem na ostatnim.”"
+    - "Gdy pytają, czy tam wracał, albo o gablotę: (to zapasowa podpowiedź do gabloty w pracowni) „Raz. Tam jest szafka ze szkłem, w środku notatnik. Próbowałem ją okraść. Szkło zmatowiało mi pod ręką.” (pauza) „Ona nie daje się brać.”"
+    - "Gdy pytają, kto napisał książkę, czyja to pracownia albo jak oddać skradzione godziny: „Nie wiem. Naprawdę nie wiem.” (gdy postać podaje nazwisko Marrow:) „Marrow?” (kręci głową) „Nie było tam żadnych nazwisk. Tylko zegary. Wszystkie stały.” (o oddawanie godzin:) „Gdybym wiedział, nie stałbym tu.”"
+    - "Gdy postacie mają już kartę i pokażą mu dopisek na jej odwrocie: (blednie, czyta dwa razy) „Myślałem, że to ozdobnik.” (cicho) „Oddać. Można oddać.”"
     - "Gdy postać grozi, że go tam zaciągnie: „Nie.” (pierwszy raz bez uprzejmości) „Do tej książki nie podejdę. Możecie mnie wydać ojcu, nie podejdę.”"
-    - "Gdy postać kłamie, że już tam była: (patrzy uważnie) „To czemu pytasz?” (po teście przeciwnym wygranym przez niego milknie i nic więcej nie dodaje)"
-    - "Nieprzewidziane (postać pyta o chłopca w żółtym krawacie albo o ducha Puchona): (marszczy brwi) „Duch Puchona to plotka trzeciorocznych.” (pauza) „Czemu wszyscy mnie o to pytają?”"
-    - "Może zdradzić bez dodatkowego warunku (gdy już mówi): lokalizację (ostatni rząd Działu Ksiąg Zakazanych), księgę nad pulpitem, porażenie przy dotyku, „wszystko się obudziło”, gablotę z notatnikiem, która nie daje się brać."
+    - "Gdy postać kłamie, że już tam była: (patrzy uważnie) „To czemu pytasz?” (jeśli wygra z nią test przeciwny, milknie i nic więcej nie dodaje)"
+    - "Nieprzewidziane: (gdy postać pyta o chłopca w żółtym krawacie albo o ducha Puchona; Cassian marszczy brwi) „Duch Puchona to plotka trzeciorocznych.” (pauza) „Czemu wszyscy mnie o to pytają?”"
+    - "Może zdradzić, gdy już zaczął mówić (bez dodatkowych warunków): gdzie jest pracownia (ostatni rząd Działu Ksiąg Zakazanych), że nad pulpitem wisi księga, że poraziła go, gdy szarpnął kartę, że wtedy „wszystko się obudziło” i że jest tam gablota z notatnikiem, która nie daje się brać. Podaje to w kawałkach, każdą rzecz osobno."
     - "Nie zdradza, bo nie wie: kto napisał księgę, nazwiska Marrow, kim jest Ansel, czym są zatrzymane zegary, jak oddawać godziny. Nie połączył dopisku na karcie z gablotą, dopóki mu go nie pokażą."
   wariant_od: [flaga.karta-u-graczy, flaga.lokalizacja-pracowni]
 ```
 
 ### Profesor Wren: „Dosyć” (krok 4 albo donos)
 
-Wren wchodzi w dwóch sytuacjach: gdy pojedynek przekracza granicę albo gdy postacie przychodzą do niego z Cassianem lub ze swoją wiedzą (rozgałęzienie `donos`). Przy uczniach nie pyta o zegarek. Daje Cassianowi jedną szansę na prawdę; Cassian przy nauczycielu zawsze milczy.
+Wren wchodzi w dwóch sytuacjach: gdy pojedynek przekracza granicę albo gdy postacie przychodzą do niego z Cassianem lub ze swoją wiedzą (donos). Przy uczniach nie pyta o zegarek. Daje Cassianowi jedną szansę na prawdę; Cassian przy nauczycielu zawsze milczy.
 
 ```yaml
 dialog:
@@ -504,18 +495,16 @@ dialog:
   wyzwalacz: "Pojedynek przekracza granicę (krew, ktoś nie wstaje, zabrana godzina), bójka przy świadkach, albo postacie przychodzą do Wrena z donosem."
   ton: "niski, cichy, krótki jak meldunek; długie pauzy"
   kwestie:
-    - "Otwarcie (w drzwiach): „Dosyć.” (pauza) „Różdżki na podłogę. Wszystkie.”"
-    - "Do Cassiana: „Panie Vane. Chce mi pan coś powiedzieć?” (Cassian: „Nie, panie profesorze.”) „Rozumiem.”"
-    - "Do wszystkich: „Dormitoria. Wszyscy. Rozmowa jutro po lekcji.”"
+    - "Otwarcie, w drzwiach: „Dosyć.” (pauza) „Różdżki na podłogę. Wszystkie.”"
+    - "Gdy różdżki leżą już na podłodze: (do Cassiana) „Panie Vane. Chce mi pan coś powiedzieć?” (Cassian odpowiada: „Nie, panie profesorze.”) „Rozumiem.” (do wszystkich) „Dormitoria. Wszyscy. Rozmowa jutro po lekcji.”"
     - "Gdy postać na odchodnym próbuje mu coś powiedzieć o Cassianie: „Dowód, panie [nazwisko]. Nie pewność. Pewność mam własną, i nic z nią nie mogę zrobić.”"
-    - "Uwaga o ocenach, jeśli nie padła w scenie 04 (cicho, do jednej postaci na odchodnym): „Pan Vane podniósł oceny w dwa tygodnie. Ze wszystkiego naraz. Tak się nie da, chyba że ktoś przestał spać.”"
-    - "Donos: postacie mówią o zegarku: „Zepsuty zegarek to nie przestępstwo. Proszę mi przynieść coś, co jest.”"
-    - "Donos z flaga.wren-podejrzewa (już podejrzewa): (słucha do końca, stuka raz kostką w blat) „Zatrzymam pana Vane'a po lekcjach. Wy nic nie robicie. Rozumiemy się?”"
+    - "Gdy postacie wychodzą, a Wren nie mówił im jeszcze w scenie 04 o ocenach Cassiana: (cicho, do jednej postaci) „Pan Vane podniósł oceny w dwa tygodnie. Ze wszystkiego naraz. Tak się nie da, chyba że ktoś przestał spać.”"
+    - "Gdy postacie przychodzą z donosem i mówią o zegarku: „Zepsuty zegarek to nie przestępstwo. Proszę mi przynieść coś, co jest.” (jeśli Wren już wcześniej podejrzewał Cassiana, zamiast tego słucha do końca i stuka raz kostką w blat) „Zatrzymam pana Vane'a po lekcjach. Wy nic nie robicie. Rozumiemy się?”"
+    - "Gdy postacie przynoszą mu zegarek: (bierze, waży w dłoni, nie otwiera) „Zostanie u mnie.” (zegarek jest odtąd skonfiskowany; u nauczyciela sam nic nie podbiera)"
     - "Gdy postać kłamie: „Wróćcie, gdy będziecie gotowi powiedzieć mi prawdę.”"
     - "Gdy postać grozi albo jest bezczelna: (długie spojrzenie) „Szlaban. W środę.”"
-    - "Gdy postacie przynoszą mu zegarek: (bierze, waży w dłoni, nie otwiera) „Zostanie u mnie.” (flaga.zegarek-cassiana = skonfiskowany; zegarek u nauczyciela sam nic nie podbiera)"
-    - "Nieprzewidziane (ktoś jest ranny albo nie wstaje): (klęka, sprawdza oddech) „Skrzydło szpitalne. Ty i ty, pod ramiona. Już.”"
-    - "Może zdradzić: że patrzy na Cassiana i że potrzebuje dowodu. Swój konkret o ocenach."
+    - "Nieprzewidziane: (gdy ktoś jest ranny albo nie wstaje; Wren klęka i sprawdza oddech) „Skrzydło szpitalne. Ty i ty, pod ramiona. Już.”"
+    - "Może zdradzić: że obserwuje Cassiana i że potrzebuje dowodu. Jeśli nie zrobił tego w scenie 04, mówi też, co zauważył w ocenach Cassiana (podniósł je ze wszystkiego naraz w dwa tygodnie)."
     - "Nie zdradza: niczego o swojej pracy w Biurze Aurorów ani o dawnej sprawie. Nie oskarża Cassiana przy uczniach."
   wariant_od: [flaga.wren-podejrzewa, flaga.zegarek-cassiana]
 ```
@@ -537,8 +526,9 @@ dialog:
     - "Gdy postać na niego krzyczy, żeby był cicho: (kuli się) „Przepraszam.” (znika przy pierwszej okazji, wraca jutro)"
     - "Gdy zaczyna się pojedynek: „Nie bijcie się, proszę. Pani profesor mówiła, że w zamku się nie biega i nie bije.”"
     - "Gdy Cassian zabiera komuś godzinę (tekst 4): (blednie, brzegi się strzępią na chwilę) „Zrobiło się zimno. Czuliście? Zrobiło się zimno.”"
-    - "Nieprzewidziane (postacie każą mu dotknąć zegarka albo coś Cassianowi zabrać): (cofa się) „Nie. Nie chcę. To jest… to jest czyjeś.”"
-    - "Może zdradzić: tylko to, co czuje (tykanie jak przy straconej godzinie, zimno). Po zniszczeniu zegarka (tekst 6): „Co to było?”"
+    - "Gdy postacie niszczą zegarek (po tekście 6): „Co to było?”"
+    - "Nieprzewidziane: (gdy postacie każą mu dotknąć zegarka albo coś Cassianowi zabrać; Ansel się cofa) „Nie. Nie chcę. To jest… to jest czyjeś.”"
+    - "Może zdradzić: tylko to, co czuje: że zegarek tyka tak samo jak wtedy, gdy postacie straciły godzinę, i że robi się zimno."
     - "Nie zdradza, bo nie wie: nic o pracowni ani o karcie w tej scenie. Nie mówi „umarłem” ani „duch”."
   wariant_od: []
 ```
