@@ -1,0 +1,418 @@
+[
+ {
+  "nazwa": "Accio",
+  "typ": "Charm",
+  "needs": null,
+  "tr": "12",
+  "str": 47,
+  "opis_en": "Summons an object to the caster. They must be able to visualise the object, but they don’t need to know it’s exact location. The object moves towards the caster, so it may take a while to arrive if it is very distant. The spell cannot summon objects protected by an Anti-theft Charm."
+ },
+ {
+  "nazwa": "Age Line",
+  "typ": "Charm",
+  "needs": null,
+  "tr": "15",
+  "str": 47,
+  "opis_en": "Prevents people above or below a certain age from access to an area marked by a line gouged into the ground."
+ },
+ {
+  "nazwa": "Aguamenti",
+  "typ": "Transfiguration",
+  "needs": null,
+  "tr": "18",
+  "str": 47,
+  "opis_en": "Produces a stream of drinkable water from the wand tip. Can produce anything from a trickle to a wave causing knock back."
+ },
+ {
+  "nazwa": "Alarte Ascendare",
+  "typ": "Charm",
+  "needs": null,
+  "tr": "12",
+  "str": 47,
+  "opis_en": "Shoots a target up to ten feet into the air. Can be countered with the Descendo Charm. If the spell isn’t countered it can lead to minor injury. A soft landing may just leave you Rattled or Dazed, a hard landing may cause 2D or 3D physical impact at the Narrator’s discretion."
+ },
+ {
+  "nazwa": "Alohomora",
+  "typ": "Charm",
+  "needs": null,
+  "tr": "12",
+  "str": 47,
+  "opis_en": "Unlocks doors and other objects. Can open all doors secured with Muggle locks, even ones they would consider high–security. Counters the Colloportus Locking Charm, but stronger Anti–Alohomora may be encountered."
+ },
+ {
+  "nazwa": "Amato Animo Animato Animagus",
+  "typ": "Transfiguration",
+  "needs": "Animagus Potion",
+  "tr": "21",
+  "str": 47,
+  "opis_en": "This spell is part of a month long undertaking to achieve the Animagus power. Gaining the ability to transform into one particular animal form at will. See page 43 for details."
+ },
+ {
+  "nazwa": "Anapneo",
+  "typ": "Transfiguration",
+  "needs": null,
+  "tr": "15",
+  "str": 47,
+  "opis_en": "Healing magic that clears the target’s airway by vanishing the blockage."
+ },
+ {
+  "nazwa": "Anti–Apparition Charm",
+  "typ": "Charm",
+  "needs": null,
+  "tr": "15",
+  "str": 47,
+  "opis_en": "Prevents apparition in an area to prevent entry."
+ },
+ {
+  "nazwa": "Anti–Disapparition Jinx",
+  "typ": "Jinx",
+  "needs": null,
+  "tr": "15",
+  "str": 47,
+  "opis_en": "Prevents disapparition in an area to entrap an enemy."
+ },
+ {
+  "nazwa": "Anti–intruder Jinx",
+  "typ": "Jinx",
+  "needs": null,
+  "tr": "15",
+  "str": 47,
+  "opis_en": "Prevents intruders from entering an area by any physical means."
+ },
+ {
+  "nazwa": "Aparecium",
+  "typ": "Charm",
+  "needs": null,
+  "tr": "12",
+  "str": 47,
+  "opis_en": "Reveals secret messages written with invisible invisible ink or cloaked by Concealing Charms."
+ },
+ {
+  "nazwa": "Apparition",
+  "typ": "Transportation",
+  "needs": null,
+  "tr": "18",
+  "str": 47,
+  "opis_en": "Transports you to another location, accompanied by an audible popping noise, as well as anybody you are touching. You must have previously seen the target location, even if indirectly. Pinpoint targeting can be unreliable over long distances and any lack of concentration can be dangerous. Apparition is licensed by the Ministry of Magic and requires a test. Users must be at least 17, but can begin training at 16."
+ },
+ {
+  "nazwa": "Arresto Momentum",
+  "typ": "Charm",
+  "needs": null,
+  "tr": "12",
+  "str": 47,
+  "opis_en": "Slows down a moving target or targets. Can be used to slow down opponents or cushion a fall. When cast on a moving person or creature they immediately grind to a halt, cancelling their current action and losing their next action."
+ },
+ {
+  "nazwa": "Atmospheric Charm",
+  "typ": "Charms",
+  "needs": null,
+  "tr": "12",
+  "str": 48,
+  "opis_en": "A localised Weather– Modifying Charm that can create weather conditions indoors (rain, breezes, etc.) The Counter–Charm for this is Meteolojinx Recanto."
+ },
+ {
+  "nazwa": "Avada Kedavra",
+  "typ": "Curse",
+  "needs": null,
+  "tr": "18",
+  "str": 48,
+  "opis_en": "Causes instantaneous death. The spell is accompanied by a flash of green light and a rushing noise. There is no known counter–curse, but it can be dodged as with other aimed spells. Objects can also be used to block the spell, either by ducking behind cover or by magically moving objects between you and the caster. One of the three Unforgivable Curses."
+ },
+ {
+  "nazwa": "Avifors",
+  "typ": "Transfiguration",
+  "needs": null,
+  "tr": "12",
+  "str": 48,
+  "opis_en": "Transforms small objects or parts of an object into delicate and inoffensive tiny birds."
+ },
+ {
+  "nazwa": "Avis",
+  "typ": "Transfiguration",
+  "needs": null,
+  "tr": "21",
+  "str": 48,
+  "opis_en": "Conjures a flock of birds from the tip of your wand. Can be used offensively when paired with the Oppugno Jinx. Although the birds will cause next to no damage, they can be an alarming distraction leaving the victim Rattled or Dazed at the Narrator’s discretion."
+ },
+ {
+  "nazwa": "Baubillious",
+  "typ": "Charm",
+  "needs": null,
+  "tr": "12",
+  "str": 48,
+  "opis_en": "Emits white sparks from the wand tip. Can be used in Duelling, Skirmishing, and for signalling. The sparks cause 3D+Focus damage to anything they touch."
+ },
+ {
+  "nazwa": "Bluebell Flames",
+  "typ": "Charm",
+  "needs": null,
+  "tr": "9",
+  "str": 48,
+  "opis_en": "Produces blue flames that can light an area or be carried in a jar. The flames can be touched and held safely, but can singe material and plant matter."
+ },
+ {
+  "nazwa": "Bombarda",
+  "typ": "Charm",
+  "needs": null,
+  "tr": "12",
+  "str": 48,
+  "opis_en": "Can blow a hole in a physical structure large enough for two or three people to move through. Causes 6D+Focus+30 blasting damage (see page 42)."
+ },
+ {
+  "nazwa": "Bombarda Maxima",
+  "typ": "Charm",
+  "needs": "Bombarda Charm",
+  "tr": "15",
+  "str": 48,
+  "opis_en": "Blows a large hole in a structure large enough for ten or twenty people to move through. Causes 9D+Focus+60 blasting damage (see page 42)."
+ },
+ {
+  "nazwa": "Brackium Emendo",
+  "typ": "Charm",
+  "needs": null,
+  "tr": "18",
+  "str": 48,
+  "opis_en": "Heals broken bones, but can further damage (or even remove) bones if badly applied."
+ },
+ {
+  "nazwa": "Broom Jinx",
+  "typ": "Jinx",
+  "needs": null,
+  "tr": "12",
+  "str": 48,
+  "opis_en": "Makes a broomstick lurch and lunge dangerously. The broom rider will have to actively fight to stay on. Constant eye contact is required to maintain the spell."
+ },
+ {
+  "nazwa": "Bubble–head Charm",
+  "typ": "Charm",
+  "needs": null,
+  "tr": "12",
+  "str": 48,
+  "opis_en": "A large bubble of air forms around the head of the user. The bubble provides a constant source of air. The casting requires Gillyweed to be swallowed (see page 69)."
+ },
+ {
+  "nazwa": "Capacious Extremis",
+  "typ": "Charm",
+  "needs": null,
+  "tr": "18",
+  "str": 48,
+  "opis_en": "Increases the internal dimensions of a container without affecting the external dimensions."
+ },
+ {
+  "nazwa": "Carpe Retractum",
+  "typ": "Charm",
+  "needs": null,
+  "tr": "12",
+  "str": 48,
+  "opis_en": "Produces a rope of light that the caster can use to pull an object towards them, or climb up. The physical exertion required to pull heavy objects or climb is the same as it would be with a normal rope."
+ },
+ {
+  "nazwa": "Caterwauling Charm",
+  "typ": "Charm",
+  "needs": null,
+  "tr": "12",
+  "str": 48,
+  "opis_en": "Alerts entry to the area protected by emitting a high– pitched shriek."
+ },
+ {
+  "nazwa": "Cave Inimicum",
+  "typ": "Charm",
+  "needs": null,
+  "tr": "15",
+  "str": 49,
+  "opis_en": "Produces an invisible barrier that keeps the caster hidden. Anybody behind the barrier cannot be seen or heard. Magical creatures with an enhanced sense of smell may still be able to detect their presence. The effect can be countered with the Homenum Revelio Charm."
+ },
+ {
+  "nazwa": "Cheering Charm",
+  "typ": "Charm",
+  "needs": null,
+  "tr": "9",
+  "str": 49,
+  "opis_en": "Makes the target feel happy. Overuse may lead to hysteria."
+ },
+ {
+  "nazwa": "Cistem Aperio",
+  "typ": "Charm",
+  "needs": null,
+  "tr": "9",
+  "str": 49,
+  "opis_en": "Opens unlocked doors, windows, chests, boxes, and other containers. Locked items must instead be opened with the Alohomora Unlocking Charm."
+ },
+ {
+  "nazwa": "Colloportus",
+  "typ": "Charm",
+  "needs": null,
+  "tr": "12",
+  "str": 49,
+  "opis_en": "The Locking Charm. Magically seals doors and any other object that can be locked. Can be countered with the Alohomora Unlocking Charm."
+ },
+ {
+  "nazwa": "Colovaria",
+  "typ": "Charm",
+  "needs": null,
+  "tr": "12",
+  "str": 49,
+  "opis_en": "Changes the colour of anything it is cast on."
+ },
+ {
+  "nazwa": "Confringo",
+  "typ": "Curse",
+  "needs": null,
+  "tr": "15",
+  "str": 49,
+  "opis_en": "The Blasting Curse. Destroys inanimate objects with a blast of heat. Causes 6D+Focus+30 blasting damage (see page 42). Can be used for duelling, but is dangerous as an overly powerful blast can be fatal."
+ },
+ {
+  "nazwa": "Confundo",
+  "typ": "Charm",
+  "needs": null,
+  "tr": "15",
+  "str": 49,
+  "opis_en": "Causes the victim to become confused and befuddled. The target is immediately placed in a confused state for one round. Each following round they can roll 1D+Wits with a target of 12 to shrug off the effect. A powerful Confundo Charm can leave the target highly impressionable and open to suggestion."
+ },
+ {
+  "nazwa": "Conjunctivitis Curse",
+  "typ": "Curse",
+  "needs": null,
+  "tr": "15",
+  "str": 49,
+  "opis_en": "Irritates an opponents eyes so that they swell shut, causing reduced vision. Adds a 10 point penalty to all attack and defensive rolls by the victim. Useful against Dragons and other creatures with magic resistant hides."
+ },
+ {
+  "nazwa": "Crinis Muto",
+  "typ": "Transfiguration",
+  "needs": null,
+  "tr": "12",
+  "str": 49,
+  "opis_en": "Used to recolour and restyle your hair. Mistaken casting can be embarrassing."
+ },
+ {
+  "nazwa": "Crucio",
+  "typ": "Curse",
+  "needs": null,
+  "tr": "18",
+  "str": 49,
+  "opis_en": "The Cruciatus Curse, also known as the Torture Curse. Inflicts agonising pain on the target like white–hot knives piercing every inch of their skin. Doesn’t cause actual physical harm, but prolonged use can leave permanent emotional damage and even leave the victim raving or mindless. Prolonged use causes mental damage at the Narrator’s discretion. Crucio is one of the three Unforgivable Curses."
+ },
+ {
+  "nazwa": "Defodio",
+  "typ": "Charm",
+  "needs": null,
+  "tr": "15",
+  "str": 49,
+  "opis_en": "The Gouging Charm. Used to dig out channels in any material that can be dug into or carved. Can be used to form tunnels and passageways, and with delicate application, carve inscriptions and decoration."
+ },
+ {
+  "nazwa": "Deletrius",
+  "typ": "Charm",
+  "needs": null,
+  "tr": "12",
+  "str": 49,
+  "opis_en": "The Eradication Spell. Can disintegrate the intangible effects of certain spells like the Homonculus Charm and the Revealing Charm. In this way it acts as a counter–charm to the Prior Incantato Charm. Where Prior Incantato shows an echo of the last spell cast by a wand, Deletrius eradicates that echo."
+ },
+ {
+  "nazwa": "Densaugeo",
+  "typ": "Hex",
+  "needs": null,
+  "tr": "12",
+  "str": 50,
+  "opis_en": "Causes the target’s teeth to grow rapidly. Can be used to grow the victim’s teeth to monstrous size, or applied delicately to repair broken teeth."
+ },
+ {
+  "nazwa": "Deprimo",
+  "typ": "Charm",
+  "needs": "Defodio Charm",
+  "tr": "15",
+  "str": 50,
+  "opis_en": "Blasts large holes in the ground. Causes 6D+Focus+40 blasting damage to the ground (see page 42). A more powerful form of the Defodio Charm."
+ },
+ {
+  "nazwa": "Depulso",
+  "typ": "Charm",
+  "needs": null,
+  "tr": "12",
+  "str": 50,
+  "opis_en": "The Banishing Charm. Sends an object or being flying away from the caster without injury. Counters the Accio Charm, repelling the summoned object."
+ },
+ {
+  "nazwa": "Descendo",
+  "typ": "Charm",
+  "needs": null,
+  "tr": "12",
+  "str": 50,
+  "opis_en": "Causes object to fall or move downwards. Can be used to bring an object down gently, or quickly topple objects onto somebody below as an attack or to form an obstacle."
+ },
+ {
+  "nazwa": "Diffindo",
+  "typ": "Charm",
+  "needs": null,
+  "tr": "9",
+  "str": 50,
+  "opis_en": "The Severing Charm. Used to precisely cut or tear objects."
+ },
+ {
+  "nazwa": "Diminuendo",
+  "typ": "Charm",
+  "needs": null,
+  "tr": "15",
+  "str": 50,
+  "opis_en": "Shrinks objects. Not to be confused with the Reducio Charm that returns enlarged objects to their original size."
+ },
+ {
+  "nazwa": "Disillusionment Charm",
+  "typ": "Charm",
+  "needs": null,
+  "tr": "15",
+  "str": 50,
+  "opis_en": "Makes the caster or target effectively invisible by camouflaging them to perfectly match their background. Hippogriffs and Winged Horses may only be owned by wizards if the owner performs this charm daily."
+ },
+ {
+  "nazwa": "Draconifors",
+  "typ": "Transfiguration",
+  "needs": null,
+  "tr": "12",
+  "str": 50,
+  "opis_en": "Transforms small objects or parts of an object into harmless infant Dragons."
+ },
+ {
+  "nazwa": "Drought Charm",
+  "typ": "Charm",
+  "needs": null,
+  "tr": "12",
+  "str": 50,
+  "opis_en": "Dries up small bodies of water like puddles and ponds."
+ },
+ {
+  "nazwa": "Duro",
+  "typ": "Charm",
+  "needs": null,
+  "tr": "12",
+  "str": 50,
+  "opis_en": "The Hardening Charm. Turns an object into stone (50 point resilience). The charm is not delicate enough to be targeted at an opponent during combat, but can be used on the environment to strengthen cover and create obstacles."
+ },
+ {
+  "nazwa": "Engorgio",
+  "typ": "Charm",
+  "needs": null,
+  "tr": "12",
+  "str": 50,
+  "opis_en": "The Engorgement Charm or Growing Charm. Causes a target to swell rather than grow."
+ },
+ {
+  "nazwa": "Episkey",
+  "typ": "Charm",
+  "needs": null,
+  "tr": "12",
+  "str": 50,
+  "opis_en": "Heals relatively minor injuries like a broken nose, fingers, toes, and split lips. The spell creates sudden temperature changes in the body parts being healed."
+ },
+ {
+  "nazwa": "Erecto",
+  "typ": "Charm",
+  "needs": null,
+  "tr": "12",
+  "str": 50,
+  "opis_en": "Straightens and sets up a tent or similar structure."
+ }
+]
