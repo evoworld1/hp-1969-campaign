@@ -368,7 +368,8 @@ function tRozwoj(t) {
   el("r-s-b").onclick = function () { var x = el("r-s").value.trim(); if (x) dodajZmiane({ typ: "specjalizacja", tekst: x }); };
   el("r-p-b").onclick = function () { var x = el("r-p").value.trim(); if (x) dodajZmiane({ typ: "przedmiot", nazwa: x, opis: el("r-p-o").value.trim() }); };
   var cof = el("r-cof"); if (cof) cof.onclick = function () { var z = R.zmiany[R.zmiany.length - 1]; if (!z || !confirm("Cofnąć: " + opisZmiany(z) + "?")) return; R.zmiany.pop(); if (z.sp) { ST.sp = Math.max(0, ST.sp - z.sp); zapisz(); } zapiszR(); P = zastosuj(BAZA, R.zmiany); widok(); };
-  el("r-eks").onclick = function () { var tx = eksport(); el("r-txt").value = tx; try { navigator.clipboard.writeText(tx); el("r-komunikat").textContent = "Skopiowano do schowka."; } catch (e) { el("r-komunikat").textContent = "Zaznacz tekst i skopiuj ręcznie."; } };
+  el("r-eks").onclick = function () { var tx = eksport(); el("r-txt").value = tx; var rec = function () { el("r-txt").select(); el("r-komunikat").textContent = "Tekst jest zaznaczony: skopiuj go (Ctrl+C) i wklej Reżyserowi."; };
+    try { navigator.clipboard.writeText(tx).then(function () { el("r-komunikat").textContent = "Skopiowano do schowka. Wklej Reżyserowi."; }, rec); } catch (e) { rec(); } };
   el("r-imp").onclick = function () { var w = importuj(el("r-txt").value); el("r-komunikat").textContent = w; if (/^Zaimportowano/.test(w)) { R = wczytajR(SLUG); ST = stanZdrowia(SLUG, BAZA); P = zastosuj(BAZA, R.zmiany); widok(); } };
 }
 function yq(s) { return '"' + String(s == null ? "" : s).replace(/\\/g, "\\\\").replace(/"/g, '\\"') + '"'; }

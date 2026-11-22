@@ -58,6 +58,8 @@ przedmioty_6_roku:
   Transfiguration: Transmutacja
   Magical Creatures: Opieka nad Magicznymi Stworzeniami
   Ancient Runes: Starożytne Runy
+  Muggle Studies: Mugoloznawstwo
+  Magical Theory: Teoria Magii
 grupy_premii_rozdzki:
   Charms: Zaklęcia
   Curses: Klątwy
@@ -85,10 +87,15 @@ rdzenie_i_drewna:
   Phoenix Feather: Pióro feniksa
   Unicorn Hair: Włos jednorożca
   Dragon Heartstring: Włókno ze smoczego serca
+  Aspen: Osika
+  Hawthorn: Głóg
+  Kelpie Hair: Włos kelpie
+  Dittany Stalk: Łodyga dyptamu
 gietkosc:
   Reasonably springy: Dość sprężysta
   Fairly flexible: Całkiem giętka
   Nice and flexible: Miło giętka
+  Springy: Sprężysta
 pochodzenie:
   Pure-blood: Czystej krwi
   Half-blood: Półkrwi
@@ -103,6 +110,7 @@ domy:
 rody:
   Longbottom: Longbottom (ród z listy s. 7)
   Abbot: Abbot (ród z listy s. 7)
+  Macmillan: Macmillan (ród z listy s. 7)
 zwierzeta:
   sowa: sowa
   kot: kot

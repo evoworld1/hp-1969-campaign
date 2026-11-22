@@ -1,0 +1,242 @@
+# Karta gracza v2 (pełna ścieżka, wszystko z opisu gracza). Kolejność kluczy jak w v1; poprzednia wersja: v1/zora-vos.yaml
+id: gracz.zora-vos
+wersja: 2
+imie: Zora Vos
+dom: Slytherin
+rok: 6
+wiek: 16
+archetyp: 'v2: naprawiaczka i pojedynkowiczka (refleks, pomysł, magiczne przedmioty)'
+pochodzenie:
+  typ: half-blood
+  rod: ''
+  uwagi: Mechanicznie półkrwi (3 Story Points), bo Zora nie zna ojca i nie wie, jakiej jest krwi. Prawdę
+    ustala MG, nie karta.
+cecha_rzadka: brak
+story_points: 3
+cechy:
+  Vitality: 3
+  Speed: 6
+  Wits: 6
+  Knowledge: 3
+  Focus: 4
+umiejetnosci:
+  Crafting: 6
+  Charms: 5
+  Observation: 5
+  Transfiguration: 5
+  Duelling: 4
+  Persuasion: 4
+  Ancient Runes: 3
+  Balance: 3
+  D.A.D.A.: 3
+  Magical Theory: 3
+  Strategy: 3
+  Chicanery: 2
+  Trivia: 2
+  Astronomy: 1
+  Herbology: 1
+  History of Magic: 1
+  Muggle Studies: 1
+  Potions: 1
+specjalizacje:
+- Crafting (Naprawa magicznych przedmiotów)
+- Charms (Rozbrajanie)
+- Observation (Usterki i szczegóły)
+przedmioty_6_roku:
+- Charms
+- Transfiguration
+- D.A.D.A.
+- Ancient Runes
+- Magical Theory
+rozdzka:
+  drewno: Aspen
+  dlugosc_cali: 10.5
+  rdzen: Kelpie Hair
+  gietkosc: Springy
+  wytrzymalosc: 2D+2
+  premie:
+  - Charms +1 (Aspen)
+  - Duelling +1 (Aspen)
+  - Transfiguration +2 (Kelpie Hair)
+  - Water Magic +1 (Kelpie Hair)
+  opis: 'Kupiona z drugiej ręki: rękojeść wytarta do gładkości, na drewnie drobne rysy. Rdzeń z włosa
+    kelpie to rzadkość, więc poprzedni właściciel (albo wytwórca) pozostaje zagadką.'
+zwierze:
+  rodzaj: ''
+  imie: ''
+zaklecia:
+  # Podstawy użytkowe i obrona (bez Aparecium, Episkey i Revelio: zamiast nich Specialis Revelio)
+  wspolny:
+  - nazwa: Lumos
+    kratki: 1
+  - nazwa: Nox
+    kratki: 1
+  - nazwa: Wingardium Leviosa
+    kratki: 1
+  - nazwa: Diffindo
+    kratki: 1
+  - nazwa: Locomotor
+    kratki: 1
+  - nazwa: Alohomora
+    kratki: 2
+  - nazwa: Reparo
+    kratki: 2
+  - nazwa: Accio
+    kratki: 2
+  - nazwa: Expelliarmus
+    kratki: 2
+  - nazwa: Protego
+    kratki: 3
+  - nazwa: Finite Incantatem
+    kratki: 3
+  # Naprawa, przedmioty i transmutacja
+  archetyp:
+  - nazwa: Specialis Revelio
+    kratki: 3
+  - nazwa: Switching Spell
+    kratki: 3
+  - nazwa: Incendio
+    kratki: 2
+  - nazwa: Spongify
+    kratki: 2
+  - nazwa: Reducio
+    kratki: 2
+  - nazwa: Engorgio
+    kratki: 2
+  - nazwa: Feather-light Charm
+    kratki: 2
+  - nazwa: Duro
+    kratki: 2
+  # Szybkie zaklęcia pojedynkowe: rozbrajanie, spowalnianie, podcinanie
+  wybor:
+  - nazwa: Flipendo
+    kratki: 2
+  - nazwa: Rictustempra
+    kratki: 2
+  - nazwa: Impedimenta
+    kratki: 3
+  - nazwa: Everte Statum
+    kratki: 2
+  - nazwa: Trip Jinx
+    kratki: 2
+  - nazwa: Colloportus
+    kratki: 2
+  # Magia zaawansowana 6-7 roku i eliksiry zaawansowane (po 3 kratki, 10 pozycji = 30 kratek)
+  zaawansowane:
+  - nazwa: Aguamenti
+    kratki: 3
+  - nazwa: Cave Inimicum
+    kratki: 3
+  - nazwa: Incarcerous
+    kratki: 3
+  - nazwa: Protean Charm
+    kratki: 3
+  - nazwa: Calming Draught
+    kratki: 3
+  - nazwa: Draught of Peace
+    kratki: 3
+  - nazwa: Polyjuice Potion
+    kratki: 3
+  - nazwa: Shrinking Solution
+    kratki: 3
+  - nazwa: Sleeping Draught
+    kratki: 3
+  - nazwa: Wound-cleaning Potion
+    kratki: 3
+zdrowie:
+  body_kolka: 0
+  mind_kolka: 0
+wyglad: Drobna, żylasta, ciemne włosy związane byle jak, na palcach ślady smaru i atramentu, w kieszeniach
+  zawsze śrubki i kawałek drutu.
+charakter: Spostrzegawcza, ambitna i towarzyska, z ciętym humorem. Ceni pomysłowość i jest lojalna wobec
+  przyjaciół. Niechętnie przyznaje się do błędów. W pracowni matki nauczyła się cierpliwie sprawdzać,
+  dlaczego coś nie działa.
+sekret: Nigdy nie poznała ojca, a matka milczy na jego temat. Zora nie wie, czy jest czystej, czy półkrwi,
+  i ukrywa tę niewiedzę przed innymi.
+osoba_bliska: Matka, która prowadzi pracownię naprawy magicznych przedmiotów w Yorku.
+wakacje_1969: 'Pomagała matce w pracowni: lampy, kompasy i ciężka torba cudzych zepsutych drobiazgów do
+  poskładania.'
+haczyki_mg:
+- 'Niewiedza o ojcu: ktoś w Slytherinie (albo Cassian/Pożyczający) wie więcej o jej pochodzeniu niż ona;
+  pokusa, by to sprawdzić.'
+- 'Naprawianie: zepsuty albo zatrzymany mechanizm (zegar, zegarek, zamek) to jej naturalny punkt wejścia
+  (Crafting 6, specjalizacja Naprawa magicznych przedmiotów, Specialis Revelio); zaklęcia ujawniające
+  nie pokażą magii czasu (ZD-24), ale ona zobaczy, że coś nie gra.'
+- 'Pojedynki: wygrywa refleksem i pomysłem (Speed 6, Wits 6, Duelling 4, Expelliarmus, Flipendo, Trip
+  Jinx, Everte Statum); w pokazie Wrena jest naturalną kandydatką na ochotniczkę.'
+- 'Slytherin: dormitorium w lochach daje jej dostęp do poszlak o Cassianie, którego inni nie mają.'
+- 'Duma: nie przyzna się, że czegoś nie wie; MG może ją o to przyłapać przy świadkach.'
+- 'Różdżka z drugiej ręki z rdzeniem z włosa kelpie: do wykorzystania jako zagadka (kto jej używał, dlaczego
+  trafiła do sklepu z używanymi).'
+notatki_mg:
+- 'Zmiany względem v1 (powód: opis gracza). Cechy bez zmian (Speed 6 i Wits 6 pasują do pojedynków refleksem
+  i pomysłem).'
+- 'Umiejętności: Crafting 2 -> 6 (pracownia matki, naprawianie), specjalizacja Crafting (Naprawa magicznych
+  przedmiotów) zamiast Charms (Naprawianie); Duelling 0 -> 4 (lubi pojedynki); Stealth 5 i Concealment
+  4 usunięte (nie wynikały z opisu), zamiast nich Observation, Balance, Strategy; Chicanery 5 -> 2; Muggle
+  Studies 2 -> 1, Ancient Runes 3 (runy na magicznych przedmiotach, wchodzi do SUM-ów).'
+- 'Przedmioty 6. roku: Charms, Transfiguration, D.A.D.A., Ancient Runes, Magical Theory (v1: Charms, Transfiguration,
+  D.A.D.A., Potions); Potions spada do 1, bo opis o eliksirach milczy.'
+- 'Różdżka: v1 Mahogany + Phoenix Feather (Transfiguration +3), v2 Aspen + Kelpie Hair (Charms +1, Duelling
+  +1, Transfiguration +2, Water Magic +1, bez Wand Loyalty), bo Zora lubi i transmutację, i pojedynki;
+  rdzeń z włosa kelpie jest z listy rdzeni s. 26 (kolumna różdżek rodowych i starych) i pasuje do różdżki
+  z drugiej ręki.'
+- 'Zaklęcia: dojście zestawu naprawczego (Specialis Revelio, Switching Spell, Spongify, Reducio, Engorgio,
+  Feather-light Charm, Duro, Incendio) i szybkich zaklęć pojedynkowych (Flipendo, Rictustempra, Impedimenta,
+  Everte Statum, Trip Jinx); usunięte Aparecium, Episkey, Revelio, Disillusionment Charm, Confundo, Silencio,
+  Quietus, Obliteration Charm, Cistem Aperio. Protego opanowane (pojedynki, s. 165). Magia zaawansowana:
+  Draught of Peace zamiast Ageing Potion.'
+- 'Pochodzenie, imię, dom, sekret i reszta fabuły bez zmian. Wygląd, osoba bliska, wakacje: PROPOZYCJE
+  z v1, gracz nie podał. Zwierzę towarzyszące: gracz wpisuje sam (sowa, kot albo ropucha, własne imię).
+  Cecha rzadka: brak (MG rzuci przy stole).'
+pewnosc: nasze
+rozklad_punktow:
+  opis: 'Kontrola sum: pule a-e z podręcznika (s. 13, 16; pełna ścieżka, krok 6). Pule a-e liczą się osobno;
+    premia pochodzenia dochodzi poza pulami.'
+  a_dziecinstwo_12:
+    Crafting: 5
+    Observation: 3
+    Balance: 2
+    Strategy: 2
+  b_dowolne_3:
+    Persuasion: 2
+    Duelling: 1
+  c_przedmioty_podstawowe_8:
+    Astronomy: 1
+    Charms: 1
+    D.A.D.A.: 1
+    Herbology: 1
+    History of Magic: 1
+    Magical Theory: 1
+    Potions: 1
+    Transfiguration: 1
+  d_przedmioty_fakultety_15:
+    Charms: 4
+    Transfiguration: 4
+    D.A.D.A.: 2
+    Ancient Runes: 2
+    Muggle Studies: 1
+    Magical Theory: 2
+  e_dowolne_15:
+    Crafting: 1
+    Duelling: 3
+    Ancient Runes: 1
+    Persuasion: 2
+    Observation: 2
+    Chicanery: 2
+    Trivia: 2
+    Balance: 1
+    Strategy: 1
+  premia_pochodzenia: {}
+  sumy:
+    a_dziecinstwo: 12
+    b_dowolne: 3
+    c_podstawowe: 8
+    d_przedmioty_fakultety: 15
+    e_dowolne: 15
+    pule_razem: 53
+    premia_pochodzenia: 0
+    umiejetnosci_razem: 53
+    cechy_razem: 22
+    kratki_lata_1_5: 50
+    kratki_magia_6_7_i_eliksiry: 30

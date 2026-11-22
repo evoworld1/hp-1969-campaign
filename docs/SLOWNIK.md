@@ -106,6 +106,12 @@ Terminy mechaniczne zostają w oryginale angielskim (Walker 2e). Ten słownik ob
 | Zasady domowe ZD-01 do ZD-23 | Przyjęty pakiet poprawek luk i sprzeczności szkicu Walkera (np. cudza różdżka +5, Nox trudność 9, kratki tylko za naukę); rejestr: `02_zasady/zasady-domowe.md` | przyjęte (MG 2026-11-21) |
 | Kolor (ZD-09) | W formalnym pojedynku uczniów i pokazach Wrena wynik 2× i 3× daje tylko efekt opisowy, bez ran i dodatkowych trafień | nasze, przyjęte (MG 2026-11-21) |
 | ZI-01 Psota, ZI-02 Hałas, ZI-03 Łajnobomba | Trzy zasady domowe Irytka: +1 do trudności testu społecznego przy nauczycielu; ±2 przy skradaniu wobec obchodu Filcha; hałaśliwy prezent jako przekupstwo | nasze, przyjęte (MG 2026-11-21) |
+| Raising Attributes and Skills | Rozwój cech i umiejętności: cecha +1 co roku w urodziny (do 18. roku życia) albo za Story Points (5 × obecna wartość); umiejętność tylko za Story Points (obecna wartość + 3) | 12, 31 |
+| Significant first / Personal victory / Being amazing | Trzy okazje do Story Points: ważny pierwszy raz, osobiste zwycięstwo (też ukończenie przygody lub rozdziału), bycie niesamowitym | 4 |
+| Stawka nagród (3 Story Points na sesję) | Propozycja kampanii: około 3 Story Points na postać na sesję (2–4, najwyżej 5), z limitem nauki z ZD-19; plik `02_zasady/nagradzanie-graczy.md` | nasze, propozycja |
+| Karta gracza v2 (pełna ścieżka) | Karta wyliczona z opisu gracza według pełnej ścieżki: pule punktów a–e, pole `rozklad_punktow` do sprawdzenia sum (cechy 22, umiejętności 53 + premia pochodzenia, kratki 50 + 30); v1 w `03_postacie/gracze/v1/` | nasze |
+| Dark Arts 3 u Luny (wyjątek) | Luna Lovedog ma Dark Arts 3 mimo zasady „Dark Arts 0” (nieuczona w Hogwarcie, s. 22), bo potajemnie czyta o czarnej magii; z Dark Arts rzuca Slugulus Eructo i Locomotor Mortis (ZD-17) | nasze, decyzja MG 2026-11-22 |
+| Aspen, Hawthorn, Kelpie Hair, Dittany Stalk | Osika, głóg, włos kelpie, łodyga dyptamu: drewna i rdzenie z kart v2 (np. Hawthorn: Healing Magic +1 i Curses +1; Dittany Stalk: Herbology +2, +3 w parze z Hawthorn) | 27–29 |
 | Karta gracza (szybka ścieżka) | Plik YAML postaci w `03_postacie/gracze/`; polskie nazwy do karty w `slownik-karty.yaml` | nasze |
 
 ## Skróty

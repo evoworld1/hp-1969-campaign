@@ -36,3 +36,4 @@ textarea.n{width:100%;min-height:9rem;padding:.6rem;border:1px solid var(--linia
 .zk .kr span.pusta{background:transparent;border:1px solid var(--tekst);width:8px;height:8px}
 .wyb-p{margin-bottom:.2rem}.wyb-p button{font-size:1rem;padding:.45rem .9rem}
 .gpasek .flaga{white-space:nowrap}
+.wyb-p button.aktywna small{color:inherit;opacity:.85}

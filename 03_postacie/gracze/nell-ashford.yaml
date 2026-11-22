@@ -1,0 +1,245 @@
+# Karta gracza v2 (pełna ścieżka, wszystko z opisu gracza). Kolejność kluczy jak w v1; poprzednia wersja: v1/nell-ashford.yaml
+id: gracz.nell-ashford
+wersja: 2
+imie: Nell Ashford
+dom: Gryffindor
+rok: 6
+wiek: 16
+archetyp: 'v2: astronomka i alchemiczka księżycowa (mapy nieba, eliksiry, ludzie)'
+pochodzenie:
+  typ: pure-blood
+  rod: Macmillan
+  uwagi: 'Ród z listy s. 7 (z gwiazdką: mniej przywiązany do czystości krwi): Authority 1, Prestige 2.
+    Pasuje do ojca, który szkoli pracowników Ministerstwa Magii. Oksford; matka uczy dzieci przed Hogwartem.
+    Ród to daleka linia, bez specjalnego traktowania (s. 7).'
+cecha_rzadka: brak
+story_points: 0
+cechy:
+  Vitality: 3
+  Speed: 3
+  Wits: 5
+  Knowledge: 7
+  Focus: 4
+umiejetnosci:
+  Astronomy: 7
+  Potions: 6
+  Observation: 5
+  Persuasion: 5
+  Charms: 4
+  Herbology: 4
+  Archivist: 3
+  Arithmancy: 3
+  Art: 3
+  D.A.D.A.: 3
+  Magical Theory: 3
+  Trivia: 3
+  Divination: 2
+  Prestige: 2
+  Authority: 1
+  History of Magic: 1
+  Transfiguration: 1
+specjalizacje:
+- Astronomy (Mapy nieba i fazy Księżyca)
+- Potions (Wpływ faz Księżyca)
+- Persuasion (Zjednywanie ludzi)
+przedmioty_6_roku:
+- Astronomy
+- Potions
+- Arithmancy
+- Herbology
+- Charms
+- D.A.D.A.
+rozdzka:
+  drewno: Vine
+  dlugosc_cali: 11
+  rdzen: Phoenix Feather
+  gietkosc: Fairly flexible
+  wytrzymalosc: 2D+2
+  premie:
+  - Revealing Magic +2 (Vine)
+  - Fire Magic +1 (Phoenix Feather)
+  - Transfiguration +1 (Phoenix Feather)
+  - Wand Loyalty +1 (Phoenix Feather)
+  opis: Prezent od rodziców, pielęgnowana, trzymana w wyściełanym etui. W rękojeści migocze odrobina schwytanego
+    blasku gwiazdy.
+zwierze:
+  rodzaj: ''
+  imie: ''
+zaklecia:
+  # Podstawy (bez Nox: Nell boi się ciemności; Lumos opanowane)
+  wspolny:
+  - nazwa: Lumos
+    kratki: 1
+  - nazwa: Wingardium Leviosa
+    kratki: 1
+  - nazwa: Diffindo
+    kratki: 1
+  - nazwa: Locomotor
+    kratki: 1
+  - nazwa: Alohomora
+    kratki: 2
+  - nazwa: Reparo
+    kratki: 2
+  - nazwa: Accio
+    kratki: 2
+  - nazwa: Aparecium
+    kratki: 2
+  - nazwa: Episkey
+    kratki: 2
+  - nazwa: Protego
+    kratki: 3
+  - nazwa: Finite Incantatem
+    kratki: 3
+  - nazwa: Revelio
+    kratki: 3
+  - nazwa: Expelliarmus
+    kratki: 2
+  # Badanie, ujawnianie i praca w pracowni (kociołek, szkło, ogień)
+  archetyp:
+  - nazwa: Specialis Revelio
+    kratki: 3
+  - nazwa: Homenum Revelio
+    kratki: 3
+  - nazwa: Prior Incantato
+    kratki: 3
+  - nazwa: Bluebell Flames
+    kratki: 1
+  - nazwa: Flagrate
+    kratki: 1
+  - nazwa: Impervius
+    kratki: 1
+  - nazwa: Demitto Ignem
+    kratki: 1
+  - nazwa: Scourgify
+    kratki: 2
+  - nazwa: Tergeo
+    kratki: 2
+  # Pomoc przyjaciołom: ogłuszenie, budzenie, uspokojenie, wyciszenie
+  wybor:
+  - nazwa: Stupefy
+    kratki: 3
+  - nazwa: Cheering Charm
+    kratki: 1
+  - nazwa: Rennervate
+    kratki: 2
+  - nazwa: Quietus
+    kratki: 2
+  # Magia zaawansowana 6-7 roku i eliksiry zaawansowane (po 3 kratki, 10 pozycji = 30 kratek)
+  zaawansowane:
+  - nazwa: Draught of Peace
+    kratki: 3
+  - nazwa: Calming Draught
+    kratki: 3
+  - nazwa: Sleeping Draught
+    kratki: 3
+  - nazwa: Wound-cleaning Potion
+    kratki: 3
+  - nazwa: Polyjuice Potion
+    kratki: 3
+  - nazwa: Love Potion Antidote
+    kratki: 3
+  - nazwa: Elixir to Induce Euphoria
+    kratki: 3
+  - nazwa: Ageing Potion
+    kratki: 3
+  - nazwa: Aguamenti
+    kratki: 3
+  - nazwa: Cave Inimicum
+    kratki: 3
+zdrowie:
+  body_kolka: 0
+  mind_kolka: 0
+wyglad: Wysoka, w za dużym swetrze, włosy w nieładzie; w kieszeni notes z mapami nieba, a na szyi łańcuszek
+  z maleńką szklaną fiolką.
+charakter: Roztargniona w drobiazgach (zapomina o wodzie na herbatę), ale gdy coś ją pochłonie, staje
+  się drobiazgowa i bardzo dokładna. Towarzyska, łatwo zawiera znajomości, za przyjaciółmi stoi murem,
+  także wtedy, gdy rozsądniej byłoby siedzieć cicho. Uwielbia astronomię i eliksiry; prowadzi własne mapy
+  nieba i sprawdza, czy fazy Księżyca wpływają na mikstury.
+sekret: Boi się ciemności. Nauczyła się łapać blask gwiazd w małe szklane fiolki; nocą otwiera jedną przy
+  łóżku i rozświetla mrok własnym gwiaździstym niebem.
+osoba_bliska: Matka, która pierwsza pokazała jej gwiazdozbiory z okna w Oksfordzie.
+wakacje_1969: W Oksfordzie z rodzicami; kilka nocy na dachu z mapami nieba i fiolkami do łapania światła.
+haczyki_mg:
+- 'Strach przed ciemnością: scena w mroku (lochy, zgaszone pochodnie, stracona godzina bez światła) bije
+  w nią mocniej; fiolka z gwiazdą to jej latarnia (przedmiot, nie zaklęcie).'
+- 'Stracona godzina: jej mapy nieba i notatki o Księżycu mogą pokazać, że niebo w tej godzinie ''nie przesunęło
+  się'' (do ustalenia przez MG); Astronomy 7 ze specjalizacją.'
+- 'Ojciec w Ministerstwie: kontakt do kogoś, kto zna procedury (Authority 1, Prestige 3 w sumie); ale
+  też lojalność wobec przyjaciół wbrew rozsądkowi.'
+- 'Eliksiry i Księżyc: eksperyment, który wymaga wyjścia nocą, wciąga ją w sprawę; Polyjuice wymaga szczeci
+  zbieranej w pełni księżyca (s. 63), więc jej notatki to realny atut.'
+- 'Towarzyskość: Persuasion 5 ze specjalizacją; potrafi zagadać prefektów i portrety, ale nie umie kłamać
+  z kamienną twarzą (Chicanery 0).'
+notatki_mg:
+- 'Zmiany względem v1 (powód: opis gracza). Cechy: Knowledge 6 -> 7 (eliksiry, astronomia, drobiazgowość),
+  Focus 5 -> 4; reszta bez zmian (v1: Vitality 3, Speed 3, Wits 5, Knowledge 6, Focus 5; v2: 3/3/5/7/4).'
+- 'Ród: Longbottom -> Macmillan (Authority 1, Prestige 2), bo ojciec szkoli pracowników Ministerstwa;
+  Herbology z rodu (v1 Herbology 5) zastąpione własną pulą. Do zmiany, jeśli MG woli inny ród z s. 7.'
+- 'Umiejętności: Astronomy 3 -> 7 i Potions 3 -> 6 (główne pasje) ze specjalizacjami; Arithmancy 3 (obliczenia
+  faz Księżyca); Art 3 (rysowane mapy nieba); Persuasion 2 -> 5 (towarzyska, lojalna); Archivist 5 ->
+  3, History of Magic 4 -> 1, Ancient Runes 4 -> 0 (nie wynikają z opisu); Stealth 1 -> 0.'
+- 'Przedmioty 6. roku: Astronomy, Potions, Arithmancy, Herbology, Charms, D.A.D.A. (jak v1). D.A.D.A.
+  3 jest potrzebne do grupy ćwiczeniowej Wrena.'
+- 'Różdżka bez zmian (Vine + Phoenix Feather, archetyp B): Revealing Magic +2 pasuje do jej zaklęć badawczych.
+  Blask gwiazdy w rękojeści to opis gracza, bez efektu mechanicznego.'
+- 'Zaklęcia: usunięte Nox (strach przed ciemnością; Lumos opanowane), Colloportus, Intruder Charm, Cistem
+  Aperio, Obliteration Charm (nie wynikają z opisu); dodane Scourgify, Tergeo, Demitto Ignem, Impervius
+  (praca w pracowni z kociołkiem i szkłem). Bluebell Flames, Specialis Revelio, Homenum Revelio, Prior
+  Incantato, Flagrate, Stupefy, Rennervate, Cheering Charm, Quietus zostają. Magia zaawansowana: osiem
+  eliksirów (bez Shrinking Solution), Aguamenti i nowy Cave Inimicum.'
+- 'Wygląd, osoba bliska, wakacje, imię sowy: PROPOZYCJE z v1, gracz nie podał. Cecha rzadka: brak (MG
+  rzuci przy stole).'
+pewnosc: nasze
+rozklad_punktow:
+  opis: 'Kontrola sum: pule a-e z podręcznika (s. 13, 16; pełna ścieżka, krok 6). Pule a-e liczą się osobno;
+    premia pochodzenia dochodzi poza pulami.'
+  a_dziecinstwo_12:
+    Astronomy: 5
+    Observation: 3
+    Art: 2
+    Trivia: 2
+  b_dowolne_3:
+    Persuasion: 3
+  c_przedmioty_podstawowe_8:
+    Astronomy: 1
+    Charms: 1
+    D.A.D.A.: 1
+    Herbology: 1
+    History of Magic: 1
+    Magical Theory: 1
+    Potions: 1
+    Transfiguration: 1
+  d_przedmioty_fakultety_15:
+    Potions: 5
+    Astronomy: 1
+    Arithmancy: 3
+    Divination: 1
+    Charms: 2
+    Herbology: 2
+    D.A.D.A.: 1
+  e_dowolne_15:
+    Persuasion: 2
+    Observation: 2
+    Archivist: 3
+    Magical Theory: 2
+    Charms: 1
+    Herbology: 1
+    D.A.D.A.: 1
+    Divination: 1
+    Trivia: 1
+    Art: 1
+  premia_pochodzenia:
+    Authority: 1
+    Prestige: 2
+  sumy:
+    a_dziecinstwo: 12
+    b_dowolne: 3
+    c_podstawowe: 8
+    d_przedmioty_fakultety: 15
+    e_dowolne: 15
+    pule_razem: 53
+    premia_pochodzenia: 3
+    umiejetnosci_razem: 56
+    cechy_razem: 22
+    kratki_lata_1_5: 50
+    kratki_magia_6_7_i_eliksiry: 30

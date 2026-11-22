@@ -1,0 +1,250 @@
+# Karta gracza v2 (pełna ścieżka, wszystko z opisu gracza). Kolejność kluczy jak w v1; poprzednia wersja: v1/luna-lovedog.yaml
+id: gracz.luna-lovedog
+wersja: 2
+imie: Luna Lovedog
+dom: Gryffindor
+rok: 6
+wiek: 16
+archetyp: 'v2: lekarka stworzeń z mroczną ciekawością (eliksiry lecznicze, mugoloznawstwo, cicha lektura)'
+pochodzenie:
+  typ: pure-blood
+  rod: Abbot
+  uwagi: 'Ród z listy s. 7 (z gwiazdką): Prestige 2, Herbology 1. Rodzice Brytyjczycy, od jej dzieciństwa
+    w Nowym Jorku; w przerwach mieszka u babci w Londynie. Cała rodzina uczyła się w Hogwarcie.'
+cecha_rzadka: brak
+story_points: 0
+cechy:
+  Vitality: 4
+  Speed: 3
+  Wits: 4
+  Knowledge: 6
+  Focus: 5
+umiejetnosci:
+  Potions: 7
+  Magical Creatures: 5
+  Charms: 4
+  D.A.D.A.: 4
+  Muggle Studies: 4
+  Observation: 4
+  Concealment: 3
+  Dark Arts: 3
+  Herbology: 3
+  Magical Theory: 3
+  Prestige: 3
+  Transfiguration: 3
+  Trivia: 3
+  Archivist: 2
+  Riding: 2
+  Astronomy: 1
+  History of Magic: 1
+  Persuasion: 1
+specjalizacje:
+- Potions (Eliksiry lecznicze)
+- Magical Creatures (Choroby i rany stworzeń)
+przedmioty_6_roku:
+- Potions
+- Magical Creatures
+- Muggle Studies
+- Charms
+- D.A.D.A.
+- Herbology
+rozdzka:
+  drewno: Hawthorn
+  dlugosc_cali: 12
+  rdzen: Dittany Stalk
+  gietkosc: Nice and flexible
+  wytrzymalosc: 2D+3
+  premie:
+  - Herbology +3 (Dittany Stalk, w parze z Hawthorn)
+  - Healing Magic +1 (Hawthorn)
+  - Curses +1 (Hawthorn)
+  opis: Rodzinna, po pra-pra-prababci; przechodzi z pokolenia na pokolenie na najzdolniejszych w rodzie.
+    Głóg leczy i przeklina równie chętnie; łodyga dyptamu to rdzeń rodowy z listy s. 26.
+zwierze:
+  rodzaj: kot
+  imie: Taco
+zaklecia:
+  # Pakiet wspólny (26 kratek)
+  wspolny:
+  - nazwa: Lumos
+    kratki: 1
+  - nazwa: Nox
+    kratki: 1
+  - nazwa: Wingardium Leviosa
+    kratki: 1
+  - nazwa: Diffindo
+    kratki: 1
+  - nazwa: Locomotor
+    kratki: 1
+  - nazwa: Alohomora
+    kratki: 2
+  - nazwa: Reparo
+    kratki: 2
+  - nazwa: Accio
+    kratki: 2
+  - nazwa: Expelliarmus
+    kratki: 2
+  - nazwa: Aparecium
+    kratki: 2
+  - nazwa: Episkey
+    kratki: 2
+  - nazwa: Protego
+    kratki: 3
+  - nazwa: Finite Incantatem
+    kratki: 3
+  - nazwa: Revelio
+    kratki: 3
+  # Opieka nad chorymi i stworzeniami: leczenie, uspokajanie, unieruchamianie, światło w ciemności
+  archetyp:
+  - nazwa: Rennervate
+    kratki: 2
+  - nazwa: Cheering Charm
+    kratki: 1
+  - nazwa: Impervius
+    kratki: 1
+  - nazwa: Carpe Retractum
+    kratki: 2
+  - nazwa: Immobulus
+    kratki: 3
+  - nazwa: Stupefy
+    kratki: 3
+  - nazwa: Bluebell Flames
+    kratki: 1
+  # Złośliwe „szkolne” uroki i klątwy (sekret Luny; nie ranią ciężko). Rzut: Mimblewimble, Furnunculus, Densaugeo z D.A.D.A. (ZD-17); Slugulus Eructo i Locomotor Mortis z Dark Arts (ZD-17, s. 54, 58)
+  wybor:
+  - nazwa: Mimblewimble
+    kratki: 2
+  - nazwa: Furnunculus
+    kratki: 2
+  - nazwa: Densaugeo
+    kratki: 2
+  - nazwa: Slugulus Eructo
+    kratki: 2
+  - nazwa: Locomotor Mortis
+    kratki: 3
+  # Magia zaawansowana 6-7 roku i eliksiry zaawansowane (po 3 kratki, 10 pozycji = 30 kratek)
+  zaawansowane:
+  - nazwa: Wound-cleaning Potion
+    kratki: 3
+  - nazwa: Calming Draught
+    kratki: 3
+  - nazwa: Draught of Peace
+    kratki: 3
+  - nazwa: Sleeping Draught
+    kratki: 3
+  - nazwa: Love Potion Antidote
+    kratki: 3
+  - nazwa: Elixir to Induce Euphoria
+    kratki: 3
+  - nazwa: Shrinking Solution
+    kratki: 3
+  - nazwa: Aguamenti
+    kratki: 3
+  - nazwa: Cave Inimicum
+    kratki: 3
+  - nazwa: Protean Charm
+    kratki: 3
+zdrowie:
+  body_kolka: 0
+  mind_kolka: 0
+wyglad: Wysoka, z burzą włosów w kolorze miedzi i kocią sierścią na rękawach; nosi amerykańskie trampki
+  pod szkolną szatą.
+charakter: Dumna i ambitna, ale roztargniona na tyle, że często nie umie się na nic zdecydować. Kocha
+  magiczne stworzenia i zwierzęta mugoli. Lubi warzyć eliksiry, zwłaszcza lecznicze, bo chce leczyć chore
+  stworzenia magiczne.
+sekret: Potajemnie ciągną ją mroczniejsze zagadnienia magii. Nie użyłaby zaklęć niewybaczalnych, ale inne
+  czarne praktyki ją pociągają.
+osoba_bliska: Babcia w Londynie, u której mieszka w przerwach.
+wakacje_1969: U babci w Londynie; opiekowała się rannym gołębiem i szukała w księgarniach starych książek
+  o stworzeniach (i, po cichu, o mroczniejszych sprawach).
+haczyki_mg:
+- 'Zainteresowanie mroczną magią (decyzja MG 2026-11-22): ma Dark Arts 3, czyli wyjątek od zasady „Dark
+  Arts 0”, uzasadniony potajemną lekturą; księga w bibliotece (zakazana albo zaklęta) działa na nią jak
+  magnes. W scenie 09 (Dział Ksiąg Zakazanych) może za cenę czasu i hałasu poznać jedno silniejsze zaklęcie
+  czarnej magii (propozycja: 99_robocze/klatwa-luny-propozycja.md, czeka na wybór MG).'
+- 'Taco: kot może reagować na miejsca i osoby, przy których ''coś jest nie tak'' (propozycja MG, bez efektu
+  mechanicznego).'
+- 'Amerykańska przeszłość: spojrzenie z zewnątrz na brytyjską czystość krwi i napięcia przed wojną; Muggle
+  Studies 4 daje jej wiedzę o mugolach, której inni nie mają.'
+- 'Rzadkie leczenie: ranny uczeń albo stworzenie to sceny, w których Potions 7 (Eliksiry lecznicze), Magical
+  Creatures 5, Healing Magic z różdżki i Herbology dają jej głos.'
+- 'Złośliwe uroki: jej zestaw (Slugulus Eructo, Furnunculus, Densaugeo, Locomotor Mortis, Mimblewimble)
+  to szkolne psikusy, ale Slugulus Eructo i Locomotor Mortis wymagają Dark Arts; nauczyciel, który zobaczy
+  je w użyciu, może zapytać, skąd je zna.'
+notatki_mg:
+- 'Zmiany względem v1 (powód: opis gracza). Cechy: v1 5/3/4/5/5, v2 4/3/4/6/5 (Knowledge 6: zdolna uczennica
+  i eliksiry, Vitality 4); Speed 3 i Wits 4 bez zmian (roztargniona).'
+- 'DARK ARTS 3 (decyzja MG 2026-11-22): wyjątek od zasady „Dark Arts 0” z instrukcji tworzenia postaci
+  i s. 22; uzasadnienie: potajemna lektura mrocznych zagadnień. Podręcznik dopuszcza taki wyjątek, jeśli
+  uzasadnia go historia postaci (zob. zasada.walker-tworzenie-postaci, Jak używać przy stole). Punkty
+  z puli b (3 dowolne).'
+- 'Umiejętności: Potions 4 -> 7 (specjalizacja Eliksiry lecznicze) i Magical Creatures 5 (specjalizacja
+  Choroby i rany stworzeń, jak v1); Muggle Studies 0 -> 4 (Nowy Jork); Herbology 6 -> 3 (nie jest w opisie,
+  tylko Herbology z rodu Abbot); Persuasion 4 -> 1, Observation 5 -> 4, Riding 3 -> 2, Music, Swimming,
+  Tracking, Authority, Crafting usunięte (nie wynikają z opisu). Dodane Concealment 3, Archivist 2, Prestige
+  3 (dumna, sekret, cicha lektura). Ród Abbot bez zmian.'
+- 'Przedmioty 6. roku: Potions, Magical Creatures, Muggle Studies, Charms, D.A.D.A., Herbology (v1 bez
+  Muggle Studies); wszystkie ≥ 3 punkty.'
+- 'Różdżka: v1 Chestnut + Unicorn Hair (Healing +2, Protective +2), v2 Hawthorn + Dittany Stalk (Herbology
+  +3, Healing Magic +1, Curses +1); głóg to drewno leczące i przeklinające naraz, a Curses +1 liczy się
+  do jej Slugulus Eructo, Locomotor Mortis i Mimblewimble. Rdzeń Dittany Stalk jest w kolumnie różdżek
+  rodowych (s. 26), a nietypowy rdzeń pasuje do różdżki po pra-pra-prababci.'
+- 'Zaklęcia: usunięte Salvio Hexia, Arresto Momentum, Demitto Ignem, Confundo, Petrificus Totalus; dodane
+  Mimblewimble, Furnunculus, Densaugeo, Slugulus Eructo, Locomotor Mortis (razem 11 kratek; Furnunculus,
+  Slugulus Eructo i Locomotor Mortis to wg indeksu zaklęcia pozaprogramowe, więc liczone do puli 50 za
+  zgodą MG); Bluebell Flames (światło dla stworzeń). Protego opanowane. Magia zaawansowana: dziewięć pozycji
+  jak v1 bez Polyjuice Potion, plus Love Potion Antidote.'
+- 'Wygląd, wakacje: PROPOZYCJE z v1, gracz nie podał. Cecha rzadka: brak (MG rzuci przy stole).'
+pewnosc: nasze
+rozklad_punktow:
+  opis: 'Kontrola sum: pule a-e z podręcznika (s. 13, 16; pełna ścieżka, krok 6). Pule a-e liczą się osobno;
+    premia pochodzenia dochodzi poza pulami.'
+  a_dziecinstwo_12:
+    Observation: 3
+    Riding: 2
+    Concealment: 3
+    Trivia: 3
+    Prestige: 1
+  b_dowolne_3:
+    Dark Arts: 3
+  c_przedmioty_podstawowe_8:
+    Astronomy: 1
+    Charms: 1
+    D.A.D.A.: 1
+    Herbology: 1
+    History of Magic: 1
+    Magical Theory: 1
+    Potions: 1
+    Transfiguration: 1
+  d_przedmioty_fakultety_15:
+    Potions: 4
+    Magical Creatures: 3
+    Muggle Studies: 4
+    Charms: 2
+    D.A.D.A.: 2
+  e_dowolne_15:
+    Potions: 2
+    Magical Creatures: 2
+    Charms: 1
+    D.A.D.A.: 1
+    Transfiguration: 2
+    Herbology: 1
+    Archivist: 2
+    Magical Theory: 2
+    Persuasion: 1
+    Observation: 1
+  premia_pochodzenia:
+    Prestige: 2
+    Herbology: 1
+  sumy:
+    a_dziecinstwo: 12
+    b_dowolne: 3
+    c_podstawowe: 8
+    d_przedmioty_fakultety: 15
+    e_dowolne: 15
+    pule_razem: 53
+    premia_pochodzenia: 3
+    umiejetnosci_razem: 56
+    cechy_razem: 22
+    kratki_lata_1_5: 50
+    kratki_magia_6_7_i_eliksiry: 30

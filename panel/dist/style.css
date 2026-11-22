@@ -21,6 +21,7 @@ h1,h2,h3,h4,h5,h6{line-height:1.25;margin:.8em 0 .35em}
 #pasek .logo{font-weight:700;text-decoration:none;color:var(--akcent);white-space:nowrap}
 #pasek-scena{flex:1;color:var(--cichy);font-size:.9rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 #pasek nav{display:flex;gap:.4rem}
+@media (max-width:600px){#pasek{gap:.5rem;padding:.4rem .6rem}#pasek .logo{white-space:normal;font-size:.85rem;max-width:7rem;line-height:1.1}#pasek-scena{display:none}#pasek nav button{padding:.3rem .5rem;font-size:.85rem}}
 main{padding:1rem;max-width:1500px;margin:0 auto}
 /* start */
 .start{max-width:760px;margin:6vh auto;text-align:center}
