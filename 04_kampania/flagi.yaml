@@ -211,6 +211,11 @@ flagi:
     typ: bool
     wartosci: []
     sesja: s1
+  - id: flaga.luna-klatwa-poznana
+    opis: "Luna (postać z Dark Arts co najmniej 1) w Dziale Ksiąg Zakazanych poznała Conjunctivitis Curse jako zaklęcie nieopanowane (0 kratek); MG dopisuje je w panelu."
+    typ: bool
+    wartosci: []
+    sesja: s1
   - id: flaga.gablota-sposob
     opis: "Jak otwarto gablotę z notatnikiem Marrow (przedmiot.dziennik-marrow)."
     typ: wybor

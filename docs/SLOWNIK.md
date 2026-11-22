@@ -111,6 +111,7 @@ Terminy mechaniczne zostają w oryginale angielskim (Walker 2e). Ten słownik ob
 | Stawka nagród (3 Story Points na sesję) | Propozycja kampanii: około 3 Story Points na postać na sesję (2–4, najwyżej 5), z limitem nauki z ZD-19; plik `02_zasady/nagradzanie-graczy.md` | nasze, propozycja |
 | Karta gracza v2 (pełna ścieżka) | Karta wyliczona z opisu gracza według pełnej ścieżki: pule punktów a–e, pole `rozklad_punktow` do sprawdzenia sum (cechy 22, umiejętności 53 + premia pochodzenia, kratki 50 + 30); v1 w `03_postacie/gracze/v1/` | nasze |
 | Dark Arts 3 u Luny (wyjątek) | Luna Lovedog ma Dark Arts 3 mimo zasady „Dark Arts 0” (nieuczona w Hogwarcie, s. 22), bo potajemnie czyta o czarnej magii; z Dark Arts rzuca Slugulus Eructo i Locomotor Mortis (ZD-17) | nasze, decyzja MG 2026-11-22 |
+| Conjunctivitis Curse | klątwa zapalenia spojówek: oczy ofiary puchną, ma −10 do rzutów ataku i obrony; Luna może ją poznać w Dziale Ksiąg Zakazanych (scena 09), test Knowledge + Dark Arts przeciw 15; obecność w kanonie 1969: niepewne | 49; wybór MG 2026-11-22 |
 | Aspen, Hawthorn, Kelpie Hair, Dittany Stalk | Osika, głóg, włos kelpie, łodyga dyptamu: drewna i rdzenie z kart v2 (np. Hawthorn: Healing Magic +1 i Curses +1; Dittany Stalk: Herbology +2, +3 w parze z Hawthorn) | 27–29 |
 | Karta gracza (szybka ścieżka) | Plik YAML postaci w `03_postacie/gracze/`; polskie nazwy do karty w `slownik-karty.yaml` | nasze |
 

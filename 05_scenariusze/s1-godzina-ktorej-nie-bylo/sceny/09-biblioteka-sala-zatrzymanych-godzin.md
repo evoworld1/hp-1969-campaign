@@ -46,6 +46,7 @@ flagi_wyjscie:
   - flaga.dziennik-u-graczy
   - flaga.dziennik-miejsce
   - flaga.wymark-slad
+  - flaga.luna-klatwa-poznana
   - flaga.filch-zlapal
   - flaga.s1-zegar-kradziezy
   - flaga.cassian-los
@@ -197,6 +198,8 @@ Różdżka na nocnej szafce leży nieruchomo. Kto jej dotknie, poczuje, że drew
 
 **Ansel w tej scenie (krótko; pełne reakcje w „Obecnych”).** Idzie, jeśli ma kontakt z drużyną; nikt poza postaciami go nie widzi, więc może iść przodem jako zwiadowca i przechodzić przez ścianę ostatniego rzędu. W pracowni był w 1951 roku i nie wie skąd: zna szafkę, która „najpierw chce dostać”, i boi się łuny nad pulpitem. Do księgi nie podchodzi bliżej niż na kilka kroków. Przy kredowym podpisie Marrow staje i patrzy długo, bez słowa. Nie komentuj tego; niech gracze zauważą sami.
 
+**Zakazana lektura Luny (opcja, decyzja MG z 2026-11-22).** Po przejściu za linę, przed ostatnim rzędem (po tekście 2), postać z Dark Arts (czarna magia) co najmniej 1 może zostać przy półce i przeczytać w zwykłej zakazanej książce Conjunctivitis Curse (Klątwa Zapalenia Spojówek, Walker s. 49: oczy ofiary puchną, ofiara ma −10 do rzutów ataku i obrony). To **nie** jest zaklęta księga Marrow. Reszta pilnuje liny i drzwi. Przy tym stole to na razie tylko Luna (`gracz.luna-lovedog`, Dark Arts 3). **Założenie robocze:** postać z Dark Arts 0 nie może tej lektury podjąć. Najwyżej 2 próby na noc. Sukces: MG dopisuje klątwę w panelu (zakładka „Rozwój (MG)”, „Nowe zaklęcie”, 0 kratek), bo to zaklęcie **nieopanowane** (zob. test `s1.scena.09.test.zakazana-lektura-luny`). **Gdy drużyna goni czas, pomiń lekturę jednym zdaniem** („nie zdążyłaś, książka wraca na półkę”), bez rzutu i bez ceny. Szept książki z tekstu 2 to dobry moment na pytanie: „Czy ktoś zostaje przy półce?”.
+
 **Ślady dla pani Pince rano.** Każda porażka przy skradaniu, w galerii albo przy gablocie może zostawić jeden ślad w bibliotece (zgaszona lampa, przestawiony sznur, kurz z ostatniego rzędu na podłodze czytelni, odłamek szkła). Zapisz go: pani Pince znajdzie go o świcie (plotka i podejrzliwość, bez kary).
 
 ### Rytm sceny
@@ -221,6 +224,7 @@ Różdżka na nocnej szafce leży nieruchomo. Kto jej dotknie, poczuje, że drew
 **Krok 3. Ostatni rząd i drzwi** (ok. 5 min)
 - Czytaj: tekst 2 („Za wyświechtaną liną regały stoją ciaśniej…”); po otwarciu tekst 3 („Kamień nie skrzypi i nie odsuwa się…”)
 - Test: `s1.scena.09.test.drzwi` (opcjonalnie: nasłuchiwanie albo Tempus przy ścianie, W6)
+- Opcja przed ostatnim rzędem: zakazana lektura Luny, test `s1.scena.09.test.zakazana-lektura-luny` (ok. 3 min, tylko na prośbę gracza; pomijana jednym zdaniem, gdy czas goni)
 - Dialog: `s1.scena.09.dialog.ansel-schody-tykaja` — „Proszę pana… tam za ścianą są schody. One tykają. Trzynaście razy, policzyłem.” (propozycja; sens z grafu: „Schody tykają trzynaście razy”)
 - Flagi: `flaga.pracownia-otwarta`
 - Krótko: przeszkoda obowiązkowa 1. Drogi: Tempus (tarcza z trzynastoma kreskami), margines karty („XIII. Zapukaj w godzinę, której nie ma”), Ansel, bicie zza ściany. Drzwi otwiera każde rozsądne „trzynaście” (ramka „Jak otworzyć drzwi” wyżej). Przy zegarze kradzieży 4 przycisk-klepsydra jest ciepły, a prześwit już otwarty: czytaj od razu tekst 3.
@@ -547,7 +551,7 @@ dialog:
 
 **Filch w liczbach (założenie robocze; karta Filcha ma puste `wartosci`).** W teście przeciwnym Filch rzuca `1D10 + 9` (Wits 4 + Observation 5). Nie rzuca w ciemno: pokazuj to graczom jako „jego latarnia”, nie liczby.
 
-**Licznik hałasu (założenie robocze, zamiast Zegara Północy).** Na kartce prowadzisz kreski. +1 za każdą porażkę w galerii z ceną „hałas”, +1 za każdą porażkę w teście porażenia księgi, +2 za wyłamanie gabloty, +1 za samo bicie trzynastu uderzeń. Przy **2 kreskach** Filch zaczyna nasłuchiwać pod biblioteką i wyjście z Działu Ksiąg Zakazanych wymaga testu `wyjscie-przed-filchem`. Gracze nie widzą licznika; zauważają tylko, że „na górze coś brzęknęło”. Każda porażka dodaje też jeden ślad dla pani Pince (zapisz go, zob. „Ślady dla pani Pince rano”).
+**Licznik hałasu (założenie robocze, zamiast Zegara Północy).** Na kartce prowadzisz kreski. +1 za każdą porażkę w galerii z ceną „hałas”, +1 za każdą porażkę w teście porażenia księgi, +2 za wyłamanie gabloty, +1 za samo bicie trzynastu uderzeń, +1 za porażkę i +2 za porażkę kompromitującą w zakazanej lekturze Luny. Przy **2 kreskach** Filch zaczyna nasłuchiwać pod biblioteką i wyjście z Działu Ksiąg Zakazanych wymaga testu `wyjscie-przed-filchem`. Gracze nie widzą licznika; zauważają tylko, że „na górze coś brzęknęło”. Każda porażka dodaje też jeden ślad dla pani Pince (zapisz go, zob. „Ślady dla pani Pince rano”).
 
 **Story Points i RETRORSUM.** Po nieudanym rzucie gracz może wydać Story Point na dorzut 1D10 (s. 4; najwyżej jeden dorzut do rzutu). RETRORSUM ([[zasada.nagrody-z-teaserow]]) cofa najwyżej ostatni test ucieczki albo złapanie przez Filcha; nie cofa oddanej godziny ani porażenia z poziomu 3 (tego nie da się „odtykać”).
 
@@ -712,6 +716,36 @@ test:
     - wynik: sukces-imponujacy
       efekt: "Jak sukces, a do tego rozumie zasadę „co dane, można zatrzymać; co zabrane, trzeba zwrócić”. Mechanicznie: przy oddawaniu godziny gablocie ta postać ma koszt o jedno kółko mniejszy (najmniej Rattled)."
       flagi_ustaw: [flaga.pozyczona-chwila-poznana]
+```
+
+### Zakazana lektura Luny (opcja, po tekście 2)
+
+Gracz musi sam zgłosić, że jego postać zostaje przy półce. Książka to zwykły zakazany tom z Działu Ksiąg Zakazanych (mruczący z tekstu 2 może być dobrym kandydatem), nie zaklęta księga Marrow. Dostępna dla postaci z Dark Arts co najmniej 1 (założenie robocze; Dark Arts 0 nie podejmuje). Szansa Luny (Knowledge 6, Dark Arts 3, suma 9) przeciw 15: pierwsza próba (15 minut) 50%, przy czytaniu 30 minut (+2) 70%. Porażka kompromitująca jest dla niej niemożliwa (najmniejszy wynik 10), ale przy stanie umysłu pozostaje możliwa dla innych. Ścieżka sukcesu daje tylko zaklęcie nieopanowane: MG zapisuje je w panelu (zakładka „Rozwój (MG)”, „Nowe zaklęcie”, 0 kratek, trudność startowa 15). Czas trwania efektu nie jest podany w podręczniku; propozycja robocza: do Finite Incantatem albo około godziny, do decyzji MG.
+
+```yaml
+test:
+  id: s1.scena.09.test.zakazana-lektura-luny
+  opis: "Postać z Dark Arts co najmniej 1 (założenie robocze) czyta w zakazanej książce Conjunctivitis Curse (Walker s. 49, trudność startowa 15; oczy ofiary puchną, kara −10 do rzutów ataku i obrony) i próbuje ją zrozumieć. Jedna próba trwa 15 minut, najwyżej 2 próby na noc. Gdy drużyna goni czas, MG pomija lekturę jednym zdaniem."
+  kto: jeden
+  rzut: "1D10 + Knowledge + Dark Arts"
+  trudnosc: "Challenging (15)"
+  modyfikatory:
+    - warunek: "Czyta 30 minut zamiast 15"
+      wartosc: "+2 do rzutu"
+    - warunek: "Stan umysłu postaci (Rattled +1, Dazed +2, Drained +3; s. 35)"
+      wartosc: "+1 do trudności"
+    - warunek: "Postać ma Dark Arts 0 (założenie robocze)"
+      wartosc: "bez rzutu, lektury nie można podjąć"
+  wyniki:
+    - wynik: sukces
+      efekt: "Postać poznaje Conjunctivitis Curse jako zaklęcie nieopanowane (0 kratek, trudność startowa 15). MG dopisuje je w panelu: „Rozwój (MG)” → „Nowe zaklęcie”. Dalsza nauka wg zwykłych zasad Walkera (s. 31–32)."
+      flagi_ustaw: [flaga.luna-klatwa-poznana]
+    - wynik: porazka
+      efekt: "Formuła nie składa się w całość. Licznik hałasu +1 (książka szepcze albo trzaska okładką) i jeden ślad dla pani Pince (książka odłożona nie na miejsce). Można spróbować drugi raz."
+      flagi_ustaw: []
+    - wynik: porazka-kompromitujaca
+      efekt: "Książka reaguje na złe czytanie: krzyk albo ugryzienie kartek. Licznik hałasu +2, ślad dla pani Pince, a czytająca jest Rattled do końca sceny (nie kumuluje się z Drained)."
+      flagi_ustaw: []
 ```
 
 ### Zaklęta księga: porażenie (krok 6, poziom 2)
@@ -882,6 +916,18 @@ test:
 ```
 
 ## Rozgałęzienia
+
+```yaml
+rozgalezienie:
+  id: s1.scena.09.rozgalezienie.zakazana-lektura
+  rodzaj: poboczne
+  warunek: "Postać z Dark Arts co najmniej 1 (obecnie Luna) zostaje przy półce Działu Ksiąg Zakazanych i czyta zakazaną książkę, a reszta pilnuje liny i drzwi."
+  wymaga_flag: []
+  wyklucza_flagi: [flaga.luna-klatwa-poznana]
+  efekt: "Test zakazana-lektura-luny (najwyżej 2 próby na noc). Sukces: klątwa nieopanowana na karcie (wpis MG w panelu). Porażki zwiększają licznik hałasu i dają ślady dla pani Pince; druga porażka może dobić licznik do 2 i uruchomić wyjscie-przed-filchem. Gdy drużyna goni czas, MG pomija lekturę jednym zdaniem, bez rzutu. Scena toczy się dalej bez zmian."
+  flagi_ustaw: [flaga.luna-klatwa-poznana]
+  prowadzi_do: s1.scena.09
+```
 
 ```yaml
 rozgalezienie:
@@ -1183,6 +1229,7 @@ podpowiedzi:
 - `flaga.ksiega-zlapani`: tylko gdy ktoś nie zdążył (siatka 8); zapisz, kto, i co zostało w dłoni.
 - `flaga.pozyczona-chwila-poznana`: tylko po sukcesie przy ścianie obliczeń; zapisz, która postać.
 - `flaga.wymark-slad`: czy gracze zobaczyli inicjały „S.W.” obok podpisu Marrow.
+- `flaga.luna-klatwa-poznana`: tylko po sukcesie zakazanej lektury; MG dopisuje Conjunctivitis Curse (0 kratek) w panelu, „Rozwój (MG)” → „Nowe zaklęcie”. Zapisz też ewentualne ślady dla pani Pince i kreski hałasu z lektury.
 - `flaga.gablota-sposob`: oddana-godzina, podzielona-godzina, zabrana-godzina, wylamana albo nieotwarta; zapisz, kto oddał godzinę i ile minut na osobę.
 - `flaga.dziennik-miejsce`: w-pracowni od otwarcia gabloty; u-graczy dopiero po wyniesieniu notatnika (wtedy też `flaga.dziennik-u-graczy` = prawda); u-cassiana, gdy poszedł z nim.
 - `flaga.dziennik-u-graczy`: tylko przy wyniesieniu notatnika razem z postacią (nie przy samym otwarciu gabloty).
