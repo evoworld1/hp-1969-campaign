@@ -140,11 +140,13 @@ Szczegóły każdej sceny są w raportach niżej; tu najważniejsze decyzje Reż
 - **Irytek:** nie widzi Ansela; okrzyk „nie mówcie mu, że to ja” dotyczy Krwawego Barona; zasady domowe: Psota +1 do trudności testu społecznego przy nauczycielu, Hałas ±2 do skradania wobec obchodu Filcha, łajnobomba jako przekupstwo (wszystko [nasze]).
 - **Cassian:** Pure-blood, różdżka modrzewiowa (wybór mechanika); trudność 15 dla Dziennika Marrow, Karty Pożyczającego i rytmu stukania w Hufflepuffie to zasady nasze.
 - **Postacie bez kart:** Hemsby (pierwszoroczna Puchonka), pierwszoroczniak na schodach, portret kucharki, skrzaty kuchenne, Ermentruda Hask (portret): bloki dialogów w `yaml` z `npc: ""`.
+- **2026-11-21/22:** kalkulator ataku w panelu graczy: cel ataku = rzut obrony przeciwnika (podaje MG) + aktualna trudność zaklęcia (opanowane: 0) + kary; osobne pole aktualnej trudności. **Księga zaklęć** w obu panelach: 155 zaklęć i 9 eliksirów z Walkera (s. 47–66) opisanych po polsku (efekt, opis, cel, czas trwania, w walce, przeciwzaklęcie, strona) w `02_zasady/walker/ksiega-zaklec.yaml` (status: recenzja; robocze części w `99_robocze/ksiega/`, scalanie: `narzedzia/scal-ksiege.py`). Panel MG: ekran `#/ksiega` i wyniki w Ctrl+K; panel graczy: rozwijany opis przy każdym zaklęciu na karcie i zakładka „Księga zaklęć” (filtr „tylko moje”, przeliczenie rzutu także dla zaklęć spoza karty). Czasy trwania podręcznik podaje rzadko: wpisy „propozycja: …” czekają na akceptację MG.
 
 ## Otwarte pytania
 - Brak pytań fabularnych. (Siatka 9 rozstrzygnięta 2026-11-20: wariant A.)
 - Kto ma RETRORSUM: MG rozstrzyga w dniu sesji. Autor księgi i jej zagadki: Sesja 2 i później.
 - Zasada pracy: przy każdej prośbie o akceptację podawać MG link do krótkiego streszczenia albo pliku.
+- **Do decyzji MG z Księgi zaklęć (2026-11-22):** (1) Protego wg Walkera s. 56 *zmniejsza obrażenia o 30*, a nasz kalkulator traktuje je jako rzut obrony (Wits + Charms, ZD-07) — czy obie rzeczy naraz? (2) Anachronizmy w 1969: Sectumsempra, Levicorpus/Liberacorpus, Muffliato (Snape, lata 70.), Morsmordre, Taboo Curse — usunąć z gry czy zostawić jako nieznane uczniom? (3) Nox: podręcznik 12, ZD-04 = 9 (obowiązuje ZD-04). (4) Prior Incantato nie należy do Revealing Magic, więc ZD-24 formalnie go nie obejmuje. (5) Polyjuice: s. 63 „co najmniej dwa miesiące”, tabela s. 66 „miesiąc”. (6) Akceptacja propozycji czasów trwania w księdze.
 
 ## Zadania do wykonania
 - Brak pilnych. Tworzenie postaci uproszczone (szybka ścieżka) 2026-11-20.

@@ -1,5 +1,7 @@
+"""Scala robocze opisy zaklęć (99_robocze/ksiega/pl1-3.yaml) w 02_zasady/walker/ksiega-zaklec.yaml."""
 import yaml, pathlib
-R = pathlib.Path('/home/user/hp-1969-campaign/99_robocze/ksiega')
+KORZEN = pathlib.Path(__file__).resolve().parent.parent
+R = KORZEN / '99_robocze' / 'ksiega'
 L = []
 for n in (1, 2, 3):
     p = R / f'pl{n}.yaml'
@@ -13,5 +15,5 @@ print(len(L), 'duplikaty:', dup)
 nag = ("# Księga zaklęć i eliksirów (Walker 2e, szkic 2026-04, s. 47–66), opisy po polsku własnymi słowami.\n"
        "# Dane dla panelu MG i panelu graczy (narzedzia/buduj-panel*.py). Pola z dopiskiem „propozycja” nie pochodzą z podręcznika.\n"
        "# status: recenzja\n")
-out = pathlib.Path('/home/user/hp-1969-campaign/02_zasady/walker/ksiega-zaklec.yaml')
+out = KORZEN / '02_zasady' / 'walker' / 'ksiega-zaklec.yaml'
 out.write_text(nag + yaml.safe_dump({'zaklecia': L}, allow_unicode=True, sort_keys=False, width=1000), encoding='utf-8')

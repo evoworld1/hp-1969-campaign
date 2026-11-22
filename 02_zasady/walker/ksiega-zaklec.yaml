@@ -2,6 +2,533 @@
 # Dane dla panelu MG i panelu graczy (narzedzia/buduj-panel*.py). Pola z dopiskiem „propozycja” nie pochodzą z podręcznika.
 # status: recenzja
 zaklecia:
+- nazwa: Accio
+  nazwa_pl: ''
+  typ: Charm
+  trudnosc: 12
+  wymaga: ''
+  rok: 4
+  efekt: Przyciąga wskazany przedmiot do rzucającego.
+  opis: Rzucający musi umieć sobie wyobrazić przedmiot, ale nie musi wiedzieć, gdzie dokładnie leży. Przedmiot leci ku niemu, więc z dużej odległości dotrze dopiero po jakimś czasie. Zaklęcie nie działa na przedmioty chronione Anti-theft Charm.
+  cel: przedmiot; zasięg nie określono
+  czas_trwania: 'nie określono w podręczniku; propozycja: natychmiastowe; przedmiot leci do skutku'
+  w_walce: ''
+  przeciwzaklecie: Depulso odpycha przywołany przedmiot; Anti-theft Charm chroni przedmiot przed przywołaniem
+  uwagi_kampanii: 'Rzut na przedmiot w cudzych rękach: propozycja do ustalenia przez MG.'
+  strona: 47
+- nazwa: Age Line
+  nazwa_pl: ''
+  typ: Charm
+  trudnosc: 15
+  wymaga: ''
+  efekt: Linia na ziemi nie wpuszcza osób młodszych lub starszych od ustalonego wieku.
+  opis: Rzucający wyżłabia linię w ziemi i wiąże z nią granicę wieku. Osoby spoza dozwolonego przedziału wiekowego nie mogą wejść na oznaczony obszar.
+  cel: obszar wyznaczony linią
+  czas_trwania: 'nie określono w podręczniku; propozycja: do odwołania lub zdjęcia zaklęcia'
+  w_walce: ''
+  przeciwzaklecie: podręcznik nie podaje
+  uwagi_kampanii: Nie ma tu rzutu przeciwstawnego; sposób obejścia (np. Confundo, podstęp) ustala MG.
+  strona: 47
+- nazwa: Aguamenti
+  nazwa_pl: ''
+  typ: Transfiguration
+  trudnosc: 18
+  wymaga: ''
+  rok: 6
+  efekt: Z końca różdżki tryska strumień czystej wody.
+  opis: Strumień wody nadaje się do picia. Może być cieniutką strużką albo falą na tyle silną, że odrzuca cel.
+  cel: przestrzeń przed rzucającym; zasięg nie określono
+  czas_trwania: 'nie określono w podręczniku; propozycja: trwa, dopóki rzucający utrzymuje strumień'
+  w_walce: 'Fala może odrzucić cel; podręcznik nie podaje obrażeń ani utraty akcji, propozycja: jak Everte Statum (utrata akcji) tylko przy wyniku 2x trudności.'
+  przeciwzaklecie: ''
+  uwagi_kampanii: ''
+  strona: 47
+- nazwa: Alarte Ascendare
+  nazwa_pl: ''
+  typ: Charm
+  trudnosc: 12
+  wymaga: ''
+  rok: 3
+  efekt: Wystrzeliwuje cel do 10 stóp (około 3 m) w górę.
+  opis: 'Cel leci w powietrze na wysokość do dziesięciu stóp. Zaklęcie neutralizuje Descendo. Bez przeciwzaklęcia upadek bywa groźny: miękkie lądowanie zostawia co najwyżej stan Rattled (Roztrzęsiony) lub Dazed (Oszołomiony), twarde to 2D albo 3D obrażeń od uderzenia, zależnie od decyzji Narratora.'
+  cel: osoba lub przedmiot, do 10 stóp w górę
+  czas_trwania: natychmiastowe; skutki upadku zależą od lądowania
+  w_walce: Rzuca cel w górę; po upadku Rattled, Dazed albo 2D/3D obrażeń (decyduje MG).
+  przeciwzaklecie: Descendo
+  uwagi_kampanii: Zalicza się do Offensive Magic (premia różdżek, s. 30).
+  strona: 47
+- nazwa: Alohomora
+  nazwa_pl: ''
+  typ: Charm
+  trudnosc: 12
+  wymaga: ''
+  rok: 1
+  efekt: Otwiera zamknięte drzwi, skrzynie i inne zamki.
+  opis: Otwiera drzwi i przedmioty zamknięte na zamki mugolskie, także te uważane przez mugoli za bardzo bezpieczne. Jest przeciwzaklęciem do Colloportus. Można trafić na silniejsze zabezpieczenie Anti-Alohomora.
+  cel: drzwi lub przedmiot z zamkiem
+  czas_trwania: natychmiastowe (otwiera zamek)
+  w_walce: ''
+  przeciwzaklecie: jest przeciwzaklęciem dla Colloportus; Anti-Alohomora (silniejsze zabezpieczenie) może je zablokować
+  uwagi_kampanii: 'Trudność 12 dotyczy zwykłych zamków; wzmocnione zabezpieczenia: decyzja MG.'
+  strona: 47
+- nazwa: Amato Animo Animato Animagus
+  nazwa_pl: ''
+  typ: Transfiguration
+  trudnosc: 21
+  wymaga: Eliksir Animagiczny (Animagus Potion)
+  efekt: Część miesięcznego rytuału, który daje zdolność zmieniania się w jedną formę zwierzęcą.
+  opis: Zaklęcie jest tylko jednym z elementów trwającego miesiąc przedsięwzięcia, którego celem jest zostanie animagiem, czyli osobą przemieniającą się w jedno konkretne zwierzę. Cały proces, w tym warunki i przebieg, opisuje podręcznik na s. 43.
+  cel: rzucający
+  czas_trwania: 'nie określono w podręczniku; pełny proces: s. 43'
+  w_walce: ''
+  przeciwzaklecie: podręcznik nie podaje
+  uwagi_kampanii: 'Pełna procedura: s. 43. W kampanii uczniowie raczej nie przechodzą jej w trakcie scenariusza; decyzja MG.'
+  strona: 47
+- nazwa: Anapneo
+  nazwa_pl: ''
+  typ: Transfiguration
+  trudnosc: 15
+  wymaga: ''
+  efekt: 'Leczy: usuwa blokadę dróg oddechowych celu.'
+  opis: Magia lecznicza, która sprawia, że przedmiot lub substancja zatykająca gardło znika. Dzięki temu cel znowu może oddychać.
+  cel: osoba z zablokowanymi drogami oddechowymi; zasięg nie określono
+  czas_trwania: natychmiastowe
+  w_walce: ''
+  przeciwzaklecie: ''
+  uwagi_kampanii: Zalicza się do Healing Magic (premia różdżek, s. 30).
+  strona: 47
+- nazwa: Anti-Apparition Charm
+  nazwa_pl: ''
+  typ: Charm
+  trudnosc: 15
+  wymaga: ''
+  efekt: Uniemożliwia aportację na obszar.
+  opis: Zaklęcie chroni wskazany obszar tak, by nikt nie mógł się na niego teleportować. Służy do zamykania wejścia dla aportujących.
+  cel: obszar
+  czas_trwania: 'nie określono w podręczniku; propozycja: do odwołania lub zdjęcia zaklęcia'
+  w_walce: ''
+  przeciwzaklecie: podręcznik nie podaje
+  uwagi_kampanii: Hogwart ma własne zabezpieczenia; sprawy terenu zamku ustala MG.
+  strona: 47
+- nazwa: Anti-Disapparition Jinx
+  nazwa_pl: ''
+  typ: Jinx
+  trudnosc: 15
+  wymaga: ''
+  efekt: Uniemożliwia deaportację z obszaru, więc uwięzieni nie mogą uciec.
+  opis: Urok blokuje znikanie przez deaportację na wskazanym obszarze. Używa się go, by uwięzić przeciwnika.
+  cel: obszar
+  czas_trwania: 'nie określono w podręczniku; propozycja: do odwołania lub zdjęcia zaklęcia'
+  w_walce: ''
+  przeciwzaklecie: podręcznik nie podaje
+  uwagi_kampanii: ''
+  strona: 47
+- nazwa: Anti-intruder Jinx
+  nazwa_pl: ''
+  typ: Jinx
+  trudnosc: 15
+  wymaga: ''
+  efekt: Nie wpuszcza intruzów na obszar żadną fizyczną drogą.
+  opis: Urok zamyka obszar przed wejściem intruzów fizycznymi sposobami. Podręcznik nie opisuje, jak go obejść.
+  cel: obszar
+  czas_trwania: 'nie określono w podręczniku; propozycja: do odwołania lub zdjęcia zaklęcia'
+  w_walce: ''
+  przeciwzaklecie: podręcznik nie podaje
+  uwagi_kampanii: 'Obejście (np. magią nie fizyczną): decyzja MG.'
+  strona: 47
+- nazwa: Aparecium
+  nazwa_pl: ''
+  typ: Charm
+  trudnosc: 12
+  wymaga: ''
+  rok: 2
+  efekt: Ujawnia niewidzialny atrament i tajne wiadomości ukryte czarem.
+  opis: Odsłania tajne wiadomości zapisane niewidzialnym atramentem albo zakryte zaklęciami ukrywającymi (Concealing Charms).
+  cel: tekst lub przedmiot z ukrytą wiadomością
+  czas_trwania: natychmiastowe
+  w_walce: ''
+  przeciwzaklecie: ''
+  uwagi_kampanii: Revealing Magic (s. 30); nie wykrywa magii czasu ani jej śladów (ZD-24).
+  strona: 47
+- nazwa: Apparition
+  nazwa_pl: ''
+  typ: Transportation
+  trudnosc: 18
+  wymaga: ''
+  rok: 6
+  efekt: Przenosi rzucającego (i dotykane osoby) w inne miejsce.
+  opis: Rzucający pojawia się w innym miejscu z głośnym trzaskiem, razem z każdym, kogo dotyka. Musi znać cel, bo wcześniej go widział, choćby pośrednio. Na duże odległości celowanie bywa niedokładne, a utrata skupienia jest niebezpieczna. Aportacja podlega licencji Ministerstwa Magii i wymaga testu; do jej zdobycia trzeba mieć 17 lat, szkolenie można zacząć w wieku 16 lat.
+  cel: rzucający i osoby, których dotyka
+  czas_trwania: natychmiastowe
+  w_walce: ''
+  przeciwzaklecie: ''
+  uwagi_kampanii: 'Uczniowie poniżej 16 lat jej nie używają; zasady licencji w kampanii: decyzja MG.'
+  strona: 47
+- nazwa: Arresto Momentum
+  nazwa_pl: ''
+  typ: Charm
+  trudnosc: 12
+  wymaga: ''
+  rok: 5
+  efekt: Zatrzymuje poruszający się cel; cel traci bieżącą i następną akcję.
+  opis: Spowalnia poruszające się cele, np. wrogów albo spadającego człowieka (amortyzuje upadek). Poruszająca się osoba lub stwór natychmiast zatrzymuje się, traci bieżącą akcję i następną.
+  cel: poruszająca się osoba, stwór lub przedmiot
+  czas_trwania: natychmiastowe; skutek to utrata bieżącej i następnej akcji
+  w_walce: Cel traci bieżącą i następną akcję; łagodzi upadek.
+  przeciwzaklecie: ''
+  uwagi_kampanii: 'Utrata akcji: kolejność w rundzie według ZD-08.'
+  strona: 47
+- nazwa: Atmospheric Charm
+  nazwa_pl: ''
+  typ: Charm
+  trudnosc: 12
+  wymaga: ''
+  efekt: Tworzy lokalną pogodę w pomieszczeniu (deszcz, wiatr).
+  opis: Miejscowy czar zmieniający pogodę pozwala wywołać warunki pogodowe, np. deszcz albo wiatr, nawet w środku budynku.
+  cel: pomieszczenie lub niewielki obszar
+  czas_trwania: 'nie określono w podręczniku; propozycja: do odwołania lub zdjęcia zaklęcia'
+  w_walce: ''
+  przeciwzaklecie: Meteolojinx Recanto
+  uwagi_kampanii: ''
+  strona: 48
+- nazwa: Avada Kedavra
+  nazwa_pl: ''
+  typ: Curse
+  trudnosc: 18
+  wymaga: ''
+  efekt: Zabija natychmiast.
+  opis: 'Zaklęcie Niewybaczalne. Towarzyszy mu błysk zielonego światła i szum. Nie ma znanego przeciwzaklęcia, ale można uniknąć trafienia jak każdego celowanego zaklęcia. Zasłonić się mogą też przedmioty: schowanie za osłoną albo magiczne wstawienie przedmiotu między siebie a rzucającego.'
+  cel: jedna osoba lub stwór
+  czas_trwania: natychmiastowe (śmierć)
+  w_walce: Zabija natychmiast, chyba że cel uniknie lub zasłoni się.
+  przeciwzaklecie: brak znanego przeciwzaklęcia; unik lub osłona
+  uwagi_kampanii: Zaklęcie Niewybaczalne. Wymaga Dark Arts (ZD-17). Nie dla uczniów; zabójstwo to poważny temat, uzgodnij z graczami linie i zasłony.
+  strona: 48
+- nazwa: Avifors
+  nazwa_pl: ''
+  typ: Transfiguration
+  trudnosc: 12
+  wymaga: ''
+  rok: 1
+  efekt: Zmienia małe przedmioty lub ich części w drobne, niegroźne ptaszki.
+  opis: 'Delikatne zaklęcie przemiany: mały przedmiot albo jego część zamienia się w maleńkie, niegroźne ptaki.'
+  cel: mały przedmiot lub jego część
+  czas_trwania: nie określono w podręczniku
+  w_walce: ''
+  przeciwzaklecie: ''
+  uwagi_kampanii: ''
+  strona: 48
+- nazwa: Avis
+  nazwa_pl: ''
+  typ: Transfiguration
+  trudnosc: 21
+  wymaga: ''
+  efekt: Wyczarowuje stado ptaków z końca różdżki.
+  opis: Z różdżki wylatuje stado ptaków. W połączeniu z Oppugno ptaki można użyć ofensywnie. Prawie nie ranią, ale bywają dezorientującą przeszkodą i zależnie od decyzji Narratora pozostawiają ofiarę w stanie Rattled (Roztrzęsiony) albo Dazed (Oszołomiony).
+  cel: 'przestrzeń przed rzucającym; w połączeniu z Oppugno: przeciwnik'
+  czas_trwania: 'nie określono w podręczniku; propozycja: ptaki znikają po scenie lub gdy rzucający przestanie się koncentrować'
+  w_walce: 'Z Oppugno: Rattled albo Dazed (decyduje MG), prawie bez obrażeń.'
+  przeciwzaklecie: ''
+  uwagi_kampanii: ''
+  strona: 48
+- nazwa: Baubillious
+  nazwa_pl: ''
+  typ: Charm
+  trudnosc: 12
+  wymaga: ''
+  rok: 3
+  efekt: Wytryskają białe iskry zadające 3D + Focus obrażeń.
+  opis: Z końca różdżki lecą białe iskry. Używa się ich w pojedynkach, potyczkach (Skirmishing) i do sygnalizowania. Wszystko, czego dotkną, odnosi 3D + Focus obrażeń.
+  cel: cel dotknięty iskrami; zasięg nie określono
+  czas_trwania: natychmiastowe
+  w_walce: 3D + Focus obrażeń (D = kość D10).
+  przeciwzaklecie: Protego (tarcza); blokowanie zgodnie z ZD-16
+  uwagi_kampanii: 'Offensive Magic (s. 30). W walce trafia tylko opanowane (ZD-06). W formalnych pojedynkach uczniów zwykle bez trwałych ran: patrz ZD-09.'
+  strona: 48
+- nazwa: Bluebell Flames
+  nazwa_pl: ''
+  typ: Charm
+  trudnosc: 9
+  wymaga: ''
+  rok: 1
+  efekt: Wytwarza niebieskie płomienie, które można nosić w słoiku.
+  opis: Niebieskie płomienie oświetlają obszar albo można je nosić w słoiku. Dotyk jest bezpieczny, można je trzymać w rękach, ale mogą osmolić materiał i rośliny.
+  cel: płomień w ręku lub w słoiku
+  czas_trwania: 'nie określono w podręczniku; propozycja: do końca sceny albo do zgaszenia'
+  w_walce: ''
+  przeciwzaklecie: ''
+  uwagi_kampanii: ''
+  strona: 48
+- nazwa: Bombarda
+  nazwa_pl: ''
+  typ: Charm
+  trudnosc: 12
+  wymaga: ''
+  rok: 4
+  efekt: Wysadza dziurę w konstrukcji, przez którą przejdą dwie lub trzy osoby.
+  opis: 'Wybuch tworzy otwór w fizycznej konstrukcji na tyle duży, by przeszły przez niego dwie lub trzy osoby. Zadaje 6D + Focus + 30 obrażeń od wybuchu (zasady wybuchów: s. 42).'
+  cel: konstrukcja; zasięg nie określono
+  czas_trwania: natychmiastowe
+  w_walce: 6D + Focus + 30 obrażeń od wybuchu (s. 42).
+  przeciwzaklecie: ''
+  uwagi_kampanii: Bardzo głośne; uczniowie raczej nie powinni jej używać w zamku bez następstw.
+  strona: 48
+- nazwa: Bombarda Maxima
+  nazwa_pl: ''
+  typ: Charm
+  trudnosc: 15
+  wymaga: Znajomość zaklęcia Bombarda
+  efekt: Wysadza duży otwór, przez który przejdzie dziesięć lub dwadzieścia osób.
+  opis: 'Mocniejsza odmiana Bombardy: tworzy wielką dziurę w konstrukcji, przez którą przechodzi dziesięć do dwudziestu osób. Zadaje 9D + Focus + 60 obrażeń od wybuchu (s. 42).'
+  cel: duża konstrukcja; zasięg nie określono
+  czas_trwania: natychmiastowe
+  w_walce: 9D + Focus + 60 obrażeń od wybuchu (s. 42).
+  przeciwzaklecie: ''
+  uwagi_kampanii: Zaklęcie ponadprogramowe; nie dla uczniów w szybkiej ścieżce.
+  strona: 48
+- nazwa: Brackium Emendo
+  nazwa_pl: ''
+  typ: Charm
+  trudnosc: 18
+  wymaga: ''
+  efekt: Leczy złamane kości, ale przy błędzie może je uszkodzić lub usunąć.
+  opis: Magia lecznicza naprawiająca złamane kości. Źle użyta pogarsza uraz, a nawet usuwa kości.
+  cel: osoba ze złamaną kością
+  czas_trwania: natychmiastowe
+  w_walce: ''
+  przeciwzaklecie: ''
+  uwagi_kampanii: 'Healing Magic (s. 30). Skutki porażki: decyzja MG.'
+  strona: 48
+- nazwa: Broom Jinx
+  nazwa_pl: ''
+  typ: Jinx
+  trudnosc: 12
+  wymaga: ''
+  efekt: Miotła szarpie się i rzuca; jeździec musi walczyć, by nie spaść.
+  opis: Urok sprawia, że miotła wykonuje niebezpieczne szarpnięcia i zrywy. Jeździec musi aktywnie walczyć, żeby się utrzymać. Rzucający musi cały czas utrzymywać kontakt wzrokowy z miotłą.
+  cel: miotła z jeźdźcem
+  czas_trwania: dopóki rzucający utrzymuje kontakt wzrokowy
+  w_walce: 'Jeździec walczy o utrzymanie się na miotle; test utrzymania: brak w podręczniku, propozycja: Flying.'
+  przeciwzaklecie: przerwanie kontaktu wzrokowego
+  uwagi_kampanii: Pozaprogramowy; rzut z D.A.D.A. (Jinx).
+  strona: 48
+- nazwa: Bubble-head Charm
+  nazwa_pl: ''
+  typ: Charm
+  trudnosc: 12
+  wymaga: Gillyweed (Skrzelotrawa) połknięte przy rzucaniu, s. 69
+  rok: 6
+  efekt: Otacza głowę bańką powietrza.
+  opis: Wokół głowy rzucającego powstaje duża bańka powietrza, stałe źródło oddechu. Przy rzucaniu trzeba połknąć Gillyweed (s. 69).
+  cel: głowa rzucającego
+  czas_trwania: 'nie określono w podręczniku; propozycja: dopóki trwa skupienie rzucającego'
+  w_walce: ''
+  przeciwzaklecie: ''
+  uwagi_kampanii: Przydatne w scenach podwodnych (jezioro).
+  strona: 48
+- nazwa: Capacious Extremis
+  nazwa_pl: ''
+  typ: Charm
+  trudnosc: 18
+  wymaga: ''
+  efekt: Powiększa wnętrze pojemnika bez zmiany jego rozmiarów zewnętrznych.
+  opis: Zwiększa pojemność wnętrza skrzyni, torby lub innego pojemnika, a zewnętrzne wymiary pozostają bez zmian.
+  cel: pojemnik
+  czas_trwania: 'nie określono w podręczniku; propozycja: trwałe do zdjęcia czaru'
+  w_walce: ''
+  przeciwzaklecie: podręcznik nie podaje
+  uwagi_kampanii: Zaklęcie ponadprogramowe.
+  strona: 48
+- nazwa: Carpe Retractum
+  nazwa_pl: ''
+  typ: Charm
+  trudnosc: 12
+  wymaga: ''
+  rok: 3
+  efekt: Wytwarza świetlistą linę do przyciągania przedmiotów lub wspinaczki.
+  opis: Rzucający tworzy linę ze światła, którą przyciąga przedmiot do siebie albo wspina się po niej. Wysiłek przy ciągnięciu ciężarów i wspinaniu jest taki sam jak przy zwykłej linie.
+  cel: przedmiot lub powierzchnia, do której lina się przyczepia
+  czas_trwania: 'nie określono w podręczniku; propozycja: do końca sceny lub gdy rzucający puści'
+  w_walce: ''
+  przeciwzaklecie: ''
+  uwagi_kampanii: ''
+  strona: 48
+- nazwa: Caterwauling Charm
+  nazwa_pl: ''
+  typ: Charm
+  trudnosc: 12
+  wymaga: ''
+  efekt: Wydaje przeraźliwy pisk przy wejściu na chroniony obszar.
+  opis: 'Czar alarmowy: gdy ktoś wejdzie na chroniony obszar, rozlega się wysoki, przenikliwy wrzask.'
+  cel: obszar
+  czas_trwania: 'nie określono w podręczniku; propozycja: do odwołania lub zdjęcia zaklęcia'
+  w_walce: ''
+  przeciwzaklecie: podręcznik nie podaje
+  uwagi_kampanii: ''
+  strona: 48
+- nazwa: Cave Inimicum
+  nazwa_pl: ''
+  typ: Charm
+  trudnosc: 15
+  wymaga: ''
+  rok: 6
+  efekt: Tworzy niewidzialną barierę, za którą rzucający jest niewidoczny i niesłyszalny.
+  opis: Niewidzialna bariera ukrywa rzucającego; osoby za nią nie widać ani nie słychać. Magiczne stworzenia z bardzo dobrym węchem mogą jednak wyczuć ukrytych. Efekt można odkryć zaklęciem Homenum Revelio.
+  cel: obszar za barierą
+  czas_trwania: 'nie określono w podręczniku; propozycja: do końca sceny lub zdjęcia zaklęcia'
+  w_walce: ''
+  przeciwzaklecie: Homenum Revelio
+  uwagi_kampanii: Uczone w 6. roku.
+  strona: 49
+- nazwa: Cheering Charm
+  nazwa_pl: ''
+  typ: Charm
+  trudnosc: 9
+  wymaga: ''
+  rok: 3
+  efekt: Poprawia cel nastrój.
+  opis: Cel czuje się szczęśliwy. Nadużywanie zaklęcia może doprowadzić do histerii.
+  cel: osoba
+  czas_trwania: nie określono w podręczniku
+  w_walce: ''
+  przeciwzaklecie: ''
+  uwagi_kampanii: Mind Affecting Magic (s. 30).
+  strona: 49
+- nazwa: Cistem Aperio
+  nazwa_pl: ''
+  typ: Charm
+  trudnosc: 9
+  wymaga: ''
+  rok: 4
+  efekt: Otwiera niezamknięte drzwi, okna, skrzynie i pojemniki.
+  opis: Otwiera zamknięte jedynie na zasuwę lub klapkę drzwi, okna, kufry i pudła. Przedmioty zamknięte na klucz trzeba otwierać Alohomorą.
+  cel: niezamknięty na klucz pojemnik lub otwór
+  czas_trwania: natychmiastowe
+  w_walce: ''
+  przeciwzaklecie: ''
+  uwagi_kampanii: ''
+  strona: 49
+- nazwa: Colloportus
+  nazwa_pl: ''
+  typ: Charm
+  trudnosc: 12
+  wymaga: ''
+  rok: 4
+  efekt: Magicznie zamyka drzwi i inne zamykane przedmioty.
+  opis: Zaklęcie Zamykające uszczelnia magicznie drzwi i każdy inny przedmiot, który da się zamknąć. Przeciwzaklęciem jest Alohomora.
+  cel: drzwi lub zamykany przedmiot
+  czas_trwania: 'nie określono w podręczniku; propozycja: do otwarcia przeciwzaklęciem'
+  w_walce: ''
+  przeciwzaklecie: Alohomora
+  uwagi_kampanii: Zwykły sposób na zablokowanie pościgu.
+  strona: 49
+- nazwa: Colovaria
+  nazwa_pl: ''
+  typ: Charm
+  trudnosc: 12
+  wymaga: ''
+  efekt: Zmienia kolor tego, na co zostanie rzucone.
+  opis: Zaklęcie zmienia barwę dowolnej rzeczy, na którą je rzucono.
+  cel: przedmiot lub istota
+  czas_trwania: nie określono w podręczniku
+  w_walce: ''
+  przeciwzaklecie: ''
+  uwagi_kampanii: ''
+  strona: 49
+- nazwa: Confringo
+  nazwa_pl: ''
+  typ: Curse
+  trudnosc: 15
+  wymaga: ''
+  rok: 7
+  efekt: Niszczy przedmioty wybuchem żaru; zadaje 6D + Focus + 30 obrażeń.
+  opis: Klątwa Wybuchowa niszczy nieożywione przedmioty podmuchem gorąca. Zadaje 6D + Focus + 30 obrażeń od wybuchu (s. 42). Można ją użyć w pojedynku, ale zbyt silny wybuch bywa śmiertelny.
+  cel: przedmiot lub przeciwnik; zasięg nie określono
+  czas_trwania: natychmiastowe
+  w_walce: 6D + Focus + 30 obrażeń od wybuchu (s. 42); może zabić.
+  przeciwzaklecie: unik; osłona
+  uwagi_kampanii: Klątwa programowa (D.A.D.A. wg ZD-17). Nie do formalnych pojedynków uczniów.
+  strona: 49
+- nazwa: Confundo
+  nazwa_pl: ''
+  typ: Charm
+  trudnosc: 15
+  wymaga: ''
+  rok: 4
+  efekt: Wprowadza cel w stan dezorientacji na rundę, potem cel może się wyrwać (Wits).
+  opis: Ofiara natychmiast popada w stan Confused (zdezorientowany) na jedną rundę. W każdej następnej rundzie może rzucić 1D + Wits przeciw trudności 12, by strząsnąć efekt. Silne Confundo pozostawia cel podatnym na sugestie.
+  cel: osoba
+  czas_trwania: 1 runda, potem rzut Wits (1D + Wits vs 12) co rundę
+  w_walce: Cel Confused przez rundę; rzut 1D + Wits vs 12 w kolejnych rundach.
+  przeciwzaklecie: ''
+  uwagi_kampanii: 'Mind Affecting Magic (s. 30). Skutek stanu Confused: brak w podręczniku w streszczeniu, propozycja: kara do działań ustala MG.'
+  strona: 49
+- nazwa: Conjunctivitis Curse
+  nazwa_pl: ''
+  typ: Curse
+  trudnosc: 15
+  wymaga: ''
+  efekt: 'Opuchnięte oczy: −10 do wszystkich rzutów ataku i obrony ofiary.'
+  opis: Klątwa podrażnia oczy przeciwnika, aż puchną i zamykają się, ograniczając widzenie. Ofiara ma karę 10 punktów do wszystkich rzutów ataku i obrony. Dobra przeciw smokom i innym stworom z odpornym na magię pancerzem.
+  cel: przeciwnik lub stwór
+  czas_trwania: nie określono w podręczniku
+  w_walce: −10 do rzutów ataku i obrony ofiary.
+  przeciwzaklecie: ''
+  uwagi_kampanii: Pozaprogramowa; wymaga Dark Arts (ZD-17).
+  strona: 49
+- nazwa: Crinis Muto
+  nazwa_pl: ''
+  typ: Transfiguration
+  trudnosc: 12
+  wymaga: ''
+  efekt: Zmienia kolor i fryzurę włosów.
+  opis: Zaklęcie służy do przefarbowania i przestylizowania włosów. Błędne rzucenie bywa kłopotliwe.
+  cel: włosy rzucającego lub innej osoby
+  czas_trwania: nie określono w podręczniku
+  w_walce: ''
+  przeciwzaklecie: ''
+  uwagi_kampanii: ''
+  strona: 49
+- nazwa: Crucio
+  nazwa_pl: ''
+  typ: Curse
+  trudnosc: 18
+  wymaga: ''
+  efekt: Zadaje straszliwy ból bez fizycznych obrażeń.
+  opis: Zaklęcie Niewybaczalne, Klątwa Cruciatus. Zadaje cierpienie jak białe noże wbijane w każdy skrawek skóry, ale nie powoduje faktycznych obrażeń ciała. Długotrwałe użycie może zostawić trwałe szkody psychiczne, a nawet doprowadzić ofiarę do obłędu; skutki ustala Narrator.
+  cel: osoba
+  czas_trwania: dopóki rzucający trzyma zaklęcie; skutki psychiczne wg Narratora
+  w_walce: 'Ból bez obrażeń fizycznych; długie użycie: szkody psychiczne (decyzja Narratora).'
+  przeciwzaklecie: podręcznik nie podaje
+  uwagi_kampanii: 'Zaklęcie Niewybaczalne. Wymaga Dark Arts (ZD-17). Temat wrażliwy: ustal linie i zasłony z graczami.'
+  strona: 49
+- nazwa: Defodio
+  nazwa_pl: ''
+  typ: Charm
+  trudnosc: 15
+  wymaga: ''
+  efekt: Żłobi tunele i rowy w dowolnym materiale, który da się kopać lub rzeźbić.
+  opis: Zaklęcie Żłobiące drąży kanały w każdym materiale, który można wykopać albo wyrzeźbić. Pozwala tworzyć tunele i przejścia, a przy delikatnym użyciu rzeźbić napisy i zdobienia.
+  cel: materiał (ziemia, kamień, drewno)
+  czas_trwania: trwałe (wykopany materiał)
+  w_walce: ''
+  przeciwzaklecie: ''
+  uwagi_kampanii: ''
+  strona: 49
+- nazwa: Deletrius
+  nazwa_pl: ''
+  typ: Charm
+  trudnosc: 12
+  wymaga: ''
+  rok: 5
+  efekt: Rozwiewa niematerialne efekty zaklęć, np. echo Prior Incantato.
+  opis: 'Zaklęcie Eradykacji rozprasza niematerialne skutki niektórych zaklęć, jak Homonculus Charm czy Revealing Charm. Działa jako przeciwzaklęcie do Prior Incantato: gdy tamto pokazuje echo ostatniego zaklęcia z różdżki, Deletrius zaciera to echo.'
+  cel: niematerialny efekt zaklęcia
+  czas_trwania: natychmiastowe
+  w_walce: ''
+  przeciwzaklecie: jest przeciwzaklęciem dla Prior Incantato
+  uwagi_kampanii: Zaciera ślady w typowym śledztwie; nie wykrywa ani nie zaciera magii czasu (ZD-24).
+  strona: 49
 - nazwa: Demitto Ignem
   nazwa_pl: ''
   typ: Charm
@@ -16,6 +543,183 @@ zaklecia:
   uwagi_kampanii: Indeks kampanii podaje przy trudności 9 i s. 51 nazwę „Demitto Ignem” (rok 2); to najpewniej inna nazwa tego samego zaklęcia, ale tekst podręcznika jej tu nie zawiera.
   strona: 51
   rok: 2
+- nazwa: Densaugeo
+  nazwa_pl: ''
+  typ: Hex
+  trudnosc: 12
+  wymaga: ''
+  rok: 4
+  efekt: Powoduje szybki wzrost zębów celu.
+  opis: Zęby ofiary rosną gwałtownie, nawet do potwornych rozmiarów. Delikatnie użyte zaklęcie może też naprawić połamane zęby.
+  cel: osoba
+  czas_trwania: nie określono w podręczniku
+  w_walce: ''
+  przeciwzaklecie: ''
+  uwagi_kampanii: ''
+  strona: 50
+- nazwa: Deprimo
+  nazwa_pl: ''
+  typ: Charm
+  trudnosc: 15
+  wymaga: Defodio Charm
+  efekt: Wybija wielkie dziury w ziemi (6D + Focus + 40).
+  opis: Mocniejsza forma Defodio. Zadaje ziemi 6D + Focus + 40 obrażeń od wybuchu (s. 42).
+  cel: ziemia
+  czas_trwania: natychmiastowe
+  w_walce: 6D + Focus + 40 obrażeń gruntowi (s. 42).
+  przeciwzaklecie: ''
+  uwagi_kampanii: ''
+  strona: 50
+- nazwa: Depulso
+  nazwa_pl: ''
+  typ: Charm
+  trudnosc: 12
+  wymaga: ''
+  rok: 3
+  efekt: Odpycha przedmiot lub istotę od rzucającego bez obrażeń.
+  opis: 'Zaklęcie Odpychające odrzuca przedmiot albo istotę od rzucającego, nikogo nie raniąc. Jest przeciwzaklęciem do Accio: odpycha przywołany przedmiot.'
+  cel: przedmiot lub istota
+  czas_trwania: natychmiastowe
+  w_walce: Odrzuca bez obrażeń.
+  przeciwzaklecie: jest przeciwzaklęciem dla Accio
+  uwagi_kampanii: ''
+  strona: 50
+- nazwa: Descendo
+  nazwa_pl: ''
+  typ: Charm
+  trudnosc: 12
+  wymaga: ''
+  rok: 3
+  efekt: Sprowadza przedmiot w dół, np. by upuścić go komuś na głowę.
+  opis: Powoduje, że przedmiot spada lub porusza się w dół. Można nim łagodnie opuścić rzecz albo szybko przewrócić przedmioty na kogoś poniżej, jako atak lub przeszkodę. Neutralizuje Alarte Ascendare.
+  cel: przedmiot
+  czas_trwania: natychmiastowe
+  w_walce: 'Spadający przedmiot jako atak lub przeszkoda; obrażenia: brak w podręczniku.'
+  przeciwzaklecie: jest przeciwzaklęciem dla Alarte Ascendare
+  uwagi_kampanii: ''
+  strona: 50
+- nazwa: Diffindo
+  nazwa_pl: ''
+  typ: Charm
+  trudnosc: 9
+  wymaga: ''
+  rok: 1
+  efekt: Precyzyjnie tnie lub rozrywa przedmioty.
+  opis: Zaklęcie Rozcinające służy do dokładnego cięcia albo rozdzierania przedmiotów.
+  cel: przedmiot
+  czas_trwania: natychmiastowe
+  w_walce: ''
+  przeciwzaklecie: ''
+  uwagi_kampanii: ''
+  strona: 50
+- nazwa: Diminuendo
+  nazwa_pl: ''
+  typ: Charm
+  trudnosc: 15
+  wymaga: ''
+  efekt: Zmniejsza przedmioty.
+  opis: Zmniejsza przedmioty. Nie mylić z Reducio, które przywraca powiększone przedmioty do pierwotnego rozmiaru.
+  cel: przedmiot
+  czas_trwania: 'nie określono w podręczniku; propozycja: do zdjęcia czaru'
+  w_walce: ''
+  przeciwzaklecie: Reducio działa na powiększone, nie na zmniejszone
+  uwagi_kampanii: ''
+  strona: 50
+- nazwa: Disillusionment Charm
+  nazwa_pl: ''
+  typ: Charm
+  trudnosc: 15
+  wymaga: ''
+  rok: 5
+  efekt: Maskuje rzucającego lub cel, dopasowując do tła, tak że staje się prawie niewidzialny.
+  opis: Zaklęcie Kameleona upodabnia rzucającego albo cel do tła, co daje niemal niewidzialność. Hipogryfy i skrzydlate konie mogą należeć do czarodzieja tylko wtedy, gdy właściciel rzuca ten czar codziennie.
+  cel: rzucający lub cel
+  czas_trwania: 'nie określono w podręczniku; propozycja: do końca sceny lub zdjęcia czaru'
+  w_walce: ''
+  przeciwzaklecie: ''
+  uwagi_kampanii: Odmiana ukrywania; wykrywa je Homenum Revelio lub Revelio.
+  strona: 50
+- nazwa: Draconifors
+  nazwa_pl: ''
+  typ: Transfiguration
+  trudnosc: 12
+  wymaga: ''
+  efekt: Zmienia małe przedmioty lub ich części w niegroźne smoczątka.
+  opis: Przemienia małe przedmioty lub fragmenty przedmiotów w nieszkodliwe niemowlęce smoki.
+  cel: mały przedmiot lub jego część
+  czas_trwania: nie określono w podręczniku
+  w_walce: ''
+  przeciwzaklecie: ''
+  uwagi_kampanii: ''
+  strona: 50
+- nazwa: Drought Charm
+  nazwa_pl: ''
+  typ: Charm
+  trudnosc: 12
+  wymaga: ''
+  efekt: Osusza małe zbiorniki wody, jak kałuże i stawy.
+  opis: Wysusza małe zbiorniki wody, takie jak kałuże i stawy.
+  cel: mały zbiornik wody
+  czas_trwania: natychmiastowe
+  w_walce: ''
+  przeciwzaklecie: ''
+  uwagi_kampanii: ''
+  strona: 50
+- nazwa: Duro
+  nazwa_pl: ''
+  typ: Charm
+  trudnosc: 12
+  wymaga: ''
+  rok: 3
+  efekt: Zamienia przedmiot w kamień (wytrzymałość 50).
+  opis: Zaklęcie Utwardzające zamienia przedmiot w kamień o wytrzymałości 50. Jest za mało delikatne, by celować nim w przeciwnika w walce, ale można je rzucić na otoczenie, by wzmocnić osłonę lub stworzyć przeszkody.
+  cel: przedmiot lub element otoczenia
+  czas_trwania: 'nie określono w podręczniku; propozycja: do zdjęcia czaru'
+  w_walce: Nie można nim celować w przeciwnika; wzmacnia osłony i tworzy przeszkody (kamień, wytrzymałość 50).
+  przeciwzaklecie: ''
+  uwagi_kampanii: ''
+  strona: 50
+- nazwa: Engorgio
+  nazwa_pl: ''
+  typ: Charm
+  trudnosc: 12
+  wymaga: ''
+  rok: 2
+  efekt: Powiększa cel; cel raczej puchnie, niż rośnie.
+  opis: Zaklęcie Powiększające powoduje, że cel pęcznieje, a nie rośnie normalnie.
+  cel: przedmiot lub istota
+  czas_trwania: 'nie określono w podręczniku; propozycja: do zdjęcia czaru lub Reducio'
+  w_walce: ''
+  przeciwzaklecie: Reducio
+  uwagi_kampanii: ''
+  strona: 50
+- nazwa: Episkey
+  nazwa_pl: ''
+  typ: Charm
+  trudnosc: 12
+  wymaga: ''
+  rok: 4
+  efekt: 'Leczy drobne urazy: złamany nos, palce, rozcięte wargi.'
+  opis: Leczy względnie niewielkie obrażenia, jak złamany nos, palce u rąk i nóg albo rozcięta warga. Zaklęcie wywołuje nagłe zmiany temperatury w leczonych częściach ciała.
+  cel: osoba z drobnym urazem
+  czas_trwania: natychmiastowe
+  w_walce: ''
+  przeciwzaklecie: ''
+  uwagi_kampanii: 'Healing Magic (s. 30). ZD-22: zdejmuje 1 kółko ciała, gdy ofiara ma najwyżej 2 (Bruised).'
+  strona: 50
+- nazwa: Erecto
+  nazwa_pl: ''
+  typ: Charm
+  trudnosc: 12
+  wymaga: ''
+  efekt: Prostuje i rozstawia namiot lub podobną konstrukcję.
+  opis: Zaklęcie prostuje i stawia namiot albo podobną konstrukcję.
+  cel: namiot lub podobna konstrukcja
+  czas_trwania: natychmiastowe
+  w_walce: ''
+  przeciwzaklecie: ''
+  uwagi_kampanii: ''
+  strona: 50
 - nazwa: Evanesco
   nazwa_pl: ''
   typ: Transfiguration
